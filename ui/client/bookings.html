@@ -20,6 +20,7 @@
         <li><a href="contracts.html">Договоры</a></li>
         <li><a href="sessions-history.html">История сессий</a></li>
         <li><a href="vehicles.html">Список ТС</a></li>
+        <li><a href="payment-settings.html">Настройки оплаты</a></li>
         <li><a href="profile.html">Профиль</a></li>
         <li><a href="../site/index.html">На сайт</a></li>
         <li><a href="../site/login.html">Выход</a></li>
@@ -34,7 +35,21 @@
         <form class="wf-form" action="booking-payment.html" method="get">
           <div class="wf-field">
             <label for="book-ts">ТС (ГРЗ)</label>
-            <input id="book-ts" type="text" placeholder="ГРЗ (гос. номер)">
+            <select id="book-ts">
+              <option value="">— выбрать ТС из добавленных —</option>
+              <option value="A123BV777">А123БВ777 — Легковой</option>
+              <option value="B456GD199">В456ГД199 — Мотоцикл</option>
+            </select>
+            <p class="wf-muted">Список из раздела <a href="vehicles.html">Список ТС</a>. Добавьте ТС, если нужного нет.</p>
+          </div>
+          <div class="wf-field">
+            <label for="book-tariff">Тариф</label>
+            <select id="book-tariff">
+              <option value="">— выбрать тариф —</option>
+              <option value="hourly">Почасовой (краткосрочная)</option>
+              <option value="daily">Посуточный (краткосрочная)</option>
+              <option value="long">Долгосрочная (свыше 24 ч, требуется договор)</option>
+            </select>
           </div>
           <div class="wf-field">
             <label for="book-date">Дата и время начала</label>
@@ -42,20 +57,65 @@
           </div>
           <div class="wf-field">
             <label for="book-duration">Длительность</label>
-            <input id="book-duration" type="text" placeholder="Часы / сутки">
-          </div>
-          <div class="wf-field">
-            <label for="book-zone">Зона / сектор / номер ПМ</label>
-            <input id="book-zone" type="text" placeholder="Сектор, ПМ">
-          </div>
-          <!-- WF-02: Тариф и Итого к оплате (П. 4, 3 — точность) -->
-          <div class="wf-field">
-            <label for="book-tariff">Тариф</label>
-            <select id="book-tariff">
-              <option value="">— выбрать тариф —</option>
-              <option value="hourly">Почасовой (сектор A)</option>
-              <option value="daily">Посуточный (сектор B)</option>
+            <select id="book-duration">
+              <option value="">— выбрать —</option>
+              <option value="short">До 24 часов (краткосрочная)</option>
+              <option value="long">Свыше 24 часов (долгосрочная)</option>
             </select>
+          </div>
+          <!-- Блок «До 24 ч»: секторы для краткосрочной + часы -->
+          <div class="wf-field wf-duration-dependent" id="book-short-wrap" hidden>
+            <div class="wf-field">
+              <label for="book-sector-short">Сектор (краткосрочная парковка)</label>
+              <select id="book-sector-short">
+                <option value="">— выбрать сектор —</option>
+                <option value="short">Краткосрочная парковка</option>
+                <option value="ovz">Места для лиц с ОВЗ</option>
+              </select>
+            </div>
+            <div class="wf-field">
+              <label for="book-hours">Время парковки, часы (до 24)</label>
+              <input id="book-hours" type="number" min="1" max="24" step="1" placeholder="1–24" aria-label="Количество часов">
+            </div>
+          </div>
+          <!-- Блок «Свыше 24 ч»: договор, затем количество дней/месяцев, сектор, ПМ -->
+          <div class="wf-field wf-duration-dependent" id="book-long-wrap" hidden>
+            <p class="wf-notice" role="status"><strong>Длительная парковка (свыше 24 часов)</strong> возможна только при заключённом договоре. Оформите <a href="contracts.html">договор</a>, если его ещё нет.</p>
+            <div class="wf-field">
+              <label for="book-period">Количество дней / месяцев</label>
+              <select id="book-period">
+                <option value="">— выбрать —</option>
+                <optgroup label="Дни">
+                  <option value="2d">2 дня</option>
+                  <option value="3d">3 дня</option>
+                  <option value="7d">7 дней</option>
+                  <option value="14d">14 дней</option>
+                </optgroup>
+                <optgroup label="Месяцы">
+                  <option value="1m">1 месяц</option>
+                  <option value="3m">3 месяца</option>
+                  <option value="6m">6 месяцев</option>
+                  <option value="12m">12 месяцев</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="wf-field">
+              <label for="book-sector-long">Сектор (долгосрочная парковка)</label>
+              <select id="book-sector-long">
+                <option value="">— выбрать сектор —</option>
+                <option value="long">Долгосрочная парковка ФЛ+ЮЛ</option>
+                <option value="ovz">Места для лиц с ОВЗ</option>
+              </select>
+            </div>
+            <div class="wf-field">
+              <label for="book-pm">Парковочное место (ПМ)</label>
+              <select id="book-pm">
+                <option value="">— выбрать ПМ —</option>
+                <option value="1">ПМ 1</option>
+                <option value="2">ПМ 2</option>
+                <option value="3">ПМ 3</option>
+              </select>
+            </div>
           </div>
           <div class="wf-card">
             <strong>Итого к оплате:</strong> <span class="wf-muted">[сумма по выбранному тарифу и длительности]</span>
@@ -80,5 +140,20 @@
       </section>
     </main>
   </div>
+  <script>
+    (function () {
+      var duration = document.getElementById('book-duration');
+      var shortWrap = document.getElementById('book-short-wrap');
+      var longWrap = document.getElementById('book-long-wrap');
+      if (!duration || !shortWrap || !longWrap) return;
+      function updateVisibility() {
+        var v = duration.value;
+        shortWrap.hidden = v !== 'short';
+        longWrap.hidden = v !== 'long';
+      }
+      duration.addEventListener('change', updateVisibility);
+      updateVisibility();
+    })();
+  </script>
 </body>
 </html>

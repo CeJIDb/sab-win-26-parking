@@ -17,14 +17,12 @@
     <nav class="wf-nav" aria-label="Основная навигация">
       <ul>
         <li><a href="index.html">Главная</a></li>
-        <li><a href="contacts.html">Контакты, адрес, въезды</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
         <li><a href="tariffs.html">Тарифы и условия</a></li>
         <li><a href="parking-map.html">Свободные места</a></li>
         <li><a href="rules.html">Правила парковки</a></li>
         <li><a href="register.html">Регистрация</a></li>
         <li><a href="login.html">Вход</a></li>
-        <li><a href="../admin/login.html">Вход для администратора</a></li>
-        <li><a href="../guard/login.html">Вход охранника КПП</a></li>
       </ul>
     </nav>
     <main id="main-content" class="wf-main">
@@ -32,16 +30,32 @@
       <h2>Добро пожаловать</h2>
       <p>Публичный портал. Отсюда доступны: контакты, тарифы и условия, карта свободных мест по секторам, правила парковки, регистрация и авторизация клиента (логин+пароль, SSO).</p>
       <section class="wf-section">
-        <h3>Быстрые ссылки</h3>
-        <ul class="wf-list">
-          <li><a href="parking-map.html">Карта свободных мест по секторам</a></li>
-          <li><a href="tariffs.html">Тарифы и условия</a></li>
-          <li><a href="rules.html">Правила парковки</a></li>
-          <li><a href="register.html">Зарегистрироваться</a></li>
-          <li><a href="login.html">Войти в личный кабинет</a></li>
-        </ul>
+        <h3>Свободные места</h3>
+        <p class="wf-muted">По типам зон (схема AS-IS). Данные обновляются.</p>
+        <div class="wf-table-wrap">
+          <table class="wf-table">
+            <thead>
+              <tr>
+                <th>Тип зоны</th>
+                <th>Свободно</th>
+                <th>Всего мест</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Места для лиц с ОВЗ</td><td>[—]</td><td>50</td></tr>
+              <tr><td>Краткосрочная парковка</td><td>[—]</td><td>160</td></tr>
+              <tr><td>Долгосрочная парковка ФЛ+ЮЛ</td><td>[—]</td><td>340</td></tr>
+              <tr><td>Муниципальная техника + мотоциклы + резерв</td><td>[—]</td><td>50</td></tr>
+              <tr><td><strong>Итого</strong></td><td><strong>[—]</strong></td><td><strong>600</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><a href="parking-map.html" class="wf-btn">Карта свободных мест по секторам</a></p>
       </section>
     </main>
+    <footer class="wf-footer">
+      <p class="wf-footer__service"><a href="../admin/login.html">Вход для администратора</a> · <a href="../guard/login.html">Вход охранника КПП</a></p>
+    </footer>
   </div>
 </body>
 </html>

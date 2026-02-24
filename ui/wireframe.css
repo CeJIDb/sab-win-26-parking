@@ -108,6 +108,32 @@ form,
   margin-bottom: var(--wf-gap);
 }
 
+.wf-field--inline-control {
+  margin-bottom: var(--wf-gap);
+}
+.wf-field--inline-control .wf-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.wf-field--inline-control .wf-inline input[type="tel"],
+.wf-field--inline-control .wf-inline input[type="email"],
+.wf-field--inline-control .wf-inline input[type="date"],
+.wf-field--inline-control .wf-inline select {
+  flex: 1 1 auto;
+}
+.wf-field--inline-control .wf-inline .wf-btn-link {
+  padding: 0.35em 0.75em;
+  border: var(--wf-border);
+  background: var(--wf-block);
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.wf-field--inline-control .wf-inline .wf-btn-link:hover {
+  background: #ccc;
+}
+
 .wf-field label {
   display: block;
   margin-bottom: 0.25em;
@@ -122,6 +148,28 @@ form,
   border: var(--wf-border);
   font-size: 1rem;
 }
+
+/* Чекбокс слева, текст справа */
+.wf-field--checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  cursor: pointer;
+  font-weight: normal;
+}
+.wf-field--checkbox input[type="checkbox"] {
+  width: auto;
+  flex-shrink: 0;
+  margin-top: 0.2em;
+}
+
+.wf-notice {
+  margin: 0 0 0.5em 0;
+  font-size: 0.9em;
+  color: var(--wf-muted);
+}
+.wf-notice strong { color: var(--wf-text); }
+.wf-notice a { text-decoration: underline; }
 
 .wf-actions {
   margin-top: 1rem;
@@ -151,6 +199,38 @@ a.wf-btn {
   color: inherit;
 }
 
+/* Modal (generic) */
+.wf-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+.wf-modal:target {
+  display: flex;
+}
+.wf-modal__dialog {
+  background: #fff;
+  border: var(--wf-border);
+  max-width: 32rem;
+  width: 100%;
+  padding: var(--wf-pad);
+}
+.wf-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.wf-modal__close {
+  font-size: 0.9rem;
+}
+
 /* Lists */
 .wf-list {
   list-style: none;
@@ -167,6 +247,17 @@ a.wf-btn {
 
 .wf-list li:last-child {
   border-bottom: none;
+}
+
+.wf-list--compact li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.25em var(--wf-pad);
+}
+.wf-list--compact button {
+  margin: 0;
 }
 
 /* Dashboard blocks */
@@ -220,6 +311,23 @@ a.wf-btn {
 .wf-context a {
   color: var(--wf-text);
   text-decoration: underline;
+}
+
+/* Footer — служебные ссылки (не акцентировать) */
+.wf-footer {
+  margin-top: var(--wf-gap);
+  padding: var(--wf-pad) 0;
+  border-top: 1px solid #ddd;
+  font-size: 0.8rem;
+  color: var(--wf-muted);
+}
+.wf-footer__service a {
+  color: var(--wf-muted);
+  text-decoration: none;
+}
+.wf-footer__service a:hover {
+  text-decoration: underline;
+  color: var(--wf-text);
 }
 
 /* WF-05: Skip link — скрыт по умолчанию, виден при фокусе */

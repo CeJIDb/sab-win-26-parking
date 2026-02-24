@@ -35,6 +35,14 @@
           <input id="reg-phone" type="tel" placeholder="+7 …" required>
         </div>
         <div class="wf-field">
+          <label for="reg-phone-code">Код подтверждения телефона</label>
+          <input id="reg-phone-code" type="text" placeholder="Введите код из СМС" inputmode="numeric" maxlength="6">
+          <div class="wf-actions" style="margin-top: 0.5rem;">
+            <button type="button">Отправить код подтверждения</button>
+            <button type="button">Подтвердить</button>
+          </div>
+        </div>
+        <div class="wf-field">
           <label for="reg-name">ФИО</label>
           <input id="reg-name" type="text" placeholder="Фамилия Имя Отчество">
         </div>
@@ -44,10 +52,20 @@
         </div>
         <div class="wf-field">
           <label for="reg-password">Пароль</label>
-          <input id="reg-password" type="password" placeholder="Задайте пароль">
+          <input id="reg-password" type="password" placeholder="Задайте пароль" required>
         </div>
         <div class="wf-field">
-          <label><input type="checkbox" required> Ознакомлен с условиями сервиса и обработкой персональных данных</label>
+          <label for="reg-password-confirm">Подтверждение пароля</label>
+          <input id="reg-password-confirm" type="password" placeholder="Повторите пароль" required>
+        </div>
+        <div class="wf-field wf-field--checkbox">
+          <label for="reg-oferta"><input id="reg-oferta" type="checkbox" required> Согласен с <a href="rules.html">правилами парковки</a> (оферта)</label>
+        </div>
+        <div class="wf-field wf-field--checkbox">
+          <label for="reg-pdn"><input id="reg-pdn" type="checkbox" required> Даю согласие на обработку персональных данных</label>
+        </div>
+        <div class="wf-field wf-field--checkbox">
+          <label for="reg-marketing"><input id="reg-marketing" type="checkbox"> Согласен получать маркетинговые рассылки</label>
         </div>
         <div class="wf-actions">
           <button type="submit">Зарегистрироваться</button>
