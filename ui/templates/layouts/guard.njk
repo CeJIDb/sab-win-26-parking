@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Интерфейс КПП — Охранник{% endblock %}</title>
+  <link rel="stylesheet" href="../wireframe.css">
+</head>
+<body>
+  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
+  <div class="wf-page">
+    <header class="wf-header" role="banner">
+      <h1>Интерфейс КПП</h1>
+      <p class="wf-muted">{% block header_subtitle %}{% endblock %}</p>
+    </header>
+    {% include "partials/nav-guard.njk" %}
+    <main id="main-content" class="wf-main">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>
+

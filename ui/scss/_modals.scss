@@ -24,6 +24,22 @@
   padding: var(--wf-pad);
 }
 
+.wf-modal__dialog--form,
+.wf-modal__dialog--wide {
+  padding: 0;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wf-modal__dialog--form {
+  max-width: 36rem;
+}
+
+.wf-modal__dialog--wide {
+  max-width: 42rem;
+}
+
 .wf-modal__header {
   display: flex;
   align-items: center;
@@ -32,7 +48,246 @@
   margin-bottom: 0.5rem;
 }
 
+.wf-modal__dialog--form > .wf-modal__header,
+.wf-modal__dialog--wide > .wf-modal__header {
+  padding: var(--wf-pad);
+  border-bottom: var(--wf-border);
+  margin-bottom: 0;
+  flex-shrink: 0;
+  align-items: flex-start;
+}
+
+.wf-modal__title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.wf-modal__title {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
 .wf-modal__close {
   font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.wf-modal__body {
+  padding: var(--wf-pad);
+  overflow-y: auto;
+  flex: 1 1 auto;
+}
+
+.wf-modal__footer {
+  padding: var(--wf-pad);
+  border-top: var(--wf-border);
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.wf-modal__notice {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+/* Primary button (wireframe: выделение только контрастом) */
+.wf-btn--primary {
+  background: var(--wf-block);
+  font-weight: 600;
+}
+
+/* Required field marker */
+.wf-required {
+  font-weight: 600;
+}
+
+.wf-hint {
+  display: block;
+  font-size: 0.85em;
+  color: var(--wf-muted);
+  margin-top: 0.2em;
+}
+
+/* Fieldset for context choice */
+.wf-fieldset {
+  border: var(--wf-border);
+  padding: var(--wf-pad);
+  margin: 0 0 var(--wf-gap) 0;
+}
+
+.wf-legend {
+  font-weight: 600;
+  padding: 0 0.25em;
+}
+
+.wf-field--radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.wf-radio {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.wf-radio input {
+  width: auto;
+}
+
+.wf-file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.25em 0 0 0;
+  font-size: 0.9em;
+}
+
+/* Badge (status) — wireframe: только граница и фон из токенов */
+.wf-badge {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 0.8em;
+  font-weight: 500;
+  border: var(--wf-border);
+  background: var(--wf-bg);
+  white-space: nowrap;
+}
+
+.wf-badge--new,
+.wf-badge--in-progress,
+.wf-badge--closed {
+  background: var(--wf-bg);
+  border: var(--wf-border);
+  color: var(--wf-text);
+}
+
+/* Appeal details: summary */
+.wf-summary {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 1.5em;
+  margin: 0 0 var(--wf-gap) 0;
+  font-size: 0.95em;
+}
+
+.wf-summary dt {
+  color: var(--wf-muted);
+}
+
+.wf-summary dd {
+  margin: 0;
+}
+
+/* Appeal context block */
+.wf-appeal-context {
+  margin-bottom: var(--wf-gap);
+  padding: 0.75rem;
+  border: var(--wf-border);
+  background: var(--wf-bg);
+}
+
+.wf-appeal-context__title,
+.wf-appeal-original__title,
+.wf-appeal-reply__title {
+  margin: 0 0 0.35em 0;
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+.wf-appeal-original,
+.wf-appeal-original__title,
+.wf-appeal-original__text {
+  text-align: left;
+}
+
+.wf-appeal-original__text {
+  margin: 0 0 0.5em 0;
+  padding: 0.5em 0;
+  white-space: pre-wrap;
+}
+
+/* Timeline (messages) */
+.wf-appeal-timeline {
+  margin: var(--wf-gap) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wf-timeline-item {
+  margin-bottom: var(--wf-gap);
+  padding: 0.75rem;
+  border: var(--wf-border);
+}
+
+.wf-timeline-item--client {
+  background: #fff;
+}
+
+.wf-timeline-item--support {
+  background: var(--wf-bg);
+}
+
+.wf-timeline-item__meta {
+  margin-bottom: 0.35em;
+  font-size: 0.9em;
+  color: var(--wf-muted);
+}
+
+.wf-timeline-item__author {
+  font-weight: 500;
+  color: var(--wf-text);
+}
+
+.wf-timeline-item__time {
+  margin-left: 0.5em;
+}
+
+.wf-timeline-item__body {
+  font-size: 0.95em;
+}
+
+.wf-timeline-item__body a {
+  text-decoration: underline;
+}
+
+/* Reply form */
+.wf-appeal-reply {
+  margin-top: var(--wf-gap);
+  padding-top: var(--wf-gap);
+  border-top: var(--wf-border);
+}
+
+.wf-appeal-reply-form .wf-actions {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Appeals list on page */
+.wf-appeals-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+
+.wf-appeals-list__main {
+  flex: 1 1 12rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Center actions inside any modal */
+.wf-modal .wf-actions {
+  text-align: center;
 }
 

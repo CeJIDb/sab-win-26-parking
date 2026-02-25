@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Панель КПП — Интерфейс КПП</title>
-  <link rel="stylesheet" href="../wireframe.css">
-</head>
-<body>
-  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
-  <div class="wf-page">
-    <header class="wf-header" role="banner">
-      <h1>Интерфейс КПП</h1>
-      <p class="wf-muted">Рабочий интерфейс охранника (панель КПП)</p>
-    </header>
-    <nav class="wf-nav" aria-label="Навигация КПП">
-  <ul>
-    <li><a href="../guard/index.html">Панель КПП</a></li>
-    <li><a href="../guard/log.html">Журнал въезда‑выезда</a></li>
-    <li><a href="../guard/login.html">Выход</a></li>
-  </ul>
-</nav>
+{% extends "layouts/guard.njk" %}
 
+{% block title %}Панель КПП — Интерфейс КПП{% endblock %}
+{% block header_subtitle %}Рабочий интерфейс охранника (панель КПП){% endblock %}
 
-    <main id="main-content" class="wf-main">
-      
+{% block content %}
   <h2>Панель КПП</h2>
 
   <section class="wf-section">
@@ -107,9 +87,5 @@
       </div>
     </div>
   </section>
-
-    </main>
-  </div>
-</body>
-</html>
+{% endblock %}
 

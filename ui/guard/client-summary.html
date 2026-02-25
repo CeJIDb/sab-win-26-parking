@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карточка клиента — Интерфейс КПП</title>
+  <link rel="stylesheet" href="../wireframe.css">
+</head>
+<body>
+  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
+  <div class="wf-page">
+    <header class="wf-header" role="banner">
+      <h1>Интерфейс КПП</h1>
+      <p class="wf-muted">Краткая информация по клиенту для охранника</p>
+    </header>
+    <nav class="wf-nav" aria-label="Навигация КПП">
+  <ul>
+    <li><a href="../guard/index.html">Панель КПП</a></li>
+    <li><a href="../guard/log.html">Журнал въезда‑выезда</a></li>
+    <li><a href="../guard/login.html">Выход</a></li>
+  </ul>
+</nav>
+
+
+    <main id="main-content" class="wf-main">
+      
+  <p class="wf-context"><a href="../guard/index.html">← Панель КПП</a></p>
+  <h2>Карточка клиента</h2>
+  <p class="wf-muted">Результат поиска по ФИО или телефону. Данные примерные, для wireframe.</p>
+
+  <section class="wf-section">
+    <h3>Основная информация</h3>
+    <div class="wf-grid wf-grid--two">
+      <div class="wf-card">
+        <p><strong>Тип клиента:</strong> Физическое лицо</p>
+        <p><strong>ФИО:</strong> Иванов Иван Иванович</p>
+        <p><strong>Телефон:</strong> +7 (900) 123‑45‑67</p>
+        <p><strong>E‑mail:</strong> ivanov@example.com</p>
+      </div>
+      <div class="wf-card">
+        <p><strong>Статус доступа:</strong> Разрешён (нет блокировок)</p>
+        <p><strong>Задолженность:</strong> Нет</p>
+        <p><strong>Замечания:</strong> Нет проблем, клиент в зелёной зоне.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wf-section">
+    <h3>Договоры и оплаты</h3>
+    <div class="wf-table-wrap">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th>Договор</th>
+            <th>Тип</th>
+            <th>Период</th>
+            <th>Состояние</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>№Д‑045</td>
+            <td>Долгосрочная парковка, сектор Б</td>
+            <td>01.01.2026–31.03.2026</td>
+            <td>Активен, оплат нет просрочек</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wf-section">
+    <h3>Транспортные средства клиента</h3>
+    <div class="wf-table-wrap">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th>ГРЗ</th>
+            <th>Марка / модель</th>
+            <th>Тип ТС</th>
+            <th>Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="../guard/plate-check.html?plate=A123BV777">А123БВ777</a></td>
+            <td>Toyota Camry</td>
+            <td>Легковой</td>
+            <td>Разрешён, по активному договору</td>
+          </tr>
+          <tr>
+            <td><a href="../guard/plate-check.html?plate=B456GD199">В456ГД199</a></td>
+            <td>Volkswagen Polo</td>
+            <td>Легковой</td>
+            <td>Разрешён, оплаченные сессии</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wf-section">
+    <h3>Служебные действия</h3>
+    <p class="wf-muted">При необходимости охранник может передать запрос администратору.</p>
+    <ul class="wf-list wf-list--compact">
+      <li>
+        Запросить блокировку доступа клиента
+        <button type="button">Отправить запрос администратору</button>
+      </li>
+      <li>
+        Открыть полный профиль клиента в админке
+        <a href="../admin/clients.html" class="wf-btn">Открыть в ЛК администратора</a>
+      </li>
+    </ul>
+  </section>
+
+    </main>
+  </div>
+</body>
+</html>
+

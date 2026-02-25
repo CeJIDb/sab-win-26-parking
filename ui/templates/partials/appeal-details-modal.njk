@@ -1,0 +1,70 @@
+{# Модалка детализации обращения с историей сообщений. Сущность Обращение, связи с Бронирование/Парковочная сессия/Платёж/Чек. #}
+<section id="appeal-details-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="appeal-details-title">
+  <div class="wf-modal__dialog wf-modal__dialog--wide">
+    <header class="wf-modal__header">
+      <div class="wf-modal__title-row">
+        <h2 id="appeal-details-title" class="wf-modal__title">Обращение #AP-002</h2>
+        <span class="wf-badge wf-badge--in-progress">В работе</span>
+      </div>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
+    </header>
+    <div class="wf-modal__body">
+      <dl class="wf-summary">
+        <dt>Создано</dt>
+        <dd>23.02.2026, 14:30</dd>
+        <dt>Тема</dt>
+        <dd>Вопрос по автосписанию по договору</dd>
+        <dt>Тип</dt>
+        <dd>Вопрос</dd>
+      </dl>
+
+      <div class="wf-appeal-context">
+        <h4 class="wf-appeal-context__title">Привязка</h4>
+        <p>Договор №Д-045 от 15.01.2026 (долгосрочная парковка, сектор Б).</p>
+        <p><a href="contracts.html" class="wf-btn-link">Перейти к договору →</a></p>
+      </div>
+
+      <div class="wf-appeal-original">
+        <h4 class="wf-appeal-original__title">Текст обращения</h4>
+        <div class="wf-appeal-original__text">Добрый день. По договору №Д-045 настроено автосписание раз в месяц. Подскажите, пожалуйста, когда именно в феврале будет списание и с какой карты — с той, что указана в профиле? Хочу убедиться, что средства будут доступны.</div>
+        <p class="wf-muted">Вложений нет.</p>
+      </div>
+
+      <div class="wf-appeal-timeline" role="log" aria-label="История переписки">
+        <article class="wf-timeline-item wf-timeline-item--client">
+          <header class="wf-timeline-item__meta">
+            <span class="wf-timeline-item__author">Вы</span>
+            <time class="wf-timeline-item__time" datetime="2026-02-23T14:30:00">23.02.2026, 14:30</time>
+          </header>
+          <div class="wf-timeline-item__body">Добрый день. По договору №Д-045 настроено автосписание раз в месяц. Подскажите, пожалуйста, когда именно в феврале будет списание и с какой карты — с той, что указана в профиле? Хочу убедиться, что средства будут доступны.</div>
+        </article>
+        <article class="wf-timeline-item wf-timeline-item--support">
+          <header class="wf-timeline-item__meta">
+            <span class="wf-timeline-item__author">Служба поддержки</span>
+            <time class="wf-timeline-item__time" datetime="2026-02-24T10:15:00">24.02.2026, 10:15</time>
+          </header>
+          <div class="wf-timeline-item__body">
+            Здравствуйте! Автосписание по договору №Д-045 выполняется 28-го числа каждого месяца. Списывается сумма за следующий месяц с карты, привязанной в разделе «Оплаты» → «Способы оплаты». Проверить и изменить карту можно в <a href="payment-settings.html">настройках оплаты</a>. Если нужны ещё уточнения — напишите.
+          </div>
+        </article>
+      </div>
+
+      <div class="wf-appeal-reply">
+        <h4 class="wf-appeal-reply__title">Дополнить обращение</h4>
+        <p class="wf-muted">Вы можете отправить уточняющее сообщение, пока обращение не закрыто.</p>
+        <form class="wf-form wf-appeal-reply-form">
+          <div class="wf-field">
+            <label for="appeal-reply-text">Ваше сообщение <span class="wf-required" aria-hidden="true">*</span></label>
+            <textarea id="appeal-reply-text" name="reply" rows="3" required placeholder="Введите текст ответа или уточнение" maxlength="2000"></textarea>
+          </div>
+          <div class="wf-actions">
+            <button type="submit" class="wf-btn wf-btn--primary">Отправить сообщение</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="wf-modal__footer">
+      <a href="#main-content" class="wf-btn">Закрыть</a>
+    </footer>
+  </div>
+</section>

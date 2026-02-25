@@ -8,6 +8,45 @@
   <h2>Оплаты</h2>
 
   <section class="wf-section">
+    <h3>Счета к оплате</h3>
+    <p class="wf-muted">Здесь отображаются выставленные, но ещё не оплаченные счета по договорам, бронированиям и сессиям. По каждому счету можно перейти к оплате или посмотреть детали.</p>
+    <div class="wf-table-wrap">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th>Дата выставления</th>
+            <th>Описание</th>
+            <th>Сумма</th>
+            <th>Статус</th>
+            <th>Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>25.02.2026</td>
+            <td>Счёт по договору №1001 за март 2026</td>
+            <td>4 500 ₽</td>
+            <td>К оплате</td>
+            <td>
+              <button type="button">Оплатить</button>
+              <button type="button">Подробнее</button>
+            </td>
+          </tr>
+          <tr>
+            <td>24.02.2026</td>
+            <td>Счёт за парковочные сессии за 24.02.2026 (ТС А123БВ777)</td>
+            <td>350 ₽</td>
+            <td>Ожидает оплаты</td>
+            <td>
+              <button type="button">Оплатить</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wf-section">
     <h3>История оплат</h3>
     <p class="wf-muted">Здесь отображаются последние успешные и отклонённые платежи по сессиям, бронированиям и договорам.</p>
     <div class="wf-table-wrap">

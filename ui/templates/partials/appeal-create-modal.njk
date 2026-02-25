@@ -1,0 +1,83 @@
+{# Модалка создания обращения для страницы ЛК клиента «Обращения». Основано на сущности Обращение и связях с Бронирование/Парковочная сессия/Платёж/Чек (Концептуальная модель). #}
+<section id="appeal-create-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="appeal-create-title">
+  <div class="wf-modal__dialog wf-modal__dialog--form">
+    <header class="wf-modal__header">
+      <h2 id="appeal-create-title" class="wf-modal__title">Новое обращение</h2>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
+    </header>
+    <div class="wf-modal__body">
+      <form class="wf-form" id="appeal-create-form" novalidate>
+        <p class="wf-error wf-form-error" id="appeal-form-error" aria-live="polite" aria-hidden="true"></p>
+        <div class="wf-field">
+          <label for="appeal-type">Тип обращения <span class="wf-required" aria-hidden="true">*</span></label>
+          <select id="appeal-type" name="type" required aria-required="true" aria-describedby="appeal-type-hint">
+            <option value="">— выбрать —</option>
+            <option value="question">Вопрос</option>
+            <option value="complaint">Жалоба</option>
+            <option value="claim">Претензия</option>
+            <option value="suggestion">Предложение</option>
+          </select>
+          <span id="appeal-type-hint" class="wf-hint">Укажите характер обращения</span>
+        </div>
+
+        <fieldset class="wf-fieldset">
+          <legend class="wf-legend">К чему относится обращение?</legend>
+          <div class="wf-field wf-field--radio-group">
+            <label class="wf-radio">
+              <input type="radio" name="appeal-context" value="none" checked> Общий вопрос (без привязки)
+            </label>
+            <label class="wf-radio">
+              <input type="radio" name="appeal-context" value="booking"> Бронирование
+            </label>
+            <label class="wf-radio">
+              <input type="radio" name="appeal-context" value="session"> Парковочная сессия
+            </label>
+            <label class="wf-radio">
+              <input type="radio" name="appeal-context" value="payment"> Платёж
+            </label>
+            <label class="wf-radio">
+              <input type="radio" name="appeal-context" value="receipt"> Чек
+            </label>
+          </div>
+          <div class="wf-field wf-context-select" id="appeal-related-wrap" hidden>
+            <label for="appeal-related-id">Выберите объект <span class="wf-required" aria-hidden="true">*</span></label>
+            <select id="appeal-related-id" name="related_id" aria-required="false">
+              <option value="">— выбрать —</option>
+              <optgroup label="Последние бронирования">
+                <option value="B-101">Бронирование №101 от 24.02.2026, сектор А, 2 ч</option>
+                <option value="B-098">Бронирование №98 от 22.02.2026, долгосрочная</option>
+              </optgroup>
+              <optgroup label="Последние сессии">
+                <option value="S-456">Сессия #456, 24.02.2026, А123БВ777, 350 ₽</option>
+              </optgroup>
+              <optgroup label="Последние платежи">
+                <option value="P-789">Платёж от 24.02.2026, 350 ₽</option>
+              </optgroup>
+            </select>
+          </div>
+        </fieldset>
+
+        <div class="wf-field">
+          <label for="appeal-text">Текст обращения <span class="wf-required" aria-hidden="true">*</span></label>
+          <textarea id="appeal-text" name="text" rows="5" required aria-required="true" maxlength="2000" placeholder="Опишите ситуацию: дата и время, место парковки, ГРЗ ТС, суть вопроса или проблемы. Это ускорит ответ поддержки." aria-describedby="appeal-text-count"></textarea>
+          <span id="appeal-text-count" class="wf-hint">0 / 2000 символов</span>
+        </div>
+
+        <div class="wf-field">
+          <label for="appeal-attachment">Вложения</label>
+          <input id="appeal-attachment" name="attachment" type="file" accept=".pdf,image/*" multiple aria-describedby="appeal-attachment-hint">
+          <span id="appeal-attachment-hint" class="wf-hint">Фото, скан чека или документ (PDF). До 5 МБ на файл.</span>
+          <ul class="wf-file-list" id="appeal-file-list" aria-live="polite"></ul>
+        </div>
+
+        <p class="wf-muted wf-modal__notice">
+          Ответ придёт в раздел «Уведомления» и на контактные данные из <a href="profile.html">Профиля</a>. При необходимости оператор свяжется по телефону.
+        </p>
+        <footer class="wf-modal__footer">
+          <button type="submit" class="wf-btn wf-btn--primary">Отправить обращение</button>
+          <a href="#main-content" class="wf-btn-link">Отмена</a>
+        </footer>
+      </form>
+    </div>
+  </div>
+</section>

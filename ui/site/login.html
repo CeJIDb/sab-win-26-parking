@@ -40,8 +40,40 @@
         <div class="wf-actions">
           <button type="submit">Войти</button>
           <a href="register.html" class="wf-btn">Регистрация</a>
+          <a href="#restore-access-modal" class="wf-btn">Забыли пароль?</a>
         </div>
       </form>
+      <section id="restore-access-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="restore-access-title">
+        <div class="wf-modal__dialog wf-section">
+          <header class="wf-modal__header">
+            <h3 id="restore-access-title">Восстановление доступа</h3>
+            <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+          </header>
+          <form class="wf-form">
+            <p class="wf-muted">Укажите телефон или e-mail, которые вы использовали при регистрации. Мы отправим ссылку или код для восстановления доступа.</p>
+            <div class="wf-field">
+              <label for="restore-contact">Телефон или e-mail</label>
+              <input id="restore-contact" type="text" placeholder="Телефон или e-mail из профиля" required>
+            </div>
+            <div class="wf-field wf-field--checkbox">
+              <label for="restore-via-sms">
+                <input id="restore-via-sms" type="checkbox" checked>
+                Получить код по СМС
+              </label>
+            </div>
+            <div class="wf-field wf-field--checkbox">
+              <label for="restore-via-email">
+                <input id="restore-via-email" type="checkbox">
+                Получить ссылку на e-mail
+              </label>
+            </div>
+            <p class="wf-muted">Если у вас нет доступа к указанным контактам, обратитесь в службу поддержки парковки.</p>
+            <div class="wf-actions">
+              <button type="submit">Отправить инструкцию по восстановлению</button>
+            </div>
+          </form>
+        </div>
+      </section>
       <section class="wf-section">
         <h3>Вход через SSO</h3>
         <p class="wf-muted">Яндекс ID / VK ID / MAX — по карте навигации.</p>
