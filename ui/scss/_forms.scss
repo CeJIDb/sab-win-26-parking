@@ -63,6 +63,10 @@ form,
   padding: 0.3em 0.4em;
 }
 
+.sessions-filters input[type='text'] {
+  min-width: 12rem;
+}
+
 .sessions-filters #log-plate {
   min-width: 12rem;
 }
@@ -156,5 +160,19 @@ a.wf-btn {
 .wf-error:empty,
 .wf-error[aria-hidden='true'] {
   display: none;
+}
+
+.wf-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.wf-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  font-weight: normal;
 }
 

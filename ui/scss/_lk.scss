@@ -137,3 +137,48 @@
   font-weight: 600;
 }
 
+/* Секторы на карте (админка): кликабельные блоки */
+.wf-parking-map__sector {
+  display: block;
+  border: 2px solid #333;
+  padding: 1rem var(--wf-pad);
+  margin-bottom: var(--wf-gap);
+  text-decoration: none;
+  color: inherit;
+  background: #f0f4f8;
+  transition: background 0.15s ease;
+}
+
+.wf-parking-map__sector:hover {
+  background: #e0e8f0;
+}
+
+.wf-parking-map__sector:focus {
+  outline: 2px solid var(--wf-focus, #06c);
+  outline-offset: 2px;
+}
+
+.wf-parking-map__sector-name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+.wf-parking-map__sector-stats {
+  display: block;
+  font-size: 0.9em;
+  color: var(--wf-muted);
+}
+
+@media (min-width: 640px) {
+  .wf-parking-map:has(.wf-parking-map__sector) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--wf-gap);
+  }
+
+  .wf-parking-map__sector {
+    margin-bottom: 0;
+  }
+}
+
