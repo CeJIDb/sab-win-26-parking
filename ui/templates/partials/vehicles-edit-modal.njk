@@ -1,0 +1,35 @@
+<section id="vehicle-edit-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="vehicle-edit-title">
+  <div class="wf-modal__dialog wf-section">
+    <header class="wf-modal__header">
+      <h3 id="vehicle-edit-title">Редактирование ТС А123БВ777</h3>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+    </header>
+    <form class="wf-form">
+      <div class="wf-field">
+        <label for="veh-edit-grz">ГРЗ (государственный регистрационный знак)</label>
+        <input id="veh-edit-grz" type="text" value="А123БВ777" readonly>
+        <p class="wf-muted">Для изменения номера создайте новое ТС с другим ГРЗ и удалите текущее.</p>
+      </div>
+      <div class="wf-field">
+        <label for="veh-edit-brand">Марка</label>
+        <input id="veh-edit-brand" type="text" value="Toyota">
+      </div>
+      <div class="wf-field">
+        <label for="veh-edit-model">Модель</label>
+        <input id="veh-edit-model" type="text" value="Camry">
+      </div>
+      <div class="wf-field">
+        <label for="veh-edit-type">Тип / категория ТС</label>
+        <select id="veh-edit-type">
+          <option value="car" selected>Легковой</option>
+          <option value="moto">Мотоцикл</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+      <div class="wf-actions">
+        <button type="submit">Сохранить изменения</button>
+      </div>
+    </form>
+  </div>
+</section>
+

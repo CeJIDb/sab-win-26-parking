@@ -13,7 +13,9 @@
       <h1>Интерфейс КПП</h1>
       <p class="wf-muted">{% block header_subtitle %}{% endblock %}</p>
     </header>
-    {% include "partials/nav-guard.njk" %}
+    {% set role = "operator" %}
+    {% set nav_current = current_nav|default('') %}
+    {% include "partials/nav-role.njk" %}
     <main id="main-content" class="wf-main">
       {% block content %}{% endblock %}
     </main>

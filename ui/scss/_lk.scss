@@ -42,6 +42,11 @@
   align-items: stretch;
 }
 
+.wf-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+}
+
 .wf-card {
   @include tokens.wf-panel;
 }
@@ -135,6 +140,51 @@
 .wf-parking-map__total {
   margin-top: 0.5em;
   font-weight: 600;
+}
+
+/* Уведомления на дашборде (иконка колокольчика) */
+.wf-notification-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--wf-muted);
+}
+
+.wf-notification-summary__icon {
+  font-size: 1.1rem;
+}
+
+/* Шапка ЛК клиента с уведомлениями */
+.wf-header--lk {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.wf-header__title {
+  flex: 1 1 auto;
+}
+
+.wf-header__notifications {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: var(--wf-muted);
+}
+
+.wf-header__notifications:hover {
+  color: var(--wf-text);
+  text-decoration: underline;
+}
+
+.wf-header__notifications-icon {
+  font-size: 1.1rem;
 }
 
 /* Секторы на карте (админка): кликабельные блоки */

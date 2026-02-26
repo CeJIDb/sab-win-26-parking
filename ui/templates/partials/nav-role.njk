@@ -1,0 +1,38 @@
+{% set role = role | default('admin') %}
+{% set current = nav_current | default('') %}
+
+{% if role == 'admin' %}
+<nav class="wf-nav" aria-label="Навигация ЛК администратора">
+  <ul>
+    <li><a href="index.html"{% if current == 'admin-index' %} aria-current="page"{% endif %}>Главная</a></li>
+    <li><a href="sectors.html"{% if current == 'admin-sectors' %} aria-current="page"{% endif %}>Секторы и ПМ</a></li>
+    <li><a href="tariffs.html"{% if current == 'admin-tariffs' %} aria-current="page"{% endif %}>Тарифы</a></li>
+    <li><a href="contracts.html"{% if current == 'admin-contracts' %} aria-current="page"{% endif %}>Договоры</a></li>
+    <li><a href="clients.html"{% if current in ['admin-clients','admin-client-sessions'] %} aria-current="page"{% endif %}>Профили клиентов</a></li>
+    <li><a href="admins.html"{% if current == 'admin-admins' %} aria-current="page"{% endif %}>Профили админов</a></li>
+    <li><a href="requests.html"{% if current == 'admin-requests' %} aria-current="page"{% endif %}>Обращения</a></li>
+    <li><a href="analytics.html"{% if current == 'admin-analytics' %} aria-current="page"{% endif %}>Аналитика</a></li>
+  </ul>
+</nav>
+
+<nav class="wf-nav" aria-label="Интерфейс КПП (для администратора)">
+  <ul>
+    <li><a href="../guard/index.html">КПП — панель</a></li>
+    <li><a href="../guard/plate-check.html">КПП — проверка номера</a></li>
+    <li><a href="../guard/plate-history.html">КПП — история по номеру</a></li>
+    <li><a href="../guard/log.html">КПП — журнал событий</a></li>
+    <li><a href="../site/staff-login.html">Выход</a></li>
+  </ul>
+</nav>
+{% else %}
+<nav class="wf-nav" aria-label="Навигация КПП">
+  <ul>
+    <li><a href="index.html"{% if current == 'guard-index' %} aria-current="page"{% endif %}>КПП — панель</a></li>
+    <li><a href="plate-check.html"{% if current == 'guard-plate-check' %} aria-current="page"{% endif %}>Проверка номера</a></li>
+    <li><a href="plate-history.html"{% if current == 'guard-plate-history' %} aria-current="page"{% endif %}>История по номеру</a></li>
+    <li><a href="log.html"{% if current == 'guard-log' %} aria-current="page"{% endif %}>Журнал въезда‑выезда</a></li>
+    <li><a href="../site/staff-login.html">Выход</a></li>
+  </ul>
+</nav>
+{% endif %}
+

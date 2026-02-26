@@ -1,11 +1,12 @@
 {% extends "layouts/lk.njk" %}
 
+{% set current_nav = 'appeals' %}
+
 {% block title %}Обращения — ЛК клиента{% endblock %}
 {% block header_subtitle %}Обращения в службу поддержки{% endblock %}
 
 {% block content %}
   <!-- Основано на сущности Обращение и связях с Бронирование/Парковочная сессия/Платёж/Чек (Концептуальная модель) -->
-  <p class="wf-context"><a href="dashboard.html">Главная ЛК</a> → Обращения</p>
   <h2>Обращения</h2>
 
   <section class="wf-section">

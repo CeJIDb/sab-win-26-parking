@@ -45,6 +45,7 @@ async function main() {
     { template: 'pages/contracts-create.njk', out: 'contracts-create.html' },
     { template: 'pages/vehicles.njk', out: 'vehicles.html' },
     { template: 'pages/payment-settings.njk', out: 'payment-settings.html' },
+    { template: 'pages/payment-external.njk', out: 'payment-external.html' },
     { template: 'pages/appeals.njk', out: 'appeals.html' },
     { template: 'pages/notifications.njk', out: 'notifications.html' },
     { template: 'pages/profile.njk', out: 'profile.html' },

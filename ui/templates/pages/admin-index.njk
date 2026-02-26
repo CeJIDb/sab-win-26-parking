@@ -1,29 +1,87 @@
 {% extends "layouts/admin.njk" %}
 
+{% set current_nav = 'admin-index' %}
+
 {% block title %}Главная админа — Цифровая платформа парковки{% endblock %}
 {% block header_subtitle %}Admin Panel — главная (дашборд){% endblock %}
 
 {% block content %}
-  <p class="wf-context"><a href="index.html">Главная админа</a></p>
   <h2>Дашборд</h2>
   <p>Наиболее важные операционные данные и показатели (Карта навигации, п. 3.2).</p>
-  <div class="wf-grid">
-    <section class="wf-card">
-      <h3>Занятость / свободные ПМ</h3>
-      <p class="wf-muted">[Сводка по секторам.]</p>
-    </section>
-    <section class="wf-card">
-      <h3>Активные договоры</h3>
-      <p class="wf-muted">[Количество, статусы.]</p>
-    </section>
-    <section class="wf-card">
-      <h3>Бронирования</h3>
-      <p class="wf-muted">[На сегодня / в работе.]</p>
-    </section>
-    <section class="wf-card">
-      <h3>Платежи / просрочки</h3>
-      <p class="wf-muted">[Краткая сводка.]</p>
-    </section>
-  </div>
-  <p><a href="requests.html" class="wf-btn">Обращения и инциденты</a></p>
+
+  <section class="wf-section">
+    <h3>Ключевые показатели</h3>
+    <div class="wf-grid">
+      <section class="wf-card">
+        <h3>Загрузка парковки</h3>
+        <p><strong>Свободно:</strong> 32 из 72 ПМ</p>
+        <p class="wf-muted">Сектор А — 75% занятости, сектор Б — 85%.</p>
+        <p><a href="sectors.html" class="wf-btn">Перейти к секторам</a></p>
+      </section>
+      <section class="wf-card">
+        <h3>Договоры и клиенты</h3>
+        <p><strong>Активных договоров:</strong> 124</p>
+        <p class="wf-muted">Из них 15 истекают в ближайшие 7 дней.</p>
+        <p><a href="contracts.html" class="wf-btn">Открыть реестр договоров</a></p>
+      </section>
+      <section class="wf-card">
+        <h3>Финансы</h3>
+        <p><strong>Поступления за сегодня:</strong> 152 300 ₽</p>
+        <p class="wf-muted">Просроченная задолженность: 12 договоров.</p>
+        <p><a href="contracts.html" class="wf-btn">Проверить задолженности</a></p>
+      </section>
+      <section class="wf-card">
+        <h3>Обращения и инциденты</h3>
+        <p><strong>Новых обращений:</strong> 3</p>
+        <p class="wf-muted">Инцидентов «отказ во въезде» за сегодня: 2.</p>
+        <p><a href="requests.html" class="wf-btn">Открыть обращения</a></p>
+      </section>
+    </div>
+  </section>
+
+  <section class="wf-section">
+    <h3>Последние события КПП</h3>
+    <p class="wf-muted">Фрагмент журнала событий по последним операциям въезда/выезда.</p>
+    <div class="wf-table-wrap">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th>Дата и время</th>
+            <th>КПП</th>
+            <th>ГРЗ</th>
+            <th>Направление</th>
+            <th>Статус</th>
+            <th>Основание</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24.02.2026 10:15</td>
+            <td>КПП‑1</td>
+            <td>А123БВ777</td>
+            <td>Въезд</td>
+            <td>Разрешено</td>
+            <td>Активный договор Д‑045</td>
+          </tr>
+          <tr>
+            <td>24.02.2026 09:30</td>
+            <td>КПП‑2</td>
+            <td>В456ГД199</td>
+            <td>Въезд</td>
+            <td>Отказ</td>
+            <td>Просрочена оплата, отправлен к управляющему</td>
+          </tr>
+          <tr>
+            <td>24.02.2026 09:05</td>
+            <td>КПП‑1</td>
+            <td>А123БВ777</td>
+            <td>Выезд</td>
+            <td>Разрешено</td>
+            <td>Оплаченная сессия</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="wf-muted">Полный журнал доступен в интерфейсе КПП.</p>
+  </section>
 {% endblock %}

@@ -1,20 +1,23 @@
 {% extends "layouts/lk.njk" %}
 
+{% set current_nav = 'vehicles' %}
+
 {% block title %}Список ТС — ЛК клиента{% endblock %}
 {% block header_subtitle %}Список транспортных средств (ТС){% endblock %}
 
 {% block content %}
-  <p class="wf-context"><a href="dashboard.html">Главная ЛК</a> → Список ТС</p>
   <h2>Управление списком транспортных средств</h2>
   <section class="wf-section">
     <h3>Мои ТС</h3>
     <ul class="wf-list">
-      <li>А123БВ777 — Toyota Camry — Легковой — <button type="button">Редактировать</button> <button type="button">Удалить</button></li>
-      <li>В456ГД177 — Honda Civic — Легковой — <button type="button">Редактировать</button> <button type="button">Удалить</button></li>
+      <li>А123БВ777 — Toyota Camry — Легковой — <a href="#vehicle-edit-modal" class="wf-btn">Редактировать</a> <a href="#vehicle-delete-modal" class="wf-btn">Удалить</a></li>
+      <li>В456ГД177 — Honda Civic — Легковой — <a href="#vehicle-edit-modal" class="wf-btn">Редактировать</a> <a href="#vehicle-delete-modal" class="wf-btn">Удалить</a></li>
     </ul>
     <div class="wf-actions">
       <a href="#vehicle-add-modal" class="wf-btn">Добавить ТС</a>
     </div>
   </section>
   {% include "partials/vehicles-add-modal.njk" %}
+  {% include "partials/vehicles-edit-modal.njk" %}
+  {% include "partials/vehicles-delete-modal.njk" %}
 {% endblock %}

@@ -1,10 +1,11 @@
 {% extends "layouts/lk.njk" %}
 
+{% set current_nav = 'sessions-history' %}
+
 {% block title %}История парковочных сессий — ЛК клиента{% endblock %}
 {% block header_subtitle %}История парковочных сессий{% endblock %}
 
 {% block content %}
-  <p class="wf-context"><a href="dashboard.html">Главная ЛК</a> → История парковочных сессий</p>
   <h2>История парковочных сессий</h2>
   <section class="wf-section">
     <div class="sessions-filters" aria-label="Фильтры">

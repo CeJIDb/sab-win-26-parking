@@ -4,7 +4,6 @@
 {% block header_subtitle %}Оплата бронирования{% endblock %}
 
 {% block content %}
-  <p class="wf-context"><a href="dashboard.html">Главная ЛК</a> → <a href="bookings.html">Бронирование</a> → Оплата</p>
   <h2>Оплата бронирования</h2>
   <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
   <section class="wf-section">
@@ -12,19 +11,10 @@
     <div class="wf-card">
       <p><strong>Сумма к оплате:</strong> [сумма] ₽</p>
     </div>
-    <form class="wf-form" action="dashboard.html" method="get">
-      <div class="wf-field">
-        <label for="pay-method">Способ оплаты</label>
-        <select id="pay-method">
-          <option value="">— выбрать —</option>
-          <option value="card">Банковская карта</option>
-          <option value="sbp">СБП</option>
-        </select>
-      </div>
-      <div class="wf-actions">
-        <button type="submit">Оплатить</button>
-        <a href="bookings.html" class="wf-btn">Вернуться к бронированию</a>
-      </div>
-    </form>
+    <p class="wf-muted">Оплата бронирования выполняется через внешний платёжный сервис.</p>
+    <div class="wf-actions">
+      <a href="payment-external.html" class="wf-btn">Перейти к оплате</a>
+      <a href="bookings.html" class="wf-btn">Вернуться к бронированию</a>
+    </div>
   </section>
 {% endblock %}

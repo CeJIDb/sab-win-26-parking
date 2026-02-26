@@ -13,7 +13,9 @@
       <h1>Личный кабинет администратора</h1>
       <p class="wf-muted">{% block header_subtitle %}{% endblock %}</p>
     </header>
-    {% include "partials/nav-admin.njk" %}
+    {% set role = "admin" %}
+    {% set nav_current = current_nav|default('') %}
+    {% include "partials/nav-role.njk" %}
     <main id="main-content" class="wf-main">
       {% block content %}{% endblock %}
     </main>

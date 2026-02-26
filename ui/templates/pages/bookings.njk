@@ -1,30 +1,102 @@
 {% extends "layouts/lk.njk" %}
 
+{% set current_nav = 'bookings' %}
+
 {% block title %}Управление бронированием — ЛК клиента{% endblock %}
 {% block header_subtitle %}Управление бронированием{% endblock %}
 
 {% block content %}
-  <p class="wf-context"><a href="dashboard.html">Главная ЛК</a> → Управление бронированием</p>
   <h2>Управление бронированием</h2>
   <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
   <section class="wf-section">
     <h3>Мои бронирования</h3>
-    <div class="wf-field">
-      <label for="search-booking">Поиск по дате или номеру брони</label>
-      <input id="search-booking" type="text" placeholder="Дата или номер брони">
-    </div>
-    <button type="button">Найти</button>
-    <p class="wf-muted">[Список: период, ПМ/сектор, тариф, статус, действия — изменить / отменить / продлить.]</p>
-    <ul class="wf-list">
-      <li>
-        Бронь #1 — [дата–время], сектор A, ПМ 12 — Подтверждена —
-        <a href="booking-payment.html" class="wf-btn">Оплатить</a>
-        <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
-        <a href="#booking-cancel-modal" class="wf-btn">Отменить</a>
-      </li>
-    </ul>
     <div class="wf-actions">
       <a href="#booking-create-modal" class="wf-btn">Создать бронь</a>
+    </div>
+    <form class="wf-form sessions-filters" aria-label="Фильтры по бронированиям">
+      <div class="filters-row">
+        <div class="wf-field">
+          <label for="filter-booking-date-from">С</label>
+          <input id="filter-booking-date-from" type="date" aria-label="Дата начала периода бронирования">
+        </div>
+        <div class="wf-field">
+          <label for="filter-booking-date-to">По</label>
+          <input id="filter-booking-date-to" type="date" aria-label="Дата окончания периода бронирования">
+        </div>
+        <div class="wf-field">
+          <label for="filter-booking-search">Номер / дата брони</label>
+          <input id="filter-booking-search" type="text" placeholder="Например, #1 или 25.02.2026">
+        </div>
+        <div class="filter-actions">
+          <button type="button">Применить</button>
+          <button type="button">Сброс</button>
+        </div>
+      </div>
+    </form>
+    <div class="wf-table-wrap" role="region" aria-label="Список бронирований">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th scope="col">Бронь</th>
+            <th scope="col">Период</th>
+            <th scope="col">Сектор / ПМ</th>
+            <th scope="col">Тариф</th>
+            <th scope="col">Статус</th>
+            <th scope="col">Оплата</th>
+            <th scope="col">Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#1</td>
+            <td>Сегодня 19:00–22:00</td>
+            <td>Сектор A, ПМ 12</td>
+            <td>Почасовой A</td>
+            <td>Подтверждена</td>
+            <td><a href="payment-external.html" class="wf-btn">Оплатить</a></td>
+            <td>
+              <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
+              <a href="#booking-cancel-modal" class="wf-btn">Отменить</a>
+            </td>
+          </tr>
+          <tr>
+            <td>#2</td>
+            <td>Завтра 08:00–10:00</td>
+            <td>Сектор B, ПМ 23</td>
+            <td>Почасовой B</td>
+            <td>Ожидает оплаты</td>
+            <td><a href="payment-external.html" class="wf-btn">Оплатить</a></td>
+            <td>
+              <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
+              <a href="#booking-cancel-modal" class="wf-btn">Отменить</a>
+            </td>
+          </tr>
+          <tr>
+            <td>#3</td>
+            <td>Вчера 20:00–23:00</td>
+            <td>Сектор C, ПМ 45</td>
+            <td>Почасовой C</td>
+            <td>Завершена</td>
+            <td>Оплачено</td>
+            <td>
+              <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
+              <a href="#booking-cancel-modal" class="wf-btn">Отменить</a>
+            </td>
+          </tr>
+          <tr>
+            <td>#4</td>
+            <td>15.02.2026 09:00–12:00</td>
+            <td>Сектор A, ПМ 10</td>
+            <td>Почасовой A</td>
+            <td>Отменена клиентом</td>
+            <td>—</td>
+            <td>
+              <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
+              <a href="#booking-cancel-modal" class="wf-btn">Отменить</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
   {% include "partials/booking-create-modal.njk" %}

@@ -1,13 +1,13 @@
+{% set current = nav_current | default('') %}
 <nav class="wf-nav" aria-label="Навигация ЛК клиента">
   <ul>
-    <li><a href="dashboard.html">Главная</a></li>
-    <li><a href="bookings.html">Бронирование</a></li>
-    <li><a href="contracts.html">Договоры</a></li>
-    <li><a href="sessions-history.html">История сессий</a></li>
-    <li><a href="vehicles.html">Список ТС</a></li>
-    <li><a href="payment-settings.html">Оплаты</a></li>
-    <li><a href="appeals.html">Обращения</a></li>
-    <li><a href="notifications.html">Уведомления</a></li>
-    <li><a href="profile.html">Профиль</a></li>
+    <li><a href="dashboard.html"{% if current == 'dashboard' %} aria-current="page"{% endif %}>Главная</a></li>
+    <li><a href="bookings.html"{% if current == 'bookings' %} aria-current="page"{% endif %}>Бронирование</a></li>
+    <li><a href="contracts.html"{% if current == 'contracts' %} aria-current="page"{% endif %}>Договоры</a></li>
+    <li><a href="sessions-history.html"{% if current == 'sessions-history' %} aria-current="page"{% endif %}>История сессий</a></li>
+    <li><a href="vehicles.html"{% if current == 'vehicles' %} aria-current="page"{% endif %}>Список ТС</a></li>
+    <li><a href="payment-settings.html"{% if current == 'payment-settings' %} aria-current="page"{% endif %}>Оплаты</a></li>
+    <li><a href="appeals.html"{% if current == 'appeals' %} aria-current="page"{% endif %}>Обращения</a></li>
+    <li><a href="profile.html"{% if current == 'profile' %} aria-current="page"{% endif %}>Профиль</a></li>
   </ul>
 </nav>

@@ -18,24 +18,20 @@
         <label for="book-tariff">Тариф</label>
         <select id="book-tariff">
           <option value="">— выбрать тариф —</option>
-          <option value="hourly">Почасовой (краткосрочная)</option>
-          <option value="daily">Посуточный (краткосрочная)</option>
+          <option value="hourly-a">Почасовой A (краткосрочная)</option>
+          <option value="hourly-b">Почасовой B (краткосрочная)</option>
+          <option value="hourly-c">Почасовой C (краткосрочная)</option>
           <option value="long">Долгосрочная (свыше 24 ч, требуется договор)</option>
         </select>
+        <p id="book-tariff-help" class="wf-muted">
+          Выберите тариф: Почасовой A/B/C для краткосрочной парковки или долгосрочный по договору.
+        </p>
       </div>
-      <div class="wf-field">
+      <div class="wf-field" id="book-date-wrap">
         <label for="book-date">Дата и время начала</label>
         <input id="book-date" type="datetime-local" placeholder="Дата, время">
       </div>
-      <div class="wf-field">
-        <label for="book-duration">Длительность</label>
-        <select id="book-duration">
-          <option value="">— выбрать —</option>
-          <option value="short">До 24 часов (краткосрочная)</option>
-          <option value="long">Свыше 24 часов (долгосрочная)</option>
-        </select>
-      </div>
-      <div class="wf-field wf-duration-dependent" id="book-short-wrap" hidden>
+      <div class="wf-field wf-tariff-dependent" id="book-short-wrap" hidden>
         <div class="wf-field">
           <label for="book-sector-short">Сектор (краткосрочная парковка)</label>
           <select id="book-sector-short">
@@ -49,51 +45,73 @@
           <input id="book-hours" type="number" min="1" max="24" step="1" placeholder="1–24" aria-label="Количество часов">
         </div>
       </div>
-      <div class="wf-field wf-duration-dependent" id="book-long-wrap" hidden>
-        <p class="wf-notice" role="status"><strong>Длительная парковка (свыше 24 часов)</strong> возможна только при заключённом договоре. Оформите <a href="contracts.html">договор</a>, если его ещё нет.</p>
-        <div class="wf-field">
-          <label for="book-period">Количество дней / месяцев</label>
-          <select id="book-period">
-            <option value="">— выбрать —</option>
-            <optgroup label="Дни">
-              <option value="2d">2 дня</option>
-              <option value="3d">3 дня</option>
-              <option value="7d">7 дней</option>
-              <option value="14d">14 дней</option>
-            </optgroup>
-            <optgroup label="Месяцы">
-              <option value="1m">1 месяц</option>
-              <option value="3m">3 месяца</option>
-              <option value="6m">6 месяцев</option>
-              <option value="12m">12 месяцев</option>
-            </optgroup>
-          </select>
-        </div>
-        <div class="wf-field">
-          <label for="book-sector-long">Сектор (долгосрочная парковка)</label>
-          <select id="book-sector-long">
-            <option value="">— выбрать сектор —</option>
-            <option value="long">Долгосрочная парковка ФЛ+ЮЛ</option>
-            <option value="ovz">Места для лиц с ОВЗ</option>
-          </select>
-        </div>
-        <div class="wf-field">
-          <label for="book-pm">Парковочное место (ПМ)</label>
-          <select id="book-pm">
-            <option value="">— выбрать ПМ —</option>
-            <option value="1">ПМ 1</option>
-            <option value="2">ПМ 2</option>
-            <option value="3">ПМ 3</option>
-          </select>
+      <div class="wf-field wf-tariff-dependent" id="book-long-wrap" hidden>
+        <p class="wf-notice" role="status">
+          <strong>Долгосрочная парковка (свыше 24 часов)</strong> оформляется на основании договора обслуживания.
+          После заключения договора система автоматически сформирует бронирование на весь срок его действия
+          и закрепит за ним ваши парковочные места и транспортные средства.
+        </p>
+        <div class="wf-actions">
+          <a href="contracts-create.html" class="wf-btn">Оформить договор</a>
         </div>
       </div>
-      <div class="wf-card">
-        <strong>Итого к оплате:</strong> <span class="wf-muted">[сумма по выбранному тарифу и длительности]</span>
-      </div>
-      <div class="wf-actions">
-        <button type="submit">Проверить доступность и перейти к оплате</button>
+      <div id="book-payment-wrap">
+        <div class="wf-card">
+          <strong>Итого к оплате:</strong> <span class="wf-muted">[сумма по выбранному тарифу и длительности]</span>
+        </div>
+        <div class="wf-actions">
+          <button type="submit">Проверить доступность и перейти к оплате</button>
+        </div>
       </div>
     </form>
   </div>
 </section>
+
+<script>
+(function() {
+  var tariff = document.getElementById('book-tariff');
+  var shortWrap = document.getElementById('book-short-wrap');
+  var longWrap = document.getElementById('book-long-wrap');
+  var dateWrap = document.getElementById('book-date-wrap');
+  var paymentWrap = document.getElementById('book-payment-wrap');
+  var tariffHelp = document.getElementById('book-tariff-help');
+  if (!tariff || !shortWrap || !longWrap) return;
+
+  function updateByTariff() {
+    var value = tariff.value;
+    var isHourly = (value === 'hourly-a' || value === 'hourly-b' || value === 'hourly-c');
+    if (tariffHelp) {
+      if (value === 'hourly-a') {
+        tariffHelp.textContent = 'Почасовой A — дневной 08:00–20:00, от 30 минут, 150 ₽/ч.';
+      } else if (value === 'hourly-b') {
+        tariffHelp.textContent = 'Почасовой B — ночной 20:00–08:00, от 1 часа, 200 ₽/ч.';
+      } else if (value === 'hourly-c') {
+        tariffHelp.textContent = 'Почасовой C — круглосуточно, от 15 минут, 250 ₽/ч.';
+      } else if (value === 'long') {
+        tariffHelp.textContent = 'Долгосрочная парковка — срок от 2 дней, оформляется только по договору обслуживания.';
+      } else {
+        tariffHelp.textContent = 'Выберите тариф: Почасовой A/B/C для краткосрочной парковки или долгосрочный по договору.';
+      }
+    }
+    if (isHourly) {
+      shortWrap.hidden = false;
+      longWrap.hidden = true;
+      if (dateWrap) dateWrap.hidden = false;
+      if (paymentWrap) paymentWrap.hidden = false;
+    } else if (value === 'long') {
+      shortWrap.hidden = true;
+      longWrap.hidden = false;
+      if (dateWrap) dateWrap.hidden = true;
+      if (paymentWrap) paymentWrap.hidden = true;
+    } else {
+      shortWrap.hidden = true;
+      longWrap.hidden = true;
+      if (dateWrap) dateWrap.hidden = false;
+      if (paymentWrap) paymentWrap.hidden = false;
+    }
+  }
+
+  tariff.addEventListener('change', updateByTariff);
+})();
+</script>
 
