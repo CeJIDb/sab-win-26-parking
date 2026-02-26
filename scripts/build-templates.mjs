@@ -5,6 +5,7 @@ import nunjucks from 'nunjucks';
 const ROOT = process.cwd();
 const CLIENT_DIR = path.join(ROOT, 'ui', 'client');
 const GUARD_DIR = path.join(ROOT, 'ui', 'guard');
+const ADMIN_DIR = path.join(ROOT, 'ui', 'admin');
 const TEMPLATES_DIR = path.join(ROOT, 'ui', 'templates');
 
 // Настраиваем окружение nunjucks
@@ -25,6 +26,13 @@ async function buildGuardPage(templateName, outName) {
   const outPath = path.join(GUARD_DIR, outName);
   await fs.writeFile(outPath, html, 'utf8');
   console.log(`Built guard/${outName} from ${templateName}`);
+}
+
+async function buildAdminPage(templateName, outName) {
+  const html = env.render(templateName, {});
+  const outPath = path.join(ADMIN_DIR, outName);
+  await fs.writeFile(outPath, html, 'utf8');
+  console.log(`Built admin/${outName} from ${templateName}`);
 }
 
 async function main() {
@@ -48,12 +56,28 @@ async function main() {
     { template: 'pages/guard-client-summary.njk', out: 'client-summary.html' },
   ];
 
+  const adminPages = [
+    { template: 'pages/admin-index.njk', out: 'index.html' },
+    { template: 'pages/admin-sectors.njk', out: 'sectors.html' },
+    { template: 'pages/admin-tariffs.njk', out: 'tariffs.html' },
+    { template: 'pages/admin-contracts.njk', out: 'contracts.html' },
+    { template: 'pages/admin-clients.njk', out: 'clients.html' },
+    { template: 'pages/admin-admins.njk', out: 'admins.html' },
+    { template: 'pages/admin-requests.njk', out: 'requests.html' },
+    { template: 'pages/admin-analytics.njk', out: 'analytics.html' },
+    { template: 'pages/admin-client-sessions.njk', out: 'client-sessions.html' },
+  ];
+
   for (const page of pages) {
     await buildClientPage(page.template, page.out);
   }
 
   for (const page of guardPages) {
     await buildGuardPage(page.template, page.out);
+  }
+
+  for (const page of adminPages) {
+    await buildAdminPage(page.template, page.out);
   }
 }
 
