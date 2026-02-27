@@ -1,40 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Регистрация — Цифровая платформа парковки</title>
-  <link rel="stylesheet" href="../wireframe.css">
-</head>
-<body>
-  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
-  <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
-      <div class="wf-header__title">
-        <h1>Цифровая платформа парковки</h1>
-        <p class="wf-muted">Сайт-визитка</p>
-      </div>
-      <div class="wf-header__actions">
-        <a href="register.html" class="wf-btn wf-btn--ghost">Регистрация</a>
-        <a href="login.html" class="wf-btn">Вход</a>
-      </div>
-    </header>
+{% extends "layouts/site.njk" %}
 
-    
-    
-<nav class="wf-nav" aria-label="Основная навигация сайта">
-  <ul>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="tariffs.html">Тарифы и условия</a></li>
-    <li><a href="rules.html">Правила парковки</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-  </ul>
-</nav>
+{% block title %}Регистрация — Цифровая платформа парковки{% endblock %}
 
-
-
-    <main id="main-content" class="wf-main">
-      
+{% block content %}
   <h2>Регистрация нового клиента</h2>
   <!-- WF-07: Плейсхолдер сообщения об ошибке (П. 4 — обратная связь при ошибках) -->
   <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
@@ -109,15 +77,5 @@
       <a href="login.html" class="wf-btn">Уже есть аккаунт — войти</a>
     </div>
   </form>
-
-    </main>
-
-    <footer class="wf-footer">
-      <p class="wf-footer__service">
-        <a href="staff-login.html">Вход для сотрудников</a>
-      </p>
-    </footer>
-  </div>
-</body>
-</html>
+{% endblock %}
 

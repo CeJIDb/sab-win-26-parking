@@ -7,31 +7,41 @@
   <link rel="stylesheet" href="../wireframe.css">
 </head>
 <body>
-  <!-- WF-05: skip-link. По Карте навигации: раздел 1. Сайт-визитка — главная точка входа (фиолетовый узел) -->
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
-    <header class="wf-header" role="banner">
-      <h1>Цифровая платформа парковки</h1>
-      <p class="wf-muted">Главная (сайт-визитка)</p>
+    <header class="wf-header wf-header--lk" role="banner">
+      <div class="wf-header__title">
+        <h1>Цифровая платформа парковки</h1>
+        <p class="wf-muted">Сайт-визитка</p>
+      </div>
+      <div class="wf-header__actions">
+        <a href="register.html" class="wf-btn wf-btn--ghost">Регистрация</a>
+        <a href="login.html" class="wf-btn">Вход</a>
+      </div>
     </header>
-    <nav class="wf-nav" aria-label="Основная навигация">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="tariffs.html">Тарифы и условия</a></li>
-        <li><a href="parking-map.html">Свободные места</a></li>
-        <li><a href="rules.html">Правила парковки</a></li>
-        <li><a href="register.html">Регистрация</a></li>
-        <li><a href="login.html">Вход</a></li>
-      </ul>
-    </nav>
+
+    
+    
+<nav class="wf-nav" aria-label="Основная навигация сайта">
+  <ul>
+    <li><a href="index.html" aria-current="page">Главная</a></li>
+    <li><a href="tariffs.html">Тарифы и условия</a></li>
+    <li><a href="rules.html">Правила парковки</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+  </ul>
+</nav>
+
+
+
     <main id="main-content" class="wf-main">
-      <h2>Добро пожаловать</h2>
-      <p>Публичный портал. Отсюда доступны: контакты, тарифы и условия, карта свободных мест по секторам, правила парковки, регистрация и авторизация клиента (логин+пароль, SSO).</p>
-      <section class="wf-section">
-        <h3>Карта парковки</h3>
-        <p class="wf-muted">Схема парковки AS-IS: КПП север/юг, зоны по типам. Та же карта, что в ЛК, для демонстрации.</p>
-        <div class="wf-parking-map wf-parking-map--compact" role="img" aria-label="Схема парковки (компактно)">
+      
+  <h2>Добро пожаловать</h2>
+  <p>Здесь вы можете заранее спланировать парковку: узнать актуальные тарифы, ознакомиться с правилами, посмотреть схему парковки и быстро перейти в личный кабинет для бронирования, оплаты и управления договорами.</p>
+  <p class="wf-muted">Для постоянных клиентов доступен личный кабинет с историей сессий, сохранёнными ТС, договорами и удобной оплатой онлайн.</p>
+  <section class="wf-section">
+    <h3>Карта парковки</h3>
+    <p class="wf-muted">По данным системы на текущий момент:</p>
+    <div class="wf-parking-map wf-parking-map--compact" role="img" aria-label="Схема парковки (компактно)">
   <div class="wf-parking-map__kpp">КПП север</div>
   <div class="wf-parking-map__zones">
     <div class="wf-parking-map__column">
@@ -84,10 +94,14 @@
 </div>
 
 
-      </section>
+  </section>
+
     </main>
+
     <footer class="wf-footer">
-      <p class="wf-footer__service"><a href="staff-login.html">Вход для сотрудников</a></p>
+      <p class="wf-footer__service">
+        <a href="staff-login.html">Вход для сотрудников</a>
+      </p>
     </footer>
   </div>
 </body>

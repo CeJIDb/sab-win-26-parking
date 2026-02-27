@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Цифровая платформа парковки — сайт{% endblock %}</title>
+  <link rel="stylesheet" href="../wireframe.css">
+</head>
+<body>
+  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
+  <div class="wf-page">
+    <header class="wf-header wf-header--lk" role="banner">
+      <div class="wf-header__title">
+        <h1>Цифровая платформа парковки</h1>
+        <p class="wf-muted">Сайт-визитка</p>
+      </div>
+      <div class="wf-header__actions">
+        <a href="register.html" class="wf-btn wf-btn--ghost">Регистрация</a>
+        <a href="login.html" class="wf-btn">Вход</a>
+      </div>
+    </header>
+
+    {% set site_nav_current = current_site | default('') %}
+    {% include "partials/nav-site.njk" %}
+
+    <main id="main-content" class="wf-main">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="wf-footer">
+      <p class="wf-footer__service">
+        <a href="staff-login.html">Вход для сотрудников</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
+

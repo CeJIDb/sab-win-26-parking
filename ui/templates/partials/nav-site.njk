@@ -1,0 +1,10 @@
+{% set current = site_nav_current | default('') %}
+<nav class="wf-nav" aria-label="Основная навигация сайта">
+  <ul>
+    <li><a href="index.html"{% if current == 'index' %} aria-current="page"{% endif %}>Главная</a></li>
+    <li><a href="tariffs.html"{% if current == 'tariffs' %} aria-current="page"{% endif %}>Тарифы и условия</a></li>
+    <li><a href="rules.html"{% if current == 'rules' %} aria-current="page"{% endif %}>Правила парковки</a></li>
+    <li><a href="contacts.html"{% if current == 'contacts' %} aria-current="page"{% endif %}>Контакты</a></li>
+  </ul>
+</nav>
+

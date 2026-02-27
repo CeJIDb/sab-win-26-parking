@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Цифровая платформа парковки — точка входа</title>
-  <link rel="stylesheet" href="wireframe.css">
-</head>
-<body>
-  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
-  <div class="wf-page">
-    <header class="wf-header" role="banner">
-      <h1>Цифровая платформа парковки</h1>
-      <p class="wf-muted">Точка входа в систему</p>
-    </header>
+{% extends "layouts/root.njk" %}
 
-    <main id="main-content" class="wf-main">
-      
+{% block title %}Цифровая платформа парковки — точка входа{% endblock %}
+
+{% block content %}
   <h2>Выберите, как продолжить работу</h2>
   <p>Эта страница — общая точка входа в цифровую платформу парковки. Отсюда вы можете перейти на публичный сайт, в личный кабинет клиента или во вход для сотрудников.</p>
 
@@ -44,15 +31,5 @@
       </li>
     </ul>
   </section>
-
-    </main>
-
-    <footer class="wf-footer">
-      <p class="wf-footer__service">
-        <a href="site/staff-login.html">Вход для сотрудников</a>
-      </p>
-    </footer>
-  </div>
-</body>
-</html>
+{% endblock %}
 

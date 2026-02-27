@@ -1,40 +1,10 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакты — Цифровая платформа парковки</title>
-  <link rel="stylesheet" href="../wireframe.css">
-</head>
-<body>
-  <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
-  <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
-      <div class="wf-header__title">
-        <h1>Цифровая платформа парковки</h1>
-        <p class="wf-muted">Сайт-визитка</p>
-      </div>
-      <div class="wf-header__actions">
-        <a href="register.html" class="wf-btn wf-btn--ghost">Регистрация</a>
-        <a href="login.html" class="wf-btn">Вход</a>
-      </div>
-    </header>
+{% extends "layouts/site.njk" %}
 
-    
-    
-<nav class="wf-nav" aria-label="Основная навигация сайта">
-  <ul>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="tariffs.html">Тарифы и условия</a></li>
-    <li><a href="rules.html">Правила парковки</a></li>
-    <li><a href="contacts.html" aria-current="page">Контакты</a></li>
-  </ul>
-</nav>
+{% set current_site = 'contacts' %}
 
+{% block title %}Контакты — Цифровая платформа парковки{% endblock %}
 
-
-    <main id="main-content" class="wf-main">
-      
+{% block content %}
   <h2>Контакты</h2>
 
   <section class="wf-section">
@@ -68,15 +38,5 @@
     <p><strong>Юридический адрес:</strong> 199000, г. Санкт‑Петербург, Биржевой пер., д. 2</p>
     <p class="wf-muted">Эти данные используются при оформлении договоров, выставлении счетов и формировании чеков об оплате.</p>
   </section>
-
-    </main>
-
-    <footer class="wf-footer">
-      <p class="wf-footer__service">
-        <a href="staff-login.html">Вход для сотрудников</a>
-      </p>
-    </footer>
-  </div>
-</body>
-</html>
+{% endblock %}
 
