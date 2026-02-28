@@ -1,0 +1,45 @@
+<section id="admin-booking-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="admin-booking-title">
+  <div class="wf-modal__dialog wf-modal__dialog--form">
+    <header class="wf-modal__header">
+      <h2 id="admin-booking-title" class="wf-modal__title">Бронирование #1</h2>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
+    </header>
+    <div class="wf-modal__body">
+      <section class="wf-section">
+        <h3>Основная информация</h3>
+        <div class="wf-grid wf-grid--two">
+          <div class="wf-card">
+            <p><strong>Клиент:</strong> Иванов Иван Иванович</p>
+            <p><strong>ТС (ГРЗ):</strong> А123БВ777 — Toyota Camry</p>
+            <p><strong>Период:</strong> 27.02.2026 19:00–22:00</p>
+          </div>
+          <div class="wf-card">
+            <p><strong>Сектор / ПМ:</strong> Сектор A, ПМ 12</p>
+            <p><strong>Тариф:</strong> Почасовой A</p>
+            <p><strong>Статус:</strong> <span class="wf-badge">Подтверждена</span></p>
+            <p><strong>Оплата:</strong> Оплачено</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section id="admin-booking-cancel-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="admin-booking-cancel-title">
+  <div class="wf-modal__dialog wf-modal__dialog--form">
+    <header class="wf-modal__header">
+      <h2 id="admin-booking-cancel-title" class="wf-modal__title">Отмена бронирования</h2>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
+    </header>
+    <div class="wf-modal__body">
+      <p>Вы уверены, что хотите отменить бронирование <strong>#1</strong> (Иванов Иван Иванович, 27.02.2026 19:00–22:00)?</p>
+      <div class="wf-field">
+        <label for="admin-booking-cancel-reason">Причина отмены (необязательно)</label>
+        <textarea id="admin-booking-cancel-reason" rows="2" placeholder="Для отчётности"></textarea>
+      </div>
+      <div class="wf-actions">
+        <button type="button">Подтвердить отмену</button>
+      </div>
+    </div>
+  </div>
+</section>

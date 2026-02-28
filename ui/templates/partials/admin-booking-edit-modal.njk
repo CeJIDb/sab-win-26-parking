@@ -1,0 +1,51 @@
+<section id="admin-booking-edit-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="admin-booking-edit-title">
+  <div class="wf-modal__dialog wf-section">
+    <header class="wf-modal__header">
+      <h3 id="admin-booking-edit-title">Изменение бронирования #1</h3>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+    </header>
+    <form class="wf-form">
+      <p class="wf-notice">
+        <strong>Активное бронирование.</strong>
+        Текущее состояние: Бронирование #1 — [дата–время], сектор A, статус «Подтверждена».
+      </p>
+      <div class="wf-field">
+        <label for="admin-book-edit-ts">ТС (ГРЗ)</label>
+        <input id="admin-book-edit-ts" type="text" value="А123БВ777 — Toyota Camry" readonly>
+        <p class="wf-muted">Изменение ТС для действующей брони недоступно. При необходимости отмените её и создайте новую с другим ТС.</p>
+      </div>
+      <div class="wf-field">
+        <label for="admin-book-edit-tariff">Тариф</label>
+        <input id="admin-book-edit-tariff" type="text" value="Почасовой A — дневной 08:00–20:00, от 30 минут, 150 ₽/ч" readonly>
+        <p class="wf-muted">Изменение тарифа для действующей брони недоступно. При необходимости отмените её и создайте новую с другим тарифом.</p>
+      </div>
+      <div class="wf-field">
+        <label for="admin-book-edit-date">Дата и время начала</label>
+        <input id="admin-book-edit-date" type="datetime-local" placeholder="Дата, время">
+        <p class="wf-muted">Вы можете скорректировать время начала, пока до старта осталось достаточно времени по правилам тарифа.</p>
+      </div>
+      <div class="wf-field">
+        <label for="admin-book-edit-sector">Сектор</label>
+        <select id="admin-book-edit-sector">
+          <option value="">— выбрать сектор —</option>
+          <option value="short" selected>Краткосрочная парковка</option>
+          <option value="ovz">Места для лиц с ОВЗ</option>
+        </select>
+      </div>
+      <div class="wf-field">
+        <label for="admin-book-edit-hours">Время парковки, часы (до 24)</label>
+        <input id="admin-book-edit-hours" type="number" min="1" max="24" step="1" placeholder="1–24" aria-label="Количество часов">
+      </div>
+      <div class="wf-card">
+        <strong>Новая стоимость бронирования:</strong>
+        <span class="wf-muted">[пересчитанная сумма по новым параметрам]</span>
+      </div>
+      <p class="wf-muted">
+        Фактические условия изменения и возможные штрафы зависят от правил тарифа и времени до начала бронирования.
+      </p>
+      <div class="wf-actions">
+        <button type="submit">Сохранить изменения</button>
+      </div>
+    </form>
+  </div>
+</section>

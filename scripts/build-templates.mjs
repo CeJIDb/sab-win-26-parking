@@ -83,6 +83,7 @@ async function main() {
     { template: 'pages/admin-tariffs.njk', out: 'tariffs.html' },
     { template: 'pages/admin-contracts.njk', out: 'contracts.html' },
     { template: 'pages/admin-contracts-create.njk', out: 'contracts-create.html' },
+    { template: 'pages/admin-bookings.njk', out: 'bookings.html' },
     { template: 'pages/admin-clients.njk', out: 'clients.html' },
     { template: 'pages/admin-admins.njk', out: 'admins.html' },
     { template: 'pages/admin-debts.njk', out: 'debts.html' },
