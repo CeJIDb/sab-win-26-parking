@@ -394,6 +394,39 @@ body[data-view=mobile] .sessions-filters input[type=text] {
     flex: 1 1 100%;
   }
 }
+/* Фильтры реестра бронирований: поля в одну строку, кнопки — на следующей по левому краю */
+.bookings-filters .filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem 1.25rem;
+  min-width: 0;
+}
+
+.bookings-filters .wf-field {
+  flex: 1 1 0;
+  min-width: 5rem;
+  max-width: 14rem;
+}
+
+/* Чтобы поля (в т.ч. Статус) не вылезали за контейнер */
+.bookings-filters .wf-field input[type=text],
+.bookings-filters .wf-field input[type=date],
+.bookings-filters .wf-field select {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bookings-filters .filter-actions {
+  flex: 0 0 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
 .wf-field label {
   display: block;
   margin-bottom: 0.25em;
