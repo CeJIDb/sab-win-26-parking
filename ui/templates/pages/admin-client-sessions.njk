@@ -1,8 +1,10 @@
 {% extends "layouts/admin.njk" %}
 {% block title %}История парковочных сессий — ЛК админа{% endblock %}
-{% block header_subtitle %}История парковочных сессий клиента{% endblock %}
 {% block content %}
-  <h2>История сессий по номеру А123БВ777</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>История сессий по номеру А123БВ777</h2>
+  </div>
 <p class="wf-muted">Статический пример страницы истории сессий для выбранного клиента и номера ТС. В реальной системе фильтры и данные заполняются автоматически по параметру запроса.</p>
 
 <section class="wf-section">
@@ -46,13 +48,13 @@
     <table class="wf-table">
       <thead>
         <tr>
-          <th>Дата и время</th>
-          <th>КПП</th>
-          <th>ГРЗ</th>
-          <th>Направление</th>
-          <th>Статус</th>
-          <th>Основание</th>
-          <th>Комментарий</th>
+          <th scope="col">Дата и время</th>
+          <th scope="col">КПП</th>
+          <th scope="col">ГРЗ</th>
+          <th scope="col">Направление</th>
+          <th scope="col">Статус</th>
+          <th scope="col">Основание</th>
+          <th scope="col">Комментарий</th>
         </tr>
       </thead>
       <tbody>

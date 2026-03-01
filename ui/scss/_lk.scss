@@ -76,10 +76,95 @@
   @include tokens.wf-panel;
 }
 
-/* Table placeholder */
+/* Карточка с акцентом — долг к оплате (2.2) */
+.wf-card--attention {
+  border: 2px solid #a00;
+  background: #fff5f5;
+}
+
+.wf-badge--attention {
+  background: #a00;
+  color: #fff;
+  border-color: #800;
+}
+
+/* Секция выхода (2.1) */
+.wf-section--logout {
+  padding-top: 0.5rem;
+  border: none;
+  background: transparent;
+}
+
+/* Вторичная кнопка */
+.wf-btn-secondary,
+a.wf-btn-secondary {
+  background: var(--wf-bg);
+  border-color: var(--wf-muted);
+  color: var(--wf-text);
+}
+
+.wf-btn-secondary:hover,
+a.wf-btn-secondary:hover {
+  background: var(--wf-muted);
+  color: #fff;
+}
+
+/* Details/summary — сворачиваемый блок (2.3) */
+.wf-details {
+  border: var(--wf-border);
+  background: var(--wf-block);
+  padding: 0;
+  margin-bottom: var(--wf-gap);
+}
+
+.wf-details__summary {
+  padding: var(--wf-pad);
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::before {
+    content: "▶ ";
+    font-size: 0.7em;
+    vertical-align: 0.05em;
+  }
+}
+
+.wf-details[open] .wf-details__summary::before {
+  content: "▼ ";
+}
+
+.wf-details__content {
+  padding: 0 var(--wf-pad) var(--wf-pad);
+  border-top: var(--wf-border);
+}
+
+/* Table placeholder; 6.2: скролл на узких экранах */
 .wf-table-wrap {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border: var(--wf-border);
+}
+
+@media (max-width: 640px) {
+  .wf-table-wrap {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* 6.1: зона нажатия для кнопок/ссылок в таблицах (мобильные) */
+.wf-table td .wf-btn,
+.wf-table td a.wf-btn {
+  min-height: 44px;
+  padding: 0.35em 0.75em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .wf-filters {
@@ -221,6 +306,10 @@
 
 .wf-header__notifications-icon {
   font-size: 1.1rem;
+}
+
+.wf-header__subtitle:empty {
+  display: none;
 }
 
 /* Бургер-меню для ЛК клиента (мобильная навигация) */
@@ -444,5 +533,54 @@ body[data-view='mobile']:not([data-nav='open']) .wf-nav--lk ul {
 
 body[data-nav='open'] .wf-nav--lk ul {
   display: flex;
+}
+
+/* Мобильная навигация админки (аналогично ЛК клиента) */
+@media (max-width: 640px) {
+  .wf-burger {
+    display: inline-flex;
+  }
+
+  body:not([data-nav='open']) .wf-nav-wrap--admin .wf-nav ul {
+    display: none;
+  }
+
+  body[data-nav='open'] .wf-nav-wrap--admin .wf-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .wf-nav-wrap--admin .wf-nav li {
+    width: 100%;
+  }
+
+  .wf-nav-wrap--admin .wf-nav a {
+    display: block;
+    padding: 0.45rem 0.25rem;
+  }
+}
+
+body[data-view='mobile'] .wf-burger {
+  display: inline-flex;
+}
+
+body[data-view='mobile']:not([data-nav='open']) .wf-nav-wrap--admin .wf-nav ul {
+  display: none;
+}
+
+body[data-view='mobile'][data-nav='open'] .wf-nav-wrap--admin .wf-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+body[data-view='mobile'] .wf-nav-wrap--admin .wf-nav li {
+  width: 100%;
+}
+
+body[data-view='mobile'] .wf-nav-wrap--admin .wf-nav a {
+  display: block;
+  padding: 0.45rem 0.25rem;
 }
 

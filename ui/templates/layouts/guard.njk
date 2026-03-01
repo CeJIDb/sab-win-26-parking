@@ -10,6 +10,7 @@
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
     {% include "partials/guard-header.njk" %}
+    {% block header_subtitle %}{% endblock %}
     {% set role = "operator" %}
     {% set nav_current = current_nav|default('') %}
     {% include "partials/nav-role.njk" %}
@@ -17,6 +18,30 @@
       {% block content %}{% endblock %}
     </main>
   </div>
+  <script>
+    (function () {
+      // Закрытие модалки: вернуться к предыдущей странице или прошлой модалке (history.back)
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на панель КПП
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'index.html';
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

@@ -34,61 +34,31 @@
 <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
   <p class="wf-nav-current" tabindex="0" role="button">
     
-      Бронирование
+      Навигация
     
   </p>
   <ul>
-    <li><a href="dashboard.html">Главная</a></li>
-    <li><a href="bookings.html" aria-current="page">Бронирование</a></li>
-    <li><a href="contracts.html">Договоры</a></li>
-    <li><a href="sessions-history.html">История сессий</a></li>
-    <li><a href="vehicles.html">Список ТС</a></li>
+    <li><a href="dashboard.html">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
-    <li><a href="appeals.html">Обращения</a></li>
     <li><a href="profile.html">Профиль</a></li>
   </ul>
 </nav>
 
     <main id="main-content" class="wf-main">
       
-  <h2>Управление бронированием</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление бронированием</h2>
+  </div>
   <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
-  <section class="wf-section">
-    <h3>Мои бронирования</h3>
+
+  <section class="wf-section" aria-labelledby="bookings-active-heading">
+    <h3 id="bookings-active-heading">Активные бронирования</h3>
     <div class="wf-actions">
       <a href="#booking-create-modal" class="wf-btn">Создать бронирование</a>
     </div>
-    <form class="wf-form sessions-filters bookings-filters wf-filters" aria-label="Фильтры по бронированиям">
-      <div class="filters-row">
-        <div class="wf-field">
-          <label for="filter-booking-date-from">С</label>
-          <input id="filter-booking-date-from" type="date" aria-label="Дата начала периода бронирования">
-        </div>
-        <div class="wf-field">
-          <label for="filter-booking-date-to">По</label>
-          <input id="filter-booking-date-to" type="date" aria-label="Дата окончания периода бронирования">
-        </div>
-        <div class="wf-field">
-          <label for="filter-booking-search">Номер / дата брони</label>
-          <input id="filter-booking-search" type="text" placeholder="Например, #1 или 25.02.2026">
-        </div>
-        <div class="wf-field">
-          <label for="filter-booking-status">Статус</label>
-          <select id="filter-booking-status" aria-label="Статус бронирования">
-            <option value="">Любой</option>
-            <option value="confirmed">Подтверждена</option>
-            <option value="pending">Ожидает оплаты</option>
-            <option value="completed">Завершена</option>
-            <option value="cancelled">Отменена</option>
-          </select>
-        </div>
-        <div class="filter-actions">
-          <button type="button">Применить</button>
-          <button type="button">Сброс</button>
-        </div>
-      </div>
-    </form>
-    <div class="wf-table-wrap" role="region" aria-label="Список бронирований">
+    <p class="wf-muted">Подтверждённые и ожидающие оплаты бронирования. Завершённые и отменённые — в блоке «История бронирований» ниже.</p>
+    <div class="wf-table-wrap" role="region" aria-label="Активные бронирования">
       <table class="wf-table">
         <thead>
           <tr>
@@ -96,6 +66,7 @@
             <th scope="col">Период</th>
             <th scope="col">Сектор / ПМ</th>
             <th scope="col">Тариф</th>
+            <th scope="col">Сумма</th>
             <th scope="col">Статус</th>
             <th scope="col">Действия</th>
           </tr>
@@ -106,6 +77,7 @@
             <td>27.02.2026 19:00–22:00</td>
             <td>Сектор A</td>
             <td>Почасовой A</td>
+            <td>—</td>
             <td><span class="wf-badge">Подтверждена</span></td>
             <td>
               <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
@@ -117,6 +89,7 @@
             <td>28.02.2026 08:00–10:00</td>
             <td>Сектор B</td>
             <td>Почасовой B</td>
+            <td>450 ₽</td>
             <td><span class="wf-badge">Ожидает оплаты</span> — <a href="payment-external.html">Оплатить</a></td>
             <td>
               <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
@@ -124,37 +97,87 @@
             </td>
           </tr>
           <tr>
-            <td>#3</td>
-            <td>26.02.2026 20:00–23:00</td>
-            <td>Сектор C</td>
-            <td>Почасовой C</td>
-            <td><span class="wf-badge">Завершена</span></td>
-            <td>—</td>
-          </tr>
-          <tr>
             <td>#4</td>
             <td>01.02.2026–28.02.2026 (договор)</td>
             <td>Сектор Б, ПМ 201</td>
             <td>Долгосрочная (договор Д‑045)</td>
+            <td>—</td>
             <td><span class="wf-badge">Подтверждена</span></td>
             <td>
               <a href="#contract-edit-modal" class="wf-btn">Изменить</a>
-            </td>
-          </tr>
-          <tr>
-            <td>#5</td>
-            <td>15.02.2026 09:00–12:00</td>
-            <td>Сектор A</td>
-            <td>Почасовой A</td>
-            <td><span class="wf-badge">Отменена</span></td>
-            <td>
-              <a href="#booking-edit-modal" class="wf-btn">Изменить</a>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
+
+  <section class="wf-section" aria-labelledby="bookings-history-heading">
+    <h3 id="bookings-history-heading">История бронирований</h3>
+    <p class="wf-muted">Завершённые, отменённые и просроченные бронирования.</p>
+    <form class="wf-form bookings-filters wf-filters" aria-label="Фильтры по истории бронирований">
+      <div class="filters-row">
+        <div class="wf-field">
+          <label for="filter-history-booking-date-from">Период с</label>
+          <input id="filter-history-booking-date-from" type="date" aria-label="Дата начала периода">
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-booking-date-to">по</label>
+          <input id="filter-history-booking-date-to" type="date" aria-label="Дата окончания периода">
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-booking-search">Номер / дата брони</label>
+          <input id="filter-history-booking-search" type="text" placeholder="Например, #3 или 26.02.2026">
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-booking-status">Статус</label>
+          <select id="filter-history-booking-status" aria-label="Статус в истории">
+            <option value="">Все</option>
+            <option value="completed">Завершена</option>
+            <option value="cancelled">Отменена</option>
+          </select>
+        </div>
+        <div class="filter-actions">
+          <button type="button">Применить</button>
+          <button type="button">Сброс</button>
+        </div>
+      </div>
+    </form>
+    <div class="wf-table-wrap" role="region" aria-label="История бронирований">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th scope="col">Бронирование</th>
+            <th scope="col">Период</th>
+            <th scope="col">Сектор / ПМ</th>
+            <th scope="col">Тариф</th>
+            <th scope="col">Сумма</th>
+            <th scope="col">Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#3</td>
+            <td>26.02.2026 20:00–23:00</td>
+            <td>Сектор C</td>
+            <td>Почасовой C</td>
+            <td>320 ₽</td>
+            <td><span class="wf-badge">Завершена</span></td>
+          </tr>
+          <tr>
+            <td>#5</td>
+            <td>15.02.2026 09:00–12:00</td>
+            <td>Сектор A</td>
+            <td>Почасовой A</td>
+            <td>—</td>
+            <td><span class="wf-badge">Отменена</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="wf-muted">Для почасовых бронирований в истории указана оплаченная сумма. Для отменённых сумма не применяется (—). По договору — оплата по договору, в блоке активных «Сумма» только при статусе «Ожидает оплаты».</p>
+  </section>
+
   <section id="booking-create-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-create-title">
   <div class="wf-modal__dialog wf-section">
     <header class="wf-modal__header">
@@ -169,7 +192,7 @@
           <option value="A123BV777">А123БВ777 — Легковой</option>
           <option value="B456GD199">В456ГД199 — Мотоцикл</option>
         </select>
-        <p class="wf-muted">Список из раздела <a href="vehicles.html">Список ТС</a>. Добавьте ТС, если нужного нет.</p>
+        <p class="wf-muted">Список ТС можно добавить в <a href="profile.html#profile-vehicles-modal">Профиле</a>. Добавьте ТС, если нужного нет.</p>
       </div>
       <div class="wf-field">
         <label for="book-tariff">Тариф</label>
@@ -508,6 +531,27 @@
           });
         }
       }
+
+      // Закрытие модалки: вернуться к предыдущему модальному окну (history.back) или к странице
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на главную (1.2)
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'dashboard.html';
+          }
+        });
+      });
     })();
   </script>
 </body>

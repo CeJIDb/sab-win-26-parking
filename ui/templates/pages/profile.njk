@@ -2,82 +2,61 @@
 
 {% set current_nav = 'profile' %}
 
-{% block title %}Настройки профиля — ЛК клиента{% endblock %}
+{% block title %}Профиль — ЛК клиента{% endblock %}
 
 {% block content %}
-  <h2>Настройки профиля</h2>
-  <form class="wf-form">
-    <div class="wf-field wf-field--inline-control">
-      <label for="prof-phone">Текущий телефон</label>
-      <div class="wf-inline">
-        <input id="prof-phone" type="tel" placeholder="+7 …" readonly>
-        <a href="#phone-change-modal" class="wf-btn-link">Изменить номер</a>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Профиль</h2>
+  </div>
+
+  <section class="wf-section" aria-labelledby="profile-data-heading">
+    <h3 id="profile-data-heading">Данные и настройки</h3>
+    <div class="wf-grid wf-grid--two">
+      <div class="wf-card">
+        <p><strong>Телефон:</strong> +7 900 123-45-67</p>
+        <p><strong>E-mail:</strong> ivanov@example.com</p>
+        <p><strong>ФИО:</strong> Иванов Иван Иванович</p>
       </div>
-    </div>
-    <div class="wf-field wf-field--inline-control">
-      <label for="prof-email">E-mail</label>
-      <div class="wf-inline">
-        <input id="prof-email" type="email" placeholder="email@example.com" readonly>
-        <a href="#email-change-modal" class="wf-btn-link">Изменить e-mail</a>
+      <div class="wf-card">
+        <p><strong>Паспортные данные:</strong> <span class="wf-badge">Добавлены</span></p>
+        <p><strong>Категория:</strong> Льготная (ОВЗ)</p>
       </div>
-    </div>
-    <div class="wf-field">
-      <a href="#password-change-modal" class="wf-btn">Изменить пароль</a>
-    </div>
-    <div class="wf-field">
-      <label for="prof-last-name">Фамилия</label>
-      <input id="prof-last-name" type="text" placeholder="Иванов">
-    </div>
-    <div class="wf-field">
-      <label for="prof-first-name">Имя</label>
-      <input id="prof-first-name" type="text" placeholder="Иван">
-    </div>
-    <div class="wf-field">
-      <label for="prof-middle-name">Отчество (необязательно)</label>
-      <input id="prof-middle-name" type="text" placeholder="Иванович">
-    </div>
-    <div class="wf-field">
-      <a href="#passport-modal" class="wf-btn">Паспортные данные</a>
-    </div>
-    <h3>Настройки уведомлений</h3>
-    <div class="wf-field wf-field--checkbox">
-      <label for="notify-sessions">
-        <input id="notify-sessions" type="checkbox" checked>
-        <span>О парковочных сессиях: въезд/выезд, превышение времени, блокировки доступа</span>
-      </label>
-    </div>
-    <div class="wf-field wf-field--checkbox">
-      <label for="notify-bookings">
-        <input id="notify-bookings" type="checkbox" checked>
-        <span>О бронированиях: создание, изменение, отмена, напоминания перед началом</span>
-      </label>
-    </div>
-    <div class="wf-field wf-field--checkbox">
-      <label for="notify-contracts">
-        <input id="notify-contracts" type="checkbox" checked>
-        <span>О договорах: активация, продление, истечение срока, наличие задолженности</span>
-      </label>
-    </div>
-    <div class="wf-field wf-field--checkbox">
-      <label for="notify-payments">
-        <input id="notify-payments" type="checkbox" checked>
-        <span>Об оплатах и счетах: новые счета к оплате, успешные и отклонённые платежи</span>
-      </label>
-    </div>
-    <div class="wf-field wf-field--checkbox">
-      <label for="notify-marketing">
-        <input id="notify-marketing" type="checkbox">
-        <span>Маркетинговые рассылки: акции, новости парковки и партнёров</span>
-      </label>
     </div>
     <div class="wf-actions">
-      <button type="submit">Сохранить</button>
-      <a href="../site/login.html" class="wf-btn">Выход</a>
+      <a href="#profile-edit-modal" class="wf-btn">Изменить данные</a>
+      <a href="#password-change-modal" class="wf-btn">Изменить пароль</a>
+      <a href="#profile-settings-modal" class="wf-btn">Настройки</a>
+      <a href="#profile-vehicles-modal" class="wf-btn">Список ТС</a>
     </div>
-  </form>
+  </section>
 
+  <section class="wf-section" aria-labelledby="profile-support-heading">
+    <h3 id="profile-support-heading">Поддержка</h3>
+    <div class="wf-actions">
+      <a href="#profile-appeals-modal" class="wf-btn">Мои обращения</a>
+      <a href="#appeal-create-modal" class="wf-btn">Написать в поддержку</a>
+      <a href="tel:+78001234567" class="wf-btn">Позвонить в поддержку</a>
+      <a href="../site/index.html#faq" class="wf-btn">FAQ</a>
+    </div>
+  </section>
+
+  <section class="wf-section wf-section--logout">
+    <a href="../site/login.html" class="wf-btn wf-btn-secondary">Выйти</a>
+  </section>
+
+  {% include "partials/profile-edit-modal.njk" %}
+  {% include "partials/profile-passport-confirm-modal.njk" %}
   {% include "partials/profile-phone-modal.njk" %}
   {% include "partials/profile-email-modal.njk" %}
   {% include "partials/profile-password-modal.njk" %}
   {% include "partials/profile-passport-modal.njk" %}
+  {% include "partials/profile-settings-modal.njk" %}
+  {% include "partials/profile-vehicles-modal.njk" %}
+  {% include "partials/profile-appeals-modal.njk" %}
+  {% include "partials/appeal-details-modal.njk" %}
+  {% include "partials/vehicles-add-modal.njk" %}
+  {% include "partials/vehicles-edit-modal.njk" %}
+  {% include "partials/vehicles-delete-modal.njk" %}
+  {% include "partials/appeal-create-modal.njk" %}
 {% endblock %}

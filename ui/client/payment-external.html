@@ -38,20 +38,18 @@
     
   </p>
   <ul>
-    <li><a href="dashboard.html">Главная</a></li>
-    <li><a href="bookings.html">Бронирование</a></li>
-    <li><a href="contracts.html">Договоры</a></li>
-    <li><a href="sessions-history.html">История сессий</a></li>
-    <li><a href="vehicles.html">Список ТС</a></li>
+    <li><a href="dashboard.html">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
-    <li><a href="appeals.html">Обращения</a></li>
     <li><a href="profile.html">Профиль</a></li>
   </ul>
 </nav>
 
     <main id="main-content" class="wf-main">
       
-  <h2>Оплата счёта</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Оплата счёта</h2>
+  </div>
   <p class="wf-muted">
     Для оплаты мы перенаправим вас во внешний платёжный сервис партнёра.
     После успешной оплаты статус счёта и история платежей обновятся в личном кабинете автоматически.
@@ -68,8 +66,8 @@
       через платёжный шлюз банка/агрегатора»), а также юридически значимая информация о приёме платежей.
     </p>
     <div class="wf-actions">
-      <button type="button">Перейти к оплате во внешнем сервисе</button>
-      <a href="payment-settings.html" class="wf-btn">Вернуться к списку счетов</a>
+      <a href="#" class="wf-btn">Перейти к оплате во внешнем сервисе</a>
+      <a href="payment-settings.html" class="wf-btn wf-btn-secondary">Вернуться к списку счетов</a>
     </div>
   </section>
 
@@ -175,6 +173,27 @@
           });
         }
       }
+
+      // Закрытие модалки: вернуться к предыдущему модальному окну (history.back) или к странице
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на главную (1.2)
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'dashboard.html';
+          }
+        });
+      });
     })();
   </script>
 </body>

@@ -3,7 +3,10 @@
 {% block title %}Оплата через платёжный сервис — ЛК клиента{% endblock %}
 
 {% block content %}
-  <h2>Оплата счёта</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Оплата счёта</h2>
+  </div>
   <p class="wf-muted">
     Для оплаты мы перенаправим вас во внешний платёжный сервис партнёра.
     После успешной оплаты статус счёта и история платежей обновятся в личном кабинете автоматически.
@@ -20,8 +23,8 @@
       через платёжный шлюз банка/агрегатора»), а также юридически значимая информация о приёме платежей.
     </p>
     <div class="wf-actions">
-      <button type="button">Перейти к оплате во внешнем сервисе</button>
-      <a href="payment-settings.html" class="wf-btn">Вернуться к списку счетов</a>
+      <a href="#" class="wf-btn">Перейти к оплате во внешнем сервисе</a>
+      <a href="payment-settings.html" class="wf-btn wf-btn-secondary">Вернуться к списку счетов</a>
     </div>
   </section>
 {% endblock %}

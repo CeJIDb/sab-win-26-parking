@@ -33,6 +33,18 @@
       </p>
     </footer>
   </div>
+  <script>
+    (function () {
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

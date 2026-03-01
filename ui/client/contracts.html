@@ -34,60 +34,30 @@
 <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
   <p class="wf-nav-current" tabindex="0" role="button">
     
-      Договоры
+      Навигация
     
   </p>
   <ul>
-    <li><a href="dashboard.html">Главная</a></li>
-    <li><a href="bookings.html">Бронирование</a></li>
-    <li><a href="contracts.html" aria-current="page">Договоры</a></li>
-    <li><a href="sessions-history.html">История сессий</a></li>
-    <li><a href="vehicles.html">Список ТС</a></li>
+    <li><a href="dashboard.html">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
-    <li><a href="appeals.html">Обращения</a></li>
     <li><a href="profile.html">Профиль</a></li>
   </ul>
 </nav>
 
     <main id="main-content" class="wf-main">
       
-  <h2>Управление договорами</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление договорами</h2>
+  </div>
 
-  <section class="wf-section">
-    <h3>Мои договоры</h3>
+  <section class="wf-section" aria-labelledby="contracts-active-heading">
+    <h3 id="contracts-active-heading">Активные договоры</h3>
     <div class="wf-actions">
       <a href="contracts-create.html" class="wf-btn">Создать договор</a>
     </div>
-    <form class="wf-form sessions-filters wf-filters" aria-label="Фильтры по договорам">
-      <div class="filters-row">
-        <div class="wf-field">
-          <label for="filter-contract-number">Номер договора</label>
-          <input id="filter-contract-number" type="text" placeholder="Например, 1001">
-        </div>
-        <div class="wf-field">
-          <label for="filter-contract-status">Статус</label>
-          <select id="filter-contract-status">
-            <option value="">Все статусы</option>
-            <option value="active">Активен</option>
-            <option value="pending">На оформлении</option>
-            <option value="closed">Завершён</option>
-          </select>
-        </div>
-        <div class="wf-field">
-          <label for="filter-contract-debt">Наличие задолженности</label>
-          <select id="filter-contract-debt">
-            <option value="">Не учитывать</option>
-            <option value="no-debt">Без задолженности</option>
-            <option value="has-debt">Есть задолженность</option>
-          </select>
-        </div>
-        <div class="filter-actions">
-          <button type="button">Применить</button>
-          <button type="button">Сбросить</button>
-        </div>
-      </div>
-    </form>
-    <div class="wf-table-wrap" role="region" aria-label="Список договоров">
+    <p class="wf-muted">Действующие договоры и договоры на оформлении. Завершённые и расторгнутые — в блоке «История договоров» ниже.</p>
+    <div class="wf-table-wrap" role="region" aria-label="Активные договоры">
       <table class="wf-table">
         <thead>
           <tr>
@@ -122,6 +92,72 @@
               <a href="#" class="wf-btn">Скачать</a>
               <a href="#contract-edit-modal" class="wf-btn">Изменить</a>
               <a href="#contract-terminate-modal" class="wf-btn wf-btn-secondary">Расторгнуть</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wf-section" aria-labelledby="contracts-history-heading">
+    <h3 id="contracts-history-heading">История договоров</h3>
+    <p class="wf-muted">Завершённые и расторгнутые договоры.</p>
+    <form class="wf-form wf-filters" aria-label="Фильтры по истории договоров">
+      <div class="filters-row">
+        <div class="wf-field">
+          <label for="filter-history-contract-number">Номер договора</label>
+          <input id="filter-history-contract-number" type="text" placeholder="Например, 0999">
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-contract-status">Статус</label>
+          <select id="filter-history-contract-status" aria-label="Статус в истории">
+            <option value="">Все</option>
+            <option value="closed">Завершён</option>
+            <option value="terminated">Расторгнут</option>
+          </select>
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-contract-date-from">Период с</label>
+          <input id="filter-history-contract-date-from" type="date" aria-label="Дата начала периода действия">
+        </div>
+        <div class="wf-field">
+          <label for="filter-history-contract-date-to">по</label>
+          <input id="filter-history-contract-date-to" type="date" aria-label="Дата окончания периода">
+        </div>
+        <div class="filter-actions">
+          <button type="button">Применить</button>
+          <button type="button">Сбросить</button>
+        </div>
+      </div>
+    </form>
+    <div class="wf-table-wrap" role="region" aria-label="История договоров">
+      <table class="wf-table">
+        <thead>
+          <tr>
+            <th scope="col">Договор</th>
+            <th scope="col">Период</th>
+            <th scope="col">Статус</th>
+            <th scope="col">ТС / ПМ</th>
+            <th scope="col">Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>№0999</td>
+            <td>01.06.2025–31.12.2025</td>
+            <td><span class="wf-badge">Завершён</span></td>
+            <td>1 ТС, 1 ПМ</td>
+            <td>
+              <a href="#" class="wf-btn" aria-label="Скачать сканы договора №0999">Скачать</a>
+            </td>
+          </tr>
+          <tr>
+            <td>№0998</td>
+            <td>01.03.2025–15.05.2025</td>
+            <td><span class="wf-badge">Расторгнут</span></td>
+            <td>1 ТС, 1 ПМ</td>
+            <td>
+              <a href="#" class="wf-btn" aria-label="Скачать сканы договора №0998">Скачать</a>
             </td>
           </tr>
         </tbody>
@@ -187,37 +223,38 @@
 </section>
 
   <section id="contract-terminate-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="contract-terminate-title">
-    <div class="wf-modal__dialog wf-section">
-      <header class="wf-modal__header">
-        <h3 id="contract-terminate-title">Расторжение договора №1001</h3>
-        <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
-      </header>
-      <form class="wf-form">
-        <p class="wf-notice">
-          <strong>Юридически значимое действие.</strong> Фактическое расторжение договора выполняется управляющей компанией на основании поданной заявки.
+  <div class="wf-modal__dialog wf-section">
+    <header class="wf-modal__header">
+      <h3 id="contract-terminate-title">Расторжение договора №1001</h3>
+      <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+    </header>
+    <form class="wf-form">
+      <p class="wf-notice">
+        <strong>Юридически значимое действие.</strong> Фактическое расторжение договора выполняется управляющей компанией на основании поданной заявки.
+      </p>
+      <div class="wf-card">
+        <p><strong>Что произойдёт после отправки заявки</strong></p>
+        <p class="wf-muted">
+          Заявка на расторжение будет передана управляющему парковкой. После проверки задолженности и отсутствия активных бронирований/парковочных сессий договор будет расторгнут, доступ на парковку по данному договору будет прекращён, а излишне уплаченные суммы (при наличии) могут быть возвращены согласно условиям договора.
         </p>
-        <div class="wf-card">
-          <p><strong>Что произойдёт после отправки заявки</strong></p>
-          <p class="wf-muted">
-            Заявка на расторжение будет передана управляющему парковкой. После проверки задолженности и отсутствия активных бронирований/парковочных сессий договор будет расторгнут, доступ на парковку по данному договору будет прекращён, а излишне уплаченные суммы (при наличии) могут быть возвращены согласно условиям договора.
-          </p>
-        </div>
-        <div class="wf-field">
-          <label for="contract-terminate-reason">Причина расторжения</label>
-          <textarea id="contract-terminate-reason" rows="3" placeholder="Кратко опишите причину расторжения договора (например, смена ТС, прекращение пользования парковкой)"></textarea>
-        </div>
-        <div class="wf-checkbox-group">
-          <label class="wf-checkbox">
-            <input type="checkbox" required>
-            Подтверждаю, что ознакомлен(а) с условиями расторжения и прошу направить заявку управляющему
-          </label>
-        </div>
-        <div class="wf-actions">
-          <button type="submit">Отправить заявку на расторжение</button>
-        </div>
-      </form>
-    </div>
-  </section>
+      </div>
+      <div class="wf-field">
+        <label for="contract-terminate-reason">Причина расторжения</label>
+        <textarea id="contract-terminate-reason" rows="3" placeholder="Кратко опишите причину расторжения договора (например, смена ТС, прекращение пользования парковкой)"></textarea>
+      </div>
+      <div class="wf-checkbox-group">
+        <label class="wf-checkbox">
+          <input type="checkbox" required>
+          Подтверждаю, что ознакомлен(а) с условиями расторжения и прошу направить заявку управляющему
+        </label>
+      </div>
+      <div class="wf-actions">
+        <button type="submit">Отправить заявку на расторжение</button>
+      </div>
+    </form>
+  </div>
+</section>
+
 
     </main>
     <footer class="wf-footer">
@@ -321,6 +358,27 @@
           });
         }
       }
+
+      // Закрытие модалки: вернуться к предыдущему модальному окну (history.back) или к странице
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на главную (1.2)
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'dashboard.html';
+          }
+        });
+      });
     })();
   </script>
 </body>

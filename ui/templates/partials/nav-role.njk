@@ -2,7 +2,7 @@
 {% set current = nav_current | default('') %}
 
 {% if role == 'admin' %}
-<nav class="wf-nav" aria-label="Навигация ЛК администратора">
+<nav class="wf-nav wf-nav--admin" aria-label="Навигация ЛК администратора">
   <ul>
     <li><a href="index.html"{% if current == 'admin-index' %} aria-current="page"{% endif %}>Главная</a></li>
     <li><a href="sectors.html"{% if current == 'admin-sectors' %} aria-current="page"{% endif %}>Секторы и ПМ</a></li>
@@ -29,6 +29,7 @@
   <ul>
     <li><a href="index.html"{% if current == 'guard-index' %} aria-current="page"{% endif %}>КПП — панель</a></li>
     <li><a href="log.html"{% if current == 'guard-log' %} aria-current="page"{% endif %}>Журнал въезда‑выезда</a></li>
+    <li><a href="profile.html"{% if current == 'guard-profile' %} aria-current="page"{% endif %}>Профиль</a></li>
   </ul>
 </nav>
 {% endif %}

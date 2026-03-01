@@ -1,9 +1,11 @@
 {% extends "layouts/admin.njk" %}
 {% set current_nav = 'admin-requests' %}
 {% block title %}Обращения — ЛК админа{% endblock %}
-{% block header_subtitle %}Обращения и инциденты{% endblock %}
 {% block content %}
-  <h2>Обращения и инциденты</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Обращения и инциденты</h2>
+  </div>
 <!-- WF-11: Обращения управляющего (П. 3 — работа с обращениями, поиск по обращениям и инцидентам) -->
 
 <section class="wf-section">
@@ -41,14 +43,14 @@
     <table class="wf-table">
       <thead>
         <tr>
-          <th>ID</th>
-          <th>Клиент</th>
-          <th>Тип</th>
-          <th>Тема</th>
-          <th>Дата и время</th>
-          <th>Статус</th>
-          <th>Источник</th>
-          <th>Действия</th>
+          <th scope="col">ID</th>
+          <th scope="col">Клиент</th>
+          <th scope="col">Тип</th>
+          <th scope="col">Тема</th>
+          <th scope="col">Дата и время</th>
+          <th scope="col">Статус</th>
+          <th scope="col">Источник</th>
+          <th scope="col">Действия</th>
         </tr>
       </thead>
       <tbody>

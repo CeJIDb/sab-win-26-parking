@@ -1,9 +1,11 @@
 {% extends "layouts/admin.njk" %}
 {% set current_nav = 'admin-clients' %}
 {% block title %}Профили клиентов — ЛК админа{% endblock %}
-{% block header_subtitle %}Профили клиентов{% endblock %}
 {% block content %}
-  <h2>Управление профилями клиентов</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление профилями клиентов</h2>
+  </div>
 
 <section class="wf-section">
   <h3>Реестр клиентов</h3>
@@ -43,13 +45,13 @@
     <table class="wf-table">
       <thead>
         <tr>
-          <th>Клиент</th>
-          <th>Контакты</th>
-          <th>Статус доступа</th>
-          <th>Задолженность</th>
-          <th>ТС</th>
-          <th>Активные договоры</th>
-          <th>Действия</th>
+          <th scope="col">Клиент</th>
+          <th scope="col">Контакты</th>
+          <th scope="col">Статус доступа</th>
+          <th scope="col">Задолженность</th>
+          <th scope="col">ТС</th>
+          <th scope="col">Активные договоры</th>
+          <th scope="col">Действия</th>
         </tr>
       </thead>
       <tbody>

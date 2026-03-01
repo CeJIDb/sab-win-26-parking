@@ -3,16 +3,19 @@
 {% set current_nav = 'admin-contracts' %}
 
 {% block title %}Создать договор — ЛК админа{% endblock %}
-{% block header_subtitle %}Оформление договора для клиента{% endblock %}
 
 {% block content %}
-  <h2>Создать договор для клиента</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Создать договор для клиента</h2>
+  </div>
   <p class="wf-muted">
     Администратор заполняет данные договора и формирует документ для подписания. Часть параметров может быть
     предзаполнена по профилю клиента и выбранным тарифам.
   </p>
 
   <form class="wf-form">
+    <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
     <div class="wf-field wf-field--inline-control">
       <label for="admin-contract-client">Клиент</label>
       <div class="wf-inline">

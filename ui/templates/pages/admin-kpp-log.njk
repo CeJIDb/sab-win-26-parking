@@ -3,9 +3,11 @@
 {% set current_nav = 'admin-kpp-log' %}
 
 {% block title %}КПП — журнал въезда‑выезда (ЛК администратора){% endblock %}
-{% block header_subtitle %}Интерфейс КПП — журнал событий, просмотр администратора{% endblock %}
 
 {% block content %}
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+  </div>
   {% include "partials/guard-log-content.njk" %}
 {% endblock %}
 

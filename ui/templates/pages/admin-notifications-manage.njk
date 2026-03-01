@@ -5,7 +5,10 @@
 {% block title %}Управление уведомлениями — ЛК администратора{% endblock %}
 
 {% block content %}
-  <h2>Управление уведомлениями</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление уведомлениями</h2>
+  </div>
 
   <section class="wf-section">
     <h3>Формирование и отправка уведомления</h3>
@@ -114,12 +117,12 @@
       <table class="wf-table">
         <thead>
           <tr>
-            <th>Дата и время</th>
-            <th>Заголовок</th>
-            <th>Целевая аудитория</th>
-            <th>Каналы</th>
-            <th>Статус отправки</th>
-            <th>Статистика</th>
+            <th scope="col">Дата и время</th>
+            <th scope="col">Заголовок</th>
+            <th scope="col">Целевая аудитория</th>
+            <th scope="col">Каналы</th>
+            <th scope="col">Статус отправки</th>
+            <th scope="col">Статистика</th>
           </tr>
         </thead>
         <tbody>

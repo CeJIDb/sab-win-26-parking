@@ -35,23 +35,25 @@
 
     <main id="main-content" class="wf-main">
       
-  <h2>Вход в личный кабинет клиента</h2>
-  <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
-  <form class="wf-form" action="../client/dashboard.html" method="get">
-    <div class="wf-field">
-      <label for="login-username">Логин (телефон или e-mail)</label>
-      <input id="login-username" type="text" placeholder="Телефон или e-mail" required>
-    </div>
-    <div class="wf-field">
-      <label for="login-password">Пароль</label>
-      <input id="login-password" type="password" placeholder="Пароль" required>
-    </div>
-    <div class="wf-actions">
-      <button type="submit">Войти</button>
-      <a href="register.html" class="wf-btn">Регистрация</a>
-      <a href="#restore-access-modal" class="wf-btn">Забыли пароль?</a>
-    </div>
-  </form>
+  <section class="wf-section" aria-labelledby="login-heading">
+    <h2 id="login-heading">Вход в личный кабинет клиента</h2>
+    <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
+    <form class="wf-form" action="../client/dashboard.html" method="get">
+      <div class="wf-field">
+        <label for="login-username">Логин (телефон или e-mail)</label>
+        <input id="login-username" type="text" placeholder="Телефон или e-mail" required>
+      </div>
+      <div class="wf-field">
+        <label for="login-password">Пароль</label>
+        <input id="login-password" type="password" placeholder="Пароль" required>
+      </div>
+      <div class="wf-actions">
+        <button type="submit" class="wf-btn">Войти</button>
+        <a href="register.html" class="wf-btn wf-btn-secondary">Регистрация</a>
+        <a href="#restore-access-modal" class="wf-btn wf-btn-secondary">Забыли пароль?</a>
+      </div>
+    </form>
+  </section>
 
   <section id="restore-access-modal" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="restore-access-title">
     <div class="wf-modal__dialog wf-section">
@@ -85,10 +87,10 @@
     </div>
   </section>
 
-  <section class="wf-section">
-    <h3>Вход через SSO</h3>
+  <section class="wf-section" aria-labelledby="login-sso-heading">
+    <h3 id="login-sso-heading">Вход через SSO</h3>
     <p class="wf-muted">Яндекс ID / VK ID / MAX — по карте навигации.</p>
-    <p><button type="button">Яндекс ID</button> <button type="button">VK ID</button> <button type="button">MAX</button></p>
+    <p class="wf-actions"><button type="button" class="wf-btn wf-btn-secondary">Яндекс ID</button> <button type="button" class="wf-btn wf-btn-secondary">VK ID</button> <button type="button" class="wf-btn wf-btn-secondary">MAX</button></p>
   </section>
 
     </main>
@@ -99,6 +101,18 @@
       </p>
     </footer>
   </div>
+  <script>
+    (function () {
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

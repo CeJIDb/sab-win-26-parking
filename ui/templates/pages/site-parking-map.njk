@@ -3,10 +3,10 @@
 {% block title %}Карта свободных мест — Цифровая платформа парковки{% endblock %}
 
 {% block content %}
-  <h2>Количество свободных парковочных мест</h2>
+  <h2 id="parking-map-heading">Количество свободных парковочных мест</h2>
   <!-- По Схема парковки AS-IS.md: два КПП (север, юг), зоны с типами и вместимостью, всего 600 мест -->
-  <section class="wf-section">
-    <h3>Схема парковки (AS-IS)</h3>
+  <section class="wf-section" aria-labelledby="parking-map-schema-heading">
+    <h3 id="parking-map-schema-heading">Схема парковки (AS-IS)</h3>
     <p class="wf-muted">Расположение сверху вниз: КПП север → зоны (две колонки) → КПП юг. Условные обозначения: блоки КПП — въезд/выезд; жёлтые блоки — зоны с типом и количеством мест.</p>
     <div class="wf-parking-map" role="img" aria-label="Схема парковки: КПП север и юг, зоны по типам и вместимости">
       <div class="wf-parking-map__kpp">КПП север</div>

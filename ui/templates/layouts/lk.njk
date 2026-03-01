@@ -116,6 +116,27 @@
           });
         }
       }
+
+      // Закрытие модалки: вернуться к предыдущему модальному окну (history.back) или к странице
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на главную (1.2)
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'dashboard.html';
+          }
+        });
+      });
     })();
   </script>
 </body>

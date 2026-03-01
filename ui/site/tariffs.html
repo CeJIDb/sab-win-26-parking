@@ -35,22 +35,22 @@
 
     <main id="main-content" class="wf-main">
       
-  <h2>Тарифы и условия</h2>
-  <section class="wf-section">
+  <h2 id="tariffs-heading">Тарифы и условия</h2>
+  <section class="wf-section" aria-labelledby="tariffs-heading">
     <p>На парковке действуют почасовые тарифы для разовых заездов и долгосрочные тарифы по договорам для физических и юридических лиц.</p>
     <p class="wf-muted">Информация носит справочный характер. Актуальные суммы и доступные тарифы отображаются в личном кабинете клиента.</p>
   </section>
 
-  <section class="wf-section">
-    <h3>Почасовые тарифы</h3>
+  <section class="wf-section" aria-labelledby="tariffs-hourly-heading">
+    <h3 id="tariffs-hourly-heading">Почасовые тарифы</h3>
     <div class="wf-table-wrap">
       <table class="wf-table">
         <thead>
           <tr>
-            <th>Тариф</th>
-            <th>Период действия</th>
-            <th>Описание</th>
-            <th>Стоимость</th>
+            <th scope="col">Тариф</th>
+            <th scope="col">Период действия</th>
+            <th scope="col">Описание</th>
+            <th scope="col">Стоимость</th>
           </tr>
         </thead>
         <tbody>
@@ -83,8 +83,8 @@
     </ul>
   </section>
 
-  <section class="wf-section">
-    <h3>Долгосрочные тарифы по договорам</h3>
+  <section class="wf-section" aria-labelledby="tariffs-long-heading">
+    <h3 id="tariffs-long-heading">Долгосрочные тарифы по договорам</h3>
     <p>Для клиентов, которые регулярно пользуются парковкой, доступны абонементы по договорам:</p>
     <ul>
       <li>месячные и квартальные абонементы на фиксированное парковочное место;</li>
@@ -100,8 +100,8 @@
     <p class="wf-muted">Оформление договора и подбор тарифов выполняются через личный кабинет клиента или при обращении к администратору парковки.</p>
   </section>
 
-  <section class="wf-section">
-    <h3>Льготные категории и бесплатная парковка</h3>
+  <section class="wf-section" aria-labelledby="tariffs-benefits-heading">
+    <h3 id="tariffs-benefits-heading">Льготные категории и бесплатная парковка</h3>
     <ul>
       <li>места для лиц с ограниченными возможностями здоровья выделены в отдельных зонах и обозначены разметкой;</li>
       <li>для льготных категорий граждан могут действовать специальные условия или бесплатная парковка при наличии подтверждающих документов;</li>
@@ -118,6 +118,18 @@
       </p>
     </footer>
   </div>
+  <script>
+    (function () {
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

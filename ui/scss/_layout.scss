@@ -86,6 +86,11 @@ section,
   margin-bottom: 0;
 }
 
+.wf-section--no-bg {
+  background: transparent;
+  border: none;
+}
+
 /* Muted text */
 .wf-muted {
   color: var(--wf-muted);
@@ -178,5 +183,25 @@ select:focus-visible,
 textarea:focus-visible {
   outline: 2px solid #333;
   outline-offset: 2px;
+}
+
+/* FAQ: список вопросов и ответов */
+.wf-faq {
+  margin: 0 0 1rem 0;
+}
+
+.wf-faq dt {
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.wf-faq dt:first-child {
+  margin-top: 0;
+}
+
+.wf-faq dd {
+  margin: 0.25rem 0 0 0;
+  padding-left: 0;
+  color: var(--wf-muted, #555);
 }
 

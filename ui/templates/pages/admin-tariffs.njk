@@ -3,10 +3,12 @@
 {% set current_nav = 'admin-tariffs' %}
 
 {% block title %}Тарифы — ЛК админа{% endblock %}
-{% block header_subtitle %}Управление тарифами{% endblock %}
 
 {% block content %}
-  <h2>Управление тарифами</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление тарифами</h2>
+  </div>
 
   <section class="wf-section">
     <h3>Реестр тарифов</h3>
@@ -43,16 +45,16 @@
     </form>
     <div class="wf-table-wrap">
       <table class="wf-table">
-        <thead>
-          <tr>
-            <th>Название тарифа</th>
-            <th>Тип</th>
-            <th>Парковка / сектор</th>
-            <th>Основные условия</th>
-            <th>Статус</th>
-            <th>Действия</th>
-          </tr>
-        </thead>
+      <thead>
+        <tr>
+          <th scope="col">Название тарифа</th>
+          <th scope="col">Тип</th>
+          <th scope="col">Парковка / сектор</th>
+          <th scope="col">Основные условия</th>
+          <th scope="col">Статус</th>
+          <th scope="col">Действия</th>
+        </tr>
+      </thead>
         <tbody>
           <tr>
             <td>Почасовой А</td>
@@ -91,6 +93,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основные параметры</h3>
             <div class="wf-grid wf-grid--two">
@@ -203,6 +206,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основные параметры</h3>
             <div class="wf-grid wf-grid--two">

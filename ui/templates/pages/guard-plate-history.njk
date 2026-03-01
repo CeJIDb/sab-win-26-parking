@@ -3,10 +3,12 @@
 {% set current_nav = 'guard-log' %}
 
 {% block title %}История по номеру — Интерфейс КПП{% endblock %}
-{% block header_subtitle %}Профиль сотрудника: <a href="profile.html">Оператор КПП, Иванов Иван Петрович</a>{% endblock %}
 
 {% block content %}
-  <h2>История по номеру А123БВ777</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>История по номеру А123БВ777</h2>
+  </div>
   <p class="wf-muted">Клиент: Иванов Иван Иванович (ФЛ)</p>
 
   <section class="wf-section">

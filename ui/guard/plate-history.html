@@ -23,6 +23,7 @@
     
     
     
+    
 
 
 
@@ -30,6 +31,7 @@
   <ul>
     <li><a href="index.html">КПП — панель</a></li>
     <li><a href="log.html" aria-current="page">Журнал въезда‑выезда</a></li>
+    <li><a href="profile.html">Профиль</a></li>
   </ul>
 </nav>
 
@@ -37,7 +39,10 @@
 
     <main id="main-content" class="wf-main">
       
-  <h2>История по номеру А123БВ777</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>История по номеру А123БВ777</h2>
+  </div>
   <p class="wf-muted">Клиент: Иванов Иван Иванович (ФЛ)</p>
 
   <section class="wf-section">
@@ -86,6 +91,30 @@
 
     </main>
   </div>
+  <script>
+    (function () {
+      // Закрытие модалки: вернуться к предыдущей странице или прошлой модалке (history.back)
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на панель КПП
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'index.html';
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

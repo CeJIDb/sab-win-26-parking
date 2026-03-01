@@ -1,10 +1,17 @@
 {% extends "layouts/lk.njk" %}
 
+{% set current_nav = 'notifications' %}
+
 {% block title %}Уведомления — ЛК клиента{% endblock %}
 
 {% block content %}
-  <section class="wf-section">
-    <h3>Последние уведомления</h3>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Уведомления</h2>
+  </div>
+
+  <section class="wf-section" aria-labelledby="notifications-heading">
+    <h3 id="notifications-heading">Последние уведомления</h3>
     <form class="wf-form sessions-filters">
       <div class="filters-row">
         <div class="wf-field">
@@ -62,7 +69,7 @@
       <li class="wf-notification wf-notification--read">
         <a href="#client-notif-4-modal" class="wf-notification__link">
           <strong>23.02.2026 12:10</strong> — Обращения
-          <br>Получен ответ по обращению <a href="appeals.html">#AP-002</a>: «Вопрос по автосписанию по договору».
+          <br>Получен ответ по обращению <a href="profile.html#profile-appeals-modal">#AP-002</a>: «Вопрос по автосписанию по договору».
         </a>
       </li>
       <li class="wf-notification wf-notification--read">

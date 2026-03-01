@@ -5,7 +5,10 @@
 {% block title %}Профиль управляющего — ЛК администратора{% endblock %}
 
 {% block content %}
-  <h2>Профиль управляющего парковкой</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Профиль управляющего парковкой</h2>
+  </div>
 
   <section class="wf-section">
     <h3>Основные данные</h3>
@@ -48,8 +51,8 @@
       <table class="wf-table">
         <thead>
           <tr>
-            <th>Область</th>
-            <th>Описание прав</th>
+            <th scope="col">Область</th>
+            <th scope="col">Описание прав</th>
           </tr>
         </thead>
         <tbody>

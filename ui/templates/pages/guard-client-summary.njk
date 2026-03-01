@@ -1,10 +1,12 @@
 {% extends "layouts/guard.njk" %}
 
 {% block title %}Карточка клиента — Интерфейс КПП{% endblock %}
-{% block header_subtitle %}Профиль сотрудника: <a href="profile.html">Оператор КПП, Иванов Иван Петрович</a>{% endblock %}
 
 {% block content %}
-  <h2>Карточка клиента</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Карточка клиента</h2>
+  </div>
   <section class="wf-section">
     <h3>Основная информация</h3>
     <div class="wf-grid wf-grid--two">

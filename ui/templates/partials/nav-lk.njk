@@ -2,33 +2,20 @@
 <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
   <p class="wf-nav-current" tabindex="0" role="button">
     {% if current == 'dashboard' %}
-      Главная
-    {% elif current == 'bookings' %}
-      Бронирование
-    {% elif current == 'contracts' %}
-      Договоры
-    {% elif current == 'sessions-history' %}
-      История сессий
-    {% elif current == 'vehicles' %}
-      Список ТС
+      Парковка
     {% elif current == 'payment-settings' %}
       Оплаты
-    {% elif current == 'appeals' %}
-      Обращения
     {% elif current == 'profile' %}
       Профиль
+    {% elif current == 'notifications' %}
+      Уведомления
     {% else %}
       Навигация
     {% endif %}
   </p>
   <ul>
-    <li><a href="dashboard.html"{% if current == 'dashboard' %} aria-current="page"{% endif %}>Главная</a></li>
-    <li><a href="bookings.html"{% if current == 'bookings' %} aria-current="page"{% endif %}>Бронирование</a></li>
-    <li><a href="contracts.html"{% if current == 'contracts' %} aria-current="page"{% endif %}>Договоры</a></li>
-    <li><a href="sessions-history.html"{% if current == 'sessions-history' %} aria-current="page"{% endif %}>История сессий</a></li>
-    <li><a href="vehicles.html"{% if current == 'vehicles' %} aria-current="page"{% endif %}>Список ТС</a></li>
+    <li><a href="dashboard.html"{% if current == 'dashboard' %} aria-current="page"{% endif %}>Парковка</a></li>
     <li><a href="payment-settings.html"{% if current == 'payment-settings' %} aria-current="page"{% endif %}>Оплаты</a></li>
-    <li><a href="appeals.html"{% if current == 'appeals' %} aria-current="page"{% endif %}>Обращения</a></li>
     <li><a href="profile.html"{% if current == 'profile' %} aria-current="page"{% endif %}>Профиль</a></li>
   </ul>
 </nav>

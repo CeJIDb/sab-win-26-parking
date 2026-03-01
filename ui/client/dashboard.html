@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Личный кабинет клиента — Цифровая платформа парковки</title>
+  <title>Парковка — ЛК клиента</title>
   <link rel="stylesheet" href="../wireframe.css">
 </head>
 <body>
@@ -34,24 +34,19 @@
 <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
   <p class="wf-nav-current" tabindex="0" role="button">
     
-      Главная
+      Парковка
     
   </p>
   <ul>
-    <li><a href="dashboard.html" aria-current="page">Главная</a></li>
-    <li><a href="bookings.html">Бронирование</a></li>
-    <li><a href="contracts.html">Договоры</a></li>
-    <li><a href="sessions-history.html">История сессий</a></li>
-    <li><a href="vehicles.html">Список ТС</a></li>
+    <li><a href="dashboard.html" aria-current="page">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
-    <li><a href="appeals.html">Обращения</a></li>
     <li><a href="profile.html">Профиль</a></li>
   </ul>
 </nav>
 
     <main id="main-content" class="wf-main">
       
-  <h2>Главная страница ЛК</h2>
+  <h2>Парковка</h2>
   <section class="wf-section">
     <h3>Быстрые действия</h3>
     <div class="wf-grid wf-grid--three">
@@ -59,28 +54,35 @@
         <h4>Парковочная сессия</h4>
         <p><strong>Активная сессия:</strong> S‑1045, КПП‑1, с 24.02.2026 10:05.</p>
         <p class="wf-muted">Ориентировочная сумма к оплате: 350 ₽ по тарифу «Почасовой А».</p>
-        <p><a href="payment-external.html" class="wf-btn">Оплатить</a></p>
+        <p class="wf-actions">
+          <a href="payment-external.html" class="wf-btn">Оплатить</a>
+          <a href="sessions-history.html" class="wf-btn">Сессии</a>
+        </p>
       </section>
       <section class="wf-card">
         <h4>Бронирование</h4>
         <p><strong>Планируемое бронирование:</strong> 27.02.2026 19:00–22:00, сектор Б, место 203.</p>
         <p class="wf-muted">Рекомендуем создать или скорректировать бронирование заранее.</p>
-        <p>
-          <a href="bookings.html#booking-create-modal" class="wf-btn">Создать</a>
+        <p class="wf-actions">
+          <a href="bookings.html#booking-create-modal" class="wf-btn">Забронировать</a>
+          <a href="bookings.html" class="wf-btn">Бронирования</a>
         </p>
       </section>
-      <section class="wf-card">
-        <h4>Договор</h4>
+      <section class="wf-card wf-card--attention" aria-label="Договор — к оплате">
+        <h4>Договор <span class="wf-badge wf-badge--attention">К оплате</span></h4>
         <p><strong>Договор Д‑045:</strong> долг 1 200 ₽, срок оплаты до 01.03.2026.</p>
         <p class="wf-muted">Оплатите договор, чтобы избежать ограничений доступа на парковку.</p>
-        <p><a href="payment-external.html" class="wf-btn">Оплатить</a></p>
+        <p class="wf-actions">
+          <a href="payment-external.html" class="wf-btn">Оплатить</a>
+          <a href="contracts-create.html" class="wf-btn">Создать договор</a>
+          <a href="contracts.html" class="wf-btn">Договоры</a>
+        </p>
       </section>
     </div>
   </section>
   <section class="wf-section">
     <h3>Количество свободных парковочных мест (карта по секторам)</h3>
     <p class="wf-muted">Схема парковки AS-IS: КПП север/юг, зоны по типам. Всего 600 мест.</p>
-    <!-- Та же схема, что на сайте — по Схема парковки AS-IS.md -->
     <div class="wf-parking-map wf-parking-map--compact" role="img" aria-label="Схема парковки (компактно)">
   <div class="wf-parking-map__kpp">КПП север</div>
   <div class="wf-parking-map__zones">
@@ -134,6 +136,16 @@
 </div>
 
 
+  </section>
+  <section class="wf-section">
+    <h3>Тарифы</h3>
+    <p>На парковке действуют почасовые тарифы для разовых заездов и долгосрочные тарифы по договорам для физических и юридических лиц. Актуальные суммы и условия — на сайте.</p>
+    <p><a href="../site/tariffs.html" class="wf-btn">Ознакомиться</a></p>
+  </section>
+  <section class="wf-section">
+    <h3>Правила парковки</h3>
+    <p>Режим работы, порядок въезда и выезда через КПП, размещение ТС и прочие условия пользования парковкой. Полный текст правил — на сайте.</p>
+    <p><a href="../site/rules.html" class="wf-btn">Правила на сайте</a></p>
   </section>
 
     </main>
@@ -238,6 +250,27 @@
           });
         }
       }
+
+      // Закрытие модалки: вернуться к предыдущему модальному окну (history.back) или к странице
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+
+      // Кнопка «Назад»: при пустой истории — переход на главную (1.2)
+      document.querySelectorAll('.wf-back').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'dashboard.html';
+          }
+        });
+      });
     })();
   </script>
 </body>

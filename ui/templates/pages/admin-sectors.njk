@@ -3,10 +3,12 @@
 {% set current_nav = 'admin-sectors' %}
 
 {% block title %}Секторы и ПМ — ЛК админа{% endblock %}
-{% block header_subtitle %}Секторы и парковочные места{% endblock %}
 
 {% block content %}
-  <h2>Управление секторами и парковочными местами</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление секторами и парковочными местами</h2>
+  </div>
 
   <section class="wf-section">
     <h3>Карта парковки по секторам</h3>
@@ -80,12 +82,12 @@
       <table class="wf-table">
         <thead>
           <tr>
-            <th>Сектор</th>
-            <th>Парковочное место</th>
-            <th>Тип клиента</th>
-            <th>Статус договора</th>
-            <th>Договор / клиент</th>
-            <th>Действия</th>
+            <th scope="col">Сектор</th>
+            <th scope="col">Парковочное место</th>
+            <th scope="col">Тип клиента</th>
+            <th scope="col">Статус договора</th>
+            <th scope="col">Договор / клиент</th>
+            <th scope="col">Действия</th>
           </tr>
         </thead>
         <tbody>
@@ -126,6 +128,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основные параметры сектора</h3>
             <div class="wf-field">
@@ -170,6 +173,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <div class="wf-field">
             <label for="admin-sector-new-name">Название сектора</label>
             <input id="admin-sector-new-name" type="text" placeholder="Например, Сектор Г">
@@ -207,6 +211,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основная информация</h3>
             <div class="wf-grid wf-grid--two">

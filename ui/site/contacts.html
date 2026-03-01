@@ -35,24 +35,24 @@
 
     <main id="main-content" class="wf-main">
       
-  <h2>Контакты</h2>
+  <h2 id="contacts-heading">Контакты</h2>
 
-  <section class="wf-section">
-    <h3>Адрес парковки</h3>
+  <section class="wf-section" aria-labelledby="contacts-address-heading">
+    <h3 id="contacts-address-heading">Адрес парковки</h3>
     <p><strong>Адрес парковки:</strong> г. Санкт‑Петербург, ул. Портовая, д. 15, парковочный комплекс «Северный терминал»</p>
     <p class="wf-muted">Въезд и выезд через КПП «Север» и КПП «Юг». Точное расположение КПП и зон парковки вы увидите на схеме в личном кабинете клиента.</p>
   </section>
 
-  <section class="wf-section">
-    <h3>Контактные данные службы поддержки</h3>
+  <section class="wf-section" aria-labelledby="contacts-support-heading">
+    <h3 id="contacts-support-heading">Контактные данные службы поддержки</h3>
     <p><strong>Телефон поддержки:</strong> +7 (812) 500‑00‑00</p>
     <p><strong>E‑mail:</strong> support@parking-platform.ru</p>
     <p><strong>Режим работы службы поддержки:</strong> ежедневно с 08:00 до 22:00 (московское время)</p>
     <p class="wf-muted">По вопросам доступа в личный кабинет, оплаты парковки, оформления договоров и бронирований обращайтесь в службу поддержки.</p>
   </section>
 
-  <section class="wf-section">
-    <h3>Режим работы парковки</h3>
+  <section class="wf-section" aria-labelledby="contacts-schedule-heading">
+    <h3 id="contacts-schedule-heading">Режим работы парковки</h3>
     <ul>
       <li>парковка работает круглосуточно (24/7);</li>
       <li>кассовые операции и очное обслуживание клиентов в офисе — с 09:00 до 20:00 по рабочим дням;</li>
@@ -60,8 +60,8 @@
     </ul>
   </section>
 
-  <section class="wf-section">
-    <h3>Реквизиты оператора парковки</h3>
+  <section class="wf-section" aria-labelledby="contacts-requisites-heading">
+    <h3 id="contacts-requisites-heading">Реквизиты оператора парковки</h3>
     <p><strong>Оператор:</strong> ООО «Цифровая парковочная платформа»</p>
     <p><strong>ИНН:</strong> 7801000000 · <strong>КПП:</strong> 780101001</p>
     <p><strong>ОГРН:</strong> 1237800000000</p>
@@ -77,6 +77,18 @@
       </p>
     </footer>
   </div>
+  <script>
+    (function () {
+      document.querySelectorAll('.wf-modal__close[href="#main-content"]').forEach(function (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+          if (window.history.length > 1) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
 

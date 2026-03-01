@@ -3,10 +3,11 @@
 {% set current_nav = 'admin-admins' %}
 
 {% block title %}Профили админов — ЛК админа{% endblock %}
-{% block header_subtitle %}Профили админов{% endblock %}
-
 {% block content %}
-  <h2>Управление профилями админов</h2>
+  <div class="wf-page-head">
+    <button type="button" class="wf-back">Назад</button>
+    <h2>Управление профилями админов</h2>
+  </div>
 
   <section class="wf-section">
     <h3>Реестр администраторов</h3>
@@ -44,16 +45,16 @@
     </form>
     <div class="wf-table-wrap">
       <table class="wf-table">
-        <thead>
-          <tr>
-            <th>Администратор</th>
-            <th>Контакты</th>
-            <th>Роль</th>
-            <th>Статус</th>
-            <th>Последний вход</th>
-            <th>Действия</th>
-          </tr>
-        </thead>
+      <thead>
+        <tr>
+          <th scope="col">Администратор</th>
+          <th scope="col">Контакты</th>
+          <th scope="col">Роль</th>
+          <th scope="col">Статус</th>
+          <th scope="col">Последний вход</th>
+          <th scope="col">Действия</th>
+        </tr>
+      </thead>
         <tbody>
           <tr>
             <td>Иванов Пётр Сергеевич</td>
@@ -92,6 +93,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основная информация</h3>
             <div class="wf-field">
@@ -188,6 +190,7 @@
       </header>
       <div class="wf-modal__body">
         <form class="wf-form">
+          <p class="wf-error" role="alert" aria-live="polite" aria-hidden="true"></p>
           <section class="wf-section">
             <h3>Основные данные сотрудника</h3>
             <div class="wf-field">
