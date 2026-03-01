@@ -9,3 +9,7 @@ __pycache__/
  
 # Node
 node_modules/
+
+# Cursor MCP (may contain API keys)
+.cursor/mcp.json
+.cursor/mcp.json.example
