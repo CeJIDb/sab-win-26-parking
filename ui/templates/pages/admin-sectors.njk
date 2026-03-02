@@ -50,7 +50,7 @@
   </section>
 
   <section class="wf-section">
-    <h3>Реестр секторов и парковочных мест</h3>
+    <h3>Парковочные места</h3>
     <p class="wf-muted">Отображаются только закреплённые за ФЛ и ЮЛ парковочные места.</p>
     <form class="wf-form sessions-filters" aria-label="Фильтры по закреплённым ПМ">
       <div class="filters-row">
@@ -89,6 +89,9 @@
         </div>
       </div>
     </form>
+    <div class="wf-actions" style="margin-top: 0.75rem;">
+      <a href="#admin-modal-sector-pm" class="wf-btn">Создать ПМ</a>
+    </div>
     <div class="wf-table-wrap">
       <table class="wf-table">
         <thead>
@@ -165,9 +168,31 @@
           </section>
           <div class="wf-actions">
             <button type="submit">Сохранить сектор</button>
-            <button type="button">Удалить сектор</button>
+            <a href="#admin-modal-sector-delete" class="wf-btn wf-btn-secondary">Удалить сектор</a>
           </div>
         </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="admin-modal-sector-delete" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="admin-sector-delete-title">
+    <div class="wf-modal__dialog wf-section">
+      <header class="wf-modal__header">
+        <h3 id="admin-sector-delete-title">Удалить сектор</h3>
+        <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+      </header>
+      <div class="wf-body">
+        <p>
+          Вы уверены, что хотите удалить <strong>Сектор А</strong> и все связанные с ним парковочные места?
+        </p>
+        <p class="wf-muted">
+          При удалении сектора закреплённые парковочные места будут удалены из реестра, а данные по договорам и сессиям сохранятся в истории.
+          Точное поведение зависит от настроек интеграции и должно быть подтверждено в регламенте.
+        </p>
+        <div class="wf-actions">
+          <button type="button" class="wf-btn">Подтвердить удаление сектора</button>
+          <a href="#admin-modal-sector-settings" class="wf-btn wf-btn-secondary">Отмена</a>
+        </div>
       </div>
     </div>
   </section>
@@ -224,7 +249,11 @@
             <div class="wf-grid wf-grid--two">
               <div class="wf-field">
                 <label for="admin-spot-sector">Сектор</label>
-                <input id="admin-spot-sector" type="text" value="Сектор А">
+                <select id="admin-spot-sector">
+                  <option value="A" selected>Сектор А</option>
+                  <option value="B">Сектор Б</option>
+                  <option value="C">Сектор В</option>
+                </select>
               </div>
               <div class="wf-field">
                 <label for="admin-spot-number">Парковочное место</label>
@@ -262,8 +291,31 @@
             <button type="submit">Сохранить изменения</button>
             <a href="#admin-modal-contract-view" class="wf-btn">Договор</a>
             <a href="#admin-modal-client-fl" class="wf-btn">Карточка клиента</a>
+            <a href="#admin-modal-sector-pm-delete" class="wf-btn wf-btn-secondary">Удалить ПМ</a>
           </div>
         </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="admin-modal-sector-pm-delete" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="admin-sector-pm-delete-title">
+    <div class="wf-modal__dialog wf-section">
+      <header class="wf-modal__header">
+        <h3 id="admin-sector-pm-delete-title">Удалить парковочное место</h3>
+        <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть окно">✕</a>
+      </header>
+      <div class="wf-body">
+        <p>
+          Вы уверены, что хотите удалить <strong>ПМ 101 в Секторе А</strong> из реестра парковочных мест?
+        </p>
+        <p class="wf-muted">
+          Если парковочное место используется в активных договорах или бронированиях, удаление может потребовать дополнительных действий со стороны администратора
+          и не должно нарушать учёт операций. Фактическое поведение определяется интеграцией и регламентами.
+        </p>
+        <div class="wf-actions">
+          <button type="button" class="wf-btn">Подтвердить удаление ПМ</button>
+          <a href="#admin-modal-sector-pm" class="wf-btn wf-btn-secondary">Отмена</a>
+        </div>
       </div>
     </div>
   </section>
