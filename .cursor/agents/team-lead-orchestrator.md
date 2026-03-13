@@ -34,8 +34,11 @@ readonly: false
      - Для анализа и уточнения требований:
        - использовать субагента `systems-analyst` в сочетании со Skills `requirements-engineering`, `product-requirements`, `spec-flow-analyzer` (по необходимости);
        - в промте к `systems-analyst` явно указывать, какие из этих Skills релевантны (например, «сфокусироваться на EARS-формулировках и пользовательских сценариях»).
+    - Для генерации и правки функциональных требований по методичке проекта:
+      - использовать субагента `fr-functional-requirements-writer`, когда нужно на основе UC и артефактов анализа выписать или отрефакторить ФТ в `docs/specs/functional-requirements/Functional-Requirements-Artem.md` по встроенным правилам субагента и образцу `Пример-ФТ.md`;
+       - вызывать его обычно **после** первичного анализа `systems-analyst` и **до** переноса требований в формальные спецификации.
      - Для аккуратной поддержки и точечного обновления формальных спецификаций в `docs/specs/*.md`:
-       - использовать субагента `requirements-spec-maintainer` (обычно **после** работы `systems-analyst`), опираясь на Skill `update-specification` и правила из `.cursor/rules/docs.mdc`;
+       - использовать субагента `requirements-spec-maintainer` (обычно **после** работы `systems-analyst` и/или `fr-functional-requirements-writer`), опираясь на Skill `update-specification` и правила из `.cursor/rules/docs.mdc`;
        - формулировать промты так, чтобы он работал только с нужными файлами и разделами.
      - Для построения и поддержки матриц трассировки:
        - использовать субагента `traceability-matrix-builder` для создания/актуализации матриц требований ↔ источники/артефакты/интерфейсы/архитектура;
