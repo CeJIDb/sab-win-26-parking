@@ -34,6 +34,7 @@ jobs:
             export CI_MERGE_RANGE="HEAD~1..HEAD"
           fi
           node ./scripts/check-changelog-required.mjs
+          node ./scripts/check-traceability-matrix-update.mjs
 
   quality-gates:
     runs-on: ubuntu-latest

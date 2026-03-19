@@ -7,17 +7,19 @@ last_updated: 2026-02-22
 
 Транскрибации интервью и встреч проекта «Цифровая платформа парковки» в формате, удобном для поиска и использования как контекст при анализе требований.
 
-## Исходные файлы (.docx)
+## Исходные файлы из .docx (в репозитории: .txt)
 
-| Исходный файл | Соответствующий протокол | Markdown |
+| Исходный файл (.txt) | Соответствующий протокол | Markdown |
 |---------------|---------------------------|----------|
-| Интервью 1.1 транскрибация 21 01 2026.docx | Протокол №1.1 | [interview-1-1-transcript-2026-01-21-v01.md](interview-1-1-transcript-2026-01-21-v01.md) |
-| Интервью 1.2 транскрибация 23 01 2026.docx | Протокол №1.2 | [interview-1-2-transcript-2026-01-23-v01.md](interview-1-2-transcript-2026-01-23-v01.md) |
-| Интервью 2 транскрибация 27 01 2026.docx | Протокол №2 | [interview-2-transcript-2026-01-27-v01.md](interview-2-transcript-2026-01-27-v01.md) |
-| Сенограмма встречи 04 02 2026.docx | Протокол №3 | [meeting-transcript-2026-02-04-v01.md](meeting-transcript-2026-02-04-v01.md) |
-| Стенограмма встречи 11 02 2026.docx | Протокол №4 | [meeting-transcript-2026-02-11-v01.md](meeting-transcript-2026-02-11-v01.md) |
-| Стенограмма встречи 18 02 2026.docx | Протокол №5 | [meeting-transcript-2026-02-18-v01.md](meeting-transcript-2026-02-18-v01.md) |
-| Стенограмма встречи 25 02 2026.docx | Протокол №6 | [meeting-transcript-2026-02-25-v01.md](meeting-transcript-2026-02-25-v01.md) |
+| interview-1-1-transcript-2026-01-21.txt | Протокол №1.1 | [interview-1-1-transcript-2026-01-21-v01.md](interview-1-1-transcript-2026-01-21-v01.md) |
+| interview-1-2-transcript-2026-01-23.txt | Протокол №1.2 | [interview-1-2-transcript-2026-01-23-v01.md](interview-1-2-transcript-2026-01-23-v01.md) |
+| interview-2-transcript-2026-01-27.txt | Протокол №2 | [interview-2-transcript-2026-01-27-v01.md](interview-2-transcript-2026-01-27-v01.md) |
+| meeting-transcript-2026-02-04.txt | Протокол №3 | [meeting-transcript-2026-02-04-v01.md](meeting-transcript-2026-02-04-v01.md) |
+| meeting-transcript-2026-02-11.txt | Протокол №4 | [meeting-transcript-2026-02-11-v01.md](meeting-transcript-2026-02-11-v01.md) |
+| meeting-transcript-2026-02-18.txt | Протокол №5 | [meeting-transcript-2026-02-18-v01.md](meeting-transcript-2026-02-18-v01.md) |
+| meeting-transcript-2026-02-25-docx.txt | Протокол №6 | [meeting-transcript-2026-02-25-v01.md](meeting-transcript-2026-02-25-v01.md) |
+
+`.docx` исходники не коммитятся в репозиторий, только извлеченные `.txt`.
 
 ## Состояние
 

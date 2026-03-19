@@ -28,9 +28,10 @@ Describe what happens now.
 
 - [ ] docs/specs
 - [ ] docs/architecture
-- [ ] artifacts/protocols/transcripts
+- [ ] docs/protocols
+- [ ] docs/transcripts
 - [ ] ui wireframe
-- [ ] scripts/build
+- [ ] scripts/ (build CSS/templates)
 - [ ] CI workflow
 
 ## Evidence

@@ -3,7 +3,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const TARGETS = ["README.md", "CONTRIBUTING.md", "CHANGELOG.md", "docs"];
-const IGNORE_PREFIXES = ["http://", "https://", "mailto:", "#"];
+const IGNORE_PREFIXES = ["http://", "https://", "mailto:", "tel:"];
 const MARKDOWN_LINK_REGEX = /\[[^\]]+\]\(([^)]+)\)/g;
 
 async function collectMarkdownFiles(targetPath, acc) {
@@ -33,6 +33,83 @@ function normalizeLink(link) {
   return decodeURIComponent(link.split("#")[0]);
 }
 
+const headerSlugCache = new Map();
+
+function decodeMaybe(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
+function parseMarkdownHref(rawLink) {
+  // Supports markdown syntax like: `[text](path/to/file.md "title")`
+  return rawLink.trim().split(/\s+/)[0];
+}
+
+function slugifyHeading(text) {
+  // Approximate GitHub-style heading slug.
+  // - keep unicode letters/numbers
+  // - collapse whitespace -> `-`
+  // - drop punctuation
+  return text
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^\p{L}\p{N}\s-]/gu, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function extractHeaderSlugs(content) {
+  const slugs = new Set();
+  const slugCounts = new Map();
+  let inCodeFence = false;
+
+  function addSlug(baseSlug) {
+    if (!baseSlug) return;
+    const count = slugCounts.get(baseSlug) ?? 0;
+    const final = count === 0 ? baseSlug : `${baseSlug}-${count}`;
+    slugCounts.set(baseSlug, count + 1);
+    slugs.add(final);
+  }
+
+  const lines = content.split(/\r?\n/);
+  for (const line of lines) {
+    if (/^```/.test(line) || /^~~~/.test(line)) {
+      inCodeFence = !inCodeFence;
+      continue;
+    }
+    if (inCodeFence) continue;
+
+    const idMatches = [...line.matchAll(/(?:id|name)=["']([^"']+)["']/g)];
+    for (const m of idMatches) {
+      const id = (m[1] ?? "").toLowerCase();
+      if (id) slugs.add(id);
+    }
+
+    const m = line.match(/^(#{1,6})\s+(.+?)\s*$/);
+    if (!m) continue;
+
+    let headerText = m[2].trim();
+    headerText = headerText.replace(/\{#.+\}\s*$/, "");
+    headerText = headerText.replace(/`([^`]*)`/g, "$1");
+    addSlug(slugifyHeading(headerText));
+  }
+
+  return slugs;
+}
+
+async function getHeaderSlugsForFile(absPath) {
+  if (headerSlugCache.has(absPath)) return headerSlugCache.get(absPath);
+  const content = await fs.readFile(absPath, "utf-8");
+  const slugs = extractHeaderSlugs(content);
+  headerSlugCache.set(absPath, slugs);
+  return slugs;
+}
+
 async function checkFileLinks(filePath) {
   const errors = [];
   const content = await fs.readFile(filePath, "utf-8");
@@ -40,14 +117,40 @@ async function checkFileLinks(filePath) {
 
   for (const match of content.matchAll(MARKDOWN_LINK_REGEX)) {
     const rawLink = match[1].trim();
-    if (!rawLink || shouldSkip(rawLink)) continue;
-    const linkPath = normalizeLink(rawLink);
-    if (!linkPath) continue;
-    const resolved = path.resolve(dir, linkPath);
+    if (!rawLink) continue;
+
+    const href = parseMarkdownHref(rawLink);
+    if (!href || shouldSkip(href)) continue;
+
+    const [pathPart, anchorPartRaw = ""] = href.split("#", 2);
+    const anchorPart = anchorPartRaw ? decodeMaybe(anchorPartRaw) : "";
+
+    let resolved;
+    if (!pathPart) {
+      resolved = filePath; // anchor-only link: `(#some-anchor)`
+    } else {
+      const linkPath = decodeMaybe(pathPart);
+      if (!linkPath) continue;
+      resolved = path.resolve(dir, linkPath);
+    }
+
     try {
       await fs.access(resolved);
     } catch {
-      errors.push(`broken relative link '${rawLink}'`);
+      errors.push(`broken relative link '${href}'`);
+      continue;
+    }
+
+    if (!anchorPart) continue;
+
+    const slugs = await getHeaderSlugsForFile(resolved);
+    const anchorLower = anchorPart.toLowerCase();
+    if (!slugs.has(anchorLower)) {
+      const anchorSlugified = slugifyHeading(anchorPart);
+      if (!slugs.has(anchorSlugified)) {
+        const relResolved = path.relative(ROOT, resolved);
+        errors.push(`broken anchor '#${anchorPart}' in '${relResolved}'`);
+      }
     }
   }
 
