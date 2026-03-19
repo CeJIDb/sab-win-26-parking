@@ -279,7 +279,7 @@ a.wf-btn-secondary:hover {
 }
 
 /* Шапка ЛК клиента с уведомлениями */
-.wf-header--lk {
+.wf-header--cabinet {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -469,7 +469,7 @@ a.wf-btn-secondary:hover {
     padding: 0.75rem;
   }
 
-  .wf-header--lk {
+  .wf-header--cabinet {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -489,16 +489,16 @@ a.wf-btn-secondary:hover {
     width: 100%;
   }
 
-  .wf-nav--lk ul {
+  .wf-nav--cabinet ul {
     flex-direction: column;
     gap: 0.25rem;
   }
 
-  .wf-nav--lk li {
+  .wf-nav--cabinet li {
     width: 100%;
   }
 
-  .wf-nav--lk a {
+  .wf-nav--cabinet a {
     display: block;
     padding: 0.45rem 0.25rem;
   }
@@ -528,15 +528,15 @@ a.wf-btn-secondary:hover {
     justify-content: flex-start;
   }
 
-  body:not([data-nav='open']) .wf-nav--lk .wf-nav-current {
+  body:not([data-nav='open']) .wf-nav--cabinet .wf-nav-current {
     display: block;
   }
 
-  body:not([data-nav='open']) .wf-nav--lk .wf-nav__breadcrumbs {
+  body:not([data-nav='open']) .wf-nav--cabinet .wf-nav__breadcrumbs {
     display: block;
   }
 
-  body[data-nav='open'] .wf-nav--lk .wf-nav__breadcrumbs {
+  body[data-nav='open'] .wf-nav--cabinet .wf-nav__breadcrumbs {
     display: none;
   }
 }
@@ -547,7 +547,7 @@ body[data-view='mobile'] .wf-page {
   padding: 0.75rem;
 }
 
-body[data-view='mobile'] .wf-header--lk {
+body[data-view='mobile'] .wf-header--cabinet {
   flex-direction: column;
   gap: 0.5rem;
 }
@@ -556,16 +556,16 @@ body[data-view='mobile'] .wf-burger {
   display: inline-flex;
 }
 
-body[data-view='mobile'] .wf-nav--lk ul {
+body[data-view='mobile'] .wf-nav--cabinet ul {
   flex-direction: column;
   gap: 0.25rem;
 }
 
-body[data-view='mobile'] .wf-nav--lk li {
+body[data-view='mobile'] .wf-nav--cabinet li {
   width: 100%;
 }
 
-body[data-view='mobile'] .wf-nav--lk a {
+body[data-view='mobile'] .wf-nav--cabinet a {
   display: block;
   padding: 0.45rem 0.25rem;
 }
@@ -595,30 +595,30 @@ body[data-view='mobile'] .wf-footer__version-toggle {
   justify-content: flex-start;
 }
 
-body[data-view='mobile']:not([data-nav='open']) .wf-nav--lk .wf-nav-current {
+body[data-view='mobile']:not([data-nav='open']) .wf-nav--cabinet .wf-nav-current {
   display: block;
 }
 
-body[data-view='mobile']:not([data-nav='open']) .wf-nav--lk .wf-nav__breadcrumbs {
+body[data-view='mobile']:not([data-nav='open']) .wf-nav--cabinet .wf-nav__breadcrumbs {
   display: block;
 }
 
-body[data-view='mobile'][data-nav='open'] .wf-nav--lk .wf-nav__breadcrumbs {
+body[data-view='mobile'][data-nav='open'] .wf-nav--cabinet .wf-nav__breadcrumbs {
   display: none;
 }
 
 /* Состояние бургера: открытое/закрытое меню ЛК */
 @media (max-width: 640px) {
-  body:not([data-nav='open']) .wf-nav--lk ul {
+  body:not([data-nav='open']) .wf-nav--cabinet ul {
     display: none;
   }
 }
 
-body[data-view='mobile']:not([data-nav='open']) .wf-nav--lk ul {
+body[data-view='mobile']:not([data-nav='open']) .wf-nav--cabinet ul {
   display: none;
 }
 
-body[data-nav='open'] .wf-nav--lk ul {
+body[data-nav='open'] .wf-nav--cabinet ul {
   display: flex;
 }
 
@@ -632,7 +632,7 @@ body[data-nav='open'] .wf-nav--lk ul {
     display: block;
   }
 
-  .wf-header--lk {
+  .wf-header--cabinet {
     flex-wrap: wrap;
   }
 
@@ -787,7 +787,7 @@ body[data-view='mobile'] .wf-header__breadcrumbs {
   display: block;
 }
 
-body[data-view='mobile'] .wf-header--lk {
+body[data-view='mobile'] .wf-header--cabinet {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5rem;

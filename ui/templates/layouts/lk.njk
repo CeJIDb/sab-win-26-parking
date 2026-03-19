@@ -9,7 +9,7 @@
 <body>
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
+    <header class="wf-header wf-header--cabinet" role="banner">
       <div class="wf-header__title">
         <h1>Личный кабинет клиента</h1>
         <p class="wf-muted"><a href="profile.html">Иванов Иван Иванович</a></p>
@@ -29,7 +29,7 @@
       </button>
     </header>
     {% set nav_current = current_nav|default('') %}
-    <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
+    <nav class="wf-nav wf-nav--cabinet" aria-label="Навигация ЛК клиента" id="lk-nav">
       <div class="wf-nav__breadcrumbs" aria-label="Текущий раздел">
         {% block header_breadcrumbs %}<span class="wf-breadcrumbs__current">Парковка</span>{% endblock %}
       </div>

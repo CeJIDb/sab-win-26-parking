@@ -9,7 +9,7 @@
 <body>
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
+    <header class="wf-header wf-header--cabinet" role="banner">
       <div class="wf-header__title">
         <h1>Личный кабинет клиента</h1>
         <p class="wf-muted"><a href="profile.html">Иванов Иван Иванович</a></p>
@@ -21,7 +21,7 @@
       <button type="button"
               class="wf-burger"
               aria-label="Открыть навигацию"
-              aria-controls="lk-nav"
+              aria-controls="client-nav"
               aria-expanded="false">
         <span class="wf-burger__line" aria-hidden="true"></span>
         <span class="wf-burger__line" aria-hidden="true"></span>
@@ -29,16 +29,17 @@
       </button>
     </header>
     
-    <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
+    <nav class="wf-nav wf-nav--cabinet" aria-label="Навигация ЛК клиента" id="client-nav">
       <div class="wf-nav__breadcrumbs" aria-label="Текущий раздел">
         <a href="dashboard.html">Парковка</a><span class="wf-breadcrumbs__sep">/</span><span class="wf-breadcrumbs__current">История сессий</span>
       </div>
       
   <ul>
-    <li><a href="dashboard.html">Парковка</a></li>
+    <li><a href="dashboard.html" aria-current="page">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
     <li class="wf-nav__item--end"><a href="profile.html">Профиль</a></li>
   </ul>
+
 
     </nav>
     <main id="main-content" class="wf-main">
@@ -65,7 +66,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#lk-modal-session-view" aria-label="Открыть детали сессии С-1045">С-1045</a></td>
+            <td><a href="#client-modal-session-view" aria-label="Открыть детали сессии С-1045">С-1045</a></td>
             <td>24.02.2026 10:05</td>
             <td>Постоплата</td>
             <td>А123БВ777</td>
@@ -130,7 +131,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#lk-modal-session-view" aria-label="Открыть детали сессии С-1001">С-1001</a></td>
+            <td><a href="#client-modal-session-view" aria-label="Открыть детали сессии С-1001">С-1001</a></td>
             <td>20.02.2026 09:15</td>
             <td>20.02.2026 18:42</td>
             <td>Договор</td>
@@ -140,7 +141,7 @@
             <td>—</td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-session-view" aria-label="Открыть детали сессии С-0999">С-0999</a></td>
+            <td><a href="#client-modal-session-view" aria-label="Открыть детали сессии С-0999">С-0999</a></td>
             <td>18.02.2026 14:00</td>
             <td>19.02.2026 08:30</td>
             <td>Постоплата</td>
@@ -150,7 +151,7 @@
             <td>320 ₽</td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-session-view" aria-label="Открыть детали сессии С-0995">С-0995</a></td>
+            <td><a href="#client-modal-session-view" aria-label="Открыть детали сессии С-0995">С-0995</a></td>
             <td>15.02.2026 07:50</td>
             <td>17.02.2026 07:50</td>
             <td>Договор</td>
@@ -160,7 +161,7 @@
             <td>—</td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-session-view" aria-label="Открыть детали сессии С-0988">С-0988</a></td>
+            <td><a href="#client-modal-session-view" aria-label="Открыть детали сессии С-0988">С-0988</a></td>
             <td>10.02.2026 16:20</td>
             <td>10.02.2026 19:45</td>
             <td>Бронирование</td>
@@ -176,10 +177,10 @@
   </section>
 
   
-<section id="lk-modal-session-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="lk-session-view-title">
+<section id="client-modal-session-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="client-session-view-title">
   <div class="wf-modal__dialog wf-modal__dialog--form">
     <header class="wf-modal__header">
-      <h2 id="lk-session-view-title" class="wf-modal__title">Парковочная сессия С-1045</h2>
+      <h2 id="client-session-view-title" class="wf-modal__title">Парковочная сессия С-1045</h2>
       <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
     </header>
     <div class="wf-modal__body">
@@ -199,6 +200,7 @@
     </div>
   </div>
 </section>
+
 
 
     </main>
@@ -229,7 +231,7 @@
         body.dataset.view = view;
         try {
           if (window.localStorage) {
-            window.localStorage.setItem('lkView', view);
+            window.localStorage.setItem('clientView', view);
           }
         } catch (e) {}
 
@@ -242,7 +244,7 @@
       if (buttons.length) {
         var stored = null;
         try {
-          stored = window.localStorage && window.localStorage.getItem('lkView');
+          stored = window.localStorage && window.localStorage.getItem('clientView');
         } catch (e) {}
         if (stored === 'mobile' || stored === 'desktop') {
           applyView(stored);
@@ -258,10 +260,10 @@
 
       // Бургер-меню для навигации ЛК клиента
       var burger = document.querySelector('.wf-burger');
-      var lkNav = document.getElementById('lk-nav');
+      var clientNav = document.getElementById('client-nav');
 
       function setNavOpen(isOpen) {
-        if (!lkNav || !burger) return;
+        if (!clientNav || !burger) return;
         body.dataset.nav = isOpen ? 'open' : 'closed';
         burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       }
@@ -271,7 +273,7 @@
         setNavOpen(!isOpen);
       }
 
-      if (burger && lkNav) {
+      if (burger && clientNav) {
         burger.addEventListener('click', function () {
           toggleNav();
         });
@@ -287,7 +289,7 @@
         }
 
         // Закрывать меню при клике по любому пункту навигации (на мобильных удобно)
-        lkNav.addEventListener('click', function (event) {
+        clientNav.addEventListener('click', function (event) {
           if (event.target.tagName === 'A') {
             setNavOpen(false);
           }
@@ -320,3 +322,4 @@
   </script>
 </body>
 </html>
+

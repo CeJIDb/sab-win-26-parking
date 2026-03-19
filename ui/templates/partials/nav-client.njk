@@ -1,0 +1,7 @@
+{% set current = nav_current | default('') %}
+  <ul>
+    <li><a href="dashboard.html"{% if current == 'dashboard' %} aria-current="page"{% endif %}>Парковка</a></li>
+    <li><a href="payment-settings.html"{% if current == 'payment-settings' %} aria-current="page"{% endif %}>Оплаты</a></li>
+    <li class="wf-nav__item--end"><a href="profile.html"{% if current == 'profile' %} aria-current="page"{% endif %}>Профиль</a></li>
+  </ul>
+

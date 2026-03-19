@@ -1,6 +1,6 @@
-{% extends "layouts/lk.njk" %}
+{% extends "layouts/client.njk" %}
 
-{% set current_nav = 'contracts' %}
+{% set current_nav = 'payment-settings' %}
 
 {% block header_breadcrumbs %}<span class="wf-breadcrumbs__current">Договоры</span>{% endblock %}
 {% block title %}Договоры — ЛК клиента{% endblock %}
@@ -30,14 +30,14 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#lk-modal-contract-view">Д-1001</a></td>
+            <td><a href="#client-modal-contract-view">Д-1001</a></td>
             <td>01.01.2026–31.12.2026</td>
             <td>Активен</td>
             <td>2 ТС, 2 ПМ</td>
             <td>Нет</td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-contract-view">Д-1002</a></td>
+            <td><a href="#client-modal-contract-view">Д-1002</a></td>
             <td>15.02.2026–14.05.2026</td>
             <td>Активен</td>
             <td>1 ТС, 1 ПМ</td>
@@ -91,13 +91,13 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#lk-modal-contract-view" aria-label="Открыть договор Д-0999">Д-0999</a></td>
+            <td><a href="#client-modal-contract-view" aria-label="Открыть договор Д-0999">Д-0999</a></td>
             <td>01.06.2025–31.12.2025</td>
             <td><span class="wf-badge">Завершён</span></td>
             <td>1 ТС, 1 ПМ</td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-contract-view" aria-label="Открыть договор Д-0998">Д-0998</a></td>
+            <td><a href="#client-modal-contract-view" aria-label="Открыть договор Д-0998">Д-0998</a></td>
             <td>01.03.2025–15.05.2025</td>
             <td><span class="wf-badge">Расторгнут</span></td>
             <td>1 ТС, 1 ПМ</td>
@@ -107,7 +107,7 @@
     </div>
   </section>
 
-  {% include "partials/lk-contract-view-modal.njk" %}
+  {% include "partials/client-contract-view-modal.njk" %}
   {% include "partials/contract-edit-modal.njk" %}
   {% include "partials/contract-terminate-modal.njk" %}
 {% endblock %}

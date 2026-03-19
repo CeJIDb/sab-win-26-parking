@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Оплаты — ЛК клиента</title>
+  <title>{% block title %}Личный кабинет клиента{% endblock %}</title>
   <link rel="stylesheet" href="../wireframe.css">
 </head>
 <body>
@@ -28,133 +28,15 @@
         <span class="wf-burger__line" aria-hidden="true"></span>
       </button>
     </header>
-    
+    {% set nav_current = current_nav|default('') %}
     <nav class="wf-nav wf-nav--cabinet" aria-label="Навигация ЛК клиента" id="client-nav">
       <div class="wf-nav__breadcrumbs" aria-label="Текущий раздел">
-        <span class="wf-breadcrumbs__current">Оплаты</span>
+        {% block header_breadcrumbs %}<span class="wf-breadcrumbs__current">Парковка</span>{% endblock %}
       </div>
-      
-  <ul>
-    <li><a href="dashboard.html">Парковка</a></li>
-    <li><a href="payment-settings.html" aria-current="page">Оплаты</a></li>
-    <li class="wf-nav__item--end"><a href="profile.html">Профиль</a></li>
-  </ul>
-
-
+      {% include "partials/nav-client.njk" %}
     </nav>
     <main id="main-content" class="wf-main">
-      
-  <div class="wf-page-head">
-    <button type="button" class="wf-back">Назад</button>
-    <h2>Оплаты</h2>
-  </div>
-
-  <section class="wf-section">
-    <h3>Сводка по оплатам</h3>
-    <p class="wf-muted">
-      На текущий момент: <strong>нет просроченных счетов</strong>, <strong>2 счёта к оплате</strong>, автосписание по договорам включено.
-    </p>
-  </section>
-
-  <section class="wf-section">
-    <h3>Счета к оплате</h3>
-    <p class="wf-muted">Здесь отображаются выставленные, но ещё не оплаченные счета по договорам, бронированиям и сессиям. По каждому счету можно перейти к оплате или посмотреть детали.</p>
-    <div class="wf-table-wrap">
-      <table class="wf-table">
-        <thead>
-          <tr>
-            <th scope="col">Дата выставления</th>
-            <th scope="col">Описание</th>
-            <th scope="col">Сумма</th>
-            <th scope="col">Статус</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>25.02.2026</td>
-            <td>Счёт по договору <a href="contracts.html">Д-1001</a> за март 2026</td>
-            <td>4 500 ₽</td>
-            <td>К оплате · <a href="payment-external.html">Оплатить</a></td>
-          </tr>
-          <tr>
-            <td>24.02.2026</td>
-            <td>Счёт за парковочные сессии за 24.02.2026 (ТС А123БВ777)</td>
-            <td>350 ₽</td>
-            <td>Ожидает оплаты · <a href="payment-external.html">Оплатить</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section class="wf-section">
-    <h3>История оплат</h3>
-    <p class="wf-muted">Здесь отображаются последние успешные и отклонённые платежи по сессиям, бронированиям и договорам.</p>
-    <div class="wf-table-wrap">
-      <table class="wf-table">
-        <thead>
-          <tr>
-            <th scope="col">Дата и время</th>
-            <th scope="col">Тип</th>
-            <th scope="col">Описание</th>
-            <th scope="col">Сумма</th>
-            <th scope="col">Статус</th>
-            <th scope="col">Чек</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>24.02.2026 10:15</td>
-            <td>Сессия</td>
-            <td>Парковочная сессия С-1001 (ТС А123БВ777)</td>
-            <td>350 ₽</td>
-            <td>Успешно</td>
-            <td><a href="#" aria-label="Открыть чек по оплате С-1001">Скачать чек</a></td>
-          </tr>
-          <tr>
-            <td>23.02.2026 18:40</td>
-            <td>Бронирование</td>
-            <td>Бронирование Б-204 на ПМ 12, сектор A</td>
-            <td>500 ₽</td>
-            <td>Успешно</td>
-            <td><a href="#" aria-label="Открыть чек по бронированию B-204">Скачать чек</a></td>
-          </tr>
-          <tr>
-            <td>22.02.2026 09:05</td>
-            <td>Договор</td>
-            <td>Оплата по договору Д-1001 за месяц</td>
-            <td>4 500 ₽</td>
-            <td>Успешно</td>
-            <td><a href="#" aria-label="Открыть чек по оплате договора 1001">Скачать чек</a></td>
-          </tr>
-          <tr>
-            <td>21.02.2026 21:30</td>
-            <td>Сессия</td>
-            <td>Парковочная сессия С-0998 (ТС В456ГД177)</td>
-            <td>300 ₽</td>
-            <td>Отклонено</td>
-            <td><a href="#" aria-label="Подробнее об ошибке оплаты С-0998">Подробнее</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <details class="wf-section wf-details">
-    <summary class="wf-details__summary">Информация об оплате через внешний сервис</summary>
-    <div class="wf-details__content">
-      <p class="wf-muted">
-        Оплата всех счетов выполняется через защищённый платёжный сервис партнёра. Сохранённые карты и другие
-        платёжные данные хранятся только на стороне платёжного сервиса и недоступны в личном кабинете парковки.
-      </p>
-      <p class="wf-muted">
-        Продолжая оплату, вы переходите на страницу платёжного сервиса и соглашаетесь с его условиями
-        обработки платежей. После завершения операции результат оплаты и чек будут отображены в разделе
-        «Оплаты» вашего личного кабинета.
-      </p>
-    </div>
-  </details>
-
+      {% block content %}{% endblock %}
     </main>
     <footer class="wf-footer">
       <div class="wf-footer__service">

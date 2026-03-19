@@ -9,7 +9,7 @@
 <body>
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
+    <header class="wf-header wf-header--cabinet" role="banner">
       <div class="wf-header__title">
         <h1>Личный кабинет клиента</h1>
         <p class="wf-muted"><a href="profile.html">Иванов Иван Иванович</a></p>
@@ -21,7 +21,7 @@
       <button type="button"
               class="wf-burger"
               aria-label="Открыть навигацию"
-              aria-controls="lk-nav"
+              aria-controls="client-nav"
               aria-expanded="false">
         <span class="wf-burger__line" aria-hidden="true"></span>
         <span class="wf-burger__line" aria-hidden="true"></span>
@@ -29,7 +29,7 @@
       </button>
     </header>
     
-    <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
+    <nav class="wf-nav wf-nav--cabinet" aria-label="Навигация ЛК клиента" id="client-nav">
       <div class="wf-nav__breadcrumbs" aria-label="Текущий раздел">
         <a href="payment-settings.html">Оплаты</a><span class="wf-breadcrumbs__sep">/</span><span class="wf-breadcrumbs__current">Оплата</span>
       </div>
@@ -39,6 +39,7 @@
     <li><a href="payment-settings.html">Оплаты</a></li>
     <li class="wf-nav__item--end"><a href="profile.html">Профиль</a></li>
   </ul>
+
 
     </nav>
     <main id="main-content" class="wf-main">
@@ -96,7 +97,7 @@
         body.dataset.view = view;
         try {
           if (window.localStorage) {
-            window.localStorage.setItem('lkView', view);
+            window.localStorage.setItem('clientView', view);
           }
         } catch (e) {}
 
@@ -109,7 +110,7 @@
       if (buttons.length) {
         var stored = null;
         try {
-          stored = window.localStorage && window.localStorage.getItem('lkView');
+          stored = window.localStorage && window.localStorage.getItem('clientView');
         } catch (e) {}
         if (stored === 'mobile' || stored === 'desktop') {
           applyView(stored);
@@ -125,10 +126,10 @@
 
       // Бургер-меню для навигации ЛК клиента
       var burger = document.querySelector('.wf-burger');
-      var lkNav = document.getElementById('lk-nav');
+      var clientNav = document.getElementById('client-nav');
 
       function setNavOpen(isOpen) {
-        if (!lkNav || !burger) return;
+        if (!clientNav || !burger) return;
         body.dataset.nav = isOpen ? 'open' : 'closed';
         burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       }
@@ -138,7 +139,7 @@
         setNavOpen(!isOpen);
       }
 
-      if (burger && lkNav) {
+      if (burger && clientNav) {
         burger.addEventListener('click', function () {
           toggleNav();
         });
@@ -154,7 +155,7 @@
         }
 
         // Закрывать меню при клике по любому пункту навигации (на мобильных удобно)
-        lkNav.addEventListener('click', function (event) {
+        clientNav.addEventListener('click', function (event) {
           if (event.target.tagName === 'A') {
             setNavOpen(false);
           }
@@ -187,3 +188,4 @@
   </script>
 </body>
 </html>
+

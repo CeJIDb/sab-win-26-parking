@@ -9,7 +9,7 @@
 <body>
   <a href="#main-content" class="wf-skip-link">Перейти к содержимому</a>
   <div class="wf-page">
-    <header class="wf-header wf-header--lk" role="banner">
+    <header class="wf-header wf-header--cabinet" role="banner">
       <div class="wf-header__title">
         <h1>Личный кабинет клиента</h1>
         <p class="wf-muted"><a href="profile.html">Иванов Иван Иванович</a></p>
@@ -21,7 +21,7 @@
       <button type="button"
               class="wf-burger"
               aria-label="Открыть навигацию"
-              aria-controls="lk-nav"
+              aria-controls="client-nav"
               aria-expanded="false">
         <span class="wf-burger__line" aria-hidden="true"></span>
         <span class="wf-burger__line" aria-hidden="true"></span>
@@ -29,16 +29,17 @@
       </button>
     </header>
     
-    <nav class="wf-nav wf-nav--lk" aria-label="Навигация ЛК клиента" id="lk-nav">
+    <nav class="wf-nav wf-nav--cabinet" aria-label="Навигация ЛК клиента" id="client-nav">
       <div class="wf-nav__breadcrumbs" aria-label="Текущий раздел">
         <span class="wf-breadcrumbs__current">Бронирование</span>
       </div>
       
   <ul>
-    <li><a href="dashboard.html">Парковка</a></li>
+    <li><a href="dashboard.html" aria-current="page">Парковка</a></li>
     <li><a href="payment-settings.html">Оплаты</a></li>
     <li class="wf-nav__item--end"><a href="profile.html">Профиль</a></li>
   </ul>
+
 
     </nav>
     <main id="main-content" class="wf-main">
@@ -52,7 +53,7 @@
   <section class="wf-section" aria-labelledby="bookings-active-heading">
     <h3 id="bookings-active-heading">Активные бронирования</h3>
     <div class="wf-actions">
-      <a href="#lk-modal-booking-create" class="wf-btn">Создать бронирование</a>
+      <a href="#client-modal-booking-create" class="wf-btn">Создать бронирование</a>
     </div>
     <p class="wf-muted">Подтверждённые и ожидающие оплаты бронирования. Завершённые и отменённые — в блоке «История бронирований» ниже.</p>
     <div class="wf-table-wrap" role="region" aria-label="Активные бронирования">
@@ -69,7 +70,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#lk-modal-booking-view">Б-1</a></td>
+            <td><a href="#client-modal-booking-view">Б-1</a></td>
             <td>27.02.2026 19:00–22:00</td>
             <td>Сектор A</td>
             <td>Почасовой A</td>
@@ -77,7 +78,7 @@
             <td><span class="wf-badge">Подтверждена</span></td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-booking-view">Б-2</a></td>
+            <td><a href="#client-modal-booking-view">Б-2</a></td>
             <td>28.02.2026 08:00–10:00</td>
             <td>Сектор B</td>
             <td>Почасовой B</td>
@@ -85,7 +86,7 @@
             <td><span class="wf-badge">Ожидает оплаты</span> — <a href="payment-external.html">Оплатить</a></td>
           </tr>
           <tr>
-            <td><a href="#lk-modal-contract-view">Б-4</a></td>
+            <td><a href="#client-modal-contract-view">Б-4</a></td>
             <td>01.02.2026–28.02.2026 (договор)</td>
             <td>Сектор Б, ПМ 201</td>
             <td>Долгосрочная (договор Д-045)</td>
@@ -164,10 +165,10 @@
   </section>
 
   
-<section id="lk-modal-booking-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="lk-booking-view-title">
+<section id="client-modal-booking-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="client-booking-view-title">
   <div class="wf-modal__dialog wf-modal__dialog--form">
     <header class="wf-modal__header">
-      <h2 id="lk-booking-view-title" class="wf-modal__title">Бронирование Б-1</h2>
+      <h2 id="client-booking-view-title" class="wf-modal__title">Бронирование Б-1</h2>
       <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
     </header>
     <div class="wf-modal__body">
@@ -181,14 +182,15 @@
         </div>
       </section>
       <div class="wf-actions">
-        <a href="#lk-modal-booking-edit" class="wf-btn">Изменить</a>
-        <a href="#lk-modal-booking-cancel" class="wf-btn">Отменить</a>
+        <a href="#client-modal-booking-edit" class="wf-btn">Изменить</a>
+        <a href="#client-modal-booking-cancel" class="wf-btn">Отменить</a>
       </div>
     </div>
   </div>
 </section>
 
-  <section id="lk-modal-booking-create" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-create-title">
+
+  <section id="client-modal-booking-create" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-create-title">
   <div class="wf-modal__dialog wf-section">
     <header class="wf-modal__header">
       <h3 id="booking-create-title">Создать бронирование</h3>
@@ -306,7 +308,7 @@
 </script>
 
 
-  <section id="lk-modal-booking-edit" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-edit-title">
+  <section id="client-modal-booking-edit" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-edit-title">
   <div class="wf-modal__dialog wf-section">
     <header class="wf-modal__header">
       <h3 id="booking-edit-title">Изменение бронирования Б-1</h3>
@@ -359,7 +361,7 @@
 </section>
 
 
-  <section id="lk-modal-booking-cancel" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-cancel-title">
+  <section id="client-modal-booking-cancel" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="booking-cancel-title">
   <div class="wf-modal__dialog wf-section">
     <header class="wf-modal__header">
       <h3 id="booking-cancel-title">Отмена бронирования</h3>
@@ -382,10 +384,10 @@
 
 
   
-<section id="lk-modal-contract-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="lk-contract-view-title">
+<section id="client-modal-contract-view" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="client-contract-view-title">
   <div class="wf-modal__dialog wf-modal__dialog--form">
     <header class="wf-modal__header">
-      <h2 id="lk-contract-view-title" class="wf-modal__title">Договор Д-1001</h2>
+      <h2 id="client-contract-view-title" class="wf-modal__title">Договор Д-1001</h2>
       <a href="#main-content" class="wf-btn wf-modal__close" aria-label="Закрыть">✕</a>
     </header>
     <div class="wf-modal__body">
@@ -400,14 +402,15 @@
       </section>
       <div class="wf-actions">
         <a href="#" class="wf-btn" aria-label="Скачать сканы договора">Скачать</a>
-        <a href="#lk-modal-contract-edit" class="wf-btn">Изменить</a>
-        <a href="#lk-modal-contract-terminate" class="wf-btn wf-btn-secondary">Расторгнуть</a>
+        <a href="#client-modal-contract-edit" class="wf-btn">Изменить</a>
+        <a href="#client-modal-contract-terminate" class="wf-btn wf-btn-secondary">Расторгнуть</a>
       </div>
     </div>
   </div>
 </section>
 
-  <section id="lk-modal-contract-edit" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="contract-edit-title">
+
+  <section id="client-modal-contract-edit" class="wf-modal" role="dialog" aria-modal="true" aria-labelledby="contract-edit-title">
   <div class="wf-modal__dialog wf-section">
     <header class="wf-modal__header">
       <h3 id="contract-edit-title">Изменение договора Д-1001</h3>
@@ -493,7 +496,7 @@
         body.dataset.view = view;
         try {
           if (window.localStorage) {
-            window.localStorage.setItem('lkView', view);
+            window.localStorage.setItem('clientView', view);
           }
         } catch (e) {}
 
@@ -506,7 +509,7 @@
       if (buttons.length) {
         var stored = null;
         try {
-          stored = window.localStorage && window.localStorage.getItem('lkView');
+          stored = window.localStorage && window.localStorage.getItem('clientView');
         } catch (e) {}
         if (stored === 'mobile' || stored === 'desktop') {
           applyView(stored);
@@ -522,10 +525,10 @@
 
       // Бургер-меню для навигации ЛК клиента
       var burger = document.querySelector('.wf-burger');
-      var lkNav = document.getElementById('lk-nav');
+      var clientNav = document.getElementById('client-nav');
 
       function setNavOpen(isOpen) {
-        if (!lkNav || !burger) return;
+        if (!clientNav || !burger) return;
         body.dataset.nav = isOpen ? 'open' : 'closed';
         burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       }
@@ -535,7 +538,7 @@
         setNavOpen(!isOpen);
       }
 
-      if (burger && lkNav) {
+      if (burger && clientNav) {
         burger.addEventListener('click', function () {
           toggleNav();
         });
@@ -551,7 +554,7 @@
         }
 
         // Закрывать меню при клике по любому пункту навигации (на мобильных удобно)
-        lkNav.addEventListener('click', function (event) {
+        clientNav.addEventListener('click', function (event) {
           if (event.target.tagName === 'A') {
             setNavOpen(false);
           }
@@ -584,3 +587,4 @@
   </script>
 </body>
 </html>
+
