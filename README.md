@@ -123,6 +123,33 @@ npm ci
 npm run ci:check
 ```
 
+## First Contribution Path
+
+Если это ваш первый вклад, используйте краткий маршрут:
+
+1. Прочитайте `CONTRIBUTING.md`.
+2. Выберите задачу и свяжите ее с источником требований (артефакт/протокол/FR/NFR/ADR).
+3. Создайте ветку: `docs/<topic>`, `feature/<topic>`, `chore/<topic>`, `hotfix/<topic>`.
+4. Внесите минимальные трассируемые изменения.
+5. Обновите матрицу трассировки (`docs/process/traceability-matrix-log.md`).
+6. Обновите `CHANGELOG.md` в секции `Unreleased`.
+7. Запустите проверки:
+
+   ```bash
+   npm ci
+   npm run ci:check
+   ```
+
+8. Откройте PR по шаблону и пройдите DoR/DoD (`docs/process/pr-dor-dod.md`).
+
+## Contributor Process Docs
+
+- `docs/process/first-contribution-path.md` - первый вклад, пошагово
+- `docs/process/traceability-matrix.md` - регламент трассировки изменений
+- `docs/process/traceability-matrix-log.md` - живая матрица трассировки по изменениям
+- `docs/process/pr-dor-dod.md` - DoR/DoD для PR
+- `docs/process/release-checklist.md` - релизный чеклист
+
 ## Quality Gates
 
 Изменение готово к merge, если:
@@ -136,7 +163,7 @@ npm run ci:check
 
 - Все значимые изменения фиксируются в `CHANGELOG.md` в секции `Unreleased`.
 - При выпуске версии записи переносятся в версионированный блок.
-- Рекомендуется тегировать релизы в Git для прозрачной истории.
+- Релиз выполняется по чеклисту `docs/process/release-checklist.md`.
 
 ## Технологии репозитория
 
