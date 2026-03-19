@@ -1069,7 +1069,7 @@ a.wf-btn-secondary:hover {
   background: var(--wf-block);
 }
 
-/* Карта парковки по Схема парковки AS-IS.md */
+/* Карта парковки по parking-as-is-diagram.md */
 .wf-parking-map {
   border: var(--wf-border);
   background: #fff;

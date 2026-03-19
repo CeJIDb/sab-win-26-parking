@@ -2,8 +2,8 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const TARGETS = ["README.md", "CONTRIBUTING.md", "CHANGELOG.md", "docs/process"];
-const IGNORE_PREFIXES = ["http://", "https://", "mailto:", "#", "/"];
+const TARGETS = ["README.md", "CONTRIBUTING.md", "CHANGELOG.md", "docs"];
+const IGNORE_PREFIXES = ["http://", "https://", "mailto:", "#"];
 const MARKDOWN_LINK_REGEX = /\[[^\]]+\]\(([^)]+)\)/g;
 
 async function collectMarkdownFiles(targetPath, acc) {

@@ -9,7 +9,7 @@
 ## Documentation and Traceability
 
 - [ ] Traceability entries are complete for release scope.
-- [ ] `README.md` and `CONTRIBUTING.md` are updated if process changed.
+- [ ] `readme.md` and `CONTRIBUTING.md` are updated if process changed.
 - [ ] No unresolved requirement gaps remain.
 
 ## Release

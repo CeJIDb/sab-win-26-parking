@@ -6,9 +6,9 @@ source:
   - "es-tobe-bp-parking-main.md"
   - "es-tobe-bp-parking-subprocesses.md"
   - "es-tobe-sd-parking-main.md"
-  - "Концептуальная модель с атрибутами.md"
-  - "Реестр Use Case.md"
-  - "Контекстная диаграмма.md"
+  - "conceptual-model-with-attributes.md"
+  - "use-case-registry.md"
+  - "context-diagram.md"
 ---
 
 ## 1. Легенда Software Design (цвета Event Storming)

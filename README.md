@@ -70,9 +70,9 @@
 
 Если вы впервые открыли репозиторий, удобнее всего читать материалы в таком порядке:
 
-1. `docs/artifacts/Карточка-проекта.md`
-2. `docs/artifacts/Контекстная диаграмма.md`
-3. `docs/artifacts/Концептуальная модель с атрибутами.md`
+1. `docs/artifacts/project-charter.md`
+2. `docs/artifacts/context-diagram.md`
+3. `docs/artifacts/conceptual-model-with-attributes.md`
 4. `docs/specs/functional-requirements/`
 5. `docs/architecture/`
 6. `docs/protocols/` и `docs/transcripts/` для проверки источников решений

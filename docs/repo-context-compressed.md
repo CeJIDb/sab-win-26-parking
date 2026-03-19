@@ -18,7 +18,7 @@
 - **CI/CD, тесты**: не настроены (репо не про поставку/деплой кода).
 
 ## 3. Repository Structure
-- `/README.md`: минимальный заголовок проекта.
+- `/readme.md`: минимальный заголовок проекта.
 - `/package.json`, `/package-lock.json`: dev‑зависимости для сборки wireframe.
 - `/scripts/`
   - `build-templates.mjs`: рендер Nunjucks шаблонов в HTML по списку страниц.
@@ -97,23 +97,23 @@
   - Сотрудники: RBAC; 2FA обязателен; аудит ручных допусков/просмотров.
 
 ## 8. Important Files
-- `docs/artifacts/Карточка-проекта.md`: цели, роли, ограничения MVP, интеграции, метрики (стартовый “паспорт” контекста).
-- `docs/artifacts/Контекстная диаграмма.md`: DFD0 “полной поставки”, внешние сущности и именованные потоки данных (основа для интеграций/контрактов).
-- `docs/artifacts/Концептуальная модель с атрибутами.md`: сущности + атрибуты/enum/кардинальности; основа терминологии, будущей БД и контрактов.
+- `docs/artifacts/project-charter.md`: цели, роли, ограничения MVP, интеграции, метрики (стартовый “паспорт” контекста).
+- `docs/artifacts/context-diagram.md`: DFD0 “полной поставки”, внешние сущности и именованные потоки данных (основа для интеграций/контрактов).
+- `docs/artifacts/conceptual-model-with-attributes.md`: сущности + атрибуты/enum/кардинальности; основа терминологии, будущей БД и контрактов.
 - `docs/architecture/adr-001-online-access-rights-evaluation.md`: принцип “онлайн‑решение доступа в платформе”.
 - `docs/architecture/adr-002-booking-vs-session.md`: мастер‑сущности и инвариант “ПС через бронь”.
-- `docs/artifacts/Аутентификация и авторизация.md`: политики входа/ролей/2FA; SSO только для ФЛ.
-- `docs/artifacts/Данные и методы защиты.md`: категории данных и меры защиты (152‑ФЗ) → источник NFR/ограничений.
-- `docs/artifacts/Карта навигации.md`: sitemap по реальному wireframe + расхождения UI ↔ артефакты (полезно при уточнении UC/FR).
+- `docs/artifacts/authentication-and-authorization.md`: политики входа/ролей/2FA; SSO только для ФЛ.
+- `docs/artifacts/data-and-protection-methods.md`: категории данных и меры защиты (152‑ФЗ) → источник NFR/ограничений.
+- `docs/artifacts/navigation-map.md`: sitemap по реальному wireframe + расхождения UI ↔ артефакты (полезно при уточнении UC/FR).
 - `docs/specs/functional-requirements/`: формальные FR по сущностям и UC‑связкам (рабочий “контракт” требований).
-- `docs/protocols/README.md`, `docs/transcripts/README.md`: индексы решений встреч (источник “почему так” и трассируемости).
+- `docs/protocols/readme.md`, `docs/transcripts/readme.md`: индексы решений встреч (источник “почему так” и трассируемости).
 - Вспомогательное (для визуализации/демо, не “истина требований”):
-  - `ui/README.md`, `ui/index.html`, `ui/templates/**`: wireframe сценариев/навигации.
+  - `ui/readme.md`, `ui/index.html`, `ui/templates/**`: wireframe сценариев/навигации.
   - `package.json`, `scripts/build-templates.mjs`: сборка wireframe.
 
 ## 9. Developer Workflows
 - **Основной workflow = развитие документации**:
-  - начинать с `docs/artifacts/Карточка-проекта.md` → `docs/artifacts/Контекстная диаграмма.md` → `docs/artifacts/Концептуальная модель с атрибутами.md` → `docs/specs/**` → `docs/architecture/*.md`.
+  - начинать с `docs/artifacts/project-charter.md` → `docs/artifacts/context-diagram.md` → `docs/artifacts/conceptual-model-with-attributes.md` → `docs/specs/**` → `docs/architecture/*.md`.
   - при уточнениях ссылаться на решения встреч из `docs/protocols/*` (коротко) и `docs/transcripts/*` (детали).
   - фиксировать ключевые развилки как ADR в `docs/architecture/`.
   - держать согласованность: термины/сущности/инварианты из концептуальной модели ↔ FR ↔ UC ↔ wireframe.

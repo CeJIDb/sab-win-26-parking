@@ -7,6 +7,7 @@ The format is based on Keep a Changelog.
 ## [Unreleased]
 
 ### Added
+
 - repository governance baseline: CONTRIBUTING, LICENSE, CODEOWNERS, CI workflow, issue/PR templates
 - git consistency files: `.editorconfig` and `.gitattributes`
 - markdown quality checks and smoke test scripts for CI
@@ -14,12 +15,13 @@ The format is based on Keep a Changelog.
 - commit governance files: `commitlint.config.cjs`, Husky hooks, branch/changelog policy scripts
 - additional CI workflows for commitlint, PR title, and release tags
 - live traceability matrix file `docs/process/traceability-matrix-log.md`
+- documentation IA files: `docs/readme.md`, `docs/styleguide.md`, and section indexes for `artifacts`, `specs`, `architecture`, `demo-days`
 
 ### Changed
-- `README.md` with contribution, quality-gates, and release policy sections
+
+- `readme.md` with contribution, quality-gates, and release policy sections
 - `CONTRIBUTING.md` with DoR/DoD, traceability, and policy checks
 - `.github/workflows/ci.yml` with policy checks (branch naming and changelog guard)
 - `.github/CODEOWNERS` with multi-owner mapping placeholders for key domains
 - markdown quality checks hardened for contributor/process docs (`scripts/check-markdown.mjs`)
 - changelog exception policy clarified for CI/process-only updates
-

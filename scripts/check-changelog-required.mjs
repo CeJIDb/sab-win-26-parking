@@ -1,7 +1,7 @@
 import { execSync } from "node:child_process";
 
 const EXCLUDED_PREFIXES = [".github/", ".husky/", "docs/process/"];
-const SIGNIFICANT_PREFIXES = ["docs/", "ui/", "scripts/", "README.md", "CONTRIBUTING.md", "package.json"];
+const SIGNIFICANT_PREFIXES = ["docs/", "ui/", "scripts/", "readme.md", "CONTRIBUTING.md", "package.json"];
 
 function getChangedFiles() {
   const range = process.env.CI_MERGE_RANGE;
