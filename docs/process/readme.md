@@ -1,12 +1,14 @@
-# Contributor Process Docs
+# Процессная документация для участников
 
-This section contains operating procedures for contributors.
+Регламенты и шаблоны для работы с репозиторием.
 
-## Contents
+## Содержание
 
-- `first-contribution-path.md` - first contribution path, step by step
-- `traceability-matrix.md` - how to maintain requirement traceability
-- `traceability-matrix-log.md` - live change log for traceability entries
-- `pr-dor-dod.md` - PR Definition of Ready / Done
-- `release-checklist.md` - release readiness and release flow
-- `templates/` - reusable templates for PR and traceability
+- `first-contribution-path.md` — первый вклад, по шагам
+- `traceability-matrix.md` — как вести трассировку требований
+- `traceability-matrix-log.md` — журнал изменений по трассировке
+- `pr-dor-dod.md` — Definition of Ready / Done для pull request
+- `release-checklist.md` — готовность к релизу и порядок выпуска
+- `templates/` — шаблоны для PR и матрицы трассировки
+
+Подробные правила веток, коммитов и CI — в [`CONTRIBUTING.md`](../../CONTRIBUTING.md) в корне репозитория.

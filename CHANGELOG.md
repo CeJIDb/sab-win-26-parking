@@ -20,6 +20,7 @@ The format is based on Keep a Changelog.
 
 ### Changed
 
+- корневой `README.md`, `CONTRIBUTING.md`, индексы `docs/*/readme.md` и `scripts/docs/readme.md`: перевод на русский, выравнивание ссылок с GitHub и CI (`check:branch`), актуализация состава (в т.ч. ссылка на `infosec-analyze-parking-study.md`)
 - `readme.md` with contribution, quality-gates, and release policy sections
 - `CONTRIBUTING.md` with DoR/DoD, traceability, and policy checks
 - `.github/workflows/ci.yml` with policy checks (branch naming and changelog guard)

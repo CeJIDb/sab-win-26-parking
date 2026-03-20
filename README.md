@@ -2,6 +2,8 @@
 
 Учебный проект курса [Systems Analyst Bootcamp](https://systems.education/systems-analyst-bootcamp).
 
+**Репозиторий на GitHub:** [CeJIDb/sab-win-26-mine-parking](https://github.com/CeJIDb/sab-win-26-mine-parking).
+
 Проект посвящен цифровизации частного паркинга на 600 машиномест в Санкт-Петербурге. В рамках кейса команда выступает в роли системных разработчиков: собирает и уточняет требования, описывает предметную область, моделирует целевые бизнес-процессы, формирует артефакты системного анализа, фиксирует архитектурные решения, определяет требования к будущей разработке системы и подготавливает wireframe-интерфейсы для ключевых пользовательских сценариев.
 
 ## О проекте
@@ -122,48 +124,51 @@ npm run build
 1. Создайте ветку по соглашению: `feature/*`, `docs/*`, `chore/*`, `hotfix/*`.
 2. Вносите изменения небольшими и трассируемыми шагами.
 3. Используйте коммиты в стиле Conventional Commits (`docs(...)`, `feat(...)`, `fix(...)`, `chore(...)`).
-4. Перед PR запустите:
+4. Перед открытием PR выполните:
 
 ```bash
 npm ci
+npm run check:branch
 npm run ci:check
 ```
 
-## First Contribution Path
+## Первый вклад
 
-Если это ваш первый вклад, используйте краткий маршрут:
+Если вы впервые участвуете в проекте:
 
 1. Прочитайте `CONTRIBUTING.md`.
-2. Выберите задачу и свяжите ее с источником требований (артефакт/протокол/FR/NFR/ADR).
-3. Создайте ветку: `docs/<topic>`, `feature/<topic>`, `chore/<topic>`, `hotfix/<topic>`.
-4. Внесите минимальные трассируемые изменения.
-5. Обновите матрицу трассировки (`docs/process/traceability-matrix-log.md`).
+2. Выберите задачу и свяжите её с источником требований (артефакт, протокол, FR/NFR, ADR).
+3. Создайте ветку: `docs/<тема>`, `feature/<тема>`, `chore/<тема>`, `hotfix/<тема>`.
+4. Внесите минимальный набор трассируемых изменений.
+5. Обновите матрицу трассировки (`docs/process/traceability-matrix-log.md`), если это требуется по [регламенту](docs/process/traceability-matrix.md).
 6. Обновите `CHANGELOG.md` в секции `Unreleased`.
 7. Запустите проверки:
 
    ```bash
    npm ci
+   npm run check:branch
    npm run ci:check
    ```
 
-8. Откройте PR по шаблону и пройдите DoR/DoD (`docs/process/pr-dor-dod.md`).
+8. Откройте PR по шаблону и выполните критерии DoR/DoD (`docs/process/pr-dor-dod.md`).
 
-## Contributor Process Docs
+## Документация процесса участия
 
-- `docs/process/first-contribution-path.md` - первый вклад, пошагово
-- `docs/process/traceability-matrix.md` - регламент трассировки изменений
-- `docs/process/traceability-matrix-log.md` - живая матрица трассировки по изменениям
-- `docs/process/pr-dor-dod.md` - DoR/DoD для PR
-- `docs/process/release-checklist.md` - релизный чеклист
+- [`docs/readme.md`](docs/readme.md) — оглавление проектной документации
+- [`docs/process/first-contribution-path.md`](docs/process/first-contribution-path.md) — первый вклад, по шагам
+- [`docs/process/traceability-matrix.md`](docs/process/traceability-matrix.md) — регламент трассировки
+- [`docs/process/traceability-matrix-log.md`](docs/process/traceability-matrix-log.md) — журнал трассировки по изменениям
+- [`docs/process/pr-dor-dod.md`](docs/process/pr-dor-dod.md) — DoR/DoD для pull request
+- [`docs/process/release-checklist.md`](docs/process/release-checklist.md) — релизный чеклист
 
-## Quality Gates
+## Контрольные точки качества
 
-Изменение готово к merge, если:
+Изменение готово к слиянию (merge), если:
 
-- CI-проверки проходят успешно;
-- изменения привязаны к артефактам/требованиям;
+- проверки CI проходят успешно;
+- изменения привязаны к артефактам и требованиям;
 - формулировки требований проверяемы и однозначны;
-- в PR описаны риски и шаги валидации.
+- в описании PR указаны риски и шаги валидации.
 
 ## Политика релизов и изменений
 

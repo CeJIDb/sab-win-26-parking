@@ -1,14 +1,14 @@
-# Artifacts Index
+# Индекс артефактов
 
-This section contains core analytical artifacts of the project.
+В этом разделе собраны основные аналитические артефакты проекта.
 
 ## Оглавление
 
-1. [Key Documents](#key-documents)
-2. [Subsections](#subsections)
-3. [Notes](#notes)
+- [Ключевые документы](#ключевые-документы)
+- [Подразделы](#подразделы)
+- [Заметки](#заметки)
 
-## Key Documents
+## Ключевые документы
 
 - [project-charter.md](project-charter.md)
 - [context-diagram.md](context-diagram.md)
@@ -16,14 +16,15 @@ This section contains core analytical artifacts of the project.
 - [use-case-registry.md](use-case-registry.md)
 - [navigation-map.md](navigation-map.md)
 - [infosec/infosec-analyze-parking.md](infosec/infosec-analyze-parking.md)
+- [infosec/infosec-analyze-parking-study.md](infosec/infosec-analyze-parking-study.md)
 
-## Subsections
+## Подразделы
 
-- [es-to-be/](es-to-be/) - process models and target-state flow artifacts
-- [use-case/](use-case/) - use-case descriptions and supporting materials
+- [es-to-be/](es-to-be/) — модели процессов и артефакты целевого состояния (TO-BE)
+- [use-case/](use-case/) — описания вариантов использования и сопутствующие материалы
 
-## Notes
+## Заметки
 
-- Naming has been normalized to english kebab-case.
-- Keep links relative and update references in the same PR when moving files.
-- Helper script for splitting large images into tiles is located at `../../scripts/docs/split-image.py`.
+- Имена файлов приведены к стилю **kebab-case** на латинице.
+- Сохраняйте относительные ссылки; при переносе файлов обновляйте ссылки в том же PR.
+- Скрипт нарезки крупных изображений на тайлы: [`../../scripts/docs/split-image.py`](../../scripts/docs/split-image.py).

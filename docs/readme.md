@@ -1,47 +1,47 @@
-# Docs Index
+# Индекс документации
 
-This file is the entry point for project documentation.
+Точка входа в проектную документацию репозитория.
 
 ## Оглавление
 
-1. [Start Here](#start-here)
-2. [Sections](#sections)
-3. [Supporting Tooling](#supporting-tooling)
-4. [Canonical vs Supporting Materials](#canonical-vs-supporting-materials)
-5. [Naming and Style Rules](#naming-and-style-rules)
+- [С чего начать](#с-чего-начать)
+- [Разделы](#разделы)
+- [Вспомогательные инструменты](#вспомогательные-инструменты)
+- [Каноничные и вспомогательные материалы](#каноничные-и-вспомогательные-материалы)
+- [Именование и стиль](#именование-и-стиль)
 
-## Start Here
+## С чего начать
 
-For a quick onboarding path:
+Краткий маршрут знакомства с проектом:
 
 1. [Карточка проекта](artifacts/project-charter.md)
 2. [Контекстная диаграмма](artifacts/context-diagram.md)
 3. [Концептуальная модель с атрибутами](artifacts/conceptual-model-with-attributes.md)
-4. [Specs Index](specs/readme.md)
-5. [Architecture Index](architecture/readme.md)
-6. [Protocols Index](protocols/readme.md) and [Transcripts Index](transcripts/readme.md)
+4. [Индекс спецификаций](specs/readme.md)
+5. [Индекс архитектуры](architecture/readme.md)
+6. [Индекс протоколов](protocols/readme.md) и [индекс транскрибаций](transcripts/readme.md)
 
-## Sections
+## Разделы
 
-- [artifacts/](artifacts/readme.md) - analysis artifacts, maps, conceptual model, and use-case materials
-- [specs/](specs/readme.md) - functional, non-functional requirements and constraints
-- [architecture/](architecture/readme.md) - architecture decision records (ADR)
-- [process/](process/readme.md) - contribution process, templates, quality gates, release checklist
-- [protocols/](protocols/readme.md) - meeting protocols and decisions
-- [transcripts/](transcripts/readme.md) - interview and meeting transcripts
-- [demo-days/](demo-days/readme.md) - demo-related scripts, notes, and presentation materials
+- [artifacts/](artifacts/readme.md) — артефакты анализа, карты, концептуальная модель, материалы по use case
+- [specs/](specs/readme.md) — функциональные и нефункциональные требования, ограничения
+- [architecture/](architecture/readme.md) — записи архитектурных решений (ADR)
+- [process/](process/readme.md) — процесс участия, шаблоны, контроль качества, чеклист релиза
+- [protocols/](protocols/readme.md) — протоколы встреч и зафиксированные решения
+- [transcripts/](transcripts/readme.md) — транскрибации интервью и встреч
+- [demo-days/](demo-days/readme.md) — сценарии демо, заметки и материалы презентаций
 
-## Supporting Tooling
+## Вспомогательные инструменты
 
-- Documentation helper scripts are collected in `../scripts/docs/`.
-- `temp_context/` at repo root is a temporary workspace; canonical outputs must be moved to `docs/`.
+- Скрипты для подготовки документации — в каталоге [`../scripts/docs/`](../scripts/docs/readme.md).
+- Каталог `temp_context/` в корне репозитория — временная рабочая область; устойчивые результаты переносите в `docs/`.
 
-## Canonical vs Supporting Materials
+## Каноничные и вспомогательные материалы
 
-- Canonical analytical documents are in [artifacts/](artifacts/readme.md), [specs/](specs/readme.md), and [architecture/](architecture/readme.md).
-- Supporting and operational materials are in [process/](process/readme.md), [protocols/](protocols/readme.md), and [transcripts/](transcripts/readme.md).
-- Demo presentation materials are in [demo-days/](demo-days/readme.md).
+- Каноничные аналитические документы — в [artifacts/](artifacts/readme.md), [specs/](specs/readme.md) и [architecture/](architecture/readme.md).
+- Операционные и вспомогательные материалы — в [process/](process/readme.md), [protocols/](protocols/readme.md) и [transcripts/](transcripts/readme.md).
+- Материалы для демонстраций — в [demo-days/](demo-days/readme.md).
 
-## Naming and Style Rules
+## Именование и стиль
 
-Follow naming and structure conventions from [styleguide.md](styleguide.md).
+Соглашения по именованию и оформлению — в [styleguide.md](styleguide.md).

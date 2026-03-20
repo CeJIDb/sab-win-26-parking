@@ -1,13 +1,13 @@
-# Architecture Index
+# Индекс архитектуры
 
-This section contains architecture decision records (ADR).
+Записи архитектурных решений (ADR).
 
-## Documents
+## Документы
 
-- `adr-001-online-access-rights-evaluation.md`
-- `adr-002-booking-vs-session.md`
+- [adr-001-online-access-rights-evaluation.md](adr-001-online-access-rights-evaluation.md)
+- [adr-002-booking-vs-session.md](adr-002-booking-vs-session.md)
 
-## Rule of Use
+## Правила использования
 
-- New architecture decisions should be added as new ADRs.
-- Existing ADRs should not be rewritten retroactively; add a superseding ADR when needed.
+- Новые архитектурные решения оформляйте отдельными ADR.
+- Существующие ADR не переписывайте задним числом; при необходимости добавьте новый ADR, отменяющий или заменяющий предыдущий.

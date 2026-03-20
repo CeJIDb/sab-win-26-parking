@@ -1,8 +1,8 @@
-# Demo Days Index
+# Индекс Demo Days
 
-This section contains demo scripts, notes, and presentation materials.
+Сценарии демонстраций, заметки и материалы презентаций.
 
-## Current Contents
+## Текущее содержимое
 
 - [demo-days-overview.md](demo-days-overview.md)
 - [demo-3-context-diagram-presentation-3-min.md](demo-3-context-diagram-presentation-3-min.md)
@@ -10,7 +10,7 @@ This section contains demo scripts, notes, and presentation materials.
 - [demo-3-slides/](demo-3-slides/)
 - [demo-day-2.pdf](demo-day-2.pdf)
 
-## Notes
+## Заметки
 
-- Presentation artifacts are supporting materials and may duplicate canonical content.
-- Canonical analytical source should be taken from `docs/artifacts/` and `docs/specs/`.
+- Презентационные материалы носят вспомогательный характер и могут дублировать каноничное содержание.
+- Источником истины для аналитики остаются `docs/artifacts/` и `docs/specs/`.

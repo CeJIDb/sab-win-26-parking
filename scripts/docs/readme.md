@@ -1,15 +1,17 @@
-# Docs Tooling Scripts
+# Скрипты подготовки документации
 
-Helper scripts for preparing project documentation materials.
+Вспомогательные скрипты для подготовки материалов проектной документации.
 
-## Available Scripts
+## Доступные скрипты
 
-- `extract-docx.py` - converts `.docx` transcripts into `.txt` files (default target: `docs/transcripts/`).
-- `split-image.py` - splits large artifact images into tiles under `docs/artifacts/*_tiles/`.
+- `extract-docx.py` — извлекает текст из файлов `.docx` в `.txt` (по умолчанию целевой каталог: `docs/transcripts/`).
+- `split-image.py` — нарезает крупные изображения артефактов на тайлы в `docs/artifacts/*_tiles/`.
 
-## Usage
+## Запуск
 
 ```bash
 python scripts/docs/extract-docx.py
 python scripts/docs/split-image.py "Контекстная диаграмма.jpg"
 ```
+
+Подробнее о контексте использования — в [индексе документации](../../docs/readme.md) и в [readme транскрибаций](../../docs/transcripts/readme.md).

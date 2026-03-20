@@ -1,15 +1,15 @@
-# Specs Index
+# Индекс спецификаций
 
-This section contains formal project requirements.
+Формальные требования к проектируемой системе.
 
-## Subsections
+## Подразделы
 
-- `functional-requirements/` - functional requirements (`FR-*`)
-- `nonfunctional-requirements/` - non-functional requirements (`NFR-*`)
-- `constraints/` - solution and implementation constraints (`CONSTR-*`)
+- `functional-requirements/` — функциональные требования (`FR-*`)
+- `nonfunctional-requirements/` — нефункциональные требования (`NFR-*`)
+- `constraints/` — ограничения на решение и реализацию (`CONSTR-*`)
 
-## Usage Rules
+## Правила ведения
 
-- Keep requirement wording testable and explicit ("system shall ...").
-- Preserve the existing section structure when editing documents.
-- Mark obsolete/replaced requirements explicitly instead of silent deletion.
+- Формулировки требований должны быть проверяемыми и однозначными (предпочтительно: «система должна …»).
+- При правках сохраняйте существующую структуру разделов в документах.
+- Устаревшие или заменённые требования помечайте явно; не удаляйте их без пометки.

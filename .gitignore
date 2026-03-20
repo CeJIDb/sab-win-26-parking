@@ -11,6 +11,9 @@ __pycache__/
 # Node
 node_modules/
 
+# Local npm pack artifacts
+skillsmp-mcp-server-1.0.0.tgz
+
 # Cursor MCP (may contain API keys)
 .cursor/mcp.json
 .cursor/mcp.json.example
