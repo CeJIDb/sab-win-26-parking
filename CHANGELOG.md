@@ -20,6 +20,7 @@ The format is based on Keep a Changelog.
 
 ### Changed
 
+- `docs/artifacts/infosec/infosec-analyze-parking.md`: выравнивание строк таблицы «Уязвимости» с разделами «Аутентификация» и «Чувствительные данные» (брутфорс, сессии/TLS как риск несоответствия реализации); добавлен подраздел «Соответствие карточке проекта» (63/54/149-ФЗ, реестр ПО, идентификация клиентов)
 - корневой `README.md`, `CONTRIBUTING.md`, индексы `docs/*/readme.md` и `scripts/docs/readme.md`: перевод на русский, выравнивание ссылок с GitHub и CI (`check:branch`), актуализация состава (в т.ч. ссылка на `infosec-analyze-parking-study.md`)
 - `readme.md` with contribution, quality-gates, and release policy sections
 - `CONTRIBUTING.md` with DoR/DoD, traceability, and policy checks

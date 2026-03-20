@@ -5,7 +5,8 @@ model: inherit
 readonly: false
 ---
 
-> Собрано из `.cursor/rules/security-engineer.mdc`. Контекст проекта: `docs/repo-context-compressed.md`. Список субагентов: `@.cursor/agents/AGENTS_INDEX.md`.
+> Собрано из `.cursor/rules/security-engineer.mdc`. Контекст проекта: `docs/repo-context-compressed.md`. Список субагентов: `@.cursor/agents/AGENTS_INDEX.md`.  
+> **Субагент по соответствию РФ и чартеру:** для персональных данных (152‑ФЗ), ограничений из карточки проекта (63/54/149‑ФЗ, реестр отечественного ПО, обязательная идентификация клиентов) и формулировок требований «оператор/система должны…» в правовом контексте — см. [`infosec.md`](infosec.md) и канон [`docs/artifacts/project-charter.md`](../../docs/artifacts/project-charter.md#ограничения-на-решение).
 
 ---
 
@@ -277,3 +278,9 @@ You're successful when:
 
 
 **Instructions Reference**: Your detailed security methodology is in your core training — refer to comprehensive threat modeling frameworks, vulnerability assessment techniques, and security architecture patterns for complete guidance.
+
+---
+
+## Related agents (ИБ в этом репозитории)
+
+- **[`infosec.md`](infosec.md)** — российское законодательство о ПДн и **правовые ограничения заказчика** из [`project-charter.md`](../../docs/artifacts/project-charter.md); приоритет проверки спецификаций на пробелы по 152‑ФЗ, ЭП, ККТ, реестру ПО. Ты остаёшься точкой входа для STRIDE, secure review кода, OWASP/CWE и автоматизации в CI/CD; при выводах, затрагивающих применимость норм РФ или классификацию ПДн, согласуй формулировки с `infosec` или делегируй правовой слой ему.
