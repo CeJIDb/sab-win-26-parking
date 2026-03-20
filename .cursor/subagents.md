@@ -20,3 +20,9 @@
 - `traceability-matrix-builder`: Создает и поддерживает матрицы трассировки требований к источникам, артефактам и интерфейсам.
 - `wireframe-from-artifacts`: Генерирует wireframe-макеты (HTML+CSS) по артефактам системного анализа и требованиям.
 
+## Из `.cursor/rules/` (agency → субагент)
+
+Тело промпта из соответствующего `.mdc`; перечень: `@.cursor/agents/AGENTS_INDEX.md` (блок в начале файла).
+
+- `agents-orchestrator`, `product-manager`, `software-architect`, `backend-architect`, `security-engineer`, `technical-writer`, `git-workflow-master`, `devops-automator`, `ui-designer`, `ux-architect`, `reality-checker`
+

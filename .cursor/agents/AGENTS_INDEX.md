@@ -1,3 +1,23 @@
+# Индекс агентов
+
+## Субагенты из `.cursor/rules/` (вызов из `.cursor/agents/`)
+
+Сгенерированы файлы `.cursor/agents/<имя>.md` с YAML `name` = `<имя>`. Тело взято из соответствующего `.mdc`.
+
+- **Оркестратор агентов** — `agents-orchestrator.mdc` → `agents-orchestrator`
+- **Менеджер продукта** — `product-manager.mdc` → `product-manager`
+- **Архитектор системы** — `software-architect.mdc` → `software-architect`
+- **Домен / API (дополнительно)** — `backend-architect.mdc` → `backend-architect`
+- **Специалист по ИБ (общий secure‑фокус)** — `security-engineer.mdc` → `security-engineer`
+- **Технический писатель** — `technical-writer.mdc` → `technical-writer`
+- **Git** — `git-workflow-master.mdc` → `git-workflow-master`
+- **CI/CD** — `devops-automator.mdc` → `devops-automator`
+- **UX (визуал / дизайн‑система)** — `ui-designer.mdc` → `ui-designer`
+- **IA / паттерны (дополнительно к UI)** — `ux-architect.mdc` → `ux-architect`
+- **Reality checker** — `reality-checker.mdc` → `reality-checker`
+
+---
+
 ## Обзор агентов для оркестрации
 
 ### Приоритетные агенты для текущего проекта (система парковки)
