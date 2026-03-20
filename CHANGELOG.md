@@ -32,3 +32,4 @@ The format is based on Keep a Changelog.
 - infosec analysis artifact formalized: `docs/artifacts/infosec/infosec-analyze-parking.md` expanded (threats, vulnerabilities, risks, glossary)
 - consolidated links after infosec artifact merge and removed duplicated auth/data docs references
 - regenerated client wireframe pages in `ui/client/*` after template build
+- обновлён артефакт `docs/artifacts/infosec/infosec-analyze-parking-study.md` (анализ парковочного исследования)
