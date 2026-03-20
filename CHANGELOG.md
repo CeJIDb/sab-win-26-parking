@@ -16,6 +16,7 @@ The format is based on Keep a Changelog.
 - additional CI workflows for commitlint, PR title, and release tags
 - live traceability matrix file `docs/process/traceability-matrix-log.md`
 - documentation IA files: `docs/readme.md`, `docs/styleguide.md`, and section indexes for `artifacts`, `specs`, `architecture`, `demo-days`
+- infosec artifacts: `docs/artifacts/infosec/*` (контекст угроз, анализ уязвимостей и контрмер)
 
 ### Changed
 
