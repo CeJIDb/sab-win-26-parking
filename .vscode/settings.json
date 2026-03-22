@@ -1,4 +1,5 @@
 {
+  "markdown.mermaid.enabled": true,
   "cSpell.language": "en,ru",
   "cSpell.enabledLanguageIds": [
     "markdown",
