@@ -9,6 +9,7 @@ The format is based on Keep a Changelog.
 ### Added
 
 - `docs/architecture/c4/c4-l1-system-context.md`: C4 Level 1 в текстовом виде по методике примера «Телемед» — пользователи `[Person]`, внешние системы с разделением периметра (как серый/фиолетовый в легенде), легенда, Mermaid `C4Context`; согласовано с `c4-parking-platform.md`
+- `docs/architecture/c4/c4-l2-container.md`: C4 Level 2 (Container) в формате референса «Телемед» — граница системы, контейнеры, внешние системы, Mermaid `C4Container`; индекс в `docs/architecture/readme.md`
 - `scripts/atomic-commit.mjs` и npm-скрипты `commit:atomic` / `commit:atomic:yes` — группировка изменений в атомарные conventional-коммиты по зонам репозитория; описание в `CONTRIBUTING.md`
 - просмотр C4/Mermaid: `scripts/build-c4-preview-html.mjs`, npm-команда `docs:c4-preview`, артефакт `docs/architecture/c4/c4-parking-platform-preview.html` (Mermaid 11 с CDN); рекомендация расширения `bierner.markdown-mermaid`, настройка `markdown.mermaid.enabled` в `.vscode/settings.json`; раздел «Как посмотреть диаграммы» в `docs/architecture/c4/c4-parking-platform.md`, ссылки в `docs/architecture/c4/c4-external-context.md` и `docs/architecture/readme.md`
 - `docs/architecture/c4/c4-parking-platform.md`: C4-диаграммы платформы парковки — Level 1 (System Context), Level 2 (Container), Level 3 (Component); Mermaid + текстовые описания акторов, внешних систем и модулей; ASCII-схемы ключевых сценариев (въезд, завершение сессии); ссылки на ADR-001–003, DDD bounded contexts и чартер
@@ -29,6 +30,10 @@ The format is based on Keep a Changelog.
 
 ### Changed
 
+- C4: в `c4-l1-system-context.md` и `c4-parking-platform.md` унифицированы формулировки персон и внешних систем
+  (служебный веб-интерфейс, платёжные терминалы объекта, сервис уведомлений, информационные табло);
+  на L2 в `c4-parking-platform.md` три служебных SPA сведены в один контейнер с ролевым доступом;
+  обновлены подписи рёбер Mermaid L1 и пересобран `c4-parking-platform-preview.html`
 - C4 Level 1: внешний узел «информационные табло» уточнён как **инфо-дисплеи и табло (объект)** — несколько физических устройств с разным назначением, одна граница интеграции на L1; пояснение в `docs/architecture/c4/c4-l1-system-context.md`, таблица и Mermaid в `docs/architecture/c4/c4-parking-platform.md`
 - DDD и C4 — ревью техписателем и архитектором: исправлены scope ACID-транзакций в ASCII-сценариях
   (чтение статусов вынесено вне транзакции въезда; `проверитьВыезд()` включён в ACID блока выезда);
