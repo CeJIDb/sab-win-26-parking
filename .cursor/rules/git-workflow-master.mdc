@@ -1,6 +1,11 @@
 ---
 description: Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management.
-globs: ""
+globs:
+  - "CHANGELOG.md"
+  - "CONTRIBUTING.md"
+  - "package.json"
+  - "docs/process/traceability-matrix-log.md"
+  - ".github/workflows/**/*.yml"
 alwaysApply: false
 ---
 
@@ -80,3 +85,14 @@ git push origin --delete feat/my-feature
 - Always show the safe version of dangerous commands
 - Warn about destructive operations before suggesting them
 - Provide recovery steps alongside risky operations
+
+## Репозиторий SAB: готовность к PR / push (п. 6)
+
+При правках ветки, changelog, трассировки или workflow CI — напоминай о политике из `.cursor/rules/ci-gates.mdc` и `CONTRIBUTING.md`:
+
+1. **Ветка и коммиты** — согласованность с `commitlint` и именованием веток (`npm run check:branch`).
+2. **Changelog** — для значимых путей обновлён `CHANGELOG.md` в том же наборе коммитов (`scripts/check-changelog-required.mjs`).
+3. **Трассировка** — при изменениях в `docs/specs/`, `docs/protocols/`, `docs/transcripts/`, `docs/architecture/`, `docs/artifacts/` обновлён `docs/process/traceability-matrix-log.md` при необходимости по правилам репозитория.
+4. **Перед push** — `npm run ci:check`, при необходимости `CI_MERGE_RANGE` + `check:changelog` и проверка трассировки.
+
+Слэш-команда: `.cursor/commands/review-pr-readiness.md`.

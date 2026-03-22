@@ -14,7 +14,7 @@
 
 ## Связанные документы
 
-- [docs/architecture/adr-001-online-access-rights-evaluation.md](../../architecture/adr-001-online-access-rights-evaluation.md)
+- [docs/architecture/adr/adr-001-online-access-rights-evaluation.md](../../architecture/adr/adr-001-online-access-rights-evaluation.md)
 - [docs/artifacts/project-charter.md](../../artifacts/project-charter.md)
 - [docs/artifacts/project-glossary.md](../../artifacts/project-glossary.md)
 - [docs/specs/functional-requirements/fr-event-skud.md](../functional-requirements/fr-event-skud.md)
@@ -33,7 +33,7 @@
 ### 1.3 Связанные документы
 
 - `docs/artifacts/project-charter.md`
-- `docs/architecture/adr-001-online-access-rights-evaluation.md`
+- `docs/architecture/adr/adr-001-online-access-rights-evaluation.md`
 - `docs/specs/functional-requirements/fr-event-skud.md`
 
 ## 2. Глоссарий и сокращения
@@ -153,7 +153,7 @@
 
 ## 5. Проверка соответствия контексту проекта
 
-- **HIGH** `NFR-EXT-AVL-001`, `NFR-EXT-PERF-002`: в `adr-001-online-access-rights-evaluation.md` для потока решения допуска на КПП (`allow/deny`) требуется отдельная формализация деградации/таймаутов; в текущем документе зафиксированы только общие показатели.
+- **HIGH** `NFR-EXT-AVL-001`, `NFR-EXT-PERF-002`: в `adr/adr-001-online-access-rights-evaluation.md` для потока решения допуска на КПП (`allow/deny`) требуется отдельная формализация деградации/таймаутов; в текущем документе зафиксированы только общие показатели.
 - **MEDIUM** `NFR-EXT-REL-003` и `NFR-EXT-AVL-001`: показатели заданы в разных моделях измерения (месячная безотказность и доступность в часы пик), требуется единая методика расчета SLA/SLO.
 - **LOW** `NFR-EXT-SEC-001..004`: согласуются с проектным контекстом и выделенными ролями/каналами.
 

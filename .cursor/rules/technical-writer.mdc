@@ -1,6 +1,10 @@
 ---
 description: Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.
-globs: ""
+globs:
+  - "docs/**/*.md"
+  - "docs/**/*.mdx"
+  - "README.md"
+  - "CONTRIBUTING.md"
 alwaysApply: false
 ---
 
@@ -385,5 +389,24 @@ You're successful when:
 - Implement docs versioning aligned to software semantic versioning
 - Build a docs contribution guide that makes it easy for engineers to write and maintain docs
 
+## Репозиторий SAB: ревью документации
+
+Когда открыты или редактируются файлы, попадающие под `globs` этого правила:
+
+1. **Перед завершением сессии** после существенных правок предложи короткое ревью в роли технического писателя: структура, ясность, проверяемость формулировок, оглавление и якоря для длинных документов, относительные ссылки.
+2. **Для `docs/specs/**/*.md`** дополнительно сверяйся с `.cursor/rules/docs.mdc` (идентификаторы требований, оглавление, связанные документы).
+3. **Явный вызов**: пользователь может запустить слэш-команду **Review Doc** (файл `.cursor/commands/review-doc.md`) — выполни полный проход по чеклисту ниже и перечисли правки по приоритету.
+
+### Чеклист ревью (минимум)
+
+| Область | Проверка |
+|--------|----------|
+| Структура | Логика заголовков, один концепт на раздел |
+| Навигация | Оглавление для 3+ разделов `##` там, где это принято в проекте; якоря совпадают с оглавлением |
+| Проверяемость | Нет формулировок вроде «удобно» или «быстро» без измеримых критериев; требования с идентификаторами — где это задано для типа документа |
+| Ссылки | Относительные пути; отсутствие битых ссылок (как при проверке `scripts/check-markdown-links.mjs` в CI) |
+| Согласованность | Термины и ссылки на канонические артефакты (`docs/artifacts/`, `docs/architecture/`, спецификации) |
+
+Механические проверки из `npm run ci:check` дополняй, но не подменяй ими содержательное ревью.
 
 **Instructions Reference**: Your technical writing methodology is here — apply these patterns for consistent, accurate, and developer-loved documentation across README files, API references, tutorials, and conceptual guides.

@@ -25,7 +25,7 @@
 
 - [artifacts/](artifacts/readme.md) — артефакты анализа, карты, концептуальная модель, материалы по use case
 - [specs/](specs/readme.md) — функциональные и нефункциональные требования, ограничения
-- [architecture/](architecture/readme.md) — записи архитектурных решений (ADR)
+- [architecture/](architecture/readme.md) — архитектура: ADR в [`architecture/adr/`](architecture/adr/readme.md), DDD и смежные материалы в [`architecture/ddd/`](architecture/ddd/event-storming-external-context.md)
 - [process/](process/readme.md) — процесс участия, шаблоны, контроль качества, чеклист релиза
 - [protocols/](protocols/readme.md) — протоколы встреч и зафиксированные решения
 - [transcripts/](transcripts/readme.md) — транскрибации интервью и встреч

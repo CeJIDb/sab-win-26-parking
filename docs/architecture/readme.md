@@ -1,20 +1,20 @@
 # Индекс архитектуры
 
-Архитектурные решения и сопутствующие архитектурные артефакты.
+Архитектурные решения (ADR) и сопутствующие артефакты (DDD, внешние материалы).
 
 ## ADR — архитектурные решения
 
-- [adr-001-online-access-rights-evaluation.md](adr-001-online-access-rights-evaluation.md)
-- [adr-002-booking-vs-session.md](adr-002-booking-vs-session.md)
-- [adr-003-modular-monolith-c.md](adr-003-modular-monolith-c.md) — **каноничная версия ADR-003**
-- [adr-003-modular-monolith-vs-microservices-g.md](adr-003-modular-monolith-vs-microservices-g.md) — альтернативный черновик ADR-003 (два варианта, без ссылок на NFR/ADR); подлежит удалению или архивированию
-- [adr-003-modular-monolith-c-study.md](adr-003-modular-monolith-c-study.md) — краткая учебная версия ADR-003
+Все файлы ADR вынесены в каталог [`adr/`](adr/):
+
+- [adr/readme.md](adr/readme.md) — оглавление ADR-001 … ADR-003 и краткие описания.
 
 ## Архитектурные артефакты
 
-- [ddd-bounded-contexts.md](ddd-bounded-contexts.md) — DDD bounded contexts и контекстная карта
-- [ddd-bounded-contexts-study.md](ddd-bounded-contexts-study.md) — краткая учебная версия DDD bounded contexts
-- [ddd-pseudocode-study.md](ddd-pseudocode-study.md) — учебная версия псевдокода по DDD bounded contexts
+
+- [ddd/ddd-bounded-contexts.md](ddd/ddd-bounded-contexts.md) — DDD bounded contexts и контекстная карта
+- [ddd/ddd-bounded-contexts-study.md](ddd/ddd-bounded-contexts-study.md) — краткая учебная версия DDD bounded contexts
+- [ddd/ddd-pseudocode-study.md](ddd/ddd-pseudocode-study.md) — учебная версия псевдокода по DDD bounded contexts
+- [ddd/event-storming-external-context.md](ddd/event-storming-external-context.md) — внешний контекст: DDD, Event Storming, ES (индекс и ссылки на [`ddd/reference-readings/`](ddd/reference-readings/))
 
 ## Правила использования
 

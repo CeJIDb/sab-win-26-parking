@@ -1,6 +1,7 @@
 ---
 description: Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.
-globs: ""
+globs:
+  - "docs/architecture/**/*.md"
 alwaysApply: false
 ---
 
@@ -71,6 +72,17 @@ What becomes easier or harder because of this change?
 - **Reliability**: Failure modes, circuit breakers, retry policies
 - **Maintainability**: Module boundaries, dependency direction
 - **Observability**: What to measure, how to trace across boundaries
+
+## Репозиторий SAB: ревью архитектуры и DDD (п. 2)
+
+При редактировании `docs/architecture/**/*.md` (ADR, bounded contexts, псевдокод):
+
+1. **Согласованность** — ADR, контекстные границы и концептуальная модель (`docs/artifacts/`) не противоречат друг другу по терминам и ответственности.
+2. **Решения** — у ADR есть контекст, варианты, последствия; спорные места помечены явно.
+3. **Интеграции** — потоки между контекстами согласованы с контекстной диаграммой и требованиями по интеграциям из `docs/repo-context-compressed.md`.
+4. Перед завершением сессии после существенных правок предложи краткое **ревью** по чеклисту выше.
+
+Слэш-команда: `.cursor/commands/review-architecture.md`.
 
 ## 💬 Communication Style
 - Lead with the problem and constraints before proposing solutions

@@ -17,8 +17,8 @@
 ## 1. Project Summary
 ## Связанные документы
 
-- [docs/architecture/adr-001-online-access-rights-evaluation.md](architecture/adr-001-online-access-rights-evaluation.md)
-- [docs/architecture/adr-002-booking-vs-session.md](architecture/adr-002-booking-vs-session.md)
+- [docs/architecture/adr/adr-001-online-access-rights-evaluation.md](architecture/adr/adr-001-online-access-rights-evaluation.md)
+- [docs/architecture/adr/adr-002-booking-vs-session.md](architecture/adr/adr-002-booking-vs-session.md)
 - [docs/artifacts/conceptual-model-with-attributes.md](artifacts/conceptual-model-with-attributes.md)
 - [docs/artifacts/context-diagram.md](artifacts/context-diagram.md)
 - [docs/artifacts/infosec/infosec-analyze-parking.md](artifacts/infosec/infosec-analyze-parking.md)
@@ -126,8 +126,8 @@
 - `docs/artifacts/project-charter.md`: цели, роли, ограничения MVP, интеграции, метрики (стартовый “паспорт” контекста).
 - `docs/artifacts/context-diagram.md`: DFD0 “полной поставки”, внешние сущности и именованные потоки данных (основа для интеграций/контрактов).
 - `docs/artifacts/conceptual-model-with-attributes.md`: сущности + атрибуты/enum/кардинальности; основа терминологии, будущей БД и контрактов.
-- `docs/architecture/adr-001-online-access-rights-evaluation.md`: принцип “онлайн‑решение доступа в платформе”.
-- `docs/architecture/adr-002-booking-vs-session.md`: мастер‑сущности и инвариант “ПС через бронь”.
+- `docs/architecture/adr/adr-001-online-access-rights-evaluation.md`: принцип “онлайн‑решение доступа в платформе”.
+- `docs/architecture/adr/adr-002-booking-vs-session.md`: мастер‑сущности и инвариант “ПС через бронь”.
 - `docs/artifacts/infosec/infosec-analyze-parking.md`: единый ИБ-артефакт по угрозам, уязвимостям, аутентификации/авторизации и мерам защиты.
 - `docs/artifacts/navigation-map.md`: sitemap по реальному wireframe + расхождения UI ↔ артефакты (полезно при уточнении UC/FR).
 - `docs/specs/functional-requirements/`: формальные FR по сущностям и UC‑связкам (рабочий “контракт” требований).

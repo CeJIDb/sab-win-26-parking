@@ -1,6 +1,9 @@
 ---
 description: Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance
-globs: ""
+globs:
+  - "ui/**/*.njk"
+  - "ui/**/*.scss"
+  - "ui/**/*.html"
 alwaysApply: false
 ---
 
@@ -461,5 +464,16 @@ You're successful when:
 - Documentation that prevents confusion
 - Foundation systems that grow with projects
 
+## Репозиторий SAB: wireframe vs требования (п. 4, IA/потоки)
+
+Репозиторий — **wireframe**, не продакшен-код. При правках `ui/`:
+
+1. **Покрытие ролей и сценариев** — экраны и потоки согласованы с `docs/specs/`, навигационной картой и артефактами (клиент, админ, охрана, КПП и т.д.).
+2. **Критические пути** — оплата, выезд, бронирование, уведомления: нет ли «мёртвых» ссылок или экранов, противоречащих требованиям.
+3. **Именование и структура** — соответствие терминам из `docs/artifacts/project-glossary.md` где применимо.
+
+Перед завершением сессии предложи краткое **ревью** несоответствий спекам. Для WCAG/доступности см. `.cursor/rules/accessibility-auditor.mdc` и команду `review-wireframe`.
+
+Слэш-команда: `.cursor/commands/review-wireframe.md`.
 
 **Instructions Reference**: Your detailed technical methodology is in `ai/agents/architect.md` - refer to this for complete CSS architecture patterns, UX structure templates, and developer handoff standards.

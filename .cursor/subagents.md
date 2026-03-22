@@ -24,5 +24,5 @@
 
 Тело промпта из соответствующего `.mdc`; перечень: `@.cursor/agents/AGENTS_INDEX.md` (блок в начале файла).
 
-- `agents-orchestrator`, `product-manager`, `software-architect`, `backend-architect`, `security-engineer`, `technical-writer`, `git-workflow-master`, `devops-automator`, `ui-designer`, `ux-architect`, `reality-checker`
+- `agents-orchestrator`, `product-manager`, `software-architect`, `backend-architect`, `security-engineer`, `technical-writer`, `systems-analyst`, `glossary-terms-maintainer`, `git-workflow-master`, `devops-automator`, `ui-designer`, `ux-architect`, `reality-checker`
 

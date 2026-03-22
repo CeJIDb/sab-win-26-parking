@@ -4,6 +4,7 @@
 
 ## Содержание
 
+- `cursor-agent-commands.md` — слэш-команды Cursor для ревью документации и артефактов (агенты)
 - `first-contribution-path.md` — первый вклад, по шагам
 - `traceability-matrix.md` — как вести трассировку требований
 - `traceability-matrix-log.md` — журнал изменений по трассировке

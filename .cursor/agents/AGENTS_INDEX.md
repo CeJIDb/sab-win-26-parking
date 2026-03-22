@@ -10,11 +10,21 @@
 - **Домен / API (дополнительно)** — `backend-architect.mdc` → `backend-architect`
 - **Специалист по ИБ (общий secure‑фокус)** — `security-engineer.mdc` → `security-engineer`
 - **Технический писатель** — `technical-writer.mdc` → `technical-writer`
+- **Системный аналитик** — `systems-analyst.mdc` → `systems-analyst` (также `.cursor/agents/systems-analyst.md`)
+- **Глоссарист терминов** — `glossary-terms-maintainer.mdc` → `glossary-terms-maintainer` (также `.cursor/agents/glossary-terms-maintainer.md`)
 - **Git** — `git-workflow-master.mdc` → `git-workflow-master`
 - **CI/CD** — `devops-automator.mdc` → `devops-automator`
 - **UX (визуал / дизайн‑система)** — `ui-designer.mdc` → `ui-designer`
 - **IA / паттерны (дополнительно к UI)** — `ux-architect.mdc` → `ux-architect`
 - **Reality checker** — `reality-checker.mdc` → `reality-checker`
+
+---
+
+## Cursor: команды и автоматические правила ревью
+
+- **Сводный документ:** [`docs/process/cursor-agent-commands.md`](../../docs/process/cursor-agent-commands.md) — таблица всех слэш-команд и `globs` правил.
+- **Автоподключение:** при редактировании файлов, попадающих под `globs` соответствующего `.mdc`, в контекст добавляются инструкции ревью (technical-writer, systems-analyst, software-architect, security-engineer, ux/accessibility для `ui/`, reality-checker для `docs/`, git-workflow-master для changelog/CI и т.д.).
+- **Слэш-команды** (файлы в `.cursor/commands/`): `review-doc`, `review-requirements`, `review-architecture`, `review-security`, `review-wireframe`, `review-reality`, `review-pr-readiness`, `review-sources-sync`, `review-glossary` — см. сводную таблицу в документе выше.
 
 ---
 

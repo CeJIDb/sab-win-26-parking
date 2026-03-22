@@ -8,6 +8,9 @@ The format is based on Keep a Changelog.
 
 ### Added
 
+- `docs/architecture/ddd/event-storming-external-context.md` и каталог `docs/architecture/ddd/reference-readings/`: индекс и переименованные в kebab-case локальные копии материалов по DDD, Event Storming и DDD+ES (Хабр, buildin.ai); запись в индексе `docs/architecture/readme.md`
+- Cursor: правила ревью с `globs` для systems-analyst, glossary-terms-maintainer, software-architect, security-engineer, ux/accessibility (`ui/`), reality-checker (`docs/`), git-workflow-master; слэш-команды `review-requirements`, `review-architecture`, `review-security`, `review-wireframe`, `review-reality`, `review-pr-readiness`, `review-sources-sync`, `review-glossary`; сводка в `docs/process/cursor-agent-commands.md`
+- Cursor: правило `technical-writer` привязано к `docs/**/*.md` и корневым `README.md` / `CONTRIBUTING.md` через `globs`; слэш-команда Review Doc (`.cursor/commands/review-doc.md`) для явного ревью документации
 - repository governance baseline: CONTRIBUTING, LICENSE, CODEOWNERS, CI workflow, issue/PR templates
 - git consistency files: `.editorconfig` and `.gitattributes`
 - markdown quality checks and smoke test scripts for CI
@@ -17,12 +20,15 @@ The format is based on Keep a Changelog.
 - live traceability matrix file `docs/process/traceability-matrix-log.md`
 - documentation IA files: `docs/readme.md`, `docs/styleguide.md`, and section indexes for `artifacts`, `specs`, `architecture`, `demo-days`
 - infosec artifacts: `docs/artifacts/infosec/*` (контекст угроз, анализ уязвимостей и контрмер)
-- `docs/architecture`: ADR-003 (канон `adr-003-modular-monolith-c.md`, черновик G, учебная версия C), DDD bounded contexts (`ddd-bounded-contexts.md`, учебные `ddd-bounded-contexts-study.md`, `ddd-pseudocode-study.md`); обновлён индекс `readme.md`
+- `docs/architecture`: ADR в `adr/` (`adr/adr-003-modular-monolith.md` и др.), DDD bounded contexts (`ddd/ddd-bounded-contexts.md`, учебные `ddd/ddd-bounded-contexts-study.md`, `ddd/ddd-pseudocode-study.md`); обновлён индекс `readme.md`
 
 ### Changed
 
-- `docs/architecture/ddd-bounded-contexts-study.md`: добавлены TOC, ссылки на pseudocode-файл и ADR-003
-- `docs/architecture/ddd-pseudocode-study.md`: добавлены TOC, убраны числовые префиксы из `##`-заголовков, добавлено пояснение про английские имена контекстов и комментарии для упрощённых мест (plate=null, deny без дисплея)
+- ADR (`adr-001` … `adr-003`): каталог `docs/architecture/adr/`, индекс `adr/readme.md`; обновлены ссылки в `docs/readme.md`, `ddd/*`, `specs/nonfunctional-requirements/nfr-external-quality.md`, `repo-context-compressed.md`, `artifacts/es-to-be/es-tobe-sd-parking-main.md`, `CHANGELOG.md`, `traceability-matrix-log.md`
+- ADR-003: единый файл `docs/architecture/adr/adr-003-modular-monolith.md` (переименован из `adr-003-modular-monolith-c.md`); удалены `adr-003-modular-monolith-c-study.md` и `adr-003-modular-monolith-vs-microservices-g.md`; обновлены `readme.md`, `ddd/ddd-bounded-contexts*.md`, `traceability-matrix-log.md`
+- `docs/architecture/ddd-bounded-contexts*.md`, `ddd-pseudocode-study.md`: файлы перенесены в `docs/architecture/ddd/`; обновлены ссылки в `readme.md`, `event-storming-external-context.md` и внутри перенесённых документов (ADR и `docs/artifacts/`)
+- `docs/architecture/ddd/ddd-bounded-contexts-study.md`: добавлены TOC, ссылки на pseudocode-файл и ADR-003
+- `docs/architecture/ddd/ddd-pseudocode-study.md`: добавлены TOC, убраны числовые префиксы из `##`-заголовков, добавлено пояснение про английские имена контекстов и комментарии для упрощённых мест (plate=null, deny без дисплея)
 - `docs/architecture/adr-003-modular-monolith-c-study.md`: порядок TOC приведён в соответствие с реальным порядком разделов;
   имена атрибутов (`тариф.ставка` вместо `тариф.ставкаЗаЧас`, `Клиент.льготныйДокументИд`, `сессия.статус = завершена`), навигация ТС→Клиент в `Доступ.оценить()`;
   привязка `Платёж` к `Бронированию` (не к `Сессии`); проверка BLACKLISTED, ветка «ГРЗ не распознан» в LPR, журнал въезда-выезда, `Бронирование.завершить()` при выезде; адаптер `Платёжный Терминал КПП`
