@@ -18,7 +18,9 @@
     "build:css": "sass ui/scss/wireframe.scss ui/wireframe.css --no-source-map",
     "build:templates": "node ./scripts/build-templates.mjs",
     "build": "npm run build:css && npm run build:templates",
-    "ci:check": "npm run lint:md && npm run lint:md-links && npm run build"
+    "ci:check": "npm run lint:md && npm run lint:md-links && npm run build",
+    "commit:atomic": "node ./scripts/atomic-commit.mjs",
+    "commit:atomic:yes": "node ./scripts/atomic-commit.mjs --yes"
   },
   "repository": {
     "type": "git",
