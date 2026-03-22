@@ -56,11 +56,14 @@
 
 Точные названия пунктов меню Cursor зависят от версии редактора; смысл — **канонический URL + локальный индекс репозитория**.
 
+**Просмотр C4-диаграмм в Mermaid:** в репозитории включены рекомендация расширения **Markdown Preview Mermaid Support**, настройка превью и скрипт `npm run docs:c4-preview` → файл [`c4-parking-platform-preview.html`](c4-parking-platform-preview.html). Подробности — в [`c4-parking-platform.md`](c4-parking-platform.md), раздел «Как посмотреть диаграммы».
+
 ## Первоисточники и атрибуция
 
 Тексты в `reference-readings/` — сохранённые копии публикаций; авторы, источники и даты указаны в YAML front matter каждого файла (`author`, `source`, `url`, `date_published` где есть). При цитировании в документах проекта ссылайтесь на **оригинальный URL** и при необходимости на путь к копии в этом репозитории.
 
 ## Связанные документы
 
+- [`c4-parking-platform.md`](c4-parking-platform.md) — C4-диаграммы платформы парковки (Level 1–3, Mermaid, текстовые описания).
 - [`../readme.md`](../readme.md) — индекс архитектуры (ADR, DDD, C4).
 - [`../ddd/event-storming-external-context.md`](../ddd/event-storming-external-context.md) — внешний контент по DDD и Event Storming.
