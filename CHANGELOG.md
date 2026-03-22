@@ -8,7 +8,10 @@ The format is based on Keep a Changelog.
 
 ### Added
 
+- `docs/architecture/c4/c4-l1-system-context.md`: C4 Level 1 в текстовом виде по методике примера «Телемед» — пользователи `[Person]`, внешние системы с разделением периметра (как серый/фиолетовый в легенде), легенда, Mermaid `C4Context`; согласовано с `c4-parking-platform.md`
 - `scripts/atomic-commit.mjs` и npm-скрипты `commit:atomic` / `commit:atomic:yes` — группировка изменений в атомарные conventional-коммиты по зонам репозитория; описание в `CONTRIBUTING.md`
+- просмотр C4/Mermaid: `scripts/build-c4-preview-html.mjs`, npm-команда `docs:c4-preview`, артефакт `docs/architecture/c4/c4-parking-platform-preview.html` (Mermaid 11 с CDN); рекомендация расширения `bierner.markdown-mermaid`, настройка `markdown.mermaid.enabled` в `.vscode/settings.json`; раздел «Как посмотреть диаграммы» в `docs/architecture/c4/c4-parking-platform.md`, ссылки в `docs/architecture/c4/c4-external-context.md` и `docs/architecture/readme.md`
+- `docs/architecture/c4/c4-parking-platform.md`: C4-диаграммы платформы парковки — Level 1 (System Context), Level 2 (Container), Level 3 (Component); Mermaid + текстовые описания акторов, внешних систем и модулей; ASCII-схемы ключевых сценариев (въезд, завершение сессии); ссылки на ADR-001–003, DDD bounded contexts и чартер
 - `docs/architecture/c4/c4-external-context.md` и каталог `docs/architecture/c4/reference-readings/`: индекс C4 model (каноническая ссылка на [c4model.com](https://c4model.com/)), локальные копии материалов по C4+PlantUML, ADD и краткая заметка buildin.ai; файлы в kebab-case; запись в `docs/architecture/readme.md`
 - `docs/architecture/ddd/event-storming-external-context.md` и каталог `docs/architecture/ddd/reference-readings/`: индекс и переименованные в kebab-case локальные копии материалов по DDD, Event Storming и DDD+ES (Хабр, buildin.ai); запись в индексе `docs/architecture/readme.md`
 - Cursor: правила ревью с `globs` для systems-analyst, glossary-terms-maintainer, software-architect, security-engineer, ux/accessibility (`ui/`), reality-checker (`docs/`), git-workflow-master; слэш-команды `review-requirements`, `review-architecture`, `review-security`, `review-wireframe`, `review-reality`, `review-pr-readiness`, `review-sources-sync`, `review-glossary`; сводка в `docs/process/cursor-agent-commands.md`
@@ -25,6 +28,33 @@ The format is based on Keep a Changelog.
 - `docs/architecture`: ADR в `adr/` (`adr/adr-003-modular-monolith.md` и др.), DDD bounded contexts (`ddd/ddd-bounded-contexts.md`, учебные `ddd/ddd-bounded-contexts-study.md`, `ddd/ddd-pseudocode-study.md`); обновлён индекс `readme.md`
 
 ### Changed
+
+- C4 Level 1: внешний узел «информационные табло» уточнён как **инфо-дисплеи и табло (объект)** — несколько физических устройств с разным назначением, одна граница интеграции на L1; пояснение в `docs/architecture/c4/c4-l1-system-context.md`, таблица и Mermaid в `docs/architecture/c4/c4-parking-platform.md`
+- DDD и C4 — ревью техписателем и архитектором: исправлены scope ACID-транзакций в ASCII-сценариях
+  (чтение статусов вынесено вне транзакции въезда; `проверитьВыезд()` включён в ACID блока выезда);
+  добавлен `PAY --> NOT` в контекстную карту DDD; удалён ложный `TAR --> PAY`
+  (сумма передаётся через `Сервис приложения` как Value Object, прямая зависимость отсутствует);
+  добавлен `PAY --> NOT` в пояснительную таблицу рёбер; добавлено примечание о медиации `Договор → Тариф`;
+  добавлены `Rel(employee, ...)` для `Сотрудника` в C4 Level 3;
+  исправлен `"LPR/СКУД Adapter"` → `"Адаптер ЛПР/СКУД"` в Level 3 Mermaid;
+  секция `## Текстовое описание` переименована в `## Ключевые сценарии`;
+  счётчик «два правила» исправлен на «три» в `ddd-bounded-contexts-study.md`;
+  описание `Уведомление` в таблице уточнено (генерирует + ставит в очередь);
+  добавлены разделы `## Связанные документы` в `ddd-pseudocode-study.md` и `ddd-bounded-contexts-study.md`;
+  ветка ошибки `НЕТ_ДОСТУПНЫХ_МЕСТ` добавлена в псевдокод `создатьАвтоБронь`
+- `docs/architecture/c4/c4-l1-context-telemed-format.md` переименован в `c4-l1-system-context.md`; обновлены ссылки в `docs/architecture/readme.md` и `docs/process/traceability-matrix-log.md`
+
+- DDD-файлы (`ddd-bounded-contexts.md`, `ddd-bounded-contexts-study.md`, `ddd-pseudocode-study.md`):
+  все имена bounded contexts переведены на русский ubiquitous language
+  (`Доступ`, `Бронирование`, `Сессия`, `Тариф`, `Платёж`, `Договор`,
+  `Клиент`, `Площадка`, `Уведомление`, `Обращение`, `Сотрудник`, `Отчёт`);
+  псевдокод переведён (`Сервис приложения`, `АдаптерЛПРСКУД`, `ИсходящиеСообщения`);
+  добавлено пропущенное ребро `Договор → Тариф` в контекстную карту
+- `docs/architecture/c4/c4-parking-platform.md`: Level 3 Component —
+  имена компонентов, подписи связей и ASCII-схемы переведены на русский;
+  Level 2 — «LPR/СКУД Adapter» → «Адаптер ЛПР/СКУД»,
+  «Notification Worker» → «Агент доставки уведомлений»;
+  HTML-превью пересобрано (`npm run docs:c4-preview`)
 
 - Husky: `pre-commit` и `pre-push` вызывают `scripts/git-workflow-agent-reminder.mjs` (напоминание о git-workflow-master при крупном диффе; субагент Cursor из хуков не запускается); обновлены `git-workflow-master`, `CONTRIBUTING.md`
 - `CONTRIBUTING.md`, `scripts/atomic-commit.mjs`: сообщения атомарных коммитов на русском (после `:`); уточнено, что стиль совпадает с `git-workflow-master`, а скрипт агента не вызывает
