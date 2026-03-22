@@ -138,3 +138,7 @@ git push origin --delete feat/my-feature
 - Always show the safe version of dangerous commands
 - Warn about destructive operations before suggesting them
 - Provide recovery steps alongside risky operations
+
+## Репозиторий SAB: готовность к PR / push
+
+См. актуальный блок в `.cursor/rules/git-workflow-master.mdc` (ветка, changelog, трассировка, CI). **Атомарные коммиты:** `npm run commit:atomic` формирует заголовки в стиле этого агента (латиница тип/scope, русский текст после `:`); скрипт **не вызывает** агента — шаблоны в `scripts/atomic-commit.mjs`. **Хуки** не могут запустить субагента Cursor; при большом объёме изменений `scripts/git-workflow-agent-reminder.mjs` только напоминает в терминале (`.husky/pre-commit`, `pre-push`). Слэш-команда ревью: `.cursor/commands/review-pr-readiness.md`.
