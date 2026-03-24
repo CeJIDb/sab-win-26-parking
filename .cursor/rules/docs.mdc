@@ -6,6 +6,7 @@ globs:
 ---
 
 When editing these files:
+- In Russian prose, do not use the letter «ё»; use «е» instead (e.g. `все`, `еще`, `подъем`).
 - Preserve document structure (table of contents, heading hierarchy).
 - If a document has 3+ `##` sections, add a `## Table of Contents` section near the top with clickable links to each section (Markdown list format: `- [Text](#anchor)`).
 - TOC anchors must follow GitHub style (as validated by `scripts/check-markdown-links.mjs`); update TOC when headings change.
