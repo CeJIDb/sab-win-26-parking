@@ -16,7 +16,6 @@
 - [use-case-registry.md](use-case-registry.md)
 - [navigation-map.md](navigation-map.md)
 - [infosec/infosec-analyze-parking.md](infosec/infosec-analyze-parking.md)
-- [infosec/infosec-analyze-parking-study.md](infosec/infosec-analyze-parking-study.md)
 
 ## Подразделы
 
