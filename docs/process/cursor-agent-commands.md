@@ -16,7 +16,7 @@
 |---------------- |------------ |---------------------------|
 | [review-doc.md](../../.cursor/commands/review-doc.md) | Ревью markdown-документации (стиль, структура, ссылки, спеки) | `.cursor/rules/technical-writer.mdc` |
 | [review-requirements.md](../../.cursor/commands/review-requirements.md) | Требования, артефакты, трассируемость | `.cursor/rules/systems-analyst.mdc`, `.cursor/agents/systems-analyst.md` |
-| [review-architecture.md](../../.cursor/commands/review-architecture.md) | ADR, DDD, согласованность архитектуры | `.cursor/rules/software-architect.mdc` |
+| [review-architecture.md](../../.cursor/commands/review-architecture.md) | ADR, DDD, согласованность архитектуры; схемы БД и бэкенд-интеграции при необходимости | `.cursor/rules/software-architect.mdc`, `.cursor/rules/database-optimizer.mdc`, `.cursor/rules/backend-architect.mdc` |
 | [review-security.md](../../.cursor/commands/review-security.md) | ИБ, NFR безопасности, соответствие артефактам infosec | `.cursor/rules/security-engineer.mdc` |
 | [review-wireframe.md](../../.cursor/commands/review-wireframe.md) | Wireframe `ui/` vs спеки + доступность | `.cursor/rules/ux-architect.mdc`, `.cursor/rules/accessibility-auditor.mdc` |
 | [review-reality.md](../../.cursor/commands/review-reality.md) | Документы vs факты репозитория | `.cursor/rules/reality-checker.mdc` |
@@ -32,6 +32,8 @@
 | `systems-analyst.mdc` | `docs/specs/`, `docs/artifacts/`, `docs/protocols/`, `docs/process/traceability-matrix*.md` |
 | `glossary-terms-maintainer.mdc` | `docs/artifacts/project-glossary.md`, `docs/specs/`, `docs/architecture/`, `docs/artifacts/conceptual-model*.md` |
 | `software-architect.mdc` | `docs/architecture/**/*.md` |
+| `database-optimizer.mdc` | `docs/architecture/**/*.md`, `docs/artifacts/conceptual-model*.md`, `docs/artifacts/**/*entity*.md`, `docs/artifacts/**/*normalization*.md` |
+| `backend-architect.mdc` | `docs/architecture/**/*.md`, `docs/protocols/**/*.md` |
 | `security-engineer.mdc` | `docs/artifacts/infosec/`, `docs/specs/nonfunctional-requirements/` |
 | `ux-architect.mdc` | `ui/**/*.njk`, `ui/**/*.scss`, `ui/**/*.html` |
 | `accessibility-auditor.mdc` | то же для `ui/` |

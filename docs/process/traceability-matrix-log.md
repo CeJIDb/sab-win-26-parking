@@ -2,6 +2,14 @@
 
 | Change ID        | Source                        | Requirement ID | Changed files                                                     | Validation                   | Evidence |
 |------------------|-------------------------------|----------------|-------------------------------------------------------------------|------------------------------|----------|
+| CHG-20260328-010 | ER: раздел «Атрибуты по сущностям» — тип PostgreSQL для каждого поля | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-009 | ER: уточнение INTEGER vs BIGINT vs SMALLINT по контексту (справочники/потоки); сводная таблица | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-008 | ER: раздел целевых типов PostgreSQL (BIGINT по умолчанию, UUID точечно, NUMERIC/TIMESTAMPTZ); примечание к Mermaid | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-007 | ER: счет `INVOICE` только через `BOOKING`; убрана связь с `CONTRACT`; семантика сумм и строки инвариантов PostgreSQL | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-006 | ER-артефакт: TOC, Related Documents, правки Mermaid/инвариантов/CONTRACT; обновление `chat-context-er-model-review` | — | docs/artifacts/temp-normalized-er-model.md, docs/process/chat-context-er-model-review-2026-03-28.md, docs/process/traceability-matrix-log.md | `node scripts/check-markdown-links.mjs` | PR #<TBD> |
+| CHG-20260328-005 | Выгрузка контекста ревью ER-модели: замечания субагентов и сводка в `docs/process/chat-context-er-model-review-2026-03-28.md` | — | docs/process/chat-context-er-model-review-2026-03-28.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-004 | Временный артефакт нормальных форм: относительные ссылки и якоря заголовков вместо `#L…` для `lint:md-links` | — | docs/artifacts/temp-conceptual-model-normal-forms-review.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
+| CHG-20260328-003 | Правила Cursor: agency-agents Database Optimizer и Backend Architect как `.mdc`; обновлены subagents, review-architecture, cursor-agent-commands | — | .cursor/rules/database-optimizer.mdc, .cursor/rules/backend-architect.mdc, .cursor/subagents.md, .cursor/commands/review-architecture.md, docs/process/cursor-agent-commands.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-002 | ФТ парковочная сессия (UC-12.x); шаблон ФТ и create-fr (UC вне текста, `.СД`) | FR-PARKSESSION-001..017 | docs/specs/functional-requirements/_template-fr.md, .cursor/rules/create-fr.mdc, docs/specs/functional-requirements/fr-parking-session.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-001 | Шаблон ФТ, правило create-fr, evals; удалены устаревшие заготовки fr-employee и др. | — | docs/specs/functional-requirements/_template-fr.md, .cursor/rules/create-fr.mdc, evals/README.md, evals/evals.json, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260326-001 | docs/artifacts/infosec/threat-vulnerability-remediation-context.md, docs/artifacts/infosec/context/bow-tie-examples.md | NFR-EXT-SEC-001..004 | docs/artifacts/infosec/threat-vulnerability-remediation-context.md, docs/artifacts/infosec/context/bow-tie-examples.md, docs/artifacts/infosec/context/assets/bow-tie-template.png, docs/artifacts/infosec/context/assets/bow-tie-example-meddata.png, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
@@ -28,9 +36,9 @@
 | CHG-20260320-002 | docs/artifacts/infosec/infosec-analyze-parking.md | NFR-EXT-SEC-001..004 | docs/artifacts/infosec/infosec-analyze-parking.md | review + `npm run ci:check` | PR #<TBD>  |
 | CHG-20260320-004 | docs/artifacts/project-charter.md, infosec analyze | NFR-EXT-SEC-001..004 | docs/artifacts/infosec/infosec-analyze-parking.md, CHANGELOG.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD>  |
 | CHG-20260320-005 | docs/architecture/readme.md, ADR-003, DDD bounded contexts | — | docs/architecture/adr-003-*.md, docs/architecture/ddd-*.md, docs/architecture/readme.md, CHANGELOG.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD>  |
+
 ## Связанные документы
 
 - [docs/artifacts/infosec/infosec-analyze-parking.md](../artifacts/infosec/infosec-analyze-parking.md)
 - [docs/protocols/protocol-5-2026-02-18-v01.md](../protocols/protocol-5-2026-02-18-v01.md)
 - [docs/specs/nonfunctional-requirements/nfr-external-quality.md](../specs/nonfunctional-requirements/nfr-external-quality.md)
-
