@@ -1,9 +1,11 @@
-# ERD Review — контекст для нового чата (сессия 6+)
+# ERD Review — контекст для нового чата (сессия 9+)
 
 **Дата:** 2026-03-31 | **Документ:** `docs/artifacts/temp-normalized-er-model.md` | **Первый чат:** ae7a9fe3-6111-45e3-a183-93bb60ea3260
 
 ## Table of Contents
 
+- [Итог сессии 8](#итог-сессии-8)
+- [Открытые пункты (NICE-TO-HAVE)](#открытые-пункты-nice-to-have)
 - [Проект и правила](#проект-и-правила)
 - [Схемы и таблицы](#схемы-и-таблицы)
 - [Типы данных — политика](#типы-данных--политика)
@@ -11,9 +13,49 @@
 - [Особые инварианты](#особые-инварианты)
 - [Ключевые архитектурные решения](#ключевые-архитектурные-решения)
 - [DrawSQL.app — памятка](#drawsqlapp--памятка)
-- [Открытые вопросы](#открытые-вопросы)
 - [История изменений](#история-изменений)
 - [Связанные документы](#связанные-документы)
+
+---
+
+## Итог сессии 8
+
+**Что сделано:** полный многоролевой аудит ERD (Database Optimizer, Backend Architect, Software Architect, Systems Analyst, Reality Checker, Technical Writer). Выявлено 15 проблем (4 BLOCKER, 7 IMPORTANT, 4 NICE-TO-HAVE). Все BLOCKER и IMPORTANT применены и верифицированы субагентом (9/9 PASS).
+
+| Категория | Кол-во | Применено |
+|-----------|--------|-----------|
+| BLOCKER | 4 | 4/4 ✅ |
+| IMPORTANT | 7 | 7/7 ✅ |
+| NICE-TO-HAVE | 4 | 0/4 (см. ниже) |
+
+**Применённые правки (ERD-063–071):**
+
+| ID | Суть |
+|----|------|
+| ERD-063 | `DEBT.remaining_amount` добавлен в Mermaid erDiagram |
+| ERD-064 | `ACCESS_LOG` добавлен в Mermaid erDiagram: сущность + `KPP ||--o{ ACCESS_LOG : records` |
+| ERD-065 | `CLIENT_ACCOUNT.password_hash` → nullable (NULL для OAuth; NOT NULL для LOCAL) |
+| ERD-066 | `BOOKING.amount_due` → nullable (NULL при AUTO; NOT NULL при SHORT_TERM/CONTRACT) |
+| ERD-067 | `RECEIPT.fiscal_number UNIQUE` |
+| ERD-068 | `TARIFF_RATE.rate CHECK (rate >= 0)` |
+| ERD-069 | +9 индексов: `sector(parking_id)`, `kpp(parking_id)`, `parking_place(sector_id)`, `parking_session(entry/exit_kpp_id)`, `client_account(client_id)`, `access_log(kpp_id/decided_at/vehicle_id)`; исправлен комментарий `parking_schedule(parking_id)` |
+| ERD-070 | Удалён дубль `duration_minutes` в §26 BOOKING |
+| ERD-071 | Легенда: убрана устаревшая заметка про `signs`/`owns` |
+
+Дополнительно: `ACCESS_LOG` добавлен в сводную таблицу «PK и типы», `DEBT.remaining_amount` / `BOOKING.amount_due` / `RECEIPT.fiscal_number` / `TARIFF_RATE.rate CHECK` — в компактную сводку; §26 BOOKING comment про `amount_due` выровнен с AUTO-семантикой.
+
+---
+
+## Открытые пункты (NICE-TO-HAVE)
+
+Не применены — требуют явного архитектурного решения или согласования:
+
+| # | Таблица | Проблема |
+|---|---------|---------|
+| N-1 | `PARKING_PLACE` | Нет `UNIQUE(sector_id, place_number)` — решить: глобальный или per-sector? |
+| N-2 | `CONSENT` | Нет UNIQUE/partial index на «активное согласие» — задокументировать паттерн «последняя запись по `given_at`» |
+| N-3 | `ORGANIZATION_BANK_ACCOUNT` | Рассмотреть `UNIQUE(organization_id, bik, account_number)` |
+| N-4 | `VEHICLE.license_plate UNIQUE` | Глобальный UNIQUE — обоснование при multi-объектной платформе |
 
 ---
 
@@ -75,15 +117,18 @@
 
 ---
 
-## Особые инварианты
+## Особые инварианты (обновлено сессией 8)
 
 **CLIENT / CLIENT_PROFILE / ORGANIZATION:**
 - `CLIENT.type CHECK('FL','UL')`. При FL: `organization_id IS NULL`, запись в `CLIENT_PROFILE` обязательна. При UL: `organization_id BIGINT NOT NULL REFERENCES organization(id)`, `CLIENT_PROFILE` отсутствует. Инвариант — BEFORE INSERT/UPDATE триггер или Application Service.
 - `CLIENT_ACCOUNT.auth_provider VARCHAR(64) NOT NULL` — **открытый список** (LOCAL, PHONE, GOOGLE, YANDEX…); CHECK не ставится — расширяется при добавлении IdP.
+- `CLIENT_ACCOUNT.password_hash VARCHAR(255)` — **nullable**; NOT NULL только при `auth_provider = 'LOCAL'`; NULL допустим для внешних IdP. Инвариант — BEFORE INSERT/UPDATE триггер или Application Service.
+- `ORGANIZATION.inn VARCHAR(12) NOT NULL UNIQUE`. `legal_form` без CHECK — значение приходит из DADATA (ADR-004).
 
 **BOOKING / PARKING_SESSION:**
 - `BOOKING.duration_minutes INTEGER` — nullable; NULL пока `end_at IS NULL`; устанавливается при завершении брони.
 - `BOOKING.type VARCHAR(32) NOT NULL CHECK(type IN ('AUTO','SHORT_TERM','CONTRACT'))` — `AUTO`: создаётся системой на въезде; `SHORT_TERM`: краткосрочное; `CONTRACT`: долгосрочное по договору.
+- `BOOKING.amount_due NUMERIC(19,4)` — **nullable**; NULL при создании AUTO-брони (сумма неизвестна на въезде); заполняется Application Service при завершении сессии; NOT NULL для SHORT_TERM и CONTRACT.
 - `PARKING_SESSION.booking_id BIGINT NOT NULL` — логический FK (ADR-002, обязателен).
 - `PARKING_SESSION.duration_minutes INTEGER GENERATED ALWAYS AS (EXTRACT(EPOCH FROM (exit_time - entry_time)) / 60)::INTEGER STORED` *(DrawSQL: тип INTEGER, логику — в Table Notes)*.
 
@@ -97,6 +142,11 @@
 - `amount` — иммутабельный снимок долга на момент создания.
 - `remaining_amount NUMERIC(19,4) NOT NULL` — текущий остаток; инициализируется `= amount`; уменьшается Payment Service в транзакции с PAYMENT; `CHECK (remaining_amount >= 0 AND remaining_amount <= amount)`; при `= 0` → `status = 'PAID'`.
 
+**ACCESS_LOG:**
+- Append-only; INSERT only. `kpp_id NOT NULL`; `vehicle_id`, `client_id` — nullable (нераспознанный ГРЗ).
+- `direction VARCHAR(8) NOT NULL CHECK('IN','OUT')` — явное поле (КПП может быть двусторонним).
+- `decision VARCHAR(16) NOT NULL CHECK('ALLOW','DENY','MANUAL')`.
+
 **APPEAL:**
 - Полиморфная пара: `subject_type VARCHAR(32) CHECK('BOOKING','SESSION','PAYMENT','RECEIPT','CONTRACT')` + `subject_id BIGINT`. Инвариант: `CHECK((subject_type IS NULL) = (subject_id IS NULL))` *(DrawSQL: в Table Notes)*.
 
@@ -104,6 +154,9 @@
 - `provider_id VARCHAR(512)` — partial UNIQUE WHERE NOT NULL (идемпотентность).
 - `refund_provider_id VARCHAR(512)` — аналогично.
 - `currency CHAR(3) NOT NULL DEFAULT 'RUB'` (ISO 4217).
+
+**TARIFF_RATE:**
+- Уникальность ставки гарантируется expression UNIQUE index: `UNIQUE(tariff_id, COALESCE(day_of_week,0), COALESCE(time_from,'00:00'::TIME), COALESCE(time_to,'00:00'::TIME))` + Application Service-проверка перед INSERT/UPDATE. *(DrawSQL: в Table Notes и секции 5 ERD)*.
 
 ---
 
@@ -113,16 +166,23 @@
 |---------|------|
 | **ADR-003** | Схемная изоляция; кросс-схемные FK без REFERENCES |
 | **ADR-002** | `PARKING_SESSION.booking_id NOT NULL` — сессия всегда при брони |
+| **ADR-004** | Интеграция с DADATA для автозаполнения реквизитов ЮЛ по ИНН; fallback на ручной ввод |
 | **CLIENT Вариант Б** | `CLIENT_PROFILE` только для ФЛ; ЮЛ через `CLIENT.organization_id` |
 | **INVOICE SINGLE/PERIODIC** | SINGLE = разовый по брони; PERIODIC = консолидированный ЮЛ по договору |
 | **APPEAL полиморфизм** | `subject_type + subject_id` вместо 5 cross-schema nullable FK |
 | **NOTIFICATION автономность** | `delivery_address` в записи — нет JOIN к CLIENT при отправке |
 | **REFUND / DEBT** | Отдельные таблицы: частичные возвраты и просроченная задолженность ЮЛ |
+| **DEBT.remaining_amount** | Хранить остаток долга; `amount` — иммутабельный снимок; обновляется Payment Service атомарно |
 | **amount_paid** | Не хранить — вычислять SUM + покрывающий индекс |
 | **duration_minutes** | BOOKING: nullable. SESSION: GENERATED ALWAYS AS STORED |
 | **Словарные таблицы** | PARKING_TYPE, OPERATIONAL_STATUS, EMPLOYEE_ROLE, PAYMENT_METHOD — расширяемые без деплоя |
 | **CHECK** | Все остальные enum-домены фиксируются через `CHECK(field IN (...))` |
 | **Все id — BIGINT** | PK/FK: `BIGINT GENERATED BY DEFAULT AS IDENTITY`; не-ID числа остаются `INTEGER` |
+| **ACCESS_LOG** | Append-only журнал KPP-событий в схеме `report`; `direction` явное поле |
+| **CLIENT_ACCOUNT.password_hash nullable** | NULL для внешних IdP (GOOGLE, YANDEX, PHONE); NOT NULL только при LOCAL; инвариант — триггер/AS |
+| **BOOKING.amount_due nullable** | NULL при создании AUTO-брони (сумма неизвестна на въезде); заполняется AS при завершении сессии; NOT NULL для SHORT_TERM/CONTRACT |
+| **RECEIPT.fiscal_number UNIQUE** | Фискальный номер чека — уникальный идентификатор по 54-ФЗ |
+| **TARIFF_RATE.rate ≥ 0** | `CHECK (rate >= 0)` — защита от отрицательных ставок |
 
 ---
 
@@ -146,35 +206,31 @@
 
 ---
 
-## Открытые вопросы
-
-1. ~~**`ACCESS_LOG` (схема `report`)**~~ — **ЗАКРЫТ.** Таблица добавлена в ERD (ERD-057). Подтверждено: журнал въезда/выезда через КПП. Поля: `id`, `kpp_id`, `vehicle_id` (nullable), `client_id` (nullable), `direction CHECK('IN','OUT')`, `decision CHECK('ALLOW','DENY','MANUAL')`, `reason`, `decided_at`, `created_at`. Append-only.
-2. ~~**`VEHICLE.status`**~~ — **ЗАКРЫТ.** Блокировка на уровне ТС не нужна. Поле не добавляется.
-3. ~~**`DEBT.amount` — вычислять или хранить?**~~ — **ЗАКРЫТ.** Добавлено `remaining_amount NUMERIC(19,4) NOT NULL`; инициализируется `= amount`; уменьшается Payment Service атомарно; при `= 0` → `status = 'PAID'`; CHECK `(0 ≤ remaining_amount ≤ amount)`. (ERD-061)
-4. ~~**`TARIFF_RATE` — уникальность ставок**~~ — **ЗАКРЫТ.** Добавлен expression UNIQUE index через `COALESCE(day_of_week,0)` / `COALESCE(time_from,'00:00')` / `COALESCE(time_to,'00:00')` — исключает дубли даже при NULL-полях. Application Service проверяет перед INSERT/UPDATE. Зафиксировано в Table Notes DrawSQL и секции 5. (ERD-062)
-5. ~~**`BOOKING.type` — допустимые значения?**~~ — **ЗАКРЫТ.** `CHECK(type IN ('AUTO', 'SHORT_TERM', 'CONTRACT'))`: `AUTO` — создаётся системой при въезде; `SHORT_TERM` — краткосрочное бронирование клиентом; `CONTRACT` — долгосрочное по договору (ЮЛ). (ERD-058)
-6. ~~**`ORGANIZATION.inn` — nullable или NOT NULL?**~~ — **ЗАКРЫТ.** ИНН обязателен: `NOT NULL UNIQUE`. (ERD-059)
-7. ~~**Нумерация разделов «Таблицы»**~~ — **ЗАКРЫТ.** Исправлено: дублирующиеся 32/33 → 34/35/36/37; ACCESS_LOG — раздел 37. Пропуск секции 11 зафиксирован как техдолг (не критично). (ERD-060)
-8. ~~**`ORGANIZATION.legal_form` — нужен ли CHECK?**~~ — **ЗАКРЫТ.** CHECK не ставится: `legal_form` заполняется из DADATA в её формате. Интеграция зафиксирована в [ADR-004](../architecture/adr/adr-004-dadata-organization-lookup.md) и контекстной диаграмме (§18). Fallback — ручной ввод при недоступности сервиса.
-
----
-
 ## История изменений
 
 | Сессии | ID | Суть |
 |--------|----|------|
-| 1–3 | — | INVOICE: `booking_id` nullable, тип SINGLE/PERIODIC, `amount_paid` удалено; CLIENT: профиль только ФЛ, `organization_id`; ORGANIZATION: UNIQUE на ИНН/ОГРН (BCNF); PAYMENT: partial UNIQUE `provider_id`, покрывающий индекс; BOOKING/SESSION: `license_plate_snapshot`, `duration_minutes`; TARIFF_RATE выделена; AUTH/PII схемы; KPP `direction`; REFUND/DEBT добавлены; аудитные поля; индексы и нормализация |
+| 1–3 | — | INVOICE: тип SINGLE/PERIODIC, `amount_paid` удалено; CLIENT: профиль только ФЛ, `organization_id`; ORGANIZATION: UNIQUE на ИНН/ОГРН (BCNF); PAYMENT: partial UNIQUE `provider_id`, покрывающий индекс; BOOKING/SESSION: `license_plate_snapshot`, `duration_minutes`; TARIFF_RATE выделена; AUTH/PII схемы; KPP `direction`; REFUND/DEBT добавлены; аудитные поля; индексы и нормализация |
 | 4 | ERD-036–039 | Словарные таблицы: PARKING_TYPE, OPERATIONAL_STATUS, EMPLOYEE_ROLE, PAYMENT_METHOD |
-| 4 | ERD-040–054 | CHECK на все оставшиеся enum: KPP.type, CLIENT_ACCOUNT.account_status, EMPLOYEE.status, EMPLOYEE_CREDENTIAL.account_status, PASSPORT_DATA.document_type, BENEFIT_DOCUMENT.*, ORGANIZATION.status, TARIFF.*, CONTRACT.*, BOOKING.status, INVOICE.*, PARKING_SESSION.*, PAYMENT.status, RECEIPT.fiscal_status, NOTIFICATION.*, APPEAL.* |
+| 4 | ERD-040–054 | CHECK на все enum: KPP.type, CLIENT_ACCOUNT.account_status, EMPLOYEE.status, EMPLOYEE_CREDENTIAL.account_status, PASSPORT_DATA.document_type, BENEFIT_DOCUMENT.*, ORGANIZATION.status, TARIFF.*, CONTRACT.*, BOOKING.status, INVOICE.*, PARKING_SESSION.*, PAYMENT.status, RECEIPT.fiscal_status, NOTIFICATION.*, APPEAL.* |
 | 5 | ERD-055 | Все PK/FK → `BIGINT GENERATED BY DEFAULT AS IDENTITY` |
-| 5 | ERD-056 | Открытый вопрос №8: `ORGANIZATION.legal_form` без CHECK |
-| 6 | ERD-057 | `ACCESS_LOG` добавлен в схему `report`: поля `kpp_id`, `vehicle_id` (nullable), `client_id` (nullable), `direction CHECK('IN','OUT')`, `decision CHECK('ALLOW','DENY','MANUAL')`, `reason`, `decided_at`; append-only |
-| 6 | ERD-058 | `BOOKING.type` — добавлен `CHECK(type IN ('AUTO','SHORT_TERM','CONTRACT'))` |
-| 6 | ERD-059 | `ORGANIZATION.inn` — изменён с nullable на `NOT NULL UNIQUE` |
-| 6 | ERD-060 | Нумерация разделов «Таблицы»: дублирующиеся 32/33 исправлены → NOTIFICATION_TEMPLATE=34, NOTIFICATION=35, APPEAL=36, ACCESS_LOG=37 |
-| 6 | ERD-061 | `DEBT`: добавлено `remaining_amount NUMERIC(19,4) NOT NULL`; инвариант `CHECK (0 ≤ remaining_amount ≤ amount)`; `amount` — иммутабельный снимок |
-| 6 | ERD-062 | `TARIFF_RATE`: expression UNIQUE index через COALESCE; Application Service-проверка; Table Notes и секция 5 обновлены |
-| 6 | ADR-004 | Интеграция с DADATA: `OrganizationLookupService`; автозаполнение реквизитов ЮЛ по ИНН; fallback на ручной ввод; `legal_form` без CHECK |
+| 5 | ERD-056 | `ORGANIZATION.legal_form` без CHECK |
+| 6–7 | ERD-057 | `ACCESS_LOG` добавлен в схему `report`: `kpp_id`, `vehicle_id`/`client_id` (nullable), `direction CHECK('IN','OUT')`, `decision CHECK('ALLOW','DENY','MANUAL')`, `reason`, `decided_at`; append-only |
+| 6–7 | ERD-058 | `BOOKING.type CHECK(type IN ('AUTO','SHORT_TERM','CONTRACT'))` |
+| 6–7 | ERD-059 | `ORGANIZATION.inn NOT NULL UNIQUE` |
+| 6–7 | ERD-060 | Нумерация разделов «Таблицы»: NOTIFICATION_TEMPLATE=34, NOTIFICATION=35, APPEAL=36, ACCESS_LOG=37 |
+| 6–7 | ERD-061 | `DEBT.remaining_amount NUMERIC(19,4) NOT NULL`; CHECK `(0 ≤ remaining_amount ≤ amount)` |
+| 6–7 | ERD-062 | `TARIFF_RATE`: expression UNIQUE index через COALESCE; Table Notes и секция 5 |
+| 6–7 | ADR-004 | DADATA-интеграция: `OrganizationLookupService`; автозаполнение реквизитов ЮЛ по ИНН; fallback ручной ввод |
+| 8 | ERD-063 | `DEBT.remaining_amount` добавлен в Mermaid erDiagram (сущность) |
+| 8 | ERD-064 | `ACCESS_LOG` добавлен в Mermaid erDiagram: сущность + связь `KPP ||--o{ ACCESS_LOG : records` |
+| 8 | ERD-065 | `CLIENT_ACCOUNT.password_hash` → nullable; NOT NULL только при LOCAL; инвариант — триггер/AS |
+| 8 | ERD-066 | `BOOKING.amount_due` → nullable; NULL при AUTO-брони; NOT NULL при SHORT_TERM/CONTRACT |
+| 8 | ERD-067 | `RECEIPT.fiscal_number UNIQUE` добавлен |
+| 8 | ERD-068 | `TARIFF_RATE.rate CHECK (rate >= 0)` добавлен |
+| 8 | ERD-069 | Секция 5: добавлены индексы `sector(parking_id)`, `kpp(parking_id)`, `parking_place(sector_id)`, `parking_session(entry/exit_kpp_id)`, `client_account(client_id)`, `access_log(kpp_id/decided_at/vehicle_id)`; исправлен комментарий к `parking_schedule(parking_id)` |
+| 8 | ERD-070 | Удален дубль `duration_minutes` в §26 BOOKING |
+| 8 | ERD-071 | Легенда: убрана устаревшая заметка про `signs`/`owns` |
 
 ---
 
@@ -184,5 +240,5 @@
 - **[DDD Bounded Contexts](../architecture/ddd/ddd-bounded-contexts.md)**
 - **[ADR-002](../architecture/adr/adr-002-booking-vs-session.md)** — бронирование и сессия
 - **[ADR-003](../architecture/adr/adr-003-modular-monolith.md)** — модульный монолит и схемная изоляция
+- **[ADR-004](../architecture/adr/adr-004-dadata-organization-lookup.md)** — интеграция с реестром организаций (DADATA)
 - **[Контекст сессий 1–3](chat-context-er-model-review-2-2026-03-31.md)** — детальные объяснения ERD-замечаний
-- **[ADR-004: DADATA](../architecture/adr/adr-004-dadata-organization-lookup.md)** — интеграция с реестром организаций
