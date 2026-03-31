@@ -15,7 +15,6 @@
 ## Related Documents
 
 - [Концептуальная модель с атрибутами](conceptual-model-with-attributes.md)
-- [Нормализация сущности Клиент (предложение)](temp-client-entity-normalization-proposal.md)
 - [ADR-002: бронирование и парковочная сессия](../architecture/adr/adr-002-booking-vs-session.md)
 - [Глоссарий проекта](project-glossary.md)
 - [ФТ: парковочная сессия](../specs/functional-requirements/fr-parking-session.md)
