@@ -2,6 +2,7 @@
 
 | Change ID        | Source                        | Requirement ID | Changed files                                                     | Validation                   | Evidence |
 |------------------|-------------------------------|----------------|-------------------------------------------------------------------|------------------------------|----------|
+| CHG-20260331-003 | docs/process/erd-drawsql-split.md | — | docs/process/erd-drawsql-split.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260331-002 | docs/artifacts/temp-normalized-er-model.md | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260331-001 | docs/architecture/ddd/ddd-bounded-contexts.md | — | docs/architecture/ddd/ddd-bounded-contexts.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-010 | ER: раздел «Атрибуты по сущностям» — тип PostgreSQL для каждого поля | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
