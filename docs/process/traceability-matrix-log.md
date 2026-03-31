@@ -2,6 +2,7 @@
 
 | Change ID        | Source                        | Requirement ID | Changed files                                                     | Validation                   | Evidence |
 |------------------|-------------------------------|----------------|-------------------------------------------------------------------|------------------------------|----------|
+| CHG-20260331-001 | docs/architecture/ddd/ddd-bounded-contexts.md | — | docs/architecture/ddd/ddd-bounded-contexts.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-010 | ER: раздел «Атрибуты по сущностям» — тип PostgreSQL для каждого поля | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-009 | ER: уточнение INTEGER vs BIGINT vs SMALLINT по контексту (справочники/потоки); сводная таблица | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
 | CHG-20260328-008 | ER: раздел целевых типов PostgreSQL (BIGINT по умолчанию, UUID точечно, NUMERIC/TIMESTAMPTZ); примечание к Mermaid | — | docs/artifacts/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | `npm run ci:check` | PR #<TBD> |
