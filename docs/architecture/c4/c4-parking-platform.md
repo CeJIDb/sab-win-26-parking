@@ -66,11 +66,11 @@ C4Context
 
     System(platform, "Цифровая платформа парковки", "Бронирование, доступ на КПП,<br>тарификация, оплата, договоры,<br>уведомления и отчётность")
 
-    System_Ext(skud_lpr, "СКУД + LPR", "Распознавание ГРЗ,<br>управление шлагбаумом")
+    System_Ext(skud_lpr, "СКУД + LPR-видеосистема", "Распознавание ГРЗ,<br>управление шлагбаумом")
     System_Ext(payment_provider, "Платёжный провайдер", "Онлайн-оплата<br>(карты, СБП)")
     System_Ext(payment_terminal, "Платёжные терминалы объекта", "КПП/выезд:<br>приём оплаты")
     System_Ext(ofd, "ОФД", "Фискализация чеков")
-    System_Ext(idp, "SSO/IdP", "Яндекс ID, VK ID —<br>аутентификация ФЛ")
+    System_Ext(idp, "SSO / IdP", "Яндекс ID, VK ID —<br>аутентификация ФЛ")
     System_Ext(notify_gw, "Сервис уведомлений", "SMS и e-mail")
     System_Ext(edo, "ЭДО", "Электронный<br>документооборот")
     System_Ext(displays, "Информационные табло и дисплеи", "Въезд/выезд,<br>навигация (неск. устр.)")
@@ -134,11 +134,11 @@ C4Container
         ContainerDb(db, "PostgreSQL", "РСУБД", "Единая БД,<br>schema-per-module,<br>Outbox-таблица")
     }
 
-    System_Ext(skud_lpr, "СКУД + LPR", "Шлагбаум, камеры ГРЗ")
+    System_Ext(skud_lpr, "СКУД + LPR-видеосистема", "Шлагбаум, камеры ГРЗ")
     System_Ext(payment_provider, "Платёжный провайдер", "Онлайн-оплата")
     System_Ext(payment_terminal, "Платёжные терминалы объекта", "КПП/выезд:<br>приём оплаты")
     System_Ext(ofd, "ОФД", "Фискализация")
-    System_Ext(idp, "SSO/IdP", "OAuth2/OIDC")
+    System_Ext(idp, "SSO / IdP", "OAuth2/OIDC")
     System_Ext(notify_gw, "Сервис уведомлений", "SMS и e-mail")
     System_Ext(edo, "ЭДО", "Электронный документооборот")
     System_Ext(displays, "Информационные табло и дисплеи", "Въезд/выезд,<br>навигация (неск. устр.)")
@@ -192,10 +192,10 @@ C4Container
 
 | Модуль | Ответственность |
 | --- | --- |
-| **Платёж** | Платежи, возвраты, задолженности, чеки, счета ЮЛ; фиксация зафиксированной суммы в момент оплаты и интеграция с платёжным провайдером/терминалом и ОФД. |
-| **Договор** | Договоры, шаблоны, квоты, абонементные правила. |
+| **Платёж** | Платежи, возвраты, задолженности, чеки, счета ЮЛ; фиксация зафиксированной суммы в момент оплаты. Владеет ACL-адаптерами для трёх внешних систем: **платёжный провайдер** (онлайн-эквайринг), **платёжные терминалы объекта** (КПП/выезд) и **ОФД** (фискализация чеков). |
+| **Договор** | Договоры, шаблоны, квоты, абонементные правила. Владеет ACL-адаптером для **ЭДО** (подписание и хранение договорных документов с ЮЛ). |
 | **Клиент** | Мастер-данные: клиент, организация, ТС (ГРЗ), ПДн, согласия. |
-| **Площадка** | Инфраструктура парковки: секторы, ПМ, КПП, конфигурация и статусы. |
+| **Площадка** | Инфраструктура парковки: секторы, ПМ, КПП, конфигурация и статусы. Владеет ACL-адаптером для **информационных табло и дисплеев** (передача операционного статуса мест и направлений на устройства въезда/выезда и навигации). |
 | **Обращение** | Обращения, тикеты, история переписки. |
 | **Сотрудник** | Сотрудники, роли (RBAC), служебные профили. |
 
@@ -241,17 +241,30 @@ C4Component
     }
 
     Container_Ext(lpr_adapter, "Адаптер ЛПР/СКУД", "Отдельный процесс")
+    Container_Ext(notif_worker_ext, "Агент доставки уведомлений", "Отдельный процесс")
     Container_Ext(spa, "SPA (клиент / админ / КПП)", "Фронтенд")
     ContainerDb_Ext(db, "PostgreSQL", "schema-per-module")
 
+    System_Ext(skud_lpr_ext, "СКУД + LPR-видеосистема", "Шлагбаум, камеры ГРЗ")
+    System_Ext(idp_ext, "SSO / IdP", "OAuth2/OIDC, Яндекс ID / VK ID")
+    System_Ext(notify_gw_ext, "Сервис уведомлений", "SMS / email")
+    System_Ext(payment_provider_ext, "Платёжный провайдер", "Онлайн-оплата")
+    System_Ext(ofd_ext, "ОФД", "Фискализация чеков")
+    System_Ext(payment_terminal_ext, "Платёжные терминалы объекта", "Оплата на КПП/выезде")
+    System_Ext(edo_ext, "ЭДО", "Документы ЮЛ")
+    System_Ext(displays_ext, "Информационные табло и дисплеи", "Статус мест, навигация")
+
     Rel(spa, app_svc, "REST API", "HTTPS/JSON")
     Rel(lpr_adapter, app_svc, "Событие ГРЗ", "REST")
+    Rel(spa, auth, "JWT / OIDC callback")
+    Rel(auth, idp_ext, "OAuth2/OIDC flow", "HTTPS")
 
     Rel(app_svc, access, "проверитьВъезд() / проверитьВыезд()")
     Rel(app_svc, booking, "получить / завершить")
-    Rel(app_svc, session, "открыть() / завершить()")
-    Rel(app_svc, tariff, "рассчитатьТекущуюСумму()")
+    Rel(app_svc, session, "открыть() / завершить() / read-view охранника")
+    Rel(app_svc, tariff, "рассчитатьТекущуюСумму() / договорные ставки через Договор")
     Rel(app_svc, payment, "создать() / провести()")
+    Rel(app_svc, skud_lpr_ext, "allow/deny → шлагбаум", "REST")
 
     Rel(access, booking, "естьАктивнаяБронь? / создатьАвтоБронирование()")
     Rel(access, contracts, "естьАктивныйДоговор?")
@@ -259,31 +272,59 @@ C4Component
     Rel(access, payment, "естьДолг? / оплатаПроведена?")
     Rel(access, client, "ГРЗ → тсИд → клиентИд")
     Rel(access, facility, "Конфигурация КПП")
+    Rel(access, notification, "Отказ / предупреждение")
+    Rel(access, report, "Аудит решений")
 
     Rel(booking, facility, "Доступность ПМ")
-    Rel(booking, tariff, "Предварительный расчёт")
-    Rel(contracts, booking, "Квоты → бронь")
-    Rel(contracts, tariff, "Договорные ставки")
-
-    Rel(session, notification, "Событие сессии")
+    Rel(booking, client, "ТС / клиентИд")
+    Rel(booking, session, "Сессия всегда привязана к Бронированию (ADR-002, ACID)")
+    Rel(booking, contracts, "Проверка квоты по договору")
     Rel(booking, notification, "Событие бронирования")
-    Rel(access, notification, "Отказ / предупреждение")
-    Rel(payment, notification, "Чек / возврат")
-    Rel(support, payment, "Запрос возврата")
-    Rel(employee, access, "Ручной допуск охранника")
-    Rel(employee, session, "Просмотр активных сессий")
-
     Rel(booking, report, "Доменные события")
+
+    Rel(session, facility, "Данные ПМ")
+    Rel(session, notification, "Событие сессии")
     Rel(session, report, "Доменные события")
+
+    Rel(tariff, facility, "Зона / тип ПМ")
+
+    Rel(payment, session, "Данные сессии для расчёта")
+    Rel(payment, notification, "Чек / возврат")
     Rel(payment, report, "Доменные события")
-    Rel(access, report, "Аудит решений")
+    Rel(payment, payment_provider_ext, "Онлайн-платежи", "REST API / ACL")
+    Rel(payment, ofd_ext, "Фискализация", "REST API / ACL")
+    Rel(payment, payment_terminal_ext, "Инициирует оплату", "REST API / ACL")
+
+    Rel(contracts, client, "Данные организации / клиента")
+    Rel(contracts, edo_ext, "Обмен документами", "REST API / ACL")
+
+    Rel(notification, client, "Настройки уведомлений")
+
+    Rel(support, client, "Привязка к клиенту")
+    Rel(support, session, "Привязка к сессии")
+    Rel(support, employee, "Сотрудник в разборе")
+    Rel(support, payment, "Запрос возврата")
+
+    Rel(employee, access, "Ручной допуск охранника")
+
+    Rel(report, notification, "Доменные события")
+    Rel(report, support, "Доменные события")
+
+    Rel(facility, displays_ext, "Статус мест и направлений", "REST API / ACL")
+
+    Rel(notif_worker_ext, db, "Читает Outbox", "SQL")
+    Rel(notif_worker_ext, notify_gw_ext, "SMS / email", "REST API")
 
     Rel(access, db, "", "")
     Rel(booking, db, "", "")
     Rel(session, db, "", "")
+    Rel(tariff, db, "", "")
     Rel(payment, db, "", "")
+    Rel(contracts, db, "", "")
     Rel(client, db, "", "")
     Rel(facility, db, "", "")
+    Rel(support, db, "", "")
+    Rel(employee, db, "", "")
     Rel(notification, db, "", "")
     Rel(report, db, "", "")
 
