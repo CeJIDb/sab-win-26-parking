@@ -378,7 +378,7 @@ SELECT COALESCE(SUM(amount), 0) FROM payment WHERE invoice_id = ? AND status = '
 
 ## Связанные документы
 
-- [ERD (temp-normalized-er-model)](temp-normalized-er-model.md)
+- [ERD (temp-normalized-er-model)](../artifacts/temp-normalized-er-model.md)
 - [DDD Bounded Contexts](../architecture/ddd/ddd-bounded-contexts.md)
 - [ADR-002](../architecture/adr/adr-002-booking-vs-session.md)
 - [ADR-003](../architecture/adr/adr-003-modular-monolith.md)
