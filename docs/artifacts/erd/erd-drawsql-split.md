@@ -1,7 +1,7 @@
 # ERD — разделение на диаграммы DrawSQL
 
 **Дата:** 2026-03-31
-**Полный ERD:** [`docs/artifacts/erd-work/temp-normalized-er-model.md`](temp-normalized-er-model.md)
+**Полный ERD:** [`docs/artifacts/erd/erd-normalized-er-model.md`](erd-normalized-er-model.md)
 **Ограничение DrawSQL:** не более 15 таблиц на диаграмму (бесплатный тариф)
 
 ## Table of Contents
@@ -664,7 +664,7 @@ erDiagram
 
 ## Связанные документы
 
-- **[Полная ERD (temp-normalized-er-model)](temp-normalized-er-model.md)** — источник истины, полные типы PostgreSQL
+- **[Полная ERD (erd-normalized-er-model)](erd-normalized-er-model.md)** — источник истины, полные типы PostgreSQL
 - **[DDD Bounded Contexts](../../architecture/ddd/ddd-bounded-contexts.md)** — основание разбиения
 - **[ADR-003](../../architecture/adr/adr-003-modular-monolith.md)** — схемная изоляция bounded contexts
-- **[Контекст чата (сессия 4)](chat-context-er-model-review-3-2026-03-31.md)** — последний принятый контекст ERD
+- **[Контекст чата (сессия 4)](chat-context/chat-context-er-model-review-3-2026-03-31.md)** — последний принятый контекст ERD
