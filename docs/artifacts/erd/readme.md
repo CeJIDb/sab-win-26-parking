@@ -23,6 +23,8 @@
 
 ## Контексты ревью
 
+Контексты ревью — вспомогательные материалы из обсуждений. Они **не являются источником истины** для ER-модели: каноничные состояния фиксируются в `erd-normalized-er-model.md` и доменных “файлах связей”.
+
 - [chat-context/chat-context-er-model-review-2-2026-03-31.md](chat-context/chat-context-er-model-review-2-2026-03-31.md)
 - [chat-context/chat-context-er-model-review-3-2026-03-31.md](chat-context/chat-context-er-model-review-3-2026-03-31.md)
 - [chat-context/chat-context-er-model-review-4-2026-04-01.md](chat-context/chat-context-er-model-review-4-2026-04-01.md)

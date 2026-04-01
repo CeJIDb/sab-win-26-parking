@@ -8,6 +8,7 @@
 - [Таблица `TARIFF` (полностью)](#таблица-tariff-полностью)
 - [Таблица `TARIFF_RATE` (полностью)](#таблица-tariff_rate-полностью)
 - [Таблица `EMPLOYEE` (полностью)](#таблица-employee-полностью)
+- [Таблица `EMPLOYEE_ACCOUNT` (полностью)](#таблица-employee_account-полностью)
 - [Таблица `EMPLOYEE_ROLE` (полностью)](#таблица-employee_role-полностью)
 - [Таблица `NOTIFICATION_TEMPLATE` (полностью)](#таблица-notification_template-полностью)
 - [Таблица `NOTIFICATION` (полностью)](#таблица-notification-полностью)
@@ -25,6 +26,7 @@
 |-----------|------------------|-----------|---------|
 | `TARIFF` | **1** | **0..N** | `TARIFF_RATE` |
 | `EMPLOYEE_ROLE` | **1** | **0..N** | `EMPLOYEE` |
+| `EMPLOYEE` | **1** | **0..1** | `EMPLOYEE_ACCOUNT` *(учетные данные; кросс-схемно, логическая ссылка `auth`, ADR-003)* |
 | `NOTIFICATION_TEMPLATE` | **1** | **0..N** | `NOTIFICATION` *(в пределах схемы `notification` это может быть физический FK; к `client`/`employee` — только логические ссылки)* |
 | `EMPLOYEE` | **1** | **0..N** | `NOTIFICATION` *(инициатор; кросс-схемно, логическая ссылка)* |
 | `EMPLOYEE` | **1** | **0..N** | `APPEAL` *(обработчик; кросс-схемно, логическая ссылка)* |
@@ -79,7 +81,23 @@
 | `middle_name` | `VARCHAR(100)` | NULL | — |
 | `phone` | `VARCHAR(32)` | NULL | — |
 | `email` | `VARCHAR(320)` | NULL | — |
-| `status` | `VARCHAR(32)` | NOT NULL | `CHECK (status IN ('ACTIVE','DISMISSED','BLOCKED'))` |
+| `status` | `VARCHAR(32)` | NOT NULL | `CHECK (status IN ('ACTIVE','DISMISSED'))` |
+
+---
+
+## Таблица `EMPLOYEE_ACCOUNT` (полностью)
+
+Схема: `auth` (инфраструктурный слой).
+
+| Поле | Тип PostgreSQL | Null | Ограничения / примечания |
+|------|----------------|------|---------------------------|
+| `employee_id` | `BIGINT` | NOT NULL | `PRIMARY KEY`; логическая ссылка на `employee.employee(id)` (без `REFERENCES`, ADR-003) |
+| `login` | `VARCHAR(64)` | NOT NULL | `UNIQUE` |
+| `password_hash` | `VARCHAR(255)` | NOT NULL | — |
+| `totp_secret_encrypted` | `TEXT` | NULL | хранится в зашифрованном виде (алгоритм/ротация ключей фиксируются в политике ИБ) |
+| `account_status` | `VARCHAR(32)` | NOT NULL | `CHECK (account_status IN ('ACTIVE','BLOCKED','SUSPENDED'))` |
+| `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
+| `last_login_at` | `TIMESTAMPTZ` | NULL | — |
 
 ---
 
@@ -125,6 +143,8 @@ Table Notes (DrawSQL):
 | `notification_template_id` | `BIGINT` | NULL | в пределах схемы `notification` может быть `REFERENCES notification_template(id)` |
 | `client_id` | `BIGINT` | NOT NULL | логическая ссылка на `client.client(id)` (без `REFERENCES`, ADR-003) |
 | `initiator_employee_id` | `BIGINT` | NULL | логическая ссылка на `employee.employee(id)` (без `REFERENCES`, ADR-003) |
+| `subject_type` | `VARCHAR(32)` | NULL | `CHECK (subject_type IN ('BOOKING','SESSION','PAYMENT','RECEIPT','CONTRACT'))` |
+| `subject_id` | `BIGINT` | NULL | логическая ссылка на предмет по `subject_type` |
 | `channel` | `VARCHAR(32)` | NOT NULL | `CHECK (channel IN ('SMS','EMAIL','PUSH'))` |
 | `delivery_address` | `VARCHAR(320)` | NOT NULL | “самодостаточный” адрес доставки без JOIN к `CLIENT` |
 | `delivery_status` | `VARCHAR(32)` | NOT NULL | `CHECK (delivery_status IN ('PENDING','SENT','DELIVERED','FAILED'))` |
@@ -160,10 +180,12 @@ Table Notes (DrawSQL):
 - `session.PARKING_SESSION.employee_id -> employee.EMPLOYEE.id`
 - `support.APPEAL.employee_id -> employee.EMPLOYEE.id`
 - `notification.NOTIFICATION.initiator_employee_id -> employee.EMPLOYEE.id`
+- `auth.EMPLOYEE_ACCOUNT.employee_id -> employee.EMPLOYEE.id`
 
 - `notification.NOTIFICATION.client_id -> client.CLIENT.id`
 - `support.APPEAL.client_id -> client.CLIENT.id`
 - `support.APPEAL.subject_type + subject_id -> {booking|session|payment|receipt|contract}` *(полиморфизм)*
+- `notification.NOTIFICATION.subject_type + subject_id -> {booking|session|payment|receipt|contract}` *(полиморфизм)*
 
 ---
 
@@ -172,6 +194,9 @@ Table Notes (DrawSQL):
 - `TARIFF_RATE` уникальность применимой ставки (expression UNIQUE index):
   - `CREATE UNIQUE INDEX ON tariff_rate(tariff_id, COALESCE(day_of_week,0), COALESCE(time_from,'00:00'::TIME), COALESCE(time_to,'00:00'::TIME));`
 - `APPEAL` инвариант предмета:
+  - `CHECK ((subject_type IS NULL) = (subject_id IS NULL))`
+  - индекс: `(subject_type, subject_id)`
+- `NOTIFICATION` инвариант предмета:
   - `CHECK ((subject_type IS NULL) = (subject_id IS NULL))`
   - индекс: `(subject_type, subject_id)`
 
@@ -183,6 +208,7 @@ Table Notes (DrawSQL):
 erDiagram
     TARIFF ||--o{ TARIFF_RATE : has_rates
     EMPLOYEE_ROLE ||--o{ EMPLOYEE : defines
+    EMPLOYEE ||--|| EMPLOYEE_ACCOUNT : authenticates
     NOTIFICATION_TEMPLATE ||--o{ NOTIFICATION : generates
     EMPLOYEE ||--o{ NOTIFICATION : initiates
     EMPLOYEE ||--o{ APPEAL : handles

@@ -382,6 +382,6 @@ erDiagram
 
 ## Связанные документы
 
-- [Нормализованная ER-модель](erd-normalized-er-model.md)
+- [ERD (erd-normalized-er-model)](erd-normalized-er-model.md)
 - [Контекст ревью ERD, сессия 9+](chat-context/chat-context-er-model-review-3-2026-03-31.md)
 - [ADR-003: модульный монолит и схемная изоляция](../../architecture/adr/adr-003-modular-monolith.md)
