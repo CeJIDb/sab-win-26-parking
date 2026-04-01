@@ -1,6 +1,6 @@
 # ERD: домен `CLIENT` (ФЛ/ЮЛ) и связанные таблицы
 
-**Контекст:** модель в `docs/artifacts/erd-work/temp-normalized-er-model.md`; сводка сессии — `docs/artifacts/erd-work/chat-context-er-model-review-3-2026-03-31.md`.
+**Контекст:** модель в `docs/artifacts/erd/erd-normalized-er-model.md`; сводка сессии — `docs/artifacts/erd/chat-context/chat-context-er-model-review-3-2026-03-31.md`.
 
 ## Table of Contents
 
@@ -382,6 +382,6 @@ erDiagram
 
 ## Связанные документы
 
-- [Нормализованная ER-модель (временный артефакт)](temp-normalized-er-model.md)
-- [Контекст ревью ERD, сессия 9+](chat-context-er-model-review-3-2026-03-31.md)
+- [Нормализованная ER-модель](erd-normalized-er-model.md)
+- [Контекст ревью ERD, сессия 9+](chat-context/chat-context-er-model-review-3-2026-03-31.md)
 - [ADR-003: модульный монолит и схемная изоляция](../../architecture/adr/adr-003-modular-monolith.md)

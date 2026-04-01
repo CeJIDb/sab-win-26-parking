@@ -1,6 +1,6 @@
 # ERD Review — контекст для нового чата (сессия 10+)
 
-**Дата:** 2026-04-01 | **Документ-источник:** `docs/artifacts/erd-work/temp-normalized-er-model.md`
+**Дата:** 2026-04-01 | **Документ-источник:** `docs/artifacts/erd/erd-normalized-er-model.md`
 
 ## Table of Contents
 
@@ -56,17 +56,17 @@
 
 ### Обновлено
 
-- `docs/artifacts/erd-work/erd-relationships-client-client-profile.md`
+- `docs/artifacts/erd/erd-relationships-client-client-profile.md`
   - добавлена таблица `VEHICLE_TYPE` (полностью),
   - обновлен Table of Contents,
   - приведен русский текст к правилу "без буквы е" (используется "е").
 
 ### Создано
 
-- `docs/artifacts/erd-work/erd-relationships-facility-access-log.md`
-- `docs/artifacts/erd-work/erd-relationships-tariff-employee-notification-appeal.md`
-- `docs/artifacts/erd-work/erd-relationships-booking-session-contract.md`
-- `docs/artifacts/erd-work/erd-relationships-payment-billing.md`
+- `docs/artifacts/erd/erd-relationships-facility-access-log.md`
+- `docs/artifacts/erd/erd-relationships-tariff-employee-notification-appeal.md`
+- `docs/artifacts/erd/erd-relationships-booking-session-contract.md`
+- `docs/artifacts/erd/erd-relationships-payment-billing.md`
 
 ---
 
@@ -80,11 +80,11 @@
 
 ## Связанные документы
 
-- [ERD (temp-normalized-er-model)](temp-normalized-er-model.md)
+- [ERD (erd-normalized-er-model)](../erd-normalized-er-model.md)
 - [Контекст ревью ERD, сессия 9+](chat-context-er-model-review-3-2026-03-31.md)
 - [Контекст ревью ERD, сессии 1–3](chat-context-er-model-review-2-2026-03-31.md)
-- [DDD Bounded Contexts](../../architecture/ddd/ddd-bounded-contexts.md)
-- [ADR-002](../../architecture/adr/adr-002-booking-vs-session.md)
-- [ADR-003](../../architecture/adr/adr-003-modular-monolith.md)
-- [ADR-004](../../architecture/adr/adr-004-dadata-organization-lookup.md)
+- [DDD Bounded Contexts](../../../architecture/ddd/ddd-bounded-contexts.md)
+- [ADR-002](../../../architecture/adr/adr-002-booking-vs-session.md)
+- [ADR-003](../../../architecture/adr/adr-003-modular-monolith.md)
+- [ADR-004](../../../architecture/adr/adr-004-dadata-organization-lookup.md)
 

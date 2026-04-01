@@ -1,6 +1,6 @@
 # ERD Review Notes — сессия 2
 
-Заметки по результатам ревью `temp-normalized-er-model.md`.
+Заметки по результатам ревью `erd-normalized-er-model.md`.
 Источник: чат ae7a9fe3-6111-45e3-a183-93bb60ea3260 (первая сессия) + продолжение.
 
 ## Оглавление
@@ -328,7 +328,7 @@ SELECT COALESCE(SUM(amount), 0) FROM payment WHERE invoice_id = ? AND status = '
 | GENERATED ALWAYS AS | ❌ | Тип колонки + Table Description |
 | TEXT[] | ❌ | Заменить на отдельную таблицу или TEXT + Description |
 | Составной UNIQUE | ❌ | SQL Import или Table Notes |
-| Обычные индексы | ❌ | Документировать в `temp-normalized-er-model.md` |
+| Обычные индексы | ❌ | Документировать в `erd-normalized-er-model.md` |
 
 ---
 
@@ -354,7 +354,7 @@ SELECT COALESCE(SUM(amount), 0) FROM payment WHERE invoice_id = ? AND status = '
 | ERD-032 | `CHECK (consent_type IN (...))` на `CONSENT`; `CHECK (benefit_category IN (...))` на `BENEFIT_DOCUMENT` |
 | ERD-033 | `billing_step VARCHAR(32)` → `billing_step_unit VARCHAR(16) CHECK('MINUTE','HOUR','DAY')` + `billing_step_value INTEGER DEFAULT 1` в `TARIFF` |
 | ERD-034 | `last_modified_by_employee_id` удалён из `CLIENT`; связь `EMPLOYEE→CLIENT : updates_status` удалена из mermaid |
-| ERD-035 | `direction VARCHAR(16) CHECK('ENTRY','EXIT','BIDIRECTIONAL')` добавлен в `KPP` |
+| ERD-035 | `direction VARCHAR(16) CHECK('ENTRY','EXIT','BIDIRECTIONAL')` добавлен в `AP` |
 | ERD-036 | Добавлена секция "Схема `report`" в Замечания по реализации |
 
 || ERD-016 (v2) | `channels TEXT[]` удалено из `NOTIFICATION_SETTINGS`; добавлена таблица `NOTIFICATION_SETTINGS_CHANNEL(settings_id, channel CHECK('SMS','EMAIL','PUSH'))` с PK `(settings_id, channel)` |
@@ -378,7 +378,7 @@ SELECT COALESCE(SUM(amount), 0) FROM payment WHERE invoice_id = ? AND status = '
 
 ## Связанные документы
 
-- [ERD (temp-normalized-er-model)](temp-normalized-er-model.md)
-- [DDD Bounded Contexts](../../architecture/ddd/ddd-bounded-contexts.md)
-- [ADR-002](../../architecture/adr/adr-002-booking-vs-session.md)
-- [ADR-003](../../architecture/adr/adr-003-modular-monolith.md)
+- [ERD (erd-normalized-er-model)](../erd-normalized-er-model.md)
+- [DDD Bounded Contexts](../../../architecture/ddd/ddd-bounded-contexts.md)
+- [ADR-002](../../../architecture/adr/adr-002-booking-vs-session.md)
+- [ADR-003](../../../architecture/adr/adr-003-modular-monolith.md)

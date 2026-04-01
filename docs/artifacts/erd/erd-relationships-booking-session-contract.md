@@ -1,6 +1,6 @@
 # ERD: домены `BOOKING`, `SESSION`, `CONTRACT`
 
-**Контекст:** модель в `docs/artifacts/erd-work/temp-normalized-er-model.md`; сводка сессии — `docs/artifacts/erd-work/chat-context-er-model-review-3-2026-03-31.md`.
+**Контекст:** модель в `docs/artifacts/erd/erd-normalized-er-model.md`; сводка сессии — `docs/artifacts/erd/chat-context/chat-context-er-model-review-3-2026-03-31.md`.
 
 ## Table of Contents
 
@@ -139,7 +139,7 @@ erDiagram
 
 ## Связанные документы
 
-- [ERD (temp-normalized-er-model)](temp-normalized-er-model.md)
-- [Контекст ревью ERD, сессия 9+](chat-context-er-model-review-3-2026-03-31.md)
+- [ERD (erd-normalized-er-model)](erd-normalized-er-model.md)
+- [Контекст ревью ERD, сессия 9+](chat-context/chat-context-er-model-review-3-2026-03-31.md)
 - [ADR-002: бронирование и парковочная сессия](../../architecture/adr/adr-002-booking-vs-session.md)
 - [ADR-003: модульный монолит и схемная изоляция](../../architecture/adr/adr-003-modular-monolith.md)
