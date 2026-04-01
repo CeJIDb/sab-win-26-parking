@@ -2,6 +2,7 @@
 
 | Change ID        | Source                        | Requirement ID | Changed files                                                     | Validation                   | Evidence |
 |------------------|-------------------------------|----------------|-------------------------------------------------------------------|------------------------------|----------|
+| CHG-20260401-004 | docs/architecture/adr/adr-004-dadata-organization-lookup.md | — | docs/architecture/adr/adr-004-dadata-organization-lookup.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260401-003 | ERD: уточнение артефактов erd-work | — | docs/artifacts/erd-work/temp-normalized-er-model.md, docs/artifacts/erd-work/erd-drawsql-split.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260401-002 | ERD: перенос контекста ревью и вынос связей CLIENT/ORGANIZATION | — | docs/artifacts/erd-work/chat-context-er-model-review-2-2026-03-31.md, docs/artifacts/erd-work/chat-context-er-model-review-3-2026-03-31.md, docs/artifacts/erd-work/erd-relationships-client-client-profile.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260401-001 | Перенос ERD-материалов в `docs/artifacts/erd-work/` | — | docs/artifacts/erd-work/erd-drawsql-split.md, docs/artifacts/erd-work/temp-normalized-er-model.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
