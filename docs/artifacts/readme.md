@@ -20,6 +20,7 @@
 - [use-case/use-case-registry.md](use-case/use-case-registry.md)
 - [navigation-map.md](navigation-map.md)
 - [infosec/infosec-analyze-parking.md](infosec/infosec-analyze-parking.md)
+- [infosec/bow-tie-unauthorized-access-to-system-and-data.md](infosec/bow-tie-unauthorized-access-to-system-and-data.md)
 
 ## Подразделы
 

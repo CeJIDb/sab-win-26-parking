@@ -46,6 +46,7 @@
 - [information-security-for-analysts-requirements-and-design-decisions-babok-school.md](context/information-security-for-analysts-requirements-and-design-decisions-babok-school.md) — триада ИБ, риски и реестр.
 - [information-security-basics-buildin-ai.md](context/information-security-basics-buildin-ai.md) — базовые определения (угрозы, уязвимости, аутентификация).
 - [owasp-top-10-web-application-vulnerabilities-skillbox.md](context/owasp-top-10-web-application-vulnerabilities-skillbox.md) — ориентир по типовым веб-уязвимостям (в учебной версии не раскрывается).
+- [bow-tie-unauthorized-access-to-system-and-data.md](bow-tie-unauthorized-access-to-system-and-data.md) — проектная визуализация риска несанкционированного доступа к системе и данным.
 
 ---
 
