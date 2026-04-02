@@ -5,7 +5,7 @@ last_updated: 2026-04-02
 
 # Планы интервью
 
-Основные планы интервью проекта, нормализованные и сохраненные в структуре репозитория.
+Основные планы интервью проекта, нормализованные и сохраненные в каноничной структуре репозитория.
 
 ## Состав
 
@@ -22,3 +22,4 @@ last_updated: 2026-04-02
 
 - [../readme.md](../readme.md)
 - [../protocols/readme.md](../protocols/readme.md)
+- [../../process/traceability-matrix-log.md](../../process/traceability-matrix-log.md)
