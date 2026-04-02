@@ -153,6 +153,5 @@ C4Context
 ## Связанные документы
 
 - [`c4-parking-platform.md`](c4-parking-platform.md) — полный C4 по уровням 1–3, превью HTML, сценарии.
-- [`c4-external-context.md`](c4-external-context.md) — индекс C4 model и ссылки на материалы.
 - [`../readme.md`](../readme.md) — оглавление раздела архитектуры.
 - [ADR-003: модульный монолит](../adr/adr-003-modular-monolith.md).
