@@ -16,7 +16,8 @@
 
 ## Текущее содержимое
 
-- [demo-day-2.pdf](demo-day-2.pdf) — сохраненный материал второго демо дня.
+- [demo-2-presentation-deck.md](demo-2-presentation-deck.md) — markdown-версия всей презентации Demo 2.
+- [slides/](slides/readme.md) — 25 слайдов, сохраненных как изображения.
 
 ## Фокус демо
 

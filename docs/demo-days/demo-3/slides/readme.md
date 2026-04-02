@@ -9,8 +9,10 @@
 - `3.jpg`
 - `4.jpg`
 - `5.jpg`
+- `01.jpg` ... `36.jpg`
 - [demo-3-context-diagram-all-mockups.md](demo-3-context-diagram-all-mockups.md)
 
 ## Заметки
 
 - Текст выступления находится уровнем выше в [`../demo-3-context-diagram-presentation-3-min.md`](../demo-3-context-diagram-presentation-3-min.md).
+- Файлы `01.jpg` ... `36.jpg` содержат слайды полной презентации Demo 3.

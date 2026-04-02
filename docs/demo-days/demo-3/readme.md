@@ -20,10 +20,12 @@
 - [context-diagram-buildin-ai.md](context-diagram-buildin-ai.md) — вспомогательный материал по контекстной диаграмме.
 - [slides/demo-3-context-diagram-all-mockups.md](slides/demo-3-context-diagram-all-mockups.md) — описание комплекта слайдов.
 - `slides/1.jpg` ... `slides/5.jpg` — изображения слайдов.
+- [demo-3-presentation-deck.md](demo-3-presentation-deck.md) — markdown-версия полной PDF-презентации Demo 3.
+- [slides/](slides/readme.md) — каталог со слайдами Demo 3, включая извлеченные изображения полной презентации.
 
 ## Фокус демо
 
-По текущему составу материалов Demo 3 концентрируется вокруг контекстной диаграммы и сопутствующего narrative.
+По текущему составу материалов Demo 3 концентрируется вокруг контекстной диаграммы, use case, навигации экранов, требований и сопутствующего narrative.
 
 ## Рекомендуемое развитие
 
