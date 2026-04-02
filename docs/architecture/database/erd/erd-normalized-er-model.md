@@ -14,10 +14,10 @@
 
 ## Related Documents
 
-- [Концептуальная модель с атрибутами](../conceptual-model-with-attributes.md)
-- [ADR-002: бронирование и парковочная сессия](../../architecture/adr/adr-002-booking-vs-session.md)
-- [Глоссарий проекта](../project-glossary.md)
-- [ФТ: парковочная сессия](../../specs/functional-requirements/fr-parking-session.md)
+- [Концептуальная модель с атрибутами](../../../artifacts/conceptual-model-with-attributes.md)
+- [ADR-002: бронирование и парковочная сессия](../../adr/adr-002-booking-vs-session.md)
+- [Глоссарий проекта](../../../artifacts/project-glossary.md)
+- [ФТ: парковочная сессия](../../../specs/functional-requirements/fr-parking-session.md)
 
 ```mermaid
 erDiagram
@@ -493,7 +493,7 @@ erDiagram
 
 Этот документ фиксирует **нормализованную ER-модель** предметной области парковочной платформы на основе текущей концептуальной модели.
 
-Связь «бронирование — парковочная сессия» и отсутствие парковочной сессии без бронирования соответствуют решению **Option D** в [ADR-002](../../architecture/adr/adr-002-booking-vs-session.md) (сессия опирается на `BOOKING`).
+Связь «бронирование — парковочная сессия» и отсутствие парковочной сессии без бронирования соответствуют решению **Option D** в [ADR-002](../../adr/adr-002-booking-vs-session.md) (сессия опирается на `BOOKING`).
 
 Цель модели:
 

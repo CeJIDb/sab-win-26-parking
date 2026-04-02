@@ -301,7 +301,7 @@
 
 ## Связанные документы
 
-- [Реестр Use Case](../../artifacts/use-case-registry.md)
+- [Реестр Use Case](../../artifacts/use-case/use-case-registry.md)
 - [Концептуальная модель с атрибутами](../../artifacts/conceptual-model-with-attributes.md)
 - [Глоссарий проекта](../../artifacts/project-glossary.md)
 - [UC-12.4 «Создать ПС»](../../artifacts/use-case/uc-12-4-create-parking-session.md)

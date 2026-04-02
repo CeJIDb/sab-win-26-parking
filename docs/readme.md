@@ -23,12 +23,12 @@
 
 ## Разделы
 
-- [artifacts/](artifacts/readme.md) — артефакты анализа, карты, концептуальная модель, материалы по use case
+- [artifacts/](artifacts/readme.md) — артефакты анализа, AS-IS/TO-BE, карты, концептуальная модель и материалы по use case
 - [specs/](specs/readme.md) — функциональные и нефункциональные требования, ограничения
-- [architecture/](architecture/readme.md) — архитектура: ADR в [`architecture/adr/`](architecture/adr/readme.md), DDD и смежные материалы в [`architecture/ddd/`](architecture/ddd/event-storming-external-context.md)
+- [architecture/](architecture/readme.md) — архитектура: ADR, DDD, C4, архитектура данных и ERD
 - [process/](process/readme.md) — процесс участия, шаблоны, контроль качества, чеклист релиза
 - [protocols/](protocols/readme.md) — протоколы встреч и зафиксированные решения
-- [demo-days/](demo-days/readme.md) — сценарии демо, заметки и материалы презентаций
+- [demo-days/](demo-days/readme.md) — сценарии демо, заметки и материалы презентаций по структуре `demo-1/` ... `demo-5/`
 
 ## Вспомогательные инструменты
 

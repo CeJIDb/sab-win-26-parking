@@ -1,0 +1,16 @@
+# Индекс слайдов Demo 3
+
+Слайды и сопутствующее описание для третьего демо дня.
+
+## Содержимое
+
+- `1.jpg`
+- `2.jpg`
+- `3.jpg`
+- `4.jpg`
+- `5.jpg`
+- [demo-3-context-diagram-all-mockups.md](demo-3-context-diagram-all-mockups.md)
+
+## Заметки
+
+- Текст выступления находится уровнем выше в [`../demo-3-context-diagram-presentation-3-min.md`](../demo-3-context-diagram-presentation-3-min.md).

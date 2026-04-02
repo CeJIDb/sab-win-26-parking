@@ -25,7 +25,7 @@ Help the team produce:
 Always work from:
 
 - `docs/demo-days/demo-days-overview.md` (rules, timing, criteria),
-- optionally `docs/demo-days/demo-day-2.pdf` for style reference.
+- optionally `docs/demo-days/demo-2/demo-day-2.pdf` for style reference.
 
 ## Working Method
 

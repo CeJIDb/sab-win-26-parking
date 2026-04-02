@@ -1,6 +1,6 @@
 # ERD Review — контекст для нового чата (сессия 10+)
 
-**Дата:** 2026-04-01 | **Документ-источник:** `docs/artifacts/erd/erd-normalized-er-model.md`
+**Дата:** 2026-04-01 | **Документ-источник:** `docs/architecture/database/erd/erd-normalized-er-model.md`
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@
 - `APPEAL` вынесен из файла "Booking/Session/Contract" в файл "Tariff/Employee/Notification/Appeal", чтобы связи `EMPLOYEE → APPEAL` были в рамках одного файла.
 - Инфраструктура: `PARKING_TYPE` переведен из справочника в `PARKING.parking_type` с `CHECK (...)`; в `PARKING_PLACE` добавлены `is_reserved` и `is_occupied`.
 - Денежные поля унифицированы: вместо `NUMERIC(19,4)` используются `*_minor BIGINT` (сумма в минорных единицах валюты, для `RUB` — копейки).
-- Структура артефактов ERD приведена к единому каталогу `docs/artifacts/erd/` с индексом `readme.md`; контексты чатов собраны в подпапке `docs/artifacts/erd/chat-context/`.
+- Структура артефактов ERD приведена к единому каталогу `docs/architecture/database/erd/` с индексом `readme.md`; контексты чатов собраны в подпапке `docs/architecture/database/erd/chat-context/`.
 - Аутентификация сотрудников: credential-модель сотрудника переименована в **`EMPLOYEE_ACCOUNT`** (схема `auth`) и вынесена из доменной таблицы `employee.EMPLOYEE`; добавлено описание полей `login`, `password_hash`, `totp_secret_encrypted`, `account_status`.
 - Уведомления: в `notification.NOTIFICATION` добавлена полиморфная привязка к предмету как в `support.APPEAL`: **`subject_type + subject_id`** с инвариантом `CHECK ((subject_type IS NULL) = (subject_id IS NULL))` и индексом `(subject_type, subject_id)` (в Table Notes).
 - Статусы сотрудника: устранено дублирование смыслов между доменным статусом и статусом доступа: `EMPLOYEE.status` ограничен до `ACTIVE|DISMISSED`, а блокировки и приостановка доступа фиксируются в `EMPLOYEE_ACCOUNT.account_status` (`ACTIVE|BLOCKED|SUSPENDED`).
@@ -65,17 +65,17 @@
 
 ### Обновлено
 
-- `docs/artifacts/erd/erd-relationships-client-client-profile.md`
+- `docs/architecture/database/erd/erd-relationships-client-client-profile.md`
   - добавлена таблица `VEHICLE_TYPE` (полностью),
   - обновлен Table of Contents,
   - приведен русский текст к правилу "без буквы ё" (используется "е").
 
 ### Создано
 
-- `docs/artifacts/erd/erd-relationships-facility-access-log.md`
-- `docs/artifacts/erd/erd-relationships-tariff-employee-notification-appeal.md`
-- `docs/artifacts/erd/erd-relationships-booking-session-contract.md`
-- `docs/artifacts/erd/erd-relationships-payment-billing.md`
+- `docs/architecture/database/erd/erd-relationships-facility-access-log.md`
+- `docs/architecture/database/erd/erd-relationships-tariff-employee-notification-appeal.md`
+- `docs/architecture/database/erd/erd-relationships-booking-session-contract.md`
+- `docs/architecture/database/erd/erd-relationships-payment-billing.md`
 
 ---
 
@@ -92,7 +92,7 @@
 - [ERD (erd-normalized-er-model)](../erd-normalized-er-model.md)
 - [Контекст ревью ERD, сессия 9+](chat-context-er-model-review-3-2026-03-31.md)
 - [Контекст ревью ERD, сессии 1–3](chat-context-er-model-review-2-2026-03-31.md)
-- [DDD Bounded Contexts](../../../architecture/ddd/ddd-bounded-contexts.md)
-- [ADR-002](../../../architecture/adr/adr-002-booking-vs-session.md)
-- [ADR-003](../../../architecture/adr/adr-003-modular-monolith.md)
-- [ADR-004](../../../architecture/adr/adr-004-dadata-organization-lookup.md)
+- [DDD Bounded Contexts](../../../ddd/ddd-bounded-contexts.md)
+- [ADR-002](../../../adr/adr-002-booking-vs-session.md)
+- [ADR-003](../../../adr/adr-003-modular-monolith.md)
+- [ADR-004](../../../adr/adr-004-dadata-organization-lookup.md)

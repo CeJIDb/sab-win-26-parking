@@ -17,7 +17,7 @@ General markup and ID rules for `docs/specs/**/*.md`: [.cursor/rules/docs.mdc](d
 
 ## Sources (order)
 
-1. [Use case registry](../../docs/artifacts/use-case-registry.md) — UC codes and titles for the “Входные UC” section (**только строки реестра**, без пояснений в скобках; см. шаблон).
+1. [Use case registry](../../docs/artifacts/use-case/use-case-registry.md) — UC codes and titles for the “Входные UC” section (**только строки реестра**, без пояснений в скобках; см. шаблон).
 2. UC write-ups (including [docs/artifacts/use-case/](../../docs/artifacts/use-case/)) — flows and boundaries for wording and `.СД`.
 3. [Conceptual model with attributes](../../docs/artifacts/conceptual-model-with-attributes.md) — entity and attribute names; `` `[Entity]:field` `` in lists.
 4. [Glossary](../../docs/artifacts/project-glossary.md); on term mismatch, record explicitly (`Unclear:` / question to analyst).

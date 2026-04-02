@@ -1,8 +1,8 @@
 # ERD Review — контекст для нового чата (сессия 9+)
 
-**Дата:** 2026-03-31 | **Документ:** `docs/artifacts/erd/erd-normalized-er-model.md` | **Первый чат:** ae7a9fe3-6111-45e3-a183-93bb60ea3260
+**Дата:** 2026-03-31 | **Документ:** `docs/architecture/database/erd/erd-normalized-er-model.md` | **Первый чат:** ae7a9fe3-6111-45e3-a183-93bb60ea3260
 
-> Примечание: это “контекст чата” (исторические заметки). Источник истины по модели и связям — `docs/artifacts/erd/erd-normalized-er-model.md` и доменные файлы `docs/artifacts/erd/erd-relationships-*.md`.
+> Примечание: это “контекст чата” (исторические заметки). Источник истины по модели и связям — `docs/architecture/database/erd/erd-normalized-er-model.md` и доменные файлы `docs/architecture/database/erd/erd-relationships-*.md`.
 
 ## Table of Contents
 
@@ -239,8 +239,8 @@
 ## Связанные документы
 
 - **[ERD (erd-normalized-er-model)](../erd-normalized-er-model.md)** — основной файл
-- **[DDD Bounded Contexts](../../../architecture/ddd/ddd-bounded-contexts.md)**
-- **[ADR-002](../../../architecture/adr/adr-002-booking-vs-session.md)** — бронирование и сессия
-- **[ADR-003](../../../architecture/adr/adr-003-modular-monolith.md)** — модульный монолит и схемная изоляция
-- **[ADR-004](../../../architecture/adr/adr-004-dadata-organization-lookup.md)** — интеграция с реестром организаций (DADATA)
+- **[DDD Bounded Contexts](../../../ddd/ddd-bounded-contexts.md)**
+- **[ADR-002](../../../adr/adr-002-booking-vs-session.md)** — бронирование и сессия
+- **[ADR-003](../../../adr/adr-003-modular-monolith.md)** — модульный монолит и схемная изоляция
+- **[ADR-004](../../../adr/adr-004-dadata-organization-lookup.md)** — интеграция с реестром организаций (DADATA)
 - **[Контекст сессий 1–3](chat-context-er-model-review-2-2026-03-31.md)** — детальные объяснения ERD-замечаний

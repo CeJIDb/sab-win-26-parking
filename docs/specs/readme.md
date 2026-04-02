@@ -4,9 +4,9 @@
 
 ## Подразделы
 
-- `functional-requirements/` — функциональные требования (`FR-*`)
-- `nonfunctional-requirements/` — нефункциональные требования (`NFR-*`)
-- `constraints/` — ограничения на решение и реализацию (`CONSTR-*`)
+- [functional-requirements/](functional-requirements/readme.md) — функциональные требования (`FR-*`)
+- [nonfunctional-requirements/](nonfunctional-requirements/readme.md) — нефункциональные требования (`NFR-*`)
+- [constraints/](constraints/readme.md) — ограничения на решение и реализацию (`CONSTR-*`)
 
 ## Правила ведения
 

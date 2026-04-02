@@ -104,6 +104,6 @@ Proposed
 ## Related Documents
 
 - [ADR-003: Модульный монолит](adr-003-modular-monolith.md) — схемная изоляция контекстов; `OrganizationLookupService` — Application Service в bounded context `Client`.
-- [ERD: ORGANIZATION](../../artifacts/erd/erd-normalized-er-model.md) — `inn NOT NULL UNIQUE` (ERD-059); `legal_form` без CHECK (ERD-056).
+- [ERD: ORGANIZATION](../database/erd/erd-normalized-er-model.md) — `inn NOT NULL UNIQUE` (ERD-059); `legal_form` без CHECK (ERD-056).
 - [Контекстная диаграмма](../../artifacts/context-diagram.md) — DADATA как внешняя система §18.
 - [Индекс ADR](readme.md)
