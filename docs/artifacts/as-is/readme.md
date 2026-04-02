@@ -5,7 +5,7 @@
 ## Оглавление
 
 - [Назначение](#назначение)
-- [Рекомендуемый состав](#рекомендуемый-состав)
+- [Ключевые документы](#ключевые-документы)
 - [Правила ведения](#правила-ведения)
 - [Связанные документы](#связанные-документы)
 
@@ -15,17 +15,18 @@
 
 Сюда имеет смысл переносить AS-IS артефакты, даже если изначально они были оформлены вне репозитория в виде изображений или экспортов из внешних инструментов.
 
-## Рекомендуемый состав
+## Ключевые документы
 
-Здесь удобно хранить такие документы:
-
-- `parking-as-is-diagram.md`
-- `event-storming-as-is.md`
-- `bpmn-parking-as-is.md`
-- `uml-class-domain-as-is.md`
-- `uml-state-parking-session-as-is.md`
-
-Если у артефакта есть изображение, держите его рядом в каталоге `assets/`.
+- [parking-as-is-diagram.md](parking-as-is-diagram.md) — схема текущей парковки и распределения зон.
+- [event-storming-as-is.md](event-storming-as-is.md) — событийная модель текущего состояния.
+- [uml-state-contract-with-individual.md](uml-state-contract-with-individual.md) — жизненный цикл договора с физлицом.
+- [bpmn-client-identification.md](bpmn-client-identification.md)
+- [bpmn-payment-individual-and-legal-clients.md](bpmn-payment-individual-and-legal-clients.md)
+- [bpmn-provide-parking-space.md](bpmn-provide-parking-space.md)
+- [bpmn-search-parking-space.md](bpmn-search-parking-space.md)
+- [bpmn-parking-exit.md](bpmn-parking-exit.md)
+- [bpmn-contract-signing.md](bpmn-contract-signing.md)
+- [assets/](assets/readme.md) — изображения AS-IS артефактов
 
 ## Правила ведения
 
