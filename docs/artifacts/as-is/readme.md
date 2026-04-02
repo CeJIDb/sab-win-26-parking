@@ -19,6 +19,7 @@
 
 - [parking-as-is-diagram.md](parking-as-is-diagram.md) — схема текущей парковки и распределения зон.
 - [event-storming-as-is.md](event-storming-as-is.md) — событийная модель текущего состояния.
+- [uml-class-domain-as-is.md](uml-class-domain-as-is.md) — UML-диаграмма классов предметной области в AS-IS.
 - [uml-state-contract-with-individual.md](uml-state-contract-with-individual.md) — жизненный цикл договора с физлицом.
 - [bpmn-client-identification.md](bpmn-client-identification.md)
 - [bpmn-payment-individual-and-legal-clients.md](bpmn-payment-individual-and-legal-clients.md)

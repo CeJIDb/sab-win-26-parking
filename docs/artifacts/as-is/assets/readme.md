@@ -9,7 +9,9 @@
 
 ## Каноничные артефакты
 
+- `parking-as-is-diagram.jpg` → [../parking-as-is-diagram.md](../parking-as-is-diagram.md)
 - `event-storming-as-is.jpg` → [../event-storming-as-is.md](../event-storming-as-is.md)
+- `uml-class-domain-as-is.jpg` → [../uml-class-domain-as-is.md](../uml-class-domain-as-is.md)
 - `uml-state-contract-with-individual.jpg` → [../uml-state-contract-with-individual.md](../uml-state-contract-with-individual.md)
 - `bpmn-client-identification.jpg` → [../bpmn-client-identification.md](../bpmn-client-identification.md)
 - `bpmn-payment-individual-and-legal-clients.jpg` → [../bpmn-payment-individual-and-legal-clients.md](../bpmn-payment-individual-and-legal-clients.md)
