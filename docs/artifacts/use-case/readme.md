@@ -11,6 +11,7 @@
 ## Ключевые документы
 
 - [use-case-registry.md](use-case-registry.md) — каноничный реестр use case проекта.
+- [use-case-diagram.md](use-case-diagram.md) — визуальная карта вариантов использования и актеров.
 - [uc-12-1-pass-auto-identification-entry.md](uc-12-1-pass-auto-identification-entry.md)
 - [uc-12-2-create-booking-auto-entry.md](uc-12-2-create-booking-auto-entry.md)
 - [uc-12-4-create-parking-session.md](uc-12-4-create-parking-session.md)
@@ -20,6 +21,7 @@
 
 ## Подразделы
 
+- [assets/](assets/readme.md) — изображения диаграмм вариантов использования.
 - [samples/](samples/readme.md) — учебные и справочные материалы по оформлению use case.
 
 ## Связанные документы

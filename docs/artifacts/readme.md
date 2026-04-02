@@ -16,6 +16,7 @@
 - [user-story-map.md](user-story-map.md)
 - [context-diagram.md](context-diagram.md)
 - [conceptual-model-with-attributes.md](conceptual-model-with-attributes.md)
+- [use-case/use-case-diagram.md](use-case/use-case-diagram.md)
 - [use-case/use-case-registry.md](use-case/use-case-registry.md)
 - [navigation-map.md](navigation-map.md)
 - [infosec/infosec-analyze-parking.md](infosec/infosec-analyze-parking.md)
