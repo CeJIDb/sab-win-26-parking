@@ -10,7 +10,7 @@
 ## Запуск
 
 ```bash
-python scripts/docs/extract-docx.py "docs/protocols"
+python scripts/docs/extract-docx.py "docs/interviews"
 python scripts/docs/split-image.py "Контекстная диаграмма.jpg"
 ```
 

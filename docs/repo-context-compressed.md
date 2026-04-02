@@ -24,7 +24,7 @@
 - [docs/artifacts/infosec/infosec-analyze-parking.md](artifacts/infosec/infosec-analyze-parking.md)
 - [docs/artifacts/navigation-map.md](artifacts/navigation-map.md)
 - [docs/artifacts/project-charter.md](artifacts/project-charter.md)
-- [docs/protocols/readme.md](protocols/readme.md)
+- [docs/interviews/readme.md](interviews/readme.md)
 
 - Репозиторий **документации системного анализа/проектирования** для темы **«Цифровая платформа парковки»**.
 - Основная ценность — **набор артефактов**: контекстная диаграмма (DFD0), доменная/концептуальная модель с атрибутами, use case, функциональные требования (FR/UC), ADR, материалы по аутентификации/авторизации и защите данных (152‑ФЗ).
@@ -130,7 +130,7 @@
 - `docs/artifacts/infosec/infosec-analyze-parking.md`: единый ИБ-артефакт по угрозам, уязвимостям, аутентификации/авторизации и мерам защиты.
 - `docs/artifacts/navigation-map.md`: sitemap по реальному wireframe + расхождения UI ↔ артефакты (полезно при уточнении UC/FR).
 - `docs/specs/functional-requirements/`: формальные FR по сущностям и UC‑связкам (рабочий “контракт” требований).
-- `docs/protocols/readme.md`: индекс решений встреч (источник “почему так” и трассируемости).
+- `docs/interviews/readme.md`: индекс интервью и решений встреч (источник “почему так” и трассируемости).
 - Вспомогательное (для визуализации/демо, не “истина требований”):
   - `ui/readme.md`, `ui/index.html`, `ui/templates/**`: wireframe сценариев/навигации.
   - `package.json`, `scripts/build-templates.mjs`: сборка wireframe.
@@ -138,7 +138,7 @@
 ## 9. Developer Workflows
 - **Основной workflow = развитие документации**:
   - начинать с `docs/artifacts/project-charter.md` → `docs/artifacts/context-diagram.md` → `docs/artifacts/conceptual-model-with-attributes.md` → `docs/specs/**` → `docs/architecture/*.md`.
-  - при уточнениях ссылаться на решения встреч из `docs/protocols/*`.
+  - при уточнениях ссылаться на интервью и решения встреч из `docs/interviews/*`.
   - фиксировать ключевые развилки как ADR в `docs/architecture/`.
   - держать согласованность: термины/сущности/инварианты из концептуальной модели ↔ FR ↔ UC ↔ wireframe.
 - **Wireframe (опционально, только для визуализации)**:
@@ -158,4 +158,3 @@
 - Отброшено: `node_modules/`, виртуальные окружения `.venv*`, большинство повторяющихся артефактов демо‑дней (`.pdf/.pptx`) и подробные протоколы (оставлены только индексы и ключевые выводы).
 - Сильно сжато: контекстная диаграмма (DFD0) и концептуальная модель (десятки страниц атрибутов/enum) → оставлены только центральные сущности/инварианты/интеграции.
 - Почти не влияет на понимание проекта: вспомогательные python‑скрипты подготовки docs (не участвуют в целевой системе), детализация модалок и верстки отдельных страниц (важны как UX‑пример, но не как архитектурное ядро).
-

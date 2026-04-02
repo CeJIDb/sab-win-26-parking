@@ -29,11 +29,11 @@
 | Правило | Пути (кратко) |
 |--------- |----------------|
 | `technical-writer.mdc` | `docs/**/*.md`, `README.md`, `CONTRIBUTING.md` |
-| `systems-analyst.mdc` | `docs/specs/`, `docs/artifacts/`, `docs/protocols/`, `docs/process/traceability-matrix*.md` |
+| `systems-analyst.mdc` | `docs/specs/`, `docs/artifacts/`, `docs/interviews/`, `docs/process/traceability-matrix*.md` |
 | `glossary-terms-maintainer.mdc` | `docs/artifacts/project-glossary.md`, `docs/specs/`, `docs/architecture/`, `docs/artifacts/conceptual-model*.md` |
 | `software-architect.mdc` | `docs/architecture/**/*.md` |
 | `database-optimizer.mdc` | `docs/architecture/**/*.md`, `docs/artifacts/conceptual-model*.md`, `docs/artifacts/**/*entity*.md`, `docs/artifacts/**/*normalization*.md` |
-| `backend-architect.mdc` | `docs/architecture/**/*.md`, `docs/protocols/**/*.md` |
+| `backend-architect.mdc` | `docs/architecture/**/*.md`, `docs/interviews/**/*.md` |
 | `security-engineer.mdc` | `docs/artifacts/infosec/`, `docs/specs/nonfunctional-requirements/` |
 | `ux-architect.mdc` | `ui/**/*.njk`, `ui/**/*.scss`, `ui/**/*.html` |
 | `accessibility-auditor.mdc` | то же для `ui/` |

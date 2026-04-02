@@ -19,7 +19,7 @@
 3. [Концептуальная модель с атрибутами](artifacts/conceptual-model-with-attributes.md)
 4. [Индекс спецификаций](specs/readme.md)
 5. [Индекс архитектуры](architecture/readme.md)
-6. [Индекс протоколов](protocols/readme.md)
+6. [Индекс интервью](interviews/readme.md)
 
 ## Разделы
 
@@ -27,7 +27,7 @@
 - [specs/](specs/readme.md) — функциональные и нефункциональные требования, ограничения
 - [architecture/](architecture/readme.md) — архитектура: ADR, DDD, C4, архитектура данных и ERD
 - [process/](process/readme.md) — процесс участия, шаблоны, контроль качества, чеклист релиза
-- [protocols/](protocols/readme.md) — протоколы встреч и зафиксированные решения
+- [interviews/](interviews/readme.md) — планы интервью, протоколы встреч и зафиксированные решения
 - [demo-days/](demo-days/readme.md) — сценарии демо, заметки и материалы презентаций по структуре `demo-1/` ... `demo-5/`
 
 ## Вспомогательные инструменты
@@ -38,7 +38,7 @@
 ## Каноничные и вспомогательные материалы
 
 - Каноничные аналитические документы — в [artifacts/](artifacts/readme.md), [specs/](specs/readme.md) и [architecture/](architecture/readme.md).
-- Операционные и вспомогательные материалы — в [process/](process/readme.md) и [protocols/](protocols/readme.md).
+- Операционные и вспомогательные материалы — в [process/](process/readme.md) и [interviews/](interviews/readme.md).
 - Материалы для демонстраций — в [demo-days/](demo-days/readme.md).
 
 ## Именование и стиль

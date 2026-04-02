@@ -12,7 +12,7 @@ const TARGETS = [
   "docs/artifacts/readme.md",
   "docs/architecture/readme.md",
   "docs/demo-days/readme.md",
-  "docs/protocols/readme.md"
+  "docs/interviews/readme.md"
 ];
 const EXCLUDE_DIRS = new Set(["node_modules", ".git", ".cursor", ".venv", ".venv-markitdown"]);
 
@@ -49,7 +49,7 @@ function lintContent(filePath, content) {
 
   const lines = content.split("\n");
   const firstNonEmpty = lines.find((line) => line.trim().length > 0) || "";
-  const skipHeadingRule = rel === "docs/protocols/readme.md";
+  const skipHeadingRule = rel === "docs/interviews/readme.md";
   if (!skipHeadingRule && !(firstNonEmpty.startsWith("# ") || firstNonEmpty.startsWith("## "))) {
     errors.push("first non-empty line must start with markdown heading");
   }

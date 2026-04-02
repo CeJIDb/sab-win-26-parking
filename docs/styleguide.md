@@ -49,7 +49,7 @@ This guide defines naming and structure conventions for the `docs/` tree.
 ## Related Documents Policy
 
 - If a document depends on or references specific canonical artifacts/specs/protocols (beyond one-off mentions), add a short `## Связанные документы` (or `### Связанные документы`) section with relative links to those sources.
-- Prefer linking to canonical files under `docs/artifacts/`, `docs/specs/`, `docs/architecture/` and `docs/protocols/`.
+- Prefer linking to canonical files under `docs/artifacts/`, `docs/specs/`, `docs/architecture/` and `docs/interviews/`.
 
 ## Link Stability
 

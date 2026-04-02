@@ -135,7 +135,7 @@
 4. `docs/artifacts/conceptual-model-with-attributes.md`
 5. `docs/specs/readme.md`
 6. `docs/architecture/readme.md`
-7. `docs/protocols/readme.md` для проверки источников решений
+7. `docs/interviews/readme.md` для проверки источников решений
 
 Такой порядок помогает быстро понять бизнес-контекст, границы системы, терминологию и основные проектные решения.
 
@@ -210,7 +210,7 @@ npm run ci:check
 - [`docs/specs/readme.md`](docs/specs/readme.md) — спецификации и требования
 - [`docs/architecture/readme.md`](docs/architecture/readme.md) — архитектурные материалы
 - [`docs/process/readme.md`](docs/process/readme.md) — процесс участия и шаблоны
-- [`docs/protocols/readme.md`](docs/protocols/readme.md) — протоколы встреч
+- [`docs/interviews/readme.md`](docs/interviews/readme.md) — интервью, планы встреч и протоколы
 - [`ui/README.md`](ui/README.md) — устройство wireframe-макета
 - [`scripts/docs/readme.md`](scripts/docs/readme.md) — утилиты для документации
 
