@@ -4,6 +4,7 @@
 
 | Change ID        | Source                        | Requirement ID | Changed files                                                     | Validation                   | Evidence |
 |------------------|-------------------------------|----------------|-------------------------------------------------------------------|------------------------------|----------|
+| CHG-20260402-026 | Docs: уточнить роль команды в корневом README как системных аналитиков | — | README.md, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260402-025 | Docs: извлечь каноничный CRUDL из импортированного use-case markdown, обновить индексы и удалить temp | — | docs/artifacts/{readme.md,use-case/{crudl.md,readme.md,temp/**}}, docs/process/{project-journey.md,traceability-matrix-log.md} | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260402-024 | Docs: вынести MVP Definition of Done из импортированного BuildIn markdown в каноничный процессный документ | — | docs/process/{mvp-definition-of-done.md,readme.md,project-journey.md,traceability-matrix-log.md}, docs/artifacts/user-story-map.md | review + `npm run ci:check` | PR #<TBD> |
 | CHG-20260402-023 | Docs: извлечь презентации demo days в markdown/слайды, удалить исходные PDF и убрать preview HTML C4 | — | docs/demo-days/**, docs/architecture/c4/c4-parking-platform-preview.html, docs/process/traceability-matrix-log.md | review + `npm run ci:check` | PR #<TBD> |
