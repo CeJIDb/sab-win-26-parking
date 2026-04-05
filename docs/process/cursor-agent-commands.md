@@ -14,15 +14,15 @@
 
 | Команда (файл) | Назначение | Основное правило / агент |
 |---------------- |------------ |---------------------------|
-| [review-doc.md](../../.cursor/commands/review-doc.md) | Ревью markdown-документации (стиль, структура, ссылки, спеки) | `.cursor/rules/technical-writer.mdc` |
-| [review-requirements.md](../../.cursor/commands/review-requirements.md) | Требования, артефакты, трассируемость | `.cursor/rules/systems-analyst.mdc`, `.cursor/agents/systems-analyst.md` |
-| [review-architecture.md](../../.cursor/commands/review-architecture.md) | ADR, DDD, согласованность архитектуры; схемы БД и бэкенд-интеграции при необходимости | `.cursor/rules/software-architect.mdc`, `.cursor/rules/database-optimizer.mdc`, `.cursor/rules/backend-architect.mdc` |
-| [review-security.md](../../.cursor/commands/review-security.md) | ИБ, NFR безопасности, соответствие артефактам infosec | `.cursor/rules/security-engineer.mdc` |
-| [review-wireframe.md](../../.cursor/commands/review-wireframe.md) | Wireframe `ui/` vs спеки + доступность | `.cursor/rules/ux-architect.mdc`, `.cursor/rules/accessibility-auditor.mdc` |
-| [review-reality.md](../../.cursor/commands/review-reality.md) | Документы vs факты репозитория | `.cursor/rules/reality-checker.mdc` |
-| [review-pr-readiness.md](../../.cursor/commands/review-pr-readiness.md) | Готовность к PR/push (ветка, трассировка, CI) | `.cursor/rules/git-workflow-master.mdc`, `.cursor/rules/ci-gates.mdc` |
-| [review-sources-sync.md](../../.cursor/commands/review-sources-sync.md) | Протоколы/источники ↔ спеки | `.cursor/rules/systems-analyst.mdc` |
-| [review-glossary.md](../../.cursor/commands/review-glossary.md) | Терминология, дрейф от глоссария | `.cursor/rules/glossary-terms-maintainer.mdc`, `.cursor/agents/glossary-terms-maintainer.md` |
+| [Команда review-doc](../../.cursor/commands/review-doc.md) | Ревью markdown-документации (стиль, структура, ссылки, спеки) | `.cursor/rules/technical-writer.mdc` |
+| [Команда review-requirements](../../.cursor/commands/review-requirements.md) | Требования, артефакты, трассируемость | `.cursor/rules/systems-analyst.mdc`, `.cursor/agents/systems-analyst.md` |
+| [Команда review-architecture](../../.cursor/commands/review-architecture.md) | ADR, DDD, согласованность архитектуры; схемы БД и бэкенд-интеграции при необходимости | `.cursor/rules/software-architect.mdc`, `.cursor/rules/database-optimizer.mdc`, `.cursor/rules/backend-architect.mdc` |
+| [Команда review-security](../../.cursor/commands/review-security.md) | ИБ, NFR безопасности, соответствие артефактам infosec | `.cursor/rules/security-engineer.mdc` |
+| [Команда review-wireframe](../../.cursor/commands/review-wireframe.md) | Wireframe `ui/` vs спеки + доступность | `.cursor/rules/ux-architect.mdc`, `.cursor/rules/accessibility-auditor.mdc` |
+| [Команда review-reality](../../.cursor/commands/review-reality.md) | Документы vs факты репозитория | `.cursor/rules/reality-checker.mdc` |
+| [Команда review-pr-readiness](../../.cursor/commands/review-pr-readiness.md) | Готовность к PR/push (ветка, трассировка, CI) | `.cursor/rules/git-workflow-master.mdc`, `.cursor/rules/ci-gates.mdc` |
+| [Команда review-sources-sync](../../.cursor/commands/review-sources-sync.md) | Протоколы/источники ↔ спеки | `.cursor/rules/systems-analyst.mdc` |
+| [Команда review-glossary](../../.cursor/commands/review-glossary.md) | Терминология, дрейф от глоссария | `.cursor/rules/glossary-terms-maintainer.mdc`, `.cursor/agents/glossary-terms-maintainer.md` |
 
 ## Правила с автоподключением (globs)
 
@@ -44,6 +44,6 @@
 
 ## Каноничные ссылки
 
-- Список субагентов: [`.cursor/subagents.md`](../../.cursor/subagents.md)
-- Контекст репозитория: [`docs/repo-context-compressed.md`](../repo-context-compressed.md)
-- Формальные спеки: [`.cursor/rules/docs.mdc`](../../.cursor/rules/docs.mdc)
+- Список субагентов: [Конфигурация субагентов Cursor](../../.cursor/subagents.md)
+- Контекст репозитория: [Сжатый контекст репозитория](../repo-context-compressed.md)
+- Формальные спеки: [Правило Cursor для документации](../../.cursor/rules/docs.mdc)

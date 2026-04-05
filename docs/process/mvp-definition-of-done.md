@@ -19,8 +19,8 @@
 
 ## Источники
 
-- User Story Map: [../artifacts/user-story-map.md](../artifacts/user-story-map.md)
-- История этапов проекта: [project-journey.md](project-journey.md)
+- User Story Map: [User Story Map](../artifacts/user-story-map.md)
+- История этапов проекта: [История развития проекта](project-journey.md)
 - Импортированный рабочий материал из BuildIn, нормализованный и вынесенный в каноничную структуру репозитория
 
 ## Общий критерий
