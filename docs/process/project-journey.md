@@ -17,13 +17,11 @@
 
 Документ фиксирует общую логику развития проекта.
 
-Он нужен как верхнеуровневый путеводитель по этапам, чтобы новым участникам команды было проще понять, откуда появились текущие артефакты и какие направления еще находятся в работе.
-
-Если конкретный артефакт пока не лежит в репозитории, это не означает, что он не существовал в процессе работы.
-
-Для таких материалов используйте [artifact-placement-guide.md](artifact-placement-guide.md), чтобы добавить их в репозиторий в согласованном виде.
+Он нужен для анализа того, как развивался проект, в какой последовательности принимались решения и как формировались артефакты.
 
 ## Этап 1. Моделирование бизнеса
+
+![Схема этапа 1. Моделирование бизнеса](assets/project-journey-stage-1-business-modeling.jpg)
 
 На первом этапе команда собрала у заказчика информацию о текущих AS-IS процессах парковки.
 
@@ -38,22 +36,28 @@
 
 Каноничные артефакты этого этапа, уже оформленные в репозитории:
 
-- [docs/artifacts/as-is/event-storming-as-is.md](../artifacts/as-is/event-storming-as-is.md)
-- [docs/artifacts/as-is/parking-as-is-diagram.md](../artifacts/as-is/parking-as-is-diagram.md)
-- [docs/artifacts/as-is/uml-class-domain-as-is.md](../artifacts/as-is/uml-class-domain-as-is.md)
-- [docs/artifacts/as-is/uml-state-contract-with-individual.md](../artifacts/as-is/uml-state-contract-with-individual.md)
-- [docs/artifacts/as-is/bpmn-client-identification.md](../artifacts/as-is/bpmn-client-identification.md)
-- [docs/artifacts/as-is/bpmn-contract-signing.md](../artifacts/as-is/bpmn-contract-signing.md)
-- [docs/artifacts/as-is/bpmn-payment-individual-and-legal-clients.md](../artifacts/as-is/bpmn-payment-individual-and-legal-clients.md)
-- [docs/artifacts/as-is/bpmn-provide-parking-space.md](../artifacts/as-is/bpmn-provide-parking-space.md)
-- [docs/artifacts/as-is/bpmn-search-parking-space.md](../artifacts/as-is/bpmn-search-parking-space.md)
-- [docs/artifacts/as-is/bpmn-parking-exit.md](../artifacts/as-is/bpmn-parking-exit.md)
-
-Часть артефактов этапа 1 все еще может отсутствовать в репозитории и должна добавляться по мере нормализации материалов и подготовки Markdown-описаний.
+- [Event Storming AS-IS](../artifacts/as-is/event-storming-as-is.md) — фиксирует ключевые события, роли и болевые точки текущего процесса.
+- [Схема парковки AS-IS](../artifacts/as-is/parking-as-is-diagram.md) — показывает текущее устройство парковки и основных участников процесса.
+- [UML Class Diagram предметной области AS-IS](../artifacts/as-is/uml-class-domain-as-is.md) — описывает сущности предметной области и связи между ними в текущем состоянии.
+- [UML StateChart договора с физлицом AS-IS](../artifacts/as-is/uml-state-contract-with-individual.md) — показывает жизненный цикл договора с физическим лицом.
+- [BPMN AS-IS идентификации клиента](../artifacts/as-is/bpmn-client-identification.md) — описывает текущий процесс идентификации клиента.
+- [BPMN AS-IS заключения договора](../artifacts/as-is/bpmn-contract-signing.md) — фиксирует текущий порядок заключения договора.
+- [BPMN AS-IS оплаты для физлиц и юрлиц](../artifacts/as-is/bpmn-payment-individual-and-legal-clients.md) — описывает текущие сценарии оплаты для физлиц и юрлиц.
+- [BPMN AS-IS предоставления парковочного места](../artifacts/as-is/bpmn-provide-parking-space.md) — показывает процесс предоставления парковочного места.
+- [BPMN AS-IS поиска парковочного места](../artifacts/as-is/bpmn-search-parking-space.md) — описывает текущий поиск свободного парковочного места.
+- [BPMN AS-IS выезда с парковки](../artifacts/as-is/bpmn-parking-exit.md) — фиксирует текущий процесс выезда с парковки.
 
 Для этого этапа в структуре репозитория подготовлен раздел `docs/artifacts/as-is/`.
 
+Связанные протоколы интервью:
+
+- [Протокол интервью №1.1](../interviews/protocols/interview-protocol-1-1-2026-01-21-v01.md) — фиксирует исходный контекст парковки, текущее состояние и ключевые ограничения.
+- [Протокол интервью №1.2](../interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md) — уточняет и валидирует AS-IS сценарии въезда, оплаты, договоров и выезда.
+- [Протокол интервью №2](../interviews/protocols/interview-protocol-2-2026-01-27-v01.md) — закрепляет валидацию BPMN и дополняет понимание текущих процессов.
+
 ## Этап 2. Концептуальное проектирование IT-решения
+
+![Схема этапа 2. Концептуальное проектирование IT-решения](assets/project-journey-stage-2-conceptual-design.jpg)
 
 Этот этап был посвящен переходу от понимания проблемной ситуации к описанию целевого решения.
 
@@ -71,9 +75,14 @@
 
 Связанные артефакты:
 
-- [docs/artifacts/opportunity-canvas.md](../artifacts/opportunity-canvas.md)
-- [docs/artifacts/impact-map.md](../artifacts/impact-map.md)
-- [docs/artifacts/project-charter.md](../artifacts/project-charter.md)
+- [Opportunity Canvas](../artifacts/opportunity-canvas.md) — фиксирует проблемную ситуацию, ценность решения и критерии успеха.
+- [Impact Map](../artifacts/impact-map.md) — связывает бизнес-цель с ролями, влияниями и продуктовыми поставками.
+- [Карточка проекта](../artifacts/project-charter.md) — закрепляет рамки проекта, его цель и ключевые договоренности.
+
+Связанные протоколы интервью:
+
+- [Протокол интервью №2](../interviews/protocols/interview-protocol-2-2026-01-27-v01.md) — фиксирует обсуждение Opportunity Canvas и валидацию бизнес-процессов.
+- [Протокол интервью №3](../interviews/protocols/interview-protocol-3-2026-02-04-v01.md) — закрепляет Impact Map и переход к следующему уровню проектирования решения.
 
 ### 2.2. Пользовательские требования и итерационное планирование
 
@@ -85,9 +94,14 @@
 
 Связанные артефакты:
 
-- [docs/artifacts/user-story-map.md](../artifacts/user-story-map.md)
-- [docs/process/mvp-definition-of-done.md](mvp-definition-of-done.md)
-- [docs/specs/readme.md](../specs/readme.md)
+- [User Story Map](../artifacts/user-story-map.md) — раскладывает пользовательские сценарии по шагам и поставкам.
+- [MVP Definition of Done](mvp-definition-of-done.md) — фиксирует критерии готовности для MVP.
+- [Индекс спецификаций](../specs/readme.md) — собирает формальные требования проекта в единую структуру.
+
+Связанные протоколы интервью:
+
+- [Протокол интервью №4](../interviews/protocols/interview-protocol-4-2026-02-11-v01.md) — фиксирует согласование терминологии, User Story Map и границ MVP.
+- [Протокол интервью №7](../interviews/protocols/interview-protocol-7-2026-03-04-v01.md) — подтверждает финальный вариант User Story Map для MVP.
 
 ### 2.3. Моделирование данных и проектирование взаимодействия
 
@@ -105,13 +119,13 @@
 
 Связанные артефакты:
 
-- [docs/artifacts/context-diagram.md](../artifacts/context-diagram.md)
-- [docs/artifacts/conceptual-model-with-attributes.md](../artifacts/conceptual-model-with-attributes.md)
-- [docs/artifacts/project-glossary.md](../artifacts/project-glossary.md)
-- [docs/artifacts/use-case/use-case-diagram.md](../artifacts/use-case/use-case-diagram.md)
-- [docs/artifacts/use-case/use-case-registry.md](../artifacts/use-case/use-case-registry.md)
-- [docs/artifacts/use-case/crudl.md](../artifacts/use-case/crudl.md)
-- [docs/architecture/database/erd/readme.md](../architecture/database/erd/readme.md)
+- [Контекстная диаграмма](../artifacts/context-diagram.md) — показывает границы системы и ее внешние взаимодействия.
+- [Концептуальная модель с атрибутами](../artifacts/conceptual-model-with-attributes.md) — описывает сущности и атрибуты будущей системы на концептуальном уровне.
+- [Глоссарий терминов проекта](../artifacts/project-glossary.md) — фиксирует согласованный словарь терминов проекта.
+- [UML Use Case Diagram](../artifacts/use-case/use-case-diagram.md) — показывает основные сценарии использования и актеров.
+- [Реестр Use Case](../artifacts/use-case/use-case-registry.md) — собирает перечень use case в структурированном виде.
+- [CRUDL по ролям и сущностям](../artifacts/use-case/crudl.md) — связывает операции системы с объектами предметной области.
+- [ERD](../architecture/database/erd/readme.md) — ведет к материалам по словарю данных и ERD.
 
 ### 2.4. Эскизное макетирование интерфейсов
 
@@ -121,27 +135,47 @@
 
 Связанные артефакты:
 
-- [docs/artifacts/navigation-map.md](../artifacts/navigation-map.md)
-- [ui/README.md](../../ui/README.md)
+- [Карта навигации](../artifacts/navigation-map.md) — описывает структуру экранов и переходов между ними.
+- [Wireframe — цифровая платформа парковки](../../ui/README.md) — фиксирует состав и устройство собранного интерфейсного прототипа.
 
-### 2.5. Сквозная работа по ES TO-BE
+Связанные протоколы интервью:
 
-На протяжении всего этапа 2 команда развивала ES TO-BE и согласовывала его с заказчиком.
+- [Протокол интервью №6](../interviews/protocols/interview-protocol-6-2026-02-25-v01.md) — закрепляет навигацию и экранные формы MVP.
+- [Протокол интервью №7](../interviews/protocols/interview-protocol-7-2026-03-04-v01.md) — уточняет схему навигации и доработанные макеты интерфейсов.
 
-Связанные артефакты:
+### 2.5. ES TO-BE как продолжение ES AS-IS
 
-- [docs/architecture/ddd/es-tobe-sd-contexts.md](../architecture/ddd/es-tobe-sd-contexts.md)
-- [docs/artifacts/es-to-be/es-tobe-sd-team-board.md](../artifacts/es-to-be/es-tobe-sd-team-board.md)
-- [docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md](../artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md)
-- [docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md](../artifacts/es-to-be/es-tobe-bp-booking-and-contract.md)
-- [docs/artifacts/es-to-be/es-tobe-bp-payment.md](../artifacts/es-to-be/es-tobe-bp-payment.md)
-- [docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md](../artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md)
+После ES AS-IS команда перешла к ES TO-BE и согласовывала целевую логику с заказчиком.
+
+На этапе 2 эта линия использовалась для описания TO-BE сценариев и будущего поведения системы.
+
+Позже тот же материал стал входом для этапа 4, где на его основе выделялись доменные контексты, границы модулей и переход к C4.
+
+Артефакты ES TO-BE, относящиеся прежде всего к этому этапу:
+
+- [ES TO-BE SD: Командная диаграмма](../artifacts/es-to-be/es-tobe-sd-team-board.md) — показывает общую TO-BE доску с ключевыми доменными потоками.
+- [ES TO-BE SD: Предоставление парковочного места и проверка права доступа](../artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md) — описывает целевой сценарий допуска и предоставления парковочного места.
+- [ES TO-BE BP: Краткосрочное и долгосрочное бронирование, договор](../artifacts/es-to-be/es-tobe-bp-booking-and-contract.md) — фиксирует TO-BE процесс бронирования и работы с договором.
+- [ES TO-BE BP: Оплата](../artifacts/es-to-be/es-tobe-bp-payment.md) — описывает целевой процесс оплаты.
+- [ES TO-BE BP: Управление профилем клиента и списком ТС](../artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md) — показывает TO-BE логику управления профилем клиента и списком ТС.
+
+Артефакт, который продолжает эту линию уже в архитектурном слое этапа 4:
+
+- [ES TO-BE SD: Контексты](../architecture/ddd/es-tobe-sd-contexts.md) — переводит TO-BE материал в контексты модулей и архитектурные границы.
+
+Связанные протоколы интервью:
+
+- [Протокол интервью №5](../interviews/protocols/interview-protocol-5-2026-02-18-v01.md) — фиксирует обсуждение концепции TO-BE и ключевых решений по целевому процессу.
+- [Протокол интервью №6](../interviews/protocols/interview-protocol-6-2026-02-25-v01.md) — закрепляет финальную концепцию TO-BE на уровне Big Picture.
+- [Протокол интервью №7](../interviews/protocols/interview-protocol-7-2026-03-04-v01.md) — фиксирует детализацию TO-BE и обсуждение подпроцессов.
 
 ## Этап 3. Требования к ПО
 
-Артефакты этого этапа развивались параллельно со вторым этапом.
+![Схема этапа 3. Требования к ПО](assets/project-journey-stage-3-software-requirements.jpg)
 
-В репозитории этот пласт знаний в основном живет в `docs/specs/`.
+Артефакты этого этапа развивались параллельно со вторым этапом и затем использовались при переходе к техническому проектированию.
+
+В репозитории основной пласт этого знания живет в `docs/specs/`.
 
 Основные направления:
 
@@ -149,20 +183,31 @@
 - требования к качеству пользовательских интерфейсов;
 - требования к внешнему качеству ПО;
 - ограничения на решение и реализацию.
+- сборка требований в репозиторную структуру `docs/specs/` как рабочую форму SRS.
 
 Связанные артефакты:
 
-- [docs/specs/functional-requirements/readme.md](../specs/functional-requirements/readme.md)
-- [docs/specs/nonfunctional-requirements/readme.md](../specs/nonfunctional-requirements/readme.md)
-- [docs/specs/constraints/readme.md](../specs/constraints/readme.md)
+- [Индекс функциональных требований](../specs/functional-requirements/readme.md) — собирает функциональные требования к системе.
+- [Индекс нефункциональных требований](../specs/nonfunctional-requirements/readme.md) — фиксирует требования к качеству интерфейсов и внешнему качеству ПО.
+- [Индекс ограничений](../specs/constraints/readme.md) — задает ограничения на решение и реализацию.
+
+Связанные протоколы интервью:
+
+- [Протокол интервью №4](../interviews/protocols/interview-protocol-4-2026-02-11-v01.md) — задает терминологию и границы MVP, которые легли в основу требований.
+- [Протокол интервью №6](../interviews/protocols/interview-protocol-6-2026-02-25-v01.md) — уточняет ключевые правила TO-BE, влияющие на требования к оплате, доступу и интерфейсам.
+- [Протокол интервью №7](../interviews/protocols/interview-protocol-7-2026-03-04-v01.md) — подтверждает требования к MVP, навигации и интерфейсам.
 
 ## Этап 4. Техническое проектирование IT-решения
+
+![Схема этапа 4. Техническое проектирование IT-решения](assets/project-journey-stage-4-technical-design.jpg)
 
 На этом этапе команда углубилась в архитектуру системы и базы данных.
 
 ### 4.1. Архитектура информационной системы
 
-На основе ES TO-BE были выделены контексты модулей по DDD.
+На этом шаге Event Storming использовался уже не для описания AS-IS или TO-BE сценария как такового, а для выделения контекстов модулей по DDD.
+
+В качестве входа здесь использовались результаты ES TO-BE из предыдущих этапов.
 
 Команда определилась с общей архитектурой решения и выбрала подход модульного монолита.
 
@@ -170,11 +215,11 @@
 
 Связанные артефакты:
 
-- [docs/architecture/ddd/es-tobe-sd-contexts.md](../architecture/ddd/es-tobe-sd-contexts.md)
-- [docs/artifacts/es-to-be/es-tobe-sd-team-board.md](../artifacts/es-to-be/es-tobe-sd-team-board.md)
-- [docs/architecture/ddd/readme.md](../architecture/ddd/readme.md)
-- [docs/architecture/c4/readme.md](../architecture/c4/readme.md)
-- [docs/architecture/adr/readme.md](../architecture/adr/readme.md)
+- [ES TO-BE SD: Контексты](../architecture/ddd/es-tobe-sd-contexts.md) — фиксирует выделенные контексты и их связи.
+- [ES TO-BE SD: Командная диаграмма](../artifacts/es-to-be/es-tobe-sd-team-board.md) — дает исходную TO-BE доску для архитектурной декомпозиции.
+- [Индекс DDD материалов](../architecture/ddd/readme.md) — объединяет DDD-материалы по контекстам и границам модулей.
+- [Индекс C4 материалов](../architecture/c4/readme.md) — собирает C4-представление системы на разных уровнях.
+- [Индекс ADR](../architecture/adr/readme.md) — фиксирует ключевые архитектурные решения проекта.
 
 ### 4.2. Технологии баз данных
 
@@ -182,18 +227,16 @@
 
 В качестве целевой СУБД был выбран PostgreSQL.
 
-Подробное текстовое обоснование этого выбора пока не оформлено в репозитории и является отдельной задачей.
-
 ERD детально прорабатывалась в `drawsql.app`.
 
 Параллельно команда тренировалась на SQL-запросах и практических моделях.
 
 Связанные артефакты:
 
-- [docs/architecture/database/readme.md](../architecture/database/readme.md)
-- [docs/architecture/database/erd/readme.md](../architecture/database/erd/readme.md)
-- [sql/practice/queries/practice.sql](../../sql/practice/queries/practice.sql)
-- [sql/practice/ddl/drawSQL-pgsql-export-2026-03-29.sql](../../sql/practice/ddl/drawSQL-pgsql-export-2026-03-29.sql)
+- [Индекс архитектуры данных и БД](../architecture/database/readme.md) — задает общий контур архитектуры данных и БД.
+- [ERD](../architecture/database/erd/readme.md) — собирает каноничные материалы по ERD и словарю данных.
+- [Практические SQL-запросы](../../sql/practice/queries/practice.sql) — содержит учебные SQL-запросы по модели данных.
+- [Экспорт DDL из DrawSQL](../../sql/practice/ddl/drawSQL-pgsql-export-2026-03-29.sql) — хранит экспорт схемы для практической проработки.
 
 ### 4.3. Основы информационной безопасности
 
@@ -201,8 +244,8 @@ ERD детально прорабатывалась в `drawsql.app`.
 
 Связанные артефакты:
 
-- [docs/artifacts/infosec/infosec-analyze-parking.md](../artifacts/infosec/infosec-analyze-parking.md)
-- [docs/artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md](../artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md)
+- [Анализ угроз, уязвимостей и их устранение](../artifacts/infosec/infosec-analyze-parking.md) — анализирует угрозы, уязвимости и меры защиты.
+- [Bow-Tie: несанкционированный доступ к системе и данным](../artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md) — визуализирует риск несанкционированного доступа и меры контроля.
 
 ### 4.4. Основы алгоритмизации
 
@@ -210,7 +253,7 @@ ERD детально прорабатывалась в `drawsql.app`.
 
 Связанные артефакты:
 
-- [docs/artifacts/algorithms/readme.md](../artifacts/algorithms/readme.md)
+- [Индекс алгоритмических артефактов](../artifacts/algorithms/readme.md) — объединяет алгоритмические артефакты, подготовленные как вспомогательные материалы.
 
 ### 4.5. Постановка задачи для разработчика
 
@@ -218,12 +261,14 @@ ERD детально прорабатывалась в `drawsql.app`.
 
 Связанные артефакты:
 
-- [docs/specs/readme.md](../specs/readme.md)
-- [docs/architecture/readme.md](../architecture/readme.md)
+- [Индекс спецификаций](../specs/readme.md) — задает базу требований для постановки задач на разработку.
+- [Индекс архитектуры](../architecture/readme.md) — собирает архитектурный контекст, на который опирается разработчик.
 
 ## Этап 5. Интеграции
 
-Этап еще не начат, но его контур уже понятен.
+![Схема этапа 5. Интеграции](assets/project-journey-stage-5-integrations.jpg)
+
+Этот этап посвящен будущим интеграциям и межсистемному взаимодействию.
 
 Ожидаемые направления работы:
 
@@ -237,7 +282,7 @@ ERD детально прорабатывалась в `drawsql.app`.
 
 Связанные артефакты:
 
-- [docs/architecture/integration/readme.md](../architecture/integration/readme.md)
+- [Индекс интеграционной архитектуры](../architecture/integration/readme.md) — задает структуру для будущих интеграционных артефактов.
 
 ## Демо-дни как контрольные точки
 
@@ -253,18 +298,18 @@ ERD детально прорабатывалась в `drawsql.app`.
 
 Связанные материалы:
 
-- [docs/demo-days/demo-1/readme.md](../demo-days/demo-1/readme.md)
-- [docs/demo-days/demo-2/readme.md](../demo-days/demo-2/readme.md)
-- [docs/demo-days/demo-3/readme.md](../demo-days/demo-3/readme.md)
-- [docs/demo-days/demo-4/readme.md](../demo-days/demo-4/readme.md)
-- [docs/demo-days/demo-5/readme.md](../demo-days/demo-5/readme.md)
+- [Demo 1](../demo-days/demo-1/readme.md) — собирает материалы первого демо-дня.
+- [Demo 2](../demo-days/demo-2/readme.md) — содержит материалы второго демо-дня.
+- [Demo 3](../demo-days/demo-3/readme.md) — фиксирует материалы третьего демо-дня.
+- [Demo 4](../demo-days/demo-4/readme.md) — задает рабочий каркас для следующего демо.
+- [Demo 5](../demo-days/demo-5/readme.md) — хранит каркас для финального демо.
 
 ## Связанные документы
 
-- [README.md](../../README.md)
-- [artifact-placement-guide.md](artifact-placement-guide.md)
-- [templates/artifact-from-image-template.md](templates/artifact-from-image-template.md)
-- [../artifacts/readme.md](../artifacts/readme.md)
-- [../specs/readme.md](../specs/readme.md)
-- [../architecture/readme.md](../architecture/readme.md)
-- [../demo-days/readme.md](../demo-days/readme.md)
+- [Главный README проекта](../../README.md) — дает верхнеуровневый обзор репозитория и структуры материалов.
+- [Гайд по размещению артефактов](artifact-placement-guide.md) — помогает раскладывать документы по этапам, описанным в истории проекта.
+- [Шаблон артефакта из изображения](templates/artifact-from-image-template.md) — нужен для нормализации артефактов, которые входят в траекторию проекта как изображения.
+- [Индекс артефактов](../artifacts/readme.md) — ведет к каноничным аналитическим материалам по этапам.
+- [Индекс спецификаций](../specs/readme.md) — собирает требования, выросшие из ранних этапов проекта.
+- [Индекс архитектуры](../architecture/readme.md) — показывает архитектурное продолжение аналитических этапов.
+- [Индекс Demo Days](../demo-days/readme.md) — связывает этапы проекта с демонстрационными контрольными точками.

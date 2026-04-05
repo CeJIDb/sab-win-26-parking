@@ -97,7 +97,7 @@
 
 ## Связанные документы
 
-- [../artifacts/user-story-map.md](../artifacts/user-story-map.md)
-- [project-journey.md](project-journey.md)
-- [pr-dor-dod.md](pr-dor-dod.md)
-- [../specs/readme.md](../specs/readme.md)
+- [User Story Map](../artifacts/user-story-map.md) — задает сценарии и границы MVP, для которых определен DoD.
+- [История развития проекта](project-journey.md) — показывает место MVP в общей траектории проекта.
+- [PR DoR/DoD](pr-dor-dod.md) — связывает критерии готовности MVP с критериями готовности pull request.
+- [Индекс спецификаций](../specs/readme.md) — ведет к требованиям, которые должен покрывать MVP.

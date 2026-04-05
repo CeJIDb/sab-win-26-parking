@@ -117,9 +117,9 @@ docs/
 
 ## Связанные документы
 
-- [project-journey.md](project-journey.md)
-- [templates/artifact-from-image-template.md](templates/artifact-from-image-template.md)
-- [../artifacts/readme.md](../artifacts/readme.md)
-- [../architecture/readme.md](../architecture/readme.md)
-- [../demo-days/readme.md](../demo-days/readme.md)
-- [../styleguide.md](../styleguide.md)
+- [История развития проекта](project-journey.md) — помогает раскладывать артефакты по этапам проекта.
+- [Шаблон артефакта из изображения](templates/artifact-from-image-template.md) — задает каркас для нормализации материалов, пришедших как картинки.
+- [Индекс артефактов](../artifacts/readme.md) — показывает целевые каталоги для аналитических документов.
+- [Индекс архитектуры](../architecture/readme.md) — помогает отделять архитектурные материалы от аналитических.
+- [Индекс Demo Days](../demo-days/readme.md) — подсказывает, что хранить в демонстрационных каталогах, а что оставлять каноничным.
+- [Гайд по именованию и стилю](../styleguide.md) — фиксирует соглашения по названиям и оформлению документов.

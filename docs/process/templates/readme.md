@@ -4,9 +4,9 @@
 
 ## Содержимое
 
-- [artifact-from-image-template.md](artifact-from-image-template.md)
-- [pr-description-template.md](pr-description-template.md)
-- [traceability-matrix-template.md](traceability-matrix-template.md)
+- [Шаблон артефакта из изображения](artifact-from-image-template.md) — каркас для нормализации артефактов, пришедших в виде картинки или скана.
+- [Шаблон описания PR](pr-description-template.md) — заготовка для оформления pull request.
+- [Шаблон матрицы трассировки](traceability-matrix-template.md) — каркас для ведения трассировки требований и артефактов.
 
 ## Заметки
 

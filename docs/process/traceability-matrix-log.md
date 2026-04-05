@@ -87,6 +87,6 @@
 
 ## Связанные документы
 
-- [docs/artifacts/infosec/infosec-analyze-parking.md](../artifacts/infosec/infosec-analyze-parking.md)
-- [docs/interviews/protocols/interview-protocol-5-2026-02-18-v01.md](../interviews/protocols/interview-protocol-5-2026-02-18-v01.md)
-- [docs/specs/nonfunctional-requirements/nfr-external-quality.md](../specs/nonfunctional-requirements/nfr-external-quality.md)
+- [Анализ ИБ парковки](../artifacts/infosec/infosec-analyze-parking.md) — один из источников изменений, отраженных в журнале трассировки.
+- [Протокол интервью №5](../interviews/protocols/interview-protocol-5-2026-02-18-v01.md) — фиксирует обсуждения, повлиявшие на связи между артефактами.
+- [NFR External Quality](../specs/nonfunctional-requirements/nfr-external-quality.md) — пример требования, связанного с изменениями в трассировке.

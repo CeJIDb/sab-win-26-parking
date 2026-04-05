@@ -11,8 +11,8 @@
 
 ## Связанные документы
 
-- [docs/process/templates/traceability-matrix-template.md](templates/traceability-matrix-template.md)
-- [docs/process/traceability-matrix-log.md](traceability-matrix-log.md)
+- [Шаблон матрицы трассировки](templates/traceability-matrix-template.md) — задает каркас для ведения трассировки.
+- [Журнал изменений матрицы трассировки](traceability-matrix-log.md) — фиксирует обновления связей между артефактами и требованиями.
 
 Ensure each meaningful change is linked from source evidence to requirement and validation.
 

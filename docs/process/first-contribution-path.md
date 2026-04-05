@@ -10,8 +10,8 @@
 
 ## Связанные документы
 
-- [docs/process/pr-dor-dod.md](pr-dor-dod.md)
-- [docs/process/traceability-matrix.md](traceability-matrix.md)
+- [PR DoR/DoD](pr-dor-dod.md) — задает критерии готовности и завершения pull request.
+- [Матрица трассировки](traceability-matrix.md) — описывает, как связывать первое изменение с источниками требований.
 
 Help a new contributor make a safe and traceable first change.
 
