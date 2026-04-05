@@ -20,7 +20,9 @@
     "docs:c4-preview": "node ./scripts/build-c4-preview-html.mjs",
     "ci:check": "npm run lint:md && npm run lint:md-links && npm run build",
     "commit:atomic": "node ./scripts/atomic-commit.mjs",
-    "commit:atomic:yes": "node ./scripts/atomic-commit.mjs --yes"
+    "commit:atomic:yes": "node ./scripts/atomic-commit.mjs --yes",
+    "commit:atomic:sh": "bash ./scripts/atomic-commit.sh",
+    "commit:atomic:sh:yes": "bash ./scripts/atomic-commit.sh --yes"
   },
   "repository": {
     "type": "git",
