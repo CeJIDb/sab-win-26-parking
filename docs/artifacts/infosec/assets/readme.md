@@ -9,7 +9,7 @@
 
 ## Каноничные артефакты
 
-- `bow-tie-unauthorized-access-to-system-and-data.jpg` → [../bow-tie-unauthorized-access-to-system-and-data.md](../bow-tie-unauthorized-access-to-system-and-data.md)
+- `bow-tie-unauthorized-access-to-system-and-data.jpg` → [Bow-Tie риска несанкционированного доступа](../bow-tie-unauthorized-access-to-system-and-data.md)
 
 ## Правила ведения
 

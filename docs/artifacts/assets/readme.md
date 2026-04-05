@@ -9,12 +9,12 @@
 
 ## Каноничные артефакты
 
-- `impact-map.jpg` → [../impact-map.md](../impact-map.md)
-- `opportunity-canvas.jpg` → [../opportunity-canvas.md](../opportunity-canvas.md)
-- `user-story-map.jpg` → [../user-story-map.md](../user-story-map.md)
-- `context-diagram.jpg` → [../context-diagram.md](../context-diagram.md)
-- `conceptual-model-with-attributes.jpg` → [../conceptual-model-with-attributes.md](../conceptual-model-with-attributes.md)
-- `navigation-map.jpg` → [../navigation-map.md](../navigation-map.md)
+- `impact-map.jpg` → [Impact Map](../impact-map.md)
+- `opportunity-canvas.jpg` → [Opportunity Canvas](../opportunity-canvas.md)
+- `user-story-map.jpg` → [User Story Map](../user-story-map.md)
+- `context-diagram.jpg` → [Контекстная диаграмма](../context-diagram.md)
+- `conceptual-model-with-attributes.jpg` → [Концептуальная модель с атрибутами](../conceptual-model-with-attributes.md)
+- `navigation-map.jpg` → [Карта навигации](../navigation-map.md)
 
 ## Правила ведения
 

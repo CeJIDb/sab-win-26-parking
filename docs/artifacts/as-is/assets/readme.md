@@ -9,16 +9,16 @@
 
 ## Каноничные артефакты
 
-- `parking-as-is-diagram.jpg` → [../parking-as-is-diagram.md](../parking-as-is-diagram.md)
-- `event-storming-as-is.jpg` → [../event-storming-as-is.md](../event-storming-as-is.md)
-- `uml-class-domain-as-is.jpg` → [../uml-class-domain-as-is.md](../uml-class-domain-as-is.md)
-- `uml-state-contract-with-individual.jpg` → [../uml-state-contract-with-individual.md](../uml-state-contract-with-individual.md)
-- `bpmn-client-identification.jpg` → [../bpmn-client-identification.md](../bpmn-client-identification.md)
-- `bpmn-payment-individual-and-legal-clients.jpg` → [../bpmn-payment-individual-and-legal-clients.md](../bpmn-payment-individual-and-legal-clients.md)
-- `bpmn-provide-parking-space.jpg` → [../bpmn-provide-parking-space.md](../bpmn-provide-parking-space.md)
-- `bpmn-search-parking-space.jpg` → [../bpmn-search-parking-space.md](../bpmn-search-parking-space.md)
-- `bpmn-parking-exit.jpg` → [../bpmn-parking-exit.md](../bpmn-parking-exit.md)
-- `bpmn-contract-signing.jpg` → [../bpmn-contract-signing.md](../bpmn-contract-signing.md)
+- `parking-as-is-diagram.jpg` → [Схема парковки AS-IS](../parking-as-is-diagram.md)
+- `event-storming-as-is.jpg` → [Event Storming AS-IS](../event-storming-as-is.md)
+- `uml-class-domain-as-is.jpg` → [UML Class Diagram предметной области AS-IS](../uml-class-domain-as-is.md)
+- `uml-state-contract-with-individual.jpg` → [UML StateChart договора с физлицом AS-IS](../uml-state-contract-with-individual.md)
+- `bpmn-client-identification.jpg` → [BPMN AS-IS идентификации клиента](../bpmn-client-identification.md)
+- `bpmn-payment-individual-and-legal-clients.jpg` → [BPMN AS-IS оплаты для физлиц и юрлиц](../bpmn-payment-individual-and-legal-clients.md)
+- `bpmn-provide-parking-space.jpg` → [BPMN AS-IS предоставления парковочного места](../bpmn-provide-parking-space.md)
+- `bpmn-search-parking-space.jpg` → [BPMN AS-IS поиска парковочного места](../bpmn-search-parking-space.md)
+- `bpmn-parking-exit.jpg` → [BPMN AS-IS выезда с парковки](../bpmn-parking-exit.md)
+- `bpmn-contract-signing.jpg` → [BPMN AS-IS заключения договора](../bpmn-contract-signing.md)
 
 ## Правила ведения
 

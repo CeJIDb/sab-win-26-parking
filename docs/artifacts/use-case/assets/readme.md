@@ -9,7 +9,7 @@
 
 ## Каноничные артефакты
 
-- `use-case-diagram.jpg` → [../use-case-diagram.md](../use-case-diagram.md)
+- `use-case-diagram.jpg` → [Диаграмма вариантов использования](../use-case-diagram.md)
 
 ## Правила ведения
 
