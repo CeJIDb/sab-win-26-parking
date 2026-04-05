@@ -4,10 +4,10 @@
 
 ## Содержимое
 
-- [constr-system.md](constr-system.md)
+- [Системные ограничения](constr-system.md) — фиксируют ограничения на проектируемое решение и его реализацию.
 
 ## Связанные документы
 
-- [../readme.md](../readme.md)
-- [../../architecture/readme.md](../../architecture/readme.md)
-- [../../artifacts/project-charter.md](../../artifacts/project-charter.md)
+- [Индекс спецификаций](../readme.md) — верхний каталог требований проекта.
+- [Индекс архитектуры](../../architecture/readme.md) — связывает ограничения с архитектурными решениями.
+- [Карточка проекта](../../artifacts/project-charter.md) — задает рамки и исходные ограничения проекта.

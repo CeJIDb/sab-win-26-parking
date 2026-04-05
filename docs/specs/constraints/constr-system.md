@@ -14,10 +14,10 @@
 
 ## Связанные документы
 
-- [docs/artifacts/project-charter.md](../../artifacts/project-charter.md)
-- [docs/artifacts/project-glossary.md](../../artifacts/project-glossary.md)
-- [docs/specs/functional-requirements/fr-event-skud.md](../functional-requirements/fr-event-skud.md)
-- [docs/specs/nonfunctional-requirements/nfr-ui-quality.md](../nonfunctional-requirements/nfr-ui-quality.md)
+- [Карточка проекта](../../artifacts/project-charter.md) — задает рамки и исходные ограничения проектируемого решения.
+- [Глоссарий проекта](../../artifacts/project-glossary.md) — фиксирует термины, используемые в формулировках ограничений.
+- [FR Event SKUD](../functional-requirements/fr-event-skud.md) — показывает функциональный контур, на который влияют ограничения.
+- [NFR UI Quality](../nonfunctional-requirements/nfr-ui-quality.md) — связывает системные ограничения с требованиями к интерфейсам.
 
 ### 1.1 Назначение документа
 

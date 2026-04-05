@@ -4,9 +4,9 @@
 
 ## Подразделы
 
-- [functional-requirements/](functional-requirements/readme.md) — функциональные требования (`FR-*`)
-- [nonfunctional-requirements/](nonfunctional-requirements/readme.md) — нефункциональные требования (`NFR-*`)
-- [constraints/](constraints/readme.md) — ограничения на решение и реализацию (`CONSTR-*`)
+- [Индекс функциональных требований](functional-requirements/readme.md) — собирает требования класса `FR-*`.
+- [Индекс нефункциональных требований](nonfunctional-requirements/readme.md) — собирает требования класса `NFR-*`.
+- [Индекс ограничений](constraints/readme.md) — фиксирует ограничения класса `CONSTR-*`.
 
 ## Правила ведения
 

@@ -9,16 +9,16 @@
 
 ## Ключевые документы
 
-- [_template-fr.md](_template-fr.md) — каноничный шаблон функциональных требований.
-- [fr-booking.md](fr-booking.md)
-- [fr-check.md](fr-check.md)
-- [fr-event-skud.md](fr-event-skud.md)
-- [fr-parking-session.md](fr-parking-session.md)
-- [fr-payment.md](fr-payment.md)
-- [fr-tariff.md](fr-tariff.md)
+- [Шаблон функционального требования](_template-fr.md) — каноничный каркас для оформления документов `FR-*`.
+- [FR Booking](fr-booking.md) — описывает требования к бронированию парковочных мест.
+- [FR Check](fr-check.md) — фиксирует требования к проверкам и валидациям в пользовательских сценариях.
+- [FR Event SKUD](fr-event-skud.md) — описывает требования к событиям и обмену со СКУД.
+- [FR Parking Session](fr-parking-session.md) — фиксирует требования к жизненному циклу парковочной сессии.
+- [FR Payment](fr-payment.md) — описывает требования к оплате и связанным процессам.
+- [FR Tariff](fr-tariff.md) — задает требования к управлению тарифами.
 
 ## Связанные документы
 
-- [../readme.md](../readme.md)
-- [../../artifacts/use-case/readme.md](../../artifacts/use-case/readme.md)
-- [../../process/templates/readme.md](../../process/templates/readme.md)
+- [Индекс спецификаций](../readme.md) — верхний каталог требований проекта.
+- [Индекс use case](../../artifacts/use-case/readme.md) — связывает функциональные требования с пользовательскими сценариями.
+- [Индекс шаблонов процесса](../../process/templates/readme.md) — ведет к шаблонам для проектных документов.

@@ -14,10 +14,10 @@
 
 ## Связанные документы
 
-- [docs/architecture/adr/adr-001-online-access-rights-evaluation.md](../../architecture/adr/adr-001-online-access-rights-evaluation.md)
-- [docs/artifacts/project-charter.md](../../artifacts/project-charter.md)
-- [docs/artifacts/project-glossary.md](../../artifacts/project-glossary.md)
-- [docs/specs/functional-requirements/fr-event-skud.md](../functional-requirements/fr-event-skud.md)
+- [ADR-001: Онлайн-оценка прав доступа на КПП](../../architecture/adr/adr-001-online-access-rights-evaluation.md) — задает архитектурное решение, влияющее на требования к качеству и надежности.
+- [Карточка проекта](../../artifacts/project-charter.md) — фиксирует цели и ограничения, из которых вытекают NFR.
+- [Глоссарий проекта](../../artifacts/project-glossary.md) — задает терминологию для интерпретации требований.
+- [FR Event SKUD](../functional-requirements/fr-event-skud.md) — связывает нефункциональные требования с функциональным контуром событий СКУД.
 
 ### 1.1 Назначение документа
 

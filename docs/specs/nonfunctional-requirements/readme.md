@@ -4,11 +4,11 @@
 
 ## Содержимое
 
-- [nfr-external-quality.md](nfr-external-quality.md)
-- [nfr-ui-quality.md](nfr-ui-quality.md)
+- [NFR External Quality](nfr-external-quality.md) — фиксирует требования к внешнему качеству, надежности и устойчивости решения.
+- [NFR UI Quality](nfr-ui-quality.md) — описывает требования к качеству пользовательских интерфейсов.
 
 ## Связанные документы
 
-- [../readme.md](../readme.md)
-- [../../artifacts/infosec/readme.md](../../artifacts/infosec/readme.md)
-- [../../artifacts/project-glossary.md](../../artifacts/project-glossary.md)
+- [Индекс спецификаций](../readme.md) — верхний каталог требований проекта.
+- [Индекс инфобез артефактов](../../artifacts/infosec/readme.md) — связывает NFR с материалами по информационной безопасности.
+- [Глоссарий проекта](../../artifacts/project-glossary.md) — фиксирует общую терминологию и сокращения.

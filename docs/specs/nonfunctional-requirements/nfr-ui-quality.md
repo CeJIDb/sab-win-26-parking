@@ -15,9 +15,9 @@
 
 ## Связанные документы
 
-- [docs/artifacts/project-charter.md](../../artifacts/project-charter.md)
-- [docs/artifacts/project-glossary.md](../../artifacts/project-glossary.md)
-- [docs/specs/nonfunctional-requirements/nfr-external-quality.md](nfr-external-quality.md)
+- [Карточка проекта](../../artifacts/project-charter.md) — задает рамки и цели, влияющие на требования к UI.
+- [Глоссарий проекта](../../artifacts/project-glossary.md) — фиксирует терминологию для единообразной интерпретации требований.
+- [NFR External Quality](nfr-external-quality.md) — связывает требования к интерфейсам с общими требованиями к качеству решения.
 
 ### 1.1 Назначение документа
 
@@ -210,4 +210,3 @@
 | NFR-UI-SAT-001, NFR-UI-SAT-002 | 6. Требования к удовлетворённости |
 
 ## Для заметок
-
