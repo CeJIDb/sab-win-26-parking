@@ -1,4 +1,4 @@
-# ERD: домен `FACILITY` (инфраструктура) и `ACCESS_LOG`
+# ERD: домен `facility` (инфраструктура) и таблица `access_logs`
 
 **Контекст:** модель в `docs/architecture/database/erd/erd-normalized-er-model.md`; сводка сессии — `docs/architecture/database/erd/chat-context/chat-context-er-model-review-3-2026-03-31.md`.
 
@@ -6,25 +6,25 @@
 
 - [Аудитные поля](#аудитные-поля)
 - [Связь между ключевыми таблицами](#связь-между-ключевыми-таблицами)
-- [Таблица `PARKING`](#таблица-parking)
-- [Таблица `PARKING_SCHEDULE`](#таблица-parking_schedule)
-- [Таблица `SECTOR`](#таблица-sector)
-- [Таблица `ZONE_TYPE`](#таблица-zone_type)
-- [Таблица `OPERATIONAL_STATUS`](#таблица-operational_status)
-- [Таблица `AP`](#таблица-ap)
-- [Таблица `PARKING_PLACE`](#таблица-parking_place)
-- [Таблица `ZONE_TYPE_VEHICLE_TYPE`](#таблица-zone_type_vehicle_type)
-- [Таблица `ZONE_TYPE_TARIFF`](#таблица-zone_type_tariff)
-- [Таблица `ACCESS_LOG`](#таблица-access_log)
-- [Кросс-контекстные логические ссылки (без REFERENCES)](#кросс-контекстные-логические-ссылки-без-references)
 - [Диаграмма связей (Mermaid)](#диаграмма-связей-mermaid)
+- [Таблица `parkings`](#таблица-parkings)
+- [Таблица `parking_schedules`](#таблица-parking_schedules)
+- [Таблица `sectors`](#таблица-sectors)
+- [Таблица `zone_types`](#таблица-zone_types)
+- [Таблица `operational_statuses`](#таблица-operational_statuses)
+- [Таблица `aps`](#таблица-aps)
+- [Таблица `parking_places`](#таблица-parking_places)
+- [Таблица `zone_type_vehicle_types`](#таблица-zone_type_vehicle_types)
+- [Таблица `zone_type_tariffs`](#таблица-zone_type_tariffs)
+- [Таблица `access_logs`](#таблица-access_logs)
+- [Кросс-контекстные логические ссылки (без REFERENCES)](#кросс-контекстные-логические-ссылки-без-references)
 - [Связанные документы](#связанные-документы)
 
 ---
 
 ## Аудитные поля
 
-У **каждой** таблицы этого файла в целевой БД есть **`created_at`** и **`updated_at`**: `TIMESTAMPTZ NOT NULL DEFAULT now()`; обновление **`updated_at`** — триггером `moddatetime` (см. `erd-normalized-er-model.md`). Для append-only (`ACCESS_LOG`) `updated_at` может совпадать с `created_at`.
+У **каждой** таблицы этого файла в целевой БД есть **`created_at`** и **`updated_at`**: `TIMESTAMPTZ NOT NULL DEFAULT now()`; обновление **`updated_at`** — триггером `moddatetime` (см. `erd-normalized-er-model.md`). Для append-only (`access_logs`) `updated_at` может совпадать с `created_at`.
 
 ---
 
@@ -32,19 +32,42 @@
 
 | Сторона A | Кардинальность | Сторона B | Условие |
 |-----------|------------------|-----------|---------|
-| `PARKING` | **1** | **0..N** | `PARKING_SCHEDULE` |
-| `PARKING` | **1** | **0..N** | `SECTOR` |
-| `PARKING` | **1** | **0..N** | `AP` |
-| `SECTOR` | **1** | **0..N** | `PARKING_PLACE` |
-| `ZONE_TYPE` | **1** | **0..N** | `SECTOR` |
-| `ZONE_TYPE` | **1** | **0..N** | `ZONE_TYPE_VEHICLE_TYPE` |
-| `ZONE_TYPE` | **1** | **0..N** | `ZONE_TYPE_TARIFF` |
-| `OPERATIONAL_STATUS` | **1** | **0..N** | `{PARKING, SECTOR, PARKING_PLACE, AP}` |
-| `AP` | **1** | **0..N** | `ACCESS_LOG` *(кросс-схемно; логическая ссылка)* |
+| `parkings` | **1** | **0..N** | `parking_schedules` |
+| `parkings` | **1** | **0..N** | `sectors` |
+| `parkings` | **1** | **0..N** | `aps` |
+| `sectors` | **1** | **0..N** | `parking_places` |
+| `zone_types` | **1** | **0..N** | `sectors` |
+| `zone_types` | **1** | **0..N** | `zone_type_vehicle_types` |
+| `zone_types` | **1** | **0..N** | `zone_type_tariffs` |
+| `operational_statuses` | **1** | **0..N** | `{parkings, sectors, parking_places, aps}` |
+| `aps` | **1** | **0..N** | `access_logs` *(кросс-схемно; логическая ссылка)* |
 
 ---
 
-## Таблица `PARKING`
+## Диаграмма связей (Mermaid)
+
+```mermaid
+erDiagram
+    parkings ||--o{ parking_schedules : has
+    parkings ||--o{ sectors : contains
+    parkings ||--o{ aps : has
+
+    zone_types ||--o{ sectors : classifies
+    sectors ||--o{ parking_places : contains
+
+    operational_statuses ||--o{ parkings : has_status
+    operational_statuses ||--o{ sectors : has_status
+    operational_statuses ||--o{ parking_places : has_status
+    operational_statuses ||--o{ aps : has_status
+
+    zone_types ||--o{ zone_type_tariffs : supports
+    zone_types ||--o{ zone_type_vehicle_types : allows
+    aps ||--o{ access_logs : records
+```
+
+---
+
+## Таблица `parkings`
 
 Схема: `facility`.
 
@@ -55,20 +78,20 @@
 | `address` | `TEXT` | NOT NULL | — |
 | `parking_type` | `VARCHAR(64)` | NOT NULL | `CHECK (parking_type IN ('SURFACE','MULTILEVEL','UNDERGROUND','ROOFTOP'))` |
 | `description` | `TEXT` | NULL | — |
-| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_status(id)` |
+| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_statuses(id)` |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
 ---
 
-## Таблица `PARKING_SCHEDULE`
+## Таблица `parking_schedules`
 
 Схема: `facility`.
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
 | `id` | `BIGINT GENERATED BY DEFAULT AS IDENTITY` | NOT NULL | `PRIMARY KEY` |
-| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parking(id)` |
+| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parkings(id)` |
 | `day_of_week` | `SMALLINT` | NOT NULL | `CHECK (day_of_week BETWEEN 1 AND 7)` |
 | `open_time` | `TIME` | NULL | — |
 | `close_time` | `TIME` | NULL | — |
@@ -84,23 +107,23 @@ Table Notes (DrawSQL):
 
 ---
 
-## Таблица `SECTOR`
+## Таблица `sectors`
 
 Схема: `facility`.
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
 | `id` | `BIGINT GENERATED BY DEFAULT AS IDENTITY` | NOT NULL | `PRIMARY KEY` |
-| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parking(id)` |
-| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_type(id)` |
+| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parkings(id)` |
+| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_types(id)` |
 | `name` | `VARCHAR(200)` | NOT NULL | — |
-| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_status(id)` |
+| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_statuses(id)` |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
 ---
 
-## Таблица `ZONE_TYPE`
+## Таблица `zone_types`
 
 Схема: `facility`.
 
@@ -114,7 +137,7 @@ Table Notes (DrawSQL):
 
 ---
 
-## Таблица `OPERATIONAL_STATUS`
+## Таблица `operational_statuses`
 
 Схема: `facility` (словарная).
 
@@ -128,49 +151,49 @@ Table Notes (DrawSQL):
 
 ---
 
-## Таблица `AP`
+## Таблица `aps`
 
 Схема: `facility`.
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
 | `id` | `BIGINT GENERATED BY DEFAULT AS IDENTITY` | NOT NULL | `PRIMARY KEY` |
-| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parking(id)` |
+| `parking_id` | `BIGINT` | NOT NULL | `REFERENCES parkings(id)` |
 | `name` | `VARCHAR(200)` | NOT NULL | — |
 | `type` | `VARCHAR(32)` | NOT NULL | `CHECK (type IN ('MANUAL','AUTOMATIC','SEMI_AUTO'))` |
 | `direction` | `VARCHAR(16)` | NOT NULL | `CHECK (direction IN ('ENTRY','EXIT','BIDIRECTIONAL'))` |
-| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_status(id)` |
+| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_statuses(id)` |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
 ---
 
-## Таблица `PARKING_PLACE`
+## Таблица `parking_places`
 
 Схема: `facility`.
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
 | `id` | `BIGINT GENERATED BY DEFAULT AS IDENTITY` | NOT NULL | `PRIMARY KEY` |
-| `sector_id` | `BIGINT` | NOT NULL | `REFERENCES sector(id)` |
-| `override_tariff_id` | `BIGINT` | NULL | кросс-схемная логическая ссылка на `tariff.tariff(id)` (ADR-003) |
+| `sector_id` | `BIGINT` | NOT NULL | `REFERENCES sectors(id)` |
+| `override_tariff_id` | `BIGINT` | NULL | кросс-схемная логическая ссылка на `tariff.tariffs(id)` (ADR-003) |
 | `place_number` | `VARCHAR(32)` | NOT NULL | — |
 | `is_reserved` | `BOOLEAN` | NOT NULL | `DEFAULT false`; зарезервировано (забронировано) |
 | `is_occupied` | `BOOLEAN` | NOT NULL | `DEFAULT false`; фактически занято |
-| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_status(id)` |
+| `operational_status_id` | `BIGINT` | NOT NULL | `REFERENCES operational_statuses(id)` |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
 ---
 
-## Таблица `ZONE_TYPE_VEHICLE_TYPE`
+## Таблица `zone_type_vehicle_types`
 
 Схема: `facility` (таблица связи M:N).
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
-| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_type(id)` |
-| `vehicle_type_id` | `BIGINT` | NOT NULL | логическая ссылка на `facility.vehicle_type(id)` (описана в клиентском артефакте) |
+| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_types(id)` |
+| `vehicle_type_id` | `BIGINT` | NOT NULL | логическая ссылка на `facility.vehicle_types(id)` (описана в клиентском артефакте) |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
@@ -178,14 +201,14 @@ Table Notes (DrawSQL):
 
 ---
 
-## Таблица `ZONE_TYPE_TARIFF`
+## Таблица `zone_type_tariffs`
 
 Схема: `facility` (таблица связи M:N).
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
-| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_type(id)` |
-| `tariff_id` | `BIGINT` | NOT NULL | кросс-схемная логическая ссылка на `tariff.tariff(id)` (ADR-003) |
+| `zone_type_id` | `BIGINT` | NOT NULL | `REFERENCES zone_types(id)` |
+| `tariff_id` | `BIGINT` | NOT NULL | кросс-схемная логическая ссылка на `tariff.tariffs(id)` (ADR-003) |
 | `created_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()` |
 | `updated_at` | `TIMESTAMPTZ` | NOT NULL | `DEFAULT now()`; обновление триггером `moddatetime` |
 
@@ -193,15 +216,15 @@ Table Notes (DrawSQL):
 
 ---
 
-## Таблица `ACCESS_LOG`
+## Таблица `access_logs`
 
 Схема: `report` (append-only журнал).
 
 | Поле | Тип PostgreSQL | Null | Ограничения / примечания |
 |------|----------------|------|---------------------------|
 | `id` | `BIGINT GENERATED BY DEFAULT AS IDENTITY` | NOT NULL | `PRIMARY KEY` |
-| `ap_id` | `BIGINT` | NOT NULL | логическая ссылка на `facility.ap(id)` (без `REFERENCES`, ADR-003) |
-| `vehicle_id` | `BIGINT` | NULL | логическая ссылка на `client.vehicle(id)` |
+| `ap_id` | `BIGINT` | NOT NULL | логическая ссылка на `facility.aps(id)` (без `REFERENCES`, ADR-003) |
+| `vehicle_id` | `BIGINT` | NULL | логическая ссылка на `client.vehicles(id)` |
 | `direction` | `VARCHAR(8)` | NOT NULL | `CHECK (direction IN ('IN', 'OUT'))` |
 | `decision` | `VARCHAR(16)` | NOT NULL | `CHECK (decision IN ('ALLOW', 'DENY', 'MANUAL'))` |
 | `reason` | `TEXT` | NULL | — |
@@ -217,34 +240,11 @@ Table Notes (DrawSQL):
 
 ## Кросс-контекстные логические ссылки (без REFERENCES)
 
-- `facility.PARKING_PLACE.override_tariff_id -> tariff.TARIFF.id`
-- `facility.ZONE_TYPE_TARIFF.tariff_id -> tariff.TARIFF.id`
-- `facility.ZONE_TYPE_VEHICLE_TYPE.vehicle_type_id -> facility.VEHICLE_TYPE.id` *(описано в `erd-relationships-client-client-profile.md`)*
-- `report.ACCESS_LOG.ap_id -> facility.AP.id`
-- `report.ACCESS_LOG.vehicle_id -> client.VEHICLE.id`
-
----
-
-## Диаграмма связей (Mermaid)
-
-```mermaid
-erDiagram
-    PARKING ||--o{ PARKING_SCHEDULE : has
-    PARKING ||--o{ SECTOR : contains
-    PARKING ||--o{ AP : has
-
-    ZONE_TYPE ||--o{ SECTOR : classifies
-    SECTOR ||--o{ PARKING_PLACE : contains
-
-    OPERATIONAL_STATUS ||--o{ PARKING : has_status
-    OPERATIONAL_STATUS ||--o{ SECTOR : has_status
-    OPERATIONAL_STATUS ||--o{ PARKING_PLACE : has_status
-    OPERATIONAL_STATUS ||--o{ AP : has_status
-
-    ZONE_TYPE ||--o{ ZONE_TYPE_TARIFF : supports
-    ZONE_TYPE ||--o{ ZONE_TYPE_VEHICLE_TYPE : allows
-    AP ||--o{ ACCESS_LOG : records
-```
+- `facility.parking_places.override_tariff_id -> tariff.tariffs.id`
+- `facility.zone_type_tariffs.tariff_id -> tariff.tariffs.id`
+- `facility.zone_type_vehicle_types.vehicle_type_id -> facility.vehicle_types.id` *(описано в `erd-relationships-client-client-profile.md`)*
+- `report.access_logs.ap_id -> facility.aps.id`
+- `report.access_logs.vehicle_id -> client.vehicles.id`
 
 ---
 
