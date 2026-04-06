@@ -113,9 +113,9 @@
 | `EMPLOYEE_ROLE` | `employee` | `EMPLOYEE.role_id` |
 | `PAYMENT_METHOD` | `payment` | `PAYMENT.payment_method_id` |
 
-Примеры `code`: `PARKING_TYPE` → SURFACE/MULTILEVEL/UNDERGROUND/ROOFTOP; `OPERATIONAL_STATUS` → ACTIVE/MAINTENANCE/CLOSED/RESERVED; `EMPLOYEE_ROLE` → OPERATOR/ADMIN/SECURITY/MANAGER; `PAYMENT_METHOD` → CARD/SBP/ACCOUNT_DEBIT/CASH.
+Примеры `code`: `PARKING_TYPE` → SURFACE/MULTILEVEL/UNDERGROUND/ROOFTOP; `EMPLOYEE_ROLE` → OPERATOR/ADMIN/SECURITY/MANAGER; `PAYMENT_METHOD` → CARD/SBP/ACCOUNT_DEBIT/CASH.
 
-*`ZONE_TYPE` и `VEHICLE_TYPE` структурно тоже словари (id/code/name/description) — добавлены ранее, используются через M:N-таблицы.*
+*`ZONE_TYPE` и `VEHICLE_TYPE` структурно тоже словари; сейчас `ZONE_TYPE` моделируется как `id/name/description`, а `VEHICLE_TYPE` — без отдельного `code`, используются через M:N-таблицы.*
 
 ---
 
