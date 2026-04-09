@@ -1,6 +1,6 @@
 # ERD: домен `client` (ФЛ/ЮЛ) и связанные таблицы
 
-**Контекст:** модель в `docs/architecture/database/erd/erd-normalized-er-model.md`; сводки ревью — `docs/architecture/database/erd/chat-context/chat-context-er-model-review-3-2026-03-31.md`, `docs/architecture/database/erd/chat-context/chat-context-er-model-review-4-2026-04-01.md`.
+**Контекст:** модель в `docs/architecture/database/erd/erd-normalized-er-model.md`; отдельные review-сводки в текущем состоянии репозитория не опубликованы.
 
 ## Table of Contents
 
@@ -403,6 +403,4 @@ erDiagram
 ## Связанные документы
 
 - [ERD (erd-normalized-er-model)](erd-normalized-er-model.md)
-- [Контекст ревью ERD, сессия 9+](chat-context/chat-context-er-model-review-3-2026-03-31.md)
-- [Контекст ревью ERD, сессия 10+](chat-context/chat-context-er-model-review-4-2026-04-01.md)
 - [ADR-003: модульный монолит и схемная изоляция](../../adr/adr-003-modular-monolith.md)

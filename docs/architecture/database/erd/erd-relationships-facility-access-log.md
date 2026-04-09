@@ -1,6 +1,6 @@
 # ERD: домен `facility` (инфраструктура) и таблица `access_logs`
 
-**Контекст:** модель в `docs/architecture/database/erd/erd-normalized-er-model.md`; сводка сессии — `docs/architecture/database/erd/chat-context/chat-context-er-model-review-3-2026-03-31.md`.
+**Контекст:** модель в `docs/architecture/database/erd/erd-normalized-er-model.md`; рабочие review-заметки в текущем состоянии репозитория не опубликованы отдельным файлом.
 
 ## Table of Contents
 
@@ -14,8 +14,8 @@
 - [Таблица `operational_statuses`](#таблица-operational_statuses)
 - [Таблица `access_points`](#таблица-access_points)
 - [Таблица `parking_places`](#таблица-parking_places)
-- [Таблица `zone_type_vehicle_types`](#таблица-zone_type_vehicle_types)
-- [Таблица `zone_type_tariffs`](#таблица-zone_type_tariffs)
+- [Таблица `zone_types_vehicle_types`](#таблица-zone_types_vehicle_types)
+- [Таблица `zone_types_tariffs`](#таблица-zone_types_tariffs)
 - [Таблица `access_logs`](#таблица-access_logs)
 - [Кросс-контекстные логические ссылки (без REFERENCES)](#кросс-контекстные-логические-ссылки-без-references)
 - [Связанные документы](#связанные-документы)
@@ -253,5 +253,4 @@ Table Notes (DrawSQL):
 ## Связанные документы
 
 - [ERD (erd-normalized-er-model)](erd-normalized-er-model.md)
-- [Контекст ревью ERD, сессия 9+](chat-context/chat-context-er-model-review-3-2026-03-31.md)
 - [ADR-003: модульный монолит и схемная изоляция](../../adr/adr-003-modular-monolith.md)
