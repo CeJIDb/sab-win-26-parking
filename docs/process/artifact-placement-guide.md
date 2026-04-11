@@ -34,7 +34,7 @@
 |------|---------------|-------------|
 | Этап 1. Моделирование бизнеса | AS-IS, BPMN, ES AS-IS, UML Class Diagram, UML StateChart Diagram | `docs/artifacts/as-is/` |
 | Этап 2. Концептуальное проектирование | Opportunity Canvas, Impact Map, project charter, User Story Map, navigation map, контекст, use case, концептуальная модель, ES TO-BE | `docs/artifacts/`, `docs/artifacts/use-case/`, `docs/artifacts/es-to-be/`, `ui/` |
-| Этап 3. Требования к ПО | FR, NFR, ограничения | `docs/specs/` |
+| Этап 3. Требования к ПО | FR, NFR, ограничения, интеграционные требования `INT-*` | `docs/specs/`, `docs/specs/integration/` |
 | Этап 4. Архитектура и БД | ADR, DDD, C4, архитектурные решения, ES-артефакты, которые стали входом в архитектурную проработку | `docs/architecture/` |
 | Этап 4. ERD и практика SQL | ERD, проработка физической модели, SQL-практика | `docs/architecture/database/erd/` и `sql/practice/` |
 | Этап 4. Инфобез | анализ угроз, bow-tie, контекстные материалы | `docs/artifacts/infosec/` |
@@ -87,6 +87,7 @@ docs/
     functional-requirements/
     nonfunctional-requirements/
     constraints/
+    integration/
   process/
   interviews/
     plans/
