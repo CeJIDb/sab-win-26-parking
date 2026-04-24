@@ -13,8 +13,12 @@ This repository is focused on:
 
 ## Required Skills (Core)
 
-- `skill-creator` (`~/.agents/skills/skill-creator`)
-  - Use for creating/auditing/refactoring skills and `SKILL.md`.
+- `skill-creator` (`.claude/skills/skill-creator`)
+  - Use for creating/auditing/refactoring skills and `SKILL.md`. Local version supersedes the global one.
+- `plan-validator` (`.claude/skills/plan-validator`)
+  - Use when creating or editing `plans/YYYY-MM-DD-*.md` files, before committing plans, or when explicitly asked to validate a plan.
+- `install-skill` (`.claude/skills/install-skill`)
+  - Use when installing a new Claude skill from a GitHub URL (security audit + copy to project or global location).
 - `create-rule` (`~/.cursor/skills-cursor/create-rule`)
   - Use for creating/updating `.cursor/rules/*.mdc`.
 - `create-skill` (`~/.cursor/skills-cursor/create-skill`)
