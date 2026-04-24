@@ -18,6 +18,16 @@ skillsmp-mcp-server-1.0.0.tgz
 .cursor/mcp.json
 .cursor/mcp.json.example
 
+# Claude Code local settings (personal hooks, sounds, overrides)
+.claude/settings.local.json
+
+# Playwright MCP artifacts (snapshots, screenshots)
+.playwright-mcp/
+
+# Environment files (never committed)
+.env
+.env.*
+
 # System context (temporary Markdown exchanged between agents)
 docs/_system-context/
 temp_context/
