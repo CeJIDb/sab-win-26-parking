@@ -26,7 +26,6 @@
     "docs/artifacts/project-charter.md",
     "docs/artifacts/navigation-map.md",
     "docs/artifacts/as-is/parking-as-is-diagram.md",
-    "docs/architecture/c4/c4-parking-platform.md",
     "docs/architecture/ddd/ddd-bounded-contexts.md",
     "docs/architecture/database/erd/data-dictionary-buildin-import.md",
     "docs/process/first-contribution-path.md",
