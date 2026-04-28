@@ -1,30 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "_comment": "Пример персональных настроек Claude Code. Скопируй в .claude/settings.local.json (файл в .gitignore) и правь под себя. В .claude/settings.json лежат общекомандные deny-правила — дополняй, а не переопределяй.",
-  "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell.exe -NoProfile -Command \"[System.Media.SystemSounds]::Asterisk.Play(); Start-Sleep -Milliseconds 800\"",
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "Notification": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell.exe -NoProfile -Command \"[System.Media.SystemSounds]::Exclamation.Play(); Start-Sleep -Milliseconds 800\"",
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ]
+  "_comment": "Пример персональных настроек Claude Code. Скопируй в .claude/settings.local.json (файл в .gitignore) и правь под себя. В .claude/settings.json лежат общекомандные deny-правила и хуки (block-unsafe-git-add / block-push-to-main / block-secret-write / validate-staged-plans / format-on-write / play-sound). Дополняй, а не переопределяй.",
+  "_comment_sound": "Звук Stop/Notification уже подключен через scripts/claude-hooks/play-sound.sh (PulseAudio → PowerShell → bell). Громкость переопределяется env: CLAUDE_SOUND_VOLUME=32768 (50%). Если play-sound.sh не работает в твоей среде — раскомментируй блок hooks ниже и убери секцию Stop/Notification из общего settings.json.",
+  "env": {
+    "CLAUDE_SOUND_VOLUME": "49152"
   }
 }
