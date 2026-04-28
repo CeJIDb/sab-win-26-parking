@@ -10,6 +10,11 @@
  *   node scripts/atomic-commit.mjs --yes            # без подтверждения
  *   node scripts/atomic-commit.mjs --dry-run        # только план, без коммитов
  *   node scripts/atomic-commit.mjs --staged-only    # коммитить только уже проиндексированные файлы
+ *   node scripts/atomic-commit.mjs --verbose        # показывать вывод prettier и git commit (по умолчанию тихий режим)
+ *
+ * По умолчанию вывод prettier, git add и git commit (включая husky-хуки) подавлен,
+ * остаются только план коммитов, строки «Создан: …» и сообщения об ошибках.
+ * Если коммит/прогон prettier падает — захваченный вывод печатается в stderr перед throw.
  *
  * Не делает push. Требует чистого состояния от незавершённых merge/rebase.
  *
@@ -56,11 +61,26 @@ function gitStdoutRaw(args) {
   }
 }
 
+const VERBOSE = process.argv.includes("--verbose");
+
+function dumpCapturedOnError(error) {
+  if (error && error.stdout) process.stderr.write(error.stdout);
+  if (error && error.stderr) process.stderr.write(error.stderr);
+}
+
 function gitRun(args, inherit = true) {
   try {
-    execFileSync("git", args, inherit ? { stdio: "inherit" } : { encoding: "utf-8" });
+    if (inherit && !VERBOSE) {
+      execFileSync("git", args, {
+        stdio: ["ignore", "pipe", "pipe"],
+        encoding: "utf-8",
+      });
+    } else {
+      execFileSync("git", args, inherit ? { stdio: "inherit" } : { encoding: "utf-8" });
+    }
   } catch (error) {
     if (printSandboxHint(error)) process.exit(1);
+    dumpCapturedOnError(error);
     throw error;
   }
 }
@@ -70,9 +90,13 @@ const PRETTIER_FILE_RE = /\.(md|json|jsonc|yml|yaml|js|jsx|ts|tsx|css|html)$/i;
 function runPrettierWrite(paths) {
   if (!paths || paths.length === 0) return;
   try {
-    execFileSync("npx", ["prettier", "--write", ...paths], { stdio: "inherit" });
+    execFileSync("npx", ["prettier", "--write", ...paths], {
+      stdio: VERBOSE ? "inherit" : ["ignore", "pipe", "pipe"],
+      encoding: "utf-8",
+    });
   } catch (error) {
     if (printSandboxHintForTool("prettier", error)) process.exit(1);
+    dumpCapturedOnError(error);
     throw error;
   }
 }
