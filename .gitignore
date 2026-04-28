@@ -21,6 +21,9 @@ skillsmp-mcp-server-1.0.0.tgz
 # Claude Code local settings (personal hooks, sounds, overrides)
 .claude/settings.local.json
 
+# Claude Code local cache (markdown-rag index timestamp etc.)
+.claude/cache/
+
 # Playwright MCP artifacts (snapshots, screenshots)
 .playwright-mcp/
 
