@@ -2,13 +2,18 @@
 /**
  * Claude Code SessionStart hook.
  *
- * Проверяет актуальность индекса MCP markdown_rag по docs/.
- * Если индекс отсутствует или в docs/ есть файлы новее последней индексации —
- * инжектит в системный контекст агента инструкцию запустить
- * mcp__markdown_rag__index_documents до первого поиска.
+ * Считает, сколько .md-файлов в docs/ изменено после последней индексации
+ * markdown_rag. Если набралось «много» (порог STALE_THRESHOLD) или индекс
+ * не строился ни разу — инжектит контекст для агента: напомнить пользователю
+ * запустить `npm run docs:rag-index` (вручную, чтобы не тормозить сессию).
+ *
+ * Сам индекс хук НЕ обновляет и НЕ просит агента это делать через
+ * mcp__markdown_rag__index_documents — это медленная операция.
  *
  * Источник истины — `.claude/cache/markdown-rag-timestamp.json`.
- * Файл обновляет PostToolUse hook touch-rag-index-timestamp.mjs.
+ * Файл обновляет PostToolUse hook touch-rag-index-timestamp.mjs (когда
+ * индексация запущена из Claude через MCP) и `scripts/update-rag-index.sh`
+ * (когда пользователь запускает `npm run docs:rag-index`).
  */
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import path from "node:path";
@@ -17,31 +22,32 @@ const projectDir = process.env.CLAUDE_PROJECT_DIR || process.cwd();
 const docsDir = path.join(projectDir, "docs");
 const cachePath = path.join(projectDir, ".claude", "cache", "markdown-rag-timestamp.json");
 
-// Если docs/ нет — молчим. Хук опциональный.
+// Порог «много изменений» — выше него хук просит агента напомнить про обновление.
+// Можно переопределить через RAG_STALE_THRESHOLD (полезно в CI/тестах).
+const STALE_THRESHOLD = Number(process.env.RAG_STALE_THRESHOLD) || 5;
+
 if (!existsSync(docsDir)) process.exit(0);
 
-function maxMtime(dir) {
-  let max = 0;
+function collectStaleFiles(dir, since, acc) {
   let entries;
   try {
     entries = readdirSync(dir, { withFileTypes: true });
   } catch {
-    return 0;
+    return;
   }
   for (const entry of entries) {
+    if (entry.name.startsWith(".")) continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      max = Math.max(max, maxMtime(full));
+      collectStaleFiles(full, since, acc);
     } else if (entry.isFile() && entry.name.endsWith(".md")) {
       try {
-        const m = statSync(full).mtimeMs;
-        if (m > max) max = m;
+        if (statSync(full).mtimeMs > since) acc.push(full);
       } catch {
-        // skip
+        // skip unreadable
       }
     }
   }
-  return max;
 }
 
 let lastIndexedAt = 0;
@@ -54,24 +60,29 @@ if (existsSync(cachePath)) {
   }
 }
 
-const docsMaxMtime = maxMtime(docsDir);
-const stale = lastIndexedAt === 0 || docsMaxMtime > lastIndexedAt;
+const neverIndexed = lastIndexedAt === 0;
+const staleFiles = [];
+collectStaleFiles(docsDir, lastIndexedAt, staleFiles);
+const staleCount = staleFiles.length;
 
-if (!stale) process.exit(0);
+// Молчим, если индекс свежий ИЛИ изменений мало (не «много»).
+if (!neverIndexed && staleCount < STALE_THRESHOLD) process.exit(0);
 
-const reason =
-  lastIndexedAt === 0
-    ? "Индекс markdown_rag для docs/ ни разу не строился в этом репозитории."
-    : `В docs/ есть файлы, измененные после последней индексации (last: ${new Date(
-        lastIndexedAt,
-      ).toISOString()}, latest doc: ${new Date(docsMaxMtime).toISOString()}).`;
+const reason = neverIndexed
+  ? "Индекс markdown_rag для docs/ ни разу не строился в этом репозитории."
+  : `В docs/ ${staleCount} .md-файлов изменены после последней индексации (last: ${new Date(
+      lastIndexedAt,
+    ).toISOString()}).`;
 
 const message = [
-  "[markdown_rag] Индекс docs/ устарел или отсутствует.",
+  "[markdown_rag] Индекс docs/ устарел.",
   reason,
-  "До первого вызова mcp__markdown_rag__search запусти:",
-  '  mcp__markdown_rag__index_documents с параметрами {"directory": "docs", "recursive": true}',
-  "После успешной индексации хук touch-rag-index-timestamp обновит таймстемп автоматически.",
+  "НЕ запускай mcp__markdown_rag__index_documents автоматически — это медленно.",
+  "Если в текущей сессии планируется mcp__markdown_rag__search или пользователь",
+  "правит документацию — напомни ему запустить вручную:",
+  "  npm run docs:rag-index           # инкрементально",
+  "  npm run docs:rag-index:force     # полная переиндексация",
+  "Скрипт сам обновит timestamp кеша после успешной индексации.",
 ].join("\n");
 
 process.stdout.write(
