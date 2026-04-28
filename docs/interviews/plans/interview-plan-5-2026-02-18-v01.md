@@ -17,13 +17,13 @@ status: canonical-interview-plan
 
 ## Роли на интервью
 
-|Ведущий, интервьюер|[Denis333admin](https://github.com/Denis333admin)|
-|-|-|
-|Секретарь|[malinkaemail-blip](https://github.com/malinkaemail-blip)|
-|Хронометрист-ассистент|[CeJIDb](https://github.com/CeJIDb)|
-|Участник|[mrneatly](https://github.com/mrneatly)|
-|Участник|[skifup](https://github.com/skifup)|
-|Представитель Заказчика|Заказчик|
+| Ведущий, интервьюер     | [Denis333admin](https://github.com/Denis333admin)         |
+| ----------------------- | --------------------------------------------------------- |
+| Секретарь               | [malinkaemail-blip](https://github.com/malinkaemail-blip) |
+| Хронометрист-ассистент  | [CeJIDb](https://github.com/CeJIDb)                       |
+| Участник                | [mrneatly](https://github.com/mrneatly)                   |
+| Участник                | [skifup](https://github.com/skifup)                       |
+| Представитель Заказчика | Заказчик                                                  |
 
 ---
 
@@ -61,8 +61,6 @@ status: canonical-interview-plan
 
 ## Заключение (не более 20 минут)
 
-
-
 1. Утверждение итоговой концепции решения - "Система предоставления доступа на парковку для автомобилей, без прямого участия сотрудников"
 
 2. Утверждение предельного бюджета
@@ -79,7 +77,4 @@ status: canonical-interview-plan
 
 ## Для заметок
 
-
-
 ---
-

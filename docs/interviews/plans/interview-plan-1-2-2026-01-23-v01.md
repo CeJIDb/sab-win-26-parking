@@ -11,12 +11,12 @@ status: canonical-interview-plan
 
 ## Роли на интервью
 
-| Роль | Участник |
-|------|----------|
-| Ведущий, интервьюер | [mrneatly](https://github.com/mrneatly) |
+| Роль                       | Участник                                                  |
+| -------------------------- | --------------------------------------------------------- |
+| Ведущий, интервьюер        | [mrneatly](https://github.com/mrneatly)                   |
 | Секретарь (Event Storming) | [malinkaemail-blip](https://github.com/malinkaemail-blip) |
-| Хронометрист-ассистент | [skifup](https://github.com/skifup) |
-| Участник | [CeJIDb](https://github.com/CeJIDb) |
+| Хронометрист-ассистент     | [skifup](https://github.com/skifup)                       |
+| Участник                   | [CeJIDb](https://github.com/CeJIDb)                       |
 
 ## Цели
 
