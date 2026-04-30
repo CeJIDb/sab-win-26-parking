@@ -37,3 +37,6 @@ skillsmp-mcp-server-1.0.0.tgz
 # System context (temporary Markdown exchanged between agents)
 docs/_system-context/
 temp_context/
+
+# Temporary scratch files for plans (not formal plans)
+plans/.tmp/
