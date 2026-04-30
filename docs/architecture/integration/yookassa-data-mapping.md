@@ -3,18 +3,23 @@
 Документ фиксирует каноничный маппинг между цифровой платформой парковки и API ЮKassa.
 Он нужен, чтобы согласовать внутреннюю модель `payment.*`, вызовы `create payment` и `create refund`, а также обработку входящих HTTP-уведомлений.
 
+Источник истины по контракту ЮKassa — официальная документация API: <https://yookassa.ru/developers/api>. Расхождения текущего маппинга с документацией ЮKassa и с другими артефактами репо собраны в отчете [Расхождения маппинга ЮKassa](yookassa-mapping-divergences.md).
+
 ## Оглавление
 
 - [Назначение](#назначение)
 - [Границы маппинга](#границы-маппинга)
 - [Сущности нашей системы, участвующие в обмене](#сущности-нашей-системы-участвующие-в-обмене)
 - [Сценарии интеграции с ЮKassa](#сценарии-интеграции-с-юkassa)
-- [Табличный маппинг в формате источник -> приемник](#табличный-маппинг-в-формате-источник---приемник)
-- [Маппинг запроса на создание платежа](#маппинг-запроса-на-создание-платежа)
-- [Маппинг ответа ЮKassa по платежу](#маппинг-ответа-юkassa-по-платежу)
-- [Маппинг HTTP-уведомлений ЮKassa](#маппинг-http-уведомлений-юkassa)
-- [Маппинг запроса и ответа на возврат](#маппинг-запроса-и-ответа-на-возврат)
-- [Маппинг статусов](#маппинг-статусов)
+- [Маппинг полей](#маппинг-полей)
+  - [Создание платежа (`POST /v3/payments`). Источник: модуль Оплата → Приемник: ЮKassa](#создание-платежа-post-v3payments-источник-модуль-оплата--приемник-юkassa)
+  - [Ответ ЮKassa по платежу. Источник: ЮKassa → Приемник: модуль Оплата](#ответ-юkassa-по-платежу-источник-юkassa--приемник-модуль-оплата)
+  - [HTTP-уведомление по платежу. Источник: ЮKassa → Приемник: модуль Оплата](#http-уведомление-по-платежу-источник-юkassa--приемник-модуль-оплата)
+  - [HTTP-уведомление по возврату. Источник: ЮKassa → Приемник: модуль Оплата](#http-уведомление-по-возврату-источник-юkassa--приемник-модуль-оплата)
+  - [Запрос возврата (`POST /v3/refunds`). Источник: модуль Оплата → Приемник: ЮKassa](#запрос-возврата-post-v3refunds-источник-модуль-оплата--приемник-юkassa)
+  - [Ответ ЮKassa по возврату. Источник: ЮKassa → Приемник: модуль Оплата](#ответ-юkassa-по-возврату-источник-юkassa--приемник-модуль-оплата)
+- [Маппинг значений](#маппинг-значений)
+- [События ЮKassa и реакция платформы](#события-юkassa-и-реакция-платформы)
 - [Правила валидации и хранения](#правила-валидации-и-хранения)
 - [Ограничения текущей модели](#ограничения-текущей-модели)
 - [Связанные документы](#связанные-документы)
@@ -27,7 +32,7 @@
 - объектами `payment` и `refund` ЮKassa;
 - правилами записи данных в нашу БД.
 
-Документ опирается на актуальную документацию ЮKassa по состоянию на 11 апреля 2026 года. Если после обновления API провайдер добавит обязательные поля или новые статусы, этот артефакт нужно актуализировать в том же изменении.
+Документ опирается на актуальную документацию ЮKassa <https://yookassa.ru/developers/api> по состоянию на 2026-04-30. Если после обновления API провайдер добавит обязательные поля или новые статусы, этот артефакт нужно актуализировать в том же изменении.
 
 ## Границы маппинга
 
@@ -35,7 +40,7 @@
 
 - создание платежа;
 - получение синхронного ответа;
-- обработка входящих HTTP-уведомлений;
+- обработка входящих HTTP-уведомлений по платежу и по возврату;
 - создание возврата;
 - получение результата возврата.
 
@@ -71,189 +76,228 @@
 
 Для возврата платформа создает запись в `payment.refunds`, вызывает `POST /v3/refunds` и сохраняет внешний идентификатор возврата в `payment.refunds.refund_provider_id`.
 
-## Табличный маппинг в формате источник -> приемник
+## Маппинг полей
 
-Ниже тот же маппинг дан в более прикладном виде, похожем на рабочую таблицу для интеграции.
+Шесть процессных таблиц ниже фиксируют построчное соответствие полей между сторонами обмена. Все таблицы выполнены в едином 5-колонном формате с двойной шапкой (две группы — «Источник» и «Приемник» с подколонками «Объект/атрибут» и «Тип, значение», плюс «Комментарий») и обернуты в блок `prettier-ignore`, чтобы Prettier при сохранении не нормализовал ширины колонок и не сломал визуальное ровнение пустых ячеек верхней шапки.
 
-### ЮKassa `payment` -> наша таблица `payment.payments`
+Конвенция:
 
-| Система-источник |                                 |                                                           | Система-приемник    |                                   |                       |                                                           |
-| ---------------- | ------------------------------- | --------------------------------------------------------- | ------------------- | --------------------------------- | --------------------- | --------------------------------------------------------- |
-| Объект/атрибут   | Поле                            | Тип, значение                                             | Объект/атрибут      | Поле                              | Тип, значение         | Комментарий                                               |
-| Payment          | `id`                            | string                                                    | Платеж              | `payment.payments.provider_id`    | `VARCHAR(512)`        | Идентификатор платежа в ЮKassa                            |
-| Payment          | `status`                        | `pending`, `waiting_for_capture`, `succeeded`, `canceled` | Платеж              | `payment.payments.status`         | `payment_status_enum` | Маппится по таблице статусов ниже                         |
-| Payment          | `amount.value`                  | decimal string                                            | Платеж              | `payment.payments.amount_minor`   | `BIGINT`              | Перед записью переводим из major units в minor units      |
-| Payment          | `amount.currency`               | `RUB`                                                     | Платеж              | `payment.payments.currency`       | `CHAR(3)`             | Валюта должна совпадать с ожидаемой                       |
-| Payment          | `captured_at`                   | datetime                                                  | Платеж              | `payment.payments.completed_at`   | `TIMESTAMPTZ`         | Заполняем для успешной оплаты                             |
-| Payment          | `payment_method.type`           | `bank_card`, `sbp`, `yoo_money`, ...                      | Способ оплаты       | `payment.payment_methods.code`    | справочник            | Используется для логического сопоставления канала оплаты  |
-| Payment          | `metadata.invoice_id`           | string/number                                             | Счет                | `payment.invoices.id`             | `BIGINT`              | Резервный канал корреляции                                |
-| Payment          | `metadata.invoice_number`       | string                                                    | Счет                | `payment.invoices.invoice_number` | `VARCHAR(64)`         | Удобно для сверки и поддержки                             |
-| Payment          | `metadata.internal_payment_id`  | string/number                                             | Платеж              | `payment.payments.id`             | `BIGINT`              | Резервный ключ корреляции                                 |
-| Payment          | `paid`                          | `true`, `false`                                           | Платеж              | нет отдельного поля               | логический признак    | Используем как дополнительную проверку вместе со статусом |
-| Payment          | `confirmation.confirmation_url` | URL                                                       | UI / backend flow   | не хранится в БД                  | string                | Используем для редиректа клиента на оплату                |
-| Payment          | `cancellation_details.reason`   | string                                                    | Операционный журнал | не хранится в текущей схеме       | string                | Полезно для диагностики и ручной обработки                |
+- «Объект/атрибут» — имя поля в нотации стороны обмена. Для запроса к ЮKassa — поля тела запроса (`amount.value`, `metadata.invoice_id`); для ответа и webhook — поля объекта `Payment` или `Refund` (`Payment.id`, `object.status` для webhook); для нашей стороны — таблица и поле БД (`payments.amount_minor`).
+- «Тип, значение» — тип поля; если значение производное, константа или формула — оно идет сюда (`BIGINT`, `string`, `Оплата бронирования №{bookings.booking_number}`, `0`, `1`).
+- Если объекта на стороне источника нет (литерал, derived, конфигурация интеграции) — ячейка «Объект/атрибут» источника пуста, во второй ячейке указывается константа или формула.
+- Если поле приемника не хранится в БД — это указано в ячейке «Объект/атрибут» приемника явным текстом, ячейка «Тип, значение» приемника может оставаться пустой.
 
-### ЮKassa `refund` -> наша таблица `payment.refunds`
+### Создание платежа (`POST /v3/payments`). Источник: модуль Оплата → Приемник: ЮKassa
 
-| Система-источник |                               |                                    | Система-приемник    |                                      |                      |                                                 |
-| ---------------- | ----------------------------- | ---------------------------------- | ------------------- | ------------------------------------ | -------------------- | ----------------------------------------------- |
-| Объект/атрибут   | Поле                          | Тип, значение                      | Объект/атрибут      | Поле                                 | Тип, значение        | Комментарий                                     |
-| Refund           | `id`                          | string                             | Возврат             | `payment.refunds.refund_provider_id` | `VARCHAR(512)`       | Идентификатор возврата в ЮKassa                 |
-| Refund           | `payment_id`                  | string                             | Платеж              | `payment.payments.provider_id`       | `VARCHAR(512)`       | Связь с исходным платежом                       |
-| Refund           | `status`                      | `pending`, `succeeded`, `canceled` | Возврат             | `payment.refunds.status`             | `refund_status_enum` | `canceled` в текущей модели маппится в `FAILED` |
-| Refund           | `amount.value`                | decimal string                     | Возврат             | `payment.refunds.amount_minor`       | `BIGINT`             | Перед записью переводим в minor units           |
-| Refund           | `created_at`                  | datetime                           | Возврат             | `payment.refunds.initiated_at`       | `TIMESTAMPTZ`        | Время создания возврата у провайдера            |
-| Refund           | `cancellation_details.reason` | string                             | Операционный журнал | не хранится в текущей схеме          | string               | Причина отмены возврата                         |
-| Refund           | `metadata.internal_refund_id` | string/number                      | Возврат             | `payment.refunds.id`                 | `BIGINT`             | Резервный ключ корреляции                       |
+Запрос объединяет наши поля `payments.*`, `clients.*`, `invoices.*`, `bookings.*` и конфигурационные значения интеграции в тело запроса POST.
 
-### Наш запрос `payment.payments` -> ЮKassa `create payment`
+<!-- prettier-ignore-start -->
 
-| Система-источник: модуль Оплата                                | Тип, значение                                                | Система-приемник: ЮKassa                | Тип, значение | Комментарий                                                      |
-| -------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------- | ------------- | ---------------------------------------------------------------- |
-| `payments.amount_minor`                                        | `BIGINT`                                                     | `Payment.amount.value`                  | `string`      | Конвертируем из minor units в строку формата `"123.45"`          |
-| `payments.currency`                                            | `CHAR(3)`                                                    | `Payment.amount.currency`               | `string`      | Обычно передается `RUB`                                          |
-| производное поле                                               | `Оплата бронирования №{bookings.booking_number}`             | `Payment.description`                   | `string`      | Формируется на основе номера бронирования                        |
-| `clients.last_name + clients.first_name + clients.middle_name` | `VARCHAR(100) + VARCHAR(100) + VARCHAR(100)`                 | `Payment.receipt.customer.full_name`    | `string`      | Полного имени одним полем в БД нет, собираем из ФИО              |
-| `clients.email`                                                | `VARCHAR(320)`                                               | `Payment.receipt.customer.email`        | `string`      | Передаем, если email заполнен                                    |
-| `clients.phone`                                                | `VARCHAR(32) NOT NULL`                                       | `Payment.receipt.customer.phone`        | `string`      | Передаем всегда, так как телефон — обязательное поле в `clients` |
-| производное поле                                               | `Бронирование парковочного места №{bookings.booking_number}` | `Payment.receipt.items.description`     | `string`      | Формируется на основе номера бронирования                        |
-| `payments.amount_minor`                                        | `BIGINT`                                                     | `Payment.receipt.items.amount.value`    | `string`      | Конвертируем в формат `"123.45"`                                 |
-| `payments.currency`                                            | `CHAR(3)`                                                    | `Payment.receipt.items.amount.currency` | `string`      | Обычно `RUB`                                                     |
-| производное или конфигурационное поле                          | `0`                                                          | `Payment.receipt.vat_code`              | `integer`     | Фиксированное значение для текущего интеграционного решения      |
-| производное поле                                               | `1`                                                          | `Payment.receipt.quantity`              | `number`      | Для базового сценария передаем одну позицию                      |
+| Источник                                                       |                                                              | Приемник                                |               | Комментарий |
+| -------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------- | ------------- | ----------- |
+| Объект/атрибут                                                 | Тип, значение                                                | Объект/атрибут                          | Тип, значение |             |
+| `payments.amount_minor`                                        | `BIGINT`                                                     | `Payment.amount.value`                  | `string`      | Конвертируем из minor units в строку формата `"123.45"`; формат строки и количество знаков после точки требуют онлайн-сверки с документацией ЮKassa |
+| `payments.currency`                                            | `CHAR(3)`                                                    | `Payment.amount.currency`               | `string`      | Обычно передается `RUB` |
+|                                                                | `Оплата бронирования №{bookings.booking_number}`             | `Payment.description`                   | `string`      | Производное поле, формируется из номера бронирования |
+|                                                                | конфигурация интеграции                                      | `Payment.capture`                       | `boolean`     | Для одношаговой оплаты обычно `true`; обязательность и дефолт требуют онлайн-сверки |
+|                                                                | конфигурация интеграции                                      | `Payment.confirmation.type`             | `string`      | Для веб-сценария обычно `redirect`; полный список значений требует онлайн-сверки |
+|                                                                | конфигурация интеграции                                      | `Payment.confirmation.return_url`       | `string`      | URL возврата после оплаты, формируется на уровне приложения |
+| `payment_methods.code`                                         | `VARCHAR(64)`                                                | `Payment.payment_method_data.type`      | `string`      | Точное имя поля в запросе (`payment_method_data.type` либо `payment_method.type`) требует онлайн-сверки; маппится по разделу [Способы оплаты `payment_method.type`](#способы-оплаты-payment_methodtype) |
+| `clients.last_name + clients.first_name + clients.middle_name` | `VARCHAR(100) + VARCHAR(100) + VARCHAR(100)`                 | `Payment.receipt.customer.full_name`    | `string`      | Полного имени одним полем в БД нет, собираем из ФИО |
+| `clients.email`                                                | `VARCHAR(320)`                                               | `Payment.receipt.customer.email`        | `string`      | Передаем, если email заполнен |
+| `clients.phone`                                                | `VARCHAR(32) NOT NULL`                                       | `Payment.receipt.customer.phone`        | `string`      | Передаем всегда, телефон обязателен в `clients` |
+|                                                                | `Бронирование парковочного места №{bookings.booking_number}` | `Payment.receipt.items[0].description`  | `string`      | Производное поле из номера бронирования |
+| `payments.amount_minor`                                        | `BIGINT`                                                     | `Payment.receipt.items[0].amount.value` | `string`      | Конвертируем в формат `"123.45"` |
+| `payments.currency`                                            | `CHAR(3)`                                                    | `Payment.receipt.items[0].amount.currency` | `string`   | Обычно `RUB` |
+|                                                                | `1`                                                          | `Payment.receipt.items[0].quantity`     | `number`      | Для базового сценария передаем одну позицию |
+|                                                                | `0`                                                          | `Payment.receipt.items[0].vat_code`     | `integer`     | Фиксированное значение для текущего интеграционного решения; по документации ЮKassa допустимый набор значений (1..6) требует онлайн-сверки, и значение `0` может оказаться невалидным |
+| `invoices.id`                                                  | `BIGINT`                                                     | `Payment.metadata.invoice_id`           | `string` или `number` | Техническая корреляция для обратной связи |
+| `invoices.invoice_number`                                      | `VARCHAR(64)`                                                | `Payment.metadata.invoice_number`       | `string`      | Удобно для сверки и поддержки |
+| `invoices.booking_id` (только для счета `SINGLE`)              | `BIGINT`                                                     | `Payment.metadata.booking_id`           | `string` или `number` | Передается только для счета типа `SINGLE` |
+| `invoices.contract_id` (только для счета `PERIODIC`)           | `BIGINT`                                                     | `Payment.metadata.contract_id`          | `string` или `number` | Передается только для счета типа `PERIODIC` |
+| `payments.id`                                                  | `BIGINT`                                                     | `Payment.metadata.internal_payment_id`  | `string` или `number` | Рекомендуемый резервный ключ корреляции |
 
-## Маппинг запроса на создание платежа
+<!-- prettier-ignore-end -->
 
-Ниже приведен логический маппинг для запроса `POST /v3/payments`.
+### Ответ ЮKassa по платежу. Источник: ЮKassa → Приемник: модуль Оплата
 
-| Поле ЮKassa                    | Откуда в нашей системе      | Таблица / поле                    | Правило                                                                                               |
-| ------------------------------ | --------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `amount.value`                 | Сумма платежа               | `payment.payments.amount_minor`   | Передается в major units строкой с двумя знаками после запятой; в БД хранится в minor units           |
-| `amount.currency`              | Валюта платежа              | `payment.payments.currency`       | В текущей модели обычно `RUB`                                                                         |
-| `capture`                      | Режим списания              | конфигурация интеграции           | Для одношаговой оплаты рекомендуем `true`; при двухстадийной оплате требуется отдельная бизнес-логика |
-| `confirmation.type`            | Способ подтверждения        | конфигурация интеграции           | Для веб-сценария обычно `redirect`                                                                    |
-| `confirmation.return_url`      | URL возврата после оплаты   | конфигурация интеграции           | Формируется на уровне приложения                                                                      |
-| `description`                  | Назначение платежа          | производное поле                  | Формируется из номера счета и бизнес-контекста парковки                                               |
-| `receipt`                      | Данные для чека             | вне текущего маппинга             | В текущей схеме не моделируется как часть вызова ЮKassa                                               |
-| `payment_method_data.type`     | Канал оплаты                | `payment.payment_methods.code`    | Должен быть согласован со справочником внутренних способов оплаты                                     |
-| `metadata.invoice_id`          | Идентификатор счета         | `payment.invoices.id`             | Передается как техническая корреляция                                                                 |
-| `metadata.invoice_number`      | Номер счета                 | `payment.invoices.invoice_number` | Полезен для сверки в поддержке и логах                                                                |
-| `metadata.booking_id`          | Идентификатор бронирования  | `payment.invoices.booking_id`     | Передается только для счета `SINGLE`                                                                  |
-| `metadata.contract_id`         | Идентификатор договора      | `payment.invoices.contract_id`    | Передается только для счета `PERIODIC`                                                                |
-| `metadata.internal_payment_id` | Идентификатор платежа у нас | `payment.payments.id`             | Рекомендуемый резервный ключ корреляции                                                               |
+Маппинг применяется и для синхронного ответа на `POST /v3/payments`, и для повторного запроса объекта платежа.
 
-### Рекомендуемое преобразование суммы
+<!-- prettier-ignore-start -->
 
-| Внутренняя сумма | Значение для ЮKassa |
-| ---------------- | ------------------- |
-| `100`            | `"1.00"`            |
-| `1250`           | `"12.50"`           |
-| `150000`         | `"1500.00"`         |
+| Источник                                |                                                                | Приемник                          |                       | Комментарий |
+| --------------------------------------- | -------------------------------------------------------------- | --------------------------------- | --------------------- | ----------- |
+| Объект/атрибут                          | Тип, значение                                                  | Объект/атрибут                    | Тип, значение         |             |
+| `Payment.id`                            | `string`                                                       | `payments.provider_id`            | `VARCHAR(512)`        | Основной внешний идентификатор платежа в ЮKassa |
+| `Payment.status`                        | `string`: `pending`, `waiting_for_capture`, `succeeded`, `canceled` | `payments.status`            | `payment_status_enum` | Маппится по разделу [Статусы платежа](#статусы-платежа) |
+| `Payment.paid`                          | `boolean`                                                      | не хранится в БД                  |                       | Используется для валидации вместе со статусом, но не заменяет его |
+| `Payment.amount.value`                  | `string` (decimal в major units)                               | `payments.amount_minor`           | `BIGINT`              | Конвертируется из major в minor units для сверки |
+| `Payment.amount.currency`               | `string` (ISO 4217)                                            | `payments.currency`               | `CHAR(3)`             | Должна совпадать с запросом |
+| `Payment.created_at`                    | `string` (ISO 8601 datetime)                                   | не хранится отдельно              |                       | Время создания платежа в ЮKassa; при необходимости может быть вынесено в журнал интеграции |
+| `Payment.captured_at`                   | `string` (ISO 8601 datetime)                                   | `payments.completed_at`           | `TIMESTAMPTZ`         | Используется для успешно завершенного платежа |
+| `Payment.expires_at`                    | `string` (ISO 8601 datetime)                                   | не хранится в текущей модели      |                       | Может быть полезно для UI и повторной попытки оплаты |
+| `Payment.confirmation.confirmation_url` | `string` (URL)                                                 | не хранится в БД                  |                       | Возвращается клиентскому приложению или backend-for-frontend для редиректа |
+| `Payment.payment_method.id`             | `string`                                                       | не хранится в текущей модели      |                       | Требует отдельного решения, если нужна повторная оплата |
+| `Payment.payment_method.type`           | `string`: `bank_card`, `sbp`, `yoo_money`, `sberbank`, `cash`, ... | `payment_methods.code`        | `VARCHAR(64)`         | Маппится по разделу [Способы оплаты `payment_method.type`](#способы-оплаты-payment_methodtype); список значений может расширяться |
+| `Payment.cancellation_details.party`    | `string`                                                       | не хранится в текущей модели      |                       | Кто инициировал отмену; полезно для журнала интеграции |
+| `Payment.cancellation_details.reason`   | `string`                                                       | не хранится в текущей модели      |                       | Причина отмены; полезно для логов и сообщений оператору |
+| `Payment.metadata.invoice_id`           | `string` или `number`                                          | `invoices.id`                     | `BIGINT`              | Резервный канал корреляции |
+| `Payment.metadata.invoice_number`       | `string`                                                       | `invoices.invoice_number`         | `VARCHAR(64)`         | Удобно для сверки и поддержки |
+| `Payment.metadata.internal_payment_id`  | `string` или `number`                                          | `payments.id`                     | `BIGINT`              | Резервный ключ корреляции |
 
-## Маппинг ответа ЮKassa по платежу
+<!-- prettier-ignore-end -->
 
-Этот маппинг применяется для тела ответа на создание платежа или для повторного запроса объекта платежа.
+### HTTP-уведомление по платежу. Источник: ЮKassa → Приемник: модуль Оплата
 
-| Поле ЮKassa                     | Куда пишем у себя                                  | Таблица / поле                  | Правило                                                      |
-| ------------------------------- | -------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| `id`                            | Идентификатор платежа в ЮKassa                     | `payment.payments.provider_id`  | Основной внешний идентификатор                               |
-| `status`                        | Статус платежа                                     | `payment.payments.status`       | Маппится по таблице статусов ниже                            |
-| `paid`                          | Признак успешной оплаты                            | используется для валидации      | Не заменяет статус, а подтверждает его                       |
-| `amount.value`                  | Подтвержденная сумма                               | `payment.payments.amount_minor` | Конвертируется из major units в minor units для сверки       |
-| `amount.currency`               | Подтвержденная валюта                              | `payment.payments.currency`     | Должна совпадать с запросом                                  |
-| `created_at`                    | Время создания платежа в ЮKassa                    | не хранится отдельно            | При необходимости может быть вынесено в журнал интеграции    |
-| `captured_at`                   | Время списания                                     | `payment.payments.completed_at` | Используется для успешно завершенного платежа                |
-| `expires_at`                    | Время истечения                                    | не хранится в текущей модели    | Может быть полезно для UI и повторной попытки оплаты         |
-| `confirmation.confirmation_url` | URL для редиректа клиента                          | не хранится в БД                | Возвращается клиентскому приложению или backend-for-frontend |
-| `payment_method.id`             | Идентификатор привязанного способа оплаты в ЮKassa | не хранится в текущей модели    | Требует отдельного решения, если нужна повторная оплата      |
-| `payment_method.type`           | Тип способа оплаты ЮKassa                          | `payment.payment_methods.code`  | Используется для логического маппинга канала оплаты          |
-| `cancellation_details.party`    | Кто инициировал отмену                             | не хранится в текущей модели    | Полезно для журнала интеграции                               |
-| `cancellation_details.reason`   | Причина отмены                                     | не хранится в текущей модели    | Полезно для логов, диагностики и сообщений оператору         |
+Уведомление приходит по событиям `payment.waiting_for_capture`, `payment.succeeded`, `payment.canceled` и содержит во вложенном поле `object` объект `Payment`.
 
-## Маппинг HTTP-уведомлений ЮKassa
+<!-- prettier-ignore-start -->
 
-ЮKassa отправляет HTTP-уведомления о событиях `payment.waiting_for_capture`, `payment.succeeded`, `payment.canceled` и `refund.succeeded`.
+| Источник                                       |                                                                | Приемник                                                              |                       | Комментарий |
+| ---------------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------- | ----------- |
+| Объект/атрибут                                 | Тип, значение                                                  | Объект/атрибут                                                        | Тип, значение         |             |
+| `type`                                         | `string` = `notification`                                      | не хранится                                                           |                       | Тип сообщения в нотификации; всегда фиксирован |
+| `event`                                        | `string`: `payment.waiting_for_capture`, `payment.succeeded`, `payment.canceled` | `shared.outbox_events.event_type` (опционально, как канал журналирования) | `VARCHAR(...)`   | Используется для маршрутизации обработки |
+| `object.id`                                    | `string`                                                       | `payments.provider_id`                                                | `VARCHAR(512)`        | Основной внешний ключ корреляции с записью платежа |
+| `object.status`                                | `string`: `pending`, `waiting_for_capture`, `succeeded`, `canceled` | `payments.status`                                                | `payment_status_enum` | Маппится по разделу [Статусы платежа](#статусы-платежа) |
+| `object.paid`                                  | `boolean`                                                      | не хранится в БД                                                      |                       | Для события `payment.succeeded` ожидается `true`; используется как доп. проверка |
+| `object.amount.value`                          | `string` (decimal в major units)                               | `payments.amount_minor`                                               | `BIGINT`              | Перед автозавершением сверяется с ожидаемой суммой |
+| `object.amount.currency`                       | `string` (ISO 4217)                                            | `payments.currency`                                                   | `CHAR(3)`             | Должна совпадать с ожидаемой |
+| `object.created_at`                            | `string` (ISO 8601 datetime)                                   | не хранится отдельно                                                  |                       | Может быть вынесено в журнал интеграции |
+| `object.captured_at`                           | `string` (ISO 8601 datetime)                                   | `payments.completed_at`                                               | `TIMESTAMPTZ`         | Заполняется только для события `payment.succeeded` |
+| `object.expires_at`                            | `string` (ISO 8601 datetime)                                   | не хранится в текущей модели                                          |                       | Может быть полезно для UI и логики повтора оплаты |
+| `object.confirmation.confirmation_url`         | `string` (URL)                                                 | не хранится в БД                                                      |                       | Используется для UI и backend-for-frontend |
+| `object.payment_method.id`                     | `string`                                                       | не хранится в текущей модели                                          |                       | Требует отдельного решения для повторной оплаты |
+| `object.payment_method.type`                   | `string`: `bank_card`, `sbp`, `yoo_money`, `sberbank`, `cash`, ... | `payment_methods.code`                                            | `VARCHAR(64)`         | Маппится по разделу [Способы оплаты `payment_method.type`](#способы-оплаты-payment_methodtype) |
+| `object.cancellation_details.party`            | `string`                                                       | не хранится в текущей модели                                          |                       | Полезно для журнала интеграции и диагностики |
+| `object.cancellation_details.reason`           | `string`                                                       | не хранится в текущей модели                                          |                       | Полезно для логов и сообщений оператору |
+| `object.metadata.invoice_id`                   | `string` или `number`                                          | `invoices.id`                                                         | `BIGINT`              | Резервный канал корреляции |
+| `object.metadata.internal_payment_id`          | `string` или `number`                                          | `payments.id`                                                         | `BIGINT`              | Резервный ключ корреляции |
 
-| Поле уведомления ЮKassa               | Куда пишем у себя                            | Таблица / поле                                                          | Правило                                                |
-| ------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ |
-| `event`                               | Тип входящего события                        | журнал интеграции или `shared.outbox_events.event_type`                 | Используется для маршрутизации обработки               |
-| `object.id`                           | Идентификатор платежа или возврата в ЮKassa  | `payment.payments.provider_id` или `payment.refunds.refund_provider_id` | Основной внешний ключ корреляции                       |
-| `object.status`                       | Статус объекта                               | `payment.payments.status` или `payment.refunds.status`                  | Маппится по таблице статусов                           |
-| `object.paid`                         | Признак успешной оплаты                      | используется для валидации                                              | Для события `payment.succeeded` ожидается `true`       |
-| `object.amount.value`                 | Сумма операции                               | `payment.payments.amount_minor` или `payment.refunds.amount_minor`      | Перед автозавершением нужно сверить с ожидаемой суммой |
-| `object.amount.currency`              | Валюта операции                              | `payment.payments.currency`                                             | Должна совпадать с ожидаемой                           |
-| `object.metadata.invoice_id`          | Идентификатор счета                          | `payment.invoices.id`                                                   | Резервный канал корреляции                             |
-| `object.metadata.internal_payment_id` | Идентификатор платежа у нас                  | `payment.payments.id`                                                   | Резервный ключ корреляции, если нужен                  |
-| `object.captured_at`                  | Время успешного списания                     | `payment.payments.completed_at`                                         | Заполняется для успешной оплаты                        |
-| `object.payment_id`                   | Идентификатор исходного платежа для возврата | `payment.payments.provider_id`                                          | Используется в уведомлении по возврату                 |
+<!-- prettier-ignore-end -->
 
-### События ЮKassa и реакция платформы
+### HTTP-уведомление по возврату. Источник: ЮKassa → Приемник: модуль Оплата
+
+Уведомление приходит по событию `refund.succeeded` и содержит во вложенном поле `object` объект `Refund`. Поля `Refund` имеют другую структуру, чем `Payment`, поэтому таблица отделена от webhook по платежу.
+
+<!-- prettier-ignore-start -->
+
+| Источник                              |                                                | Приемник                                                              |                      | Комментарий |
+| ------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------- | -------------------- | ----------- |
+| Объект/атрибут                        | Тип, значение                                  | Объект/атрибут                                                        | Тип, значение        |             |
+| `type`                                | `string` = `notification`                      | не хранится                                                           |                      | Тип сообщения; всегда фиксирован |
+| `event`                               | `string` = `refund.succeeded`                  | `shared.outbox_events.event_type` (опционально, как канал журналирования) | `VARCHAR(...)`   | Используется для маршрутизации обработки события возврата |
+| `object.id`                           | `string`                                       | `refunds.refund_provider_id`                                          | `VARCHAR(512)`       | Основной внешний идентификатор возврата |
+| `object.payment_id`                   | `string`                                       | `payments.provider_id`                                                | `VARCHAR(512)`       | Связь с исходным платежом |
+| `object.status`                       | `string`: `succeeded` (для события `refund.succeeded`); полный набор `pending`, `succeeded`, `canceled` требует онлайн-сверки | `refunds.status` | `refund_status_enum` | Маппится по разделу [Статусы возврата](#статусы-возврата) |
+| `object.amount.value`                 | `string` (decimal в major units)               | `refunds.amount_minor`                                                | `BIGINT`             | Сумма возврата; сверяется с ожидаемой |
+| `object.amount.currency`              | `string` (ISO 4217)                            | `payments.currency`                                                   | `CHAR(3)`            | Должна совпадать с валютой исходного платежа |
+| `object.created_at`                   | `string` (ISO 8601 datetime)                   | `refunds.completed_at`                                                | `TIMESTAMPTZ`        | Семантика created_at в Refund (момент инициации vs завершения) требует онлайн-сверки; для события `refund.succeeded` логично писать в `completed_at` |
+| `object.description`                  | `string` (опционально)                         | не хранится в текущей модели                                          |                      | Описание причины возврата; полезно для журнала интеграции |
+| `object.cancellation_details.party`   | `string`                                       | не хранится в текущей модели                                          |                      | Кто инициировал отмену возврата; полезно для журнала |
+| `object.cancellation_details.reason`  | `string`                                       | не хранится в текущей модели                                          |                      | Причина отмены возврата; полезно для диагностики |
+| `object.receipt_registration`         | `string` или `null` (статус фискализации возврата) | не хранится                                                       |                      | В текущей модели фискализация возврата не моделируется |
+| `object.metadata.internal_refund_id`  | `string` или `number`                          | `refunds.id`                                                          | `BIGINT`             | Резервный ключ корреляции |
+
+<!-- prettier-ignore-end -->
+
+### Запрос возврата (`POST /v3/refunds`). Источник: модуль Оплата → Приемник: ЮKassa
+
+Запрос отправляется по успешному платежу и фиксирует поля исходящего тела для создания возврата.
+
+<!-- prettier-ignore-start -->
+
+| Источник                |               | Приемник                       |               | Комментарий |
+| ----------------------- | ------------- | ------------------------------ | ------------- | ----------- |
+| Объект/атрибут          | Тип, значение | Объект/атрибут                 | Тип, значение |             |
+| `payments.provider_id`  | `VARCHAR(512)` | `payment_id`                  | `string`      | Идентификатор успешного платежа в ЮKassa; обязательное поле |
+| `refunds.amount_minor`  | `BIGINT`       | `amount.value`                | `string`      | Конвертируем из minor в формат `"123.45"`; должно быть не больше суммы исходного платежа |
+| `payments.currency`     | `CHAR(3)`      | `amount.currency`             | `string`      | Должна совпадать с валютой платежа, обычно `RUB` |
+| `refunds.reason`        | `TEXT`         | `description`                 | `string`      | Основание возврата в свободной форме |
+| `refunds.id`            | `BIGINT`       | `metadata.internal_refund_id` | `string` или `number` | Рекомендуемый резервный ключ корреляции |
+
+<!-- prettier-ignore-end -->
+
+Поля ЮKassa `sources`, `receipt`, `deal` в текущей интеграции не передаются; их применимость требует онлайн-сверки и фиксируется в [отчете о расхождениях](yookassa-mapping-divergences.md).
+
+### Ответ ЮKassa по возврату. Источник: ЮKassa → Приемник: модуль Оплата
+
+Ответ содержит созданный объект `Refund` с идентификатором, статусом и подтвержденной суммой.
+
+<!-- prettier-ignore-start -->
+
+| Источник                              |                                       | Приемник                       |                      | Комментарий |
+| ------------------------------------- | ------------------------------------- | ------------------------------ | -------------------- | ----------- |
+| Объект/атрибут                        | Тип, значение                         | Объект/атрибут                 | Тип, значение        |             |
+| `Refund.id`                           | `string`                              | `refunds.refund_provider_id`   | `VARCHAR(512)`       | Основной внешний идентификатор возврата |
+| `Refund.payment_id`                   | `string`                              | `payments.provider_id`         | `VARCHAR(512)`       | Связь с исходным платежом, используется для сверки |
+| `Refund.status`                       | `string`: `pending`, `succeeded`, `canceled` | `refunds.status`        | `refund_status_enum` | Маппится по разделу [Статусы возврата](#статусы-возврата) |
+| `Refund.amount.value`                 | `string` (decimal в major units)      | `refunds.amount_minor`         | `BIGINT`             | Конвертируется в minor units для сверки |
+| `Refund.amount.currency`              | `string` (ISO 4217)                   | `payments.currency`            | `CHAR(3)`            | Должна совпадать с валютой платежа |
+| `Refund.created_at`                   | `string` (ISO 8601 datetime)          | `refunds.initiated_at`         | `TIMESTAMPTZ`        | Время создания возврата у провайдера; в нашей модели семантически соответствует моменту инициации |
+| `Refund.description`                  | `string`                              | `refunds.reason`               | `TEXT`               | Эхо описания, переданного в запросе |
+| `Refund.cancellation_details.party`   | `string`                              | не хранится в текущей модели   |                      | Полезно для журнала интеграции |
+| `Refund.cancellation_details.reason`  | `string`                              | не хранится в текущей модели   |                      | Полезно для диагностики |
+
+<!-- prettier-ignore-end -->
+
+## Маппинг значений
+
+Раздел фиксирует маппинг enum-значений между API ЮKassa и внутренней моделью данных. Формат — 4 колонки, одинарная шапка: «Исходное значение», «Целевое значение», «Таблица — поле», «Комментарий». Колонка «Таблица — поле» обязательна, поскольку без нее теряется привязка значения к конкретному полю БД (`payments.status` отличается от `refunds.status`). Этот формат применяется только к маппингу значений; маппинг полей выше использует 5-колонный формат с двойной шапкой.
+
+### Статусы платежа
+
+| Исходное значение     | Целевое значение         | Таблица — поле    | Комментарий                                                                                                                                                                                                                                          |
+| --------------------- | ------------------------ | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pending`             | `INITIATED`              | `payments.status` | Платеж создан, ожидается действие пользователя                                                                                                                                                                                                       |
+| `waiting_for_capture` | `INITIATED`              | `payments.status` | Промежуточное состояние двухстадийной оплаты; в текущей модели нет отдельного enum-значения, поэтому мапится в `INITIATED`                                                                                                                           |
+| `succeeded`           | `COMPLETED`              | `payments.status` | Успешный финальный платеж                                                                                                                                                                                                                            |
+| `canceled`            | `CANCELLED` или `FAILED` | `payments.status` | Если отмена связана с пользовательским отказом, таймаутом или ручной отменой — `CANCELLED`; если с технической ошибкой или отказом провайдера — `FAILED`. Решение принимается на основе `cancellation_details.party` и `cancellation_details.reason` |
+
+### Статусы возврата
+
+| Исходное значение | Целевое значение | Таблица — поле   | Комментарий                                                                                                               |
+| ----------------- | ---------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `pending`         | `INITIATED`      | `refunds.status` | Возврат создан, еще не завершен                                                                                           |
+| `succeeded`       | `COMPLETED`      | `refunds.status` | Возврат завершен успешно                                                                                                  |
+| `canceled`        | `FAILED`         | `refunds.status` | В текущей модели нет отдельного статуса `CANCELED` для возврата; наличие статуса `pending` в Refund требует онлайн-сверки |
+
+### Способы оплаты `payment_method.type`
+
+| Исходное значение | Целевое значение | Таблица — поле         | Комментарий                                                                                                                                                                          |
+| ----------------- | ---------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `bank_card`       | `BANK_CARD`      | `payment_methods.code` | Банковская карта                                                                                                                                                                     |
+| `sbp`             | `SBP`            | `payment_methods.code` | Система быстрых платежей                                                                                                                                                             |
+| `yoo_money`       | `YOOMONEY`       | `payment_methods.code` | Электронный кошелек ЮMoney                                                                                                                                                           |
+| `sberbank`        | `SBERBANK`       | `payment_methods.code` | Оплата через Сбербанк                                                                                                                                                                |
+| `cash`            | `CASH`           | `payment_methods.code` | Наличные                                                                                                                                                                             |
+| `tinkoff_bank`    | требует решения  | `payment_methods.code` | Тип может присутствовать в актуальной документации ЮKassa; в текущем справочнике `payment_methods` отсутствует. Требует онлайн-сверки и отдельного решения по расширению справочника |
+| `mobile_balance`  | требует решения  | `payment_methods.code` | Пополнение баланса мобильного оператора; в справочнике отсутствует. Требует онлайн-сверки                                                                                            |
+| `installments`    | требует решения  | `payment_methods.code` | Рассрочка; в справочнике отсутствует. Требует онлайн-сверки                                                                                                                          |
+
+Если в справочнике `payment.payment_methods` используются другие коды, их нужно синхронизировать отдельным изменением. Расширение списка типов фиксируется в [отчете о расхождениях](yookassa-mapping-divergences.md).
+
+## События ЮKassa и реакция платформы
+
+Этот раздел описывает не маппинг полей, а бизнес-реакцию платформы на входящие события ЮKassa.
 
 | Событие ЮKassa                | Что делаем у себя                                                                                          |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | `payment.waiting_for_capture` | Оставляем платеж в `INITIATED`; если бизнес примет двухстадийную оплату, потребуется отдельный шаг capture |
 | `payment.succeeded`           | Переводим платеж в `COMPLETED`, заполняем `completed_at`, запускаем дальнейшие доменные действия           |
-| `payment.canceled`            | Переводим платеж в `CANCELLED` или `FAILED` по правилу ниже                                                |
+| `payment.canceled`            | Переводим платеж в `CANCELLED` или `FAILED` по правилу из раздела [Статусы платежа](#статусы-платежа)      |
 | `refund.succeeded`            | Переводим возврат в `COMPLETED`; при необходимости обновляем платеж до `REFUNDED`                          |
-
-## Маппинг запроса и ответа на возврат
-
-### Запрос `POST /v3/refunds`
-
-| Поле ЮKassa                   | Откуда в нашей системе                   | Таблица / поле                 | Правило                            |
-| ----------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-| `payment_id`                  | Идентификатор успешного платежа в ЮKassa | `payment.payments.provider_id` | Обязательное поле для возврата     |
-| `amount.value`                | Сумма возврата                           | `payment.refunds.amount_minor` | Передается в major units строкой   |
-| `amount.currency`             | Валюта возврата                          | `payment.payments.currency`    | Должна совпадать с валютой платежа |
-| `description`                 | Основание возврата                       | `payment.refunds.reason`       | Передается в текстовом виде        |
-| `metadata.internal_refund_id` | Идентификатор возврата у нас             | `payment.refunds.id`           | Рекомендуемый ключ корреляции      |
-
-### Ответ по возврату
-
-| Поле ЮKassa                   | Куда пишем у себя               | Таблица / поле                       | Правило                                           |
-| ----------------------------- | ------------------------------- | ------------------------------------ | ------------------------------------------------- |
-| `id`                          | Идентификатор возврата в ЮKassa | `payment.refunds.refund_provider_id` | Основной внешний идентификатор возврата           |
-| `payment_id`                  | Связь с исходным платежом       | `payment.payments.provider_id`       | Используется для сверки                           |
-| `status`                      | Статус возврата                 | `payment.refunds.status`             | Маппится по таблице статусов ниже                 |
-| `amount.value`                | Подтвержденная сумма возврата   | `payment.refunds.amount_minor`       | Конвертируется в minor units                      |
-| `created_at`                  | Время создания возврата         | `payment.refunds.initiated_at`       | Если возврат создается синхронно по ответу ЮKassa |
-| `cancellation_details.party`  | Инициатор отмены возврата       | не хранится в текущей модели         | Полезно для журнала интеграции                    |
-| `cancellation_details.reason` | Причина отмены возврата         | не хранится в текущей модели         | Полезно для диагностики                           |
-
-## Маппинг статусов
-
-### Статусы платежа ЮKassa
-
-| Статус ЮKassa         | Внутренний статус        | Таблица / поле            | Комментарий                                                                                                                                                                  |
-| --------------------- | ------------------------ | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `pending`             | `INITIATED`              | `payment.payments.status` | Платеж создан, ожидается действие пользователя                                                                                                                               |
-| `waiting_for_capture` | `INITIATED`              | `payment.payments.status` | Для нашей текущей модели это промежуточное состояние без отдельного enum                                                                                                     |
-| `succeeded`           | `COMPLETED`              | `payment.payments.status` | Успешный финальный платеж                                                                                                                                                    |
-| `canceled`            | `CANCELLED` или `FAILED` | `payment.payments.status` | Если отмена связана с пользовательским отказом, таймаутом или ручной отменой, используем `CANCELLED`; если с технической ошибкой или отказом провайдера, используем `FAILED` |
-
-### Статусы возврата ЮKassa
-
-| Статус ЮKassa | Внутренний статус | Таблица / поле           | Комментарий                                                     |
-| ------------- | ----------------- | ------------------------ | --------------------------------------------------------------- |
-| `pending`     | `INITIATED`       | `payment.refunds.status` | Возврат создан, еще не завершен                                 |
-| `succeeded`   | `COMPLETED`       | `payment.refunds.status` | Возврат завершен успешно                                        |
-| `canceled`    | `FAILED`          | `payment.refunds.status` | В текущей модели нет отдельного статуса `CANCELED` для возврата |
-
-### Рекомендуемый маппинг `payment_method.type`
-
-| `payment_method.type` ЮKassa | Рекомендуемый `payment.payment_methods.code` |
-| ---------------------------- | -------------------------------------------- |
-| `bank_card`                  | `BANK_CARD`                                  |
-| `sbp`                        | `SBP`                                        |
-| `yoo_money`                  | `YOOMONEY`                                   |
-| `sberbank`                   | `SBERBANK`                                   |
-| `cash`                       | `CASH`                                       |
-
-Если в справочнике `payment.payment_methods` используются другие коды, их нужно синхронизировать отдельным изменением.
 
 ## Правила валидации и хранения
 
-1. Каноничная денежная форма в БД остается в minor units, а ЮKassa получает и возвращает `amount.value` в major units строкой.
+1. Каноничная денежная форма в БД остается в minor units, а ЮKassa получает и возвращает `amount.value` в major units строкой. Пример конверсии:
+
+   | Внутренняя сумма (`amount_minor`, BIGINT) | Значение для ЮKassa (`amount.value`, string) |
+   | ----------------------------------------- | -------------------------------------------- |
+   | `100`                                     | `"1.00"`                                     |
+   | `1250`                                    | `"12.50"`                                    |
+   | `150000`                                  | `"1500.00"`                                  |
+
 2. Идентификатор платежа ЮKassa из поля `id` должен сохраняться в `payment.payments.provider_id` сразу после успешного создания объекта платежа.
 3. Финальный статус платежа должен подтверждаться HTTP-уведомлением ЮKassa.
 4. URL для HTTP-уведомлений должен быть `https`, как требует документация ЮKassa.
@@ -268,13 +312,20 @@
 - В схеме нет отдельного журнала идемпотентности и дедупликации входящих HTTP-уведомлений.
 - В схеме нет отдельного поля для `cancellation_details.party` и `cancellation_details.reason`.
 - В схеме нет отдельного поля для хранения `confirmation.confirmation_url`.
-- В схеме нет отдельного статуса для `waiting_for_capture`.
-- В схеме нет отдельного статуса `canceled` для возврата, поэтому он маппится в `FAILED`.
+- В схеме нет отдельного статуса для `waiting_for_capture` (мапится в `INITIATED`).
+- В схеме нет отдельного статуса `canceled` для возврата (мапится в `FAILED`).
+- В справочнике `payment.payment_methods` отсутствуют коды для типов `tinkoff_bank`, `mobile_balance`, `installments`; их добавление — отдельное решение, см. [отчет о расхождениях](yookassa-mapping-divergences.md).
+- Поля `sources`, `receipt`, `deal` запроса `POST /v3/refunds` в текущей интеграции не используются; их применимость требует онлайн-сверки.
+- Семантика `Refund.created_at` (момент инициации vs момент завершения) и `Refund.status = pending` в актуальной документации ЮKassa требуют онлайн-сверки.
 
 ## Связанные документы
 
 - [Требования к интеграции](../../specs/integration/integration-requirements.md) — фиксируют требования класса `INT-*`, которые этот маппинг детализирует на уровне полей и статусов.
+- [Расхождения маппинга ЮKassa](yookassa-mapping-divergences.md) — отчет о расхождениях текущего маппинга с другими артефактами репо и с актуальной документацией ЮKassa.
 - [UC-10.2 Оплатить онлайн (краткосрочная аренда)](../../artifacts/use-case/uc-10-2-pay-online-short-term-rental.md) — основной пользовательский сценарий, для которого применяется текущий маппинг.
+- [Sequence-диаграмма UC-10.2](sequence-uc-10-2-pay-online-short-term-rental.md) — последовательность вызовов, в рамках которой работают эти таблицы.
+- [JSON-пример ответа UC-10.2-1](payload-uc-10-2-payment.md) — каноничные примеры внутреннего контракта ответа платформы клиенту.
+- [JSON-схема ответа UC-10.2-1](schema-uc-10-2-payment.md) — формальный контракт внутреннего ответа платформы клиенту.
 - [Индекс интеграционной архитектуры](readme.md) — верхний каталог интеграционных материалов.
 - [C4-диаграммы цифровой платформы парковки](../c4/c4-diagrams.md) — задают ЮKassa как внешний платежный контур платформы (Level 1) и показывают интеграцию через `Payment Adapter` внутри Backend-приложения (Level 2 и Level 3).
 - [Индекс архитектуры данных и БД](../database/readme.md) — ведет к материалам по платежному контуру.
