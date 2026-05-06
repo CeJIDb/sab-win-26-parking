@@ -14,12 +14,11 @@
 
 Краткий маршрут знакомства с проектом:
 
-1. [Карточка проекта](artifacts/project-charter.md)
-2. [Контекстная диаграмма](artifacts/context-diagram.md)
-3. [Концептуальная модель с атрибутами](artifacts/conceptual-model-with-attributes.md)
+1. [История развития проекта](process/project-journey.md)
+2. [Карточка проекта](artifacts/project-charter.md)
+3. [Контекстная диаграмма](artifacts/context-diagram.md)
 4. [Индекс спецификаций](specs/readme.md)
 5. [Индекс архитектуры](architecture/readme.md)
-6. [Индекс интервью](interviews/readme.md)
 
 ## Разделы
 
@@ -33,7 +32,6 @@
 ## Вспомогательные инструменты
 
 - [Скрипты для документации](../scripts/docs/readme.md) — вспомогательные утилиты для проверки и подготовки материалов.
-- Каталог `temp_context/` в корне репозитория — временная рабочая область; устойчивые результаты переносите в `docs/`.
 
 ## Каноничные и вспомогательные материалы
 
