@@ -27,8 +27,9 @@ skillsmp-mcp-server-1.0.0.tgz
 # Playwright MCP artifacts (snapshots, screenshots)
 .playwright-mcp/
 
-# Playwright saved session (cookies, storage — never commit)
+# Saved sessions (cookies, storage — never commit)
 .playwright-session.json
+.google-session.json
 
 # Environment files (never committed)
 .env
