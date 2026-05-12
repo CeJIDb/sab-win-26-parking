@@ -44,7 +44,7 @@ This guide defines naming and structure conventions for the `docs/` tree.
 
 - In documents where the content includes 3+ second-level sections (i.e., `## ...` headings) after the intro, include a clickable table of contents near the top as `## Оглавление` (or `## Table of Contents`).
 - The `## Оглавление` section must contain Markdown links to each relevant `## ...` section (e.g., `- [Naming Policy](#naming-policy)`), so readers can jump directly to the section.
-- Link anchors must follow GitHub-style slugification of the target heading text (the same logic is used by `scripts/check-markdown-links.mjs`).
+- Link anchors must follow GitHub-style slugification of the target heading text (the same logic is used by `scripts/lint/check-markdown-links.mjs`).
 - When headings are renamed or reorganized, update the table of contents accordingly in the same change.
 
 ## Related Documents Policy
