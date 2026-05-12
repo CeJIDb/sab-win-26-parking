@@ -9,7 +9,7 @@ This repository is focused on:
 - systems analysis and documentation (`docs/**`);
 - requirements and traceability (FR/NFR/ADR/protocols);
 - static wireframe (`ui/**`);
-- agent rules and commands (`.cursor/rules`, `.cursor/commands`, `.cursor/agents`).
+- agent rules and commands (`.claude/rules`, `.claude/skills`).
 
 ## Required Skills (Core)
 
@@ -19,12 +19,6 @@ This repository is focused on:
   - Use when creating or editing `plans/YYYY-MM-DD-*.md` files, before committing plans, or when explicitly asked to validate a plan.
 - `install-skill` (`.claude/skills/install-skill`)
   - Use when installing a new Claude skill from a GitHub URL (security audit + copy to project or global location).
-- `create-rule` (`~/.cursor/skills-cursor/create-rule`)
-  - Use for creating/updating `.cursor/rules/*.mdc`.
-- `create-skill` (`~/.cursor/skills-cursor/create-skill`)
-  - Use for creating project/user skills.
-- `create-subagent` (`~/.cursor/skills-cursor/create-subagent`)
-  - Use for creating/updating `.cursor/agents/*.md`.
 - `docs-audit` (`~/.agents/skills/docs-audit`)
   - Use to detect documentation drift and mismatches across artifacts.
 - `docs-writer` (`~/.agents/skills/docs-writer`)
@@ -65,14 +59,14 @@ Enable them only on explicit user request or when directly relevant.
 
 ## Selection Rules
 
-1. Start with project rules from `.cursor/rules/**` and commands from `.cursor/commands/**`.
+1. Start with project rules from `.claude/rules/**`.
 2. Select the minimum necessary skill set per task to reduce context noise.
 3. For requirements/spec tasks, prioritize:
    `requirements-engineering` -> `spec-flow-analyzer` -> `requirement-review`.
 4. For agent-instruction tasks, prioritize:
-   `skill-creator` + (`create-rule` / `create-skill` / `create-subagent`).
+   `skill-creator`.
 5. For contribution/git tasks, prioritize:
-   `make-repo-contribution` + `git-workflow` + local CI policy (`.cursor/rules/ci-gates.mdc`).
+   `make-repo-contribution` + `git-workflow` + local CI policy.
 
 ## Maintenance
 

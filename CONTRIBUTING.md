@@ -21,7 +21,7 @@
 
 ## Соглашение о коммитах
 
-Формат **Conventional Commits** с проверкой **commitlint** (`commitlint.config.cjs`; при необходимости см. подсказки в `.cursor/agents/git-workflow-master.md`):
+Формат **Conventional Commits** с проверкой **commitlint** (`commitlint.config.cjs`):
 
 - **Тип** и **scope** (если есть) — **латиницей**; краткое **описание после двоеточия — на русском** (до 100 символов в заголовке).
 - `docs(scope): …`, `feat(scope): …`, `fix(scope): …`, `chore(scope): …` и другие разрешённые типы из конфига.
@@ -45,15 +45,15 @@
 - `npm run commit:atomic:sh` — shell-fallback для сред, где `node` не может вызвать `git` (например, sandbox с `EPERM`);
 - `node ./scripts/atomic-commit.mjs --dry-run` — только план, без коммитов.
 
-Скрипт группирует изменённые файлы (относительно `HEAD`) по каталогам: `docs/specs/`, `docs/architecture/`, `ui/`, `.cursor/` и т.д., затем создаёт последовательность коммитов в фиксированном порядке.
+Скрипт группирует изменённые файлы (относительно `HEAD`) по каталогам: `docs/specs/`, `docs/architecture/`, `ui/` и т.д., затем создаёт последовательность коммитов в фиксированном порядке.
 
-Заголовки коммитов — **на русском после двоеточия**, в том же духе, что и правила **git-workflow-master**; сам агент Cursor **не вызывается** — шаблоны заданы в скрипте.
+Заголовки коммитов — **на русском после двоеточия**; шаблоны заданы в скрипте.
 
 Не выполняет `git push`. При незавершённом merge/rebase завершается с ошибкой.
 
 Подробности и порядок групп — в `scripts/atomic-commit.mjs` и `scripts/atomic-commit.sh`.
 
-**Субагент git-workflow-master из git-хуков автоматически не вызывается** (технически недоступно). При крупном диффе Husky запускает `scripts/git-workflow-agent-reminder.mjs` и выводит напоминание в терминал (см. `.husky/pre-commit`, `pre-push`).
+При крупном диффе Husky запускает `scripts/git-workflow-agent-reminder.mjs` и выводит напоминание в терминал (см. `.husky/pre-commit`, `pre-push`).
 
 ## Определение готовности PR (Definition of Ready)
 
