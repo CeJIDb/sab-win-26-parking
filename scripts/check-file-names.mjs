@@ -9,14 +9,14 @@
  *
  * Запрещено: кириллица, пробелы, спецсимволы, скобки и т.п.
  *
- * Сканируем директории, где живет проектный контент (docs, ui, sql, evals, plans, scripts).
+ * Сканируем директории, где живет проектный контент (docs, ui, sql, plans, scripts).
  * Корневые dot-файлы и служебные каталоги не трогаем.
  */
 import path from "node:path";
 import { promises as fs } from "node:fs";
 
 const ROOT = process.cwd();
-const SCAN_ROOTS = ["docs", "ui", "sql", "evals", "plans", "scripts"];
+const SCAN_ROOTS = ["docs", "ui", "sql", "plans", "scripts"];
 const EXCLUDE_DIRS = new Set([
   ".git",
   "node_modules",

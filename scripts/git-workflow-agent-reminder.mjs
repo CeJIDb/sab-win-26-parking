@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
- * Напоминание о субагенте git-workflow-master и atomic-commit при «крупном» диффе.
- * Cursor-агенты из git-хуков запустить нельзя — только вывод в терминал.
+ * Напоминание об atomic-commit при «крупном» диффе.
  *
  * Режимы:
  *   --staged   только индекс (для pre-commit)
@@ -71,9 +70,7 @@ function printReminder(context) {
   const msg = `
 husky(git-workflow-reminder): накопилось заметное изменение (${context}).
   Рекомендуется перед коммитом/push:
-  • субагент: @.cursor/agents/git-workflow-master.md (правило: .cursor/rules/git-workflow-master.mdc)
   • атомарные коммиты: npm run commit:atomic --dry-run  →  npm run commit:atomic
-  • ревью готовности: слэш-команда review-pr-readiness (.cursor/commands/review-pr-readiness.md)
 `;
   console.warn(msg);
 }

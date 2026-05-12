@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Группирует текущие изменения относительно HEAD в несколько атомарных коммитов.
- * Заголовки: Conventional Commits + commitlint; тип и scope — латиницей, описание после «:» — на русском
- * (как в `.cursor/agents/git-workflow-master.md`). Скрипт не вызывает агента — шаблоны зашиты здесь.
+ * Заголовки: Conventional Commits + commitlint; тип и scope — латиницей, описание после «:» — на русском.
+ * Скрипт не вызывает агента — шаблоны зашиты здесь.
  * Сообщения коммитов генерируются из реальных изменений: имена файлов + тип изменения (A/M/D/R).
  *
  * Использование:
@@ -203,8 +203,6 @@ function bucketPrefixForDef(def) {
       return ".husky/";
     case "claude":
       return ".claude/";
-    case "cursor":
-      return ".cursor/";
     case "scripts":
       return "scripts/";
     case "plans":
@@ -376,11 +374,6 @@ const BUCKET_DEFS = [
     message: "docs(claude): обновить навигацию и правила для Claude",
   },
   {
-    id: "cursor",
-    test: (f) => f.startsWith(".cursor/"),
-    message: "chore(cursor): обновить правила и команды Cursor",
-  },
-  {
     id: "plans",
     test: (f) => f.startsWith("plans/"),
     message: "docs(plans): обновить технические планы",
@@ -459,7 +452,6 @@ const BUCKET_ORDER = [
   "scripts",
   "tooling",
   "claude",
-  "cursor",
   "plans",
   "specs",
   "architecture",
