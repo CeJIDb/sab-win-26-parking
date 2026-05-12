@@ -27,6 +27,7 @@
  *   • Перед коммитом прогоняется `prettier --write` по форматируемым файлам.
  */
 import { execFileSync, execSync } from "node:child_process";
+import { existsSync } from "node:fs";
 import { createInterface } from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
@@ -562,8 +563,13 @@ async function main() {
       (p) => statusMap.get(p) !== "D" && PRETTIER_FILE_RE.test(p),
     );
     runPrettierWrite(prettierTargets);
-    // -A: захватываем и удаления тоже, ограничившись перечисленными путями.
-    gitRun(["add", "-A", "--", ...fs]);
+    // Пропускаем файлы, уже проиндексированные через git rm (D в индексе, физически отсутствуют).
+    // git add -A на них упадёт с "pathspec did not match any files".
+    const cachedStaged = new Set(
+      gitStdoutRaw(["diff", "--cached", "--name-only", "-z"]).split("\0").filter(Boolean),
+    );
+    const toAdd = fs.filter((f) => !(cachedStaged.has(f) && !existsSync(f)));
+    if (toAdd.length > 0) gitRun(["add", "-A", "--", ...toAdd]);
     gitRun(["commit", "-m", msg]);
     console.log(`Создан: ${msg}`);
   }
