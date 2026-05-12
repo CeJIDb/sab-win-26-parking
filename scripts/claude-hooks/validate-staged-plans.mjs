@@ -22,7 +22,7 @@ const cmd = (payload.tool_input && payload.tool_input.command) || "";
 if (!/\bgit\s+commit\b/.test(cmd)) process.exit(0);
 
 const projectDir = process.env.CLAUDE_PROJECT_DIR || process.cwd();
-const scriptPath = path.join(projectDir, "scripts", "validate-plans.mjs");
+const scriptPath = path.join(projectDir, "scripts", "plans", "validate-plans.mjs");
 
 try {
   execFileSync("node", [scriptPath, "--staged"], { stdio: "inherit" });

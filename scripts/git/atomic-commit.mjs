@@ -6,11 +6,11 @@
  * Сообщения коммитов генерируются из реальных изменений: имена файлов + тип изменения (A/M/D/R).
  *
  * Использование:
- *   node scripts/atomic-commit.mjs                  # план + подтверждение (y/N)
- *   node scripts/atomic-commit.mjs --yes            # без подтверждения
- *   node scripts/atomic-commit.mjs --dry-run        # только план, без коммитов
- *   node scripts/atomic-commit.mjs --staged-only    # коммитить только уже проиндексированные файлы
- *   node scripts/atomic-commit.mjs --verbose        # показывать вывод prettier и git commit (по умолчанию тихий режим)
+ *   node scripts/git/atomic-commit.mjs                  # план + подтверждение (y/N)
+ *   node scripts/git/atomic-commit.mjs --yes            # без подтверждения
+ *   node scripts/git/atomic-commit.mjs --dry-run        # только план, без коммитов
+ *   node scripts/git/atomic-commit.mjs --staged-only    # коммитить только уже проиндексированные файлы
+ *   node scripts/git/atomic-commit.mjs --verbose        # показывать вывод prettier и git commit (по умолчанию тихий режим)
  *
  * По умолчанию вывод prettier, git add и git commit (включая husky-хуки) подавлен,
  * остаются только план коммитов, строки «Создан: …» и сообщения об ошибках.

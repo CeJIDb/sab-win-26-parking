@@ -38,7 +38,7 @@ if (
   process.exit(0);
 }
 
-const scriptPath = path.join(projectDir, "scripts", "validate-plans.mjs");
+const scriptPath = path.join(projectDir, "scripts", "plans", "validate-plans.mjs");
 
 try {
   execFileSync("node", [scriptPath, path.resolve(filePath)], { stdio: "inherit" });
