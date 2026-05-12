@@ -6,7 +6,7 @@
       "Bash(npm run ci:check)",
       "Bash(npm run lint:md)",
       "Bash(npm run lint:md:fix)",
-      "Bash(npm run lint:md:legacy)",
+      "Bash(npm run lint:md:custom)",
       "Bash(npm run lint:md-links)",
       "Bash(npm run lint:file-names)",
       "Bash(npm run check:branch)",

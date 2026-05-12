@@ -28,7 +28,7 @@ description: Validate plans/YYYY-MM-DD-*.md files against project rules from CLA
 
 ### Режим 1 — автоматический (скрипт)
 
-Каноничный валидатор живёт в `scripts/validate-plans.mjs` (версионируется вместе с репозиторием, используется husky pre-commit hook). Из корня проекта:
+Каноничный валидатор живёт в `scripts/plans/validate-plans.mjs` (версионируется вместе с репозиторием, используется husky pre-commit hook). Из корня проекта:
 
 ```bash
 # Проверить все планы
@@ -38,7 +38,7 @@ npm run check:plans
 npm run check:plans:staged
 
 # Проверить конкретный файл напрямую
-node ./scripts/validate-plans.mjs plans/2026-04-24-tooling-adoption.md
+node ./scripts/plans/validate-plans.mjs plans/2026-04-24-tooling-adoption.md
 ```
 
 Скрипт печатает итог по каждому файлу. Код выхода: `0` если всё ок, `1` если найдены ошибки, `2` если ошибка запуска.
@@ -80,4 +80,4 @@ node ./scripts/validate-plans.mjs plans/2026-04-24-tooling-adoption.md
 
 - `CLAUDE.md` — раздел «Технические планы» и «Как работать с этим репозиторием».
 - `plans/README.md` — те же правила в развёрнутом виде.
-- `scripts/check-branch-name.mjs` — стилистически аналогичный валидатор для имён веток (ориентир по стилю Node-скриптов в проекте).
+- `scripts/git/check-branch-name.mjs` — стилистически аналогичный валидатор для имён веток (ориентир по стилю Node-скриптов в проекте).

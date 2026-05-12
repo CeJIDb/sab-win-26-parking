@@ -22,10 +22,10 @@
 Пример больших файлов в parking:
 
 ```bash
-ast-index outline scripts/atomic-commit.mjs
+ast-index outline scripts/git/atomic-commit.mjs
 # → 20+ функций: classifyFile, BUCKET_DEFS, main …
 
-ast-index outline scripts/validate-plans.mjs
+ast-index outline scripts/plans/validate-plans.mjs
 # → структура валидатора планов перед чтением
 ```
 

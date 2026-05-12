@@ -83,7 +83,7 @@ sab-win-26-mine-parking/
 1. **Авторизация (один раз / при истечении сессии).** Креды лежат в `.env` (`BUILDIN_EMAIL`, `BUILDIN_PASSWORD`) — не в контексте Claude. Запуск:
 
    ```bash
-   .venv/bin/python scripts/buildin-auth.py
+   .venv/bin/python scripts/integrations/buildin-auth.py
    ```
 
    Скрипт открывает Chromium (`headless=False`), логинится и сохраняет cookies в `.playwright-session.json`. Файл в `.gitignore`.
@@ -93,7 +93,7 @@ sab-win-26-mine-parking/
 2. **Чтение страницы.** При наличии `.playwright-session.json`:
 
    ```bash
-   .venv/bin/python scripts/buildin-explore.py "<url>"
+   .venv/bin/python scripts/integrations/buildin-explore.py "<url>"
    ```
 
    Скрипт ходит headless с сохранённой сессией, скроллит лениво подгружаемые блоки и складывает в `.playwright-mcp/`:
