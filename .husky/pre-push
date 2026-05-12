@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-node ./scripts/git-workflow-agent-reminder.mjs --worktree
+node ./scripts/git/git-workflow-agent-reminder.mjs --worktree
 
 npm run check:branch
 npm run ci:check
