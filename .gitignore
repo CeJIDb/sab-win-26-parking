@@ -41,3 +41,6 @@ temp_context/
 
 # Temporary scratch files for plans (not formal plans)
 plans/.tmp/
+
+# Compressed repo context (auto-generated, not for review)
+docs/repo-context-compressed.md
