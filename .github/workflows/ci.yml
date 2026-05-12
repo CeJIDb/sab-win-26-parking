@@ -24,11 +24,11 @@ jobs:
           fetch-depth: 0
 
       - name: Validate branch naming
-        run: node ./scripts/check-branch-name.mjs
+        run: node ./scripts/git/check-branch-name.mjs
 
       - name: Validate traceability guard
         run: |
-          node ./scripts/check-traceability-matrix-update.mjs
+          node ./scripts/lint/check-traceability-matrix-update.mjs
 
   quality-gates:
     runs-on: ubuntu-latest
