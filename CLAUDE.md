@@ -27,12 +27,10 @@ sab-win-26-mine-parking/
 ├── ui/                      ← статический wireframe (SCSS + Nunjucks → HTML)
 ├── plans/                   ← технические планы (один план = одна задача)
 ├── scripts/                 ← скрипты CI, линтов, atomic-commit, claude-hooks
-├── .cursor/                 ← правила и агенты Cursor
 ├── .claude/                 ← настройки Claude Code: rules, hooks, deny-правила
 ├── .husky/                  ← git-хуки: commit-msg, pre-commit, pre-push
 ├── .github/                 ← CI workflows, PR/Issue templates, CODEOWNERS
-├── sql/                     ← SQL-заготовки для учебной части
-└── evals/                   ← оценочные материалы курса
+└── sql/                     ← SQL-заготовки для учебной части
 ```
 
 ### Где что искать
@@ -49,7 +47,6 @@ sab-win-26-mine-parking/
 | Матрица трассировки (журнал)    | [docs/process/traceability-matrix-log.md](docs/process/traceability-matrix-log.md) |
 | Wireframe                       | [ui/pages/](ui/pages/), сборка `npm run build`                                     |
 | Технические планы               | [plans/](plans/), [plans/README.md](plans/README.md)                               |
-| Правила Cursor                  | [.cursor/rules/](.cursor/rules/), [.cursor/commands/](.cursor/commands/)           |
 | Правила Claude (опц. ast-index) | [.claude/rules/ast-index.md](.claude/rules/ast-index.md)                           |
 | Скрипты (прочие)                | [scripts/](scripts/)                                                               |
 

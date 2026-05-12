@@ -52,9 +52,7 @@
       "Read(**/*.p12)",
       "Read(**/*.pfx)",
       "Read(**/*.sqlite)",
-      "Read(**/*.sqlite3)",
-      "Read(.cursor/mcp.json)",
-      "Read(.cursor/mcp.json.example)"
+      "Read(**/*.sqlite3)"
     ]
   },
   "hooks": {
