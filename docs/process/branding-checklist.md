@@ -27,6 +27,5 @@
    - `README.md` — секция `## Wireframe-макет`, абзац «Задеплоенная версия UI доступна по ссылке».
    - `docs/process/project-journey.md` — абзац «Задеплоенная версия wireframe».
 5. **Не трогать** документы-снимки, где URL фиксирует состояние на конкретную дату:
-   - `docs/interviews/plans/interview-plan-7-2026-03-04-v01.md`, `docs/interviews/protocols/interview-protocol-7-2026-03-04-v01.md` — URL отражает реальность на 2026-03-04;
-   - `plans/2026-05-12-readme-showcase.md` — план-снимок решений подплана 1 на 2026-05-12; URL зафиксирован в обосновании «решение зафиксировано» и менять его задним числом — искажать историю решений.
+   - `docs/interviews/plans/interview-plan-7-2026-03-04-v01.md`, `docs/interviews/protocols/interview-protocol-7-2026-03-04-v01.md` — URL отражает реальность на 2026-03-04.
 6. Прогнать `npm run lint:md-links` — должен быть зеленым.
