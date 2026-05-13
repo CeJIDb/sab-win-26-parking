@@ -36,7 +36,7 @@ with sync_playwright() as p:
     browser = p.chromium.launch(headless=True, args=["--ignore-certificate-errors"])
     ctx = browser.new_context(
         storage_state=SESSION_FILE,
-        viewport={"width": 1600, "height": 1000},
+        viewport={"width": 1920, "height": 8000},
         ignore_https_errors=True,
     )
     page = ctx.new_page()
@@ -44,17 +44,51 @@ with sync_playwright() as p:
     page.goto(URL, wait_until="networkidle")
     page.wait_for_timeout(4000)
 
-    # Скроллим до конца, чтобы lazy-блоки отрендерились
-    last = 0
-    for _ in range(40):
-        page.evaluate("window.scrollBy(0, 800)")
+    # buildin использует внутренний scroll-контейнер (Notion-like). Скроллим все
+    # scrollable элементы + window, чтобы lazy-блоки и виртуализированные строки
+    # таблиц отрендерились.
+    scroll_js = """
+    () => {
+        const scrollables = [document.scrollingElement, document.body, document.documentElement];
+        for (const el of document.querySelectorAll('*')) {
+            const style = getComputedStyle(el);
+            const oy = style.overflowY;
+            if ((oy === 'auto' || oy === 'scroll') && el.scrollHeight > el.clientHeight + 4) {
+                scrollables.push(el);
+            }
+        }
+        const results = [];
+        for (const el of scrollables) {
+            if (!el) continue;
+            try {
+                const before = el.scrollTop;
+                el.scrollTop = el.scrollHeight;
+                results.push({
+                    tag: el.tagName,
+                    cls: (el.className || '').toString().slice(0, 60),
+                    sh: el.scrollHeight,
+                    ch: el.clientHeight,
+                    before, after: el.scrollTop,
+                });
+            } catch (e) {}
+        }
+        return results;
+    }
+    """
+    for i in range(30):
+        info = page.evaluate(scroll_js)
+        page.wait_for_timeout(500)
+        # дополнительно жмем End на странице, чтобы триггерить keyboard-скролл
+        page.keyboard.press("End")
         page.wait_for_timeout(400)
-        h = page.evaluate("document.body.scrollHeight")
-        if h == last:
-            break
-        last = h
-    page.evaluate("window.scrollTo(0, 0)")
-    page.wait_for_timeout(500)
+        if i == 0:
+            print(f"scroll containers found: {len(info)}")
+    page.wait_for_timeout(1500)
+    # Возвращаем все наверх перед скриншотом
+    page.evaluate(
+        "() => { for (const el of document.querySelectorAll('*')) { try { el.scrollTop = 0; } catch(e) {} } window.scrollTo(0,0); }"
+    )
+    page.wait_for_timeout(800)
 
     # Полный скриншот
     page.screenshot(path=str(OUT_DIR / "buildin-explore-full.png"), full_page=True)
