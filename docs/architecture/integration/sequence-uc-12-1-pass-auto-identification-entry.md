@@ -95,6 +95,7 @@ sequenceDiagram
 ## Связанные документы
 
 - [UC-12.1 Пройти автоматическую идентификацию на въезде](../../artifacts/use-case/uc-12-1-pass-auto-identification-entry.md) — бизнес-сценарий, который эта диаграмма детализирует на уровне интеграционных взаимодействий.
+- [OpenAPI-контракт REST-метода — UC-12.1](openapi-uc-12-1-access-check.md) — формальный REST-контракт `POST /access/check` (request/response, ветки `400/401/503`, трехзначное решение `accessDecision`), на который опирается данный sequence. Каноничный путь — `POST /access/check`; вариант `POST /v1/verify-access` в Mermaid выше остается черновым.
 - [UC-12.2 Создать бронирование автоматически на въезде](../../artifacts/use-case/uc-12-2-create-booking-auto-entry.md) — вызывается из диаграммы при отсутствии активного бронирования.
 - [UC-12.4 Создать ПС](../../artifacts/use-case/uc-12-4-create-parking-session.md) — финальный переход после успешного решения ALLOW.
 - [Регламент взаимодействия ИС](is-interaction-regulation.md) — описывает блок «Контроль доступа (СКУД)» на уровне направлений обмена.
