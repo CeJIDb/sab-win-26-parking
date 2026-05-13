@@ -45,5 +45,5 @@
 
 - [BPMN AS-IS оплаты для физлиц и юрлиц](bpmn-payment-individual-and-legal-clients.md) — показывает оплату как часть сценария выезда.
 - [UC-12.6 Автоматическая идентификация на выезде](../use-case/uc-12-6-pass-auto-identification-exit.md) — описывает целевой сценарий проверки права на выезд.
-- [UC-12.9 Завершение парковочной сессии](../use-case/uc-12-9-complete-parking-session.md) — фиксирует закрытие сессии после выезда.
+- [UC-12.8 Завершить ПС](../use-case/uc-12-8-complete-parking-session.md) — фиксирует закрытие сессии после выезда.
 - [FR Parking Session](../../specs/functional-requirements/fr-parking-session.md) — задает требования к завершению парковочной сессии.

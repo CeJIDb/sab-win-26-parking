@@ -156,7 +156,7 @@
 
 ## Связанные документы
 
-- [UC-12.9 Завершение парковочной сессии](uc-12-9-complete-parking-session.md) — продолжает сценарий после идентификации на выезде.
+- [UC-12.8 Завершить ПС](uc-12-8-complete-parking-session.md) — продолжает сценарий после идентификации на выезде.
 - [Анализ ИБ парковки](../infosec/infosec-analyze-parking.md) — описывает риски и проверки, важные для допуска на выезд.
 - [Реестр use case](use-case-registry.md) — фиксирует место сценария в общем каталоге use case.
 - [FR Parking Session](../../specs/functional-requirements/fr-parking-session.md) — задает требования к завершению сессии и выезду.
