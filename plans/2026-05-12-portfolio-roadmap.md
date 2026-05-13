@@ -68,7 +68,7 @@
 | 3   | TL;DR-карточки highlights            | `plans/2026-05-12-highlights-tldr-cards.md`         | [x] выполнено; ретро: docs/process/retro/2026-05-12-highlights-tldr-cards.md                             |
 | 2   | Превью-картинки highlights           | создается при старте                                | [ ]                                                                                                      |
 | 5   | Demo Days как мини-кейсы             | `plans/2026-05-13-demo-days-mini-cases.md`          | [x] выполнен 2026-05-13, ретро: docs/process/retro/2026-05-13-demo-days-mini-cases.md                    |
-| 4   | Брендинг (badges, OG, Netlify-домен) | создается при старте                                | [ ]                                                                                                      |
+| 4   | Брендинг (badges, OG, Netlify-домен) | `plans/2026-05-13-portfolio-branding.md`            | [ ] создан 2026-05-13, ожидает исполнения                                                                |
 | 6   | EN-расширение                        | создается при старте                                | [ ]                                                                                                      |
 
 ### Состав каждого подплана (краткие задачи)
