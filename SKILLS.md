@@ -1,6 +1,6 @@
 # Project Skills Baseline
 
-This file defines which globally installed skills are baseline for work in `sab-win-26-mine-parking`, and when to use them.
+This file defines which globally installed skills are baseline for work in `sab-win-26-parking`, and when to use them.
 
 ## Context
 

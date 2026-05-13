@@ -1,8 +1,8 @@
 # Цифровая платформа парковки
 
 ![Status: учебный проект](https://img.shields.io/badge/status-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-blue)
-[![CI](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml)
-![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-mine-parking)
+[![CI](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml)
+![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-parking)
 [![License: ISC](https://img.shields.io/badge/license-ISC-green)](LICENSE)
 [![Demo](https://img.shields.io/badge/demo-Netlify-success)](https://sab-win-26-parking.netlify.app/)
 
@@ -15,7 +15,7 @@ OG-image для Social Preview этого репозитория — docs/assets
 Учебный проект курса [Systems Analyst Bootcamp](https://systems.education/systems-analyst-bootcamp).
 Портфолио системного аналитика — от исследования бизнеса AS-IS до интеграций и архитектурных решений.
 
-**Репозиторий:** [CeJIDb/sab-win-26-mine-parking](https://github.com/CeJIDb/sab-win-26-mine-parking)
+**Репозиторий:** [CeJIDb/sab-win-26-parking](https://github.com/CeJIDb/sab-win-26-parking)
 
 ## Проблема — Решение — Цель
 
