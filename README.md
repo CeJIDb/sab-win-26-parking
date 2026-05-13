@@ -207,10 +207,13 @@ TL;DR: интеграционная последовательность опл�
 - [skifup](https://github.com/skifup)
 - [CeJIDb](https://github.com/CeJIDb)
 
+Командная работа велась на общей [доске в Miro](https://miro.com/app/live-embed/uXjVHUcg6W8=/?embedMode=view_only_without_ui&moveToViewport=-28200%2C-14096%2C41087%2C20436&embedId=685005867404) (Event Storming, контекстные диаграммы, схемы процессов) и в базе знаний buildin.ai; этот репозиторий вел [@CeJIDb](https://github.com/CeJIDb) как maintainer.
+
 ## Навигация
 
 - [Обзор проекта](docs/project-overview.md) — предметные области и технологии репозитория
 - [Wireframe — демо](https://sab-win-26-parking.netlify.app/) — задеплоенный интерфейсный макет
+- [Доска команды — Miro](https://miro.com/app/live-embed/uXjVHUcg6W8=/?embedMode=view_only_without_ui&moveToViewport=-28200%2C-14096%2C41087%2C20436&embedId=685005867404) — общее рабочее пространство команды (view-only)
 - [Артефакты системного анализа](docs/artifacts/readme.md) — use case, BPMN, ES, контекстная диаграмма
 - [Архитектура](docs/architecture/readme.md) — DDD, C4, ADR, интеграции
 - [Спецификации](docs/specs/readme.md) — функциональные и нефункциональные требования
