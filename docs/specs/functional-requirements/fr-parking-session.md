@@ -285,7 +285,7 @@
 - [Концептуальная модель с атрибутами](../../artifacts/conceptual-model-with-attributes.md)
 - [Глоссарий проекта](../../artifacts/project-glossary.md)
 - [UC-12.4 «Создать ПС»](../../artifacts/use-case/uc-12-4-create-parking-session.md)
-- [UC-12.8 «Завершить ПС»](../../artifacts/use-case/uc-12-9-complete-parking-session.md)
+- [UC-12.8 «Завершить ПС»](../../artifacts/use-case/uc-12-8-complete-parking-session.md)
 - [ФТ: Бронирование](fr-booking.md)
 - [ФТ: Платеж](fr-payment.md)
 - [Журнал трассируемости](../../process/traceability-matrix-log.md)
