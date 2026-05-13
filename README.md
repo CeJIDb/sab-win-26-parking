@@ -1,5 +1,7 @@
 # Цифровая платформа парковки
 
+**Languages:** **Русский** · [English](README.en.md)
+
 ![Status: learning project](https://img.shields.io/badge/status-learning%20project-blue)
 [![CI](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml)
 ![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-parking)
@@ -240,19 +242,3 @@ npm run build
 ```
 
 После этого можно открыть `ui/index.html` и перейти в нужный контур.
-
----
-
-## English Summary
-
-**Parking Platform** is a systems analyst portfolio project from the Systems Analyst Bootcamp course. The subject is a private 600-space parking facility in Saint Petersburg, Russia.
-
-The project covers the full SA lifecycle:
-
-- AS-IS research: Event Storming, BPMN, interviews with the customer
-- Conceptual design: Impact Map, context diagram, use cases, wireframe
-- Software requirements: functional and non-functional requirements, constraints
-- Technical design: DDD bounded contexts, C4 model, ADR, ERD (PostgreSQL)
-- Integrations: DFD L1, UML Sequence (UC-10.2 online payment, UC-12.1 LPR access), Kafka/RabbitMQ requirements, YooKassa mapping
-
-Main entry points: [docs/readme.md](docs/readme.md) · [docs/specs/](docs/specs/) · [docs/architecture/](docs/architecture/)
