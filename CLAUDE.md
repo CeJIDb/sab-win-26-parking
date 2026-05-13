@@ -1,4 +1,4 @@
-# sab-win-26-mine-parking — навигация для Claude Code
+# sab-win-26-parking — навигация для Claude Code
 
 Карта репозитория для LLM-агента. Читай в начале каждой сессии.
 
@@ -11,7 +11,7 @@
 ## Структура репозитория
 
 ```text
-sab-win-26-mine-parking/
+sab-win-26-parking/
 ├── CLAUDE.md                ← этот файл, навигация для агента
 ├── README.md                ← вход для людей
 ├── CONTRIBUTING.md          ← регламент участников: ветки, коммиты, DoR/DoD, CI
