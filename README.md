@@ -169,6 +169,20 @@ TL;DR: интеграционная последовательность опл�
 
 → [Открыть артефакт](docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md)
 
+## 5 этапов / 5 demo
+
+5 demo-дней соответствуют 5 этапам системного проектирования проекта. Каждое demo — контрольная точка, на которой результаты этапа выносились на показ.
+
+| Этап                             | Demo                                      | Что показывали                                                  |
+| -------------------------------- | ----------------------------------------- | --------------------------------------------------------------- |
+| 1. Исследование бизнеса AS-IS    | [Demo 1](docs/demo-days/demo-1/readme.md) | Event Storming AS-IS, BPMN, UML Class, StateChart               |
+| 2. Концептуальное проектирование | [Demo 2](docs/demo-days/demo-2/readme.md) | Opportunity Canvas, Impact Map, User Story Map                  |
+| 3. Функциональное проектирование | [Demo 3](docs/demo-days/demo-3/readme.md) | ES TO-BE, Контекстная диаграмма, Use Case, FR/NFR               |
+| 4. Архитектура                   | [Demo 4](docs/demo-days/demo-4/readme.md) | Анализ угроз (галстук-бабочка), ES TO-BE с контекстами, C4, ERD |
+| 5. Проектирование интеграций     | [Demo 5](docs/demo-days/demo-5/readme.md) | DFD, Sequence, JSON/XML, требования к брокерам                  |
+
+История этапов — в [docs/process/project-journey.md](docs/process/project-journey.md).
+
 ## Команда
 
 Проект выполнен в команде системных аналитиков из 5 человек:
