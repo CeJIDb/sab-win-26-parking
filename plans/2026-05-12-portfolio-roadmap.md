@@ -69,7 +69,7 @@
 | 2   | Превью-картинки highlights           | создается при старте                                | [ ]                                                                                                      |
 | 5   | Demo Days как мини-кейсы             | `plans/2026-05-13-demo-days-mini-cases.md`          | [x] выполнен 2026-05-13, ретро: docs/process/retro/2026-05-13-demo-days-mini-cases.md                    |
 | 4   | Брендинг (badges, OG, Netlify-домен) | `plans/2026-05-13-portfolio-branding.md`            | [x] выполнен 2026-05-13; ретро: docs/process/retro/2026-05-13-portfolio-branding.md                      |
-| 6   | EN-расширение                        | создается при старте                                | [ ]                                                                                                      |
+| 6   | EN-расширение                        | `plans/2026-05-13-en-extension.md`                  | [x] выполнен 2026-05-13, ретро: docs/process/retro/2026-05-13-en-extension.md                            |
 
 ### Состав каждого подплана (краткие задачи)
 
@@ -164,7 +164,7 @@ highlight, а часть Event Storming TO-BE: контексты (`es-tobe-sd-c
       [docs/process/retro/2026-05-12-highlights-preview-images.md](../docs/process/retro/2026-05-12-highlights-preview-images.md)
 - [x] Фаза 7. Создан и выполнен подплан 5 (Demo Days), ретро написано
 - [x] Фаза 8. Создан и выполнен подплан 4 (брендинг), ретро написано
-- [ ] Фаза 9. Создан и выполнен подплан 6 (EN-расширение), ретро написано
+- [x] Фаза 9. Создан и выполнен подплан 6 (EN-расширение), ретро написано — docs/process/retro/2026-05-13-en-extension.md
 - [ ] Фаза 10. Финальная сверка: репо смотрится как портфолио, ссылки рабочие, ci:check зеленый
 
 ## Известные риски и принятые решения
