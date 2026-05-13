@@ -97,7 +97,7 @@
 - [x] `git-workflow-agent-reminder` выводит напоминание про atomic-commit без cursor-ссылок (smoke через `node scripts/git-workflow-agent-reminder.mjs`)
 - [x] `npm run ci:check` зелёный локально
 - [x] `npm run lint:md-links` зелёный локально
-- [ ] После push ветки `docs/portfolio-roadmap` (push делает пользователь): GitHub Actions `policy-checks`, `quality-gates`, `commitlint` — зелёные. Это покрывает реальный прогон `pre-push`-логики (husky `pre-push` локально через `git push --dry-run` не триггерится).
+- [x] После push ветки `docs/portfolio-roadmap` (push делает пользователь): GitHub Actions `policy-checks`, `quality-gates`, `commitlint` — зелёные. Это покрывает реальный прогон `pre-push`-логики (husky `pre-push` локально через `git push --dry-run` не триггерится).
 - [x] Ретро написано в `docs/process/retro/2026-05-12-cleanup-cursor-traces.md`
 
 ## Фазы и статус
@@ -109,7 +109,7 @@
 - [x] Фаза 5. Отвязка скриптов: `check-markdown.mjs` (убрать `.cursor` из `EXCLUDE_DIRS` — файл остаётся, это кастомный линтер, не legacy), `atomic-commit.mjs` (cursor-bucket), `git-workflow-agent-reminder.mjs` (cursor-ссылки в `printReminder`), `check-file-names.mjs` (`evals` в `SCAN_ROOTS`). После каждой правки — `node` smoke-тест. Пользователь коммитит.
 - [x] Фаза 6. Правка `.claude/settings.json` через скилл `update-config` — убрать `Read(.cursor/mcp.json)` и `Read(.cursor/mcp.json.example)` из `deny`. Пользователь коммитит.
 - [x] Фаза 7. Прогон `npm run ci:check` и `npm run lint:md-links` локально. Фикс каскадных ссылок (см. секцию выше). Если есть правки — пользователь коммитит отдельным fix-коммитом.
-- [ ] Фаза 8. **Прогон CI/CD:** пользователь делает `git push` ветки `docs/portfolio-roadmap` — на GitHub Actions проходят `policy-checks`, `quality-gates` (включая `ci:check`), `commitlint`, проверка семантического заголовка PR. Это реальная проверка `pre-push`-логики (husky `pre-push` локально через `--dry-run` не срабатывает — это технический факт git/husky). Дополнительно локально: `node scripts/git-workflow-agent-reminder.mjs` выводит напоминание без cursor-ссылок.
+- [x] Фаза 8. **Прогон CI/CD:** пользователь делает `git push` ветки `docs/portfolio-roadmap` — на GitHub Actions проходят `policy-checks`, `quality-gates` (включая `ci:check`), `commitlint`, проверка семантического заголовка PR. Это реальная проверка `pre-push`-логики (husky `pre-push` локально через `--dry-run` не срабатывает — это технический факт git/husky). Дополнительно локально: `node scripts/git-workflow-agent-reminder.mjs` выводит напоминание без cursor-ссылок.
 - [x] Фаза 9. Ретро в `docs/process/retro/2026-05-12-cleanup-cursor-traces.md` и закрытие плана.
 
 ## Итог
