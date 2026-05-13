@@ -17,12 +17,12 @@
 
 ### 1. AS-IS Event Storming
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: ключевые события, роли и болевые точки текущего процесса; ручная обработка на КПП и зависимость от сотрудника при каждой операции.
 
 <details>
 <summary>Подробнее</summary>
+
+[![Event Storming AS-IS](docs/artifacts/as-is/assets/event-storming-as-is.jpg)](docs/artifacts/as-is/event-storming-as-is.md)
 
 **Контекст:** Этап 1 «Исследование бизнеса заказчика»; источник — интервью с заказчиком и рабочая доска команды; артефакт использован как вход для AS-IS → TO-BE, Opportunity Canvas и User Story Map.
 
@@ -36,12 +36,12 @@ TL;DR: ключевые события, роли и болевые точки т
 
 ### 2. Opportunity Canvas
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: формализованное проблемное поле и ценность платформы — болевые точки AS-IS, ценностные предложения по группам пользователей и измеримые критерии успеха MVP.
 
 <details>
 <summary>Подробнее</summary>
+
+[![Opportunity Canvas](docs/artifacts/assets/opportunity-canvas.jpg)](docs/artifacts/opportunity-canvas.md)
 
 **Контекст:** Этап 2 «Концептуальное проектирование решения»; источник — workshop команды, интервью с заказчиком, протоколы №2, №3, №5; задал проблемное поле для Event Storming TO-BE и Контекстной диаграммы.
 
@@ -55,12 +55,12 @@ TL;DR: формализованное проблемное поле и ценн�
 
 ### 3. Контекстная диаграмма
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: границы системы, внешние участники (клиенты, персонал, СКУД, платежная система, сервис уведомлений) и потоки данных на уровне DFD L0.
 
 <details>
 <summary>Подробнее</summary>
+
+[![Контекстная диаграмма системы](docs/artifacts/assets/context-diagram.jpg)](docs/artifacts/context-diagram.md)
 
 **Контекст:** Этап 2 «Концептуальное проектирование решения»; источник — Impact Map, Opportunity Canvas, User Story Map, протоколы №1.1–№5.
 
@@ -73,8 +73,6 @@ TL;DR: границы системы, внешние участники (кли�
 → [Открыть артефакт](docs/artifacts/context-diagram.md)
 
 ### 4. FR Бронирование
-
-<!-- TODO: cover 1200×630 — подплан 2 -->
 
 TL;DR: функциональные требования к центральному доменному объекту — 10 главных UC бронирования (создание, изменение, отмена, просмотр), 5 акторов, реестр FR-BOOKING-NNN с трассировкой к договорам, оплате и автоматизации на КПП.
 
@@ -93,12 +91,12 @@ TL;DR: функциональные требования к центрально
 
 ### 5. Event Storming TO-BE: контексты
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: декомпозиция TO-BE сценариев на 15 доменных контекстов (5 Core, 8 Supporting, 2 Generic) через Event Storming Software Design — методологический мост от ES к DDD bounded contexts и C4.
 
 <details>
 <summary>Подробнее</summary>
+
+[![Event Storming TO-BE: контексты](docs/artifacts/es-to-be/assets/es-tobe-sd-contexts.jpg)](docs/architecture/ddd/es-tobe-sd-contexts.md)
 
 **Контекст:** Этап 4 «Техническое проектирование решения. Архитектура»; тип артефакта — Event Storming / контекстная декомпозиция; источник — рабочая TO-BE доска и декомпозиция контекстов; служит входом в DDD и C4 (L1 → L2 → L3).
 
@@ -112,12 +110,16 @@ TL;DR: декомпозиция TO-BE сценариев на 15 доменны�
 
 ### 6. C4 — Context и Container
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: архитектура на трех уровнях детализации — L1 граница системы, L2 контейнеры и интеграции, L3 20 внутренних компонентов Backend и 11 внешних систем.
 
 <details>
 <summary>Подробнее</summary>
+
+[![C4 L1 System Context](docs/architecture/c4/assets/c4-l1-system-context.png)](docs/architecture/c4/c4-diagrams.md)
+
+[![C4 L2 Container](docs/architecture/c4/assets/c4-l2-container.png)](docs/architecture/c4/c4-diagrams.md)
+
+[![C4 L3 Component](docs/architecture/c4/assets/c4-l3-component.png)](docs/architecture/c4/c4-diagrams.md)
 
 **Контекст:** Этап 4 «Техническое проектирование решения. Архитектура»; каноничный комплект C4, источник — draw.io (3 страницы); основан на ADR-001, ADR-002, ADR-003 и DDD Bounded Contexts.
 
@@ -131,12 +133,12 @@ TL;DR: архитектура на трех уровнях детализаци�
 
 ### 7. DFD L1
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: 20 компонентов, единое хранилище PostgreSQL и 10 внешних систем — полный контур потоков данных для интеграционных артефактов.
 
 <details>
 <summary>Подробнее</summary>
+
+[![DFD L1](docs/artifacts/assets/dfd-l1.jpg)](docs/artifacts/dfd-l1.md)
 
 **Контекст:** Этап 5 «Техническое проектирование решения. Интеграции»; промежуточный слой между DFD L0 (контекстная диаграмма) и C4 L3; источник истины — JPG-экспорт из draw.io; акторы — на L0.
 
@@ -150,12 +152,12 @@ TL;DR: 20 компонентов, единое хранилище PostgreSQL и 
 
 ### 8. Sequence UC-10.2 — онлайн-оплата
 
-<!-- TODO: cover 1200×630 — подплан 2 -->
-
 TL;DR: интеграционная последовательность оплаты краткосрочной аренды — взаимодействие компонентов платформы с ЮKassa, статусы платежа, квитанция, уведомление клиенту.
 
 <details>
 <summary>Подробнее</summary>
+
+[![Sequence UC-10.2 онлайн-оплата](docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png)](docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md)
 
 **Контекст:** Этап 5 «Техническое проектирование решения. Интеграции»; детализирует UC-10.2 на уровне межсистемных взаимодействий; охватывает требования INT-\* для онлайн-оплаты.
 
