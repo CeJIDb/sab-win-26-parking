@@ -57,10 +57,13 @@ Delivered by a team of five systems analysts:
 - [skifup](https://github.com/skifup)
 - [CeJIDb](https://github.com/CeJIDb)
 
+Day-to-day team work was done on a shared [Miro board](https://miro.com/app/live-embed/uXjVHUcg6W8=/?embedMode=view_only_without_ui&moveToViewport=-28200%2C-14096%2C41087%2C20436&embedId=685005867404) (Event Storming, context diagrams, process maps) and in a buildin.ai knowledge base; this repository was maintained by [@CeJIDb](https://github.com/CeJIDb).
+
 ## Navigation
 
 - [Project overview](docs/project-overview.md) (RU) — subject domains and repository tech.
 - [Wireframe demo](https://sab-win-26-parking.netlify.app/) — deployed UI mockup.
+- [Team Miro board](https://miro.com/app/live-embed/uXjVHUcg6W8=/?embedMode=view_only_without_ui&moveToViewport=-28200%2C-14096%2C41087%2C20436&embedId=685005867404) — shared team workspace (view-only).
 - [Analysis artifacts](docs/artifacts/readme.md) (RU) — use cases, BPMN, Event Storming, context diagram.
 - [Architecture](docs/architecture/readme.md) (RU) — DDD, C4, ADR, integrations.
 - [Specifications](docs/specs/readme.md) (RU) — functional and non-functional requirements.
