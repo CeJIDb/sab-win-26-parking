@@ -156,17 +156,21 @@
 
 Помечай каждую фазу `[x]` сразу по завершении и добавляй 1–2 строки в `## Итог` — не накапливай до конца.
 
-- [ ] Фаза 0. Сверка перед стартом: прочесть оглавление слайдов из каждого `demo-N-presentation-deck.md` — это канонический источник состава демо. Собрать список фактических артефактов-источников и убедиться, что каждый файл существует (`test -f` по путям). Если артефакт отсутствует — заменить на ближайший реальный или исключить пункт. `demo-days-overview.md` — только справочно, не редактировать.
-- [ ] Фаза 1. Унификация `docs/demo-days/demo-1/readme.md` по шаблону. Этап — «Исследование бизнеса заказчика (AS-IS)». Артефакты-источники включают `docs/artifacts/as-is/event-storming-as-is.md` как ключевой.
-- [ ] Фаза 2. Унификация `docs/demo-days/demo-2/readme.md`. Этап — «Концептуальное проектирование решения». Артефакты-источники: `docs/artifacts/impact-map.md`, `docs/artifacts/opportunity-canvas.md`, `docs/artifacts/user-story-map.md`.
-- [ ] Фаза 3. Унификация `docs/demo-days/demo-3/readme.md`. Этап — «Функциональное проектирование решения». Артефакты-источники: `docs/artifacts/context-diagram.md`, `docs/artifacts/use-case/use-case-registry.md`, `docs/artifacts/navigation-map.md`, `docs/artifacts/conceptual-model-with-attributes.md`.
-- [ ] Фаза 4. Унификация `docs/demo-days/demo-4/readme.md`. Этап — «Архитектура». Артефакты-источники: `docs/architecture/ddd/es-tobe-sd-contexts.md`, `docs/architecture/c4/c4-diagrams.md`, `docs/architecture/database/erd/erd-normalized-er-model.md`, `docs/artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md`. Секция «Содержимое каталога» с заглушками `slides/01.jpg` ... `slides/33.jpg` заменяется ссылкой на `slides/readme.md` — он существует.
-- [ ] Фаза 5. Унификация `docs/demo-days/demo-5/readme.md`. Этап — «Проектирование интеграций (финал)». Артефакты-источники: `docs/artifacts/dfd-l1.md`, `docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md`.
-- [ ] Фаза 6. Вставка раздела «5 этапов / 5 demo» в корневой `README.md` между блоком «## 8 ключевых артефактов» и блоком «## Команда». Проверка: после Prettier таблица не сломалась, все 10 ссылок (5 на demo, 5 на артефакты) рабочие.
-- [ ] Фаза 7. Прогон локальных проверок: `npm run lint:md`, `npm run lint:md-links`, `npm run ci:check`. Все три — зеленые.
-- [ ] Фаза 8. Ретро в `docs/process/retro/2026-05-13-demo-days-mini-cases.md`. Обновление статуса подплана 5 в roadmap (ячейка таблицы + Фаза 7 в списке фаз).
-- [ ] Фаза 9. Напоминание пользователю про `npm run commit:atomic` — дифф готов к коммитам и push.
+- [x] Фаза 0. Сверка перед стартом: прочесть оглавление слайдов из каждого `demo-N-presentation-deck.md` — это канонический источник состава демо. Собрать список фактических артефактов-источников и убедиться, что каждый файл существует (`test -f` по путям). Если артефакт отсутствует — заменить на ближайший реальный или исключить пункт. `demo-days-overview.md` — только справочно, не редактировать.
+- [x] Фаза 1. Унификация `docs/demo-days/demo-1/readme.md` по шаблону. Этап — «Исследование бизнеса заказчика (AS-IS)». Артефакты-источники включают `docs/artifacts/as-is/event-storming-as-is.md` как ключевой.
+- [x] Фаза 2. Унификация `docs/demo-days/demo-2/readme.md`. Этап — «Концептуальное проектирование решения». Артефакты-источники: `docs/artifacts/impact-map.md`, `docs/artifacts/opportunity-canvas.md`, `docs/artifacts/user-story-map.md`.
+- [x] Фаза 3. Унификация `docs/demo-days/demo-3/readme.md`. Этап — «Функциональное проектирование решения». Артефакты-источники: `docs/artifacts/context-diagram.md`, `docs/artifacts/use-case/use-case-registry.md`, `docs/artifacts/navigation-map.md`, `docs/artifacts/conceptual-model-with-attributes.md`.
+- [x] Фаза 4. Унификация `docs/demo-days/demo-4/readme.md`. Этап — «Архитектура». Артефакты-источники: `docs/architecture/ddd/es-tobe-sd-contexts.md`, `docs/architecture/c4/c4-diagrams.md`, `docs/architecture/database/erd/erd-normalized-er-model.md`, `docs/artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md`. Секция «Содержимое каталога» с заглушками `slides/01.jpg` ... `slides/33.jpg` заменяется ссылкой на `slides/readme.md` — он существует.
+- [x] Фаза 5. Унификация `docs/demo-days/demo-5/readme.md`. Этап — «Проектирование интеграций (финал)». Артефакты-источники: `docs/artifacts/dfd-l1.md`, `docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md`.
+- [x] Фаза 6. Вставка раздела «5 этапов / 5 demo» в корневой `README.md` между блоком «## 8 ключевых артефактов» и блоком «## Команда». Проверка: после Prettier таблица не сломалась, все 10 ссылок (5 на demo, 5 на артефакты) рабочие.
+- [x] Фаза 7. Прогон локальных проверок: `npm run lint:md`, `npm run lint:md-links`, `npm run ci:check`. Все три — зеленые.
+- [x] Фаза 8. Ретро в `docs/process/retro/2026-05-13-demo-days-mini-cases.md`. Обновление статуса подплана 5 в roadmap (ячейка таблицы + Фаза 7 в списке фаз).
+- [x] Фаза 9. Напоминание пользователю про `npm run commit:atomic` — дифф готов к коммитам и push.
 
 ## Итог
 
-Выполнение не начато. После каждой фазы добавляй 1–2 строки: что сделано, расхождения шаблона с реальным составом demo, какие решения приняты. В конце — зафиксировать, почему журнал трассировки не обновлялся.
+Все 5 файлов `docs/demo-days/demo-N/readme.md` приведены к единому шаблону (повестка → артефакты-источники → материалы выступления → связанные документы). В корневой `README.md` добавлен раздел «5 этапов / 5 demo» с таблицей из 5 строк между блоками «8 ключевых артефактов» и «Команда».
+
+Ключевые решения: BPMN-артефакты demo-1 объединены в один пункт (bpmn-parking-exit как основной); в demo-3 Event Storming TO-BE упомянут в Повестке, но не включен в Артефакты-источники (отдельный файл ES TO-BE для demo-3 отсутствует); в demo-4 удалены заглушки слайдов и добавлен 4-й пункт в Связанные документы (`architecture/readme.md`); в demo-5 в Повестку вошло только содержание Этапа 5, без ретроспективы предыдущих этапов (слайды 6–30).
+
+Журнал трассировки не обновлялся: все правки навигационные — содержание требований, артефактов и архитектурных решений не изменялось. Это соответствует скоупу, зафиксированному в разделе «Не входит» данного плана.

@@ -67,7 +67,7 @@
 | 1   | README-витрина                       | `plans/2026-05-12-readme-showcase.md`               | [x] выполнен локально / ожидает push CI; ретро: `docs/process/retro/2026-05-12-readme-showcase.md`       |
 | 3   | TL;DR-карточки highlights            | `plans/2026-05-12-highlights-tldr-cards.md`         | [x] выполнено; ретро: docs/process/retro/2026-05-12-highlights-tldr-cards.md                             |
 | 2   | Превью-картинки highlights           | создается при старте                                | [ ]                                                                                                      |
-| 5   | Demo Days как мини-кейсы             | `plans/2026-05-13-demo-days-mini-cases.md`          | [ ] подплан создан 2026-05-13, выполнение не начато                                                      |
+| 5   | Demo Days как мини-кейсы             | `plans/2026-05-13-demo-days-mini-cases.md`          | [x] выполнен 2026-05-13, ретро: docs/process/retro/2026-05-13-demo-days-mini-cases.md                    |
 | 4   | Брендинг (badges, OG, Netlify-домен) | создается при старте                                | [ ]                                                                                                      |
 | 6   | EN-расширение                        | создается при старте                                | [ ]                                                                                                      |
 
@@ -162,7 +162,7 @@ highlight, а часть Event Storming TO-BE: контексты (`es-tobe-sd-c
 - [x] Фаза 5. Создан и выполнен подплан 3 (TL;DR-карточки), ретро написано
 - [x] Фаза 6. Создан и выполнен подплан 2 (превью-картинки), ретро написано —
       [docs/process/retro/2026-05-12-highlights-preview-images.md](../docs/process/retro/2026-05-12-highlights-preview-images.md)
-- [ ] Фаза 7. Создан и выполнен подплан 5 (Demo Days), ретро написано
+- [x] Фаза 7. Создан и выполнен подплан 5 (Demo Days), ретро написано
 - [ ] Фаза 8. Создан и выполнен подплан 4 (брендинг), ретро написано
 - [ ] Фаза 9. Создан и выполнен подплан 6 (EN-расширение), ретро написано
 - [ ] Фаза 10. Финальная сверка: репо смотрится как портфолио, ссылки рабочие, ci:check зеленый
