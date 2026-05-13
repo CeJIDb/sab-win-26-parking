@@ -13,20 +13,31 @@
 ```text
 sab-win-26-parking/
 ├── CLAUDE.md                ← этот файл, навигация для агента
-├── README.md                ← вход для людей
+├── README.md                ← вход для людей (русский)
+├── README.en.md             ← вход для людей (английский)
 ├── CONTRIBUTING.md          ← регламент участников: ветки, коммиты, DoR/DoD, CI
 ├── SKILLS.md                ← baseline глобальных skills
 ├── docs/                    ← вся документация проекта
+│   ├── readme.md            ← индекс документации
+│   ├── project-overview.md  ← обзор проекта для новых участников
+│   ├── styleguide.md        ← стиль текстов в документации
 │   ├── specs/               ← требования (FR/NFR), глоссарий
 │   ├── architecture/        ← архитектурные решения, ADR, C4
 │   ├── artifacts/           ← use-case, BPMN, user flows
 │   ├── interviews/          ← стенограммы интервью и разборы
 │   ├── process/             ← регламенты: DoR/DoD, трассировка, релиз, ретро
 │   ├── demo-days/           ← материалы Demo Days
-│   └── styleguide.md        ← стиль текстов в документации
+│   └── assets/              ← бинарные ассеты витрины (OG-image, баннеры)
 ├── ui/                      ← статический wireframe (SCSS + Nunjucks → HTML)
 ├── plans/                   ← технические планы (один план = одна задача)
-├── scripts/                 ← скрипты CI, линтов, atomic-commit, claude-hooks
+├── scripts/                 ← скрипты сборки, линтов, atomic-commit, claude-hooks
+│   ├── build/               ← сборка ui/ (build-templates.mjs)
+│   ├── claude-hooks/        ← хуки Claude Code (см. ниже)
+│   ├── docs/                ← подготовка документации (extract-docx, split-image)
+│   ├── git/                 ← atomic-commit, check-branch-name, reminder
+│   ├── integrations/        ← интеграции (buildin-auth, buildin-explore)
+│   ├── lint/                ← кастомные линтеры markdown / file-names / mermaid
+│   └── plans/               ← validate-plans.mjs
 ├── .claude/                 ← настройки Claude Code: rules, hooks, deny-правила
 ├── .husky/                  ← git-хуки: commit-msg, pre-commit, pre-push
 ├── .github/                 ← CI workflows, PR/Issue templates, CODEOWNERS
@@ -68,9 +79,10 @@ sab-win-26-parking/
 
 **markdown_rag** — локальный RAG по markdown через Milvus. **Первичный инструмент семантического поиска по [docs/](docs/)**:
 
-- `mcp__markdown_rag__search` — поиск по смыслу. Запускай первым делом, когда ищешь концепцию или формулировку в документации.
+- `mcp__markdown_rag__search_documents` — поиск по смыслу. Запускай первым делом, когда ищешь концепцию или формулировку в документации.
 - `mcp__markdown_rag__index_documents` — индексация docs/. Запускай **только с явного разрешения пользователя** — операция медленная. SessionStart-хук [scripts/claude-hooks/check-rag-index.mjs](scripts/claude-hooks/check-rag-index.mjs) предупредит, если в `docs/` накопилось 5+ изменений после последней индексации — предложи запустить индексацию.
-- Grep по docs/ — fallback, когда `search` вернул пустой результат или нужен точный токен/строка.
+- `mcp__markdown_rag__clear_index` — сброс индекса (нужен очень редко, только с разрешения пользователя).
+- Grep по docs/ — fallback, когда `search_documents` вернул пустой результат или нужен точный токен/строка.
 
 **github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без явной просьбы.
 
@@ -88,7 +100,7 @@ sab-win-26-parking/
 
    Скрипт открывает Chromium (`headless=False`), логинится и сохраняет cookies в `.playwright-session.json`. Файл в `.gitignore`.
 
-   Если `.venv` сломан (например, переезжал каталог проекта) — пересоздать: `python3 -m venv --clear .venv && .venv/bin/pip install playwright python-dotenv`. Повторно ставить браузер через `playwright install chromium` нужно только если Chromium ещё не установлен в кеше.
+   Если `.venv` сломан (например, переезжал каталог проекта) — пересоздать: `python3 -m venv --clear .venv && .venv/bin/pip install playwright python-dotenv`. Повторно ставить браузер через `playwright install chromium` нужно только если Chromium еще не установлен в кеше.
 
 2. **Чтение страницы.** При наличии `.playwright-session.json`:
 
@@ -96,7 +108,7 @@ sab-win-26-parking/
    .venv/bin/python scripts/integrations/buildin-explore.py "<url>"
    ```
 
-   Скрипт ходит headless с сохранённой сессией, скроллит лениво подгружаемые блоки и складывает в `.playwright-mcp/`:
+   Скрипт ходит headless с сохраненной сессией, скроллит лениво подгружаемые блоки и складывает в `.playwright-mcp/`:
    - `buildin-explore-text.txt` — `body.innerText` (основной источник для извлечения текста UC и т.п.)
    - `buildin-explore-full.png` — полный скриншот
    - `buildin-explore-links.txt`, `buildin-explore-images.txt` — ссылки и картинки
@@ -116,6 +128,8 @@ sab-win-26-parking/
 - `block-secret-write.mjs` — запрет записи в файлы, похожие на секреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier после записи.
+- `check-rag-index.mjs` — SessionStart-уведомление о накопившихся изменениях docs/ (см. раздел про markdown_rag).
+- `touch-rag-index-timestamp.mjs` — служебный: обновляет timestamp после индексации.
 
 ## Git-хуки (husky) и CI
 
@@ -135,15 +149,21 @@ npm run ci:check                # все локальные проверки р�
 npm run build                   # собрать ui/ (SCSS + Nunjucks → HTML)
 npm run lint:md                 # markdownlint
 npm run lint:md:fix             # markdownlint с автофиксом
+npm run lint:md:custom          # check-markdown.mjs (лимит 500 симв. для журнала трассировки и др.)
 npm run lint:md-links           # проверка ссылок в .md
 npm run lint:file-names         # имена файлов на латиницу/kebab-case
+npm run lint:mermaid            # линтер mermaid-диаграмм
 npm run format                  # prettier --write
 npm run format:check            # prettier --check
 npm run check:branch            # имя текущей ветки
 npm run check:plans             # валидация всех файлов в plans/
 npm run check:plans:staged      # валидация только staged-планов
-npm run commit:atomic:dry-run   # предпросмотр атомарных коммитов
+npm run commit                  # format + ci:check + commit:atomic одним конвейером
+npm run commit:quiet            # то же, что commit, но без подробного вывода format/ci:check
 npm run commit:atomic           # атомарные коммиты (запускает пользователь)
+npm run commit:atomic:dry-run   # предпросмотр атомарных коммитов
+npm run commit:atomic:yes       # атомарные коммиты без подтверждений
+npm run commit:atomic:staged    # атомарные коммиты только из уже staged-файлов
 ```
 
 ## Definition of Done для агента
