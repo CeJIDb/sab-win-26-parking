@@ -35,15 +35,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CeJIDb/sab-win-26-mine-parking.git"
+    "url": "git+https://github.com/CeJIDb/sab-win-26-parking.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CeJIDb/sab-win-26-mine-parking/issues"
+    "url": "https://github.com/CeJIDb/sab-win-26-parking/issues"
   },
-  "homepage": "https://github.com/CeJIDb/sab-win-26-mine-parking#readme",
+  "homepage": "https://github.com/CeJIDb/sab-win-26-parking#readme",
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
