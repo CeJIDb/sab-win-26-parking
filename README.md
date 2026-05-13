@@ -1,6 +1,6 @@
 # Цифровая платформа парковки
 
-![Status: учебный проект](https://img.shields.io/badge/status-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-blue)
+![Status: learning project](https://img.shields.io/badge/status-learning%20project-blue)
 [![CI](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml)
 ![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-parking)
 [![License: ISC](https://img.shields.io/badge/license-ISC-green)](LICENSE)
