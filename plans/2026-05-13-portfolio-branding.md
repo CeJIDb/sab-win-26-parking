@@ -70,8 +70,8 @@ Netlify-сабдомен `boisterous-heliotrope-94df12.netlify.app` — авто
 
 ```markdown
 ![Status: учебный проект](https://img.shields.io/badge/status-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-blue)
-[![CI](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml)
-![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-mine-parking)
+[![CI](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-parking/actions/workflows/ci.yml)
+![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-parking)
 [![License: ISC](https://img.shields.io/badge/license-ISC-green)](LICENSE)
 [![Demo](https://img.shields.io/badge/demo-Netlify-success)](https://boisterous-heliotrope-94df12.netlify.app/)
 ```
@@ -86,7 +86,7 @@ Netlify-сабдомен `boisterous-heliotrope-94df12.netlify.app` — авто
 - **Demo** — ссылка на Netlify. **На момент создания плана URL `boisterous-heliotrope-94df12.netlify.app`** — после переименования сабдомена (если оно произойдёт в рамках этой же сессии или позже) ссылка обновляется в той же фазе, что и остальные Netlify-ссылки в репо.
 - **Не использовать букву «е с точками»** — проверяется при сохранении.
 - После сохранения README запустится `format-on-write.mjs` (Prettier) — визуально проверить, что блок бейджей остался одной логической строкой.
-- **Не дублировать** ссылку «Репозиторий: CeJIDb/sab-win-26-mine-parking» — она остаётся как есть после lead-параграфа.
+- **Не дублировать** ссылку «Репозиторий: CeJIDb/sab-win-26-parking» — она остаётся как есть после lead-параграфа.
 - **Фактическая проверка рендера.** После вставки блока — для каждого из 5 бейджей открыть URL в браузере либо `curl -sI <url> | head -1`: должен быть `HTTP/... 200` и SVG-ответ. На бейдже статуса дополнительно проверить, что текст «учебный проект» отображается кириллицей, а не как `%D1%83%D1%87...` или «invalid».
 
 ## OG-image: `docs/assets/social-preview.png`
@@ -133,8 +133,8 @@ OG-image для Social Preview этого репозитория — docs/assets
 1. Подготовить PNG 1200×630, ≤ 1 МБ. Сохранить как `docs/assets/social-preview.png`.
 2. GitHub → репозиторий → Settings → General → Social preview → Edit → Upload an image → выбрать локальную копию `docs/assets/social-preview.png`.
 3. Проверить рендер:
-   - открыть `https://github.com/CeJIDb/sab-win-26-mine-parking` в режиме инкогнито — карточка должна показываться в превью ссылки;
-   - `https://metatags.io/?url=https%3A%2F%2Fgithub.com%2FCeJIDb%2Fsab-win-26-mine-parking` — проверить тег `og:image` и предпросмотр для Twitter/Facebook/LinkedIn;
+   - открыть `https://github.com/CeJIDb/sab-win-26-parking` в режиме инкогнито — карточка должна показываться в превью ссылки;
+   - `https://metatags.io/?url=https%3A%2F%2Fgithub.com%2FCeJIDb%2Fsab-win-26-parking` — проверить тег `og:image` и предпросмотр для Twitter/Facebook/LinkedIn;
    - кэш мессенджеров (Telegram, Slack, x.com) обновляется не сразу — это нормально, не считать за провал.
 4. При обновлении OG-image — заменить файл в `docs/assets/`, повторить шаг 2.
 
@@ -197,7 +197,7 @@ OG-image для Social Preview этого репозитория — docs/assets
 
 Помечай каждую фазу `[x]` сразу по завершении и добавляй 1–2 строки в `## Итог` — не накапливай до конца.
 
-- [x] Фаза 0. Сверка перед стартом: подтвердить, что (а) ветка `docs/portfolio-roadmap` чекаутнута; (б) docs/assets/ не существует (`ls docs/assets/` возвращает ошибку); (в) ссылка на Netlify в README соответствует текущему сабдомену `boisterous-heliotrope-94df12.netlify.app`; (г) репо доступен по URL `https://github.com/CeJIDb/sab-win-26-mine-parking` (для CI-бейджа); (д) `.github/workflows/ci.yml` существует (бейдж CI указывает именно на него). Любое расхождение — остановиться и спросить пользователя.
+- [x] Фаза 0. Сверка перед стартом: подтвердить, что (а) ветка `docs/portfolio-roadmap` чекаутнута; (б) docs/assets/ не существует (`ls docs/assets/` возвращает ошибку); (в) ссылка на Netlify в README соответствует текущему сабдомену `boisterous-heliotrope-94df12.netlify.app`; (г) репо доступен по URL `https://github.com/CeJIDb/sab-win-26-parking` (для CI-бейджа); (д) `.github/workflows/ci.yml` существует (бейдж CI указывает именно на него). Любое расхождение — остановиться и спросить пользователя.
 - [x] Фаза 1. Вставка блока из 5 shields.io-бейджей в `README.md` сразу после H1. Порядок и URL — как в разделе «Блок shields.io-бейджей в README» выше; бейдж статуса — с URL-encoded кириллицей. Проверка: после Prettier-форматирования блок остался компактным; открыть README в превью VSCode — все 5 бейджей рендерятся; для каждого бейджа сделать `curl -sI <url>` или открыть в браузере — `HTTP 200` и SVG-ответ; на бейдже статуса визуально подтвердить, что текст «учебный проект» отображается кириллицей.
 - [x] Фаза 2. Создание каталога `docs/assets/` с `readme.md` (описание назначения каталога: бинарные ассеты витрины — OG-image; список текущих файлов; ссылка на `docs/process/branding-checklist.md`). Если пользователь предоставил `social-preview.png` — положить в каталог, проверить размеры (`file docs/assets/social-preview.png`), формат (PNG), вес (`ls -lh`); зафиксировать файл в `readme.md` каталога. Если не предоставил — каталог остаётся с одним `readme.md`, факт зафиксировать в `## Итог`, перейти к Фазе 3 без блокировки. `.gitkeep` не использовать — `readme.md` сам по себе сохраняет каталог в индексе git.
 - [x] Фаза 3. Вставка HTML-комментария про OG-image в `README.md` сразу после блока бейджей. Текст комментария — как в разделе «OG-image» выше (многострочный вариант).
