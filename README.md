@@ -1,5 +1,17 @@
 # Цифровая платформа парковки
 
+![Status: учебный проект](https://img.shields.io/badge/status-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-blue)
+[![CI](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CeJIDb/sab-win-26-mine-parking/actions/workflows/ci.yml)
+![Last commit](https://img.shields.io/github/last-commit/CeJIDb/sab-win-26-mine-parking)
+[![License: ISC](https://img.shields.io/badge/license-ISC-green)](LICENSE)
+[![Demo](https://img.shields.io/badge/demo-Netlify-success)](https://sab-win-26-parking.netlify.app/)
+
+<!--
+OG-image для Social Preview этого репозитория — docs/assets/social-preview.png.
+Загружается через GitHub Settings → General → Social Preview (это ручное действие).
+Процедура — docs/process/branding-checklist.md.
+-->
+
 Учебный проект курса [Systems Analyst Bootcamp](https://systems.education/systems-analyst-bootcamp).
 Портфолио системного аналитика — от исследования бизнеса AS-IS до интеграций и архитектурных решений.
 
@@ -196,7 +208,7 @@ TL;DR: интеграционная последовательность опл�
 ## Навигация
 
 - [Обзор проекта](docs/project-overview.md) — предметные области и технологии репозитория
-- [Wireframe — демо](https://boisterous-heliotrope-94df12.netlify.app/) — задеплоенный интерфейсный макет
+- [Wireframe — демо](https://sab-win-26-parking.netlify.app/) — задеплоенный интерфейсный макет
 - [Артефакты системного анализа](docs/artifacts/readme.md) — use case, BPMN, ES, контекстная диаграмма
 - [Архитектура](docs/architecture/readme.md) — DDD, C4, ADR, интеграции
 - [Спецификации](docs/specs/readme.md) — функциональные и нефункциональные требования
@@ -218,7 +230,7 @@ TL;DR: интеграционная последовательность опл�
 
 Для визуализации пользовательских сценариев в репозитории есть статический wireframe.
 
-Задеплоенная версия UI доступна по ссылке: [boisterous-heliotrope-94df12.netlify.app](https://boisterous-heliotrope-94df12.netlify.app/).
+Задеплоенная версия UI доступна по ссылке: [sab-win-26-parking.netlify.app](https://sab-win-26-parking.netlify.app/).
 
 Чтобы пересобрать его локально:
 
