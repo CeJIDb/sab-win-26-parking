@@ -7,8 +7,8 @@
 1. Подготовить PNG 1200×630, ≤ 1 МБ. Сохранить как `docs/assets/social-preview.png`.
 2. GitHub → репозиторий → Settings → General → Social preview → Edit → Upload an image → выбрать локальную копию `docs/assets/social-preview.png`.
 3. Проверить рендер:
-   - открыть `https://github.com/CeJIDb/sab-win-26-mine-parking` в режиме инкогнито — карточка должна показываться в превью ссылки;
-   - `https://metatags.io/?url=https%3A%2F%2Fgithub.com%2FCeJIDb%2Fsab-win-26-mine-parking` — проверить тег `og:image` и предпросмотр для Twitter/Facebook/LinkedIn;
+   - открыть `https://github.com/CeJIDb/sab-win-26-parking` в режиме инкогнито — карточка должна показываться в превью ссылки;
+   - `https://metatags.io/?url=https%3A%2F%2Fgithub.com%2FCeJIDb%2Fsab-win-26-parking` — проверить тег `og:image` и предпросмотр для Twitter/Facebook/LinkedIn;
    - кэш мессенджеров (Telegram, Slack, x.com) обновляется не сразу — это нормально, не считать за провал.
 4. При обновлении OG-image — заменить файл в `docs/assets/`, повторить шаг 2.
 
