@@ -33,7 +33,7 @@ status: учебный TO-BE
 
 ## Контекст и источник
 
-- Этап проекта: ДЗ курса по теме брокеров сообщений (учебный TO-BE).
+- Этап проекта: Этап 5. Техническое проектирование решения. Интеграции
 - Тип артефакта: DFD конвейера потоков данных RMQ (двухуровневый), формат — draw.io с PNG-экспортом ([assets/r-l1.png](assets/r-l1.png), [assets/r-l2.png](assets/r-l2.png)) в едином стиле с K-L1/K-L2. Исходник — [assets/rbq.drawio](assets/rbq.drawio).
 - Bounded context: Notification.
 - Триггеры из Kafka (publisher — Booking, см. ADR-007): `Topic_BookingCreated` (бронь принята к оплате) и `Topic_BookingConfirmed` (бронь подтверждена). На R-L1 и R-L2 Kafka изображен одним блоком с обобщающей подписью «BookingCreated, BookingConfirmed» — конкретные топики раскрыты в [DFD K-L1 / K-L2](message-flow-kafka-online-booking.md), R-документ их не дублирует. `Topic_PaymentCompleted` Notification напрямую не слушает.
