@@ -1,0 +1,153 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "name": "Block secret file writes",
+            "displayName": "Block secret file writes",
+            "title": "Block secret file writes",
+            "description": "Block writes to env files, keys, sqlite databases, and secret-like paths.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/block-secret-write.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "name": "Block unsafe git add",
+            "displayName": "Block unsafe git add",
+            "title": "Block unsafe git add",
+            "description": "Block git add -A, git add --all, and git add .",
+            "type": "command",
+            "command": "node scripts/claude-hooks/block-unsafe-git-add.mjs"
+          },
+          {
+            "name": "Block push to main",
+            "displayName": "Block push to main",
+            "title": "Block push to main",
+            "description": "Block direct git push to main or master.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/block-push-to-main.mjs"
+          },
+          {
+            "name": "Validate staged plans",
+            "displayName": "Validate staged plans",
+            "title": "Validate staged plans",
+            "description": "Validate staged plans before git commit.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/validate-staged-plans.mjs"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "name": "Validate plan on write",
+            "displayName": "Validate plan on write",
+            "title": "Validate plan on write",
+            "description": "Validate plans/YYYY-MM-DD-*.md after file writes.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/validate-plan-on-write.mjs"
+          },
+          {
+            "name": "Format changed file",
+            "displayName": "Format changed file",
+            "title": "Format changed file",
+            "description": "Run Prettier after supported file writes.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/format-on-write.mjs",
+            "statusMessage": "Форматирование..."
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__markdown_rag__index_documents",
+        "hooks": [
+          {
+            "name": "Touch RAG index timestamp",
+            "displayName": "Touch RAG index timestamp",
+            "title": "Touch RAG index timestamp",
+            "description": "Update markdown RAG index timestamp after indexing.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/touch-rag-index-timestamp.mjs"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "name": "Check RAG index freshness",
+            "displayName": "Check RAG index freshness",
+            "title": "Check RAG index freshness",
+            "description": "Warn when docs markdown RAG index is stale.",
+            "type": "command",
+            "command": "node scripts/claude-hooks/check-rag-index.mjs"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "name": "Remind atomic commit",
+            "displayName": "Remind atomic commit",
+            "title": "Remind atomic commit",
+            "description": "Remind about npm run commit:atomic when worktree diff is large.",
+            "type": "command",
+            "command": "bash scripts/claude-hooks/remind-atomic-commit.sh"
+          },
+          {
+            "name": "Play stop sound",
+            "displayName": "Play stop sound",
+            "title": "Play stop sound",
+            "description": "Play a short sound when Codex ends its turn.",
+            "type": "command",
+            "command": "bash scripts/claude-hooks/play-sound.sh stop"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "name": "Play notification sound",
+            "displayName": "Play notification sound",
+            "title": "Play notification sound",
+            "description": "Play a notification sound.",
+            "type": "command",
+            "command": "bash scripts/claude-hooks/play-sound.sh notify"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "name": "Play permission sound",
+            "displayName": "Play permission sound",
+            "title": "Play permission sound",
+            "description": "Play a sound when permission is requested.",
+            "type": "command",
+            "command": "bash scripts/claude-hooks/play-sound.sh notify"
+          }
+        ]
+      }
+    ]
+  }
+}
