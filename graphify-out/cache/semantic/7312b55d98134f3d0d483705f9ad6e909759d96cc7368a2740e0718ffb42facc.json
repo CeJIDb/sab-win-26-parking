@@ -1,0 +1,377 @@
+{
+  "nodes": [
+    {
+      "id": "sql_chartdb_postgresql_erd",
+      "label": "Flat PostgreSQL DDL for ChartDB ERD import",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "1-627",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_clients_table",
+      "label": "clients table \u2014 identity, type (FL/UL), status",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "124-136",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_bookings_table",
+      "label": "bookings table \u2014 booking lifecycle, tariff snapshot, status",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "426-444",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_parking_sessions_table",
+      "label": "parking_sessions table \u2014 entry/exit time, status",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "475-483",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_access_logs_table",
+      "label": "access_logs table \u2014 append-only KPP event log",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "587-597",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_payments_table",
+      "label": "payments table \u2014 invoice payment with status",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "485-497",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_contracts_table",
+      "label": "contracts table \u2014 client contracts with template",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "403-414",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_tariffs_table",
+      "label": "tariffs table \u2014 billing step, grace period, benefit category",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "184-197",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_invoices_table",
+      "label": "invoices table \u2014 links to booking or contract",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "457-473",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_vehicles_table",
+      "label": "vehicles table \u2014 license_plate, type, client FK",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "365-375",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_outbox_events_table",
+      "label": "outbox_events table \u2014 transactional outbox for event publishing",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "599-607",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_employees_table",
+      "label": "employees table \u2014 role, status",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "341-352",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_debts_table",
+      "label": "debts table \u2014 overdue tracking linked to invoice and client",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "523-533",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_notifications_table",
+      "label": "notifications table \u2014 channel, delivery_status, subject polymorphic",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "546-561",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_chartdb_appeals_table",
+      "label": "appeals table \u2014 complaints, requests from clients",
+      "file_type": "code",
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "563-579",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "sql_chartdb_postgresql_erd",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "124",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_postgresql_erd",
+      "target": "sql_chartdb_bookings_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "426",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_bookings_table",
+      "target": "sql_chartdb_vehicles_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "429",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_bookings_table",
+      "target": "sql_chartdb_tariffs_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "432",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_bookings_table",
+      "target": "sql_chartdb_contracts_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "431",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_parking_sessions_table",
+      "target": "sql_chartdb_bookings_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "477",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_access_logs_table",
+      "target": "sql_chartdb_parking_sessions_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "590",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_invoices_table",
+      "target": "sql_chartdb_bookings_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "459",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_invoices_table",
+      "target": "sql_chartdb_contracts_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "460",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_payments_table",
+      "target": "sql_chartdb_invoices_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "487",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_debts_table",
+      "target": "sql_chartdb_invoices_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "525",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_debts_table",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "526",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_notifications_table",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "549",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_appeals_table",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "565",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_appeals_table",
+      "target": "sql_chartdb_employees_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "566",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_vehicles_table",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "367",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_contracts_table",
+      "target": "sql_chartdb_clients_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "405",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_postgresql_erd",
+      "target": "sql_chartdb_outbox_events_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "599",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_chartdb_outbox_events_table",
+      "target": "sql_chartdb_notifications_table",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "599-607",
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he_billing_core_tables",
+      "label": "Core billing flow: booking \u2192 parking_session \u2192 invoice \u2192 payment",
+      "nodes": [
+        "sql_chartdb_bookings_table",
+        "sql_chartdb_parking_sessions_table",
+        "sql_chartdb_invoices_table",
+        "sql_chartdb_payments_table"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "sql/database/chartdb-postgresql-erd-normalized-public.sql"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "ui_guard_log_entry_exit_log",
+      "label": "Guard entry-exit log \u2014 filterable KPP event journal with manual entry",
+      "file_type": "code",
+      "source_file": "ui/guard/log.html",
+      "source_location": "40-208",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ui_guard_log_entry_exit_log",
+      "target": "ui_guard_client_summary_guard_card",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/guard/log.html",
+      "source_location": "102",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_guard_log_entry_exit_log",
+      "target": "sql_chartdb_access_logs_table",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ui/guard/log.html",
+      "source_location": "86-146",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

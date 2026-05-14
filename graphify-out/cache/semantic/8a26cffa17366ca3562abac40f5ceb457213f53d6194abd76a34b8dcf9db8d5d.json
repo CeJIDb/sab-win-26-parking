@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "functional_requirements_fr_check",
+      "label": "FR: \u0427\u0435\u043a",
+      "file_type": "document",
+      "source_file": "docs/specs/functional-requirements/fr-check.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "functional_requirements_fr_check",
+      "target": "functional_requirements_fr_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/functional-requirements/fr-check.md",
+      "source_location": "line 142",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

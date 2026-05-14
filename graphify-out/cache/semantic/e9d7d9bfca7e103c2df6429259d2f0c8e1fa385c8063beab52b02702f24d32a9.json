@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "demo_5_demo_5_presentation_deck",
+      "label": "Demo 5 Presentation Deck",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_5_presentation_deck",
+      "target": "slides_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

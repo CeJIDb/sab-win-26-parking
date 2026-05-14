@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "protocols_interview_protocol_6_2026_02_25_v01",
+      "label": "\u041f\u0440\u043e\u0442\u043e\u043a\u043e\u043b \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u21166",
+      "file_type": "document",
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "protocol6_grace_period",
+      "label": "\u0413\u0440\u0435\u0439\u0441-\u043f\u0435\u0440\u0438\u043e\u0434 (\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b \u0434\u043b\u044f \u0432\u044b\u0435\u0437\u0434\u0430 \u043f\u043e\u0441\u043b\u0435 \u043e\u043f\u043b\u0430\u0442\u044b)",
+      "file_type": "concept",
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "protocol6_mandatory_registration",
+      "label": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+      "file_type": "rationale",
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 1, \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "\u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u0438: \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0432 \u041b\u041a \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (\u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0445 \u0438 \u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u044b\u0445) \u2014 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u0430 \u0434\u043b\u044f \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043f\u043e \u0413\u0420\u0417, \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0439 \u0441\u0435\u0441\u0441\u0438\u0438 \u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u0441\u0442\u043e\u043f\u043b\u0430\u0442\u044b."
+    },
+    {
+      "id": "protocol6_vk_yandex_sso",
+      "label": "\u0410\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f \u0447\u0435\u0440\u0435\u0437 VK ID \u0438 \u042f\u043d\u0434\u0435\u043a\u0441 ID",
+      "file_type": "concept",
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "protocols_interview_protocol_6_2026_02_25_v01",
+      "target": "protocol6_grace_period",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 1",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_6_2026_02_25_v01",
+      "target": "protocol6_mandatory_registration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 1",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_6_2026_02_25_v01",
+      "target": "protocol6_vk_yandex_sso",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 2",
+      "weight": 1.0
+    },
+    {
+      "source": "interview5_to_be_concept",
+      "target": "protocol6_mandatory_registration",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md",
+      "source_location": "\u0411\u043b\u043e\u043a 1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

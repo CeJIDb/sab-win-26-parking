@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "integration_integration_requirements",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 (INT-*)",
+      "file_type": "document",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_integration_requirements",
+      "target": "functional_requirements_fr_event_skud",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": "line 13",
+      "weight": 0.95
+    },
+    {
+      "source": "integration_integration_requirements",
+      "target": "functional_requirements_fr_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": "line 52",
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": []
+}

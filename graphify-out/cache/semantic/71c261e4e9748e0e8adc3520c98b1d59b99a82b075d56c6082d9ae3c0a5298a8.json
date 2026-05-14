@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle",
+      "label": "Dev Task UC-3.1: \u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0422\u0421",
+      "file_type": "document",
+      "source_file": "docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle",
+      "target": "functional_requirements_fr_parking_session",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": []
+}

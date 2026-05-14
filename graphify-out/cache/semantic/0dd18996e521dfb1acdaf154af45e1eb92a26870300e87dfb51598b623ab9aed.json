@@ -1,10 +1,10 @@
 {
   "nodes": [
     {
-      "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
+      "id": "assets_readme_assets",
+      "label": "docs/assets \u2014 Binary Assets Storage",
       "file_type": "document",
-      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_file": "docs/assets/readme.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,

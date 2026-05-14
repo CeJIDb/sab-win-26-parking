@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "demo_4_demo_4_presentation_deck",
+      "label": "Demo 4 Presentation Deck (\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/demo-4-presentation-deck.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_4_demo_4_presentation_deck",
+      "target": "slides_readme_demo_4_slides_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/demo-4-presentation-deck.md",
+      "source_location": "## \u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

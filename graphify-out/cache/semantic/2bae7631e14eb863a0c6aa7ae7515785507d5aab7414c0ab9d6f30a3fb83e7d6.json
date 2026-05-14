@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "demo_1_demo_1_presentation_deck",
+      "label": "Demo 1 Presentation Deck (\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0447\u0430\u0441\u0442\u043d\u043e\u0433\u043e \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-1/demo-1-presentation-deck.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_1_demo_1_presentation_deck",
+      "target": "slides_readme_demo_1_slides_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/demo-1-presentation-deck.md",
+      "source_location": "## \u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_1_demo_1_presentation_deck",
+      "target": "demo_2_demo_2_presentation_deck",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-1/demo-1-presentation-deck.md",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": []
+}

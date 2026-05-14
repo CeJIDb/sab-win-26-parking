@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_12_2_create_booking_auto_entry",
+      "label": "UC-12.2 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043d\u0430 \u0432\u044a\u0435\u0437\u0434\u0435",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_uc_12_2_auto_booking",
+      "label": "Automatic Booking on Entry (\u0430\u0432\u0442\u043e\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": "## \u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_12_2_create_booking_auto_entry",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "use_case_uc_12_2_create_booking_auto_entry",
+      "target": "use_case_uc_12_4_create_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_2_create_booking_auto_entry",
+      "target": "use_case_uc_12_2_auto_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": "## \u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_2_auto_booking",
+      "target": "use_case_booking_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "use_case_uc_12_2_create_booking_auto_entry",
+      "target": "use_case_skud_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md",
+      "source_location": "### 7. \u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

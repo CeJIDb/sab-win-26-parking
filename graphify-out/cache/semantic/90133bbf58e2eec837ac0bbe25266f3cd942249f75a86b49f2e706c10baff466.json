@@ -1,10 +1,10 @@
 {
   "nodes": [
     {
-      "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
+      "id": "process_pr_dor_dod",
+      "label": "PR Definition of Ready / Definition of Done",
       "file_type": "document",
-      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_file": "docs/process/pr-dor-dod.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "demo_3_readme_demo_3_overview",
+      "label": "Demo 3 Overview (\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-3/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_3_readme_demo_3_overview",
+      "target": "demo_3_demo_3_presentation_deck",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/readme.md",
+      "source_location": "## \u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_3_readme_demo_3_overview",
+      "target": "slides_readme_demo_3_slides_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/readme.md",
+      "source_location": "## \u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_3_readme_demo_3_overview",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/readme.md",
+      "source_location": "## \u0410\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u044b-\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_demo_days_progression",
+      "label": "Demo Days Project Progression (1\u21922\u21923\u21924)",
+      "nodes": [
+        "demo_1_demo_1_presentation_deck",
+        "demo_2_demo_2_presentation_deck",
+        "demo_3_demo_3_presentation_deck",
+        "demo_4_demo_4_presentation_deck"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/readme.md"
+    }
+  ]
+}

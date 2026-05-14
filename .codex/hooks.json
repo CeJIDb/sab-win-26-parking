@@ -42,6 +42,15 @@
             "command": "node scripts/claude-hooks/validate-staged-plans.mjs"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/cejidb/.local/bin/graphify hook-check"
+          }
+        ]
       }
     ],
     "PostToolUse": [
@@ -63,7 +72,7 @@
             "description": "Run Prettier after supported file writes.",
             "type": "command",
             "command": "node scripts/claude-hooks/format-on-write.mjs",
-            "statusMessage": "Форматирование..."
+            "statusMessage": "\u0424\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435..."
           }
         ]
       },

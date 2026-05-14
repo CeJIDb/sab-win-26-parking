@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "templates_traceability_matrix_template",
+      "label": "Traceability Matrix Template",
+      "file_type": "document",
+      "source_file": "docs/process/templates/traceability-matrix-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "templates_traceability_matrix_template",
+      "relation": "references",
+      "target": "functional_requirements_fr_parking_session",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "docs/process/templates/traceability-matrix-template.md",
+      "source_location": null,
+      "weight": 0.5
+    }
+  ],
+  "hyperedges": []
+}

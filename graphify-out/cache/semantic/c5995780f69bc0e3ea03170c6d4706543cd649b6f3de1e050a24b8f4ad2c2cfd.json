@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "plans_interview_plan_6_2026_02_25_v01",
+      "label": "\u041f\u043b\u0430\u043d \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u21166",
+      "file_type": "document",
+      "source_file": "docs/interviews/plans/interview-plan-6-2026-02-25-v01.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "plans_interview_plan_6_2026_02_25_v01",
+      "target": "protocols_interview_protocol_6_2026_02_25_v01",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/interviews/plans/interview-plan-6-2026-02-25-v01.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

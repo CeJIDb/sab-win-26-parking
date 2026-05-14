@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "ui_guard_notifications_system_notifications",
+      "label": "Guard notifications screen \u2014 SCUD, incidents, admin messages",
+      "file_type": "code",
+      "source_file": "ui/guard/notifications.html",
+      "source_location": "40-115",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

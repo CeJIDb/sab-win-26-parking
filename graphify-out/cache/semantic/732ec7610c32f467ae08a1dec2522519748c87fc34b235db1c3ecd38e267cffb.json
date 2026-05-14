@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "lint_check_traceability_matrix_update",
+      "label": "check-traceability-matrix-update.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_check_traceability_matrix_update",
+      "target": "templates_traceability_matrix_template",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "line 10",
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": []
+}

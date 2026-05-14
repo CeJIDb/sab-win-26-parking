@@ -1,0 +1,332 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo4_parking_architecture",
+      "label": "Demo 4: \u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0438 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Five Whys",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_security_risks",
+      "label": "\u0412\u044b\u044f\u0432\u043b\u0435\u043d\u043d\u044b\u0435 \u0440\u0438\u0441\u043a\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438: \u043d\u0435\u0441\u0430\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f, \u0443\u0442\u0435\u0447\u043a\u0438 \u041f\u0414\u043d, \u043f\u043e\u0434\u043c\u0435\u043d\u0430 \u0413\u0420\u0417, \u043f\u043e\u0442\u0435\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_security_bowtie",
+      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0440\u0438\u0441\u043a\u043e\u0432 \u043c\u0435\u0442\u043e\u0434\u043e\u043c \u0433\u0430\u043b\u0441\u0442\u0443\u043a-\u0431\u0430\u0431\u043e\u0447\u043a\u0430 \u2014 \u043f\u0440\u0435\u0432\u0435\u043d\u0442\u0438\u0432\u043d\u044b\u0435 \u0438 \u0440\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0431\u0430\u0440\u044c\u0435\u0440\u044b",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slides 7-10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_es_tobe_contexts",
+      "label": "ES To-Be \u0441 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u0434\u043e\u043c\u0435\u043d\u043d\u044b\u043c\u0438 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430\u043c\u0438 (15 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043e\u0432: 5 Core, 8 Supporting, 2 Generic)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slides 12-15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_architecture_comparison",
+      "label": "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440: \u043c\u043e\u043d\u043e\u043b\u0438\u0442 vs \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u044b vs Event-Driven \u2014 \u0432\u044b\u0431\u043e\u0440 \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0430",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 17-18",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_c4_system_context",
+      "label": "C4 L1: \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u2014 5 \u0430\u043a\u0442\u043e\u0440\u043e\u0432 (\u0412\u043b\u0430\u0434\u0435\u043b\u0435\u0446, \u041a\u043b\u0438\u0435\u043d\u0442 \u0424\u041b, \u041a\u043b\u0438\u0435\u043d\u0442 \u042e\u041b, \u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a, \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439) + 11 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_c4_containers",
+      "label": "C4 L2: \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b \u2014 PWA \u043a\u043b\u0438\u0435\u043d\u0442\u0430, Web \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430, API Gateway (JWT), Backend (Java/Spring Boot), PostgreSQL",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_c4_hardware_integration",
+      "label": "C4 L3: \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0441 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435\u043c (Session Service, Access Control Service, Booking Service, Integration Adapter)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_c4_auth_profiles",
+      "label": "C4 L3: \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 (Client Profile Service, Identity/Auth Service, Worker Profile Service, SSO VK/\u042f\u043d\u0434\u0435\u043a\u0441)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_postgresql_choice",
+      "label": "\u0412\u044b\u0431\u043e\u0440 PostgreSQL OLTP: ACID, JSONB, PostGIS, \u0440\u0435\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u044f, \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_er_booking",
+      "label": "ER-\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430 \u0434\u043e\u043c\u0435\u043d\u0430 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435: clients, vehicles, bookings, parking_slots, sectors, parkings, parking_sessions",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_er_client",
+      "label": "ER-\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430 \u0434\u043e\u043c\u0435\u043d\u0430 \u041a\u043b\u0438\u0435\u043d\u0442: clients, passport_data, agreements, vehicles, organizations, client_accounts, notification_settings",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_sql_mgn_query",
+      "label": "SQL-\u0437\u0430\u043f\u0440\u043e\u0441: \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0435 \u043c\u0435\u0441\u0442\u0430 \u0434\u043b\u044f \u041c\u0413\u041d/\u041e\u0412\u0417 (parking_slots JOIN sectors WHERE is_occupied=FALSE)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_sql_debt_query",
+      "label": "SQL-\u0437\u0430\u043f\u0440\u043e\u0441: \u0437\u0430\u0434\u043e\u043b\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (clients JOIN debts LEFT JOIN payments GROUP BY)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_sql_blacklist_query",
+      "label": "SQL-\u0437\u0430\u043f\u0440\u043e\u0441: \u0447\u0435\u0440\u043d\u044b\u0439 \u0441\u043f\u0438\u0441\u043e\u043a (clients WHERE status=BLOCKED)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_security_risks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 6",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_security_bowtie",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slides 7-10",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_es_tobe_contexts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slides 12-15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_es_tobe_contexts",
+      "target": "slides_demo5_domain_decomposition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_architecture_comparison",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slides 17-18",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_c4_system_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 19",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_c4_containers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 20",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_c4_hardware_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 21",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_c4_auth_profiles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 22",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_postgresql_choice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 25",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_er_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 26",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_er_client",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_sql_mgn_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 29",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_sql_debt_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 30",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_parking_architecture",
+      "target": "slides_demo4_sql_blacklist_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 31",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_er_booking",
+      "target": "slides_demo4_er_client",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/demo-4-slides.pdf",
+      "source_location": "slide 26-27",
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": []
+}

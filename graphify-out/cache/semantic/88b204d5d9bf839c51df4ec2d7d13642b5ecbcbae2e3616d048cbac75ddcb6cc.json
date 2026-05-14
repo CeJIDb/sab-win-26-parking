@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_readme_demo_1_slides_index",
+      "label": "Demo 1 Slides Index",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-1/slides/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_readme_demo_1_slides_index",
+      "target": "demo_1_demo_1_presentation_deck",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/readme.md",
+      "source_location": "\u041f\u0440\u0435\u0437\u0435\u043d\u0442\u0430\u0446\u0438\u044f Demo 1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

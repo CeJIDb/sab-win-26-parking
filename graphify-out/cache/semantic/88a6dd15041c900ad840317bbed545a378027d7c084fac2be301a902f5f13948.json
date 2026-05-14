@@ -1,10 +1,10 @@
 {
   "nodes": [
     {
-      "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
+      "id": "slides_readme_demo_3_slides_index",
+      "label": "Demo 3 Slides Index",
       "file_type": "document",
-      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_file": "docs/demo-days/demo-3/slides/readme.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,

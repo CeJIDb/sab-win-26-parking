@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "demo_5_demo_5_script",
+      "label": "Demo 5 \u2014 \u0421\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_team_five_whys",
+      "label": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 Five Whys",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_event_storming_as_is",
+      "label": "Event Storming AS-IS",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 8-9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_event_storming_to_be",
+      "label": "Event Storming TO-BE",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 24-25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_impact_map",
+      "label": "Impact Map",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_opportunity_canvas",
+      "label": "Opportunity Canvas",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_user_story_map",
+      "label": "User Story Map \u2014 \u0433\u0440\u0430\u043d\u0438\u0446\u0430 MVP",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_conceptual_model",
+      "label": "\u041a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c (\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_modular_monolith",
+      "label": "\u041c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442 \u2014 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "cejidb",
+      "rationale": "\u0412\u044b\u0431\u0440\u0430\u043d \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u0432 \u0438\u0437-\u0437\u0430 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0438 3-4 RPS, \u0431\u044e\u0434\u0436\u0435\u0442\u0430 10-15 \u043c\u043b\u043d \u0440\u0443\u0431., \u0441\u0440\u043e\u043a\u043e\u0432 4-6 \u043c\u0435\u0441\u044f\u0446\u0435\u0432, \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u044f DevOps \u0432 \u0448\u0442\u0430\u0442\u0435 \u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 152-\u0424\u0417 \u043f\u043e \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044e \u041f\u0414\u043d \u0432 \u0435\u0434\u0438\u043d\u043e\u043c \u043f\u0435\u0440\u0438\u043c\u0435\u0442\u0440\u0435. DDD-\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 \u0432\u044b\u0434\u0435\u043b\u0438\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u0438 \u0432 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u043f\u0440\u0438 \u0440\u043e\u0441\u0442\u0435 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0438."
+    },
+    {
+      "id": "demo_5_outbox_pattern",
+      "label": "Outbox-\u043f\u0430\u0442\u0442\u0435\u0440\u043d \u0434\u043b\u044f \u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Kafka \u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d\u0430 \u043a\u0430\u043a \u0438\u0437\u0431\u044b\u0442\u043e\u0447\u043d\u0430\u044f \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0440\u0438 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0435 3-4 RPS. RabbitMQ \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0432\u0435\u0440\u0430 \u0438 DevOps. Outbox-\u043f\u0430\u0442\u0442\u0435\u0440\u043d \u0432\u044b\u0431\u0440\u0430\u043d \u043a\u0430\u043a \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0431\u0435\u0437 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b, \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0449\u0435\u0435 \u0432\u043d\u0443\u0442\u0440\u0438 \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0430 \u0438 PostgreSQL \u0441 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0435\u0439 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438."
+    },
+    {
+      "id": "demo_5_ddd_domain_decomposition",
+      "label": "\u0414\u043e\u043c\u0435\u043d\u043d\u0430\u044f \u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f (DDD): Core / Supporting / Generic",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 25-27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_c4_diagrams",
+      "label": "C4-\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u044b (Context, Container, Component)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_dfd_l1",
+      "label": "Data Flow Diagram L1",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_rest_api_access_check",
+      "label": "REST API: \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 (POST /api/v1/access/check)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_dod_excel_not_needed",
+      "label": "DoD MVP: Excel \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043d\u0443\u0436\u0435\u043d",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_lpr_skud_integration",
+      "label": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0421\u041a\u0423\u0414 \u0441 LPR (\u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u0413\u0420\u0417)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 15, 18",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_5_nfr_five_groups",
+      "label": "\u041d\u0424\u0422 \u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430: 5 \u0433\u0440\u0443\u043f\u043f (\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043c\u043e\u0441\u0442\u044c, \u043d\u0430\u0434\u0435\u0436\u043d\u043e\u0441\u0442\u044c, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c, \u0418\u0411)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_team_five_whys",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 1",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_event_storming_as_is",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 8-9",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_impact_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 12",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_opportunity_canvas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 13",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_user_story_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 14",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_conceptual_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 17",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_lpr_skud_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 15, 18",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_nfr_five_groups",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 20",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_ddd_domain_decomposition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 25-27",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 29",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_c4_diagrams",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 30",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_dfd_l1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 34",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_rest_api_access_check",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 39",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_outbox_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 42",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_dod_excel_not_needed",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 43",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_script",
+      "target": "demo_5_event_storming_to_be",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 24-25",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_dod_excel_not_needed",
+      "target": "process_dod_mvp_criterion",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 43",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_modular_monolith",
+      "target": "demo_5_outbox_pattern",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 29, 42",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_event_storming_to_be",
+      "target": "demo_5_ddd_domain_decomposition",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 24-27",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_ddd_domain_decomposition",
+      "target": "demo_5_c4_diagrams",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434 30",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_lpr_skud_integration",
+      "target": "demo_5_rest_api_access_check",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md",
+      "source_location": "\u0421\u043b\u0430\u0439\u0434\u044b 15, 39",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he_demo5_event_storming_ddd_c4",
+      "label": "Event Storming TO-BE \u2192 DDD-\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f \u2192 C4-\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u044b: \u0435\u0434\u0438\u043d\u0430\u044f \u0446\u0435\u043f\u043e\u0447\u043a\u0430 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+      "nodes": [
+        "demo_5_event_storming_to_be",
+        "demo_5_ddd_domain_decomposition",
+        "demo_5_c4_diagrams"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/demo-5-script.md"
+    }
+  ]
+}

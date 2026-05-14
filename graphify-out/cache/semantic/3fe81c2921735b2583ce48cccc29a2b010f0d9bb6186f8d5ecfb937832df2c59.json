@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_7_5_list_bookings",
+      "label": "UC-7.5 \u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0441\u043f\u0438\u0441\u043e\u043a \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-7-5-list-bookings.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_7_5_list_bookings",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-5-list-bookings.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_5_list_bookings",
+      "target": "use_case_booking_concept",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/use-case/uc-7-5-list-bookings.md",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_booking_management",
+      "label": "Booking Management UCs (list, cancel, create in admin)",
+      "nodes": [
+        "use_case_uc_7_4_cancel_booking",
+        "use_case_uc_7_5_list_bookings",
+        "use_case_uc_7_6_create_booking_admin"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-7-5-list-bookings.md"
+    }
+  ]
+}

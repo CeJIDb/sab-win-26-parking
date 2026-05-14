@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "process_first_contribution_path",
+      "label": "First Contribution Path",
+      "file_type": "document",
+      "source_file": "docs/process/first-contribution-path.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_first_contribution_path",
+      "target": "process_pr_dor_dod",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/first-contribution-path.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

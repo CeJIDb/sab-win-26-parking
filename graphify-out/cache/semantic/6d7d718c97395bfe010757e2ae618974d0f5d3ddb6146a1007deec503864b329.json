@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "nonfunctional_requirements_nfr_logging",
+      "label": "NFR: \u0416\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (NFR-LOG-*)",
+      "file_type": "document",
+      "source_file": "docs/specs/nonfunctional-requirements/nfr-logging.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "nonfunctional_requirements_nfr_logging",
+      "target": "integration_integration_requirements",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/specs/nonfunctional-requirements/nfr-logging.md",
+      "source_location": "line 125",
+      "weight": 0.85
+    },
+    {
+      "source": "nonfunctional_requirements_nfr_logging",
+      "target": "functional_requirements_fr_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/specs/nonfunctional-requirements/nfr-logging.md",
+      "source_location": "line 86",
+      "weight": 0.85
+    },
+    {
+      "source": "functional_requirements_fr_tariff",
+      "target": "nonfunctional_requirements_nfr_logging",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/specs/nonfunctional-requirements/nfr-logging.md",
+      "source_location": "line 101",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_integration_payment_logging",
+      "label": "\u041f\u043b\u0430\u0442\u0435\u0436, \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u043e\u043c, \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0445 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439",
+      "nodes": [
+        "functional_requirements_fr_payment",
+        "integration_integration_requirements",
+        "nonfunctional_requirements_nfr_logging"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/specs/nonfunctional-requirements/nfr-logging.md"
+    }
+  ]
+}

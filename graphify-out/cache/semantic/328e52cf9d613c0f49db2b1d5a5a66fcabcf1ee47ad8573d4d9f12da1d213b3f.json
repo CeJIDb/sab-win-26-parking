@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "demo_5_readme",
+      "label": "Demo 5 \u2014 \u0424\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0434\u0435\u043c\u043e: \u0438\u0442\u043e\u0433 \u0432\u0441\u0435\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_5_readme",
+      "target": "demo_5_demo_5_presentation_deck",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/readme.md",
+      "source_location": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_readme",
+      "target": "slides_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/readme.md",
+      "source_location": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_readme",
+      "target": "process_project_journey",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/readme.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

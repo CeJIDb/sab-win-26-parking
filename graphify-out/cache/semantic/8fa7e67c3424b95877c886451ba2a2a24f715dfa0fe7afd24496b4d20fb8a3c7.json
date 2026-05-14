@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "process_project_journey",
+      "label": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/process/project-journey.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_project_journey",
+      "target": "demo_5_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u0414\u0435\u043c\u043e-\u0434\u043d\u0438 \u043a\u0430\u043a \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u044b\u0435 \u0442\u043e\u0447\u043a\u0438",
+      "weight": 1.0
+    },
+    {
+      "source": "process_project_journey",
+      "target": "process_artifact_placement_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "process_project_journey",
+      "target": "process_mvp_definition_of_done",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u042d\u0442\u0430\u043f 2.2",
+      "weight": 1.0
+    },
+    {
+      "source": "process_project_journey",
+      "target": "protocols_interview_protocol_5_2026_02_18_v01",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u042d\u0442\u0430\u043f 2.6",
+      "weight": 1.0
+    },
+    {
+      "source": "process_project_journey",
+      "target": "protocols_interview_protocol_6_2026_02_25_v01",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u042d\u0442\u0430\u043f\u044b 2.6, 3.2, 3.4",
+      "weight": 1.0
+    },
+    {
+      "source": "process_project_journey",
+      "target": "protocols_interview_protocol_7_2026_03_04_v01",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md",
+      "source_location": "\u042d\u0442\u0430\u043f\u044b 2.2, 2.6, 3.2, 3.4",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he_interview567_to_be_navigation_screens",
+      "label": "\u0418\u043d\u0442\u0435\u0440\u0432\u044c\u044e 5, 6, 7: \u0438\u0442\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435 TO-BE, \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438 \u0438 \u044d\u043a\u0440\u0430\u043d\u043d\u044b\u0445 \u0444\u043e\u0440\u043c \u0441 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u043c",
+      "nodes": [
+        "protocols_interview_protocol_5_2026_02_18_v01",
+        "protocols_interview_protocol_6_2026_02_25_v01",
+        "protocols_interview_protocol_7_2026_03_04_v01"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/project-journey.md"
+    }
+  ]
+}

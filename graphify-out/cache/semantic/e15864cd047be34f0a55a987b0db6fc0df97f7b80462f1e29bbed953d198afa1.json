@@ -1,10 +1,10 @@
 {
   "nodes": [
     {
-      "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
+      "id": "templates_pr_description_template",
+      "label": "PR Description Template",
       "file_type": "document",
-      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_file": "docs/process/templates/pr-description-template.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,

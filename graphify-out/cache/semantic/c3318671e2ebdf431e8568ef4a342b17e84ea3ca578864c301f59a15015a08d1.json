@@ -1,0 +1,1173 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_parking_platform_automation",
+      "label": "Demo 5: \u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0447\u0430\u0441\u0442\u043d\u043e\u0433\u043e \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430 \u2014 \u0444\u0438\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0440\u0435\u0437\u0435\u043d\u0442\u0430\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Five Whys",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_private_parking_context",
+      "label": "\u0427\u0430\u0441\u0442\u043d\u044b\u0439 \u043f\u0430\u0440\u043a\u0438\u043d\u0433 600 \u043c\u0430\u0448\u0438\u043d\u043e\u043c\u0435\u0441\u0442 \u2014 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_event_storming_asis",
+      "label": "Event Storming As-Is \u2014 \u0446\u0435\u043f\u043e\u0447\u043a\u0430 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 \u043e\u0442 \u0432\u044a\u0435\u0437\u0434\u0430 \u0434\u043e \u0432\u044b\u0435\u0437\u0434\u0430",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slides 8-9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_pain_points",
+      "label": "\u0411\u043e\u043b\u0438 P1-P4: \u041a\u041f\u041f, \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u043d\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c, \u043e\u043d\u043b\u0430\u0439\u043d-\u043f\u0443\u0442\u044c, \u042e\u041b-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_impact_map",
+      "label": "Impact Map \u2014 \u0430\u043a\u0442\u043e\u0440\u044b, \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f, \u043c\u0435\u0440\u044b",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_opportunity_canvas",
+      "label": "Opportunity Canvas \u2014 \u0441\u0432\u044f\u0437\u043a\u0430 \u043f\u0440\u043e\u0431\u043b\u0435\u043c \u0441 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_user_story_map",
+      "label": "User Story Map \u2014 \u0433\u0440\u0430\u043d\u0438\u0446\u0430 MVP",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_mvp_scope",
+      "label": "MVP: \u043a\u043b\u0438\u0435\u043d\u0442\u0441\u043a\u043e\u0435 \u0441\u0430\u043c\u043e\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435, \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435, \u0434\u043e\u043f\u0443\u0441\u043a, \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_context_diagram",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430 \u2014 \u0433\u0440\u0430\u043d\u0438\u0446\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_digital_platform",
+      "label": "\u0426\u0438\u0444\u0440\u043e\u0432\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 (\u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434 \u043a\u043b\u0438\u0435\u043d\u0442\u0430, \u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432, \u0431\u044d\u043a\u0435\u043d\u0434)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_skud_lpr",
+      "label": "\u0421\u041a\u0423\u0414 \u0441 LPR \u2014 \u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c \u0438 \u043a\u0430\u043c\u0435\u0440\u044b \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u044f \u0413\u0420\u0417",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_payment_gateway",
+      "label": "\u041f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439 \u0448\u043b\u044e\u0437, \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b, \u041e\u0424\u0414",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_notification_service",
+      "label": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 (SMS/push/email)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_conceptual_model",
+      "label": "\u041a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0434\u0430\u043d\u043d\u044b\u0445 \u2014 \u0435\u0434\u0438\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0434\u043b\u044f \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 \u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_parking_session",
+      "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_booking",
+      "label": "\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_tariff",
+      "label": "\u0422\u0430\u0440\u0438\u0444 (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_payment",
+      "label": "\u041f\u043b\u0430\u0442\u0435\u0436 (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_contract",
+      "label": "\u0414\u043e\u0433\u043e\u0432\u043e\u0440 (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_entity_vehicle",
+      "label": "\u0422\u0421 \u2014 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e (\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u043c\u043e\u0434\u0435\u043b\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_uc_auto_identification",
+      "label": "Use Case: \u041f\u0440\u043e\u0439\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e \u043d\u0430 \u0432\u044a\u0435\u0437\u0434\u0435",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 18",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_ft_booking",
+      "label": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u2014 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_nft_quality",
+      "label": "\u041d\u0435\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f (\u041d\u0424\u0422) \u2014 5 \u0433\u0440\u0443\u043f\u043f: \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u0435\u043c\u043e\u0441\u0442\u044c, \u043d\u0430\u0434\u0435\u0436\u043d\u043e\u0441\u0442\u044c, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c, \u0418\u0411",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_risk_analysis",
+      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0440\u0438\u0441\u043a\u043e\u0432 \u2014 \u043d\u0435\u0441\u0430\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f (\u0431\u043e\u0443\u043b\u0438\u043d\u0433-\u0433\u0430\u043b\u0441\u0442\u0443\u043a)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_client_cabinet_nav",
+      "label": "\u0421\u0445\u0435\u043c\u0430 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438 \u041b\u041a \u043a\u043b\u0438\u0435\u043d\u0442\u0430: \u043e\u043f\u043b\u0430\u0442\u0430, \u0441\u0435\u0441\u0441\u0438\u0438, \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b, \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f, \u043f\u0440\u043e\u0444\u0438\u043b\u044c",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_domain_decomposition",
+      "label": "\u0414\u043e\u043c\u0435\u043d\u043d\u0430\u044f \u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f \u2014 Core / Supporting / Generic",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slides 25-27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_domain_core",
+      "label": "Core-\u0434\u043e\u043c\u0435\u043d\u044b: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u0414\u043e\u0441\u0442\u0443\u043f, \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f, \u0422\u0430\u0440\u0438\u0444, \u0420\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 25-26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_domain_supporting",
+      "label": "Supporting-\u0434\u043e\u043c\u0435\u043d\u044b: \u041a\u043b\u0438\u0435\u043d\u0442, \u0414\u043e\u0433\u043e\u0432\u043e\u0440, \u041e\u043f\u043b\u0430\u0442\u0430, \u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438, \u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435, \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a, \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0421\u041a\u0423\u0414, \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0442\u0430\u0431\u043b\u043e",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_domain_generic",
+      "label": "Generic-\u0434\u043e\u043c\u0435\u043d\u044b: \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435, \u041e\u0442\u0447\u0435\u0442",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_business_constraints",
+      "label": "\u0411\u0438\u0437\u043d\u0435\u0441-\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f: \u0431\u044e\u0434\u0436\u0435\u0442 10-15 \u043c\u043b\u043d \u0440\u0443\u0431., MVP 4-6 \u043c\u0435\u0441., \u043d\u0435\u0442 DevOps, \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0430 200 \u043c\u0430\u0448\u0438\u043d/\u0447\u0430\u0441",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_architecture_choice",
+      "label": "\u0412\u044b\u0431\u043e\u0440 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u0433\u043e \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0430 \u2014 \u043e\u0431\u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0435, \u0431\u044e\u0434\u0436\u0435\u0442\u0443, \u0441\u0440\u043e\u043a\u0430\u043c, DevOps, 152-\u0424\u0417",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_c4_context_containers",
+      "label": "C4 \u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430 \u2014 L1 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 (5 \u0430\u043a\u0442\u043e\u0440\u043e\u0432, 11 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c), L2 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b (PWA, API Gateway, Backend, PostgreSQL), L3 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_integration_artifacts",
+      "label": "\u0410\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u044b \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438: UC, \u0424\u0422, DFD, \u043c\u0430\u043f\u043f\u0438\u043d\u0433, JSON-\u0441\u0445\u0435\u043c\u0430, UML Sequence, \u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_uc_online_payment",
+      "label": "UC-10.2-1: \u041e\u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043e\u043d\u043b\u0430\u0439\u043d (\u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f \u0430\u0440\u0435\u043d\u0434\u0430)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_dfd",
+      "label": "DFD \u2014 Data Flow Diagram (\u0421\u041a\u0423\u0414 \u2192 \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u2192 Access Control \u2192 Booking \u2192 Payment \u2192 \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_data_mapping",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 JSON-\u0441\u0445\u0435\u043c\u044b \u2014 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0435 \u043f\u043e\u043b\u0435\u0439 \u043c\u0435\u0436\u0434\u0443 \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u043c\u0438 (\u043c\u043e\u0434\u0443\u043b\u044c \u041e\u043f\u043b\u0430\u0442\u0430 \u2192 \u042e\u041a\u0430\u0441\u0441\u0430)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_uml_sequence",
+      "label": "UML Sequence Diagram: UC-10.2-1 \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043e\u043f\u043b\u0430\u0442\u044b \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0439 \u0441\u0435\u0441\u0441\u0438\u0438",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_data_transfer_regulations",
+      "label": "\u0420\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u2014 \u041b\u041a/PWA \u2192 \u0421\u0438\u0441\u0442\u0435\u043c\u0430; \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u2192 \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439 \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_tech_stack",
+      "label": "\u0421\u0442\u0435\u043a \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0439: REST API/HTTPS, OAuth 2.0/OpenID, PostgreSQL",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_rest_api_access_check",
+      "label": "REST API: POST /api/v1/access/check \u2014 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_error_registry",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a \u043e\u043f\u043b\u0430\u0442\u044b (25 \u043e\u0448\u0438\u0431\u043e\u043a) \u0438 SSO (22 \u043e\u0448\u0438\u0431\u043a\u0438)",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 40",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_logging_requirements",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u0441\u043e\u0431\u044b\u0442\u0438\u0439: \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435, \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c, \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0435, \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 41",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_outbox_pattern",
+      "label": "Outbox-\u043f\u0430\u0442\u0442\u0435\u0440\u043d \u0434\u043b\u044f \u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0445 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 (vs Kafka, RabbitMQ)",
+      "file_type": "rationale",
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_private_parking_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 4",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_event_storming_asis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 5",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_event_storming_asis",
+      "target": "slides_demo5_pain_points",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 9",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_impact_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 12",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_opportunity_canvas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 13",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_user_story_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 14",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_user_story_map",
+      "target": "slides_demo5_mvp_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 14",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_context_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_context_diagram",
+      "target": "slides_demo5_digital_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_context_diagram",
+      "target": "slides_demo5_skud_lpr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_context_diagram",
+      "target": "slides_demo5_payment_gateway",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_context_diagram",
+      "target": "slides_demo5_notification_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 15",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_conceptual_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_tariff",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo5_entity_vehicle",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 17",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_uc_auto_identification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 18",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_uc_auto_identification",
+      "target": "slides_demo5_skud_lpr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 18",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_ft_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 19",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_ft_booking",
+      "target": "slides_demo5_entity_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 19",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_nft_quality",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 20",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_risk_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 21",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_client_cabinet_nav",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 22",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_domain_decomposition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slides 25-27",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_domain_decomposition",
+      "target": "slides_demo5_domain_core",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 25",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_domain_decomposition",
+      "target": "slides_demo5_domain_supporting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_domain_decomposition",
+      "target": "slides_demo5_domain_generic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_architecture_choice",
+      "target": "slides_demo5_business_constraints",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 29",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_c4_context_containers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 30",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_integration_artifacts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 32",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_uc_online_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 33",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_uc_online_payment",
+      "target": "slides_demo5_entity_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 33",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_dfd",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 34",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_dfd",
+      "target": "slides_demo5_skud_lpr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 34",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_dfd",
+      "target": "slides_demo5_payment_gateway",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 34",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_data_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 35",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_uml_sequence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 36",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_uml_sequence",
+      "target": "slides_demo5_uc_online_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 36",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_data_transfer_regulations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 37",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_tech_stack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 38",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_rest_api_access_check",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 39",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_rest_api_access_check",
+      "target": "slides_demo5_skud_lpr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 39",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_error_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 40",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_logging_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 41",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo5_outbox_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 42",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_outbox_pattern",
+      "target": "slides_demo5_notification_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 42",
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_parking_platform_automation",
+      "target": "slides_demo4_parking_architecture",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_risk_analysis",
+      "target": "slides_demo4_security_risks",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_risk_analysis",
+      "target": "slides_demo4_security_bowtie",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_domain_decomposition",
+      "target": "slides_demo4_es_tobe_contexts",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_architecture_choice",
+      "target": "slides_demo4_architecture_comparison",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_c4_context_containers",
+      "target": "slides_demo4_c4_system_context",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_c4_context_containers",
+      "target": "slides_demo4_c4_containers",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_conceptual_model",
+      "target": "slides_demo4_er_booking",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo5_tech_stack",
+      "target": "slides_demo4_postgresql_choice",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_dfd",
+      "target": "slides_demo5_uc_auto_identification",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_domain_core",
+      "target": "slides_demo5_entity_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 25-26",
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_domain_core",
+      "target": "slides_demo5_entity_parking_session",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 25-26",
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_domain_core",
+      "target": "slides_demo5_entity_tariff",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 25-26",
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo5_domain_supporting",
+      "target": "slides_demo5_entity_contract",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_domain_supporting",
+      "target": "slides_demo5_entity_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_domain_supporting",
+      "target": "slides_demo5_skud_lpr",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf",
+      "source_location": "slide 27",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_core_domain_cost_calculation",
+      "label": "Core-\u0434\u043e\u043c\u0435\u043d\u044b \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e \u0440\u0435\u0430\u043b\u0438\u0437\u0443\u044e\u0442 \u0440\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "nodes": [
+        "slides_demo5_entity_booking",
+        "slides_demo5_entity_tariff",
+        "slides_demo5_entity_parking_session",
+        "slides_demo5_domain_core"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf"
+    },
+    {
+      "id": "hyperedge_vehicle_entry_flow",
+      "label": "\u0421\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0432\u044a\u0435\u0437\u0434\u0430: \u0421\u041a\u0423\u0414 \u0413\u0420\u0417 \u2192 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u2192 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u2192 \u0434\u043e\u0441\u0442\u0443\u043f \u2192 \u0441\u0435\u0441\u0441\u0438\u044f",
+      "nodes": [
+        "slides_demo5_skud_lpr",
+        "slides_demo5_uc_auto_identification",
+        "slides_demo5_entity_booking",
+        "slides_demo5_entity_parking_session"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf"
+    },
+    {
+      "id": "hyperedge_payment_integration_flow",
+      "label": "\u041f\u043e\u0442\u043e\u043a \u043e\u043d\u043b\u0430\u0439\u043d-\u043e\u043f\u043b\u0430\u0442\u044b: \u041b\u041a \u2192 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u2192 \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u2192 \u041e\u0424\u0414 \u2192 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "nodes": [
+        "slides_demo5_uc_online_payment",
+        "slides_demo5_payment_gateway",
+        "slides_demo5_uml_sequence",
+        "slides_demo5_notification_service"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/demo-5-slides.pdf"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "ui_readme_wireframe_structure",
+      "label": "UI wireframe folder structure and WF task coverage",
+      "file_type": "document",
+      "source_file": "ui/README.md",
+      "source_location": "1-53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ui_readme_wireframe_structure",
+      "target": "ui_index_entry_point",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md",
+      "source_location": "7",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_readme_wireframe_structure",
+      "target": "ui_site_tariffs_tariffs_page",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md",
+      "source_location": "44",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_readme_wireframe_structure",
+      "target": "ui_site_contacts_contacts_page",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md",
+      "source_location": "43",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_readme_wireframe_structure",
+      "target": "ui_site_rules_parking_rules",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md",
+      "source_location": "44",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he_guard_interface_screens",
+      "label": "Guard KPP interface: panel, log, client card, notifications, profile",
+      "nodes": [
+        "ui_guard_index_kpp_panel",
+        "ui_guard_log_entry_exit_log",
+        "ui_guard_client_summary_guard_card",
+        "ui_guard_notifications_system_notifications",
+        "ui_guard_profile_guard_profile"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md"
+    },
+    {
+      "id": "he_public_site_pages",
+      "label": "Public site wireframe pages: tariffs, rules, contacts",
+      "nodes": [
+        "ui_site_tariffs_tariffs_page",
+        "ui_site_rules_parking_rules",
+        "ui_site_contacts_contacts_page"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/README.md"
+    }
+  ]
+}

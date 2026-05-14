@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "ui_admin_client_summary_admin_card",
+      "label": "Admin client card \u2014 access status, blacklist, manual payment",
+      "file_type": "code",
+      "source_file": "ui/admin/client-summary.html",
+      "source_location": "119-275",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ui_admin_client_summary_admin_card",
+      "target": "sql_chartdb_contracts_table",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ui/admin/client-summary.html",
+      "source_location": "143-175",
+      "weight": 0.85
+    },
+    {
+      "source": "ui_admin_client_summary_admin_card",
+      "target": "sql_chartdb_debts_table",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ui/admin/client-summary.html",
+      "source_location": "135-140",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

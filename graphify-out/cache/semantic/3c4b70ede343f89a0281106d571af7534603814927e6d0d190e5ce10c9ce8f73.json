@@ -1,10 +1,10 @@
 {
   "nodes": [
     {
-      "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
-      "file_type": "document",
-      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "id": "lint_check_markdown_links",
+      "label": "check-markdown-links.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
       "source_location": null,
       "source_url": null,
       "captured_at": null,

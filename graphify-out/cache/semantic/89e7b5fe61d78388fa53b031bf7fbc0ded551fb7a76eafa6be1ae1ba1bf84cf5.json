@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_12_4_create_parking_session",
+      "label": "UC-12.4 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0443\u044e \u0441\u0435\u0441\u0441\u0438\u044e",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_uc_12_4_ps_creation",
+      "label": "Parking Session Creation (\u041f\u0421)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "## \u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_parking_session_concept",
+      "label": "Parking Session (\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f) domain concept",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_skud_integration",
+      "label": "\u0421\u041a\u0423\u0414 Integration (access control hardware)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "### 7. \u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_12_4_create_parking_session",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "use_case_uc_12_4_create_parking_session",
+      "target": "use_case_uc_12_8_complete_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "### 11. \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 Use Case",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_4_create_parking_session",
+      "target": "use_case_uc_12_2_create_booking_auto_entry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "### 11. \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 Use Case",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_4_create_parking_session",
+      "target": "use_case_uc_12_4_ps_creation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "## \u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_4_ps_creation",
+      "target": "use_case_parking_session_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "use_case_uc_12_4_create_parking_session",
+      "target": "use_case_skud_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md",
+      "source_location": "### 7. \u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_parking_session_lifecycle",
+      "label": "Parking Session Lifecycle: create \u2192 complete via \u0421\u041a\u0423\u0414",
+      "nodes": [
+        "use_case_uc_12_2_create_booking_auto_entry",
+        "use_case_uc_12_4_create_parking_session",
+        "use_case_uc_12_8_complete_parking_session"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/use-case/uc-12-4-create-parking-session.md"
+    }
+  ]
+}

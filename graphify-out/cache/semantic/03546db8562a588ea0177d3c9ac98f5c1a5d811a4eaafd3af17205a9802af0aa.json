@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "lint_lint_mermaid_mermaid_linter",
+      "label": "Mermaid syntax linter script",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "1-172",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint_lint_mermaid_mmdc_integration",
+      "label": "mmdc (mermaid-cli) integration for block validation",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "87-102",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_lint_mermaid_mermaid_linter",
+      "target": "lint_lint_mermaid_mmdc_integration",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "87",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

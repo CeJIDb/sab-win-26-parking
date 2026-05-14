@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "id": "ui_guard_index_kpp_panel",
+      "label": "Guard KPP panel \u2014 live events, plate/client search, parking map",
+      "file_type": "code",
+      "source_file": "ui/guard/index.html",
+      "source_location": "40-233",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ui_guard_index_kpp_panel",
+      "target": "ui_guard_client_summary_guard_card",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/guard/index.html",
+      "source_location": "108",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_guard_index_kpp_panel",
+      "target": "ui_guard_log_entry_exit_log",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/guard/index.html",
+      "source_location": "33",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_guard_index_kpp_panel",
+      "target": "ui_guard_notifications_system_notifications",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/guard/index.html",
+      "source_location": "17",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_guard_index_kpp_panel",
+      "target": "sql_chartdb_access_logs_table",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ui/guard/index.html",
+      "source_location": "51-99",
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

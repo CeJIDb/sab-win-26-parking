@@ -1,0 +1,57 @@
+# .graphifyignore — same syntax as .gitignore (supports ! negation)
+# Controls which files graphify indexes into the knowledge graph.
+
+# ── Dependencies & runtime environments ──────────────────────────────────────
+node_modules/
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Graphify output — avoid circular self-indexing ───────────────────────────
+graphify-out/
+
+# ── Secrets, sessions, local overrides ───────────────────────────────────────
+.env
+.env.*
+.playwright-session.json
+.google-session.json
+.claude/settings.local.json
+
+# ── Ephemeral / generated / temp ─────────────────────────────────────────────
+.playwright-mcp/
+.claude/cache/
+docs/_system-context/
+temp_context/
+docs/repo-context-compressed.md
+plans/.tmp/
+
+# ── Lock files & package artifacts ───────────────────────────────────────────
+package-lock.json
+*.tgz
+
+# ── CI / tooling meta (low semantic value for a knowledge graph) ──────────────
+.github/
+.husky/
+commitlint.config.cjs
+puppeteer-config.json
+
+# ── Images ───────────────────────────────────────────────────────────────────
+
+# Demo day slide raw images — 200+ numbered JPGs with no embedded text.
+# PDFs in the same slides/ dirs are NOT excluded — they carry actual content.
+docs/demo-days/*/slides/*.jpg
+docs/demo-days/*/slides/*.jpeg
+docs/demo-days/*/slides/*.png
+
+# All assets/ subdirs in docs: board photos, OG banners, process screenshots.
+# These are visual references only — the meaning lives in the *.md files.
+docs/**/assets/
+
+# Re-include architecture assets — C4, integration diagrams, ERD have
+# structural content that the graph can reason about.
+!docs/architecture/c4/assets/
+!docs/architecture/integration/assets/
+!docs/architecture/database/erd/assets/

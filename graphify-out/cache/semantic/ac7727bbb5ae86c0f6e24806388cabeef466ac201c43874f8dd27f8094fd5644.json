@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "constraints_constr_system",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u043a \u0441\u0438\u0441\u0442\u0435\u043c\u0435 (CONSTR-*)",
+      "file_type": "document",
+      "source_file": "docs/specs/constraints/constr-system.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "constraints_constr_system",
+      "target": "functional_requirements_fr_event_skud",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/constraints/constr-system.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    },
+    {
+      "source": "constraints_constr_system",
+      "target": "nonfunctional_requirements_nfr_ui_quality",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/constraints/constr-system.md",
+      "source_location": "line 20",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_constraint_nfr_arch",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u044b, NFR UI \u0438 NFR Logging \u0437\u0430\u0434\u0430\u044e\u0442 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0435",
+      "nodes": [
+        "constraints_constr_system",
+        "nonfunctional_requirements_nfr_ui_quality",
+        "nonfunctional_requirements_nfr_logging"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/specs/constraints/constr-system.md"
+    }
+  ]
+}

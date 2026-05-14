@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "ui_index_entry_point",
+      "label": "Platform entry point \u2014 routes to site, client LK, staff login",
+      "file_type": "code",
+      "source_file": "ui/index.html",
+      "source_location": "1-58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ui_index_entry_point",
+      "target": "ui_site_staff_login_staff_login",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/index.html",
+      "source_location": "27",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}
