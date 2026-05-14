@@ -12,7 +12,8 @@
 
 ```text
 sab-win-26-parking/
-├── CLAUDE.md                ← этот файл, навигация для агента
+├── CLAUDE.md                ← этот файл, навигация для Claude Code
+├── AGENTS.md                ← навигация для Codex-агента
 ├── README.md                ← вход для людей (русский)
 ├── README.en.md             ← вход для людей (английский)
 ├── CONTRIBUTING.md          ← регламент участников: ветки, коммиты, DoR/DoD, CI
@@ -29,6 +30,11 @@ sab-win-26-parking/
 │   ├── demo-days/           ← материалы Demo Days
 │   └── assets/              ← бинарные ассеты витрины (OG-image, баннеры)
 ├── ui/                      ← статический wireframe (SCSS + Nunjucks → HTML)
+│   ├── admin/               ← страницы администратора
+│   ├── client/              ← страницы клиента
+│   ├── guard/               ← страницы охранника
+│   ├── site/                ← публичный сайт
+│   └── templates/           ← Nunjucks-шаблоны
 ├── plans/                   ← технические планы (один план = одна задача)
 ├── scripts/                 ← скрипты сборки, линтов, atomic-commit, claude-hooks
 │   ├── build/               ← сборка ui/ (build-templates.mjs)
@@ -39,8 +45,14 @@ sab-win-26-parking/
 │   ├── lint/                ← кастомные линтеры markdown / file-names / mermaid
 │   └── plans/               ← validate-plans.mjs
 ├── .claude/                 ← настройки Claude Code: rules, hooks, deny-правила
+│   ├── commands/            ← пользовательские slash-команды
+│   ├── rules/               ← правила агента (ast-index и др.)
+│   └── skills/              ← локальные skills (humanizer, marp и др.)
+├── .agents/                 ← skills для других AI-агентов
+├── .codex/                  ← настройки Codex-агента
 ├── .husky/                  ← git-хуки: commit-msg, pre-commit, pre-push
 ├── .github/                 ← CI workflows, PR/Issue templates, CODEOWNERS
+├── graphify-out/            ← граф знаний репозитория (авто-генерируется)
 └── sql/                     ← SQL-заготовки для учебной части
 ```
 
@@ -56,7 +68,7 @@ sab-win-26-parking/
 | Регламенты процесса             | [docs/process/readme.md](docs/process/readme.md)                                   |
 | Матрица трассировки (правила)   | [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md)         |
 | Матрица трассировки (журнал)    | [docs/process/traceability-matrix-log.md](docs/process/traceability-matrix-log.md) |
-| Wireframe                       | [ui/pages/](ui/pages/), сборка `npm run build`                                     |
+| Wireframe                       | [ui/](ui/) (admin/, client/, guard/, site/), сборка `npm run build`                |
 | Технические планы               | [plans/](plans/), [plans/README.md](plans/README.md)                               |
 | Правила Claude (опц. ast-index) | [.claude/rules/ast-index.md](.claude/rules/ast-index.md)                           |
 | Скрипты (прочие)                | [scripts/](scripts/)                                                               |
@@ -121,6 +133,8 @@ sab-win-26-parking/
 - `block-secret-write.mjs` — запрет записи в файлы, похожие на секреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier после записи.
+- `play-sound.sh` — звуковое уведомление по событиям.
+- `remind-atomic-commit.sh` — напоминание про atomic-commit в хуках husky.
 
 ## Git-хуки (husky) и CI
 
