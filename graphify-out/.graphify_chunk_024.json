@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_diagram",
+      "label": "UML Class Diagram: As-Is Domain Model (Parking)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_fiz_lico",
+      "label": "Физ.лицо (Individual Person)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_klient",
+      "label": "Клиент (Client)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_yur_lico",
+      "label": "Юр.лицо (Legal Entity)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_vladelec",
+      "label": "Владелец (Owner)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_dogovor_fiz_lica",
+      "label": "Договор Физ.лица (Individual Contract)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_dogovor_yur_lica",
+      "label": "Договор Юр.лица (Legal Entity Contract)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_karta_dostupa",
+      "label": "Карта доступа (Access Card)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_avtomobil",
+      "label": "Автомобиль (Car)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_shlagbaum",
+      "label": "Шлагбаум (Barrier Gate)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_tarif",
+      "label": "Тариф (Tariff)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_schet",
+      "label": "Счет (Invoice/Account)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_chek",
+      "label": "Чек (Receipt)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_parkovochnoe_mesto",
+      "label": "Парковочное место (Parking Spot)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_starshiy_okhrannnik",
+      "label": "Старший Охранник (Senior Guard)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_okhrannik",
+      "label": "Охранник (Guard)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_uml_class_domain_as_is_buhgalter",
+      "label": "Бухгалтер (Accountant)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_fiz_lico",
+      "target": "as_is_assets_uml_class_domain_as_is_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_yur_lico",
+      "target": "as_is_assets_uml_class_domain_as_is_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_fiz_lico",
+      "target": "as_is_assets_uml_class_domain_as_is_dogovor_fiz_lica",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_yur_lico",
+      "target": "as_is_assets_uml_class_domain_as_is_dogovor_yur_lica",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_yur_lico",
+      "target": "as_is_assets_uml_class_domain_as_is_vladelec",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_dogovor_fiz_lica",
+      "target": "as_is_assets_uml_class_domain_as_is_karta_dostupa",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_karta_dostupa",
+      "target": "as_is_assets_uml_class_domain_as_is_avtomobil",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_klient",
+      "target": "as_is_assets_uml_class_domain_as_is_avtomobil",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_avtomobil",
+      "target": "as_is_assets_uml_class_domain_as_is_dogovor_yur_lica",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_avtomobil",
+      "target": "as_is_assets_uml_class_domain_as_is_tarif",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_karta_dostupa",
+      "target": "as_is_assets_uml_class_domain_as_is_shlagbaum",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_shlagbaum",
+      "target": "as_is_assets_uml_class_domain_as_is_parkovochnoe_mesto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_parkovochnoe_mesto",
+      "target": "as_is_assets_uml_class_domain_as_is_schet",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_tarif",
+      "target": "as_is_assets_uml_class_domain_as_is_schet",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_schet",
+      "target": "as_is_assets_uml_class_domain_as_is_chek",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_schet",
+      "target": "as_is_assets_uml_class_domain_as_is_buhgalter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_chek",
+      "target": "as_is_assets_uml_class_domain_as_is_okhrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_starshiy_okhrannnik",
+      "target": "as_is_assets_uml_class_domain_as_is_okhrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_starshiy_okhrannnik",
+      "target": "as_is_assets_uml_class_domain_as_is_shlagbaum",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_okhrannik",
+      "target": "as_is_assets_uml_class_domain_as_is_shlagbaum",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_vladelec",
+      "target": "as_is_assets_uml_class_domain_as_is_dogovor_yur_lica",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_uml_class_domain_as_is_diagram",
+      "target": "as_is_assets_uml_class_domain_as_is_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 950
+}

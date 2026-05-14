@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "client_sessions_history_screen",
+      "label": "Client Sessions History (\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u044b\u0445 \u0441\u0435\u0441\u0441\u0438\u0439)",
+      "file_type": "document",
+      "source_file": "ui/client/sessions-history.html",
+      "source_location": "line 50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "client_sessions_history_screen",
+      "target": "client_dashboard_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/sessions-history.html",
+      "source_location": "line 34",
+      "weight": 1.0
+    },
+    {
+      "source": "client_sessions_history_screen",
+      "target": "client_payment_settings_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/sessions-history.html",
+      "source_location": "line 40",
+      "weight": 1.0
+    },
+    {
+      "source": "client_sessions_history_screen",
+      "target": "client_notifications_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/sessions-history.html",
+      "source_location": "line 17",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

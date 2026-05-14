@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_7_2",
+      "label": "UC-7.2 \u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_uc_7_2_view_booking",
+      "label": "UC-7.2 \u00ab\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u00bb",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_7_2",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2",
+      "target": "concept_actor_client_fl",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0435 \u043b\u0438\u0446\u043e",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2",
+      "target": "concept_actor_client_ul",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0435 \u043b\u0438\u0446\u043e",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2",
+      "target": "concept_entity_booking",
+      "relation": "reads",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2_view_booking",
+      "target": "actor_client_fl",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "line 31",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2_view_booking",
+      "target": "actor_client_ul",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "line 31",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_2_view_booking",
+      "target": "concept_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-2-view-booking.md",
+      "source_location": "line 49",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

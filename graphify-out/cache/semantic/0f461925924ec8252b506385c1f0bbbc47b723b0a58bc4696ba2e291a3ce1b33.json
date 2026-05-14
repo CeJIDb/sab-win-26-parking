@@ -1,0 +1,375 @@
+{
+  "nodes": [
+    {
+      "id": "assets_c4_l1_system_context_image",
+      "label": "C4 L1 System Context Diagram",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_digital_parking_platform",
+      "label": "\u0426\u0438\u0444\u0440\u043e\u0432\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 (Software System) \u2014 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439, \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u0442\u0430\u0440\u0438\u0444\u044b, \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_owner",
+      "label": "\u0412\u043b\u0430\u0434\u0435\u043b\u0435\u0446 (Person) \u2014 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_client_fl",
+      "label": "\u041a\u043b\u0438\u0435\u043d\u0442 \u0424\u041b (Person) \u2014 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_client_ul",
+      "label": "\u041a\u043b\u0438\u0435\u043d\u0442 \u042e\u041b (Person) \u2014 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_security",
+      "label": "\u041e\u0445\u0440\u0430\u043d\u0430 (Person) \u2014 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a \u041a\u041f\u041f",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_manager",
+      "label": "\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439 (Person) \u2014 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_sso",
+      "label": "SSO (Software System) \u2014 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f, VK ID / \u042f\u043d\u0434\u0435\u043a\u0441 ID",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_payment",
+      "label": "\u041f\u043b\u0430\u0442\u0435\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 (Software System) \u2014 \u0421\u0431\u0435\u0440\u0431\u0430\u043d\u043a/\u042d\u043a\u0432\u0430\u0439\u0440\u0438\u043d\u0433",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_gis",
+      "label": "\u0413\u0438\u0441-\u0441\u0435\u0440\u0432\u0438\u0441\u044b (Software System) \u2014 \u042f\u043d\u0434\u0435\u043a\u0441 \u041a\u0430\u0440\u0442\u044b \u0438 \u0434\u0440.",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_sms",
+      "label": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 (Software System) \u2014 SMS / email",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_energy",
+      "label": "\u0421\u0435\u0440\u0432\u0438\u0441 \u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0438 (Software System) \u2014 BI / \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_skud",
+      "label": "\u0421\u041a\u0423\u0414 / \u0423\u0412\u041f (Software System) \u2014 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430 / \u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_mobile_app",
+      "label": "\u0418\u043d\u0444. \u0442\u0430\u0431\u043b\u043e / \u0434\u0438\u0441\u043f\u043b\u0435\u0438 (Software System) \u2014 Ridis / Inelo",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_oed",
+      "label": "\u041e\u042d\u0414 (Software System) \u2014 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043e\u0431\u043e\u0440\u043e\u0442",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_edo",
+      "label": "\u042d\u0414\u041e (Software System) \u2014 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043e\u0431\u043e\u0440\u043e\u0442",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_1c",
+      "label": "1\u0421 (Software System) \u2014 \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0438\u044f",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_website",
+      "label": "\u0421\u0430\u0439\u0442-\u0432\u0438\u0437\u0438\u0442\u043a\u0430 (Software System) \u2014 \u0442\u0430\u0440\u0438\u0444\u044b, \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_c4_l1_system_context_actor_owner",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_client_fl",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_client_ul",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_security",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_manager",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_sso",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_gis",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_sms",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_energy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_skud",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_mobile_app",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_oed",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_edo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_1c",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_website",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_image",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

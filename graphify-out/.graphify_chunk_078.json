@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo2_01_title_conceptual_design",
+      "label": "Demo Day 2: Автоматизация частного паркинга — концептуальное проектирование решения (Five Whys: от проблем к решению). Этап Demo 2. Докладчики: Александр, Артем (Impact Map), Марина (Opportunity Canvas), Денис (НФТ к интерфейсам), Павел (User Story Map).",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/01.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_03_research_results",
+      "label": "Результаты исследования: 5 интервью с владельцем парковки (Елена Гриценко). Проблемы: 30% мест простаивает (потеря дохода), 80% времени охранников — непрофильная рутина (прием оплаты, договоры), 0% удобного использования услуг клиентами, ручные операции во всех процессах.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/03.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_05_impact_map_goal",
+      "label": "Impact Map — Цель: увеличить долю клиентов, использующих парковку через онлайн-ресурсы, с 0% до 80% от общего числа клиентов на дату запуска в течение 6 месяцев после ввода системы в эксплуатацию.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/05.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_13_opportunity_canvas_user_metrics",
+      "label": "Opportunity Canvas — Пользовательские метрики (as is → to be): время оформления договора с физлицом <20 → <10 мин; время въезда/выезда с ЛК: долгая очередь → <0.33/<0.33 мин; оплата онлайн/оффлайн: 5 → <2/<1 мин; регистрация в ЛК: нет данных → <2 мин; % неидентифицированных клиентов на въезде: нет данных → <5%.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/13.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_16_nft_ui_quality_requirements",
+      "label": "НФТ к интерфейсам — Требования к качеству пользовательских интерфейсов. Методы исследования: UX-тестирование (в т.ч. пожилые), фокус-группы и интервью, продуктовая аналитика (воронки, время, ошибки), мониторинг инцидентов на КПП. Ключевые метрики: результативность, скорость обучения, эффективность, точность, утомляемость.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/16.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_21_usm_key_scenarios",
+      "label": "USM — Ключевые сценарии пользователей: 1) работа с тарифными планами, 2) получение доступа к сервису, 3) настройка автопарка, 4) оформление и управление договорами (только физлица), 5) оплата, 6) использование услуги парковки, 7) интеграция с системой доступа, 8) управление машиноместами.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/21.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_22_usm_key_findings",
+      "label": "USM — Ключевые находки: 1) полная автоматизация цикла доступа, 2) три типа клиентов с разными сценариями, 3) критичность резервного ручного режима, 4) гибкая схема парковки, 5) фокус на регистрации клиентов в системе.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/22.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_24_stage_challenges",
+      "label": "Сложности и вызовы этапа: поиск баланса в MVP (где граница минимального vs сырого продукта); сложность убеждения Заказчика в постоплате (привычка к As-Is); частичный отказ Заказчика от предложенного варианта, корректировка планов и артефактов.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/24.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo2_25_conclusion",
+      "label": "Заключение: этап потребовал выйти за рамки описания функций и стать бизнес-консультантами для Заказчика. Существующую концепцию нельзя изменить полумерами — нужна новая концепция с максимальным охватом для безболезненного перехода. Цитата: «Нельзя перепрыгнуть ущелье на 99%».",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/25.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo2_01_title_conceptual_design",
+      "target": "slides_demo2_03_research_results",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_03_research_results",
+      "target": "slides_demo2_05_impact_map_goal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/03.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_05_impact_map_goal",
+      "target": "slides_demo2_13_opportunity_canvas_user_metrics",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/05.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_13_opportunity_canvas_user_metrics",
+      "target": "slides_demo2_16_nft_ui_quality_requirements",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/13.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_16_nft_ui_quality_requirements",
+      "target": "slides_demo2_21_usm_key_scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/16.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_21_usm_key_scenarios",
+      "target": "slides_demo2_22_usm_key_findings",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/21.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_22_usm_key_findings",
+      "target": "slides_demo2_24_stage_challenges",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/22.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_24_stage_challenges",
+      "target": "slides_demo2_25_conclusion",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/24.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo2_01_title_conceptual_design",
+      "target": "slides_demo2_05_impact_map_goal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/01.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo2_01_title_conceptual_design",
+      "target": "slides_demo2_13_opportunity_canvas_user_metrics",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/01.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo2_01_title_conceptual_design",
+      "target": "slides_demo2_21_usm_key_scenarios",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/01.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo2_03_research_results",
+      "target": "slides_demo2_13_opportunity_canvas_user_metrics",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-2/slides/03.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo2_05_impact_map_goal",
+      "target": "slides_demo2_22_usm_key_findings",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-2/slides/05.jpg",
+      "source_location": null,
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "process_retro_gym_app_tooling_retro",
+      "label": "Retro: gym-app tooling adoption (2026-04-24)",
+      "file_type": "document",
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": "2026-04-24",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_gym_app_tooling",
+      "label": "Gym-App Tooling Adoption (Claude Code, atomic-commit, markdownlint)",
+      "file_type": "concept",
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_atomic_commit_mjs",
+      "label": "atomic-commit.mjs (git workflow script)",
+      "file_type": "concept",
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_claude_settings_json",
+      "label": ".claude/settings.json (Claude Code config with deny rules)",
+      "file_type": "concept",
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_retro_gym_app_tooling_retro",
+      "target": "concept_gym_app_tooling",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 9",
+      "weight": 1.0
+    },
+    {
+      "source": "process_retro_gym_app_tooling_retro",
+      "target": "concept_atomic_commit_mjs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 27",
+      "weight": 1.0
+    },
+    {
+      "source": "process_retro_gym_app_tooling_retro",
+      "target": "concept_claude_settings_json",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-04-24-gym-app-tooling-adoption.md",
+      "source_location": "line 15",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

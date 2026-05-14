@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "integration_yookassa_data_mapping",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u043e\u0431\u043c\u0435\u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u0441 \u042eKassa",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "last_updated: 2026-04-30",
+      "source_url": "https://yookassa.ru/developers/api",
+      "captured_at": "2026-04-30",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_yookassa_payment_statuses",
+      "label": "\u042eKassa: \u043c\u0430\u043f\u043f\u0438\u043d\u0433 \u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432 \u043f\u043b\u0430\u0442\u0435\u0436\u0430",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u2014 \u0421\u0442\u0430\u0442\u0443\u0441\u044b \u043f\u043b\u0430\u0442\u0435\u0436\u0430",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_yookassa_payment_statuses",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432 \u043f\u043b\u0430\u0442\u0435\u0436\u0430 \u042eKassa \u2192 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u043c\u043e\u0434\u0435\u043b\u044c (pending\u2192INITIATED, succeeded\u2192COMPLETED, canceled\u2192CANCELLED/FAILED)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 262",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_yookassa_fiscal_status",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0444\u0438\u0441\u043a\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u042eKassa \u2192 receipts.fiscal_status",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 293",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_yookassa_webhook_events",
+      "label": "\u0421\u043e\u0431\u044b\u0442\u0438\u044f \u042eKassa \u0438 \u0440\u0435\u0430\u043a\u0446\u0438\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b (payment.succeeded, refund.succeeded, payment.receipt.created)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 304",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_yookassa_idempotence_key",
+      "label": "\u041f\u0440\u0430\u0432\u0438\u043b\u043e \u0438\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u0438: Idempotence-Key \u0434\u043b\u044f POST /v3/payments \u0438 POST /v3/refunds",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 325",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "erd_entity_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u043d\u0430\u0448\u0435\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u2014 payment.payments",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "erd_entity_receipt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u043d\u0430\u0448\u0435\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u2014 payment.receipts",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "concept_yookassa_payment_statuses",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u2014 \u0421\u0442\u0430\u0442\u0443\u0441\u044b \u043f\u043b\u0430\u0442\u0435\u0436\u0430",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "integration_sequence_uc_10_2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 0.8
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "integration_yookassa_payment_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 262",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "integration_yookassa_fiscal_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 293",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "integration_yookassa_webhook_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 304",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "integration_yookassa_idempotence_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 325",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "database_erd_normalized_er_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 355",
+      "weight": 0.9
+    },
+    {
+      "source": "integration_yookassa_data_mapping",
+      "target": "c4_diagrams",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 353",
+      "weight": 0.8
+    },
+    {
+      "source": "c4_l3_payment_adapter",
+      "target": "integration_yookassa_data_mapping",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 353",
+      "weight": 0.9
+    },
+    {
+      "source": "database_erd_entity_payment",
+      "target": "integration_yookassa_data_mapping",
+      "relation": "mapped_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 59",
+      "weight": 0.9
+    },
+    {
+      "source": "database_erd_entity_receipt",
+      "target": "integration_yookassa_fiscal_status",
+      "relation": "mapped_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/integration/yookassa-data-mapping.md",
+      "source_location": "line 293",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

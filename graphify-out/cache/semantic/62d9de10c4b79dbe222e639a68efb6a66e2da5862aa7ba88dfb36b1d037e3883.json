@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "admin_tariffs_screen",
+      "label": "Admin Tariffs (\u0422\u0430\u0440\u0438\u0444\u044b)",
+      "file_type": "document",
+      "source_file": "ui/admin/tariffs.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

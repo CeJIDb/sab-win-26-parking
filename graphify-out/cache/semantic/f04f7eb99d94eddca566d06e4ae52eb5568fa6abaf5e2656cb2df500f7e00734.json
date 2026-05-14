@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "integration_schema_uc_10_6_receipt",
+      "label": "JSON-\u0441\u0445\u0435\u043c\u0430 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 UC-10.6 \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u043e\u0433\u043e \u0447\u0435\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_receipt_response_schema",
+      "label": "ReceiptResponse JSON Schema (UC-10.6)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "JSON Schema",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_schema_uc106_receipt",
+      "label": "JSON-\u0441\u0445\u0435\u043c\u0430 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 UC-10.6 \u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u043e\u0433\u043e \u0447\u0435\u043a\u0430",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_schema_uc106_receipt_schema",
+      "label": "ReceiptResponse JSON Schema (draft 2020-12) \u2014 \u0444\u0438\u0441\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0447\u0435\u043a \u0441 \u0432\u043b\u043e\u0436\u0435\u043d\u043d\u044b\u043c PaymentSummary",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "line 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_schema_uc_10_6_receipt",
+      "target": "concept_receipt_response_schema",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "JSON Schema",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_schema_uc_10_6_receipt",
+      "target": "integration_payload_uc_10_6_receipt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 0.9
+    },
+    {
+      "source": "integration_schema_uc_10_6_receipt",
+      "target": "integration_openapi_uc_10_6_receipt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_schema_uc106_receipt",
+      "target": "integration_schema_uc106_receipt_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "line 29",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_schema_uc106_receipt",
+      "target": "integration_yookassa_data_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "line 150",
+      "weight": 0.8
+    },
+    {
+      "source": "integration_schema_uc106_receipt",
+      "target": "integration_is_interaction_regulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "line 151",
+      "weight": 0.8
+    },
+    {
+      "source": "integration_schema_uc106_receipt_schema",
+      "target": "database_erd_entity_receipt",
+      "relation": "describes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/integration/schema-uc-10-6-receipt.md",
+      "source_location": "line 5",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": []
+}

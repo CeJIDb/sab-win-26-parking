@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 ES TO-BE \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_ddd_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 DDD \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_readme",
+      "target": "es_tobe_sd_team_board",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 14",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "es_tobe_sd_access_and_parking_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 15",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "es_tobe_bp_booking_and_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "es_tobe_bp_payment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "es_tobe_bp_client_profile_and_vehicles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 18",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "ref_es_tobe_sd_contexts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 34",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_readme",
+      "target": "ref_ddd_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/readme.md",
+      "source_location": "line 35",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

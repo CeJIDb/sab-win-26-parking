@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "label": "check-markdown.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_markdown_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_markdown_targets",
+      "label": "TARGETS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "lint_check_markdown_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L17"
+    },
+    {
+      "id": "lint_check_markdown_collectmarkdownfiles",
+      "label": "collectMarkdownFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "lint_check_markdown_lintcontent",
+      "label": "lintContent()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L40"
+    },
+    {
+      "id": "lint_check_markdown_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_collectmarkdownfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_lintcontent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_main",
+      "target": "lint_check_markdown_collectmarkdownfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_main",
+      "target": "lint_check_markdown_lintcontent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L91",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "stat",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "readdir",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "lint_check_markdown_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "relative",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "find",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "forEach",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "test",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "includes",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "includes",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L75"
+    },
+    {
+      "caller_nid": "lint_check_markdown_lintcontent",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "lint_check_markdown_main",
+      "callee": "readFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "lint_check_markdown_main",
+      "callee": "relative",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "lint_check_markdown_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L96"
+    },
+    {
+      "caller_nid": "lint_check_markdown_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L101"
+    },
+    {
+      "caller_nid": "lint_check_markdown_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs",
+      "source_location": "L102"
+    }
+  ]
+}

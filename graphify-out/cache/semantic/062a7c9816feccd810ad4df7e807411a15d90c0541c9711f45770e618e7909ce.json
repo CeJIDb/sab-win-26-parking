@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_21_risk_analysis_unauthorized_access",
+      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0440\u0438\u0441\u043a\u043e\u0432 \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0440\u0438\u0441\u043a \u2014 \u043d\u0435\u0441\u0430\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u0438 \u0434\u0430\u043d\u043d\u044b\u043c: \u0441\u043b\u0430\u0431\u044b\u0435 \u043f\u0430\u0440\u043e\u043b\u0438, \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 2FA, \u043a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0438\u044f SSO-\u0442\u043e\u043a\u0435\u043d\u043e\u0432, \u043e\u0448\u0438\u0431\u043a\u0438 \u0440\u043e\u043b\u0435\u0432\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438, \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0435 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u043f\u0440\u0430\u0432 \u043d\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/21.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0414\u0435\u043d\u0438\u0441",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_21_risk_analysis_unauthorized_access",
+      "target": "slides_demo5_25_domain_decomposition",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/21.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": []
+}

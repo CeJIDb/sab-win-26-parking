@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {
+      "id": "assets_traceability_matrix_example_image",
+      "label": "Traceability Matrix Example (image, file not found)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/traceability-matrix-example.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 10
+}

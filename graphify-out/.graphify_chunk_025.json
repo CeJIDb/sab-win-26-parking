@@ -1,0 +1,532 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_bpmn_parking_exit_diagram",
+      "label": "BPMN: Процесс выезда с парковки (AS-IS)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_pool_client",
+      "label": "Пул: Клиент",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_pool_operator",
+      "label": "Пул: Оператор / Система",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_start_event",
+      "label": "Старт: Клиент принял решение выехать с парковки",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_go_to_barrier",
+      "label": "Задача: Подъехать к шлагбауму",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_open_barrier_auto",
+      "label": "Задача: Открыть (шлагбаум автоматически)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_gw_has_ticket",
+      "label": "Шлюз: Есть ли парковочный талон?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_insert_card",
+      "label": "Задача: Приложить карту к считывателю",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_gw_card_valid",
+      "label": "Шлюз: Карта активна и шлагбаум открылся?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_call_operator",
+      "label": "Задача: Вызвать оператора",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_identify_client",
+      "label": "Задача: Идентифицировать клиента",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_gw_client_found",
+      "label": "Шлюз: Клиент найден по новой базе данных?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_notify_manager",
+      "label": "Задача: Уведомить управляющего",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_save_record",
+      "label": "Задача: Зафиксировать данные в журнале",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_db_journal",
+      "label": "База данных: Журнал инцидентов",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "label": "Задача: Открыть шлагбаум (вручную)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_validate_payment",
+      "label": "Задача: Проверить постоянного / Подтвердить постановку",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_gw_payment_ok",
+      "label": "Шлюз: Подтверждена ли постановка?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_repeat_antivandal",
+      "label": "Задача: Повторить антивандальную процедуру",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_task_pass_barrier",
+      "label": "Задача: Выехать через шлагбаум",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_note_after_barrier",
+      "label": "Аннотация: После выдачи карты клиент приклеивает её к шлагбауму",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_end_event_success",
+      "label": "Конец: Клиент проехал через шлагбаум",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_parking_exit_end_event_operator",
+      "label": "Конец: Оператор зафиксировал шлагбаум",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_bpmn_parking_exit_diagram",
+      "target": "as_is_bpmn_parking_exit_pool_client",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_diagram",
+      "target": "as_is_bpmn_parking_exit_pool_operator",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_start_event",
+      "target": "as_is_bpmn_parking_exit_task_go_to_barrier",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_go_to_barrier",
+      "target": "as_is_bpmn_parking_exit_task_open_barrier_auto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_go_to_barrier",
+      "target": "as_is_bpmn_parking_exit_gw_has_ticket",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_has_ticket",
+      "target": "as_is_bpmn_parking_exit_task_insert_card",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_insert_card",
+      "target": "as_is_bpmn_parking_exit_gw_card_valid",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_card_valid",
+      "target": "as_is_bpmn_parking_exit_task_pass_barrier",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_card_valid",
+      "target": "as_is_bpmn_parking_exit_task_call_operator",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_has_ticket",
+      "target": "as_is_bpmn_parking_exit_task_call_operator",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_call_operator",
+      "target": "as_is_bpmn_parking_exit_task_identify_client",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_identify_client",
+      "target": "as_is_bpmn_parking_exit_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_client_found",
+      "target": "as_is_bpmn_parking_exit_task_notify_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_client_found",
+      "target": "as_is_bpmn_parking_exit_task_validate_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_notify_manager",
+      "target": "as_is_bpmn_parking_exit_task_save_record",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_save_record",
+      "target": "as_is_bpmn_parking_exit_db_journal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_save_record",
+      "target": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_validate_payment",
+      "target": "as_is_bpmn_parking_exit_gw_payment_ok",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_payment_ok",
+      "target": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_gw_payment_ok",
+      "target": "as_is_bpmn_parking_exit_task_repeat_antivandal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "target": "as_is_bpmn_parking_exit_task_pass_barrier",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_pass_barrier",
+      "target": "as_is_bpmn_parking_exit_end_event_success",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "target": "as_is_bpmn_parking_exit_end_event_operator",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_note_after_barrier",
+      "target": "as_is_bpmn_parking_exit_task_insert_card",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_pool_client",
+      "target": "as_is_bpmn_parking_exit_start_event",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_pool_operator",
+      "target": "as_is_bpmn_parking_exit_task_identify_client",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_parking_exit_pool_operator",
+      "target": "as_is_bpmn_parking_exit_task_open_barrier_manual",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-parking-exit.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 980
+}

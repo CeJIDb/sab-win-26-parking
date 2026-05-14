@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_33_use_case_ft_integration",
+      "label": "Use Case \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0438 \u0424\u0422 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438: UC-10.2-1 \u041e\u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043e\u043d\u043b\u0430\u0439\u043d (\u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f \u0430\u0440\u0435\u043d\u0434\u0430) \u2014 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u043e\u0437\u0434\u0430\u0435\u0442 \u043f\u043b\u0430\u0442\u0435\u0436, \u043f\u0435\u0440\u0435\u0434\u0430\u0435\u0442 \u0432 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u0443\u044e \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441 \u0441 \u0441\u0443\u043c\u043c\u043e\u0439, ID \u0441\u0435\u0441\u0441\u0438\u0438, callbackURL, \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u0430, \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f; \u0424\u0422 INT-004 \u041f\u043b\u0430\u0442\u0435\u0436.\u0417\u0430\u043f\u0440\u043e\u0441\u0410\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e\u0421\u0442\u0430\u0442\u0443\u0441\u0430.\u041f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439\u041f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440 \u2014 \u0437\u0430\u043f\u0440\u043e\u0441 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u043f\u043e \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u044e",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041c\u0430\u0440\u0438\u043d\u0430",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_33_use_case_ft_integration",
+      "target": "slides_demo5_35_mapping_json_integration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_33_use_case_ft_integration",
+      "target": "slides_demo5_36_uml_sequence_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

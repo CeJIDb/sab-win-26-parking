@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "build_build_templates_module",
+      "label": "build-templates.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "1-147",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_buildclientpage",
+      "label": "buildClientPage(templateName, outName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "28-33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_buildguardpage",
+      "label": "buildGuardPage(templateName, outName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "35-40",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_buildadminpage",
+      "label": "buildAdminPage(templateName, outName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "42-47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_buildsitepage",
+      "label": "buildSitePage(templateName, outName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "49-54",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_buildrootpage",
+      "label": "buildRootPage(templateName, outName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "56-61",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_nunjucks_env",
+      "label": "nunjucks.Environment (FileSystemLoader)",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "23-26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "build_build_templates_main",
+      "label": "main() in build-templates.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "63-141",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "build_build_templates_main",
+      "target": "build_build_templates_buildclientpage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "122-124",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_main",
+      "target": "build_build_templates_buildguardpage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "126-128",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_main",
+      "target": "build_build_templates_buildadminpage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "130-132",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_main",
+      "target": "build_build_templates_buildsitepage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "134-136",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_main",
+      "target": "build_build_templates_buildrootpage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "138-140",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_buildclientpage",
+      "target": "build_build_templates_nunjucks_env",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "29",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_buildguardpage",
+      "target": "build_build_templates_nunjucks_env",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "36",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_buildadminpage",
+      "target": "build_build_templates_nunjucks_env",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "43",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_buildsitepage",
+      "target": "build_build_templates_nunjucks_env",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "50",
+      "weight": 1.0
+    },
+    {
+      "source": "build_build_templates_buildrootpage",
+      "target": "build_build_templates_nunjucks_env",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/build/build-templates.mjs",
+      "source_location": "57",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

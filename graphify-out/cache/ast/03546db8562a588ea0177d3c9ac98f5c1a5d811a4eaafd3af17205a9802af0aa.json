@@ -1,0 +1,496 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "label": "lint-mermaid.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_lint_mermaid_execfileasync",
+      "label": "execFileAsync",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "lint_lint_mermaid_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L23"
+    },
+    {
+      "id": "lint_lint_mermaid_docs_dir",
+      "label": "DOCS_DIR",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L24"
+    },
+    {
+      "id": "lint_lint_mermaid_mmdc_bin",
+      "label": "MMDC_BIN",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L25"
+    },
+    {
+      "id": "lint_lint_mermaid_puppeteer_config",
+      "label": "PUPPETEER_CONFIG",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L26"
+    },
+    {
+      "id": "lint_lint_mermaid_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_lint_mermaid_walkmd",
+      "label": "walkMd()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L39"
+    },
+    {
+      "id": "lint_lint_mermaid_extractmermaidblocks",
+      "label": "extractMermaidBlocks()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L63"
+    },
+    {
+      "id": "lint_lint_mermaid_checkblock",
+      "label": "checkBlock()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L81"
+    },
+    {
+      "id": "lint_lint_mermaid_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L104"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "node_util",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "node_os",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_execfileasync",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_docs_dir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_mmdc_bin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_puppeteer_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_walkmd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_extractmermaidblocks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_checkblock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_checkblock",
+      "target": "lint_lint_mermaid_execfileasync",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_walkmd",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_extractmermaidblocks",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_checkblock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L135",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "readdir",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_walkmd",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_extractmermaidblocks",
+      "callee": "exec",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_extractmermaidblocks",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "writeFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L95"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "catch",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "unlink",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "catch",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L100"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_checkblock",
+      "callee": "unlink",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L100"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "sort",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "tmpdir",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L113"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "readFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L121"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "relative",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L131"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "slice",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "toString",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "random",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L138"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L151"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L152"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L157"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L161"
+    },
+    {
+      "caller_nid": "lint_lint_mermaid_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs",
+      "source_location": "L163"
+    }
+  ]
+}

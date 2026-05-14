@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_bp_payment_diagram",
+      "label": "Event Storming To-Be: Payment Business Process",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_domain_event_payment_initiated",
+      "label": "Domain Event: Платеж инициирован (Payment Initiated)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_domain_event_payment_confirmed",
+      "label": "Domain Event: Платеж подтвержден (Payment Confirmed)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_domain_event_payment_failed",
+      "label": "Domain Event: Платеж отклонен (Payment Failed)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_domain_event_receipt_issued",
+      "label": "Domain Event: Чек сформирован (Receipt Issued)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_domain_event_session_closed",
+      "label": "Domain Event: Сессия закрыта (Parking Session Closed)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_command_initiate_payment",
+      "label": "Command: Инициировать платеж (Initiate Payment)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_command_confirm_payment",
+      "label": "Command: Подтвердить платеж (Confirm Payment)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_command_issue_receipt",
+      "label": "Command: Выдать чек (Issue Receipt / Fiscal)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_aggregate_payment",
+      "label": "Aggregate: Платеж (Payment)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_aggregate_parking_session",
+      "label": "Aggregate: Сессия парковки (Parking Session)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_external_ofd",
+      "label": "External System: ОФД (Fiscal Data Operator)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_external_payment_gateway",
+      "label": "External System: Платежный шлюз (Payment Gateway)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_policy_on_payment_confirmed",
+      "label": "Policy: При подтверждении платежа — выдать чек",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_policy_on_payment_failed",
+      "label": "Policy: При отклонении платежа — уведомить клиента",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_actor_driver",
+      "label": "Actor: Водитель (Driver)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_actor_system",
+      "label": "Actor: Система (Automated System)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "es_tobe_bp_payment_read_model_payment_status",
+      "label": "Read Model: Статус платежа (Payment Status)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_bp_payment_actor_driver",
+      "target": "es_tobe_bp_payment_command_initiate_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_command_initiate_payment",
+      "target": "es_tobe_bp_payment_aggregate_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_aggregate_payment",
+      "target": "es_tobe_bp_payment_domain_event_payment_initiated",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_domain_event_payment_initiated",
+      "target": "es_tobe_bp_payment_external_payment_gateway",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_external_payment_gateway",
+      "target": "es_tobe_bp_payment_domain_event_payment_confirmed",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_external_payment_gateway",
+      "target": "es_tobe_bp_payment_domain_event_payment_failed",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_domain_event_payment_confirmed",
+      "target": "es_tobe_bp_payment_policy_on_payment_confirmed",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_policy_on_payment_confirmed",
+      "target": "es_tobe_bp_payment_command_issue_receipt",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_command_issue_receipt",
+      "target": "es_tobe_bp_payment_external_ofd",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_external_ofd",
+      "target": "es_tobe_bp_payment_domain_event_receipt_issued",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_domain_event_payment_failed",
+      "target": "es_tobe_bp_payment_policy_on_payment_failed",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_domain_event_payment_confirmed",
+      "target": "es_tobe_bp_payment_aggregate_parking_session",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_aggregate_parking_session",
+      "target": "es_tobe_bp_payment_domain_event_session_closed",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_aggregate_payment",
+      "target": "es_tobe_bp_payment_read_model_payment_status",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_diagram",
+      "target": "es_tobe_bp_payment_external_ofd",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_payment_diagram",
+      "target": "es_tobe_bp_payment_aggregate_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 850
+}

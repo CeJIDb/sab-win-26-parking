@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "interviews_protocol_1_2",
+      "label": "\u041f\u0440\u043e\u0442\u043e\u043a\u043e\u043b \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u21161.2 \u2014 \u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 (23 \u044f\u043d\u0432\u0430\u0440\u044f 2026)",
+      "file_type": "document",
+      "source_file": "docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_url": null,
+      "captured_at": "2026-01-23",
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "interviews_plan_1_2",
+      "target": "interviews_protocol_1_2",
+      "relation": "produced",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "interviews_protocol_1_2",
+      "target": "concept_parking_as_is",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "## \u0422\u0435\u043a\u0443\u0449\u0438\u0435 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b (AS-IS)",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_10_2_pay_online_short_term_rental",
+      "label": "UC-10.2 \u041e\u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043e\u043d\u043b\u0430\u0439\u043d (\u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f \u0430\u0440\u0435\u043d\u0434\u0430)",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_integration_requirements",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 (integration-requirements.md)",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_sequence_uc_10_2",
+      "label": "UML Sequence Diagram UC-10.2 \u041e\u043d\u043b\u0430\u0439\u043d-\u043e\u043f\u043b\u0430\u0442\u0430 \u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0439 \u0430\u0440\u0435\u043d\u0434\u044b",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_yookassa_data_mapping",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u043e\u0431\u043c\u0435\u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u0441 \u042eKassa",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "concept_payment_tobe",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 2",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "concept_ofd",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 22",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "concept_payment_provider",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "concept_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 26",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "ref_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 182",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "ref_integration_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 185",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "ref_sequence_uc_10_2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 186",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "ref_yookassa_data_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md",
+      "source_location": "line 187",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

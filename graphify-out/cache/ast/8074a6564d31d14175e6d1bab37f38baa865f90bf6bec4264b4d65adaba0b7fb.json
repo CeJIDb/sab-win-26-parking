@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "label": "split-image.py",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_split_image_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "target": "pil",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_docs_split_image_py",
+      "target": "docs_split_image_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "len",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "isfile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "strip",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "sub",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "splitext",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "len",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "isfile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "abspath",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "isfile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "convert",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L76"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "makedirs",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "range",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L88"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "range",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "crop",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L95"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "max",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L96"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "thumbnail",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "save",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L100"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "docs_split_image_main",
+      "callee": "print",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py",
+      "source_location": "L103"
+    }
+  ]
+}

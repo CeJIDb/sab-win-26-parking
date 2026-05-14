@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "skills_md_baseline",
+      "label": "SKILLS.md \u2014 Project Skills Baseline",
+      "file_type": "document",
+      "source_file": "SKILLS.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

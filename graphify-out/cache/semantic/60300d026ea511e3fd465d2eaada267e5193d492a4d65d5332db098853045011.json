@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "site_parking_map_screen",
+      "label": "UI: \u041a\u0430\u0440\u0442\u0430 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0445 \u043c\u0435\u0441\u0442 \u2014 \u0441\u0445\u0435\u043c\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 (site/parking-map.html)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/parking-map.html",
+      "source_location": "line 38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "site_parking_map_screen",
+      "target": "sql_table_sectors",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/parking-map.html",
+      "source_location": "line 39",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": []
+}

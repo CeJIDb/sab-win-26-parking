@@ -1,0 +1,755 @@
+{
+  "nodes": [
+    {
+      "id": "ddd_es_tobe_sd_contexts_diagram",
+      "label": "ES TO-BE SD: Контексты (диаграмма)",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_booking",
+      "label": "Бронирование (Booking) — Core bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_access",
+      "label": "Доступ (Access) — Core bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_session",
+      "label": "Сессия (Session) — Core bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_tariff",
+      "label": "Тариф (Tariff) — Core bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_calculation",
+      "label": "Расчет стоимости (Calculation) — Core bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_payment",
+      "label": "Платеж (Payment) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_contract",
+      "label": "Договор (Contract) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_customer",
+      "label": "Клиент (Customer) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_facility",
+      "label": "Инфраструктура парковки (Facility) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_notification",
+      "label": "Уведомление (Notification) — Generic bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_support",
+      "label": "Обращение (Support) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_employee",
+      "label": "Сотрудник (Employee) — Supporting bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_analytics",
+      "label": "Отчет (Analytics) — Generic bounded context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_skud_adapter",
+      "label": "Адаптер СКУД (SkudAdapter) — Supporting integration context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_es_tobe_sd_contexts_context_display_adapter",
+      "label": "Адаптер дисплеев и табло (DisplayAdapter) — Supporting integration context",
+      "file_type": "image",
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_booking",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_session",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_tariff",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_facility",
+      "target": "ddd_es_tobe_sd_contexts_context_display_adapter",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_booking",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_contract",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_customer",
+      "target": "ddd_es_tobe_sd_contexts_context_support",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_contract",
+      "target": "ddd_es_tobe_sd_contexts_context_booking",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_contract",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_contract",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_tariff",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_booking",
+      "target": "ddd_es_tobe_sd_contexts_context_session",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_booking",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_booking",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_booking",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_booking",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_payment",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_support",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_session",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_calculation",
+      "target": "ddd_es_tobe_sd_contexts_context_payment",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_calculation",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_payment",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_payment",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_payment",
+      "target": "ddd_es_tobe_sd_contexts_context_support",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_payment",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_employee",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_employee",
+      "target": "ddd_es_tobe_sd_contexts_context_session",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_employee",
+      "target": "ddd_es_tobe_sd_contexts_context_support",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_access",
+      "target": "ddd_es_tobe_sd_contexts_context_skud_adapter",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_skud_adapter",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_access",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_access",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_notification",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_context_support",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "upstream_downstream",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_access",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_session",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_tariff",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_calculation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_contract",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_customer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_notification",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_support",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_employee",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_analytics",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_skud_adapter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_es_tobe_sd_contexts_diagram",
+      "target": "ddd_es_tobe_sd_contexts_context_display_adapter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/assets/es-tobe-sd-contexts.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 4200,
+  "output_tokens": 1800
+}

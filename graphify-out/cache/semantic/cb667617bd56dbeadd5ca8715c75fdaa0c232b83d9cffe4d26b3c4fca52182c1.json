@@ -1,0 +1,559 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_diagram",
+      "label": "BPMN: \u041f\u043e\u0438\u0441\u043a \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430 (AS-IS)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_pool_search",
+      "label": "\u041f\u0443\u043b: \u041f\u043e\u0438\u0441\u043a \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u041a\u043b\u0438\u0435\u043d\u0442",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_lane_ohrannik",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_start_event",
+      "label": "\u0421\u0442\u0430\u0440\u0442\u043e\u0432\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u0425\u043e\u0447\u0435\u0442 \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u0442\u044c\u0441\u044f",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_proekhat",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041f\u0440\u043e\u0435\u0445\u0430\u0442\u044c \u0447\u0435\u0440\u0435\u0437 \u041a\u041f\u041f \u043d\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_znaet_nomer",
+      "label": "\u0428\u043b\u044e\u0437 XOR: \u0417\u043d\u0430\u0435\u0442 \u043d\u043e\u043c\u0435\u0440 \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_obrashchaetsya",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041e\u0431\u0440\u0430\u0442\u0438\u0442\u044c\u0441\u044f \u043a \u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_join_klient",
+      "label": "\u0428\u043b\u044e\u0437 XOR (\u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435): \u041a\u043b\u0438\u0435\u043d\u0442",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_parallel_split",
+      "label": "\u0428\u043b\u044e\u0437 XOR (\u0440\u0430\u0437\u0432\u0435\u0442\u0432\u043b\u0435\u043d\u0438\u0435): \u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043d\u043e\u043c\u0435\u0440\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_napravitsya",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041d\u0430\u043f\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f \u043a \u043c\u0435\u0441\u0442\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_proverit",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_dostupno",
+      "label": "\u0428\u043b\u044e\u0437 XOR: \u041c\u0435\u0441\u0442\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_zanyat_mesto",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0417\u0430\u043d\u044f\u0442\u044c \u043c\u0435\u0441\u0442\u043e",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_end_event",
+      "label": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u041a\u043b\u0438\u0435\u043d\u0442 \u0437\u0430\u043d\u044f\u043b \u043c\u0435\u0441\u0442\u043e",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_uznat_nomer",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0423\u0437\u043d\u0430\u0442\u044c \u043d\u043e\u043c\u0435\u0440 \u043c\u0435\u0441\u0442\u0430 (\u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_est_mesto",
+      "label": "\u0428\u043b\u044e\u0437 XOR: \u0415\u0441\u0442\u044c \u043c\u0435\u0441\u0442\u043e \u0437\u0430\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u043d\u043e\u0435 \u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u043c?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_naznachit",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041d\u0430\u0437\u043d\u0430\u0447\u0438\u0442\u044c \u043d\u043e\u043c\u0435\u0440 \u043c\u0435\u0441\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_gw_naznachit_join",
+      "label": "\u0428\u043b\u044e\u0437 XOR (\u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435): \u041f\u043e\u0441\u043b\u0435 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043c\u0435\u0441\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_task_soobshchit",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043d\u043e\u043c\u0435\u0440 \u043c\u0435\u0441\u0442\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_ds_baza_klientov_1",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0411\u0430\u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (1)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_assets_bpmn_search_parking_space_ds_baza_klientov_2",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0411\u0430\u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (2)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_diagram",
+      "target": "as_is_assets_bpmn_search_parking_space_pool_search",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_pool_search",
+      "target": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_pool_search",
+      "target": "as_is_assets_bpmn_search_parking_space_lane_ohrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_start_event",
+      "target": "as_is_assets_bpmn_search_parking_space_task_proekhat",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_proekhat",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_znaet_nomer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_znaet_nomer",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_join_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_znaet_nomer",
+      "target": "as_is_assets_bpmn_search_parking_space_task_obrashchaetsya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_obrashchaetsya",
+      "target": "as_is_assets_bpmn_search_parking_space_task_uznat_nomer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_uznat_nomer",
+      "target": "as_is_assets_bpmn_search_parking_space_ds_baza_klientov_1",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_uznat_nomer",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_est_mesto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_est_mesto",
+      "target": "as_is_assets_bpmn_search_parking_space_task_naznachit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_est_mesto",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_naznachit_join",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_naznachit",
+      "target": "as_is_assets_bpmn_search_parking_space_ds_baza_klientov_2",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_naznachit",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_naznachit_join",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_naznachit_join",
+      "target": "as_is_assets_bpmn_search_parking_space_task_soobshchit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_soobshchit",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_join_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_join_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_parallel_split",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_parallel_split",
+      "target": "as_is_assets_bpmn_search_parking_space_task_napravitsya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_napravitsya",
+      "target": "as_is_assets_bpmn_search_parking_space_task_proverit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_proverit",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_dostupno",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_dostupno",
+      "target": "as_is_assets_bpmn_search_parking_space_task_zanyat_mesto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_gw_dostupno",
+      "target": "as_is_assets_bpmn_search_parking_space_gw_parallel_split",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_task_zanyat_mesto",
+      "target": "as_is_assets_bpmn_search_parking_space_end_event",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_start_event",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_task_proekhat",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_task_napravitsya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_task_proverit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_klient",
+      "target": "as_is_assets_bpmn_search_parking_space_task_zanyat_mesto",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_ohrannik",
+      "target": "as_is_assets_bpmn_search_parking_space_task_uznat_nomer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_ohrannik",
+      "target": "as_is_assets_bpmn_search_parking_space_task_naznachit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_assets_bpmn_search_parking_space_lane_ohrannik",
+      "target": "as_is_assets_bpmn_search_parking_space_task_soobshchit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

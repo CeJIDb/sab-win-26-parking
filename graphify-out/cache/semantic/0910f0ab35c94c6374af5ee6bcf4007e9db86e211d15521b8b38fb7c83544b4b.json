@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "interviews_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/interviews/readme.md",
+      "source_location": "docs/interviews/readme.md",
+      "source_url": null,
+      "captured_at": "2026-04-02",
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "interviews_readme",
+      "target": "interviews_plan_1_1",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/interviews/readme.md",
+      "source_location": "## \u0420\u0430\u0437\u0434\u0435\u043b\u044b \u2014 \u0418\u043d\u0434\u0435\u043a\u0441 \u043f\u043b\u0430\u043d\u043e\u0432 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e",
+      "weight": 0.8
+    },
+    {
+      "source": "interviews_readme",
+      "target": "interviews_protocol_1_1",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/interviews/readme.md",
+      "source_location": "## \u0420\u0430\u0437\u0434\u0435\u043b\u044b \u2014 \u0418\u043d\u0434\u0435\u043a\u0441 \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u043e\u0432 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": []
+}

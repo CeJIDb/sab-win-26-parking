@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "client_payment_settings_screen",
+      "label": "Client Payments (\u041e\u043f\u043b\u0430\u0442\u044b \u2014 \u041b\u041a \u043a\u043b\u0438\u0435\u043d\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "ui/client/payment-settings.html",
+      "source_location": "line 50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "client_payment_settings_screen",
+      "target": "client_dashboard_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/payment-settings.html",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "client_payment_settings_screen",
+      "target": "client_profile_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/payment-settings.html",
+      "source_location": "line 41",
+      "weight": 1.0
+    },
+    {
+      "source": "client_payment_settings_screen",
+      "target": "client_notifications_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/payment-settings.html",
+      "source_location": "line 17",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

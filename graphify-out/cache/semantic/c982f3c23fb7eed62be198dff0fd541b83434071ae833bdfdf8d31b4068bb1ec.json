@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "arch_readme_index",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b (docs/architecture/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "arch_readme_index",
+      "target": "adr_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 9",
+      "weight": 1.0
+    },
+    {
+      "source": "arch_readme_index",
+      "target": "c4_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 14",
+      "weight": 1.0
+    },
+    {
+      "source": "arch_readme_index",
+      "target": "database_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

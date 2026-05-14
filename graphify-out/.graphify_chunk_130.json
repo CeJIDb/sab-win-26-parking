@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo4_02_project_context",
+      "label": "Контекст проекта: частный паркинг в СПб на 600 мест (50 ОВЗ), режим 24/7, текущие проблемы — ручной учет в Excel, шлагбаум без интеграции, физические карты доступа, оплата наличными/терминал",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_07_security_risk_unauthorized_access",
+      "label": "Ключевой риск безопасности: несанкционированный доступ к системе и данным. Причины: слабые пароли, отсутствие 2FA, компрометация токенов SSO, ошибки ролевой модели, недостаточные серверные проверки прав, человеческий фактор. Галстук-бабочка диаграмма.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/07.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_09_security_preventive_barriers",
+      "label": "Превентивные барьеры безопасности: обязательная 2FA (TOTP) для сотрудников и админ-ролей, жесткая ролевая модель (минимально необходимые права), защищенное хранение секретов, шифрование ПДн, серверная авторизация, журналирование, обучение персонала и ИБ-регламенты.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/09.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_17_architecture_style_comparison",
+      "label": "Сравнение архитектурных стилей: Монолит vs Микросервисы vs Event-Driven по критериям сроки разработки, бюджет, команда, сложность, масштабируемость, безопасность (152-ФЗ), интеграции (СКУД, LPR, 1С, ОФД), эволюция. Вывод: монолит предпочтительнее для MVP.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/17.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_18_why_monolith",
+      "label": "Обоснование выбора монолитной архитектуры: 5 причин — предсказуемый рост нагрузки (200 авт/ч), связанная структура компонентов, минимальный бюджет и сроки (MVP), малая команда (5 чел.), соответствие 152-ФЗ (управление потоками ПДн).",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/18.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_19_c4_system_context",
+      "label": "C4 Диаграмма системного контекста: Цифровая платформа парковки взаимодействует с акторами (Владелец, Клиент ФЛ, Клиент ЮЛ, Охранник, Управляющий) и внешними системами (SSO, Платежная система, Гео-сервисы, Сервис уведомлений, Сервис аналитики, СКУД/LPR, Инф. табло/дисплеи, ОФД, ЭДО, 1С).",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/19.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_23_architecture_results",
+      "label": "Итоги архитектурного блока Demo Day 4: определены границы системы (какие компоненты входят и как взаимодействуют) и декомпозиция (разработчики понимают внутреннее устройство системы).",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/23.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_29_sql_disabled_parking_query",
+      "label": "SQL-запрос: наличие свободных мест для МГН (включая ОВЗ). CTE free_disabled с фильтром по s.name ILIKE '%МГН%' и pp.is_occupied = FALSE, результат — количество свободных мест, номер места, сектор.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/29.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_30_sql_debt_query",
+      "label": "SQL-запрос по задолженностям клиентов: JOIN клиентов, долгов, платежей и организаций; HAVING COALESCE(SUM(remaining_amount_minor) FILTER (WHERE status='ACTIVE'), 0) > 0; результат — client_id, тип (FL/UL), имя, debt_total, debt_remaining, paid_total.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/30.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo4_02_project_context",
+      "target": "slides_demo4_18_why_monolith",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo4_17_architecture_style_comparison",
+      "target": "slides_demo4_18_why_monolith",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/17.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_18_why_monolith",
+      "target": "slides_demo4_19_c4_system_context",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/18.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo4_19_c4_system_context",
+      "target": "slides_demo4_23_architecture_results",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/19.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_07_security_risk_unauthorized_access",
+      "target": "slides_demo4_09_security_preventive_barriers",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/07.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_29_sql_disabled_parking_query",
+      "target": "slides_demo4_30_sql_debt_query",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/29.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "slides_demo4_02_project_context",
+      "target": "slides_demo4_07_security_risk_unauthorized_access",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "weight": 0.6
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

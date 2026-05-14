@@ -1,0 +1,980 @@
+{
+  "nodes": [
+    {
+      "id": "assets_c4_l3_component_diagram",
+      "label": "C4 Level 3 Component Diagram",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_booking_service",
+      "label": "Booking Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_billing_service",
+      "label": "Billing Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_client_profile_service",
+      "label": "Client Profile Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_parking_control_service",
+      "label": "Parking Control Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_skud_crm_adapter",
+      "label": "SKUD CRM Adapter",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_engine_service",
+      "label": "Engine Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_member_profile_service",
+      "label": "Member Profile Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_identity_auth_service",
+      "label": "Identity Auth Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_tariff_service",
+      "label": "Tariff Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_display_selector",
+      "label": "Display Selector",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_notification_service",
+      "label": "Notification Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_disposal_service",
+      "label": "Disposal Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_staff_service",
+      "label": "Staff Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_payment_adapter",
+      "label": "Payment Adapter",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributed_at": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_analytics_service",
+      "label": "Analytics Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_contract_service",
+      "label": "Contract Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_payment_service",
+      "label": "Payment Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_notification_adapter",
+      "label": "Notification Adapter",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_pricing_service",
+      "label": "Pricing Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_postgresql_db",
+      "label": "PostgreSQL Database",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_web_app_container",
+      "label": "Web Application Container (Backend)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_mobile_user",
+      "label": "Частный клиент (Mobile User)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_corporate_user",
+      "label": "Корпоративный клиент",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_sms_service",
+      "label": "SMS (External System)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_skud_system",
+      "label": "SKUD System (External)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_payment_gateway",
+      "label": "Payment Gateway (External)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_edo_system",
+      "label": "ЭДО System (External)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_display_boards",
+      "label": "Табло (Display Boards, External)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l3_component_crm_system",
+      "label": "CRM System (External)",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_booking_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_billing_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_client_profile_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_parking_control_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_skud_crm_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_engine_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_member_profile_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_identity_auth_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_tariff_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_display_selector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_notification_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_disposal_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_staff_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_payment_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_analytics_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_contract_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_payment_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_notification_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_pricing_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_diagram",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_mobile_user",
+      "target": "assets_c4_l3_component_booking_service",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_mobile_user",
+      "target": "assets_c4_l3_component_billing_service",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_corporate_user",
+      "target": "assets_c4_l3_component_client_profile_service",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_corporate_user",
+      "target": "assets_c4_l3_component_contract_service",
+      "relation": "interacts_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_booking_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_billing_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_client_profile_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_payment_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_pricing_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_payment_adapter",
+      "target": "assets_c4_l3_component_payment_gateway",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_notification_adapter",
+      "target": "assets_c4_l3_component_sms_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_skud_crm_adapter",
+      "target": "assets_c4_l3_component_skud_system",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_skud_crm_adapter",
+      "target": "assets_c4_l3_component_crm_system",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_display_selector",
+      "target": "assets_c4_l3_component_display_boards",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_contract_service",
+      "target": "assets_c4_l3_component_edo_system",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_booking_service",
+      "target": "assets_c4_l3_component_tariff_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_booking_service",
+      "target": "assets_c4_l3_component_parking_control_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_billing_service",
+      "target": "assets_c4_l3_component_payment_adapter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_billing_service",
+      "target": "assets_c4_l3_component_pricing_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_identity_auth_service",
+      "target": "assets_c4_l3_component_member_profile_service",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_notification_service",
+      "target": "assets_c4_l3_component_notification_adapter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_payment_service",
+      "target": "assets_c4_l3_component_payment_adapter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_analytics_service",
+      "target": "assets_c4_l3_component_postgresql_db",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_engine_service",
+      "target": "assets_c4_l3_component_booking_service",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_c4_l3_component_engine_service",
+      "target": "assets_c4_l3_component_skud_crm_adapter",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_booking_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_billing_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_client_profile_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_parking_control_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_identity_auth_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_notification_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_payment_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_analytics_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_contract_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_pricing_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_tariff_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_staff_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_disposal_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_member_profile_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_engine_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_display_selector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_skud_crm_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_payment_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l3_component_web_app_container",
+      "target": "assets_c4_l3_component_notification_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l3-component.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1850,
+  "output_tokens": 2100
+}

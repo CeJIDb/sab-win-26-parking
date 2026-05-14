@@ -1,0 +1,502 @@
+{
+  "nodes": [
+    {
+      "id": "c4_assets_c4_l2_container_diagram",
+      "label": "C4 Level 2 Container Diagram — Цифровая платформа парковки",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_client_app",
+      "label": "Приложение клиента (Container: PWA) — бронирование, оплата, профиль",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_api_gateway",
+      "label": "API Gateway (Container) — единая точка входа, JWT-авторизация",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_employee_app",
+      "label": "Приложение сотрудника (Container) — интерфейс КПП, управление доступом",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_backend",
+      "label": "Backend-приложение (Container: Node.js) — бизнес-логика",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_db",
+      "label": "СУБД (Container: PostgreSQL) — клиенты, брони, оплаты, доступ",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_sso",
+      "label": "SSO (Software System) — аутентификация пользователей",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_id",
+      "label": "ID (Software System) — идентификация, каталог",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_payment_system",
+      "label": "Платежная система (Software System) — процессинг платежей",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_ofd",
+      "label": "ОФД (Software System) — фискальный чек",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_info_systems",
+      "label": "Информационные системы (Software System) — данные для клиента",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_skud_lpr",
+      "label": "СКУД / LPR (Software System) — управление шлагбаумами, распознавание номеров",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_parking_analytics",
+      "label": "Паркинг-аналитика (Software System) — BI-отчеты",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_notification_service",
+      "label": "Сервис уведомлений (Software System) — SMS / push / email",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_edo",
+      "label": "ЭДО (Software System) — электронный документооборот",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_geo_services",
+      "label": "Гео-сервисы (Software System) — карты, маршруты",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_site_widget",
+      "label": "Сайт-виджет (Software System) — встраиваемая карта доступности",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_actor_client_fl",
+      "label": "Актор: КлиентФЛ (Person) — клиент физическое лицо",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_actor_client_ul",
+      "label": "Актор: КлиентЮЛ (Person) — клиент юридическое лицо",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_actor_guard",
+      "label": "Актор: Охранник (Person) — сотрудник КПП",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_actor_manager",
+      "label": "Актор: Управляющий (Person) — оператор платформы",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "c4_assets_c4_l2_container_actor_owner",
+      "label": "Актор: Владелец (Person) — владелец паркинга",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "c4_assets_c4_l2_container_actor_client_fl",
+      "target": "c4_assets_c4_l2_container_client_app",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_actor_client_ul",
+      "target": "c4_assets_c4_l2_container_client_app",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_actor_guard",
+      "target": "c4_assets_c4_l2_container_employee_app",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_actor_manager",
+      "target": "c4_assets_c4_l2_container_employee_app",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_actor_owner",
+      "target": "c4_assets_c4_l2_container_employee_app",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_client_app",
+      "target": "c4_assets_c4_l2_container_api_gateway",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_employee_app",
+      "target": "c4_assets_c4_l2_container_api_gateway",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_api_gateway",
+      "target": "c4_assets_c4_l2_container_backend",
+      "relation": "routes_requests_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_db",
+      "relation": "reads_and_writes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_sso",
+      "relation": "authenticates_via",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_id",
+      "relation": "syncs_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_payment_system",
+      "relation": "integrates_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_ofd",
+      "label": "отправляет фискальные данные",
+      "relation": "integrates_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_info_systems",
+      "relation": "sends_data_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_skud_lpr",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_parking_analytics",
+      "relation": "sends_data_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_notification_service",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_edo",
+      "relation": "exchanges_documents_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_geo_services",
+      "relation": "requests_geo_data_from",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_backend",
+      "target": "c4_assets_c4_l2_container_site_widget",
+      "relation": "provides_data_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "c4_assets_c4_l2_container_diagram",
+      "target": "c4_assets_c4_l2_container_client_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_diagram",
+      "target": "c4_assets_c4_l2_container_api_gateway",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_diagram",
+      "target": "c4_assets_c4_l2_container_employee_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_diagram",
+      "target": "c4_assets_c4_l2_container_backend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "c4_assets_c4_l2_container_diagram",
+      "target": "c4_assets_c4_l2_container_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l2-container.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 980
+}

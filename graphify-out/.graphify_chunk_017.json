@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "assets_es_tobe_sd_team_board_image",
+      "label": "ES TO-BE SD: Командная диаграмма (Event Storming Team Board)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_access",
+      "label": "Поддомен: Допуск (КПП / въезд-выезд)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_client_profile",
+      "label": "Поддомен: Профиль клиента и список ТС",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_booking",
+      "label": "Поддомен: Бронирование",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_contract",
+      "label": "Поддомен: Договор (долгосрочное основание доступа)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_payment",
+      "label": "Поддомен: Оплата и фискализация (ОФД)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_subdomain_parking_session",
+      "label": "Поддомен: Парковочная сессия",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_client",
+      "label": "Агрегат: Клиент",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_vehicle",
+      "label": "Агрегат: Транспортное средство (ТС)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_booking",
+      "label": "Агрегат: Бронирование",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_contract",
+      "label": "Агрегат: Договор",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_payment",
+      "label": "Агрегат: Платеж",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_parking_session",
+      "label": "Агрегат: Парковочная сессия",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_aggregate_access_event",
+      "label": "Агрегат: Событие доступа (въезд/выезд)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_external_ofd",
+      "label": "Внешняя система: ОФД (оператор фискальных данных)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_external_skud",
+      "label": "Внешняя система: СКУД (КПП / распознавание ТС)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_client_registered",
+      "label": "Бизнес-состояние: Клиент зарегистрирован",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_vehicle_bound",
+      "label": "Бизнес-состояние: ТС привязано",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_access_basis_created",
+      "label": "Бизнес-состояние: Основание доступа создано",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_session_active",
+      "label": "Бизнес-состояние: Сессия активна",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_debt_paid",
+      "label": "Бизнес-состояние: Долг погашен",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_team_board_state_exit_allowed",
+      "label": "Бизнес-состояние: Выезд разрешен",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_client_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_payment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_image",
+      "target": "assets_es_tobe_sd_team_board_subdomain_parking_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_access",
+      "target": "assets_es_tobe_sd_team_board_external_skud",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_payment",
+      "target": "assets_es_tobe_sd_team_board_external_ofd",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_access",
+      "target": "assets_es_tobe_sd_team_board_aggregate_access_event",
+      "relation": "produces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_client_profile",
+      "target": "assets_es_tobe_sd_team_board_aggregate_client",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_client_profile",
+      "target": "assets_es_tobe_sd_team_board_aggregate_vehicle",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_booking",
+      "target": "assets_es_tobe_sd_team_board_aggregate_booking",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_contract",
+      "target": "assets_es_tobe_sd_team_board_aggregate_contract",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_payment",
+      "target": "assets_es_tobe_sd_team_board_aggregate_payment",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_parking_session",
+      "target": "assets_es_tobe_sd_team_board_aggregate_parking_session",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_aggregate_contract",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "provides_basis_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_aggregate_booking",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "provides_basis_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_aggregate_payment",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_aggregate_vehicle",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "provides_data_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_aggregate_parking_session",
+      "target": "assets_es_tobe_sd_team_board_aggregate_payment",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_client_registered",
+      "target": "assets_es_tobe_sd_team_board_aggregate_client",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_vehicle_bound",
+      "target": "assets_es_tobe_sd_team_board_aggregate_vehicle",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_access_basis_created",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_session_active",
+      "target": "assets_es_tobe_sd_team_board_aggregate_parking_session",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_debt_paid",
+      "target": "assets_es_tobe_sd_team_board_aggregate_payment",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_exit_allowed",
+      "target": "assets_es_tobe_sd_team_board_subdomain_access",
+      "relation": "represents_state_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_debt_paid",
+      "target": "assets_es_tobe_sd_team_board_state_exit_allowed",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_state_access_basis_created",
+      "target": "assets_es_tobe_sd_team_board_state_session_active",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "assets_es_tobe_sd_team_board_subdomain_access",
+      "target": "assets_es_tobe_sd_team_board_subdomain_parking_session",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 2100,
+  "output_tokens": 980
+}

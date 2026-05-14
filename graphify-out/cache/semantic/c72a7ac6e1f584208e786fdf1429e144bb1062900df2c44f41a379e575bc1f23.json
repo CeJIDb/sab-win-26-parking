@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_06_business_research_phase",
+      "label": "Phase 1: Business Research \u2014 interview, BPMN modelling, UML Class Diagram, situational analysis, problem statement formulation, business requirements",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/06.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alexander",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_06_business_research_phase",
+      "target": "slides_demo5_08_event_storming_as_is",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/06.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

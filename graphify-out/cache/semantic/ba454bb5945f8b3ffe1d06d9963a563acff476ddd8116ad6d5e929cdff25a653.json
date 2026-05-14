@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "assets_project_journey_stage_1_business_research",
+      "label": "Stage 1: Business Research (\u041f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_interviews",
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e (Conducting Interviews)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_uml_class_diagram",
+      "label": "\u041c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043d\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438, UML Class Diagram",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_bpmn",
+      "label": "\u041c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u0432 BPMN",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_situational_analysis",
+      "label": "\u0421\u0438\u0442\u0443\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u0438 \u0424\u043e\u0440\u043c\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 Problem Statement",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_business_requirements",
+      "label": "\u0411\u0438\u0437\u043d\u0435\u0441-\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f (Business Requirements)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_stage1_customer_request_study",
+      "label": "\u0418\u0437\u0443\u0447\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u0417\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u0430 \u0438 \u0444\u043e\u0440\u043c\u0443\u043b\u044b \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_stage1_customer_request_study",
+      "target": "assets_stage1_interviews",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_interviews",
+      "target": "assets_stage1_uml_class_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_interviews",
+      "target": "assets_stage1_bpmn",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_bpmn",
+      "target": "assets_stage1_uml_class_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_uml_class_diagram",
+      "target": "assets_stage1_situational_analysis",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_bpmn",
+      "target": "assets_stage1_situational_analysis",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_situational_analysis",
+      "target": "assets_stage1_business_requirements",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_stage1_interviews",
+      "target": "assets_stage1_business_requirements",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_customer_request_study",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_interviews",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_uml_class_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_bpmn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_situational_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_1_business_research",
+      "target": "assets_stage1_business_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-1-business-research.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

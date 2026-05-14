@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo3_02_context_and_current_situation",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u0442\u0435\u043a\u0443\u0449\u0430\u044f \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f: \u043e\u0431\u044a\u0435\u043a\u0442 \u2014 \u0447\u0430\u0441\u0442\u043d\u044b\u0439 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0439 \u043f\u0430\u0440\u043a\u0438\u043d\u0433 \u0421\u041f\u0431, 600 \u043c\u0430\u0448\u0438\u043d\u043e\u043c\u0435\u0441\u0442 (50 \u041e\u0412\u0417), 24/7; \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u2014 \u0443\u0447\u0435\u0442 \u0432 Excel, \u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c \u0431\u0435\u0437 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438, \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u0442\u044b \u0434\u043e\u0441\u0442\u0443\u043f\u0430, \u043d\u0430\u043b\u0438\u0447\u043d\u044b\u0435/\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo3_02_context_and_current_situation",
+      "target": "slides_demo3_07_as_is_to_be",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/02.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

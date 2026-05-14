@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "erd_normalized_er_model",
+      "label": "\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f ER-\u043c\u043e\u0434\u0435\u043b\u044c",
+      "file_type": "document",
+      "source_file": "docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_normalized_er_model",
+      "label": "\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f ER-\u043c\u043e\u0434\u0435\u043b\u044c (PostgreSQL)",
+      "file_type": "document",
+      "source_file": "docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_normalized_er_mermaid",
+      "label": "Mermaid ERD: \u0441\u0432\u044f\u0437\u0438 bookings\u2192parking_sessions, invoices\u2192payments\u2192receipts, payments\u2192refunds",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "line 23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "database_erd_normalized_er_model",
+      "target": "database_erd_normalized_er_mermaid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "line 23",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

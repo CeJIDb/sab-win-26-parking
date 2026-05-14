@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo2_04_impact_map_structure",
+      "label": "Impact Map: \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u2014 \u0426\u0435\u043b\u044c (\u0438\u0437\u043c\u0435\u0440\u0438\u043c\u044b\u0439 \u0431\u0438\u0437\u043d\u0435\u0441-\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442) \u2192 \u0410\u043a\u0442\u043e\u0440\u044b (\u043a\u0442\u043e \u0432\u043b\u0438\u044f\u0435\u0442) \u2192 \u0412\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f (\u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f) \u2192 \u0420\u0435\u0448\u0435\u043d\u0438\u044f (\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/04.jpg",
+      "source_location": "slide 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u0440\u0442\u0435\u043c",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo2_04_impact_map_structure",
+      "target": "slides_demo2_07_impact_map_key_impacts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/04.jpg",
+      "source_location": "slide 4 \u2192 slide 7",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "git_check_branch_name_module",
+      "label": "check-branch-name.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs",
+      "source_location": "1-58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_check_branch_name_getbranchname",
+      "label": "getBranchName()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs",
+      "source_location": "22-34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_check_branch_name_isprotected",
+      "label": "isProtectedBranch(branchName)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs",
+      "source_location": "36-38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "git_check_branch_name_module",
+      "target": "git_check_branch_name_getbranchname",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs",
+      "source_location": "41",
+      "weight": 1.0
+    },
+    {
+      "source": "git_check_branch_name_module",
+      "target": "git_check_branch_name_isprotected",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs",
+      "source_location": "43",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "adr_004_dadata",
+      "label": "ADR-004: \u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 DADATA (\u041e\u0442\u043c\u0435\u043d\u0435\u043d)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "concept_dadata",
+      "label": "DADATA (\u0441\u0435\u0440\u0432\u0438\u0441 \u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f \u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432 \u042e\u041b)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "adr_004_dadata",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 108",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_004_dadata",
+      "target": "concept_dadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 38",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

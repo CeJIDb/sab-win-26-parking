@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_47_whisper_stt_transcription",
+      "label": "Сложности и вызовы: транскрибация интервью с помощью Whisper/pyannote-audio/HuggingFace (STT из видеозаписей)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/47.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_29_architecture_choice_modular",
+      "label": "Выбор архитектуры: модульный монолит вместо микросервисов — нагрузка 3-4 запросов/сек, бюджет, сроки 4-6 мес, 152-ФЗ, нет DevOps",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/29.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_17_conceptual_model_erd",
+      "label": "Концептуальная модель (ERD): единый язык для требований и архитектуры — сущности Парковочная сессия, Бронирование, Тариф, Договор, Платеж, Чек, ТС",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/17.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_43_dod_platform_single_source_of_truth",
+      "label": "DoD = Excel больше не нужен: платформа парковки как единый источник правды для допуска, оплаты и статусов (КПП, ЛК, роли ФЛ/ЮЛ/Охранник/Управляющий/Владелец)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/43.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_44_mvp_scope_customer_value",
+      "label": "Заключение: что получает заказчик — MVP закрывает P1-P3 и ручную часть P4: допуск/КПП, оплата, клиентский онлайн-путь, ЮЛ-минимум; вне MVP — аналитика и ЭДО",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/44.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_46_team_challenges_retrospective",
+      "label": "Сложности и вызовы: разнородность команды, разный темп и бэкграунд — решение через ретроспективы, обратную связь и рефлексию психологического климата",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/46.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_30_c4_context_containers_components",
+      "label": "Контекст и контейнеры C4 (L1-L2-L3): 5 акторов, 11 внешних систем, PWA клиента, API Gateway, Backend + PostgreSQL, доменная декомпозиция модулей",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/30.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_42_async_outbox_pattern_vs_kafka_rabbitmq",
+      "label": "Асинхронные процедуры: сравнение Kafka/RabbitMQ/Outbox-паттерна — выбран Outbox на PostgreSQL (нет DevOps, единицы запросов/сек, at-least-once гарантия)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/42.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_18_use_case_auto_identification",
+      "label": "Use Case: Пройти автоматическую идентификацию — основной поток и расширения (ГРЗ не распознан, ТС не найдено, активное бронирование не найдено, клиент в ЧС)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/18.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_29_architecture_choice_modular",
+      "target": "slides_demo5_30_c4_context_containers_components",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/29.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_30_c4_context_containers_components",
+      "target": "slides_demo5_42_async_outbox_pattern_vs_kafka_rabbitmq",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/30.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_17_conceptual_model_erd",
+      "target": "slides_demo5_18_use_case_auto_identification",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/17.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_43_dod_platform_single_source_of_truth",
+      "target": "slides_demo5_44_mvp_scope_customer_value",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/43.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_42_async_outbox_pattern_vs_kafka_rabbitmq",
+      "target": "slides_demo5_43_dod_platform_single_source_of_truth",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/42.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo5_46_team_challenges_retrospective",
+      "target": "slides_demo5_47_whisper_stt_transcription",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/46.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

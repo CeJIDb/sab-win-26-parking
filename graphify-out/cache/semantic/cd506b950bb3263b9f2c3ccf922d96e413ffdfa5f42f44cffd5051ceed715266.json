@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": "erd_erd_normalized_er_model_diagram",
+      "label": "Normalized ER Model (PostgreSQL) \u2014 ChartDB diagram with ~30 tables",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_clients",
+      "label": "Table: clients \u2014 stores parking client records",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_bookings",
+      "label": "Table: bookings \u2014 parking spot reservations/bookings",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_sessions",
+      "label": "Table: sessions \u2014 active parking sessions",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_payments",
+      "label": "Table: payments \u2014 payment records for sessions and bookings",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_contracts",
+      "label": "Table: contracts \u2014 long-term rental contracts",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_vehicles",
+      "label": "Table: vehicles \u2014 registered vehicles linked to clients",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_parking_spots",
+      "label": "Table: parking spots / spaces \u2014 individual spot definitions",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_notifications",
+      "label": "Table: notifications \u2014 notification history records",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_erd_normalized_er_model_chartdb_tool",
+      "label": "ChartDB \u2014 tool used to render the ER diagram",
+      "file_type": "image",
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "erd_erd_normalized_er_model_table_clients",
+      "target": "erd_erd_normalized_er_model_table_bookings",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_table_clients",
+      "target": "erd_erd_normalized_er_model_table_vehicles",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_table_bookings",
+      "target": "erd_erd_normalized_er_model_table_sessions",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_table_sessions",
+      "target": "erd_erd_normalized_er_model_table_payments",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_table_clients",
+      "target": "erd_erd_normalized_er_model_table_contracts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_table_bookings",
+      "target": "erd_erd_normalized_er_model_table_parking_spots",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "erd_erd_normalized_er_model_diagram",
+      "target": "erd_erd_normalized_er_model_chartdb_tool",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/assets/erd-normalized-er-model.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

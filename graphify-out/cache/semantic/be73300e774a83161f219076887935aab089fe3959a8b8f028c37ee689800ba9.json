@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_08_event_storming_as_is",
+      "label": "As-Is process captured via Event Storming (not BPMN): event chain from vehicle arrival at checkpoint to payment and exit, revealing manual steps and accounting gaps",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/08.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alexander",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_08_event_storming_as_is",
+      "target": "slides_demo5_12_impact_map",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/08.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

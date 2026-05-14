@@ -1,0 +1,478 @@
+{
+  "nodes": [
+    {
+      "id": "erd_data_dictionary",
+      "label": "\u0421\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445 (\u0438\u043c\u043f\u043e\u0440\u0442 BuildIn)",
+      "file_type": "document",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "date: 2026-04-02",
+      "source_url": null,
+      "captured_at": "2026-04-02",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_parking_session",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_booking",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_client",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041a\u043b\u0438\u0435\u043d\u0442",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: mrneatly",
+      "source_url": null,
+      "captured_at": null,
+      "author": "mrneatly",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_vehicle",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0422\u0421 (\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: mrneatly",
+      "source_url": null,
+      "captured_at": null,
+      "author": "mrneatly",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_contract",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: malinkaemail-blip",
+      "source_url": null,
+      "captured_at": null,
+      "author": "malinkaemail-blip",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_employee",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: CeJIDb",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_appeal",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: CeJIDb",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_notification",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: CeJIDb",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_notification_template",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0428\u0430\u0431\u043b\u043e\u043d \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: CeJIDb",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_tariff",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0422\u0430\u0440\u0438\u0444",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: skifup",
+      "source_url": null,
+      "captured_at": null,
+      "author": "skifup",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_payment",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u043b\u0430\u0442\u0435\u0436",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: skifup",
+      "source_url": null,
+      "captured_at": null,
+      "author": "skifup",
+      "contributor": null
+    },
+    {
+      "id": "erd_entity_receipt",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0427\u0435\u043a",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0410\u0432\u0442\u043e\u0440: skifup",
+      "source_url": null,
+      "captured_at": null,
+      "author": "skifup",
+      "contributor": null
+    },
+    {
+      "id": "database_erd_data_dictionary",
+      "label": "\u0421\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445 (\u0438\u043c\u043f\u043e\u0440\u0442 \u0438\u0437 BuildIn)",
+      "file_type": "document",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_parking_session",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (\u041f\u0421) \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_booking",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 57",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_client",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041a\u043b\u0438\u0435\u043d\u0442 \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445 (\u0424\u041b/\u042e\u041b, SSO, \u0441\u0442\u0430\u0442\u0443\u0441)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 78",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_employee",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445 (\u0440\u043e\u043b\u044c, SHA512)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 134",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_payment",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u043b\u0430\u0442\u0435\u0436 \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445 (\u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b, \u0441\u0442\u0430\u0442\u0443\u0441, \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 205",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_tariff",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0422\u0430\u0440\u0438\u0444 \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445 (\u0441\u0442\u0430\u0432\u043a\u0430, \u0448\u0430\u0433\u0422\u0430\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438, \u0433\u0440\u0435\u0439\u0441\u041f\u0435\u0440\u0438\u043e\u0434)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 188",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "database_erd_entity_receipt",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0427\u0435\u043a \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0441\u043b\u043e\u0432\u0430\u0440\u044f \u0434\u0430\u043d\u043d\u044b\u0445 (fiscalNumber, \u0444\u0438\u0441\u043a\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 224",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_normalized_er_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_parking_session",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_booking",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u0430\u043d\u043d\u044b\u0445",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_client",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 mrneatly",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_vehicle",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 mrneatly",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_contract",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 malinkaemail-blip",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_employee",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 CeJIDb",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_appeal",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 CeJIDb",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_notification",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 CeJIDb",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_tariff",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 skifup",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_payment",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 skifup",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_data_dictionary",
+      "target": "erd_entity_receipt",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 skifup",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_entity_parking_session",
+      "target": "erd_entity_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f \u2014 \u0430\u0442\u0440\u0438\u0431\u0443\u0442 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_entity_payment",
+      "target": "erd_entity_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u041f\u043b\u0430\u0442\u0435\u0436 \u2014 FK \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_entity_receipt",
+      "target": "erd_entity_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0427\u0435\u043a \u2014 FK \u041f\u043b\u0430\u0442\u0435\u0436",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_entity_notification",
+      "target": "erd_entity_notification_template",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435 \u2014 \u0448\u0430\u0431\u043b\u043e\u043d\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f\u0418\u0434",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_parking_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 42",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 57",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 78",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_employee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 134",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_payment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 205",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_tariff",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 188",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_entity_receipt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 224",
+      "weight": 1.0
+    },
+    {
+      "source": "database_erd_data_dictionary",
+      "target": "database_erd_normalized_er_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/database/erd/data-dictionary.md",
+      "source_location": "line 270",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

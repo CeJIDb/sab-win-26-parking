@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "admin_client_sessions_screen",
+      "label": "Admin Client Sessions (\u0421\u0435\u0441\u0441\u0438\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "ui/admin/client-sessions.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

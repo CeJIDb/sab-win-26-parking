@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_sd_access_and_parking_flow",
+      "label": "ES TO-BE SD: \u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430 \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_access_and_parking_flow",
+      "label": "\u0421\u043a\u0432\u043e\u0437\u043d\u043e\u0439 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0439 \u0434\u043e\u043f\u0443\u0441\u043a\u0430 \u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 TO-BE (\u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_grz_identification",
+      "label": "\u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043f\u043e \u0413\u0420\u0417 (\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0437\u043d\u0430\u043a)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_skud",
+      "label": "\u0421\u041a\u0423\u0414 (\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_adr_001",
+      "label": "ADR-001: \u041e\u043d\u043b\u0430\u0439\u043d-\u043e\u0446\u0435\u043d\u043a\u0430 \u043f\u0440\u0430\u0432 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043d\u0430 \u041a\u041f\u041f",
+      "file_type": "rationale",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "concept_access_and_parking_flow",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 17-18",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "concept_grz_identification",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 39-42",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "concept_parking_session",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 40",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "concept_skud",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "es_tobe_bp_booking_and_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 66",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "es_tobe_bp_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 67",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "es_tobe_bp_client_profile_and_vehicles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 68",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "use_case_uc_12_1_pass_auto_identification_entry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 69",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "ref_uc_12_2_create_booking_auto_entry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 70",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "ref_uc_12_8_complete_ps",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 71",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_access_and_parking_flow",
+      "target": "ref_adr_001",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 72",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_grz_identification",
+      "target": "concept_skud",
+      "relation": "depends_on",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 39-42",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_access_and_parking_flow",
+      "target": "concept_parking_session",
+      "relation": "depends_on",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md",
+      "source_location": "line 40-43",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

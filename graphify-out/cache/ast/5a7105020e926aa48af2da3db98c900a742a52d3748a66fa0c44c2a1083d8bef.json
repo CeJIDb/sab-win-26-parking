@@ -1,0 +1,262 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "label": "git-workflow-agent-reminder.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_min_files",
+      "label": "MIN_FILES",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_min_lines",
+      "label": "MIN_LINES",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_git",
+      "label": "git()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_countstaged",
+      "label": "countStaged()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L29"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_countworktree",
+      "label": "countWorktree()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L46"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_shouldremind",
+      "label": "shouldRemind()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L65"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_printreminder",
+      "label": "printReminder()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L69"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_min_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_min_lines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_countstaged",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_countworktree",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_shouldremind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_printreminder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "git_git_workflow_agent_reminder_countstaged",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "git_git_workflow_agent_reminder_countworktree",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L47",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_git",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_git",
+      "callee": "execFileSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countstaged",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countstaged",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L36"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countstaged",
+      "callee": "Number",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countstaged",
+      "callee": "Number",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "Number",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "Number",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "Number",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_countworktree",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "git_git_workflow_agent_reminder_printreminder",
+      "callee": "warn",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L75"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_12_6",
+      "label": "UC-12.6 \u041f\u0440\u043e\u0439\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e \u043d\u0430 \u0432\u044b\u0435\u0437\u0434\u0435",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_anpr",
+      "label": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u0433\u043e\u0441\u043d\u043e\u043c\u0435\u0440\u043e\u0432 (ANPR)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_uc_12_6_auto_exit",
+      "label": "UC-12.6 \u00ab\u041f\u0440\u043e\u0439\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e \u043d\u0430 \u0432\u044b\u0435\u0437\u0434\u0435\u00bb",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_12_6",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6",
+      "target": "concept_skud",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u0410\u043a\u0442\u043e\u0440\u044b \u2014 \u0421\u041a\u0423\u0414",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6",
+      "target": "concept_anpr",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u0422\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u2014 \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u0413\u0420\u0417",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6",
+      "target": "concept_entity_parking_session",
+      "relation": "reads",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u041f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f \u2014 \u0430\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u041f\u0421",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6",
+      "target": "concept_entity_payment",
+      "relation": "reads",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043f\u043e\u0442\u043e\u043a 3\u04303-3\u04305",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_skud",
+      "target": "concept_anpr",
+      "relation": "includes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u0410\u043a\u0442\u043e\u0440\u044b \u2014 \u0421\u041a\u0423\u0414 (\u043a\u0430\u043c\u0435\u0440\u044b \u0438 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u043b\u0435\u0440 \u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c\u0430)",
+      "weight": 0.8
+    },
+    {
+      "source": "use_case_uc_12_6",
+      "target": "concept_entity_booking",
+      "relation": "reads",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a \u2014 \u0448\u0430\u0433 3 \u0438\u0449\u0435\u0442 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6_auto_exit",
+      "target": "actor_skud",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "line 57",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6_auto_exit",
+      "target": "concept_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "line 66",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6_auto_exit",
+      "target": "concept_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_6_auto_exit",
+      "target": "concept_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md",
+      "source_location": "line 122",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

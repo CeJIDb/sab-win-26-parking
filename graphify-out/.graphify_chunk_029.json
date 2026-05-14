@@ -1,0 +1,782 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_bpmn_client_identification_diagram",
+      "label": "BPMN: Идентификация клиента (as-is)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_охранник",
+      "label": "Swimlane: Охранник",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_управляющий",
+      "label": "Swimlane: Управляющий",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_predstavitel",
+      "label": "Swimlane: Представитель компании клиента",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_start_event",
+      "label": "Старт: Клиент не идентифицирован автоматически",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_check_vehicle",
+      "label": "Задача: Проверить номер ТС",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "label": "Шлюз: Номер ТС найден?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "label": "Задача: Уточнить тип клиента",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_client_type",
+      "label": "Шлюз: Тип клиента? (Физ лицо / Юр лицо)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_request_doc",
+      "label": "Задача: Запросить документ, удостоверяющий личность",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_doc_provided",
+      "label": "Шлюз: Документ предоставлен?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "label": "Шлюз: Допустима идентификация без документа?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "label": "Задача: Найти клиента в базе клиентов по ФИО",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_client_found",
+      "label": "Шлюз: Клиент найден в базе клиентов?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_find_company",
+      "label": "Задача: Найти компанию клиента в базе клиентов",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_company_found",
+      "label": "Шлюз: Компания найдена в базе клиентов?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_contact_manager",
+      "label": "Задача: Связаться с Управляющим",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_contact_success",
+      "label": "Шлюз: Удалось связаться с управляющим?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "label": "Сообщение: Запрос отправлен управляющему",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "label": "Шлюз: ТС принадлежит корпоративному клиенту?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "label": "Сообщение: Получен ответ от управляющего",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_end_identified",
+      "label": "Конец: Клиент идентифицирован",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_end_not_identified",
+      "label": "Конец: Клиент не идентифицирован",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_verify_info",
+      "label": "Задача (Управляющий): Проверить информацию по запросу охраны",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "label": "Сообщение: Получен запрос от охраны",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "label": "Шлюз: Достаточно ли информации?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "label": "Задача (Управляющий): Связаться с представителем компании",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_wait_answer",
+      "label": "Задача (Управляющий): Ожидать ответ",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "label": "Шлюз: Ответ не получен в разумное время / Получен ответ от представителя компании",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_notify_decision",
+      "label": "Задача (Управляющий): Сообщить решение по идентификации охране",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_send_decision",
+      "label": "Сообщение: Решение отправлено охране",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_ds_base_dogovorov",
+      "label": "Хранилище данных: База договоров",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "label": "Хранилище данных: База клиентов",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_охранник",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_управляющий",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_predstavitel",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_start_event",
+      "target": "as_is_bpmn_client_identification_task_check_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_check_vehicle",
+      "target": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "target": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "target": "as_is_bpmn_client_identification_gw_client_type",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_type",
+      "target": "as_is_bpmn_client_identification_task_request_doc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_type",
+      "target": "as_is_bpmn_client_identification_task_find_company",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_request_doc",
+      "target": "as_is_bpmn_client_identification_gw_doc_provided",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_doc_provided",
+      "target": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_doc_provided",
+      "target": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "target": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "target": "as_is_bpmn_client_identification_end_not_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_found",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_found",
+      "target": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_company",
+      "target": "as_is_bpmn_client_identification_gw_company_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_company_found",
+      "target": "as_is_bpmn_client_identification_task_contact_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_company_found",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_contact_manager",
+      "target": "as_is_bpmn_client_identification_gw_contact_success",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_contact_success",
+      "target": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_contact_success",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "target": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "target": "as_is_bpmn_client_identification_end_not_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "target": "as_is_bpmn_client_identification_task_verify_info",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_verify_info",
+      "target": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "target": "as_is_bpmn_client_identification_task_notify_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "target": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "target": "as_is_bpmn_client_identification_task_wait_answer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_wait_answer",
+      "target": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "target": "as_is_bpmn_client_identification_task_notify_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_notify_decision",
+      "target": "as_is_bpmn_client_identification_msg_send_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_check_vehicle",
+      "target": "as_is_bpmn_client_identification_ds_base_dogovorov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_company",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_verify_info",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "target": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_send_decision",
+      "target": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1800,
+  "output_tokens": 2100
+}

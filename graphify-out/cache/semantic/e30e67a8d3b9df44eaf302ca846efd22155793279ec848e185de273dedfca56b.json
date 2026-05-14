@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_crudl",
+      "label": "CRUDL-\u043c\u0430\u0442\u0440\u0438\u0446\u0430 \u043f\u043e \u0440\u043e\u043b\u044f\u043c \u0438 \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "docs/artifacts/use-case/crudl.md",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_booking",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_contract",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_parking_session",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (\u041f\u0421)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_tariff",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0422\u0430\u0440\u0438\u0444",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_notification",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_vehicle",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e (\u0422\u0421)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_payment",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u041f\u043b\u0430\u0442\u0435\u0436",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_entity_sector",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u044c: \u0421\u0435\u043a\u0442\u043e\u0440 \u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e (\u041f\u041c)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "actor_skud",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u0421\u041a\u0423\u0414 (\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 57",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "actor_payment_system",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 / YooKassa",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "actor_notification_service",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u0421\u0435\u0440\u0432\u0438\u0441 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 56",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_crudl",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "use_case_use_case_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 0.8
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_booking",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_contract",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_parking_session",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_tariff",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0422\u0430\u0440\u0438\u0444",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_notification",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_vehicle",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0422\u0421",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_payment",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u041f\u043b\u0430\u0442\u0435\u0436",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "concept_entity_sector",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 CRUDL \u2014 \u0421\u0435\u043a\u0442\u043e\u0440 \u0438 \u041f\u041c",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 85",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "actor_client_fl",
+      "relation": "defines_permissions_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 50",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_crudl",
+      "target": "actor_skud",
+      "relation": "defines_permissions_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/crudl.md",
+      "source_location": "line 57",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

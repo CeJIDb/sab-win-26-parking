@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "admin_sessions_screen",
+      "label": "Admin Parking Sessions (\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u044b\u0435 \u0441\u0435\u0441\u0441\u0438\u0438)",
+      "file_type": "document",
+      "source_file": "ui/admin/sessions.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_bp_client_profile_and_vehicles",
+      "label": "ES TO-BE BP: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0444\u0438\u043b\u0435\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0438 \u0441\u043f\u0438\u0441\u043a\u043e\u043c \u0422\u0421",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_client_profile_vehicles_tobe",
+      "label": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0444\u0438\u043b\u0435\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0438 \u0422\u0421 TO-BE (\u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_nfr_ui_quality",
+      "label": "NFR UI Quality",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "concept_client_profile_vehicles_tobe",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 17-18",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "concept_grz_identification",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 54",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "es_tobe_sd_access_and_parking_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 66",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "ref_project_charter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 67",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "ref_user_story_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 68",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "ref_context_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 69",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_client_profile_and_vehicles",
+      "target": "ref_nfr_ui_quality",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 70",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_client_profile_vehicles_tobe",
+      "target": "concept_grz_identification",
+      "relation": "depends_on",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md",
+      "source_location": "line 54",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

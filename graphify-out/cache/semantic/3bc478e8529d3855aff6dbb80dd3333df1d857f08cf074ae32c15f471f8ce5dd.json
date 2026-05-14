@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo2_15_budget",
+      "label": "\u0411\u044e\u0434\u0436\u0435\u0442 \u043f\u0440\u043e\u0435\u043a\u0442\u0430: \u043e\u0442 10 \u0434\u043e 15 \u043c\u043b\u043d \u0440\u0443\u0431. (\u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0432\u0441\u0435 \u0437\u0430\u0442\u0440\u0430\u0442\u044b \u043f\u043e \u043f\u043b\u0430\u043d\u0443)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/15.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041c\u0430\u0440\u0438\u043d\u0430",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo2_14_business_metrics",
+      "target": "slides_demo2_15_budget",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-2/slides/15.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

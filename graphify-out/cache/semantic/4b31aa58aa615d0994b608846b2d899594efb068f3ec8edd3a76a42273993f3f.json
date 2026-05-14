@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_uml_state_contract_with_individual",
+      "label": "UML StateChart \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0441 \u0444\u0438\u0437\u043b\u0438\u0446\u043e\u043c AS-IS",
+      "file_type": "document",
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_contract_lifecycle",
+      "label": "\u0416\u0438\u0437\u043d\u0435\u043d\u043d\u044b\u0439 \u0446\u0438\u043a\u043b \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u0441 \u0444\u0438\u0437\u043b\u0438\u0446\u043e\u043c (\u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_user_story_map",
+      "label": "User Story Map",
+      "file_type": "document",
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_erd_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 ERD",
+      "file_type": "document",
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_project_journey",
+      "label": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_uml_state_contract_with_individual",
+      "target": "concept_contract_lifecycle",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": "line 3-5",
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual",
+      "target": "ref_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": "line 46",
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual",
+      "target": "ref_user_story_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": "line 47",
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual",
+      "target": "ref_erd_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": "line 48",
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual",
+      "target": "ref_project_journey",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/uml-state-contract-with-individual.md",
+      "source_location": "line 49",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

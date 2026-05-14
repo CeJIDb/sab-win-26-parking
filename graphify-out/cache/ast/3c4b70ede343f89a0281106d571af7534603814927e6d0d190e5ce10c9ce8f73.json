@@ -1,0 +1,748 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "label": "check-markdown-links.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_markdown_links_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_markdown_links_targets",
+      "label": "TARGETS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "lint_check_markdown_links_ignore_prefixes",
+      "label": "IGNORE_PREFIXES",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L6"
+    },
+    {
+      "id": "lint_check_markdown_links_collectmarkdownfiles",
+      "label": "collectMarkdownFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L9"
+    },
+    {
+      "id": "lint_check_markdown_links_shouldskip",
+      "label": "shouldSkip()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_check_markdown_links_normalizelink",
+      "label": "normalizeLink()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L32"
+    },
+    {
+      "id": "lint_check_markdown_links_headerslugcache",
+      "label": "headerSlugCache",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L36"
+    },
+    {
+      "id": "lint_check_markdown_links_decodemaybe",
+      "label": "decodeMaybe()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L38"
+    },
+    {
+      "id": "lint_check_markdown_links_parsemarkdownhref",
+      "label": "parseMarkdownHref()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L46"
+    },
+    {
+      "id": "lint_check_markdown_links_slugifyheading",
+      "label": "slugifyHeading()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L51"
+    },
+    {
+      "id": "lint_check_markdown_links_extractheaderslugs",
+      "label": "extractHeaderSlugs()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L66"
+    },
+    {
+      "id": "lint_check_markdown_links_getheaderslugsforfile",
+      "label": "getHeaderSlugsForFile()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L105"
+    },
+    {
+      "id": "lint_check_markdown_links_checkfilelinks",
+      "label": "checkFileLinks()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L113"
+    },
+    {
+      "id": "lint_check_markdown_links_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L160"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_ignore_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_collectmarkdownfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_shouldskip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_normalizelink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_headerslugcache",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_decodemaybe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_parsemarkdownhref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_extractheaderslugs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_getheaderslugsforfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_checkfilelinks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_extractheaderslugs",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_getheaderslugsforfile",
+      "target": "lint_check_markdown_links_extractheaderslugs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_parsemarkdownhref",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_shouldskip",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_decodemaybe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_getheaderslugsforfile",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_main",
+      "target": "lint_check_markdown_links_collectmarkdownfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_main",
+      "target": "lint_check_markdown_links_checkfilelinks",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L168",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L10"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "stat",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L11"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "readdir",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_collectmarkdownfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_shouldskip",
+      "callee": "some",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_normalizelink",
+      "callee": "decodeURIComponent",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_normalizelink",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_decodemaybe",
+      "callee": "decodeURIComponent",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_parsemarkdownhref",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_parsemarkdownhref",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "toLowerCase",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_slugifyheading",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "test",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "test",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "matchAll",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "toLowerCase",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "add",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "match",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L93"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L96"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_extractheaderslugs",
+      "callee": "addSlug",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_getheaderslugsforfile",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_getheaderslugsforfile",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_getheaderslugsforfile",
+      "callee": "readFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L107"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_getheaderslugsforfile",
+      "callee": "set",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L109"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "readFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L115"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "dirname",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L116"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "matchAll",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L118"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "access",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L138"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L140"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "toLowerCase",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L148"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L150"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "relative",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L151"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_checkfilelinks",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L152"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_main",
+      "callee": "relative",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L172"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L176"
+    },
+    {
+      "caller_nid": "lint_check_markdown_links_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs",
+      "source_location": "L177"
+    }
+  ]
+}

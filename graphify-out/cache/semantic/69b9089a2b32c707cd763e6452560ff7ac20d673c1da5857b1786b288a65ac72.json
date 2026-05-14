@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "assets_demo_day_1_slide_08_data_desync",
+      "label": "Demo Day 1 \u2014 \u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u043a \u21162: \u0440\u0430\u0441\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445. \u0418\u043b\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0440\u0430\u0437\u0432\u0438\u043b\u043a\u0438 \u0434\u043e\u0440\u043e\u0433 (East/West) \u2014 \u043e\u0431\u0440\u0430\u0437 \u043d\u0435\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u043d\u0435\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041f\u0430\u0432\u0435\u043b \u0411\u043e\u0440\u0443\u043d\u043e\u0432",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_demo_day_1_slide_08_data_desync",
+      "target": "assets_demo_day_1_slide_09_excel_everywhere",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_08_data_desync",
+      "target": "assets_demo_day_1_slide_10_conclusions_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

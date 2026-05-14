@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "hook_touch_rag_timestamp",
+      "label": "Claude Hook: touch-rag-index-timestamp.mjs \u2014 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 timestamp \u043f\u043e\u0441\u043b\u0435 \u0438\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0438\u0438 RAG",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hook_touch_rag_timestamp",
+      "target": "hook_validate_staged_plans",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "line 8",
+      "weight": 0.5
+    }
+  ],
+  "hyperedges": []
+}

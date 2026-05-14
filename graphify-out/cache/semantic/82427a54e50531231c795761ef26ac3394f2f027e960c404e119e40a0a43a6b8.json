@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "agents_md_codex_nav",
+      "label": "AGENTS.md \u2014 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u0434\u043b\u044f Codex",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "agents_md_codex_nav",
+      "target": "contributing_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_md_codex_nav",
+      "target": "readme_parking_platform_ru",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

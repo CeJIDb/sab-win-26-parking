@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_24_technical_design_architecture",
+      "label": "\u042d\u0442\u0430\u043f 4. \u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f. \u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430: \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445 + \u0412\u044b\u0431\u043e\u0440 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u041f\u041e \u2192 \u0421\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u2192 XML/JSON \u2192 \u0411\u0440\u043e\u043a\u0435\u0440\u044b \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 Kafka \u0438 RabbitMQ; \u0421\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u2192 UML Sequence Diagram \u2192 \u041f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 REST API \u2192 \u0411\u0440\u043e\u043a\u0435\u0440\u044b \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/24.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041f\u0430\u0432\u0435\u043b",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_24_technical_design_architecture",
+      "target": "slides_demo5_33_use_case_ft_integration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/24.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

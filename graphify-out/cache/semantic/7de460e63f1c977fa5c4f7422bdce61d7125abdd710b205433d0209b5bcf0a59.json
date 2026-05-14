@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "lint_check_file_names_module",
+      "label": "check-file-names.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "1-83",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint_check_file_names_hassafefilename",
+      "label": "hasSafeFilename(name)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "28-31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint_check_file_names_walkfiles",
+      "label": "walkFiles(dirRel, acc)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "33-51",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_check_file_names_module",
+      "target": "lint_check_file_names_walkfiles",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "58",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_file_names_module",
+      "target": "lint_check_file_names_hassafefilename",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "65",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

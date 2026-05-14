@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "sequence_uc10_2_pay_online_diagram",
+      "label": "Sequence Diagram UC-10.2 \u2014 \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043e\u043f\u043b\u0430\u0442\u044b \u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0439 \u0430\u0440\u0435\u043d\u0434\u044b (online payment flow)",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sequence_uc10_2_actor_client",
+      "label": "Actor: \u041a\u043b\u0438\u0435\u043d\u0442 \u2014 initiates online payment in UC-10.2 sequence",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sequence_uc10_2_parking_system",
+      "label": "Participant: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u2014 core system in UC-10.2 sequence",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sequence_uc10_2_payment_module",
+      "label": "Participant: \u041c\u043e\u0434\u0443\u043b\u044c \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u2014 payment/management module in UC-10.2",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sequence_uc10_2_barrier_system",
+      "label": "Participant: \u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u2014 barrier/access control in UC-10.2",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sequence_uc10_2_alt_fragments",
+      "label": "ALT/OPT frames in UC-10.2 \u2014 multiple failure/retry paths for payment scenarios",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "sequence_uc10_2_pay_online_diagram",
+      "target": "openapi_uc10_6_receipt_swagger_ok_api",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "sequence_uc10_2_actor_client",
+      "target": "sequence_uc10_2_parking_system",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sequence_uc10_2_parking_system",
+      "target": "sequence_uc10_2_payment_module",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sequence_uc10_2_payment_module",
+      "target": "sequence_uc10_2_barrier_system",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sequence_uc10_2_pay_online_diagram",
+      "target": "sequence_uc10_2_alt_fragments",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

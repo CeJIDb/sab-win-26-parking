@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_09_event_storming_as_is",
+      "label": "Event Storming As-Is: \u0447\u0435\u0442\u044b\u0440\u0435 \u0431\u043e\u043b\u0438 \u2014 P1 \u041a\u041f\u041f \u0440\u0443\u0447\u043d\u044b\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 (\u0441\u0442\u0440\u0435\u0441\u0441, \u043e\u0448\u0438\u0431\u043a\u0438), P2 \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u043d\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c 40-70 \u043c\u0430\u0448\u0438\u043d/\u0447\u0430\u0441 \u0446\u0435\u043b\u044c 200+, P3 \u043e\u043d\u043b\u0430\u0439\u043d-\u043f\u0443\u0442\u044c \u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 (30% \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u043c\u0435\u0441\u0442), P4 \u042e\u041b \u0438 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0432\u0440\u0443\u0447\u043d\u0443\u044e Excel (\u0441\u043b\u0430\u0431\u043e\u0435 B2B)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/09.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_09_event_storming_as_is",
+      "target": "slides_demo5_11_goal_mvp_scope",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/09.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

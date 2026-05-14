@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo4_01_title_demo4_parking_automation",
+      "label": "Demo 4: Автоматизация частного паркинга — архитектура системы, анализ безопасности и проектирование данных (Five Whys: от проблем к решению)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_03_research_results",
+      "label": "Результаты исследования: 8 интервью с владельцем (Елена Гриценко) — 30% мест простаивает, 80% времени охранников на рутину, 0% удобства для клиентов, ручные операции во всех процессах",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/03.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_05_security_analysis_bowtie",
+      "label": "Анализ проблем безопасности, выявление рисковых ситуаций и предложение мер по их парированию — галстук-бабочка (Денис)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/05.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_13_core_domain_model",
+      "label": "Core-домен: модель сущностей — Бронирование, Тариф, Расчет стоимости (параметры расчета + правила тарифа + длительность), Доступ (основание доступа), Парковочная сессия (факт въезда/выезда)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/13.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_14_supporting_generic_subdomains",
+      "label": "Supporting-субдомены: Клиент, Договор, Оплата, Инфраструктура парковки, Обращение, Сотрудник, Адаптер СКУД, Адаптер дисплеев и табло; Generic: Уведомление, Отчет",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/14.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_20_c4_container_diagram",
+      "label": "Диаграмма C4 контейнеры: PWA (клиент — личный кабинет, бронирование, оплата), Web-приложение сотрудника, API Gateway (JWT, маршрутизация), Backend Java 21/Spring Boot, PostgreSQL СУБД; акторы: Клиент ФЛ/ЮЛ, Охранник, Владелец, Управляющий",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/20.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_24_er_diagram_database",
+      "label": "ER-диаграмма и база данных — секция презентации Марины по проектированию схемы БД",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/24.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_28_sql_queries",
+      "label": "Запросы к базам данных — секция презентации Александра по SQL-запросам к спроектированной схеме",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/28.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo4_33_conclusion_next_steps",
+      "label": "Заключение Demo 4: зафиксирована To-Be модель, схема БД с тестовыми данными, уточнены сценарии парковки и оплаты; следующие шаги — контракты API, ограничения БД, тесты ключевых сценариев",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/33.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_03_research_results",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_05_security_analysis_bowtie",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_13_core_domain_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_14_supporting_generic_subdomains",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_20_c4_container_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_24_er_diagram_database",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_28_sql_queries",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_01_title_demo4_parking_automation",
+      "target": "slides_demo4_33_conclusion_next_steps",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_03_research_results",
+      "target": "slides_demo4_05_security_analysis_bowtie",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-4/slides/03.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo4_13_core_domain_model",
+      "target": "slides_demo4_14_supporting_generic_subdomains",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/13.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_13_core_domain_model",
+      "target": "slides_demo4_20_c4_container_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/13.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo4_20_c4_container_diagram",
+      "target": "slides_demo4_24_er_diagram_database",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/20.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo4_24_er_diagram_database",
+      "target": "slides_demo4_28_sql_queries",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/24.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo4_28_sql_queries",
+      "target": "slides_demo4_33_conclusion_next_steps",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/28.jpg",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 9,
+  "output_tokens": 9
+}

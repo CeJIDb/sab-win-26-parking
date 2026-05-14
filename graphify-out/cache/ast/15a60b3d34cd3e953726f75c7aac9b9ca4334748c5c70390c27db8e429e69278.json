@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "label": "check-rag-index.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_docsdir",
+      "label": "docsDir",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_cachepath",
+      "label": "cachePath",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L22"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_collectstalefiles",
+      "label": "collectStaleFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L30"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_raw",
+      "label": "raw",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L55"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_stalefiles",
+      "label": "staleFiles",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L63"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_message",
+      "label": "message",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_docsdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_cachepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_collectstalefiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_raw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_stalefiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L76",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "readdirSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "endsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "statSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "claude_hooks_check_rag_index_collectstalefiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L44"
+    }
+  ]
+}

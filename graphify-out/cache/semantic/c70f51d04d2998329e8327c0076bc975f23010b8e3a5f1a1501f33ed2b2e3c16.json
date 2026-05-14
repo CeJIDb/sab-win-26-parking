@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "k_l2_kafka_dfd_l2_diagram",
+      "label": "Kafka DFD L2 \u2014 detailed Kafka topics and consumer architecture",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l2_topic_booking_created",
+      "label": "Kafka Topic: BookingCreated \u2014 consumed by Billing Service and Notification Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l2_topic_booking_confirmed",
+      "label": "Kafka Topic: BookingConfirmed \u2014 consumed by Notification Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l2_topic_payment_completed",
+      "label": "Kafka Topic: PaymentCompleted \u2014 consumed by Booking Service and Billing Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l2_cdc_debezium",
+      "label": "CDC (Debezium) \u2014 publishes BookingConfirmed, BookingCreated, PaymentCompleted to Kafka",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "k_l1_kafka_dfd_l1_diagram",
+      "target": "k_l2_kafka_dfd_l2_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_cdc_debezium",
+      "target": "k_l2_topic_booking_created",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_cdc_debezium",
+      "target": "k_l2_topic_booking_confirmed",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_cdc_debezium",
+      "target": "k_l2_topic_payment_completed",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_topic_booking_created",
+      "target": "k_l1_billing_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_topic_booking_created",
+      "target": "k_l1_notification_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_topic_booking_confirmed",
+      "target": "k_l1_notification_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_topic_payment_completed",
+      "target": "k_l1_booking_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l2_topic_payment_completed",
+      "target": "k_l1_billing_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l2.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "validate_plans_script",
+      "label": "Script: validate-plans.mjs \u2014 \u0432\u0430\u043b\u0438\u0434\u0430\u0442\u043e\u0440 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432 \u043f\u043b\u0430\u043d\u043e\u0432",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_module",
+      "label": "validate-plans.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "1-206",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_validate",
+      "label": "validate(filePath)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "38-97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_collectallplans",
+      "label": "collectAllPlans()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "121-138",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_collectstagedplans",
+      "label": "collectStagedPlans()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "140-155",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_report",
+      "label": "report(filePath, result)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "99-119",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "plans_validate_plans_module",
+      "target": "plans_validate_plans_validate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "191",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_module",
+      "target": "plans_validate_plans_report",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "192",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_module",
+      "target": "plans_validate_plans_collectallplans",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "172",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_module",
+      "target": "plans_validate_plans_collectstagedplans",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs",
+      "source_location": "174",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

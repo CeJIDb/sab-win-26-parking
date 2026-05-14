@@ -1,0 +1,637 @@
+{
+  "nodes": [
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_diagram",
+      "label": "BPMN: \u041e\u043f\u043b\u0430\u0442\u0430 \u2014 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430 (as-is)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_pool_individual",
+      "label": "\u041f\u0443\u043b: \u041e\u043f\u043b\u0430\u0442\u0430 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043b\u0438\u0446\u0430\u043c\u0438 (\u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_pool_legal",
+      "label": "\u041f\u0443\u043b: \u041e\u043f\u043b\u0430\u0442\u0430 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043b\u0438\u0446\u0430\u043c\u0438 (\u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_start_event_individual",
+      "label": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u0438\u043d\u0438\u0446\u0438\u0438\u0440\u0443\u0435\u0442 \u043e\u043f\u043b\u0430\u0442\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_start_event_legal",
+      "label": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u0438\u043d\u0438\u0446\u0438\u0438\u0440\u0443\u0435\u0442 \u043e\u043f\u043b\u0430\u0442\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_end_event_individual",
+      "label": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u043e\u043f\u043b\u0430\u0442\u0430 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043b\u0438\u0446\u043e\u043c \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_end_event_legal",
+      "label": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0435: \u043e\u043f\u043b\u0430\u0442\u0430 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043b\u0438\u0446\u043e\u043c \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_select_payment_method_individual",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0432\u044b\u0431\u043e\u0440 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_check_balance",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0431\u0430\u043b\u0430\u043d\u0441\u0430 / \u043b\u0438\u0446\u0435\u0432\u043e\u0433\u043e \u0441\u0447\u0451\u0442\u0430 (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_individual",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043f\u043b\u0430\u0442\u0435\u0436\u0430 (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_issue_receipt_individual",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0432\u044b\u0434\u0430\u0447\u0430 \u0447\u0435\u043a\u0430 / \u043a\u0432\u0438\u0442\u0430\u043d\u0446\u0438\u0438 (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_generate_invoice_legal",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0441\u0447\u0451\u0442\u0430-\u0444\u0430\u043a\u0442\u0443\u0440\u044b / \u0438\u043d\u0432\u043e\u0439\u0441\u0430 (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_approve_invoice_legal",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435/\u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u0441\u0447\u0451\u0442\u0430 (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0431\u0435\u0437\u043d\u0430\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043f\u043b\u0430\u0442\u0435\u0436\u0430 (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_check_payment_status_legal",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_task_close_period_legal",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0440\u0430\u0441\u0447\u0451\u0442\u043d\u043e\u0433\u043e \u043f\u0435\u0440\u0438\u043e\u0434\u0430 / \u0430\u043a\u0442 (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_method",
+      "label": "\u0428\u043b\u044e\u0437: \u0432\u044b\u0431\u043e\u0440 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (\u043d\u0430\u043b\u0438\u0447\u043d\u044b\u0435 / \u043a\u0430\u0440\u0442\u0430 / \u0431\u0430\u043b\u0430\u043d\u0441)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_success_individual",
+      "label": "\u0428\u043b\u044e\u0437: \u043e\u043f\u043b\u0430\u0442\u0430 \u043f\u0440\u043e\u0448\u043b\u0430 \u0443\u0441\u043f\u0435\u0448\u043d\u043e? (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_gateway_invoice_approved",
+      "label": "\u0428\u043b\u044e\u0437: \u0441\u0447\u0451\u0442 \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d? (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_received_legal",
+      "label": "\u0428\u043b\u044e\u0437: \u043e\u043f\u043b\u0430\u0442\u0430 \u043f\u043e\u0441\u0442\u0443\u043f\u0438\u043b\u0430? (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_lane_client_individual",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u041a\u043b\u0438\u0435\u043d\u0442 (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_lane_parking_system_individual",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430 (\u0432 \u043f\u0443\u043b\u0435 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_lane_client_legal",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u041a\u043b\u0438\u0435\u043d\u0442 (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e / \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0438\u044f)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_lane_parking_system_legal",
+      "label": "\u0414\u043e\u0440\u043e\u0436\u043a\u0430: \u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430 (\u0432 \u043f\u0443\u043b\u0435 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_data_store_db_individual",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0431\u0430\u0437\u0430 \u043e\u043f\u043b\u0430\u0442 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_data_store_db_legal",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0431\u0430\u0437\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432 \u0438 \u0440\u0430\u0441\u0447\u0451\u0442\u043e\u0432 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_payment_process",
+      "label": "\u0411\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441: \u043e\u043f\u043b\u0430\u0442\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 (as-is)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_cash_payment_path",
+      "label": "\u041f\u0443\u0442\u044c: \u043e\u043f\u043b\u0430\u0442\u0430 \u043d\u0430\u043b\u0438\u0447\u043d\u044b\u043c\u0438 (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_card_payment_path",
+      "label": "\u041f\u0443\u0442\u044c: \u043e\u043f\u043b\u0430\u0442\u0430 \u043a\u0430\u0440\u0442\u043e\u0439 / \u0431\u0435\u0437\u043d\u0430\u043b\u0438\u0447\u043d\u043e (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_payment_individual_and_legal_clients_bank_transfer_path",
+      "label": "\u041f\u0443\u0442\u044c: \u043e\u043f\u043b\u0430\u0442\u0430 \u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u043c \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u043c (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_diagram",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_pool_individual",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_diagram",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_pool_legal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_lane_client_individual",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_lane_parking_system_individual",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_lane_client_legal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_lane_parking_system_legal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_start_event_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_select_payment_method_individual",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_select_payment_method_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_method",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_method",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_cash_payment_path",
+      "relation": "precedes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_method",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_card_payment_path",
+      "relation": "precedes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_check_balance",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_individual",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_success_individual",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_success_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_issue_receipt_individual",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_issue_receipt_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_end_event_individual",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_data_store_db_individual",
+      "relation": "writes_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_start_event_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_generate_invoice_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_generate_invoice_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_approve_invoice_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_approve_invoice_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_gateway_invoice_approved",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_invoice_approved",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_check_payment_status_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_check_payment_status_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_received_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_received_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_close_period_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_close_period_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_end_event_legal",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_data_store_db_legal",
+      "relation": "writes_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_task_generate_invoice_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_data_store_db_legal",
+      "relation": "writes_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_payment_process",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_pool_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_payment_process",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_bank_transfer_path",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "relation": "precedes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_received_legal",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_process_payment_legal",
+      "relation": "precedes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "assets_bpmn_payment_individual_and_legal_clients_gateway_payment_success_individual",
+      "target": "assets_bpmn_payment_individual_and_legal_clients_task_select_payment_method_individual",
+      "relation": "precedes",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": []
+}

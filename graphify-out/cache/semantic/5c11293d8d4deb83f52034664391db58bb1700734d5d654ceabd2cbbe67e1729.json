@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_assets_readme",
+      "label": "ES TO-BE Assets (\u0438\u043d\u0434\u0435\u043a\u0441 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0439)",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_assets_readme",
+      "target": "es_tobe_sd_team_board",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": "line 12",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_assets_readme",
+      "target": "es_tobe_sd_access_and_parking_flow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": "line 14",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_assets_readme",
+      "target": "es_tobe_bp_booking_and_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": "line 15",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_assets_readme",
+      "target": "es_tobe_bp_payment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_assets_readme",
+      "target": "es_tobe_bp_client_profile_and_vehicles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/readme.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

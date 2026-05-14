@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "client_notifications_screen",
+      "label": "Client Notifications (\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u0430)",
+      "file_type": "document",
+      "source_file": "ui/client/notifications.html",
+      "source_location": "line 50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "client_notifications_screen",
+      "target": "client_dashboard_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/notifications.html",
+      "source_location": "line 38",
+      "weight": 1.0
+    },
+    {
+      "source": "client_notifications_screen",
+      "target": "client_payment_settings_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/notifications.html",
+      "source_location": "line 40",
+      "weight": 1.0
+    },
+    {
+      "source": "client_notifications_screen",
+      "target": "client_profile_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/client/notifications.html",
+      "source_location": "line 40",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

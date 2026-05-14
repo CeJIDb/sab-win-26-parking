@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "adr_002_booking_vs_session",
+      "label": "ADR-002: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 vs \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "concept_booking",
+      "label": "\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0434\u043e\u043c\u0435\u043d\u043d\u0430\u044f \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_parking_session",
+      "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (\u0434\u043e\u043c\u0435\u043d\u043d\u0430\u044f \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "adr_002_booking_vs_session",
+      "target": "concept_booking",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 233",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_002_booking_vs_session",
+      "target": "concept_parking_session",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 235",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_booking",
+      "target": "concept_parking_session",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 233",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

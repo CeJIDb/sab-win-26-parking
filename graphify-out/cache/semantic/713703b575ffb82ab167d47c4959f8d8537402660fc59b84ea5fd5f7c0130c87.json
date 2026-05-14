@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "artifacts_opportunity_canvas_doc",
+      "label": "Opportunity Canvas \u2014 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_opportunity_canvas_users",
+      "label": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a, \u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a, \u0432\u043b\u0430\u0434\u0435\u043b\u0435\u0446, \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439, \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440, SMM-\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 1. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u044b \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_opportunity_canvas_solution_ideas",
+      "label": "\u0418\u0434\u0435\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0439: \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0439 \u043f\u043e\u0440\u0442\u0430\u043b, \u041b\u041a, \u0421\u041a\u0423\u0414 \u0441 LPR-\u043a\u0430\u043c\u0435\u0440\u0430\u043c\u0438, \u042d\u0414\u041e, \u043c\u043e\u0434\u0443\u043b\u044c \u043e\u043f\u043b\u0430\u0442, \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 9. \u0418\u0434\u0435\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0439",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_opportunity_canvas_budget",
+      "label": "\u0411\u044e\u0434\u0436\u0435\u0442 \u043f\u0440\u043e\u0435\u043a\u0442\u0430: 10 \u043c\u043b\u043d \u0440\u0443\u0431. (\u043c\u0430\u043a\u0441. 15 \u043c\u043b\u043d), \u0441\u0440\u043e\u043a 4\u20136 \u043c\u0435\u0441.",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 14. \u0411\u044e\u0434\u0436\u0435\u0442 \u0438 \u0441\u0440\u043e\u043a\u0438",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_opportunity_canvas_metrics",
+      "label": "\u041c\u0435\u0442\u0440\u0438\u043a\u0438: \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u043d\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c >200 \u043c\u0430\u0448\u0438\u043d/\u0447\u0430\u0441, \u043f\u0440\u043e\u0441\u0442\u043e\u0439 <10%, \u0440\u0435\u0439\u0442\u0438\u043d\u0433 >4.5",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 13. \u0411\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_opportunity_canvas_users",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 1. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u044b \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_opportunity_canvas_solution_ideas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 9. \u0418\u0434\u0435\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0439",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_opportunity_canvas_budget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 14. \u0411\u044e\u0434\u0436\u0435\u0442 \u0438 \u0441\u0440\u043e\u043a\u0438",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_opportunity_canvas_metrics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## 13. \u0411\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_impact_map_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_project_charter_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_doc",
+      "target": "artifacts_user_story_map_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/opportunity-canvas.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

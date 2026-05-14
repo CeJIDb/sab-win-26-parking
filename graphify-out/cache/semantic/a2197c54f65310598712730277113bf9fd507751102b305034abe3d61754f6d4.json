@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "integration_message_flow_kafka_online_booking",
+      "label": "DFD \u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440\u0430 Kafka \u2014 \u043e\u043d\u043b\u0430\u0439\u043d-\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (TO-BE)",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "last_updated: 2026-04-30",
+      "source_url": null,
+      "captured_at": "2026-04-30",
+      "author": "System Analyst",
+      "contributor": null
+    },
+    {
+      "id": "integration_message_flow_kafka",
+      "label": "DFD \u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440\u0430 Kafka \u2014 \u043e\u043d\u043b\u0430\u0439\u043d-\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (\u0443\u0447\u0435\u0431\u043d\u044b\u0439 TO-BE)",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_message_flow_kafka_kl1",
+      "label": "DFD K-L1 \u2014 \u043e\u0431\u0437\u043e\u0440 Kafka-\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440\u0430 (\u043e\u0434\u0438\u043d \u0431\u043b\u043e\u043a Kafka)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 63",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_message_flow_kafka_kl2",
+      "label": "DFD K-L2 \u2014 \u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f Kafka \u043f\u043e \u0442\u043e\u043f\u0438\u043a\u0430\u043c (\u0442\u0440\u0438 \u0441\u0438\u043d\u0438\u0445 \u0442\u043e\u043f\u0438\u043a\u0430)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_message_flow_booking_service_orchestrator",
+      "label": "Booking Service \u043a\u0430\u043a \u043e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0442\u043e\u0440 Kafka-\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440\u0430",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 66",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_message_flow_kafka_online_booking",
+      "target": "concept_kafka_topic_booking_created",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "DFD K-L2 \u2014 \u0421\u043b\u043e\u0432\u0430\u0440\u044c \u043f\u043e\u0442\u043e\u043a\u043e\u0432",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka_online_booking",
+      "target": "concept_kafka_topic_payment_completed",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "DFD K-L2 \u2014 \u0421\u043b\u043e\u0432\u0430\u0440\u044c \u043f\u043e\u0442\u043e\u043a\u043e\u0432",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka_online_booking",
+      "target": "concept_kafka_topic_booking_confirmed",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "DFD K-L2 \u2014 \u0421\u043b\u043e\u0432\u0430\u0440\u044c \u043f\u043e\u0442\u043e\u043a\u043e\u0432",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka_online_booking",
+      "target": "integration_kafka_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 0.9
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_message_flow_kafka_kl1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 63",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_message_flow_kafka_kl2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 95",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_message_flow_booking_service_orchestrator",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 66",
+      "weight": 0.9
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_kafka_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 170",
+      "weight": 0.9
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_kafka_topic_booking_created",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 88",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_kafka_topic_payment_completed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 89",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_message_flow_kafka",
+      "target": "integration_kafka_topic_booking_confirmed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/message-flow-kafka-online-booking.md",
+      "source_location": "line 90",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

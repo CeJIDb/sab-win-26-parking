@@ -1,0 +1,374 @@
+{
+  "nodes": [
+    {
+      "id": "assets_bow_tie_unauthorized_access_hazard",
+      "label": "\u041d\u0435\u0441\u0430\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u0438 \u0434\u0430\u043d\u043d\u044b\u043c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "center",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_threat_weak_passwords",
+      "label": "\u0421\u043b\u0430\u0431\u044b\u0435 \u043f\u0430\u0440\u043e\u043b\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-top",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_threat_no_2fa",
+      "label": "\u041d\u0435\u0442 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439 2FA",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_threat_sso_token_compromise",
+      "label": "\u041a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0438\u044f \u0442\u043e\u043a\u0435\u043d\u043e\u0432 SSO \u0438\u043b\u0438 \u0441\u0435\u0441\u0441\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-lower-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_threat_role_model",
+      "label": "\u0420\u043e\u043b\u0435\u0432\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-bottom",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_barrier_password_complexity",
+      "label": "\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u0438 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044f, \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0434\u043b\u0438\u043d\u0435 \u043f\u0430\u0440\u043e\u043b\u0435\u0439",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-top",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_barrier_mandatory_2fa",
+      "label": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f 2FA",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-upper-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_barrier_token_encryption",
+      "label": "\u0428\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449 \u0438 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0435\u043a\u0440\u0435\u0442\u043e\u0432 \u0442\u043e\u043a\u0435\u043d\u043e\u0432",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-lower-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_barrier_access_interception",
+      "label": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u0435\u0440\u0435\u0445\u0432\u0430\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a \u0434\u0430\u043d\u043d\u044b\u043c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-bottom",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_barrier_2fa_training",
+      "label": "\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442\u0430\u043c 2FA \u0434\u043b\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-bottom-2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_consequence_data_leak",
+      "label": "\u0423\u0442\u0435\u0447\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-top",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_consequence_data_modification",
+      "label": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_consequence_system_disruption",
+      "label": "\u041d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-bottom",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_recovery_account_block_1",
+      "label": "\u0411\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438 \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0439 (\u0434\u043b\u044f \u0443\u0442\u0435\u0447\u043a\u0438 \u0434\u0430\u043d\u043d\u044b\u0445)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-top",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_recovery_account_block_2",
+      "label": "\u0411\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438 \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0439 (\u0434\u043b\u044f \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-middle",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_recovery_account_block_3",
+      "label": "\u0411\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438 \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 \u0441\u0435\u0441\u0441\u0438\u0439 (\u0434\u043b\u044f \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-bottom",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bow_tie_unauthorized_access_recovery_monitoring_notification",
+      "label": "\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435 \u043e \u043f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-monitoring",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_bow_tie_unauthorized_access_threat_weak_passwords",
+      "target": "assets_bow_tie_unauthorized_access_hazard",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-top",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_threat_no_2fa",
+      "target": "assets_bow_tie_unauthorized_access_hazard",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_threat_sso_token_compromise",
+      "target": "assets_bow_tie_unauthorized_access_hazard",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-lower-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_threat_role_model",
+      "target": "assets_bow_tie_unauthorized_access_hazard",
+      "relation": "causes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-bottom",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_barrier_password_complexity",
+      "target": "assets_bow_tie_unauthorized_access_threat_weak_passwords",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-top",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_barrier_mandatory_2fa",
+      "target": "assets_bow_tie_unauthorized_access_threat_no_2fa",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-upper-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_barrier_token_encryption",
+      "target": "assets_bow_tie_unauthorized_access_threat_sso_token_compromise",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-lower-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_barrier_access_interception",
+      "target": "assets_bow_tie_unauthorized_access_threat_sso_token_compromise",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-bottom",
+      "weight": 0.85
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_barrier_2fa_training",
+      "target": "assets_bow_tie_unauthorized_access_threat_no_2fa",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "left-barrier-bottom-2",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_hazard",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_leak",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-top",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_hazard",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_modification",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_hazard",
+      "target": "assets_bow_tie_unauthorized_access_consequence_system_disruption",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-bottom",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_account_block_1",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_leak",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-top",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_account_block_2",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_modification",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-middle",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_account_block_3",
+      "target": "assets_bow_tie_unauthorized_access_consequence_system_disruption",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-bottom",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_monitoring_notification",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_leak",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-monitoring",
+      "weight": 0.95
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_monitoring_notification",
+      "target": "assets_bow_tie_unauthorized_access_consequence_data_modification",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-monitoring",
+      "weight": 0.95
+    },
+    {
+      "source": "assets_bow_tie_unauthorized_access_recovery_monitoring_notification",
+      "target": "assets_bow_tie_unauthorized_access_consequence_system_disruption",
+      "relation": "mitigates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg",
+      "source_location": "right-recovery-monitoring",
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": []
+}

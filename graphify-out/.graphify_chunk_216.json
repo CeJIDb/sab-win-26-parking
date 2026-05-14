@@ -1,0 +1,742 @@
+{
+  "nodes": [
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_phase",
+      "label": "Концептуальное проектирование Решения (Stage 2)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_goals_constraints",
+      "label": "Формулирование целей и ограничений",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_context_diagram",
+      "label": "Контекстная диаграмма",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_it_concepts",
+      "label": "Концепции ИТ-решения",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_user_story_job_story",
+      "label": "User Story и Job Story",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_ui_quality_requirements",
+      "label": "Разработка требований к качеству пользовательских интерфейсов",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_2_conceptual_design_user_story_map",
+      "label": "User Story Map",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_phase",
+      "label": "Функциональное проектирование Решения (Stage 3)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_interface_design",
+      "label": "Проектирование интерфейсов",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_use_cases",
+      "label": "Use Cases",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_uml_use_case_diagram",
+      "label": "Моделирование использования, UML Use Case Diagram",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_canonical_fr",
+      "label": "Канонические функциональные требования к ПО",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_data_dictionary",
+      "label": "Словарь данных",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "label": "Описание алгоритмов",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_3_functional_design_external_quality",
+      "label": "Требования к внешнему качеству",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_phase",
+      "label": "Техническое проектирование Решения (Stage 5)",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_databases",
+      "label": "Базы данных",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_architecture_choice",
+      "label": "Выбор архитектуры ПО",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "label": "Сценарии интеграции",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_xml_json",
+      "label": "XML, JSON",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_message_brokers",
+      "label": "Брокеры сообщений Kafka и Rabbit MQ",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "label": "UML Sequence Diagram",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_project_journey_stage_5_integrations_rest_api_design",
+      "label": "Проектирование REST API",
+      "file_type": "image",
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_goals_constraints",
+      "target": "assets_project_journey_stage_2_conceptual_design_context_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_goals_constraints",
+      "target": "assets_project_journey_stage_2_conceptual_design_it_concepts",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_it_concepts",
+      "target": "assets_project_journey_stage_2_conceptual_design_user_story_job_story",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_goals_constraints",
+      "target": "assets_project_journey_stage_2_conceptual_design_ui_quality_requirements",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_user_story_job_story",
+      "target": "assets_project_journey_stage_2_conceptual_design_user_story_map",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_ui_quality_requirements",
+      "target": "assets_project_journey_stage_2_conceptual_design_user_story_map",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_goals_constraints",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_context_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_it_concepts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_user_story_job_story",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_ui_quality_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_2_conceptual_design_user_story_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_use_cases",
+      "target": "assets_project_journey_stage_3_functional_design_interface_design",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_uml_use_case_diagram",
+      "target": "assets_project_journey_stage_3_functional_design_use_cases",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_interface_design",
+      "target": "assets_project_journey_stage_3_functional_design_uml_use_case_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_use_cases",
+      "target": "assets_project_journey_stage_3_functional_design_canonical_fr",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_canonical_fr",
+      "target": "assets_project_journey_stage_3_functional_design_data_dictionary",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_canonical_fr",
+      "target": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_data_dictionary",
+      "target": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_use_cases",
+      "target": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "target": "assets_project_journey_stage_3_functional_design_use_cases",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_interface_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_use_cases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_uml_use_case_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_canonical_fr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_data_dictionary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_algorithm_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_external_quality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_databases",
+      "target": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_architecture_choice",
+      "target": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_architecture_choice",
+      "target": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "target": "assets_project_journey_stage_5_integrations_xml_json",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "target": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "target": "assets_project_journey_stage_5_integrations_rest_api_design",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_xml_json",
+      "target": "assets_project_journey_stage_5_integrations_message_brokers",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_xml_json",
+      "target": "assets_project_journey_stage_5_integrations_rest_api_design",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "target": "assets_project_journey_stage_5_integrations_rest_api_design",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "target": "assets_project_journey_stage_5_integrations_message_brokers",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_databases",
+      "target": "assets_project_journey_stage_5_integrations_xml_json",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_databases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_architecture_choice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_integration_scenarios",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_xml_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_message_brokers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_uml_sequence_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_5_integrations_phase",
+      "target": "assets_project_journey_stage_5_integrations_rest_api_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/assets/project-journey-stage-5-integrations.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_project_journey_stage_2_conceptual_design_phase",
+      "target": "assets_project_journey_stage_3_functional_design_phase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/process/assets/project-journey-stage-2-conceptual-design.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_project_journey_stage_3_functional_design_phase",
+      "target": "assets_project_journey_stage_5_integrations_phase",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/process/assets/project-journey-stage-3-functional-design.png",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

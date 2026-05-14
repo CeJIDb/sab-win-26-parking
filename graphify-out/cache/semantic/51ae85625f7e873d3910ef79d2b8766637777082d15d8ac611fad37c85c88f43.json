@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "adr_003_modular_monolith",
+      "label": "ADR-003: \u041c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "concept_modular_monolith",
+      "label": "\u041c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 148",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_outbox_pattern",
+      "label": "Transactional Outbox Pattern",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_postgresql",
+      "label": "PostgreSQL (\u0435\u0434\u0438\u043d\u0430\u044f \u0411\u0414)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_lpr_skud",
+      "label": "\u0421\u041a\u0423\u0414 / LPR Adapter",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 123",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_dual_write",
+      "label": "Dual-write Problem",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_notification_worker",
+      "label": "Notification Worker (\u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_002_booking_vs_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 40",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_007_kafka_event_bus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 164",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_008_rabbitmq_notification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 164",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_modular_monolith",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 148",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_outbox_pattern",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_postgresql",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_lpr_skud",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 123",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_notification_worker",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_dual_write",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_outbox_pattern",
+      "target": "concept_dual_write",
+      "relation": "addresses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_modular_monolith",
+      "target": "concept_postgresql",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_modular_monolith",
+      "target": "concept_outbox_pattern",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_lpr_skud",
+      "target": "concept_access_control",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 127",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_notification_worker",
+      "target": "concept_notification_service",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": []
+}

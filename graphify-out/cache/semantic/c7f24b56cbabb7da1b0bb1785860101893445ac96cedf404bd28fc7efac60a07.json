@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "artifacts_assets_user_story_map_diagram",
+      "label": "User Story Map \u2014 \u043a\u0430\u0440\u0442\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_actor_driver",
+      "label": "User Actor: \u0412\u043e\u0434\u0438\u0442\u0435\u043b\u044c (Driver) \u2014 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top user row",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_actor_admin",
+      "label": "User Actor: \u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440 (Admin) \u2014 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u043e\u0439",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "bottom user row",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_registration",
+      "label": "User Journey: \u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0438 \u0432\u0445\u043e\u0434",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top-left journey block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_booking",
+      "label": "User Journey: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0435\u0441\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top-center journey block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_parking_session",
+      "label": "User Journey: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (\u0432\u044a\u0435\u0437\u0434/\u0432\u044b\u0435\u0437\u0434)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top-center-right journey block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_payment",
+      "label": "User Journey: \u041e\u043f\u043b\u0430\u0442\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top-right journey block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_subscription",
+      "label": "User Journey: \u0410\u0431\u043e\u043d\u0435\u043c\u0435\u043d\u0442 (subscription management)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "top-far-right journey block",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "artifacts_assets_user_story_map_admin_management",
+      "label": "Admin Journey: \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439 (admin panel)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "bottom journey rows",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "artifacts_assets_user_story_map_actor_driver",
+      "target": "artifacts_assets_user_story_map_registration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map column",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_actor_driver",
+      "target": "artifacts_assets_user_story_map_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map column",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_actor_driver",
+      "target": "artifacts_assets_user_story_map_parking_session",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map column",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_actor_driver",
+      "target": "artifacts_assets_user_story_map_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map column",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_actor_driver",
+      "target": "artifacts_assets_user_story_map_subscription",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map column",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_actor_admin",
+      "target": "artifacts_assets_user_story_map_admin_management",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": "story map bottom rows",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_assets_user_story_map_diagram",
+      "target": "artifacts_assets_context_diagram_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/assets/user-story-map.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

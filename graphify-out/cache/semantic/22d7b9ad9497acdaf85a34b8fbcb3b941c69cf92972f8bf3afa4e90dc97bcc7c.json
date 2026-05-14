@@ -1,0 +1,155 @@
+{
+  "nodes": [
+    {
+      "id": "openapi_uc12_access_check_swagger_ok_api",
+      "label": "OpenAPI UC-12.1 Access Check \u2014 Swagger OK view, POST /access/check endpoint",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_endpoint",
+      "label": "POST /access/check \u2014 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0422\u0421 \u043d\u0430 \u0432\u044a\u0435\u0437\u0434\u0435",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_request_schema",
+      "label": "Schema: AccessCheckRequest \u2014 licencePlate, checkpointId, direction, capturedAt, confidenceScore",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_response_schema",
+      "label": "Schema: AccessCheckResponse \u2014 accessDecision (GRANTED/DENIED), barrierCommand, admissionMethod, vehicleId, licencePlate, make",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_vehicle_info_schema",
+      "label": "Schema: VehicleInfo \u2014 vehicle information component",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_client_info_schema",
+      "label": "Schema: ClientInfo \u2014 client information component",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_booking_info_schema",
+      "label": "Schema: BookingInfo \u2014 booking information component",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc12_access_check_display_info_schema",
+      "label": "Schema: DisplayInfo \u2014 display information for barrier screen",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "openapi_uc12_access_check_endpoint",
+      "target": "openapi_uc12_access_check_request_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openapi_uc12_access_check_endpoint",
+      "target": "openapi_uc12_access_check_response_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openapi_uc12_access_check_response_schema",
+      "target": "openapi_uc12_access_check_vehicle_info_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openapi_uc12_access_check_response_schema",
+      "target": "openapi_uc12_access_check_client_info_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openapi_uc12_access_check_response_schema",
+      "target": "openapi_uc12_access_check_booking_info_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "openapi_uc12_access_check_response_schema",
+      "target": "openapi_uc12_access_check_display_info_schema",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

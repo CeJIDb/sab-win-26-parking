@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_32_integration_artifacts",
+      "label": "Артефакты интеграции: Use case, Функциональные требования, DFD, Маппинг данных, JSON-схема, UML Sequence, Регламент интеграции — набор артефактов для проектирования интеграций парковочной платформы",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/32.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_03_stakeholders",
+      "label": "Заказчик и ментор: Елена (представитель заказчика, владелец парковки) и Сергей (ментор проекта Парковки)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/03.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_13_opportunity_canvas",
+      "label": "Opportunity Canvas: ценность для пользователей (быстрый въезд/выезд, онлайн-договоры, аналитика), бизнес-метрики (рейтинг ≥4.5, пропускная способность ≥200 машин/час, простой <10%), пользовательские метрики",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/13.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_28_business_constraints",
+      "label": "Бизнес-ограничения: бюджет 10–15 млн руб., MVP за 4–6 месяцев, отсутствие DevOps в штате, нагрузка ~200 машин/час = 3–4 запроса/сек, доступность 99% аптайм (≤7 ч простоя/мес)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/28.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_38_integration_tech_stack",
+      "label": "Стек технологий для интеграций: REST API/HTTPS для всех внешних систем, OAuth 2.0/OpenID Connect для аутентификации (VK ID, Яндекс ID), REST API провайдера для ЭДО, REST API для ОФД, PostgreSQL для хранения данных, Backend без жёстких ограничений",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/38.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_45_challenges_kanban",
+      "label": "Сложности и вызовы: высокая плотность командных и соло-задач, невозможность старта новых задач до завершения текущих; решение — визуализация потока и контроль дедлайнов через Kanban-доску с закреплением ответственности за артефактами",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/45.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_39_rest_api_access_check",
+      "label": "REST API метод проверки права доступа: POST /api/v1/access/check — запрос от адаптера СКУД (типСобытия, регистрационныйЗнак, датаВремяСобытия, кппИд, полосаИд), ответ (решениеДопуска, корреляцияЗапроса); логика: поиск по рег. знаку → бронирование/договор → чёрный список → задолженность → решение",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/39.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_05_project_roadmap",
+      "label": "Путь проекта Demo Day 5: Этап 1–4 завершены (исследование, Opportunity Canvas, требования, архитектура); Этап 5 — DFD, регламенты взаимодействия, маппинг данных, интеграция UC и ФТ, UML Sequence, REST API, контракты, обработка ошибок, асинхронные уведомления (Outbox)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/05.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_50_team_contacts",
+      "label": "Команда проекта sab-win-26-parking: Павел Борунов, Марина Бугаевская, Александр Друзякин, Денис Салмин, Артём Субботин; репозиторий github.com/CeJIDb/sab-win-26-parking, макет интерфейса на Netlify",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/50.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_32_integration_artifacts",
+      "target": "slides_demo5_38_integration_tech_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/32.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_38_integration_tech_stack",
+      "target": "slides_demo5_39_rest_api_access_check",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/38.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_05_project_roadmap",
+      "target": "slides_demo5_32_integration_artifacts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/05.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_28_business_constraints",
+      "target": "slides_demo5_38_integration_tech_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/28.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_13_opportunity_canvas",
+      "target": "slides_demo5_28_business_constraints",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/13.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_03_stakeholders",
+      "target": "slides_demo5_05_project_roadmap",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/03.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_45_challenges_kanban",
+      "target": "slides_demo5_05_project_roadmap",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/45.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo5_50_team_contacts",
+      "target": "slides_demo5_03_stakeholders",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/50.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_39_rest_api_access_check",
+      "target": "slides_demo5_32_integration_artifacts",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/39.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 9800,
+  "output_tokens": 950
+}

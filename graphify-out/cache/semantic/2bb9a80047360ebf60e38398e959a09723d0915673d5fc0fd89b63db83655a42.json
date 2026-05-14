@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "adr_readme_index",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 ADR (docs/architecture/adr/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "adr_readme_index",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_002_booking_vs_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 23",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 27",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_004_dadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 31",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_005_access_control_db_read",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 35",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_006_facility_availability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_007_kafka_event_bus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 43",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_008_rabbitmq_notification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 47",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

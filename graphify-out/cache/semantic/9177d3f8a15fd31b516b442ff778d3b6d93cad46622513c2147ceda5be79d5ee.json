@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "openapi_uc10_6_receipt_swagger_error_api",
+      "label": "OpenAPI UC-10.6 Receipt \u2014 Swagger error view, GET /payments/{paymentId}/receipt",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-10-6-receipt-swagger-error.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc10_6_receipt_schema_receipt_response",
+      "label": "Schema: ReceiptResponse \u2014 receiptId, paymentId, fiscalNumber, receiptDateTime, fiscalizationStatus (PENDING/FISCALIZED/ERROR), amount, payment ref",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-10-6-receipt-swagger-error.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openapi_uc10_6_receipt_schema_payment_summary",
+      "label": "Schema: PaymentSummary \u2014 paymentId, amount, currency, paymentMethod (CARD_AT_TERMINAL/CARD_AT_GUARD/ONLINE_PERSONAL_ACCOUNT/AUTO_DEBIT), status, initiatedAt, paymentPurpose",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/openapi-uc-10-6-receipt-swagger-error.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

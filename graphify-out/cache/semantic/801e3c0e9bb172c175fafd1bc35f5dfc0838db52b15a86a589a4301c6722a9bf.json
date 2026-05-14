@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "hook_validate_plan_on_write",
+      "label": "Claude Hook: validate-plan-on-write.mjs \u2014 \u0432\u0430\u043b\u0438\u0434\u0430\u0446\u0438\u044f \u043f\u043b\u0430\u043d\u0430 \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hook_validate_plan_on_write",
+      "target": "validate_plans_script",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "line 41",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

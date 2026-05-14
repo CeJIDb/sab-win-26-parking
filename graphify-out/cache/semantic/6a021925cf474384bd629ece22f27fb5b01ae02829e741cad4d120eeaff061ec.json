@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "demo_days_readme_index",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 Demo Days",
+      "file_type": "document",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_days_demo3_stage",
+      "label": "Demo 3 \u2014 \u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_days_demo4_stage",
+      "label": "Demo 4 \u2014 \u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_days_demo5_stage",
+      "label": "Demo 5 \u2014 \u0424\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0434\u0435\u043c\u043e (\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_days_demo5_yukassa_ref",
+      "label": "\u042eKassa JSON-\u043a\u043e\u043d\u0442\u0440\u0430\u043a\u0442\u044b \u0438 OpenAPI (Demo 5)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "demo_days_demo5_nfr_log",
+      "label": "NFR-LOG-* \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e (Demo 5)",
+      "file_type": "concept",
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_days_readme_index",
+      "target": "demo_days_demo1_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_readme_index",
+      "target": "demo_days_demo2_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 18",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_readme_index",
+      "target": "demo_days_demo3_stage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_readme_index",
+      "target": "demo_days_demo4_stage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 20",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_readme_index",
+      "target": "demo_days_demo5_stage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_demo5_stage",
+      "target": "demo_days_demo5_yukassa_ref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_demo5_stage",
+      "target": "demo_days_demo5_nfr_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_days_demo4_stage",
+      "target": "specs_nfr_requirements",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 20",
+      "weight": 0.8
+    },
+    {
+      "source": "demo_days_demo3_stage",
+      "target": "specs_fr_requirements",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/readme.md",
+      "source_location": "line 19",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo3_03_research_results",
+      "label": "Результаты исследования: 8 интервью с владельцем парковки выявили ключевые проблемы — 30% мест простаивает, 80% времени охранников на рутине, 0% удобного онлайн-доступа для клиентов, ручные операции везде",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/03.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_05_event_storming_tobe",
+      "label": "Event Storming To-Be: основной поток — от прибытия ТС до выезда: поиск ТС по ГРЗ, проверка ПС и тарифа, расчет суммы платежей, проверка дельты задолженности, дисплей выезда или доплата через платежный сервис",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/05.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_13_use_case_diagram",
+      "label": "Use Case диаграмма и Реестр UC — раздел презентации Demo Day 3, посвященный диаграмме вариантов использования и реестру UC парковочной платформы",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/13.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_24_prototype_link",
+      "label": "Ссылка на макет (прототип) парковочной платформы: https://boisterous-heliotrope-94df12.netlify.app/ — раздел схемы навигации экранов и макетов",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/24.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_28_data_model_results",
+      "label": "Результаты концептуальной модели данных: 1) разделение клиентских потоков — онлайн-интерфейс снимает нагрузку с охранников; 2) контекстный ЛК клиента — 80% операций в онлайн; 3) ясные бизнес-понятия — гибкое управление тарифами; 4) единый язык — словарь данных для бизнеса и разработки",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/28.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_32_nfr_constraints_section",
+      "label": "Раздел: Требования к внешнему качеству и Ограничения — заголовочный слайд секции NFR и ограничений функциональных требований парковочной платформы",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/32.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_33_nfr_details",
+      "label": "Требования к внешнему качеству ПО: до 10 000 зарегистрированных / 500 одновременных пользователей; 5000 запросов/день на поиск мест; 1000 бронирований/день; пропускная способность — 600 активных пользователей; доступность 99% (6:00-23:00); соответствие 152-ФЗ",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/33.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_35_challenges",
+      "label": "Сложности и вызовы этапа: увязка To-Be процессов с физическим оборудованием (КПП, СКУД); зависимость от интеграций (платежи, уведомления); неоднозначность ФЛ/ЮЛ и краткосрочных/долгосрочных договоров; качество данных (ГРЗ, договоры, статусы оплаты)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/35.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_36_conclusion",
+      "label": "Заключение Demo Day 3: зафиксирована целевая картина To-Be процессов, определены границы платформы, ключевые сценарии, UX-контур, модель данных и требования; подготовлена основа для детальной проработки решения",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/36.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo3_03_research_results",
+      "target": "slides_demo3_05_event_storming_tobe",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/03.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_05_event_storming_tobe",
+      "target": "slides_demo3_13_use_case_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/05.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_13_use_case_diagram",
+      "target": "slides_demo3_28_data_model_results",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/13.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_28_data_model_results",
+      "target": "slides_demo3_24_prototype_link",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/28.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo3_32_nfr_constraints_section",
+      "target": "slides_demo3_33_nfr_details",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/32.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_33_nfr_details",
+      "target": "slides_demo3_35_challenges",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/33.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo3_35_challenges",
+      "target": "slides_demo3_36_conclusion",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/35.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_36_conclusion",
+      "target": "slides_demo3_05_event_storming_tobe",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/36.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo3_03_research_results",
+      "target": "slides_demo3_36_conclusion",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/03.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

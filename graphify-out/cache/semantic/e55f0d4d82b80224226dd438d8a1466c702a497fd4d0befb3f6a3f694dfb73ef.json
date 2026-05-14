@@ -1,0 +1,713 @@
+{
+  "nodes": [
+    {
+      "id": "sql_erd_normalized",
+      "label": "PostgreSQL DDL \u2014 \u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430 \u0411\u0414 (\u0432\u0441\u0435 \u0441\u0445\u0435\u043c\u044b)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_clients",
+      "label": "DB Table: client.clients",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 153",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_parkings",
+      "label": "DB Table: facility.parkings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 167",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_sectors",
+      "label": "DB Table: facility.sectors",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 193",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_parking_places",
+      "label": "DB Table: facility.parking_places",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 244",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_access_points",
+      "label": "DB Table: facility.access_points (\u041a\u041f\u041f)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 210",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_bookings",
+      "label": "DB Table: booking.bookings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 453",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_parking_sessions",
+      "label": "DB Table: session.parking_sessions",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 518",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_invoices",
+      "label": "DB Table: payment.invoices",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 484",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_payments",
+      "label": "DB Table: payment.payments",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 528",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_contracts",
+      "label": "DB Table: contract.contracts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 430",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_tariffs",
+      "label": "DB Table: tariff.tariffs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 221",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_vehicles",
+      "label": "DB Table: client.vehicles",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 393",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_employees",
+      "label": "DB Table: employee.employees",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 369",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_notifications",
+      "label": "DB Table: notification.notifications",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 592",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_debts",
+      "label": "DB Table: payment.debts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 566",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_appeals",
+      "label": "DB Table: support.appeals",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 609",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_access_logs",
+      "label": "DB Table: report.access_logs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 627",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_outbox_events",
+      "label": "DB Table: shared.outbox_events (transactional outbox)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 107",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_client_accounts",
+      "label": "DB Table: auth.client_accounts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 255",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_receipts",
+      "label": "DB Table: payment.receipts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 542",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sql_table_refunds",
+      "label": "DB Table: payment.refunds",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 553",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_db_schema_facility",
+      "label": "DB Schema: facility \u2014 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438, \u0441\u0435\u043a\u0442\u043e\u0440\u0430, \u043c\u0435\u0441\u0442\u0430, \u041a\u041f\u041f",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_db_schema_payment",
+      "label": "DB Schema: payment \u2014 \u0441\u0447\u0435\u0442\u0430, \u043f\u043b\u0430\u0442\u0435\u0436\u0438, \u0447\u0435\u043a\u0438, \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u044b, \u0434\u043e\u043b\u0433\u0438",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_db_schema_client",
+      "label": "DB Schema: client \u2014 \u043a\u043b\u0438\u0435\u043d\u0442\u044b, \u0422\u0421, \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438, \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_db_schema_auth",
+      "label": "DB Schema: auth \u2014 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u0438 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 18",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 153",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_parkings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 167",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_sectors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 193",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_parking_places",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 244",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_access_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 210",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_bookings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 453",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_parking_sessions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 518",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_invoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 484",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_payments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 528",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_contracts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 430",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_tariffs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 221",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_vehicles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 393",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_employees",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 369",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_notifications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 592",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_debts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 566",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_appeals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 609",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_access_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 627",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_outbox_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 107",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_client_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 255",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_receipts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 542",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_erd_normalized",
+      "target": "sql_table_refunds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 553",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_sectors",
+      "target": "sql_table_parkings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 196",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_parking_places",
+      "target": "sql_table_sectors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 246",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_access_points",
+      "target": "sql_table_parkings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 212",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_bookings",
+      "target": "sql_table_tariffs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 458",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_bookings",
+      "target": "sql_table_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 457",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_parking_sessions",
+      "target": "sql_table_bookings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 521",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_invoices",
+      "target": "sql_table_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 486",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_payments",
+      "target": "sql_table_invoices",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 530",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_receipts",
+      "target": "sql_table_payments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 544",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_refunds",
+      "target": "sql_table_payments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 555",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_debts",
+      "target": "sql_table_invoices",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 568",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_contracts",
+      "target": "sql_table_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 432",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_vehicles",
+      "target": "sql_table_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 395",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_client_accounts",
+      "target": "sql_table_clients",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 258",
+      "weight": 0.9
+    },
+    {
+      "source": "sql_table_notifications",
+      "target": "sql_table_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 595",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_appeals",
+      "target": "sql_table_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 611",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_access_logs",
+      "target": "sql_table_access_points",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 629",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_parkings",
+      "target": "concept_db_schema_facility",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 15",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_payments",
+      "target": "concept_db_schema_payment",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 23",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_clients",
+      "target": "concept_db_schema_client",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "sql_table_client_accounts",
+      "target": "concept_db_schema_auth",
+      "relation": "part_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql",
+      "source_location": "line 18",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

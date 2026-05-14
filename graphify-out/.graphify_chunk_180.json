@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_31_technical_design_integrations",
+      "label": "Этап 5. Техническое проектирование решения. Интеграции — карта артефактов: Базы данных, Выбор архитектуры ПО → Сценарии интеграции → UML Sequence Diagram, XML/JSON, REST API, Kafka и RabbitMQ",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/31.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_22_client_cabinet_navigation",
+      "label": "Схема навигации экранов. Личный кабинет клиента — ЛК клиента → Оплата, Парковочные сессии, Договоры → Бронирование, Уведомления, Профиль",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/22.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_34_data_flow_diagram",
+      "label": "Data Flow Diagram — концептуальный уровень: СКУД создаёт событие въезда → Адаптер СКУД → Access Control Service → Booking Service → Payment Service → Payment Adapter → Внешняя Платёжная система",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/34.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_21_risk_analysis_unauthorized_access",
+      "label": "Анализ рисков и основной риск — несанкционированный доступ к системе и данным: слабые пароли, отсутствие 2FA, компрометация SSO-токенов, ошибки ролевой модели, недостаточные проверки прав на сервере",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/21.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_25_domain_decomposition",
+      "label": "Доменная декомпозиция — Core: Бронирование, Доступ, Парковочная сессия, Тариф, Расчёт стоимости; Supporting: Клиент, Договор, Оплата, Инфраструктура парковки, Обращение, Сотрудник, Адаптер СКУД, Адаптер табло; Generic: Уведомление, Отчёт",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/25.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_49_challenges_github_repository",
+      "label": "Сложности и вызовы — большой объём артефактов, синхронизация и совместный доступ команды; решение: единый репозиторий на GitHub (https://github.com/CeJIDb/sab-win-26-parking)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/49.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_40_error_registry_payment_sso",
+      "label": "Реестр ошибок (оплата и SSO) — структура записи: код ошибки, тип, причина, контекст Use Case, рекомендации, критичность, уровень автоматизации; примеры PAY-005 (идемпотентность webhook), PAY-006 (расхождение суммы провайдера); итого Оплата: 25, SSO: 22 ошибки",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/40.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_37_data_transfer_regulations",
+      "label": "Регламент передачи данных — таблица: система-источник, система-приёмник, передаваемые данные, объём, периодичность/событие, протокол; пример: ЛК/PWA → Платформа парковки (запрос онлайн-оплаты по событию), Платёжный сервис → Платёжный провайдер",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/37.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_16_functional_design_stage3",
+      "label": "Этап 3. Функциональное проектирование решения — карта артефактов: Проектирование интерфейсов, Моделирование использования/UML Use Case Diagram → Use Cases → Канонические функциональные требования к ПО → Словарь данных, Описание алгоритмов; Требования к внешнему качеству",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/16.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артём",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_16_functional_design_stage3",
+      "target": "slides_demo5_31_technical_design_integrations",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/16.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_31_technical_design_integrations",
+      "target": "slides_demo5_34_data_flow_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/31.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_31_technical_design_integrations",
+      "target": "slides_demo5_37_data_transfer_regulations",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/31.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_25_domain_decomposition",
+      "target": "slides_demo5_34_data_flow_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/25.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_22_client_cabinet_navigation",
+      "target": "slides_demo5_37_data_transfer_regulations",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/22.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_40_error_registry_payment_sso",
+      "target": "slides_demo5_34_data_flow_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/40.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_21_risk_analysis_unauthorized_access",
+      "target": "slides_demo5_25_domain_decomposition",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/21.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo5_49_challenges_github_repository",
+      "target": "slides_demo5_31_technical_design_integrations",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/49.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 9800,
+  "output_tokens": 820
+}

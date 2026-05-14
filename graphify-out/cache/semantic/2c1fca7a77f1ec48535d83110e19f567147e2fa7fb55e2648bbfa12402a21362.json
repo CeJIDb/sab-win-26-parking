@@ -1,0 +1,885 @@
+{
+  "nodes": [
+    {
+      "id": "ddd_bounded_contexts",
+      "label": "DDD Bounded Contexts \u0418\u0421 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_access",
+      "label": "Bounded Context: \u0414\u043e\u0441\u0442\u0443\u043f (Access)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "1. \u0414\u043e\u0441\u0442\u0443\u043f",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_booking",
+      "label": "Bounded Context: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 (Booking)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "2. \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_session",
+      "label": "Bounded Context: \u0421\u0435\u0441\u0441\u0438\u044f (Session)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "3. \u0421\u0435\u0441\u0441\u0438\u044f",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_tariff",
+      "label": "Bounded Context: \u0422\u0430\u0440\u0438\u0444 (Tariff)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "4. \u0422\u0430\u0440\u0438\u0444",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_calculation",
+      "label": "Bounded Context: \u0420\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 (Calculation)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "5. \u0420\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_payment",
+      "label": "Bounded Context: \u041f\u043b\u0430\u0442\u0435\u0436 (Payment)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "6. \u041f\u043b\u0430\u0442\u0435\u0436",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_contract",
+      "label": "Bounded Context: \u0414\u043e\u0433\u043e\u0432\u043e\u0440 (Contract)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "7. \u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_customer",
+      "label": "Bounded Context: \u041a\u043b\u0438\u0435\u043d\u0442 (Customer)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "8. \u041a\u043b\u0438\u0435\u043d\u0442",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_facility",
+      "label": "Bounded Context: \u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 (Facility)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "9. \u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_notification",
+      "label": "Bounded Context: \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435 (Notification)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "10. \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_support",
+      "label": "Bounded Context: \u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435 (Support)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "11. \u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_employee",
+      "label": "Bounded Context: \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a (Employee)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "12. \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_analytics",
+      "label": "Bounded Context: \u041e\u0442\u0447\u0435\u0442 (Analytics)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "13. \u041e\u0442\u0447\u0435\u0442",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_skud_adapter",
+      "label": "Bounded Context: \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0421\u041a\u0423\u0414 (SkudAdapter)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "14. \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0421\u041a\u0423\u0414",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_display_adapter",
+      "label": "Bounded Context: \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u0432 \u0438 \u0442\u0430\u0431\u043b\u043e (DisplayAdapter)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "15. \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u0432 \u0438 \u0442\u0430\u0431\u043b\u043e",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_application_service",
+      "label": "\u0421\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u2014 \u0441\u043b\u043e\u0439 \u043e\u0440\u043a\u0435\u0441\u0442\u0440\u0430\u0446\u0438\u0438 use case (\u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f bounded context)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 525",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ddd_bc_context_map",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 DDD \u2014 \u0433\u0440\u0430\u0444 upstream/downstream \u043c\u0435\u0436\u0434\u0443 bounded contexts",
+      "file_type": "concept",
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 133",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_access",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_booking",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_session",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_tariff",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_calculation",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_payment",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_contract",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_customer",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_facility",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_notification",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_support",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_employee",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_analytics",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_skud_adapter",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_display_adapter",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 bounded contexts",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_booking",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 INF \u2192 BOOK",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_session",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 INF \u2192 SES",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_calculation",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 INF \u2192 CALC",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_access",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 INF \u2192 ACC",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_display_adapter",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 INF \u2192 DISP",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_tariff",
+      "target": "ddd_bc_calculation",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 TAR \u2192 CALC",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_calculation",
+      "target": "ddd_bc_payment",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 CALC \u2192 PAY",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_booking",
+      "target": "ddd_bc_session",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 BOOK \u2192 SES",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_booking",
+      "target": "ddd_bc_access",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 BOOK \u2192 ACC",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_access",
+      "target": "ddd_bc_skud_adapter",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 ACC \u2192 SKUD",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_skud_adapter",
+      "target": "ddd_bc_access",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 SKUD \u2192 ACC (\u0434\u0432\u0443\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u044f\u044f)",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_contract",
+      "target": "ddd_bc_booking",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 CON \u2192 BOOK",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_session",
+      "target": "ddd_bc_payment",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 SES \u2192 PAY",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_customer",
+      "target": "ddd_bc_booking",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 CLI \u2192 BOOK",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_payment",
+      "target": "ddd_bc_notification",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430 \u2014 PAY \u2192 NOT",
+      "weight": 0.8
+    },
+    {
+      "source": "ddd_bc_customer",
+      "target": "erd_entity_client",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Customer \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u043a\u043b\u0438\u0435\u043d\u0442, \u0422\u0421, \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_booking",
+      "target": "erd_entity_booking",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Booking \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_payment",
+      "target": "erd_entity_payment",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Payment \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u043f\u043b\u0430\u0442\u0435\u0436, \u0447\u0435\u043a",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_payment",
+      "target": "erd_entity_receipt",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Payment \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u0447\u0435\u043a",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_session",
+      "target": "erd_entity_parking_session",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Session \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_tariff",
+      "target": "erd_entity_tariff",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Tariff \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u0442\u0430\u0440\u0438\u0444",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_notification",
+      "target": "erd_entity_notification",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Notification \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_support",
+      "target": "erd_entity_appeal",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Support \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_employee",
+      "target": "erd_entity_employee",
+      "relation": "owns",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "\u041c\u0430\u0442\u0440\u0438\u0446\u0430 \u2014 Employee \u0432\u043b\u0430\u0434\u0435\u0435\u0442 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_access",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_tariff",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_calculation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_payment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_customer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_facility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_notification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_support",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_employee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_analytics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_skud_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_display_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 93",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_context_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 133",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "ddd_bc_application_service",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 525",
+      "weight": 1.0
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_booking",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 139",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_facility",
+      "target": "ddd_bc_calculation",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 143",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_tariff",
+      "target": "ddd_bc_calculation",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 157",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_calculation",
+      "target": "ddd_bc_payment",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 174",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_booking",
+      "target": "ddd_bc_session",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 159",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_session",
+      "target": "ddd_bc_payment",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 167",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_access",
+      "target": "ddd_bc_skud_adapter",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 184",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_skud_adapter",
+      "target": "ddd_bc_access",
+      "relation": "upstream_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 185",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bounded_contexts",
+      "target": "c4_diagrams",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 614",
+      "weight": 0.8
+    },
+    {
+      "source": "ddd_bc_payment",
+      "target": "c4_l3_payment_adapter",
+      "relation": "implemented_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 329",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_skud_adapter",
+      "target": "c4_l3_skud_lpr_adapter",
+      "relation": "implemented_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 106",
+      "weight": 0.9
+    },
+    {
+      "source": "ddd_bc_display_adapter",
+      "target": "c4_l3_display_adapter",
+      "relation": "implemented_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/ddd/ddd-bounded-contexts.md",
+      "source_location": "line 107",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

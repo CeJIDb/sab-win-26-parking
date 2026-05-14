@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_diagram",
+      "label": "ES TO-BE SD: Предоставление парковочного места и проверка права доступа (диаграмма)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "label": "Событие СКУД: попытка въезда",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_command_find_vehicle_by_grz",
+      "label": "Команда: Найти ТС по ГРЗ",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_aggregate_vehicle",
+      "label": "Агрегат: ТС (транспортное средство)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_condition_vehicle_not_found",
+      "label": "Условие: Если ТС не найдено",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_auto_booking_created",
+      "label": "Подпроцесс: Создание автоматического бронирования",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_session",
+      "label": "Агрегат: Парковочная сессия (ПС)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_ps_created",
+      "label": "Событие: ПС создана",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_place",
+      "label": "Агрегат: ПМ (парковочное место)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_ps_status_changed",
+      "label": "Событие: Статус ПС изменен",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_display_entry",
+      "label": "Внешняя система: Дисплей въезда",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_display_exit",
+      "label": "Внешняя система: Дисплей выезда",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_external_skud",
+      "label": "Внешняя система: СКУД",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "label": "Событие СКУД: попытка выезда",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_command_find_active_session",
+      "label": "Команда: Найти активную ПС по ГРЗ",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_condition_debt_check",
+      "label": "Условие: Если долг > 0",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_subprocess_payment",
+      "label": "Подпроцесс: Оплата",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_session_completed",
+      "label": "Событие: ТС выехало / сессия завершена",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_event_place_freed",
+      "label": "Событие: Место освобождено / обновление витрин доступности",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_subprocess_client_profile",
+      "label": "Подпроцесс: Управление профилем клиента и списком ТС",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_subprocess_short_booking",
+      "label": "Подпроцесс: Создание краткосрочного бронирования",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_subprocess_long_booking",
+      "label": "Подпроцесс: Создание долгосрочного бронирования и заключение договора",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_flow_entry_main",
+      "label": "Поток: Въезд — основной сценарий (идентификация ТС по ГРЗ -> право допуска -> сессия)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_es_tobe_sd_access_and_parking_flow_flow_exit_main",
+      "label": "Поток: Выезд — основной сценарий (поиск сессии -> проверка долга -> оплата -> открытие шлагбаума -> завершение учета)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_diagram",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_diagram",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_command_find_vehicle_by_grz",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_command_find_vehicle_by_grz",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_aggregate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_aggregate_vehicle",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_condition_vehicle_not_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_aggregate_vehicle",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_auto_booking_created",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_event_auto_booking_created",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_session",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_session",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_ps_created",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_event_ps_created",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_place",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_aggregate_parking_place",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_ps_status_changed",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_external_skud",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_external_skud",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_command_find_active_session",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_command_find_active_session",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_condition_debt_check",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_condition_debt_check",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_subprocess_payment",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_subprocess_payment",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_session_completed",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_event_session_completed",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_place_freed",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_display_entry",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_display_exit",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_subprocess_client_profile",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_aggregate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_subprocess_short_booking",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_auto_booking_created",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_subprocess_long_booking",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_subprocess_short_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_flow_entry_main",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_entry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_flow_exit_main",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_event_skud_exit",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_diagram",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_flow_entry_main",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_es_tobe_sd_access_and_parking_flow_diagram",
+      "target": "assets_es_tobe_sd_access_and_parking_flow_flow_exit_main",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1800,
+  "output_tokens": 950
+}

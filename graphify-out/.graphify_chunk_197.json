@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_01_title_five_whys",
+      "label": "Demo Day 5: Автоматизация частного паркинга — Five Whys: от проблем к решению (заключительное представление проекта)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/01.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_10_conceptual_design",
+      "label": "Этап 2. Концептуальное проектирование решения: контекстная диаграмма → концепции ИТ-решения → User Story и Job Story → User Story Map; формулирование целей и ограничений → разработка требований к качеству пользовательских интерфейсов",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/10.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_14_user_story_map_mvp",
+      "label": "User Story Map. Граница MVP: Клиентское самообслуживание (тарифы, регистрация, профиль, ТС, уведомления), Оформление услуги (бронирование, оплата, договор ФЛ), Операционное управление (схема, статусы мест, настройка условий), Допуск на парковку (идентификация, въезд-выезд) — в MVP; Аналитика — после MVP",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/14.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_15_context_diagram_integrations",
+      "label": "Контекстная диаграмма. Граница системы и ключевые интеграции: Цифровая платформа парковки (клиентский фронтенд, фронтенд сотрудников, бэкенд) интегрируется с СКУД с LPR (номер ТС, решение о допуске), Платежный шлюз/терминал/ОФД (оплата, чек), Табло и дисплеи (инф. сообщения), Сервис уведомлений (уведомления)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/15.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_20_nfr_external_quality",
+      "label": "НФТ внешнего качества (5 групп): 1) Производительность — поддержка 600 активных пользователей одновременно; 2) Масштабируемость — наращивание вычислительной мощности; 3) Надежность — время безотказной работы 95% в месяц; 4) Доступность — 99% в рабочие часы 6:00–23:00; 5) Информационная безопасность — шифрование данных и HTTPS",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/20.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_24_technical_design_architecture",
+      "label": "Этап 4. Техническое проектирование решения. Архитектура: Базы данных + Выбор архитектуры ПО → Сценарии интеграции → XML/JSON → Брокеры сообщений Kafka и RabbitMQ; Сценарии интеграции → UML Sequence Diagram → Проектирование REST API → Брокеры сообщений",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/24.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_33_use_case_ft_integration",
+      "label": "Use Case интеграции и ФТ интеграции: UC-10.2-1 Оплатить онлайн (краткосрочная аренда) — система создает платеж, передает в платежную систему запрос с суммой, ID сессии, callbackURL, данными клиента, перенаправляет пользователя; ФТ INT-004 Платеж.ЗапросАктуальногоСтатуса.ПлатежныйПровайдер — запрос актуального статуса операции по расписанию",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_35_mapping_json_integration",
+      "label": "Маппинг и JSON в интеграции: таблица маппинга атрибутов между модулем Оплата и ЮKassa (payments.amount_minor BIGINT → Payment.amount.value string, payments.currency CHAR(3) → Payment.amount.currency, clients ФИО → Payment.receipt.customer.full_name); маппинг — однозначное понимание данных между системами; JSON — формат физической передачи данных",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/35.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_36_uml_sequence_payment",
+      "label": "UML Sequence Diagram: основной поток UC-10.2-1 Обработка оплаты парковочной сессии — Клиент → Система (создает платеж, обновляет сессию, перенаправляет на оплату) → Платежная система (callback) → ОФД (чек) → Модуль уведомлений → Сервис уведомлений (СМС/Email/Push); система создает платеж с callbackURL, платежная система возвращает ответ на callback",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/36.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_01_title_five_whys",
+      "target": "slides_demo5_10_conceptual_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_10_conceptual_design",
+      "target": "slides_demo5_14_user_story_map_mvp",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/10.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_14_user_story_map_mvp",
+      "target": "slides_demo5_15_context_diagram_integrations",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/14.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_15_context_diagram_integrations",
+      "target": "slides_demo5_20_nfr_external_quality",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/15.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_20_nfr_external_quality",
+      "target": "slides_demo5_24_technical_design_architecture",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/20.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_24_technical_design_architecture",
+      "target": "slides_demo5_33_use_case_ft_integration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/24.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_33_use_case_ft_integration",
+      "target": "slides_demo5_35_mapping_json_integration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_35_mapping_json_integration",
+      "target": "slides_demo5_36_uml_sequence_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/35.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_15_context_diagram_integrations",
+      "target": "slides_demo5_36_uml_sequence_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/15.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_33_use_case_ft_integration",
+      "target": "slides_demo5_36_uml_sequence_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/33.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

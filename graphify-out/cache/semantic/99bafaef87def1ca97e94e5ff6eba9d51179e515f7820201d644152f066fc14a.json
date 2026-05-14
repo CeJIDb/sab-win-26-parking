@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "specs_readme_specs_index",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0441\u043f\u0435\u0446\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0439 (docs/specs/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/specs/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_fr_requirements",
+      "label": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f FR-*",
+      "file_type": "concept",
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_nfr_requirements",
+      "label": "\u041d\u0435\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f NFR-*",
+      "file_type": "concept",
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_constr_requirements",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f CONSTR-*",
+      "file_type": "concept",
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_int_requirements",
+      "label": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f INT-*",
+      "file_type": "concept",
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_dev_tasks",
+      "label": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0437\u0430\u0434\u0430\u0447 \u043d\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0443",
+      "file_type": "concept",
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_fr_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_nfr_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 8",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_constr_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 9",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_int_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 10",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_dev_tasks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 11",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_fr_readme_fr_index",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_readme_specs_index",
+      "target": "specs_nfr_readme_nfr_index",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/specs/readme.md",
+      "source_location": "line 8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

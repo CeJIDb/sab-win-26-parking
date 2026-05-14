@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo2_14_business_metrics",
+      "label": "\u0411\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043c\u0435\u0442\u0440\u0438\u043a\u0438: \u0440\u0435\u0439\u0442\u0438\u043d\u0433 \u22654.5 \u043d\u0430 Yandex/2\u0413\u0418\u0421, \u043e\u043d\u043b\u0430\u0439\u043d-\u043a\u043b\u0438\u0435\u043d\u0442\u044b >80% \u0437\u0430 6 \u043c\u0435\u0441., \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u043d\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u2265200 \u0430\u0432\u0442\u043e/\u0447\u0430\u0441, \u043f\u0440\u043e\u0441\u0442\u043e\u0439 \u043c\u0435\u0441\u0442 <10%",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-2/slides/14.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041c\u0430\u0440\u0438\u043d\u0430",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo2_14_business_metrics",
+      "target": "slides_demo2_10_opportunity_canvas_solution_ideas",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-2/slides/14.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

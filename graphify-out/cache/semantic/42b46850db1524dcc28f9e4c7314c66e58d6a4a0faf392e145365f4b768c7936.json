@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_46_team_challenges_retrospective",
+      "label": "\u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: \u0440\u0430\u0437\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u044b, \u0440\u0430\u0437\u043d\u044b\u0439 \u0442\u0435\u043c\u043f \u0438 \u0431\u044d\u043a\u0433\u0440\u0430\u0443\u043d\u0434 \u2014 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0447\u0435\u0440\u0435\u0437 \u0440\u0435\u0442\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b, \u043e\u0431\u0440\u0430\u0442\u043d\u0443\u044e \u0441\u0432\u044f\u0437\u044c \u0438 \u0440\u0435\u0444\u043b\u0435\u043a\u0441\u0438\u044e \u043f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043a\u043b\u0438\u043c\u0430\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/46.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_46_team_challenges_retrospective",
+      "target": "slides_demo5_47_whisper_stt_transcription",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/46.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

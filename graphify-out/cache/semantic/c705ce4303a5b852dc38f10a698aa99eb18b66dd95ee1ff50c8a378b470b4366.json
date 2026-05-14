@@ -1,0 +1,792 @@
+{
+  "nodes": [
+    {
+      "id": "assets_drakon_parking_payment_silhouette_diagram",
+      "label": "DRAKON Silhouette: Parking Payment Algorithm",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "label": "Branch: \u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u0438 \u0440\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 (Prepare and calculate cost)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_client_consent",
+      "label": "Branch: \u0421\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u0430 (Client consent)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_payment_method_selection",
+      "label": "Branch: \u0412\u044b\u0431\u043e\u0440 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (Payment method selection)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "label": "Branch: \u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (Payment attempt)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_result_processing",
+      "label": "Branch: \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430 (Result processing)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_branch_completion",
+      "label": "Branch: \u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 (Completion)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_get_session_data",
+      "label": "Step: \u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0434\u0430\u043d\u043d\u044b\u0435 \u0441\u0435\u0441\u0441\u0438\u0438 (Get session data)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_calc_duration",
+      "label": "Step: \u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c \u0432\u0440\u0435\u043c\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f / \u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c (Calculate duration)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_calc_tariff",
+      "label": "Step: \u041e\u043a\u0440\u0443\u0433\u043b\u0438\u0442\u044c \u0434\u043e \u0442\u0430\u0440\u0438\u0444\u043d\u043e\u0433\u043e \u0448\u0430\u0433\u0430 / \u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u0431\u0430\u0437\u043e\u0432\u0443\u044e \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c (Calculate tariff cost)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_discount",
+      "label": "Decision: \u0415\u0441\u0442\u044c \u0441\u043a\u0438\u0434\u043a\u0430? (Is there a discount?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_apply_discount",
+      "label": "Step: \u0418\u0442\u043e\u0433\u043e\u0432\u0430\u044f = \u0431\u0430\u0437\u043e\u0432\u0430\u044f - \u0441\u043a\u0438\u0434\u043a\u0430 (Apply discount)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_show_amount",
+      "label": "Step: \u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0438\u0442\u043e\u0433\u043e\u0432\u0443\u044e \u0441\u0443\u043c\u043c\u0443 \u0432 \u0434\u0438\u0430\u043b\u043e\u0433\u0435 (Show total amount in dialog)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_client_consent",
+      "label": "Decision: \u0418\u043c\u0435\u0435\u0442 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u0430? (Has client consent?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_payment_method_selected",
+      "label": "Decision: \u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b \u0443\u0436\u0435 \u0432\u044b\u0431\u0440\u0430\u043d? (Payment method already selected?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_propose_method",
+      "label": "Step: \u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b (Propose payment method selection)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_online_or_nfc",
+      "label": "Decision: \u041e\u043d\u043b\u0430\u0439\u043d / NFC? (Online or NFC payment?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_send_to_payment_gate",
+      "label": "Step: \u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u0432 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439 \u0448\u043b\u044e\u0437 (Send request to payment gateway)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_get_token",
+      "label": "Step: \u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0442\u043e\u043a\u0435\u043d \u0448\u043b\u044e\u0437\u0430 (Get gateway token)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_nfc_payment",
+      "label": "Step: \u041e\u043f\u043b\u0430\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 NFC (NFC payment)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_ntp_timeout",
+      "label": "Decision: \u0422\u0430\u0439\u043c\u0430\u0443\u0442 \u0443 NTP \u043d\u0435 \u0432\u044b\u0448\u0435\u043b? (NTP timeout not expired?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_get_payment_result",
+      "label": "Step: \u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043a\u043e\u0434 \u043e\u0442\u0432\u0435\u0442\u0430 (Get response code / payment result)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_payment_status",
+      "label": "Decision: \u0421\u0442\u0430\u0442\u0443\u0441 = \u0443\u0441\u043f\u0435\u0445? (Status = success?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_register_success",
+      "label": "Step: \u0417\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 (Register successful result)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_register_failure",
+      "label": "Step: \u0417\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 '\u043d\u0435 \u043e\u043f\u043b\u0430\u0447\u0435\u043d\u043e' + \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 + \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043f\u043e\u043f\u044b\u0442\u043a\u0443 (Register failed result + add attempt)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_decision_retry",
+      "label": "Decision: \u041f\u0440\u0438\u0447\u0438\u043d\u0430 = \u0432\u0438\u043d\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u0430? / \u0415\u0449\u0451 \u043f\u043e\u043f\u044b\u0442\u043a\u0438? (Client fault? / Retries left?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_change_method",
+      "label": "Step: \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b / \u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u0432 \u0412\u044b\u0431\u043e\u0440 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u043e\u043f\u043b\u0430\u0442\u044b (Change payment method)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_leave_session_open",
+      "label": "Step: \u041e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0442\u0435\u043a\u0443\u0449\u0438\u0439 \u0441\u0447\u0435\u0442 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u043c (Leave current session open)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_step_end",
+      "label": "Step: \u041a\u043e\u043d\u0435\u0446 / \u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 (End)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_payment_gateway",
+      "label": "Concept: \u041f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0439 \u0448\u043b\u044e\u0437 (Payment gateway)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_nfc",
+      "label": "Concept: NFC \u043e\u043f\u043b\u0430\u0442\u0430 (NFC payment)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_tariff",
+      "label": "Concept: \u0422\u0430\u0440\u0438\u0444 / \u0422\u0430\u0440\u0438\u0444\u043d\u044b\u0439 \u0448\u0430\u0433 (Tariff / Tariff step)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_discount",
+      "label": "Concept: \u0421\u043a\u0438\u0434\u043a\u0430 (Discount)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_session",
+      "label": "Concept: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f (Parking session)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_drakon_parking_payment_silhouette_concept_ntp_timeout",
+      "label": "Concept: \u0422\u0430\u0439\u043c\u0430\u0443\u0442 NTP (NTP timeout for payment confirmation)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_client_consent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_payment_method_selection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_result_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_diagram",
+      "target": "assets_drakon_parking_payment_silhouette_branch_completion",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_step_get_session_data",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_step_calc_duration",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_step_calc_tariff",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_decision_discount",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_discount",
+      "target": "assets_drakon_parking_payment_silhouette_step_apply_discount",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_step_show_amount",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_client_consent",
+      "target": "assets_drakon_parking_payment_silhouette_decision_client_consent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_method_selection",
+      "target": "assets_drakon_parking_payment_silhouette_decision_payment_method_selected",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_payment_method_selected",
+      "target": "assets_drakon_parking_payment_silhouette_step_propose_method",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "target": "assets_drakon_parking_payment_silhouette_decision_online_or_nfc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_online_or_nfc",
+      "target": "assets_drakon_parking_payment_silhouette_step_send_to_payment_gate",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_online_or_nfc",
+      "target": "assets_drakon_parking_payment_silhouette_step_nfc_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "target": "assets_drakon_parking_payment_silhouette_step_send_to_payment_gate",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "target": "assets_drakon_parking_payment_silhouette_step_get_token",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "target": "assets_drakon_parking_payment_silhouette_decision_ntp_timeout",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_ntp_timeout",
+      "target": "assets_drakon_parking_payment_silhouette_step_get_payment_result",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_result_processing",
+      "target": "assets_drakon_parking_payment_silhouette_decision_payment_status",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_payment_status",
+      "target": "assets_drakon_parking_payment_silhouette_step_register_success",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_payment_status",
+      "target": "assets_drakon_parking_payment_silhouette_step_register_failure",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_register_failure",
+      "target": "assets_drakon_parking_payment_silhouette_decision_retry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_retry",
+      "target": "assets_drakon_parking_payment_silhouette_step_change_method",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_retry",
+      "target": "assets_drakon_parking_payment_silhouette_step_leave_session_open",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_completion",
+      "target": "assets_drakon_parking_payment_silhouette_step_end",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_send_to_payment_gate",
+      "target": "assets_drakon_parking_payment_silhouette_concept_payment_gateway",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_nfc_payment",
+      "target": "assets_drakon_parking_payment_silhouette_concept_nfc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_calc_tariff",
+      "target": "assets_drakon_parking_payment_silhouette_concept_tariff",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_apply_discount",
+      "target": "assets_drakon_parking_payment_silhouette_concept_discount",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_step_get_session_data",
+      "target": "assets_drakon_parking_payment_silhouette_concept_session",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_decision_ntp_timeout",
+      "target": "assets_drakon_parking_payment_silhouette_concept_ntp_timeout",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_preparation",
+      "target": "assets_drakon_parking_payment_silhouette_branch_client_consent",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_client_consent",
+      "target": "assets_drakon_parking_payment_silhouette_branch_payment_method_selection",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_method_selection",
+      "target": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_payment_attempt",
+      "target": "assets_drakon_parking_payment_silhouette_branch_result_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_drakon_parking_payment_silhouette_branch_result_processing",
+      "target": "assets_drakon_parking_payment_silhouette_branch_completion",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png",
+      "source_location": null,
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_7_3_edit_booking",
+      "label": "UC-7.3 \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-7-3-edit-booking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_7_3_edit_booking",
+      "target": "use_case_uc_10_2_pay_online_short_term_rental",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-3-edit-booking.md",
+      "source_location": "line 89",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_3_edit_booking",
+      "target": "ref_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-3-edit-booking.md",
+      "source_location": "line 98",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

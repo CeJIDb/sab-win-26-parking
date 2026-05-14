@@ -1,0 +1,16 @@
+{
+  "nodes": [],
+  "edges": [
+    {
+      "source": "demo_1_readme",
+      "target": "demo_2_readme",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-days-overview.md",
+      "source_location": "line 115",
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "algorithms_readme_doc",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432",
+      "file_type": "document",
+      "source_file": "docs/artifacts/algorithms/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "algorithms_readme_doc",
+      "target": "algorithms_drakon_payment_doc",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/readme.md",
+      "source_location": "## \u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u043c\u044b\u0439 \u0441\u043e\u0441\u0442\u0430\u0432",
+      "weight": 1.0
+    },
+    {
+      "source": "algorithms_readme_doc",
+      "target": "algorithms_assets_readme_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/algorithms/readme.md",
+      "source_location": "## \u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u043c\u044b\u0439 \u0441\u043e\u0441\u0442\u0430\u0432",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

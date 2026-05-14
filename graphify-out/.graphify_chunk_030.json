@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_uml_state_contract_with_individual_diagram",
+      "label": "UML State Machine: Договор с физлицами (Contract with Individual)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_initial",
+      "label": "State: Initial (Поступило обращение клиента для заключения договора)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "label": "State: На заполнении (Being Filled)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_na_proverke",
+      "label": "State: На проверке (Under Review by Client)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_podpisan_klientom",
+      "label": "State: Подписан клиентом (Signed by Client)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_na_podpisanii_u_upravlyayushchego",
+      "label": "State: На подписании у управляющего (Awaiting Manager Signature)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_zaklyuchen",
+      "label": "State: Заключен (Concluded/Active)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_annulirovan",
+      "label": "State: Аннулирован (Annulled)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_rastorgnut_parkovka",
+      "label": "State: Расторгнут по инициативе парковки (Terminated by Parking)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_rastorgnut_klient",
+      "label": "State: Расторгнут по инициативе клиента (Terminated by Client)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_zavershen",
+      "label": "State: Завершен (Completed/Expired)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_state_final",
+      "label": "State: Final (End State)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_dannye_very",
+      "label": "Guard: Данные верны? (Data correct?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_klient_podpisal",
+      "label": "Guard: Клиент подписал договор? (Client signed contract?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_upravlyayushchy_podpisal",
+      "label": "Guard: Управляющий подписал договор? (Manager signed contract?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_rastorgnut_upravlyayushchy",
+      "label": "Guard: Расторгнут по инициативе управляющего? (Terminated by manager?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_rastorgnut_klient",
+      "label": "Guard: Расторгнут по инициативе клиента? (Terminated by client?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_guard_isterok_srok",
+      "label": "Guard: Истек срок действия договора? (Contract term expired?)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_dannye_polucheny",
+      "label": "Event/Trigger: Данные клиента получены (Client data received)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_peredan_na_proverku",
+      "label": "Event/Trigger: Договор передан клиенту на проверку (Contract sent to client for review)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_vozvraschen_na_korrektirovsky",
+      "label": "Event/Trigger: Договор возвращен на корректировку (Contract returned for correction)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_klient_provoril",
+      "label": "Event/Trigger: Клиент проверил договор (Client reviewed contract)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_klient_soglasen_podpisyvaet",
+      "label": "Event/Trigger: Клиент согласен с введенными данными и подписывает договор",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_peredan_upravlyayushchemu",
+      "label": "Event/Trigger: Договор передан управляющему на подписание",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_uml_state_contract_with_individual_event_kopiya_peredana_klientu",
+      "label": "Event/Trigger: Копия договора передана клиенту",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_initial",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_dannye_polucheny",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "target": "as_is_uml_state_contract_with_individual_state_na_proverke",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_peredan_na_proverku",
+      "target": "as_is_uml_state_contract_with_individual_state_na_proverke",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_na_proverke",
+      "target": "as_is_uml_state_contract_with_individual_guard_dannye_very",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_klient_provoril",
+      "target": "as_is_uml_state_contract_with_individual_guard_dannye_very",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_dannye_very",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_vozvraschen_na_korrektirovsky",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_dannye_very",
+      "target": "as_is_uml_state_contract_with_individual_guard_klient_podpisal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_klient_soglasen_podpisyvaet",
+      "target": "as_is_uml_state_contract_with_individual_guard_klient_podpisal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with_individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_klient_podpisal",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_klient_podpisal",
+      "target": "as_is_uml_state_contract_with_individual_state_podpisan_klientom",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_podpisan_klientom",
+      "target": "as_is_uml_state_contract_with_individual_state_na_podpisanii_u_upravlyayushchego",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_peredan_upravlyayushchemu",
+      "target": "as_is_uml_state_contract_with_individual_state_na_podpisanii_u_upravlyayushchego",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_na_podpisanii_u_upravlyayushchego",
+      "target": "as_is_uml_state_contract_with_individual_guard_upravlyayushchy_podpisal",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_upravlyayushchy_podpisal",
+      "target": "as_is_uml_state_contract_with_individual_state_annulirovan",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_upravlyayushchy_podpisal",
+      "target": "as_is_uml_state_contract_with_individual_state_zaklyuchen",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_zaklyuchen",
+      "target": "as_is_uml_state_contract_with_individual_guard_rastorgnut_upravlyayushchy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_event_kopiya_peredana_klientu",
+      "target": "as_is_uml_state_contract_with_individual_guard_rastorgnut_upravlyayushchy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_rastorgnut_upravlyayushchy",
+      "target": "as_is_uml_state_contract_with_individual_state_rastorgnut_parkovka",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_rastorgnut_upravlyayushchy",
+      "target": "as_is_uml_state_contract_with_individual_guard_rastorgnut_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_rastorgnut_klient",
+      "target": "as_is_uml_state_contract_with_individual_state_rastorgnut_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_rastorgnut_klient",
+      "target": "as_is_uml_state_contract_with_individual_guard_isterok_srok",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_isterok_srok",
+      "target": "as_is_uml_state_contract_with_individual_state_zavershen",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_guard_isterok_srok",
+      "target": "as_is_uml_state_contract_with_individual_state_zaklyuchen",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_rastorgnut_parkovka",
+      "target": "as_is_uml_state_contract_with_individual_state_final",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_rastorgnut_klient",
+      "target": "as_is_uml_state_contract_with_individual_state_final",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_zavershen",
+      "target": "as_is_uml_state_contract_with_individual_state_final",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_state_annulirovan",
+      "target": "as_is_uml_state_contract_with_individual_state_final",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_diagram",
+      "target": "as_is_uml_state_contract_with_individual_state_na_zapolnenii",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_diagram",
+      "target": "as_is_uml_state_contract_with_individual_state_zaklyuchen",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_uml_state_contract_with_individual_diagram",
+      "target": "as_is_uml_state_contract_with_individual_state_annulirovan",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 950
+}

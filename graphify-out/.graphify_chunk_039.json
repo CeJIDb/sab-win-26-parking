@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": "assets_demo_day_1_slide_01_title_five_whys",
+      "label": "Demo Day 1 — Title Slide: Автоматизация частного паркинга. Five Whys: от проблем к решению. Этап: Исследование и анализ. Докладчики: Александр (ведущий, UML Class Diagram), Артем (Event Storming), Павел (BPMN), Денис (UML StateChart), Марина (Canvas, Problem Statement).",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/01.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_02_context_current_situation",
+      "label": "Demo Day 1 — Контекст и текущая ситуация. Объект: Санкт-Петербург, частный открытый паркинг, 600 машиномест (50 ОВЗ), режим 24/7. Текущие проблемы: учет — ручной ввод в Excel, оборудование — шлагбаум без интеграции, доступ — физические карты, оплата — наличные/терминал.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_03_research_results",
+      "label": "Demo Day 1 — Результаты исследования. Источник: 3 интервью с владельцем паркинга (Елена Гриценко). Выявленные проблемы: 30% мест простаивает (потеря дохода), 80% времени охранников на непрофильной рутине, 0% возможности удобного использования услугами клиентами, ручные операции во всех процессах.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/03.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_04_event_storming_as_is",
+      "label": "Demo Day 1 — Event Storming AS-IS (Визуализация хаоса). Процесс предоставления парковочного места: цепочка оффлайн-событий на КПП, все операции выполняются вручную сотрудниками, ключевые решения принимаются сотрудниками, а не системой. Фотография стикеров Event Storming на доске.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/04.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем Субботин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_05_bpmn_modeling",
+      "label": "Demo Day 1 — Моделирование бизнес-процессов (BPMN). Показана базовая схема BPMN: Pool, Event (старт), Task, Gateway (ветвление Yes/No), Event (конец). Докладчик: Павел Борунов.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/05.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_06_bpmn_big_picture",
+      "label": "Demo Day 1 — BPMN Big Picture. Слайд-переход (заглушка) с заголовком 'BPMN - Big Picture'. Докладчик: Павел Борунов.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/06.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_07_bottleneck_access",
+      "label": "Demo Day 1 — Недостаток №1: доступ к парковке как 'бутылочное горлышко'. Иллюстрация пробки на въезде — несколько полос сужаются в одну. Очереди и задержки при въезде/выезде.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/07.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_08_data_desync",
+      "label": "Demo Day 1 — Недостаток №2: рассинхронизация данных. Иллюстрация развилки дорог (East/West) — образ несогласованности и несинхронизированных данных в системе паркинга.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_09_excel_everywhere",
+      "label": "Demo Day 1 — Недостаток №3: таблицы повсюду. Иллюстрация: хаотичное нагромождение иконок Excel — образ тотальной зависимости учетных процессов от ручных электронных таблиц.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/09.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_10_conclusions_table",
+      "label": "Demo Day 1 — Выводы. Таблица: Недостаток / Влияние на бизнес / Цель. 1) Доступ-узкое горлышко → очереди, недополученная прибыль → цель: <1 мин на въезд/выезд. 2) Рассинхронизация данных → не используются все ресурсы → цель: снизить до 10%. 3) Таблицы повсюду → ошибочные стратегические решения → цель: оцифровка данных.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/10.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел Борунов",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_11_uml_class_diagram",
+      "label": "Demo Day 1 — Моделирование предметной области (UML Class Diagram). Сущности: Клиент (наследники: Физлицо, Юрлицо), Договор, Парковочное место, Proximity-карта, Платеж. Архитектурный конфликт: карта привязана к Договору, а не к Авто — блокирует внедрение распознавания номеров.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/11.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_12_uml_state_machine",
+      "label": "Demo Day 1 — Моделирование состояний (UML State Machine). Визуализация жизненного цикла объекта 'Договор с ФИЗ. Лицами': состояния Аннулирован, Заключен, Расторгнут по инициативе управляющего, Расторгнут по инициативе клиента, Завершен. Переходы показывают события жизненного цикла.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/12.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис Салмин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_13_opportunity_canvas_left",
+      "label": "Demo Day 1 — Opportunity Canvas (левая часть). Сегодняшние решения пользователей (стикеры по ролям: Клиенты, Охранники, Управляющий, Старший охранник, Владелец). Наши клиенты: физические и юридические лица. Наши пользователи: охранники, управляющий, владелец, аутсорс-бухгалтер, SMM-специалист. Проблемы: очереди на въезде, личный визит, долгое ожидание договора. Проблемы бизнеса: невозможность масштабировать без аналитики, потеря 30% выручки.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/13.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина Бугаевская",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_14_problem_statement",
+      "label": "Demo Day 1 — Problem Statement: ключевые проблемы бизнеса. Операционные: очереди на въезде, ручное управление шлагбаумом, проверка бумажных списков. Аналитические: 'слепая зона', владелец не видит реальной заполняемости. CX: 'цифровое средневековье', требование личного присутствия, отсутствие онлайн-бронирования. Vision-решение: единая система управления доступом и клиентами с онлайн-кабинетом.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/14.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина Бугаевская",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_15_stage_challenges",
+      "label": "Demo Day 1 — Сложности и вызовы этапа. Коммуникация: сложность синхронизации времени встреч команды и с Заказчиком. Предметная область: 'серые зоны' в B2B-процессах (постоплата, сверка актов, доступ без документов), ручные операции и бизнес-правила. Организация: координация распределенной команды, загрузка членов команды на других проектах.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/15.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    },
+    {
+      "id": "assets_demo_day_1_slide_16_conclusion",
+      "label": "Demo Day 1 — Заключение. Картина As-Is полностью оцифрована. Узкие места выявлены: ручной труд, невозможность получения и обработки данных. Цитата: 'Мы знаем, что болит. Теперь мы знаем, как это вылечить.' Команда готова к проектированию архитектуры To-Be.",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-1/slides/16.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр Друзякин",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_demo_day_1_slide_01_title_five_whys",
+      "target": "assets_demo_day_1_slide_02_context_current_situation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/01.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_02_context_current_situation",
+      "target": "assets_demo_day_1_slide_03_research_results",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/02.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_03_research_results",
+      "target": "assets_demo_day_1_slide_04_event_storming_as_is",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/03.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_04_event_storming_as_is",
+      "target": "assets_demo_day_1_slide_05_bpmn_modeling",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/04.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_05_bpmn_modeling",
+      "target": "assets_demo_day_1_slide_06_bpmn_big_picture",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/05.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_06_bpmn_big_picture",
+      "target": "assets_demo_day_1_slide_07_bottleneck_access",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/06.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_07_bottleneck_access",
+      "target": "assets_demo_day_1_slide_08_data_desync",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/07.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_08_data_desync",
+      "target": "assets_demo_day_1_slide_09_excel_everywhere",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_09_excel_everywhere",
+      "target": "assets_demo_day_1_slide_10_conclusions_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/09.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_07_bottleneck_access",
+      "target": "assets_demo_day_1_slide_10_conclusions_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/07.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_08_data_desync",
+      "target": "assets_demo_day_1_slide_10_conclusions_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/08.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_10_conclusions_table",
+      "target": "assets_demo_day_1_slide_11_uml_class_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/10.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_11_uml_class_diagram",
+      "target": "assets_demo_day_1_slide_12_uml_state_machine",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/11.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_12_uml_state_machine",
+      "target": "assets_demo_day_1_slide_13_opportunity_canvas_left",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/12.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_13_opportunity_canvas_left",
+      "target": "assets_demo_day_1_slide_14_problem_statement",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/13.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_14_problem_statement",
+      "target": "assets_demo_day_1_slide_15_stage_challenges",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/14.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_15_stage_challenges",
+      "target": "assets_demo_day_1_slide_16_conclusion",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/15.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_03_research_results",
+      "target": "assets_demo_day_1_slide_14_problem_statement",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/03.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_04_event_storming_as_is",
+      "target": "assets_demo_day_1_slide_16_conclusion",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-1/slides/04.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_demo_day_1_slide_11_uml_class_diagram",
+      "target": "assets_demo_day_1_slide_02_context_current_situation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-1/slides/11.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "assets_demo_day_1_slide_13_opportunity_canvas_left",
+      "target": "assets_demo_day_1_slide_03_research_results",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-1/slides/13.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

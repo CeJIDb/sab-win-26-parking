@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo4_02_project_context",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u043f\u0440\u043e\u0435\u043a\u0442\u0430: \u0447\u0430\u0441\u0442\u043d\u044b\u0439 \u043f\u0430\u0440\u043a\u0438\u043d\u0433 \u0432 \u0421\u041f\u0431 \u043d\u0430 600 \u043c\u0435\u0441\u0442 (50 \u041e\u0412\u0417), \u0440\u0435\u0436\u0438\u043c 24/7, \u0442\u0435\u043a\u0443\u0449\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u2014 \u0440\u0443\u0447\u043d\u043e\u0439 \u0443\u0447\u0435\u0442 \u0432 Excel, \u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c \u0431\u0435\u0437 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438, \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043a\u0430\u0440\u0442\u044b \u0434\u043e\u0441\u0442\u0443\u043f\u0430, \u043e\u043f\u043b\u0430\u0442\u0430 \u043d\u0430\u043b\u0438\u0447\u043d\u044b\u043c\u0438/\u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo4_02_project_context",
+      "target": "slides_demo4_18_why_monolith",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "slides_demo4_02_project_context",
+      "target": "slides_demo4_07_security_risk_unauthorized_access",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-4/slides/02.jpg",
+      "source_location": null,
+      "weight": 0.6
+    }
+  ],
+  "hyperedges": []
+}

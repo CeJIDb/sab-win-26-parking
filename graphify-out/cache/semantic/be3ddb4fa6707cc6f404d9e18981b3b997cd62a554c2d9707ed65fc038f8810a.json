@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo4_15_es_tobe_domain_contexts",
+      "label": "ES TO-BE: 15 \u0434\u043e\u043c\u0435\u043d\u043d\u044b\u0445 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043e\u0432 (5 Core, 8 Supporting, 2 Generic) \u2014 \u043e\u0441\u043d\u043e\u0432\u0430 \u0432\u044b\u0431\u043e\u0440\u0430 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-4/slides/15.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo4_15_es_tobe_domain_contexts",
+      "target": "slides_demo4_12_es_tobe_bounded_contexts_map",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-4/slides/15.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

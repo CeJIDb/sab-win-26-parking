@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_34_data_flow_diagram",
+      "label": "Data Flow Diagram \u2014 \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c: \u0421\u041a\u0423\u0414 \u0441\u043e\u0437\u0434\u0430\u0451\u0442 \u0441\u043e\u0431\u044b\u0442\u0438\u0435 \u0432\u044a\u0435\u0437\u0434\u0430 \u2192 \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0421\u041a\u0423\u0414 \u2192 Access Control Service \u2192 Booking Service \u2192 Payment Service \u2192 Payment Adapter \u2192 \u0412\u043d\u0435\u0448\u043d\u044f\u044f \u041f\u043b\u0430\u0442\u0451\u0436\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/34.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

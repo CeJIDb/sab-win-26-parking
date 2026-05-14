@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "git_atomic_commit_module",
+      "label": "atomic-commit.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "1-584",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_classifyfile",
+      "label": "classifyFile(p)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "471-476",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_bucket_defs",
+      "label": "BUCKET_DEFS constant",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "335-442",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_getchangedfiles",
+      "label": "getChangedFiles({ stagedOnly })",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "109-147",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_getfilestatus",
+      "label": "getFileStatus(files, { stagedOnly })",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "153-191",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_buildmessage",
+      "label": "buildMessage(def, files, statusMap)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "294-331",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_groupfiles",
+      "label": "groupFiles(files)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "478-488",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_sortbuckets",
+      "label": "sortBuckets(map)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "490-494",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_runprettierwrite",
+      "label": "runPrettierWrite(paths)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "91-103",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_main",
+      "label": "main() in atomic-commit.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "520-578",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_getchangedfiles",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "527",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_getfilestatus",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "528",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_groupfiles",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "535",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_sortbuckets",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "536",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_buildmessage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "539",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_runprettierwrite",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "565",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_groupfiles",
+      "target": "git_atomic_commit_classifyfile",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "482",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_classifyfile",
+      "target": "git_atomic_commit_bucket_defs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs",
+      "source_location": "472",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,780 @@
+{
+  "nodes": [
+    {
+      "id": "as_is_bpmn_client_identification_diagram",
+      "label": "BPMN: \u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u0430 (as-is)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "label": "Swimlane: \u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439",
+      "label": "Swimlane: \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_pool_predstavitel",
+      "label": "Swimlane: \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_start_event",
+      "label": "\u0421\u0442\u0430\u0440\u0442: \u041a\u043b\u0438\u0435\u043d\u0442 \u043d\u0435 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_check_vehicle",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u043d\u043e\u043c\u0435\u0440 \u0422\u0421",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "label": "\u0428\u043b\u044e\u0437: \u041d\u043e\u043c\u0435\u0440 \u0422\u0421 \u043d\u0430\u0439\u0434\u0435\u043d?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0423\u0442\u043e\u0447\u043d\u0438\u0442\u044c \u0442\u0438\u043f \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_client_type",
+      "label": "\u0428\u043b\u044e\u0437: \u0422\u0438\u043f \u043a\u043b\u0438\u0435\u043d\u0442\u0430? (\u0424\u0438\u0437 \u043b\u0438\u0446\u043e / \u042e\u0440 \u043b\u0438\u0446\u043e)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_request_doc",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0417\u0430\u043f\u0440\u043e\u0441\u0438\u0442\u044c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442, \u0443\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u044f\u044e\u0449\u0438\u0439 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_doc_provided",
+      "label": "\u0428\u043b\u044e\u0437: \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "label": "\u0428\u043b\u044e\u0437: \u0414\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u0430 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0431\u0435\u0437 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041d\u0430\u0439\u0442\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0432 \u0431\u0430\u0437\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u043f\u043e \u0424\u0418\u041e",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_client_found",
+      "label": "\u0428\u043b\u044e\u0437: \u041a\u043b\u0438\u0435\u043d\u0442 \u043d\u0430\u0439\u0434\u0435\u043d \u0432 \u0431\u0430\u0437\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_find_company",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u041d\u0430\u0439\u0442\u0438 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0432 \u0431\u0430\u0437\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_company_found",
+      "label": "\u0428\u043b\u044e\u0437: \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043d\u0430\u0439\u0434\u0435\u043d\u0430 \u0432 \u0431\u0430\u0437\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_contact_manager",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430: \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u043c",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_contact_success",
+      "label": "\u0428\u043b\u044e\u0437: \u0423\u0434\u0430\u043b\u043e\u0441\u044c \u0441\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u043c?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "label": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435: \u0417\u0430\u043f\u0440\u043e\u0441 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u043c\u0443",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "label": "\u0428\u043b\u044e\u0437: \u0422\u0421 \u043f\u0440\u0438\u043d\u0430\u0434\u043b\u0435\u0436\u0438\u0442 \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u043c\u0443 \u043a\u043b\u0438\u0435\u043d\u0442\u0443?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "label": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435: \u041f\u043e\u043b\u0443\u0447\u0435\u043d \u043e\u0442\u0432\u0435\u0442 \u043e\u0442 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0433\u043e",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_end_identified",
+      "label": "\u041a\u043e\u043d\u0435\u0446: \u041a\u043b\u0438\u0435\u043d\u0442 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_end_not_identified",
+      "label": "\u041a\u043e\u043d\u0435\u0446: \u041a\u043b\u0438\u0435\u043d\u0442 \u043d\u0435 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_verify_info",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430 (\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439): \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043f\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0443 \u043e\u0445\u0440\u0430\u043d\u044b",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "label": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435: \u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0437\u0430\u043f\u0440\u043e\u0441 \u043e\u0442 \u043e\u0445\u0440\u0430\u043d\u044b",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "label": "\u0428\u043b\u044e\u0437: \u0414\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u043b\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430 (\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439): \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u0435\u043c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_wait_answer",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430 (\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439): \u041e\u0436\u0438\u0434\u0430\u0442\u044c \u043e\u0442\u0432\u0435\u0442",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "label": "\u0428\u043b\u044e\u0437: \u041e\u0442\u0432\u0435\u0442 \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0435\u043d \u0432 \u0440\u0430\u0437\u0443\u043c\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f / \u041f\u043e\u043b\u0443\u0447\u0435\u043d \u043e\u0442\u0432\u0435\u0442 \u043e\u0442 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_task_notify_decision",
+      "label": "\u0417\u0430\u0434\u0430\u0447\u0430 (\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439): \u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043f\u043e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043e\u0445\u0440\u0430\u043d\u0435",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_msg_send_decision",
+      "label": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435: \u0420\u0435\u0448\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043e\u0445\u0440\u0430\u043d\u0435",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_ds_base_dogovorov",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0411\u0430\u0437\u0430 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "label": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0434\u0430\u043d\u043d\u044b\u0445: \u0411\u0430\u0437\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_diagram",
+      "target": "as_is_bpmn_client_identification_pool_predstavitel",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_start_event",
+      "target": "as_is_bpmn_client_identification_task_check_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_check_vehicle",
+      "target": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_vehicle_found",
+      "target": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_clarify_client_type",
+      "target": "as_is_bpmn_client_identification_gw_client_type",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_type",
+      "target": "as_is_bpmn_client_identification_task_request_doc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_type",
+      "target": "as_is_bpmn_client_identification_task_find_company",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_request_doc",
+      "target": "as_is_bpmn_client_identification_gw_doc_provided",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_doc_provided",
+      "target": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_doc_provided",
+      "target": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "target": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_id_without_doc",
+      "target": "as_is_bpmn_client_identification_end_not_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_found",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_client_found",
+      "target": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_company",
+      "target": "as_is_bpmn_client_identification_gw_company_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_company_found",
+      "target": "as_is_bpmn_client_identification_task_contact_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_company_found",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_contact_manager",
+      "target": "as_is_bpmn_client_identification_gw_contact_success",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_contact_success",
+      "target": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_contact_success",
+      "target": "as_is_bpmn_client_identification_gw_client_found",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "target": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "target": "as_is_bpmn_client_identification_end_not_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_recv_answer_manager",
+      "target": "as_is_bpmn_client_identification_end_identified",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "target": "as_is_bpmn_client_identification_task_verify_info",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_verify_info",
+      "target": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "target": "as_is_bpmn_client_identification_task_notify_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_info_sufficient",
+      "target": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_contact_company_rep",
+      "target": "as_is_bpmn_client_identification_task_wait_answer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_wait_answer",
+      "target": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_gw_answer_in_time",
+      "target": "as_is_bpmn_client_identification_task_notify_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_notify_decision",
+      "target": "as_is_bpmn_client_identification_msg_send_decision",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_check_vehicle",
+      "target": "as_is_bpmn_client_identification_ds_base_dogovorov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_client_by_name",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_find_company",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_task_verify_info",
+      "target": "as_is_bpmn_client_identification_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_send_request_manager",
+      "target": "as_is_bpmn_client_identification_msg_recv_from_security",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "as_is_bpmn_client_identification_msg_send_decision",
+      "target": "as_is_bpmn_client_identification_gw_corporate_vehicle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-client-identification.jpg",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_sd_team_board",
+      "label": "ES TO-BE SD: \u041a\u043e\u043c\u0430\u043d\u0434\u043d\u0430\u044f \u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_es_tobe_sd_contexts",
+      "label": "ES TO-BE SD: \u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u044b",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_sd_team_board",
+      "target": "es_tobe_sd_access_and_parking_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": "line 65",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_team_board",
+      "target": "es_tobe_bp_booking_and_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": "line 66",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_team_board",
+      "target": "es_tobe_bp_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": "line 67",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_team_board",
+      "target": "es_tobe_bp_client_profile_and_vehicles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": "line 68",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_sd_team_board",
+      "target": "ref_es_tobe_sd_contexts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-sd-team-board.md",
+      "source_location": "line 64",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

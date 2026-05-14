@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "assets_c4_l1_system_context_image",
+      "label": "C4 L1 System Context Diagram",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_digital_parking_platform",
+      "label": "Цифровая платформа парковки (Software System) — управление парковкой, бронирование, тарифы, контроль доступа",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_owner",
+      "label": "Владелец (Person) — стратегическое управление",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_client_fl",
+      "label": "Клиент ФЛ (Person) — физическое лицо",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_client_ul",
+      "label": "Клиент ЮЛ (Person) — юридическое лицо",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_security",
+      "label": "Охрана (Person) — сотрудник КПП",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_actor_manager",
+      "label": "Управляющий (Person) — операционное управление",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_sso",
+      "label": "SSO (Software System) — аутентификация, VK ID / Яндекс ID",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_payment",
+      "label": "Платежная система (Software System) — Сбербанк/Эквайринг",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_gis",
+      "label": "Гис-сервисы (Software System) — Яндекс Карты и др.",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_sms",
+      "label": "Сервис уведомлений (Software System) — SMS / email",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_energy",
+      "label": "Сервис энергетики (Software System) — BI / аналитика",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_skud",
+      "label": "СКУД / УВП (Software System) — контроль доступа / шлагбаум",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_mobile_app",
+      "label": "Инф. табло / дисплеи (Software System) — Ridis / Inelo",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_oed",
+      "label": "ОЭД (Software System) — электронный документооборот",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_edo",
+      "label": "ЭДО (Software System) — электронный документооборот",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_1c",
+      "label": "1С (Software System) — бухгалтерия",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_c4_l1_system_context_ext_website",
+      "label": "Сайт-визитка (Software System) — тарифы, контакты, доступность",
+      "file_type": "image",
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_c4_l1_system_context_actor_owner",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_client_fl",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_client_ul",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_security",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_actor_manager",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_sso",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_payment",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_gis",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_sms",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_energy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_skud",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_mobile_app",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_oed",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_edo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_1c",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_digital_parking_platform",
+      "target": "assets_c4_l1_system_context_ext_website",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_c4_l1_system_context_image",
+      "target": "assets_c4_l1_system_context_digital_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/assets/c4-l1-system-context.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1200,
+  "output_tokens": 950
+}

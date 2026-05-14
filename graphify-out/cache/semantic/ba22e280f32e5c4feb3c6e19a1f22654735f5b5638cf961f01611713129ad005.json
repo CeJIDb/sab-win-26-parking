@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "id": "es_tobe_bp_booking_and_contract",
+      "label": "ES TO-BE BP: \u041a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0435 \u0438 \u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0435 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_booking_and_contract_tobe",
+      "label": "\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0434\u043e\u0433\u043e\u0432\u043e\u0440 TO-BE (\u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_adr_002",
+      "label": "ADR-002: \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 vs \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "file_type": "rationale",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_fr_booking",
+      "label": "FR Booking",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ref_project_charter",
+      "label": "\u041a\u0430\u0440\u0442\u043e\u0447\u043a\u0430 \u043f\u0440\u043e\u0435\u043a\u0442\u0430 (Project Charter)",
+      "file_type": "document",
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "concept_booking_and_contract_tobe",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 17-18",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "es_tobe_sd_access_and_parking_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 68",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "es_tobe_bp_payment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 69",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "ref_project_charter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 70",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "ref_user_story_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 71",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "ref_adr_002",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 72",
+      "weight": 1.0
+    },
+    {
+      "source": "es_tobe_bp_booking_and_contract",
+      "target": "ref_fr_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 73",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_booking_and_contract_tobe",
+      "target": "concept_parking_session",
+      "relation": "depends_on",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md",
+      "source_location": "line 49-51",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

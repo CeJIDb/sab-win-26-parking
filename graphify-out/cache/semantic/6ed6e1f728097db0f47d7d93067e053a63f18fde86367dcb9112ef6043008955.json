@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "admin_notifications_screen",
+      "label": "Admin Notifications (\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430)",
+      "file_type": "document",
+      "source_file": "ui/admin/notifications.html",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "admin_notifications_screen",
+      "target": "admin_index_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/admin/notifications.html",
+      "source_location": "line 45",
+      "weight": 1.0
+    },
+    {
+      "source": "admin_notifications_screen",
+      "target": "admin_profile_screen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/admin/notifications.html",
+      "source_location": "line 50",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

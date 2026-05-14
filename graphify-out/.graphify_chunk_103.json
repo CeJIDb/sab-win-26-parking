@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo3_11_key_data_flows",
+      "label": "Ключевые потоки данных: внешние сущности и обмен с платформой (Клиенты, Сотрудники, СКУД+LPR, Платежная система, Сервис уведомлений, ЭДО/1С)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/11.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_04_event_storming_to_be",
+      "label": "Event Storming To-Be процессов — секция презентации",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/04.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_26_data_model_booking",
+      "label": "Модель данных: разделение Тариф/Бронирование/Договор, парковочная сессия как отдельная сущность, иерархия Парковка→Сектор→Место, ER-фрагмент сущности Бронирование",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/26.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_31_functional_requirements_booking",
+      "label": "Функциональные требования к ПО: CRUDL-операции Бронирования для Клиента ФЛ, атрибутная спецификация создания Бронирования при автоматическом въезде ТС по СобытиеСКУД",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/31.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_22_wireframe_booking_create",
+      "label": "Wireframe «Личный кабинет: бронирование» — форма создания бронирования (выбор ТС/ГРЗ, тарифа, даты начала, итог к оплате, список активных бронирований)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/22.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_34_system_constraints",
+      "label": "Ограничения к системе: совместимость (320px, кроссплатформенность), объемы данных (≤6МБ страница), требования к пользователям (Android/iOS), документирование (ГОСТ Р 57100-2016), патентная чистота (только РФ-компоненты)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/34.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_21_wireframe_lk_main",
+      "label": "Wireframe «Личный кабинет: главная» — быстрые действия: активная парковочная сессия, планируемое бронирование, договор к оплате с кнопками действий",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/21.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_25_conceptual_data_model_section",
+      "label": "Концептуальная модель данных — секция презентации",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/25.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_16_use_case_example",
+      "label": "Пример описанного UC: детальная спецификация use-case оформления долгосрочного договора (предусловия, триггер, постусловие, основной поток, расширения — ошибки валидации и оплаты)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/16.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo3_04_event_storming_to_be",
+      "target": "slides_demo3_11_key_data_flows",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/04.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_25_conceptual_data_model_section",
+      "target": "slides_demo3_26_data_model_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/25.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_26_data_model_booking",
+      "target": "slides_demo3_31_functional_requirements_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-3/slides/26.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo3_31_functional_requirements_booking",
+      "target": "slides_demo3_22_wireframe_booking_create",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/demo-days/demo-3/slides/31.jpg",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "slides_demo3_21_wireframe_lk_main",
+      "target": "slides_demo3_22_wireframe_booking_create",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/21.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_16_use_case_example",
+      "target": "slides_demo3_31_functional_requirements_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/16.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_11_key_data_flows",
+      "target": "slides_demo3_26_data_model_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/11.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "slides_demo3_34_system_constraints",
+      "target": "slides_demo3_31_functional_requirements_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-3/slides/34.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

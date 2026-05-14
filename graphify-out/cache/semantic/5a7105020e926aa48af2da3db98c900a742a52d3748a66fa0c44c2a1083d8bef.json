@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "git_workflow_agent_reminder_module",
+      "label": "git-workflow-agent-reminder.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "1-94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_workflow_agent_reminder_countstaged",
+      "label": "countStaged()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "29-44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_workflow_agent_reminder_countworktree",
+      "label": "countWorktree()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "46-63",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_workflow_agent_reminder_shouldremind",
+      "label": "shouldRemind(files, lines)",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "65-67",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "git_workflow_agent_reminder_module",
+      "target": "git_workflow_agent_reminder_countstaged",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "84",
+      "weight": 1.0
+    },
+    {
+      "source": "git_workflow_agent_reminder_module",
+      "target": "git_workflow_agent_reminder_countworktree",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "84",
+      "weight": 1.0
+    },
+    {
+      "source": "git_workflow_agent_reminder_module",
+      "target": "git_workflow_agent_reminder_shouldremind",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "90",
+      "weight": 1.0
+    },
+    {
+      "source": "git_workflow_agent_reminder_module",
+      "target": "git_atomic_commit_module",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "73",
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": []
+}

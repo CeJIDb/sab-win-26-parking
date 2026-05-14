@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "integrations_buildin_auth_module",
+      "label": "buildin-auth.py",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/buildin-auth.py",
+      "source_location": "1-51",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integrations_buildin_auth_session_file",
+      "label": ".playwright-session.json session file",
+      "file_type": "concept",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/buildin-auth.py",
+      "source_location": "27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integrations_buildin_auth_module",
+      "target": "integrations_buildin_auth_session_file",
+      "relation": "writes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/buildin-auth.py",
+      "source_location": "48",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

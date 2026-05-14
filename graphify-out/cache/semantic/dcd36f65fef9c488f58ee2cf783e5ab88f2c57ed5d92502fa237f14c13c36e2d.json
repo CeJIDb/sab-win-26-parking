@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "assets_social_preview_image",
+      "label": "Mine Parking \u2014 Social Preview / Project Banner",
+      "file_type": "image",
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_social_preview_platform_name",
+      "label": "Project: Mine Parking \u2014 \u0426\u0438\u0444\u0440\u043e\u0432\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "image",
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "title area",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_social_preview_sa_portfolio",
+      "label": "SA Portfolio: \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b + \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f + \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 + \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 + \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b",
+      "file_type": "image",
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "left description area",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_social_preview_components",
+      "label": "Platform Components: \u041b\u041a\u041a/\u041a\u0430\u043c\u0435\u0440\u044b, \u0428\u043b\u0430\u0433\u0431\u0430\u0443\u043c/\u0421\u041a\u0423\u0414, \u0421\u041c\u0421/Push/Email, \u041b\u0438\u0447\u043d\u044b\u0439 \u043a\u0430\u0431\u0438\u043d\u0435\u0442, API",
+      "file_type": "image",
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "icons area",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_social_preview_artifacts",
+      "label": "Artifacts: \u0418\u043d\u0442\u0435\u0440\u0432\u044c\u044e/AS-IS/TO-BE, BPMN UML Wireframes, C4 DDD ERD, Impact Map User Flow, API",
+      "file_type": "image",
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "bottom artifacts row",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_social_preview_platform_name",
+      "target": "artifacts_assets_context_diagram_parking_platform",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "title area",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_social_preview_sa_portfolio",
+      "target": "artifacts_assets_dfd_l1_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "SA Portfolio description",
+      "weight": 0.85
+    },
+    {
+      "source": "assets_social_preview_artifacts",
+      "target": "artifacts_assets_user_story_map_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "bottom artifacts row",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_social_preview_artifacts",
+      "target": "artifacts_assets_impact_map_diagram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/assets/social-preview.png",
+      "source_location": "bottom artifacts row",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

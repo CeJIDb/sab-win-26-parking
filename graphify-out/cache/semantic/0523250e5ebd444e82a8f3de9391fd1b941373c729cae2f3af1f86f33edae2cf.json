@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_28_business_constraints",
+      "label": "\u0411\u0438\u0437\u043d\u0435\u0441-\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f: \u0431\u044e\u0434\u0436\u0435\u0442 10\u201315 \u043c\u043b\u043d \u0440\u0443\u0431., MVP \u0437\u0430 4\u20136 \u043c\u0435\u0441\u044f\u0446\u0435\u0432, \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 DevOps \u0432 \u0448\u0442\u0430\u0442\u0435, \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0430 ~200 \u043c\u0430\u0448\u0438\u043d/\u0447\u0430\u0441 = 3\u20134 \u0437\u0430\u043f\u0440\u043e\u0441\u0430/\u0441\u0435\u043a, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c 99% \u0430\u043f\u0442\u0430\u0439\u043c (\u22647 \u0447 \u043f\u0440\u043e\u0441\u0442\u043e\u044f/\u043c\u0435\u0441)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/28.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041f\u0430\u0432\u0435\u043b",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_28_business_constraints",
+      "target": "slides_demo5_38_integration_tech_stack",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/28.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

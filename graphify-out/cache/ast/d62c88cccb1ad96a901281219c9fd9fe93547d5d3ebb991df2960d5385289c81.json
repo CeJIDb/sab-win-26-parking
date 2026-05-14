@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "label": "block-unsafe-git-add.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_block_unsafe_git_add_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L14"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "target": "claude_hooks_block_unsafe_git_add_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L14",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

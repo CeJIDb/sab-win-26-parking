@@ -1,0 +1,2957 @@
+{
+  "nodes": [
+    {
+      "id": "scripts_docs_extract_docx_py",
+      "label": "extract-docx.py",
+      "file_type": "code",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_extract_docx_text_from_docx",
+      "label": "text_from_docx()",
+      "file_type": "code",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L10"
+    },
+    {
+      "id": "docs_extract_docx_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "scripts_docs_split_image_py",
+      "label": "split-image.py",
+      "file_type": "code",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_split_image_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "scripts_claude_hooks_block_push_to_main_mjs",
+      "label": "block-push-to-main.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/block-push-to-main.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_block_push_to_main_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/block-push-to-main.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "label": "touch-rag-index-timestamp.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_touch_rag_index_timestamp_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L13"
+    },
+    {
+      "id": "claude_hooks_touch_rag_index_timestamp_cachedir",
+      "label": "cacheDir",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "claude_hooks_touch_rag_index_timestamp_cachepath",
+      "label": "cachePath",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L29"
+    },
+    {
+      "id": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "label": "validate-staged-plans.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_validate_staged_plans_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L13"
+    },
+    {
+      "id": "claude_hooks_validate_staged_plans_scriptpath",
+      "label": "scriptPath",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L25"
+    },
+    {
+      "id": "scripts_claude_hooks_format_on_write_mjs",
+      "label": "format-on-write.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_format_on_write_supported",
+      "label": "SUPPORTED",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L6"
+    },
+    {
+      "id": "claude_hooks_format_on_write_input",
+      "label": "input",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L23"
+    },
+    {
+      "id": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "label": "validate-plan-on-write.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_rel",
+      "label": "rel",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L29"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_scriptpath",
+      "label": "scriptPath",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L41"
+    },
+    {
+      "id": "scripts_claude_hooks_check_rag_index_mjs",
+      "label": "check-rag-index.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_docsdir",
+      "label": "docsDir",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_cachepath",
+      "label": "cachePath",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L22"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_collectstalefiles",
+      "label": "collectStaleFiles()",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L30"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_raw",
+      "label": "raw",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L55"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_stalefiles",
+      "label": "staleFiles",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L63"
+    },
+    {
+      "id": "claude_hooks_check_rag_index_message",
+      "label": "message",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L76"
+    },
+    {
+      "id": "scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "label": "block-unsafe-git-add.mjs",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_block_unsafe_git_add_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L14"
+    },
+    {
+      "id": "scripts_plans_validate_plans_mjs",
+      "label": "validate-plans.mjs",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_validate_plans_isvaliddate",
+      "label": "isValidDate()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L30"
+    },
+    {
+      "id": "plans_validate_plans_validate",
+      "label": "validate()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L38"
+    },
+    {
+      "id": "plans_validate_plans_report",
+      "label": "report()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L99"
+    },
+    {
+      "id": "plans_validate_plans_collectallplans",
+      "label": "collectAllPlans()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L121"
+    },
+    {
+      "id": "plans_validate_plans_collectstagedplans",
+      "label": "collectStagedPlans()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L140"
+    },
+    {
+      "id": "plans_validate_plans_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L157"
+    },
+    {
+      "id": "scripts_git_check_branch_name_mjs",
+      "label": "check-branch-name.mjs",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "git_check_branch_name_getgitdir",
+      "label": "getGitDir()",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L6"
+    },
+    {
+      "id": "git_check_branch_name_getbranchname",
+      "label": "getBranchName()",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L22"
+    },
+    {
+      "id": "git_check_branch_name_isprotectedbranch",
+      "label": "isProtectedBranch()",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L36"
+    },
+    {
+      "id": "git_check_branch_name_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L40"
+    },
+    {
+      "id": "scripts_git_atomic_commit_mjs",
+      "label": "atomic-commit.mjs",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "git_atomic_commit_issandboxspawnerror",
+      "label": "isSandboxSpawnError()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L34"
+    },
+    {
+      "id": "git_atomic_commit_printsandboxhint",
+      "label": "printSandboxHint()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L38"
+    },
+    {
+      "id": "git_atomic_commit_printsandboxhintfortool",
+      "label": "printSandboxHintForTool()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L48"
+    },
+    {
+      "id": "git_atomic_commit_gitstdoutraw",
+      "label": "gitStdoutRaw()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L56"
+    },
+    {
+      "id": "git_atomic_commit_verbose",
+      "label": "VERBOSE",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L65"
+    },
+    {
+      "id": "git_atomic_commit_dumpcapturedonerror",
+      "label": "dumpCapturedOnError()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L67"
+    },
+    {
+      "id": "git_atomic_commit_gitrun",
+      "label": "gitRun()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L72"
+    },
+    {
+      "id": "git_atomic_commit_runprettierwrite",
+      "label": "runPrettierWrite()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L91"
+    },
+    {
+      "id": "git_atomic_commit_getchangedfiles",
+      "label": "getChangedFiles()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L109"
+    },
+    {
+      "id": "git_atomic_commit_getfilestatus",
+      "label": "getFileStatus()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L153"
+    },
+    {
+      "id": "git_atomic_commit_parseheader",
+      "label": "parseHeader()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L193"
+    },
+    {
+      "id": "git_atomic_commit_bucketprefixfordef",
+      "label": "bucketPrefixForDef()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L199"
+    },
+    {
+      "id": "git_atomic_commit_displayname",
+      "label": "displayName()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L236"
+    },
+    {
+      "id": "git_atomic_commit_verbforstatus",
+      "label": "verbForStatus()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L249"
+    },
+    {
+      "id": "git_atomic_commit_pluralru",
+      "label": "pluralRu()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L262"
+    },
+    {
+      "id": "git_atomic_commit_truncatemessage",
+      "label": "truncateMessage()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L270"
+    },
+    {
+      "id": "git_atomic_commit_buildmessage",
+      "label": "buildMessage()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L294"
+    },
+    {
+      "id": "git_atomic_commit_bucket_defs",
+      "label": "BUCKET_DEFS",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L335"
+    },
+    {
+      "id": "git_atomic_commit_misc",
+      "label": "MISC",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L444"
+    },
+    {
+      "id": "git_atomic_commit_bucket_order",
+      "label": "BUCKET_ORDER",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L449"
+    },
+    {
+      "id": "git_atomic_commit_classifyfile",
+      "label": "classifyFile()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L471"
+    },
+    {
+      "id": "git_atomic_commit_groupfiles",
+      "label": "groupFiles()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L478"
+    },
+    {
+      "id": "git_atomic_commit_sortbuckets",
+      "label": "sortBuckets()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L490"
+    },
+    {
+      "id": "git_atomic_commit_assertcleangitstate",
+      "label": "assertCleanGitState()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L496"
+    },
+    {
+      "id": "git_atomic_commit_confirm",
+      "label": "confirm()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L513"
+    },
+    {
+      "id": "git_atomic_commit_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L520"
+    },
+    {
+      "id": "scripts_git_git_workflow_agent_reminder_mjs",
+      "label": "git-workflow-agent-reminder.mjs",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_min_files",
+      "label": "MIN_FILES",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_min_lines",
+      "label": "MIN_LINES",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_git",
+      "label": "git()",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_countstaged",
+      "label": "countStaged()",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L29"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_countworktree",
+      "label": "countWorktree()",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L46"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_shouldremind",
+      "label": "shouldRemind()",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L65"
+    },
+    {
+      "id": "git_git_workflow_agent_reminder_printreminder",
+      "label": "printReminder()",
+      "file_type": "code",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L69"
+    },
+    {
+      "id": "scripts_lint_check_file_names_mjs",
+      "label": "check-file-names.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_file_names_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "lint_check_file_names_scan_roots",
+      "label": "SCAN_ROOTS",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "lint_check_file_names_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L20"
+    },
+    {
+      "id": "lint_check_file_names_hassafefilename",
+      "label": "hasSafeFilename()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_check_file_names_walkfiles",
+      "label": "walkFiles()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L33"
+    },
+    {
+      "id": "lint_check_file_names_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L53"
+    },
+    {
+      "id": "scripts_lint_check_markdown_links_mjs",
+      "label": "check-markdown-links.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_markdown_links_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_markdown_links_targets",
+      "label": "TARGETS",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "lint_check_markdown_links_ignore_prefixes",
+      "label": "IGNORE_PREFIXES",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L6"
+    },
+    {
+      "id": "lint_check_markdown_links_collectmarkdownfiles",
+      "label": "collectMarkdownFiles()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L9"
+    },
+    {
+      "id": "lint_check_markdown_links_shouldskip",
+      "label": "shouldSkip()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_check_markdown_links_normalizelink",
+      "label": "normalizeLink()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L32"
+    },
+    {
+      "id": "lint_check_markdown_links_headerslugcache",
+      "label": "headerSlugCache",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L36"
+    },
+    {
+      "id": "lint_check_markdown_links_decodemaybe",
+      "label": "decodeMaybe()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L38"
+    },
+    {
+      "id": "lint_check_markdown_links_parsemarkdownhref",
+      "label": "parseMarkdownHref()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L46"
+    },
+    {
+      "id": "lint_check_markdown_links_slugifyheading",
+      "label": "slugifyHeading()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L51"
+    },
+    {
+      "id": "lint_check_markdown_links_extractheaderslugs",
+      "label": "extractHeaderSlugs()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L66"
+    },
+    {
+      "id": "lint_check_markdown_links_getheaderslugsforfile",
+      "label": "getHeaderSlugsForFile()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L105"
+    },
+    {
+      "id": "lint_check_markdown_links_checkfilelinks",
+      "label": "checkFileLinks()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L113"
+    },
+    {
+      "id": "lint_check_markdown_links_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L160"
+    },
+    {
+      "id": "scripts_lint_check_traceability_matrix_update_mjs",
+      "label": "check-traceability-matrix-update.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_excluded_prefixes",
+      "label": "EXCLUDED_PREFIXES",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L3"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_relevant_prefixes",
+      "label": "RELEVANT_PREFIXES",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_getchangedfiles",
+      "label": "getChangedFiles()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L12"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L25"
+    },
+    {
+      "id": "scripts_lint_lint_mermaid_mjs",
+      "label": "lint-mermaid.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_lint_mermaid_execfileasync",
+      "label": "execFileAsync",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "lint_lint_mermaid_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L23"
+    },
+    {
+      "id": "lint_lint_mermaid_docs_dir",
+      "label": "DOCS_DIR",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L24"
+    },
+    {
+      "id": "lint_lint_mermaid_mmdc_bin",
+      "label": "MMDC_BIN",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L25"
+    },
+    {
+      "id": "lint_lint_mermaid_puppeteer_config",
+      "label": "PUPPETEER_CONFIG",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L26"
+    },
+    {
+      "id": "lint_lint_mermaid_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_lint_mermaid_walkmd",
+      "label": "walkMd()",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L39"
+    },
+    {
+      "id": "lint_lint_mermaid_extractmermaidblocks",
+      "label": "extractMermaidBlocks()",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L63"
+    },
+    {
+      "id": "lint_lint_mermaid_checkblock",
+      "label": "checkBlock()",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L81"
+    },
+    {
+      "id": "lint_lint_mermaid_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L104"
+    },
+    {
+      "id": "scripts_lint_check_markdown_mjs",
+      "label": "check-markdown.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_markdown_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_markdown_targets",
+      "label": "TARGETS",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "lint_check_markdown_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L17"
+    },
+    {
+      "id": "lint_check_markdown_collectmarkdownfiles",
+      "label": "collectMarkdownFiles()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "lint_check_markdown_lintcontent",
+      "label": "lintContent()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L40"
+    },
+    {
+      "id": "lint_check_markdown_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L82"
+    },
+    {
+      "id": "scripts_integrations_buildin_explore_py",
+      "label": "buildin-explore.py",
+      "file_type": "code",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "integrations_buildin_explore_rationale_1",
+      "label": "Разведка страницы buildin.ai для последующей выгрузки артефактов.  Запуск:     .",
+      "file_type": "rationale",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_integrations_buildin_auth_py",
+      "label": "buildin-auth.py",
+      "file_type": "code",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "integrations_buildin_auth_rationale_1",
+      "label": "Логин в buildin.ai и сохранение сессии в .playwright-session.json. Credentials ч",
+      "file_type": "rationale",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_integrations_google_auth_py",
+      "label": "google-auth.py",
+      "file_type": "code",
+      "source_file": "scripts/integrations/google-auth.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "integrations_google_auth_rationale_1",
+      "label": "Открывает браузер для ручного входа в Google и сохраняет сессию.  Запуск:     .v",
+      "file_type": "rationale",
+      "source_file": "scripts/integrations/google-auth.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "zipfile",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "xml_etree_elementtree",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "docs_extract_docx_text_from_docx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_extract_docx_py",
+      "target": "docs_extract_docx_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_extract_docx_main",
+      "target": "docs_extract_docx_text_from_docx",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/extract-docx.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_split_image_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_split_image_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_split_image_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_split_image_py",
+      "target": "pil",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_docs_split_image_py",
+      "target": "docs_split_image_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/docs/split-image.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_block_push_to_main_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/block-push-to-main.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_block_push_to_main_mjs",
+      "target": "claude_hooks_block_push_to_main_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/block-push-to-main.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "target": "claude_hooks_touch_rag_index_timestamp_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "target": "claude_hooks_touch_rag_index_timestamp_cachedir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_touch_rag_index_timestamp_mjs",
+      "target": "claude_hooks_touch_rag_index_timestamp_cachepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/touch-rag-index-timestamp.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "target": "claude_hooks_validate_staged_plans_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_staged_plans_mjs",
+      "target": "claude_hooks_validate_staged_plans_scriptpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-staged-plans.mjs",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_format_on_write_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_format_on_write_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_format_on_write_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_format_on_write_mjs",
+      "target": "claude_hooks_format_on_write_supported",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_format_on_write_mjs",
+      "target": "claude_hooks_format_on_write_input",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/format-on-write.mjs",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_rel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_scriptpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_docsdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_cachepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_collectstalefiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_raw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_stalefiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_check_rag_index_mjs",
+      "target": "claude_hooks_check_rag_index_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/check-rag-index.mjs",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_claude_hooks_block_unsafe_git_add_mjs",
+      "target": "claude_hooks_block_unsafe_git_add_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_isvaliddate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_validate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_report",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_collectallplans",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_collectstagedplans",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_plans_validate_plans_mjs",
+      "target": "plans_validate_plans_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_validate",
+      "target": "plans_validate_plans_isvaliddate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_collectallplans",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_collectstagedplans",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_validate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_report",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "git_check_branch_name_getgitdir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "git_check_branch_name_getbranchname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "git_check_branch_name_isprotectedbranch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_check_branch_name_mjs",
+      "target": "git_check_branch_name_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "git_check_branch_name_getbranchname",
+      "target": "git_check_branch_name_getgitdir",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "git_check_branch_name_main",
+      "target": "git_check_branch_name_getbranchname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "git_check_branch_name_main",
+      "target": "git_check_branch_name_isprotectedbranch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "promises",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "node_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_issandboxspawnerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_printsandboxhint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_printsandboxhintfortool",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_gitstdoutraw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_verbose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_dumpcapturedonerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_gitrun",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_runprettierwrite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_getchangedfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_getfilestatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_parseheader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_bucketprefixfordef",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_displayname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_verbforstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_pluralru",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_truncatemessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_buildmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_bucket_defs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L335",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_misc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_bucket_order",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L449",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_classifyfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L471",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_groupfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L478",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_sortbuckets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L490",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_assertcleangitstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L496",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_confirm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L513",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_atomic_commit_mjs",
+      "target": "git_atomic_commit_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L520",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_printsandboxhint",
+      "target": "git_atomic_commit_issandboxspawnerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_printsandboxhintfortool",
+      "target": "git_atomic_commit_issandboxspawnerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_gitstdoutraw",
+      "target": "git_atomic_commit_printsandboxhint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_gitrun",
+      "target": "git_atomic_commit_printsandboxhint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_gitrun",
+      "target": "git_atomic_commit_dumpcapturedonerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_runprettierwrite",
+      "target": "git_atomic_commit_printsandboxhintfortool",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_runprettierwrite",
+      "target": "git_atomic_commit_dumpcapturedonerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_getchangedfiles",
+      "target": "git_atomic_commit_gitstdoutraw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_getfilestatus",
+      "target": "git_atomic_commit_gitstdoutraw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_displayname",
+      "target": "git_atomic_commit_bucketprefixfordef",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_buildmessage",
+      "target": "git_atomic_commit_parseheader",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_buildmessage",
+      "target": "git_atomic_commit_verbforstatus",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L301",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_buildmessage",
+      "target": "git_atomic_commit_pluralru",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_buildmessage",
+      "target": "git_atomic_commit_truncatemessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_groupfiles",
+      "target": "git_atomic_commit_classifyfile",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L481",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_assertcleangitstate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L525",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_getchangedfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_getfilestatus",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L528",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_groupfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L535",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_sortbuckets",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L536",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_buildmessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L540",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_confirm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L552",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_runprettierwrite",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L565",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_gitstdoutraw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L569",
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_gitrun",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": "L572",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_min_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_min_lines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_countstaged",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_countworktree",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_shouldremind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_git_git_workflow_agent_reminder_mjs",
+      "target": "git_git_workflow_agent_reminder_printreminder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "git_git_workflow_agent_reminder_countstaged",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "git_git_workflow_agent_reminder_countworktree",
+      "target": "git_git_workflow_agent_reminder_git",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/git-workflow-agent-reminder.mjs",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_scan_roots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_hassafefilename",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_walkfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_file_names_main",
+      "target": "lint_check_file_names_walkfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_file_names_main",
+      "target": "lint_check_file_names_hassafefilename",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-file-names.mjs",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_ignore_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_collectmarkdownfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_shouldskip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_normalizelink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_headerslugcache",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_decodemaybe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_parsemarkdownhref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_extractheaderslugs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_getheaderslugsforfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_checkfilelinks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_links_mjs",
+      "target": "lint_check_markdown_links_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_extractheaderslugs",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_getheaderslugsforfile",
+      "target": "lint_check_markdown_links_extractheaderslugs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_parsemarkdownhref",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_shouldskip",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_decodemaybe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_getheaderslugsforfile",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_checkfilelinks",
+      "target": "lint_check_markdown_links_slugifyheading",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_main",
+      "target": "lint_check_markdown_links_collectmarkdownfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_links_main",
+      "target": "lint_check_markdown_links_checkfilelinks",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown-links.mjs",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_excluded_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_relevant_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_getchangedfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_traceability_matrix_update_main",
+      "target": "lint_check_traceability_matrix_update_getchangedfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "node_util",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "node_os",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_execfileasync",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_docs_dir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_mmdc_bin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_puppeteer_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_walkmd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_extractmermaidblocks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_checkblock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_lint_mermaid_mjs",
+      "target": "lint_lint_mermaid_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_checkblock",
+      "target": "lint_lint_mermaid_execfileasync",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_walkmd",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_extractmermaidblocks",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lint_mermaid_main",
+      "target": "lint_lint_mermaid_checkblock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_targets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_collectmarkdownfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_lintcontent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_lint_check_markdown_mjs",
+      "target": "lint_check_markdown_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_main",
+      "target": "lint_check_markdown_collectmarkdownfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_markdown_main",
+      "target": "lint_check_markdown_lintcontent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lint/check-markdown.mjs",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_explore_py",
+      "target": "playwright_sync_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_explore_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_explore_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_explore_py",
+      "target": "pathlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "integrations_buildin_explore_rationale_1",
+      "target": "scripts_integrations_buildin_explore_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-explore.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_auth_py",
+      "target": "playwright_sync_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_auth_py",
+      "target": "dotenv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_auth_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_buildin_auth_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "integrations_buildin_auth_rationale_1",
+      "target": "scripts_integrations_buildin_auth_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/buildin-auth.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_google_auth_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/google-auth.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_integrations_google_auth_py",
+      "target": "playwright_sync_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/google-auth.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "integrations_google_auth_rationale_1",
+      "target": "scripts_integrations_google_auth_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/integrations/google-auth.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

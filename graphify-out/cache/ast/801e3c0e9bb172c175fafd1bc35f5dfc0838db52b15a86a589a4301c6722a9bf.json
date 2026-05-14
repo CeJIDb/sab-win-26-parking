@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "label": "validate-plan-on-write.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_payload",
+      "label": "payload",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_rel",
+      "label": "rel",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L29"
+    },
+    {
+      "id": "claude_hooks_validate_plan_on_write_scriptpath",
+      "label": "scriptPath",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L41"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_rel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_claude_hooks_validate_plan_on_write_mjs",
+      "target": "claude_hooks_validate_plan_on_write_scriptpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs",
+      "source_location": "L41",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "k_l1_kafka_dfd_l1_diagram",
+      "label": "Kafka DFD L1 \u2014 high-level Kafka integration architecture overview",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_cdc_debezium",
+      "label": "CDC (Debezium) \u2014 change-data-capture component publishing events to Kafka",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_kafka_broker",
+      "label": "Kafka \u2014 event streaming broker receiving BookingCreated/BookingConfirmed events",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_payment_service",
+      "label": "Payment Service [Component] \u2014 \u043f\u043b\u0430\u0442\u0435\u0436\u0438, \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u044b, \u0447\u0435\u043a\u0438",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_booking_service",
+      "label": "Booking Service [Component] \u2014 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f, \u0440\u0435\u0437\u0435\u0440\u0432\u0430\u0446\u0438\u044f \u041f\u041c",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_billing_service",
+      "label": "Billing Service [Component] \u2014 \u0441\u0447\u0435\u0442\u0430, \u0437\u0430\u0434\u043e\u043b\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u0438, \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u043e\u043f\u043b\u0430\u0442",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_notification_service",
+      "label": "Notification Service [Component] \u2014 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_payment_adapter",
+      "label": "Payment Adapter [Component] \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_pricing_service",
+      "label": "Pricing Service [Component] \u2014 \u0440\u0430\u0441\u0447\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438, \u0441\u043a\u0438\u0434\u043a\u0438, \u043b\u044c\u0433\u043e\u0442\u044b",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_notification_adapter",
+      "label": "Notification Adapter [Component] \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_yukassa",
+      "label": "\u042e\u041a\u0430\u0441\u0441\u0430 [Software System] \u2014 \u043e\u043d\u043b\u0430\u0439\u043d-\u043e\u043f\u043b\u0430\u0442\u0430 external payment system",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_1c",
+      "label": "1C [Software System] \u2014 \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0438\u044f external accounting system",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_notification_external",
+      "label": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 [Software System] \u2014 SMS/push/email external notifications",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "k_l1_postgres_outbox",
+      "label": "PostgreSQL outbox tables \u2014 payments, payment_outbox, booking_outbox, bookings",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "k_l1_cdc_debezium",
+      "target": "k_l1_kafka_broker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_kafka_broker",
+      "target": "k_l1_billing_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_kafka_broker",
+      "target": "k_l1_notification_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_postgres_outbox",
+      "target": "k_l1_cdc_debezium",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_booking_service",
+      "target": "k_l1_payment_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_booking_service",
+      "target": "k_l1_pricing_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_payment_service",
+      "target": "k_l1_payment_adapter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_payment_adapter",
+      "target": "k_l1_yukassa",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_billing_service",
+      "target": "k_l1_1c",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_notification_adapter",
+      "target": "k_l1_notification_external",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "k_l1_payment_service",
+      "target": "erd_erd_normalized_er_model_table_payments",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "k_l1_booking_service",
+      "target": "erd_erd_normalized_er_model_table_bookings",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/integration/assets/k-l1.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": []
+}

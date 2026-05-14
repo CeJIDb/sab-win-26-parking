@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_43_dod_platform_single_source_of_truth",
+      "label": "DoD = Excel \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043d\u0443\u0436\u0435\u043d: \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 \u043a\u0430\u043a \u0435\u0434\u0438\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043f\u0440\u0430\u0432\u0434\u044b \u0434\u043b\u044f \u0434\u043e\u043f\u0443\u0441\u043a\u0430, \u043e\u043f\u043b\u0430\u0442\u044b \u0438 \u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432 (\u041a\u041f\u041f, \u041b\u041a, \u0440\u043e\u043b\u0438 \u0424\u041b/\u042e\u041b/\u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a/\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439/\u0412\u043b\u0430\u0434\u0435\u043b\u0435\u0446)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/43.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_43_dod_platform_single_source_of_truth",
+      "target": "slides_demo5_44_mvp_scope_customer_value",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/43.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

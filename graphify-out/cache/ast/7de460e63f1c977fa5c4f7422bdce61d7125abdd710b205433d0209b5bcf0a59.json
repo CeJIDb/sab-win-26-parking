@@ -1,0 +1,277 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "label": "check-file-names.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_file_names_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L18"
+    },
+    {
+      "id": "lint_check_file_names_scan_roots",
+      "label": "SCAN_ROOTS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L19"
+    },
+    {
+      "id": "lint_check_file_names_exclude_dirs",
+      "label": "EXCLUDE_DIRS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L20"
+    },
+    {
+      "id": "lint_check_file_names_hassafefilename",
+      "label": "hasSafeFilename()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L28"
+    },
+    {
+      "id": "lint_check_file_names_walkfiles",
+      "label": "walkFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L33"
+    },
+    {
+      "id": "lint_check_file_names_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_scan_roots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_exclude_dirs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_hassafefilename",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_walkfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_cursor_sab_win_26_mine_parking_scripts_lint_check_file_names_mjs",
+      "target": "lint_check_file_names_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_file_names_main",
+      "target": "lint_check_file_names_walkfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_file_names_main",
+      "target": "lint_check_file_names_hassafefilename",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L65",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_check_file_names_hassafefilename",
+      "callee": "includes",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "lint_check_file_names_hassafefilename",
+      "callee": "test",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "readdir",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "isDirectory",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "isFile",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "lint_check_file_names_walkfiles",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "sort",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "basename",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "push",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "lint_check_file_names_main",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs",
+      "source_location": "L77"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "docs_styleguide",
+      "label": "Docs Style Guide (docs/styleguide.md)",
+      "file_type": "document",
+      "source_file": "docs/styleguide.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

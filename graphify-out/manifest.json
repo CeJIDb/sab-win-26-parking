@@ -1,0 +1,1874 @@
+{
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/extract-docx.py": {
+    "mtime": 1774359862.4633844,
+    "hash": "80783ad67b24428f6c6e16c9e4622cb0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/split-image.py": {
+    "mtime": 1773940429.135996,
+    "hash": "b24d1701dc7321c69a98d03d2cfe09f5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-push-to-main.mjs": {
+    "mtime": 1777377321.7888603,
+    "hash": "b4a15ec7dc3c9beb06de112f47bb12d8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/touch-rag-index-timestamp.mjs": {
+    "mtime": 1777377321.7929456,
+    "hash": "36f17180110a8edbd17cb9a56557dc79"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-staged-plans.mjs": {
+    "mtime": 1778680599.7236776,
+    "hash": "a77eb4ae6e0dbc6a8b515149fececcb9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/format-on-write.mjs": {
+    "mtime": 1777377321.7929456,
+    "hash": "fe0dc87943d00f97a77cf78eeef158d3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/validate-plan-on-write.mjs": {
+    "mtime": 1778680599.7236776,
+    "hash": "0a327f6157b589b3dce2d8fc56ed0961"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/check-rag-index.mjs": {
+    "mtime": 1777557184.9133666,
+    "hash": "b1de562d25b37c366c943d22c06591bb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs": {
+    "mtime": 1777377321.7929456,
+    "hash": "b6dc0a17c2dcf35b93221f8f0d873625"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/plans/validate-plans.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "1463760ae4dc3929e9502e3d1df1b665"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/check-branch-name.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "378d5276f43edc944ca55e7648114823"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/atomic-commit.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "5096b00b992da0052773a61bbb422970"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/git/git-workflow-agent-reminder.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "be53b824f41755946481dc817b579892"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-file-names.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "ae127274a95820bc9f141237655828e2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown-links.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "80883e1c2c429cabfd25a5b0b8072d5d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "5cf1a6b84b385e3cfd9a60f7de1eaec7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/lint-mermaid.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "8d1275afb2b97d04cd1ff97cbf100b00"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/lint/check-markdown.mjs": {
+    "mtime": 1778680599.7278025,
+    "hash": "45c98d3f6124ea39734ec47a589cd281"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/buildin-explore.py": {
+    "mtime": 1778680599.7278025,
+    "hash": "ed624d43022915d710b657ea2592559a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/buildin-auth.py": {
+    "mtime": 1778680599.7278025,
+    "hash": "b8e2edf754b1281e7b8b9a839e7f87c8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/integrations/google-auth.py": {
+    "mtime": 1778680599.7278025,
+    "hash": "9f688f695ccf6179ccf22849b510466a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql": {
+    "mtime": 1775826811.359792,
+    "hash": "3dcdaeeec46d6710f9b2211aba0d1f39"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized.sql": {
+    "mtime": 1775741580.943664,
+    "hash": "180cd7d56440eda8e41eda606b8afa4d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/README.en.md": {
+    "mtime": 1778682197.3068073,
+    "hash": "c46c7a5693b99aa78f291c4fc2006908"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/README.md": {
+    "mtime": 1778682186.3934162,
+    "hash": "4582e018ea07dd10aaceb4bc84ce3fba"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/CONTRIBUTING.md": {
+    "mtime": 1778680599.6576803,
+    "hash": "1001041fb1ded5132f36c1ad43e61cde"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/CLAUDE.md": {
+    "mtime": 1778685184.575757,
+    "hash": "6bbdaa2b7d058808cb8db9cf1b07d960"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/SKILLS.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "b8e64b9d2494712ec0106c04b682da6f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/AGENTS.md": {
+    "mtime": 1778766248.971818,
+    "hash": "d98305df04c5daa36049f40cce152d35"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/README.md": {
+    "mtime": 1777377321.7929456,
+    "hash": "84924b6f4ac7063ec3a7c715f59f2a04"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/index.html": {
+    "mtime": 1778769378.2970097,
+    "hash": "663946b9dfb84cd36a0314177c5f3fa3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/rules.html": {
+    "mtime": 1778769378.289016,
+    "hash": "e103b772f7792fe615df957b4ef6aa85"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/register.html": {
+    "mtime": 1778769378.2930129,
+    "hash": "9b9c3b887e2b207742a2d2b4c4375b90"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/parking-map.html": {
+    "mtime": 1778769378.2930129,
+    "hash": "5e553addb2ae33a079c0652936995de3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/staff-login.html": {
+    "mtime": 1773940429.176893,
+    "hash": "ab353ce501ef3a14fbff8dfd79d5a516"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/contacts.html": {
+    "mtime": 1778769378.289016,
+    "hash": "4973569173a7e7bec40c719bc9418f66"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/login.html": {
+    "mtime": 1778769378.2930129,
+    "hash": "a041197b50d327cf67aee9218f63cc9b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/tariffs.html": {
+    "mtime": 1778769378.2850192,
+    "hash": "b0f43aa16b2afe03b16c7be5886ca435"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/site/index.html": {
+    "mtime": 1778769378.2850192,
+    "hash": "90c41f510e3db7b1a967e87f6ba27932"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/notifications.html": {
+    "mtime": 1778769378.2170725,
+    "hash": "9dbeb7078c5031b3f45da1bc380c5c30"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/bookings.html": {
+    "mtime": 1778769378.201085,
+    "hash": "3b839f641c60ba1ea78c26e7f6bbfd2b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/contracts-create.html": {
+    "mtime": 1778769378.2090788,
+    "hash": "9699664fa1371f4e37a0dca0ef5951a2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/payment-settings.html": {
+    "mtime": 1778769378.2130756,
+    "hash": "4d0e9d4502ec652705140ffbc84c0cc1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/payment-external.html": {
+    "mtime": 1778769378.2130756,
+    "hash": "b82f908f2bed92df07ff94abd4306a13"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/contract-sign.html": {
+    "mtime": 1778769378.2130756,
+    "hash": "5d5fb795adc5d9af24260185f7386623"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/sessions-history.html": {
+    "mtime": 1778769378.205082,
+    "hash": "f92e8dae8461a8b96296afd28679a3b2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/profile.html": {
+    "mtime": 1778769378.2250662,
+    "hash": "936b6e41e4b104a12843a97ad08c1de3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/contracts.html": {
+    "mtime": 1778769378.2090788,
+    "hash": "d28b55248a6213874857e4106a1e6bfa"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/client/dashboard.html": {
+    "mtime": 1778769378.1930912,
+    "hash": "3b02e40daed9f92a18460e0165662a41"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/admins.html": {
+    "mtime": 1778769378.265035,
+    "hash": "cc41324821cd6c80f00d2dc0d09fcd8f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/notifications-manage.html": {
+    "mtime": 1778769378.2730286,
+    "hash": "f32a52025e1b842ec4d2290f80b38864"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/notifications.html": {
+    "mtime": 1778769378.2690318,
+    "hash": "02767884dd704c539fb789043fd79a63"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/sectors.html": {
+    "mtime": 1778769378.2490473,
+    "hash": "04d0460667ae883c69cd91a600b131d2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/bookings.html": {
+    "mtime": 1778769378.2610378,
+    "hash": "4350f49d2b1d9def212c601c721316e9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/contracts-create.html": {
+    "mtime": 1778769378.2610378,
+    "hash": "59dabe9722712f9543bd667f3ba76b03"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/analytics.html": {
+    "mtime": 1778769378.2770255,
+    "hash": "054882ff02f5d4958067f6d4bbfdca76"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/client-sessions.html": {
+    "mtime": 1778769378.2770255,
+    "hash": "e6c57d862a79493dd4a2e958405dcbaf"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/clients.html": {
+    "mtime": 1778769378.265035,
+    "hash": "bd7c207f9d1df58ed1de92bc4556c4b0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/kpp-panel.html": {
+    "mtime": 1778769378.2810223,
+    "hash": "93498801acab5efe398d0e7e5900b857"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/sessions.html": {
+    "mtime": 1778769378.2530441,
+    "hash": "2aeac6c58c5cca82e67fede5ab8bc634"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/requests.html": {
+    "mtime": 1778769378.2730286,
+    "hash": "1c7746a31b664f098e8ea46bfdbdd43f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/kpp-log.html": {
+    "mtime": 1778769378.2810223,
+    "hash": "5b51db5a33c1e0888dc1a4da85a547ed"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/profile.html": {
+    "mtime": 1778769378.2450504,
+    "hash": "88c7700d2075d5da4718c953ba026425"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/client-summary.html": {
+    "mtime": 1778769378.2810223,
+    "hash": "99c167815c4d44631aaddec0d6079e58"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/debts.html": {
+    "mtime": 1778769378.2690318,
+    "hash": "963442215679055fef696124c51dc550"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/contracts.html": {
+    "mtime": 1778769378.257041,
+    "hash": "e3b331f7ce3f408833211381e4793981"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/tariffs.html": {
+    "mtime": 1778769378.2530441,
+    "hash": "5a479054972302bc57d64eca5f530e31"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/admin/index.html": {
+    "mtime": 1778769378.2450504,
+    "hash": "24a30723c98c9a9ed2992d625e0b5b38"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/notifications.html": {
+    "mtime": 1778769378.2370567,
+    "hash": "34b9893f5f740d4341abb8afeb690c42"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/plate-history.html": {
+    "mtime": 1778769378.2370567,
+    "hash": "3e2d0ac597f2090ce455cab6c73ce5b6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/log.html": {
+    "mtime": 1778769378.23306,
+    "hash": "1a35336982c895363ec3f28e1ff4cb69"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/profile.html": {
+    "mtime": 1778769378.23306,
+    "hash": "d04cff3bea8e00c638f5a7f18daeb541"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/client-summary.html": {
+    "mtime": 1778769378.23306,
+    "hash": "97af25497a86d3c9cafffd2e947a8cc1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/ui/guard/index.html": {
+    "mtime": 1778769378.229063,
+    "hash": "9d6e8b2440fabae6c2599d0fbc9fec20"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/docs/readme.md": {
+    "mtime": 1775141541.2664254,
+    "hash": "df9f55ee55352a891952872047c3adbc"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/readme.md": {
+    "mtime": 1778579027.9849992,
+    "hash": "e89ce4036ac0612de2b7d69fd4d399e7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/project-overview.md": {
+    "mtime": 1778680599.7154279,
+    "hash": "d92fb10cd671f3cadcf2bdbde1f066a9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/styleguide.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "09240ad5120f518d30d78dbec0b4c73d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/readme.md": {
+    "mtime": 1778681776.0227873,
+    "hash": "878f757bddfe47118a1f2b000b45d1a7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md": {
+    "mtime": 1778680599.6783044,
+    "hash": "61149a1f37dbc69ad5d6f071e9742abe"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md": {
+    "mtime": 1777377321.7766047,
+    "hash": "db5b2ece7ae1f5047c043af19e6b9f73"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/user-story-map.md": {
+    "mtime": 1777377321.78069,
+    "hash": "9ce984dd5cb2cb94acdb861d74f478b5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/context-diagram.md": {
+    "mtime": 1778680599.6783044,
+    "hash": "a83fcaeb42dcdcaa9d88fc6dad1b9d05"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/project-glossary.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "89061d558ee9debcf30a11504b70e7c7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/navigation-map.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "883bd38f634bf85d9a696e407aa837fa"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/dfd-l1.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "883e1c9c42a9958ca3a28acffd6ee327"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/project-charter.md": {
+    "mtime": 1777377321.7766047,
+    "hash": "e315cc14fcbbb2d60bd42cf5f19ef05a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/impact-map.md": {
+    "mtime": 1777377321.7766047,
+    "hash": "6b3b7ffae7e230806583e082696325e6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/readme.md": {
+    "mtime": 1775640520.2861109,
+    "hash": "1659dd1e3015fd5e3ed3934f7da15d6d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/es-tobe-sd-access-and-parking-flow.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "d5a5db69e6e62d8ea92f7b8b76ea34c0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/es-tobe-bp-booking-and-contract.md": {
+    "mtime": 1775741580.943664,
+    "hash": "12822de5ad96c7a00b439333b0d4e755"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/es-tobe-bp-payment.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "415634cf06e6d78e5fb49a7504531ee9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/es-tobe-bp-client-profile-and-vehicles.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "0a834442619f79be2caa2755e03a9d7f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/es-tobe-sd-team-board.md": {
+    "mtime": 1778583030.7379713,
+    "hash": "88eee3a639d8d956475bed2be60064cc"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/readme.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "856171fe6ba9b7c160eb955285fcca30"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-2-pay-online-short-term-rental.md": {
+    "mtime": 1778681556.8928828,
+    "hash": "9d50fcedc08f3738133d860bf0cfec5f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/readme.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "6177995c6a54a7a0c2de0385819a9341"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-3-edit-booking.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "6612409c7c480868e8faa9889b254d7e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-9-complete-booking-auto-exit.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "96298ee0e5c34c9a6067c99265b70acd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-3-1-add-vehicle.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "e6da21d23a38e9967789ee35ec9f0e2d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-1-pass-auto-identification-entry.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "c179d9c9b684afc80cd80f95fa26294d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/use-case-diagram.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "33125171b96b1b3f0e44b5ed8ea3209d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/use-case-registry.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "13a23f9cc06fe321ab98cc5e511e439d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/crudl.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "56b4735b0c71984427f7a1a93f7b790a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-8-2-create-contract-legal-entity.md": {
+    "mtime": 1777974591.8270717,
+    "hash": "b3660715c85936d6048b0c23689ca4e8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-2-view-booking.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "7f92bd1d3775452b01a472b01a407839"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-6-pass-auto-identification-exit.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "fb2e74b13c0de969e268f9866ba413b1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-8-1-create-contract-fl.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "0d7cdf904216541bcf2955f2bf99b408"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-5-5-create-notification.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "e7cd5a3ece09972e9b631f2735c635b6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-2-create-booking-auto-entry.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "9d2214a0f89eb8851348031ae7a6dc9d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-8-8-create-contract-ul-admin.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "7e991b23e1260f4e298e80a70924613b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-4-create-parking-session.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "5224ab892da9ea47b1f270109bad4c22"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-6-create-booking-admin.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "a0c364a2486ec1bcc640a4536b4799d0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-12-8-complete-parking-session.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "a98f94d0a040154d869c9db0119b0417"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-1-create-booking.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "332d5d2eb552d8547f9cabe1aac3aba6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "052c6d41222acad4c379931aa8199581"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-5-list-bookings.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "090978bd0b3b159a48e6ad363833c35e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-7-4-cancel-booking.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "85f323bbacf2b4d3342dadfecdbaf578"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/uc-2-1-register.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "6ff2609889c0acb3962cd3e7a88c8e67"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/assets/readme.md": {
+    "mtime": 1775640520.2978241,
+    "hash": "e1801ade806c893f2b8dce3ae90cb0e0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/algorithms/readme.md": {
+    "mtime": 1776869410.4680195,
+    "hash": "31ad692f8f6b7fd032cc14b4ce87588d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/algorithms/drakon-parking-payment.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "aa61f0909a62eb59bf119b071f1f5fd0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/algorithms/assets/readme.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "8ae5c91244ee2a41c2f3c9fbfac62c44"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/readme.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "9ce500d3c9c9a71918730112959a54af"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-parking-exit.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "8dcc7c45fdc949c1601cee4220306c8d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-provide-parking-space.md": {
+    "mtime": 1775640520.2783022,
+    "hash": "e723383d567adee774d13dbe8126bf62"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-contract-signing.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "55852fe50c10181ffc52bc0aed19d97f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/parking-as-is-diagram.md": {
+    "mtime": 1777377321.7725194,
+    "hash": "ad0bc8601385645adb92255ebfd69225"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/event-storming-as-is.md": {
+    "mtime": 1778583030.7379713,
+    "hash": "9a4b62210ae337cb0cd8112b8910e28e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/uml-class-domain-as-is.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "374369732c5ea9723397c2d415ef7c5a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-payment-individual-and-legal-clients.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "dcb5002f2ebfe274b92486badb3180d1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-client-identification.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "4279bcca614041bd084168490fb935ac"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/uml-state-contract-with-individual.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "76ea78db8bdf98d986e77cc8828d3d8f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/bpmn-search-parking-space.md": {
+    "mtime": 1775640520.2783022,
+    "hash": "e3d1c7bbd5debe918a37f8215f5f2e4e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/readme.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "4e7876851b8ae411d51feeb2d98d000b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/infosec/readme.md": {
+    "mtime": 1775640520.2978241,
+    "hash": "47243285fe031444716d551e29af4f81"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/infosec/bow-tie-unauthorized-access-to-system-and-data.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "2086bf1fd5564aa2f73b88a376a7e2df"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/infosec/infosec-analyze-parking.md": {
+    "mtime": 1778680599.6824293,
+    "hash": "093572aa9927df729409d784044b4d6d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/infosec/assets/readme.md": {
+    "mtime": 1775640520.2900155,
+    "hash": "b4f6ab4c91ea6a6b80a7ee3d4e77049f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/readme.md": {
+    "mtime": 1775640520.2822065,
+    "hash": "461548ce947062f1e855aba8802d95bf"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/readme.md": {
+    "mtime": 1777381264.2277846,
+    "hash": "06fcc4dfb369dc6627494d4820f043eb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-002-booking-vs-session.md": {
+    "mtime": 1778583030.7379713,
+    "hash": "874154f0c819872c7af254121606d170"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/readme.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "25d3fff6b9e8ba81c8414107efaf745c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md": {
+    "mtime": 1777974591.8149674,
+    "hash": "2c7fd013ec36a84b1f5013459dcb2a3b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md": {
+    "mtime": 1777974591.8149674,
+    "hash": "f2f45405bedf8f32458c0014e69edfc5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-001-online-access-rights-evaluation.md": {
+    "mtime": 1777377321.768434,
+    "hash": "ab159c90c321ffe4f4a28c2e39ab20c6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md": {
+    "mtime": 1778681555.1983013,
+    "hash": "1b2d2abcf6e93efab6198247fc29779e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md": {
+    "mtime": 1777974591.8149674,
+    "hash": "8546b4123f7bc08c0753b93d1aa51020"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md": {
+    "mtime": 1777544360.6395266,
+    "hash": "7e61e24205de7dbc0b741c6effb5d123"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md": {
+    "mtime": 1777544360.6395266,
+    "hash": "56df3e5992f3f15154c71e520238799d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/ddd/readme.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "d0be6ad59d921819450f2e0fca3a551b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/ddd/es-tobe-sd-contexts.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "e0338aa66320e822221499fe71c3e185"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/ddd/ddd-bounded-contexts.md": {
+    "mtime": 1777371794.1019425,
+    "hash": "0369242bf8326b0aa4b95ba21f4fd3a6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/yookassa-data-mapping.md": {
+    "mtime": 1777974591.8270717,
+    "hash": "cead4689a9be7f74224811bffcf4b921"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/readme.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "4635d75317cf5eaf07e06abb1a5186d9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/is-interaction-regulation.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "fce0c0e434b0913a4bfb0281fc6658c3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/schema-uc-10-6-receipt.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "939384a4990d06e1c4baecd5e2f20f15"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/message-flow-kafka-online-booking.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "ad109169905144c66d75f7ffe9f2d73d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/sso-errors-registry.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "b77428c60101a736c946d2b5e955f896"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md": {
+    "mtime": 1777974591.8270717,
+    "hash": "170397cbae244b221bc859d6ece09f38"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "3bcd7a6694a58f1687560f905e6cda0d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/payment-errors-registry.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "d5cacbee4f67b4e499ce86657d605f6c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/payload-uc-10-2-payment.md": {
+    "mtime": 1777041804.421701,
+    "hash": "8afd50fb3b6b8ba099bf5831b3df6d7d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/rabbitmq-requirements.md": {
+    "mtime": 1777974591.8270717,
+    "hash": "b6dfea8eccf542eb3e895bef614ca2e3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/openapi-uc-10-6-receipt.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "2f7d0b83da895fefee1f9c69f66a47c2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/payload-uc-10-6-receipt.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "4bafb3b010d3e842101b7f73d02b02af"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/message-flow-rabbitmq-notification.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "7dbd6457ab4d0fb5dfbd09e3432bd600"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/sequence-uc-12-1-pass-auto-identification-entry.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "4a993539a01cd4b6bc63527bf5d9ca05"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/openapi-uc-12-1-access-check.md": {
+    "mtime": 1778680599.6741796,
+    "hash": "549329d1618fe26600cd4f4dd5efacef"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/schema-uc-10-2-payment.md": {
+    "mtime": 1777041804.473672,
+    "hash": "8a6b46e2c89941e68309a6b3be39ae0f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/c4/readme.md": {
+    "mtime": 1777381264.2236657,
+    "hash": "50ac703fd70af40c638d5e0cb90c9793"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/c4/c4-diagrams.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "876f37bbd837ad428ad48c956f1b5260"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/database/readme.md": {
+    "mtime": 1775640520.2587802,
+    "hash": "074ec19a12fbc8412b733c86ca46f4d6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "3c7bc228e3d9a7e89fda41e02be94613"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md": {
+    "mtime": 1777974591.8149674,
+    "hash": "a86e910e877ed6b2f14f732033aca6c8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/database/erd/data-dictionary.md": {
+    "mtime": 1778680599.6618052,
+    "hash": "bd0348f5a75a0ced71778064ceb19dce"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-days-overview.md": {
+    "mtime": 1777377321.78069,
+    "hash": "c39fb77e60a0a24ae9e7793e950d797a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/readme.md": {
+    "mtime": 1778681794.8309977,
+    "hash": "64f6dbe76223597410eeaecc8caa4d0e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/readme.md": {
+    "mtime": 1778680599.690679,
+    "hash": "9108360e8e78bf58fc4843c3ef116996"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-script.md": {
+    "mtime": 1778579027.785001,
+    "hash": "e46935f82f62db821655ed6d67c79f85"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md": {
+    "mtime": 1778579027.785001,
+    "hash": "1644cb19dd320b771c895762569bb1d5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/readme.md": {
+    "mtime": 1778579027.9849992,
+    "hash": "493e7703e3ebccfb51d8dac98e324e0e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/readme.md": {
+    "mtime": 1778680599.690679,
+    "hash": "beaf456de594f78371898e67e1f3a928"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/demo-2-presentation-deck.md": {
+    "mtime": 1777377321.78069,
+    "hash": "bb899e716e05d27e8c64215a6916a217"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/readme.md": {
+    "mtime": 1775640520.305633,
+    "hash": "d38a5403ca1fee6134f50e8e59f24004"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/readme.md": {
+    "mtime": 1778680599.690679,
+    "hash": "8f3a48c1cf92643ed09c47e5d02c48a0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/demo-4-presentation-deck.md": {
+    "mtime": 1778579027.5490031,
+    "hash": "21423d393e632156194710f890551eb3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/readme.md": {
+    "mtime": 1778579027.785001,
+    "hash": "46a8b60d27d29fd1433a1c3009cf7218"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/demo-3-presentation-deck.md": {
+    "mtime": 1777377321.78069,
+    "hash": "7f3f1135fc26624b4cb8d1518f65834a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/readme.md": {
+    "mtime": 1778680599.690679,
+    "hash": "84c74d06065162acb337bb723c8ea7f7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/readme.md": {
+    "mtime": 1778579027.5490031,
+    "hash": "d206a8ed2608c47a006f0ce043cea614"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/readme.md": {
+    "mtime": 1778680599.690679,
+    "hash": "6793e675a54752ad90904105af60a78b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/demo-1-presentation-deck.md": {
+    "mtime": 1777377321.78069,
+    "hash": "814d54c0004c54cd7af026fea196bd3b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/readme.md": {
+    "mtime": 1775640520.305633,
+    "hash": "49f80f5be049ed421a4bde822326f52e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/readme.md": {
+    "mtime": 1776869410.48059,
+    "hash": "1f6d0e0600b1816c577c7fe9cc5f2559"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-event-skud.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "887bca0e35650bdd162e17e1da24f8bd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/readme.md": {
+    "mtime": 1778681757.4267597,
+    "hash": "362feef12c777fef9922e8baa5745825"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-payment.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "0750f566adb652fc0f971c91a4fd88bb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-booking.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "c6061a108659ffd08d8d1cad2faaaf5a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "da99c8515d6a29a273506eebbb9f4416"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-check.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "b70b2b2064afaacef6a19b415f5c529a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-parking-session.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "a090816e21a0d1ac44ee41e07ae086be"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/functional-requirements/fr-tariff.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "2a68c611e4bf25398d08a0eef25fae6d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/constraints/readme.md": {
+    "mtime": 1775640520.528184,
+    "hash": "f5567273aab9fd90a619dc1c0a0d4d91"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/constraints/constr-system.md": {
+    "mtime": 1777377321.784775,
+    "hash": "1d07d94df5114bad62ae0db87fdb18a5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/dev-tasks/readme.md": {
+    "mtime": 1777377321.784775,
+    "hash": "e185e12bafc4d9bd28dc672ac831e424"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md": {
+    "mtime": 1778680599.7154279,
+    "hash": "872685350b8a192f035c1621a772a607"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/dev-tasks/_template-dev-task.md": {
+    "mtime": 1775833755.5620368,
+    "hash": "5e76349cc7062ef1da10bef3173a8266"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/dev-tasks/example-task/example-task.md": {
+    "mtime": 1775833755.5620368,
+    "hash": "76c1cb893616b07c44719321897f95cf"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/nonfunctional-requirements/readme.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "95eda3ce89e250868f80bd3688309dc3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/nonfunctional-requirements/nfr-external-quality.md": {
+    "mtime": 1777377321.7888603,
+    "hash": "b571a5765610efc754595baee9375bcd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/nonfunctional-requirements/nfr-logging.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "44c5b6405bce5a206a6d3f4589c8add6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/nonfunctional-requirements/nfr-ui-quality.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "c41d5a0b84fa0e4f394aeb8577cf6e59"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/integration/readme.md": {
+    "mtime": 1776869410.48059,
+    "hash": "82f0042b83ed34bbde77f2a7854e43a0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/specs/integration/integration-requirements.md": {
+    "mtime": 1777974591.8351412,
+    "hash": "6b6c6ba513b3ef7e77da8bf703c96bbd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/readme.md": {
+    "mtime": 1778680599.7154279,
+    "hash": "fb1207bc5b9de31caaa2828af978bf4b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/mvp-definition-of-done.md": {
+    "mtime": 1775640520.5242796,
+    "hash": "643b235eac8e9e269880fd4d0412c783"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/project-journey.md": {
+    "mtime": 1778680599.7154279,
+    "hash": "2ab01e66fb769874ff32f055f2f6ce50"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/parking-hw-report-cejidb.md": {
+    "mtime": 1777041805.613042,
+    "hash": "79c4c5b2d708c2e1e702fa26d7f4deb0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md": {
+    "mtime": 1778681576.5116587,
+    "hash": "f105a1c388053bb78310cdf4d320e1b6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/artifact-placement-guide.md": {
+    "mtime": 1778680599.690679,
+    "hash": "af53d908dbd362e95374d5d1a9f5c755"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/traceability-matrix.md": {
+    "mtime": 1775640520.5242796,
+    "hash": "c56bd5fdc23e7994072bc9b01a72c4de"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/release-checklist.md": {
+    "mtime": 1774359862.4513369,
+    "hash": "8c704a13343ef9c32af554800417c7a6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/first-contribution-path.md": {
+    "mtime": 1775640520.5242796,
+    "hash": "eca51ee0a262c7261553721e482c80ec"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/pr-dor-dod.md": {
+    "mtime": 1774359862.447321,
+    "hash": "ed2b6fe0a5d52b3d78b7c9751cf3b020"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/branding-checklist.md": {
+    "mtime": 1778684772.71187,
+    "hash": "e047dcf30e27bbac1a5678bd41f9615c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md": {
+    "mtime": 1777974591.8351412,
+    "hash": "500a50f07394abf72be78a042045520f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/retro/README.md": {
+    "mtime": 1777023212.4134822,
+    "hash": "e995213dcf8500f581fe7e333cc9d629"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/retro/2026-04-24-gym-app-tooling-adoption.md": {
+    "mtime": 1777027489.2120488,
+    "hash": "923dd5a96a5df558b737f1d426129ae3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/templates/readme.md": {
+    "mtime": 1775640520.5242796,
+    "hash": "b22d4a6f1e51c689134e578bae6ccf55"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/templates/artifact-from-image-template.md": {
+    "mtime": 1775640520.5242796,
+    "hash": "0982d8fe682ce61227551cbd41ae675f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/templates/traceability-matrix-template.md": {
+    "mtime": 1777377321.784775,
+    "hash": "247080fe2a704d8ce11a66e705b41467"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md": {
+    "mtime": 1774359862.4513369,
+    "hash": "6491dfc0edcdcbfa7ab0f3985f846191"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/readme.md": {
+    "mtime": 1778680599.7154279,
+    "hash": "7d530795922ad9411a0704dc23c5a9d8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/assets/readme.md": {
+    "mtime": 1778680599.6865542,
+    "hash": "f6988bc9efcef9c57c3c22e58de07905"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/readme.md": {
+    "mtime": 1775640520.3134418,
+    "hash": "a34d25a53ebcb375398750b9f4e22b6c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "0c447fd1bb8ea02c97837e2961286d3a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/readme.md": {
+    "mtime": 1775640520.305633,
+    "hash": "5467b643fa17eae5a70d5803309f773a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-3-2026-02-04-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "3071a3b20bfc74707da6325c6997b32d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-7-2026-03-04-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "308bd4d407a240fdccb6d6c8bc1da69d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-1-2026-01-21-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "b9f9083eb08e36e54c875539a527ee83"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-5-2026-02-18-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "8d3ec09d28c85ff377e927fdf1ef4ff2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-2-2026-01-27-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "d91d1be43e8d3a3c1f93448910e0464b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-6-2026-02-25-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "7f1c47bcd4c2560355d20766879a245f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-4-2026-02-11-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "848415f173b52cd9cdd7537cdcc106f9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/readme.md": {
+    "mtime": 1775640520.3134418,
+    "hash": "c12fcafb440fa2526c0d89afa62f6ca8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-6-2026-02-25-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "0aa1fd9b6f49e792b3f165e2fb96f690"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "7759cc095cc2c880646f2db2df32141b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-5-2026-02-18-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "22d4ee785edc56a9f5d78de5e02e158d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-1-2026-01-21-v01.md": {
+    "mtime": 1777377321.78069,
+    "hash": "a2421c516d834af0532addb83fa42af8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-3-2026-02-04-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "b903ab1a7151dc80dba1940b638151c8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-7-2026-03-04-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "f341177c9d71b06abd52c977ec6a534a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-2-2026-01-27-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "d991f25a718705cde8519d22a9b7fc91"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-4-2026-02-11-v01.md": {
+    "mtime": 1777377321.784775,
+    "hash": "83885d992bd6a765d7e6ecf881840f39"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/plans/2026-05-02-uc-8-2-sequence.md": {
+    "mtime": 1777974591.8351412,
+    "hash": "8a68f32913489a381f3590f4ffe02d0f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/plans/2026-05-02-uc-8-2-functional-requirements.md": {
+    "mtime": 1777974591.8351412,
+    "hash": "afd7df10ebaced6dd7d8c64cb3d3663a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/plans/README.md": {
+    "mtime": 1778680599.7236776,
+    "hash": "54a77c2254508b1aaab26741124a8647"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/plans/2026-05-02-uc-8-2-edo-integration.md": {
+    "mtime": 1777974591.8351412,
+    "hash": "77ac5121130796790f63aa9c3518810b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/plans/2026-05-02-uc-8-2-document.md": {
+    "mtime": 1778680599.7195528,
+    "hash": "090bcdfb6c5fd3b9d4921095fbeb7224"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/demo-5-slides.pdf": {
+    "mtime": 1778579027.9849992,
+    "hash": "e6fe4e767dc51491c01fc0a46147a746"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/demo-4-slides.pdf": {
+    "mtime": 1778579027.785001,
+    "hash": "28292245049a48ea77b43b4a99804beb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-bp-client-profile-and-vehicles.jpg": {
+    "mtime": 1775141540.9327586,
+    "hash": "36e61e4f71f6262ee4f87831a52c1f44"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-bp-booking-and-contract.jpg": {
+    "mtime": 1775141540.8764253,
+    "hash": "de9940e70dfccf7c342f46fc17583f82"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-sd-team-board.jpg": {
+    "mtime": 1775141541.067092,
+    "hash": "b3f3c503a92b729574bec792bdc5430f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-bp-payment.jpg": {
+    "mtime": 1775141540.9674253,
+    "hash": "1eb7a03c9eaee61c59562b8223eb7cd2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-sd-contexts.jpg": {
+    "mtime": 1778680599.6824293,
+    "hash": "3074bdb674e7c6e76083ec532597faaa"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/es-to-be/assets/es-tobe-sd-access-and-parking-flow.jpg": {
+    "mtime": 1775141540.9760919,
+    "hash": "3afa91482cb862881703c2b60bbe3afd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/use-case/assets/use-case-diagram.jpg": {
+    "mtime": 1775141541.1927586,
+    "hash": "f0ade988357c486f85e01d0571ece8ff"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/algorithms/assets/drakon-parking-payment-primitive.png": {
+    "mtime": 1775141539.7107584,
+    "hash": "1352da3441a26d2613263b4d90531f13"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/algorithms/assets/drakon-parking-payment-silhouette.png": {
+    "mtime": 1775141539.7194252,
+    "hash": "d65145062f912bf93211c864aae02336"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/uml-class-domain-as-is.jpg": {
+    "mtime": 1775141540.1700919,
+    "hash": "ee5ad352be64de6ba67046a72f0c17a4"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg": {
+    "mtime": 1775141540.0054252,
+    "hash": "b557958bab42fe48d015fc096195e4ac"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-client-identification.jpg": {
+    "mtime": 1775141539.7584252,
+    "hash": "942cce4686b79297e52fa008a9d03292"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-payment-individual-and-legal-clients.jpg": {
+    "mtime": 1775141539.9794252,
+    "hash": "32b7f68465c564320829b1f17eee8a69"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-search-parking-space.jpg": {
+    "mtime": 1775141540.0400918,
+    "hash": "aa33f27e3e9ca2e6a97d802eabb2e1fc"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-contract-signing.jpg": {
+    "mtime": 1775141539.836425,
+    "hash": "c2dbd3b457fb8060384f287399534910"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/bpmn-parking-exit.jpg": {
+    "mtime": 1775141539.8927584,
+    "hash": "8c89ab75c7a143eed5ecb3e570f94ece"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/uml-state-contract-with-individual.jpg": {
+    "mtime": 1775141540.1917584,
+    "hash": "208c82daf5f6499a61540e9b6a6ce311"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/event-storming-as-is.jpg": {
+    "mtime": 1775141540.083425,
+    "hash": "1696b3cdc16fb1970ba01004d7f51b02"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/as-is/assets/parking-as-is-diagram.jpg": {
+    "mtime": 1775141540.135425,
+    "hash": "824847610661b8617636fe1b4c291b4a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/infosec/assets/bow-tie-unauthorized-access-to-system-and-data.jpg": {
+    "mtime": 1775141541.1364253,
+    "hash": "580d5e71bd72e19c724bfd28bbeec7ad"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/conceptual-model-with-attributes.jpg": {
+    "mtime": 1775141540.2264252,
+    "hash": "9b86fc246828a1591c903668165603d0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/dfd-l1.jpg": {
+    "mtime": 1777544360.6436408,
+    "hash": "8aa0f4b97bb169bd7fbefba753c3b245"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/user-story-map.jpg": {
+    "mtime": 1775141540.820092,
+    "hash": "c177fa331463563060c20a82c8ec2c24"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/navigation-map.jpg": {
+    "mtime": 1775141540.4907584,
+    "hash": "533e19282f4eab330127ca57ec834fed"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/context-diagram.jpg": {
+    "mtime": 1775141540.2697585,
+    "hash": "43f68e72e83c452ac76b6bb039821bf2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/impact-map.jpg": {
+    "mtime": 1775141540.395425,
+    "hash": "8549d1693aad9d2974329f44fa7c8c42"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/artifacts/assets/opportunity-canvas.jpg": {
+    "mtime": 1778680599.6783044,
+    "hash": "a1f184ef1b20d570afc2acc3ab247d75"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/r-l2.png": {
+    "mtime": 1777974591.823037,
+    "hash": "101426a93b16f1694c1960a56e1b41c0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/k-l1.jpg": {
+    "mtime": 1777974591.8190022,
+    "hash": "a7b18a2a44e135e2e1a2f972a3bf93a7"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-ok.jpeg": {
+    "mtime": 1778680599.670055,
+    "hash": "dde12c5eb365aee1865420a59bf4eb8a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/openapi-uc-12-1-access-check-swagger-error.jpeg": {
+    "mtime": 1778680599.670055,
+    "hash": "8a6fb774f2443ffb2debba7ede5eee26"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/r-l1.png": {
+    "mtime": 1777974591.823037,
+    "hash": "784d3e8db6d013ea8aa05b248bbd1d65"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/sequence-uc-10-2-pay-online-short-term-rental.png": {
+    "mtime": 1778680599.6741796,
+    "hash": "f4ce01e02f7307515a5b9ffe0c3d70a9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/openapi-uc-10-6-receipt-swagger-error.jpeg": {
+    "mtime": 1778680599.6618052,
+    "hash": "d277a083ca1f1370bfd109733dbfce1d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/openapi-uc-10-6-receipt-swagger-ok.jpeg": {
+    "mtime": 1778680599.66593,
+    "hash": "e5a8b68bc8c18e6e2108af43b117bcc2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/integration/assets/k-l2.jpg": {
+    "mtime": 1777974591.8190022,
+    "hash": "322d16828bd53a5f75fea2eb40a1503d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/c4/assets/c4-l3-component.png": {
+    "mtime": 1777381264.2236657,
+    "hash": "56481bf3f4ce2ed6659bac63e2ead61a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/c4/assets/c4-l1-system-context.png": {
+    "mtime": 1777381264.2071898,
+    "hash": "a623de0b665a7356d18328a3f2a6833f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/c4/assets/c4-l2-container.png": {
+    "mtime": 1777381264.2113087,
+    "hash": "3377b8612d12c2e46c2e45cc2f3b3bb0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/architecture/database/erd/assets/erd-normalized-er-model.png": {
+    "mtime": 1775823289.532949,
+    "hash": "f6e1c8f5eb174305024081ea2a09b6b9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/47.jpg": {
+    "mtime": 1778579027.881,
+    "hash": "5bcb4f156d917195fc60cfc6b9aed223"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/29.jpg": {
+    "mtime": 1778579027.8450005,
+    "hash": "e5bb79bd898bbcc0acc84b5c604159e0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/17.jpg": {
+    "mtime": 1778579027.8170006,
+    "hash": "70ab69e146c51c8fa139bd67398ab736"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/43.jpg": {
+    "mtime": 1778579027.8730001,
+    "hash": "d6c45bcc172979000bf00f0e2f3f1b4b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/44.jpg": {
+    "mtime": 1778579027.8730001,
+    "hash": "c4dd2a3834bad5e53a32893f6192181e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/46.jpg": {
+    "mtime": 1778579027.877,
+    "hash": "cb375472bcc703917f0610b8a5b78358"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/30.jpg": {
+    "mtime": 1778579027.8490005,
+    "hash": "582acb4e5cc340b6409a4342ae12c4ce"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/42.jpg": {
+    "mtime": 1778579027.8690002,
+    "hash": "2a813ea3663803d26a15d338da3bd5bd"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/18.jpg": {
+    "mtime": 1778579027.8290005,
+    "hash": "487fd6e8582568f1d731bc08459ef55b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/02.jpg": {
+    "mtime": 1778579027.789001,
+    "hash": "3d2fbc81fa849a07c71b34a996961913"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/48.jpg": {
+    "mtime": 1778579027.881,
+    "hash": "94cb5d22d940033a77b3f939c3319da4"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/23.jpg": {
+    "mtime": 1778579027.8370004,
+    "hash": "f378201761643bbc0d34e3d87f5b1da4"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/09.jpg": {
+    "mtime": 1778579027.8050008,
+    "hash": "cf3632b69f9077e5c6f9331d0736517e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/19.jpg": {
+    "mtime": 1778579027.8330004,
+    "hash": "5555ac056e3b0c8baad74cd77a1ad338"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/07.jpg": {
+    "mtime": 1778579027.8010008,
+    "hash": "d332097c5afa4c8ff92bc7c4ffc78b9a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/11.jpg": {
+    "mtime": 1778579027.8090007,
+    "hash": "000c05343720eee16c7bc1e00a5efe22"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/04.jpg": {
+    "mtime": 1778579027.793001,
+    "hash": "21026e66978d6224b34b031d48a0fafb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/26.jpg": {
+    "mtime": 1778579027.8410003,
+    "hash": "1dce85766a96450dc703f4cfc5ded078"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/31.jpg": {
+    "mtime": 1778579027.8490005,
+    "hash": "5462e58f4afe7e8615ea3643e4100d53"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/22.jpg": {
+    "mtime": 1778579027.8370004,
+    "hash": "3f5ab73612a9886e4fcc12eda7ef582d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/34.jpg": {
+    "mtime": 1778579027.8570004,
+    "hash": "adcb828608e96c9e6b813f122b67fa13"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/21.jpg": {
+    "mtime": 1778579027.8370004,
+    "hash": "9924863dc1c9d45888f46b22bbfbc9db"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/25.jpg": {
+    "mtime": 1778579027.8410003,
+    "hash": "c9f11c596ee7d84bed7bc1df240c151e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/49.jpg": {
+    "mtime": 1778579027.885,
+    "hash": "d058570e22d93a4cb962a354dd54c2b3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/40.jpg": {
+    "mtime": 1778579027.8650002,
+    "hash": "d14bf8c15b275b8883037a7f91ab09df"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/37.jpg": {
+    "mtime": 1778579027.8610003,
+    "hash": "fcb153ec77f5340bcff36a02578b1a25"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/16.jpg": {
+    "mtime": 1778579027.8170006,
+    "hash": "1a732e2a4028bbe77456521e142719ef"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/32.jpg": {
+    "mtime": 1778579027.8530004,
+    "hash": "a3fd51cd823357a2551c54c15b9214f1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/03.jpg": {
+    "mtime": 1778579027.793001,
+    "hash": "0573a289e7c829492c49c80914f8f194"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/13.jpg": {
+    "mtime": 1778579027.8130007,
+    "hash": "3762139f58e312932034302d56d3bb81"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/28.jpg": {
+    "mtime": 1778579027.8450005,
+    "hash": "9325cd35c713038fce811e575eefce4f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/38.jpg": {
+    "mtime": 1778579027.8650002,
+    "hash": "95dd7ebf2b92832c7a7e62481fb19b22"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/45.jpg": {
+    "mtime": 1778579027.877,
+    "hash": "a468a4bcd18266fa1dcb72e5028b23b0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/39.jpg": {
+    "mtime": 1778579027.8650002,
+    "hash": "979b221a09efed35f06d864a34685c2f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/05.jpg": {
+    "mtime": 1778579027.797001,
+    "hash": "85453a4173b41a3a74b053f85049d268"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/50.jpg": {
+    "mtime": 1778579027.885,
+    "hash": "66593a4484e9ffc009edf9623c2de31c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/35.jpg": {
+    "mtime": 1778579027.8570004,
+    "hash": "42831c1968f0a363e7390960741a44d2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/33.jpg": {
+    "mtime": 1778579027.8530004,
+    "hash": "f2ab423f2eabaf7fa6019b9bff6a5590"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/24.jpg": {
+    "mtime": 1778579027.8410003,
+    "hash": "e5e9fd3fd6e57c4f126c167590594e54"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/36.jpg": {
+    "mtime": 1778579027.8610003,
+    "hash": "440cb6af5fdf6f888c001802fe63982d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/01.jpg": {
+    "mtime": 1778579027.789001,
+    "hash": "3a5ef9fac547274a63b359f711469cbe"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/20.jpg": {
+    "mtime": 1778579027.8330004,
+    "hash": "997960a3757f2b28ac7fcaf228b84d88"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/14.jpg": {
+    "mtime": 1778579027.8130007,
+    "hash": "468b84eb5322b562d826356ead6f5112"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/15.jpg": {
+    "mtime": 1778579027.8130007,
+    "hash": "767d042d8bd2b216d601cb093d717ed6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/10.jpg": {
+    "mtime": 1778579027.8050008,
+    "hash": "1a33bafb4b3b4836dc02505599e5e37d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/06.jpg": {
+    "mtime": 1778579027.797001,
+    "hash": "61a3d3e8da097e7f65f0185d367f29b1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/12.jpg": {
+    "mtime": 1778579027.8090007,
+    "hash": "f996d41b37f87d5ff0266686936e69b0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/27.jpg": {
+    "mtime": 1778579027.8410003,
+    "hash": "70f02f48de49ee5da0dd55b5b81a17d8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/41.jpg": {
+    "mtime": 1778579027.8690002,
+    "hash": "eb9bee4be6e3b311d01ecace3372a781"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-5/slides/08.jpg": {
+    "mtime": 1778579027.8010008,
+    "hash": "a57fff1d6c4bf741d8421f581be81ab2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/17.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "ec81566d977c13544c3b7ff4c2ae1392"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/18.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "9223dca9f71a7fac5c646ba697108e8a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/02.jpg": {
+    "mtime": 1775141541.2100918,
+    "hash": "58e994ee46fd7b7bbc6b5eee65eaf9e3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/23.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "9e6afd21e95158bf0e29792e54864239"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/09.jpg": {
+    "mtime": 1775141541.2187586,
+    "hash": "6963d31e54617ccd21c1efd59e6d7d69"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/19.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "04d3cb194aac83c87a81cadfe1798315"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/07.jpg": {
+    "mtime": 1775141541.2144253,
+    "hash": "c171ac0759ceea3ba85c09d3ed3c0500"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/11.jpg": {
+    "mtime": 1775141541.2187586,
+    "hash": "4295909bfd62b455e47593e796d49ec9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/04.jpg": {
+    "mtime": 1775141541.2144253,
+    "hash": "89aeabd1627579184af52c81ea7c3cef"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/22.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "115c6c1f0d59f50a396b243f12019392"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/21.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "f69760f29814ca939ecf0767d098ff8b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/25.jpg": {
+    "mtime": 1775141541.2317586,
+    "hash": "c8080347d7a7315ebf195773e1e22a5f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/16.jpg": {
+    "mtime": 1775141541.2230918,
+    "hash": "d15e62c90b3db776191724d17f05599f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/03.jpg": {
+    "mtime": 1775141541.2144253,
+    "hash": "399df4395bfc387b13eb02ca053e2fe5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/13.jpg": {
+    "mtime": 1775141541.2230918,
+    "hash": "1a2a9ac1d31a833d60700d899328d869"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/05.jpg": {
+    "mtime": 1775141541.2144253,
+    "hash": "2ce912377ee9ac189d211dba1ecba364"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/24.jpg": {
+    "mtime": 1775141541.2317586,
+    "hash": "ce9455076a716539e76f9e41c9033cde"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/01.jpg": {
+    "mtime": 1775141541.2100918,
+    "hash": "1e0efcda0aaa515d2956f8900f2d2e9f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/20.jpg": {
+    "mtime": 1775141541.2274253,
+    "hash": "ff45011c8498df495f0ceb249a85b1f1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/14.jpg": {
+    "mtime": 1775141541.2230918,
+    "hash": "d9f17af14a1917b06c8666b01e236e48"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/15.jpg": {
+    "mtime": 1775141541.2230918,
+    "hash": "58bfc0f81be687c182df0fed61b49042"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/10.jpg": {
+    "mtime": 1775141541.2187586,
+    "hash": "bdd274cad66fecd2661be91529c5246a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/06.jpg": {
+    "mtime": 1775141541.2144253,
+    "hash": "1b59af6d6746ffe4338249fee0c23f62"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/12.jpg": {
+    "mtime": 1775141541.2230918,
+    "hash": "2fbe4d1df68c796cb1c81f54db7f1d4d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-2/slides/08.jpg": {
+    "mtime": 1775141541.2187586,
+    "hash": "c97005603dc07222ed2ff3ad9e7735db"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/29.jpg": {
+    "mtime": 1778579027.7370014,
+    "hash": "645ac7d83c8f3472be01676cc298032f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/17.jpg": {
+    "mtime": 1778579027.5930028,
+    "hash": "f3b1103302d0278f4338bdd27bc202d8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/30.jpg": {
+    "mtime": 1778579027.7410014,
+    "hash": "53a561b4dc9b1afb2cf476713acf0b3a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/18.jpg": {
+    "mtime": 1778579027.5930028,
+    "hash": "4ffd218a5a9e222f21f7c8419f36bb22"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/02.jpg": {
+    "mtime": 1778579027.565003,
+    "hash": "1d963e88d03843ad8fc363dafa4fd81d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/23.jpg": {
+    "mtime": 1778579027.6010027,
+    "hash": "1dd93dd5983e899c1b71c869731760a2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/09.jpg": {
+    "mtime": 1778579027.577003,
+    "hash": "a76ff5a05b3daf2a86faa565ee7100ef"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/19.jpg": {
+    "mtime": 1778579027.5930028,
+    "hash": "8b8ebb4a4300a46101d33ee08e07e560"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/07.jpg": {
+    "mtime": 1778579027.5730028,
+    "hash": "0c8c7290bbbe0e7847b2f740224b5268"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/11.jpg": {
+    "mtime": 1778579027.581003,
+    "hash": "d95f0ccdebd2a0499aa66dcc3324a38a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/04.jpg": {
+    "mtime": 1778579027.565003,
+    "hash": "0488290aa97ef31a73eba06ee68fbc81"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/26.jpg": {
+    "mtime": 1778579027.7010016,
+    "hash": "86c1d4bf47931adaee7630b0f30c20fb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/31.jpg": {
+    "mtime": 1778579027.7410014,
+    "hash": "686ca5ee67ace2304af24e50d3786215"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/22.jpg": {
+    "mtime": 1778579027.6010027,
+    "hash": "5ee7098eb9812c90f072fbd515afb624"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/21.jpg": {
+    "mtime": 1778579027.5970027,
+    "hash": "0cb4b03802553265bb357290823a11c3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/25.jpg": {
+    "mtime": 1778579027.6050026,
+    "hash": "c86f96104d7dc8b95d395436b98d6b57"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/16.jpg": {
+    "mtime": 1778579027.5890028,
+    "hash": "2e8b9301ca0a8b3e416ae2e9373100f0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/32.jpg": {
+    "mtime": 1778579027.7450013,
+    "hash": "9fad46541a40525930d4b467ffc05913"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/03.jpg": {
+    "mtime": 1778579027.565003,
+    "hash": "abddd7317136b0796b93368868773f68"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/13.jpg": {
+    "mtime": 1778579027.585003,
+    "hash": "ecfaf516e5ab8d1b715fa2d92e0581e3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/28.jpg": {
+    "mtime": 1778579027.7370014,
+    "hash": "e2793dca40bd121e22c57fae30d85058"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/05.jpg": {
+    "mtime": 1778579027.5690029,
+    "hash": "e4c242d833cf1365f479a32cb6acf133"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/33.jpg": {
+    "mtime": 1778579027.7490013,
+    "hash": "d7685b08564993ec08d8d68b76c8eb98"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/24.jpg": {
+    "mtime": 1778579027.6050026,
+    "hash": "77d0ca99fc10657ba7dbf04ad7e45504"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/01.jpg": {
+    "mtime": 1778579027.561003,
+    "hash": "cc32bdb6d571e1a60880562be5504c2d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/20.jpg": {
+    "mtime": 1778579027.5970027,
+    "hash": "09e2bb1e049a001b4b1571a10bcf523c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/14.jpg": {
+    "mtime": 1778579027.585003,
+    "hash": "61ffe469a75b12e30a4d263bac5d686a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/15.jpg": {
+    "mtime": 1778579027.5890028,
+    "hash": "fe4db2189f332cc7bdd889e9965fbca9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/10.jpg": {
+    "mtime": 1778579027.581003,
+    "hash": "89c66a336cd03c5b3ade6a4b1083f4be"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/06.jpg": {
+    "mtime": 1778579027.5730028,
+    "hash": "6fd2e105a3992d811ea0d52e2ee8fc49"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/12.jpg": {
+    "mtime": 1778579027.585003,
+    "hash": "b0df1b5c7cd85d497077f6523ab23558"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/27.jpg": {
+    "mtime": 1778579027.7370014,
+    "hash": "ba1b17d30fcb1f0c1edb54a52816bddc"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-4/slides/08.jpg": {
+    "mtime": 1778579027.577003,
+    "hash": "59ad08bb0ee9925a9334123c93aa48f0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/29.jpg": {
+    "mtime": 1775141541.2490919,
+    "hash": "bf419d0ae40e4e10da9ba363a010ccb4"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/17.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "1efbe3425966987b263c7d51b5b6aa67"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/30.jpg": {
+    "mtime": 1775141541.2490919,
+    "hash": "8dfa7964581345798e1f04b30d052483"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/18.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "d205f5dea94b9c4bceebe0c6189b7aa5"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/02.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "58e994ee46fd7b7bbc6b5eee65eaf9e3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/23.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "0e850ecb62a5226c491961e160a58f54"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/09.jpg": {
+    "mtime": 1775141541.2404253,
+    "hash": "2de877aed3993d5b8e8e4f6d2b692dc3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/19.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "be2b525e14c2883c30f47eab1638ca57"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/07.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "ba5b7d9b7c5ce214d711b66b239a27be"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/11.jpg": {
+    "mtime": 1775141541.2404253,
+    "hash": "b743283b1d93279cfe365cea0316f9b2"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/04.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "efefaf50d8c1a3c666a2f9bf64e68823"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/26.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "372d6b2ab6d2a7520ae1e89b7935eb43"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/31.jpg": {
+    "mtime": 1775141541.2490919,
+    "hash": "01ca8c16dd751ed3108df3ab326f6634"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/22.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "2d5869228edc862bc6fed555375bdd2f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/34.jpg": {
+    "mtime": 1775141541.2534254,
+    "hash": "245069eeaac361fa117efa64cb38c75b"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/21.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "f04b5fbf11e4bc94b3957d596f126330"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/25.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "ed7b7c7f9d03f6839ecd1929b8be0313"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/16.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "fad23b51148f7a174a3f89a5557f9a48"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/32.jpg": {
+    "mtime": 1775141541.2534254,
+    "hash": "b6e8692459eecd56f0d97e7269532313"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/03.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "11ce7bd9b7d120b8d4f2fded722b586e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/13.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "49110abf58ce8817c22b19be29bbcc4d"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/28.jpg": {
+    "mtime": 1775141541.2490919,
+    "hash": "d93757a7a9ca1411acebc7d1b4b1a9ff"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/05.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "15410485d975b409c1a6d00ae2d44f66"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/35.jpg": {
+    "mtime": 1775141541.2534254,
+    "hash": "fcad3be5f4194ef7582b13262f1d1796"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/33.jpg": {
+    "mtime": 1775141541.2534254,
+    "hash": "942fd624728898166e01a90ab5c1de21"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/24.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "2d3e5ac2b121a25ad30ac0e9769afafb"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/36.jpg": {
+    "mtime": 1775141541.2534254,
+    "hash": "39d7b9645297449801f5418973d0513a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/01.jpg": {
+    "mtime": 1775141541.2317586,
+    "hash": "387885ef6871648a57e44441319b1755"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/20.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "aa682f249c7876498d5d6bf10c8a6227"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/14.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "c31ee17715ea1b8df1cd228cd2d228f1"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/15.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "8cfca8ce411387d2247ae1acfabaf352"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/10.jpg": {
+    "mtime": 1775141541.2404253,
+    "hash": "725b91501a4d80b90c7bfc11a416605c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/06.jpg": {
+    "mtime": 1775141541.2360919,
+    "hash": "e77f04431ba927c8055f45c95beca5ce"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/12.jpg": {
+    "mtime": 1775141541.2404253,
+    "hash": "d8153418e9a88513af9e3f75fbaa2497"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/27.jpg": {
+    "mtime": 1775141541.2447586,
+    "hash": "3681205bec42f28ca2b6528806dde835"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-3/slides/08.jpg": {
+    "mtime": 1775141541.2404253,
+    "hash": "a2e9d7c5a64c952623615de6ab95ad2f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/02.jpg": {
+    "mtime": 1775141541.1970918,
+    "hash": "fc6d171a6e1ec324b75cd0ab708aed36"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/09.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "2b28aa5ae4a6c0db62fb92de25e76c54"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/07.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "af32eb7fc1dbf78788ed6d6413eb27af"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/11.jpg": {
+    "mtime": 1775141541.2057586,
+    "hash": "2ce73cec6795614e06e799b43ebaa69a"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/04.jpg": {
+    "mtime": 1775141541.1970918,
+    "hash": "96d6266d195fceb157cb8057c7c1f24c"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/16.jpg": {
+    "mtime": 1775141541.2100918,
+    "hash": "0cb3ca53844307950f5124876f51f8b9"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/03.jpg": {
+    "mtime": 1775141541.1970918,
+    "hash": "072e5a185e962c467c53eeefbdfdb4c8"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/13.jpg": {
+    "mtime": 1775141541.2057586,
+    "hash": "bd386996a49097cc2facaec7b90cb173"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/05.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "b5dd1d13517cc8a03c191844f67fe227"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/01.jpg": {
+    "mtime": 1775141541.1970918,
+    "hash": "d82cb81f794396adf51fb55be0382fa4"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/14.jpg": {
+    "mtime": 1775141541.2057586,
+    "hash": "61c75c44609ba331e87316206a3a4b64"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/15.jpg": {
+    "mtime": 1775141541.2100918,
+    "hash": "e912e8622558be5d756265c476a848de"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/10.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "e4b1c5d29fe33c38dfc57ee74cbc0800"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/06.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "9ea9b90bce989aa8ed4e931b5836476f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/12.jpg": {
+    "mtime": 1775141541.2057586,
+    "hash": "72bb957f36633e1879a5c430b8e33bb0"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/demo-days/demo-1/slides/08.jpg": {
+    "mtime": 1775141541.2014253,
+    "hash": "cede68346a8d021fbe9d03260a85ff6f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stage-1-business-research.png": {
+    "mtime": 1778680599.6948037,
+    "hash": "9f0b368a2a49fb3c7742c645d69b1ca6"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stage-4-architecture.png": {
+    "mtime": 1778680599.7113032,
+    "hash": "2d09fb2e8ddf2c0486cf66346dea2947"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stages.jpg": {
+    "mtime": 1775640520.5203753,
+    "hash": "82945b2dc1d9a38177f9dc85ef8d458f"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stage-3-functional-design.png": {
+    "mtime": 1778680599.7030535,
+    "hash": "b591012ed08fb145cf52d1f5fa1a8c33"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stage-5-integrations.png": {
+    "mtime": 1778680599.7154279,
+    "hash": "8eaf60810476f787ef0824d5094b221e"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/process/assets/project-journey-stage-2-conceptual-design.png": {
+    "mtime": 1778680599.6989286,
+    "hash": "07652862f1e69a3e9f9a58e2fe3efcf3"
+  },
+  "/home/cejidb/cursor/sab-win-26-mine-parking/docs/assets/social-preview.png": {
+    "mtime": 1778680599.690679,
+    "hash": "a455063ed5a0d04399c1fe5d79587fc9"
+  }
+}

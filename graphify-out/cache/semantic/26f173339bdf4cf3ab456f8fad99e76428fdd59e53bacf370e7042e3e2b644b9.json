@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_use_case_registry",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 Use Case",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "docs/artifacts/use-case/use-case-registry.md",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_client_fl",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u041a\u043b\u0438\u0435\u043d\u0442 \u0424\u041b (\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_client_ul",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u041a\u043b\u0438\u0435\u043d\u0442 \u042e\u041b (\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_manager",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_guard",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_owner",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u0412\u043b\u0430\u0434\u0435\u043b\u0435\u0446",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_actor_system",
+      "label": "\u0410\u043a\u0442\u043e\u0440: \u0421\u0438\u0441\u0442\u0435\u043c\u0430 (\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b)",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_registry",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 Use Case (\u043a\u0430\u043d\u043e\u043d\u0438\u0447\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0447\u0435\u043d\u044c UC-1.1..UC-16.3)",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_use_case_registry",
+      "target": "use_case_use_case_diagram",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_client_fl",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_client_ul",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_manager",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_guard",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_owner",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_use_case_registry",
+      "target": "concept_actor_system",
+      "relation": "involves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0440\u0435\u0435\u0441\u0442\u0440\u0430 UC \u2014 \u0421\u0438\u0441\u0442\u0435\u043c\u0430",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_7_1_create_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 105",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_7_2_view_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 106",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_5_5_create_notification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 94",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_8_1_create_contract_fl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 115",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_8_2_create_contract_legal_entity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 116",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_registry",
+      "target": "use_case_uc_12_6_auto_exit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": "line 154",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

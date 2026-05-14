@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo3_29_functional_requirements_section",
+      "label": "Раздел: Функциональные требования к ПО (слайд-заглушка)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/29.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_17_crudl_matrix",
+      "label": "CRUDL-матрица: роли (Клиент ФЛ, ЮЛ, Владелец, Управляющий, Охранник/Оператор) × сущности (Профиль клиента, Паспортные данные, Льготный документ, Организация, ТС, Образец) с операциями C/R/U/D/L; CRUD-модель — основа для API и тест-кейсов",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/17.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_30_functional_requirements_detail",
+      "label": "Функциональные требования к ПО: группировка Роль.Объект.Действие; роли — Клиент ФЛ/ЮЛ, Охранник, Управляющий, Владелец; пример: КлиентФЛ.Бронирование.Создать — атрибуты [ТС]:госНомер, [Тариф]:наименование, [ПМ]:номерМеста, [Сектор]:наименование, датаНачала, длительность",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/30.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Марина",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_18_user_interfaces_section",
+      "label": "Раздел: Пользовательские интерфейсы (слайд-заглушка, схема навигации экранов и макеты)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/18.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_02_context_and_current_situation",
+      "label": "Контекст и текущая ситуация: объект — частный открытый паркинг СПб, 600 машиномест (50 ОВЗ), 24/7; проблемы — учет в Excel, шлагбаум без интеграции, физические карты доступа, наличные/терминал",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_23_mobile_wireframes",
+      "label": "Мобильные вайрфреймы: Экран 1 — Личный кабинет клиента (активная парковочная сессия, быстрые действия, планируемое бронирование); Экран 2 — Создать бронирование (ТС, тариф, дата начала, итого); Экран 3 — Управление бронированием (список активных бронирований с секторами/ПМ/тарифами)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/23.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_09_context_diagram_four_benefits",
+      "label": "Четыре ключевые пользы контекстной диаграммы: 1) Границы ответственности платформы; 2) Внешнее окружение — кто взаимодействует; 3) Ключевые потоки данных через границы; 4) Основа для Use Case, концептуальной модели данных и функциональных требований",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/09.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Артем",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_19_user_flow_split",
+      "label": "Разделение потока пользователей: As-Is — все потоки через Охранников на КПП; To-Be — три канала: Публичный сайт, Интерфейс сотрудника, Личный кабинет",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/19.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo3_07_as_is_to_be",
+      "label": "As-Is → To-Be трансформация: As-Is — физические карты доступа, учет в Excel/бумага, охрана проверяет вручную; To-Be — номерной знак как ключ доступа, СКУД передает событие системе, авто-бронирование по въезду, охрана в роли контроля исключений; эффект — въезд цифровой и трассируемый",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/07.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo3_29_functional_requirements_section",
+      "target": "slides_demo3_30_functional_requirements_detail",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/29.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_30_functional_requirements_detail",
+      "target": "slides_demo3_17_crudl_matrix",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/30.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_18_user_interfaces_section",
+      "target": "slides_demo3_19_user_flow_split",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/18.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_19_user_flow_split",
+      "target": "slides_demo3_23_mobile_wireframes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/19.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_02_context_and_current_situation",
+      "target": "slides_demo3_07_as_is_to_be",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/02.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_07_as_is_to_be",
+      "target": "slides_demo3_09_context_diagram_four_benefits",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/07.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo3_09_context_diagram_four_benefits",
+      "target": "slides_demo3_30_functional_requirements_detail",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/09.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo3_09_context_diagram_four_benefits",
+      "target": "slides_demo3_17_crudl_matrix",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-3/slides/09.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

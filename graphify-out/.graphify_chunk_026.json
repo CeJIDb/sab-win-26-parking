@@ -1,0 +1,716 @@
+{
+  "nodes": [
+    {
+      "id": "assets_bpmn_provide_parking_space_diagram",
+      "label": "BPMN: Предоставление парковочного места (AS-IS)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_lane_sistema_shlagbauma",
+      "label": "Swimlane: Система шлагбаума",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_lane_klient",
+      "label": "Swimlane: Клиент",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_lane_predostavlenie",
+      "label": "Swimlane: Предоставление парковочного места",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "label": "Swimlane: Охранник",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_start_event",
+      "label": "Start Event: Клиент подъехал к КПП",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_end_event",
+      "label": "End Event: Клиент выехал с парковки",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_auto_identification",
+      "label": "Gateway: Произошла автоматическая идентификация?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_access_permitted_1",
+      "label": "Gateway: Доступ разрешен? (система шлагбаума)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_open_shlagbaum_1",
+      "label": "Activity: Открыть шлагбаум (въезд, система шлагбаума)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "label": "Activity: Идентификация клиента (охранник, subprocess)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_ds_baza_klientov",
+      "label": "Data Store: База клиентов",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_ds_baza_dogovorov",
+      "label": "Data Store: База договоров",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_ds_zhurnal_vyezda",
+      "label": "Data Store: Журнал въезда/выезда",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_access_permitted_2",
+      "label": "Gateway: Доступ разрешен? (охранник)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_need_dogovor",
+      "label": "Gateway: Необходимо заключить договор?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_zaklyuchenie_dogovora",
+      "label": "Activity: Заключение договора (subprocess)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_do_dogovor",
+      "label": "Data Object: Договор",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_need_oplata",
+      "label": "Gateway: Необходимо внести оплату?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_oplata",
+      "label": "Activity: Оплата (subprocess)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_need_proximity",
+      "label": "Gateway: Необходимо выдать прокси-карту?",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_vydat_proximity",
+      "label": "Activity: Выдать прокси-карту",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_after_ohrannik",
+      "label": "Gateway: Слияние после охранника (въезд)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_open_shlagbaum_2",
+      "label": "Activity: Открыть шлагбаум (въезд, охранник)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_navigaciya",
+      "label": "Activity: Навигация к парковочному месту (клиент, subprocess)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_act_vyezd",
+      "label": "Activity: Выезд с парковки (клиент, subprocess)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "assets_bpmn_provide_parking_space_gw_klient_join",
+      "label": "Gateway: Слияние (клиент, после навигации/выезда)",
+      "file_type": "image",
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "assets_bpmn_provide_parking_space_diagram",
+      "target": "assets_bpmn_provide_parking_space_lane_sistema_shlagbauma",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_diagram",
+      "target": "assets_bpmn_provide_parking_space_lane_klient",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_diagram",
+      "target": "assets_bpmn_provide_parking_space_lane_predostavlenie",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_diagram",
+      "target": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_start_event",
+      "target": "assets_bpmn_provide_parking_space_gw_auto_identification",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_auto_identification",
+      "target": "assets_bpmn_provide_parking_space_gw_access_permitted_1",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_auto_identification",
+      "target": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_access_permitted_1",
+      "target": "assets_bpmn_provide_parking_space_act_open_shlagbaum_1",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "target": "assets_bpmn_provide_parking_space_ds_baza_klientov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "target": "assets_bpmn_provide_parking_space_ds_baza_dogovorov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "target": "assets_bpmn_provide_parking_space_gw_access_permitted_2",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_access_permitted_2",
+      "target": "assets_bpmn_provide_parking_space_gw_need_dogovor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_dogovor",
+      "target": "assets_bpmn_provide_parking_space_act_zaklyuchenie_dogovora",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_zaklyuchenie_dogovora",
+      "target": "assets_bpmn_provide_parking_space_do_dogovor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_zaklyuchenie_dogovora",
+      "target": "assets_bpmn_provide_parking_space_gw_need_oplata",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_dogovor",
+      "target": "assets_bpmn_provide_parking_space_gw_need_oplata",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_oplata",
+      "target": "assets_bpmn_provide_parking_space_act_oplata",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_oplata",
+      "target": "assets_bpmn_provide_parking_space_ds_baza_dogovorov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_oplata",
+      "target": "assets_bpmn_provide_parking_space_gw_need_proximity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_oplata",
+      "target": "assets_bpmn_provide_parking_space_gw_need_proximity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_proximity",
+      "target": "assets_bpmn_provide_parking_space_act_vydat_proximity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_vydat_proximity",
+      "target": "assets_bpmn_provide_parking_space_gw_after_ohrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_need_proximity",
+      "target": "assets_bpmn_provide_parking_space_gw_after_ohrannik",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_after_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_open_shlagbaum_2",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_open_shlagbaum_1",
+      "target": "assets_bpmn_provide_parking_space_act_navigaciya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_open_shlagbaum_2",
+      "target": "assets_bpmn_provide_parking_space_act_navigaciya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_navigaciya",
+      "target": "assets_bpmn_provide_parking_space_gw_klient_join",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_gw_klient_join",
+      "target": "assets_bpmn_provide_parking_space_act_vyezd",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_vyezd",
+      "target": "assets_bpmn_provide_parking_space_ds_baza_dogovorov",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_vyezd",
+      "target": "assets_bpmn_provide_parking_space_ds_zhurnal_vyezda",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_act_vyezd",
+      "target": "assets_bpmn_provide_parking_space_end_event",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_sistema_shlagbauma",
+      "target": "assets_bpmn_provide_parking_space_gw_access_permitted_1",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_sistema_shlagbauma",
+      "target": "assets_bpmn_provide_parking_space_act_open_shlagbaum_1",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_klient",
+      "target": "assets_bpmn_provide_parking_space_start_event",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_klient",
+      "target": "assets_bpmn_provide_parking_space_act_navigaciya",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_klient",
+      "target": "assets_bpmn_provide_parking_space_act_vyezd",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_identifikaciya_klienta",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_zaklyuchenie_dogovora",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_oplata",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_vydat_proximity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "assets_bpmn_provide_parking_space_lane_ohrannik",
+      "target": "assets_bpmn_provide_parking_space_act_open_shlagbaum_2",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/as-is/assets/bpmn-provide-parking-space.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1800,
+  "output_tokens": 1950
+}

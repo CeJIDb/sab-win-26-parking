@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "hook_block_unsafe_git_add",
+      "label": "Claude Hook: block-unsafe-git-add.mjs \u2014 \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430 git add -A / --all / .",
+      "file_type": "code",
+      "source_file": "/home/cejidb/cursor/sab-win-26-mine-parking/scripts/claude-hooks/block-unsafe-git-add.mjs",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

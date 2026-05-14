@@ -1,0 +1,1629 @@
+{
+  "nodes": [
+    {
+      "id": "readme_en_parking_platform",
+      "label": "Parking Platform (README.en.md)",
+      "file_type": "document",
+      "source_file": "README.en.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "readme_parking_platform_ru",
+      "label": "Цифровая платформа парковки (README.md)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "contributing_guide",
+      "label": "Руководство для участников (CONTRIBUTING.md)",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "claude_md_agent_nav",
+      "label": "CLAUDE.md — навигация для Claude Code",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "skills_md_baseline",
+      "label": "SKILLS.md — Project Skills Baseline",
+      "file_type": "document",
+      "source_file": "SKILLS.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "agents_md_codex_nav",
+      "label": "AGENTS.md — навигация для Codex",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "docs_readme_index",
+      "label": "Индекс документации (docs/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "docs_project_overview",
+      "label": "Обзор проекта (docs/project-overview.md)",
+      "file_type": "document",
+      "source_file": "docs/project-overview.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "docs_styleguide",
+      "label": "Docs Style Guide (docs/styleguide.md)",
+      "file_type": "document",
+      "source_file": "docs/styleguide.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "arch_readme_index",
+      "label": "Индекс архитектуры (docs/architecture/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_readme_index",
+      "label": "Индекс ADR (docs/architecture/adr/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_001_online_access",
+      "label": "ADR-001: Онлайн-проверка права доступа в платформе",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-001-online-access-rights-evaluation.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_002_booking_vs_session",
+      "label": "ADR-002: Бронирование vs Парковочная сессия",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_003_modular_monolith",
+      "label": "ADR-003: Модульный монолит",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_004_dadata",
+      "label": "ADR-004: Интеграция с DADATA (Отменен)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_005_access_control_db_read",
+      "label": "ADR-005: Стратегия чтения данных Access Control",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_006_facility_availability",
+      "label": "ADR-006: Расчет доступности ПМ при бронировании",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_007_kafka_event_bus",
+      "label": "ADR-007: Kafka как шина событий (учебный TO-BE)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "adr_008_rabbitmq_notification",
+      "label": "ADR-008: RabbitMQ для рассылки уведомлений (учебный TO-BE)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "c4_readme_index",
+      "label": "Индекс C4 материалов (docs/architecture/c4/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/c4/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "c4_diagrams",
+      "label": "C4-диаграммы цифровой платформы парковки",
+      "file_type": "document",
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "database_readme_index",
+      "label": "Индекс архитектуры данных и БД (docs/architecture/database/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/architecture/database/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "CeJIDb",
+      "contributor": null
+    },
+    {
+      "id": "concept_parking_platform",
+      "label": "Цифровая платформа парковки (концепция)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "line 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_modular_monolith",
+      "label": "Модульный монолит",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 148",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_booking",
+      "label": "Бронирование (доменная сущность)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_parking_session",
+      "label": "Парковочная сессия (доменная сущность)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_access_control",
+      "label": "Access Control Service (модуль допуска на КПП)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-001-online-access-rights-evaluation.md",
+      "source_location": "line 33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_outbox_pattern",
+      "label": "Transactional Outbox Pattern",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_kafka",
+      "label": "Kafka (шина событий между контекстами)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 100",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_rabbitmq",
+      "label": "RabbitMQ (work queue внутри контекста)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 128",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_notification_service",
+      "label": "Notification Service",
+      "file_type": "concept",
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 153",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_postgresql",
+      "label": "PostgreSQL (единая БД)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_ddd_bounded_contexts",
+      "label": "DDD Bounded Contexts (15 контекстов)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "line 108",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_c4_model",
+      "label": "C4 Model (L1, L2, L3)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_event_storming",
+      "label": "Event Storming (AS-IS и TO-BE)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "line 27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_lpr_skud",
+      "label": "СКУД / LPR Adapter",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 123",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_consumer_owned_view",
+      "label": "Consumer-owned SQL view (паттерн чтения)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_dual_write",
+      "label": "Dual-write Problem",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_atomic_commit",
+      "label": "npm run commit:atomic (атомарные коммиты)",
+      "file_type": "concept",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 41",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_conventional_commits",
+      "label": "Conventional Commits (commitlint)",
+      "file_type": "concept",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 24",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_traceability_matrix",
+      "label": "Матрица трассировки",
+      "file_type": "concept",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 103",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_booking_service",
+      "label": "Booking Service (P1)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 145",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_facility_service",
+      "label": "Facility Service (P12)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 157",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_notification_worker",
+      "label": "Notification Worker (отдельный процесс)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_cdc",
+      "label": "CDC (Change Data Capture, Debezium)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 83",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_dlx",
+      "label": "Dead Letter Exchange (DLX) — RabbitMQ",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 140",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_v_booking_inventory",
+      "label": "v_booking_inventory (SQL view)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_v_access_views",
+      "label": "v_access_* SQL views (Access Control)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 96",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_topic_booking_created",
+      "label": "Topic_BookingCreated (Kafka topic)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 109",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_topic_payment_completed",
+      "label": "Topic_PaymentCompleted (Kafka topic)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 110",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_topic_booking_confirmed",
+      "label": "Topic_BookingConfirmed (Kafka topic)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 111",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_notification_direct_exchange",
+      "label": "notification.direct (RabbitMQ Direct Exchange)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 138",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_push_inbox",
+      "label": "notification.push_inbox (таблица БД)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 160",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_yookassa",
+      "label": "ЮKassa (платежная система)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "line 174",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_dadata",
+      "label": "DADATA (сервис обогащения реквизитов ЮЛ)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_systems_analyst_bootcamp",
+      "label": "Systems Analyst Bootcamp (курс)",
+      "file_type": "concept",
+      "source_file": "README.en.md",
+      "source_location": "line 11",
+      "source_url": "https://systems.education/systems-analyst-bootcamp",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_en_parking_platform",
+      "target": "readme_parking_platform_ru",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.en.md",
+      "source_location": "line 3",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "readme_en_parking_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 3",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "contributing_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md_agent_nav",
+      "target": "contributing_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 18",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md_agent_nav",
+      "target": "docs_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 27",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_md_codex_nav",
+      "target": "contributing_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_md_codex_nav",
+      "target": "readme_parking_platform_ru",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md_agent_nav",
+      "target": "readme_parking_platform_ru",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_index",
+      "target": "docs_project_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/readme.md",
+      "source_location": "line 25",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_index",
+      "target": "docs_styleguide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/readme.md",
+      "source_location": "line 44",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_readme_index",
+      "target": "arch_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/readme.md",
+      "source_location": "line 27",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_project_overview",
+      "target": "docs_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/project-overview.md",
+      "source_location": "line 28",
+      "weight": 1.0
+    },
+    {
+      "source": "arch_readme_index",
+      "target": "adr_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 9",
+      "weight": 1.0
+    },
+    {
+      "source": "arch_readme_index",
+      "target": "c4_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 14",
+      "weight": 1.0
+    },
+    {
+      "source": "arch_readme_index",
+      "target": "database_readme_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/readme.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 19",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_002_booking_vs_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 23",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 27",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_004_dadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 31",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_005_access_control_db_read",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 35",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_006_facility_availability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_007_kafka_event_bus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 43",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_index",
+      "target": "adr_008_rabbitmq_notification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/readme.md",
+      "source_location": "line 47",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_readme_index",
+      "target": "c4_diagrams",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/readme.md",
+      "source_location": "line 12",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_diagrams",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 208",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_diagrams",
+      "target": "adr_002_booking_vs_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 209",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_diagrams",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 210",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_002_booking_vs_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 40",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_007_kafka_event_bus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 164",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "adr_008_rabbitmq_notification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 164",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_005_access_control_db_read",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 32",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_005_access_control_db_read",
+      "target": "adr_001_online_access",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 33",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_006_facility_availability",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 38",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_006_facility_availability",
+      "target": "adr_005_access_control_db_read",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 39",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "adr_007_kafka_event_bus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_004_dadata",
+      "target": "adr_003_modular_monolith",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 108",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_001_online_access",
+      "target": "concept_access_control",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-001-online-access-rights-evaluation.md",
+      "source_location": "line 32",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_002_booking_vs_session",
+      "target": "concept_booking",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 233",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_002_booking_vs_session",
+      "target": "concept_parking_session",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 235",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_modular_monolith",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 148",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_outbox_pattern",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_postgresql",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_lpr_skud",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 123",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_notification_worker",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_003_modular_monolith",
+      "target": "concept_dual_write",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_005_access_control_db_read",
+      "target": "concept_consumer_owned_view",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 91",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_005_access_control_db_read",
+      "target": "concept_v_access_views",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 96",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_006_facility_availability",
+      "target": "concept_v_booking_inventory",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 101",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_006_facility_availability",
+      "target": "concept_booking_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 94",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_006_facility_availability",
+      "target": "concept_facility_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 20",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_kafka",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 100",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_cdc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 83",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_outbox_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 83",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_topic_booking_created",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 109",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_topic_payment_completed",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 110",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_topic_booking_confirmed",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 111",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "concept_rabbitmq",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 128",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "concept_dlx",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 140",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "concept_notification_direct_exchange",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 138",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "concept_push_inbox",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 160",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_008_rabbitmq_notification",
+      "target": "concept_notification_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 74",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_kafka",
+      "target": "concept_topic_booking_created",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 109",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_kafka",
+      "target": "concept_topic_payment_completed",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 110",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_kafka",
+      "target": "concept_topic_booking_confirmed",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 111",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_rabbitmq",
+      "target": "concept_notification_direct_exchange",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 138",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_rabbitmq",
+      "target": "concept_dlx",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 140",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_outbox_pattern",
+      "target": "concept_dual_write",
+      "relation": "addresses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 170",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_cdc",
+      "target": "concept_outbox_pattern",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 83",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_notification_service",
+      "target": "concept_kafka",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 52",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_notification_service",
+      "target": "concept_rabbitmq",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 52",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_booking_service",
+      "target": "concept_v_booking_inventory",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 101",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_access_control",
+      "target": "concept_v_access_views",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 96",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_booking",
+      "target": "concept_parking_session",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-002-booking-vs-session.md",
+      "source_location": "line 233",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_modular_monolith",
+      "target": "concept_postgresql",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 155",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_modular_monolith",
+      "target": "concept_outbox_pattern",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 154",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "concept_event_storming",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 33",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "concept_ddd_bounded_contexts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 108",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "concept_c4_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 127",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_diagrams",
+      "target": "concept_c4_model",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "c4_diagrams",
+      "target": "concept_ddd_bounded_contexts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/c4/c4-diagrams.md",
+      "source_location": "line 211",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "concept_yookassa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 170",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_004_dadata",
+      "target": "concept_dadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "line 38",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_en_parking_platform",
+      "target": "concept_systems_analyst_bootcamp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.en.md",
+      "source_location": "line 11",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_parking_platform_ru",
+      "target": "concept_systems_analyst_bootcamp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "contributing_guide",
+      "target": "concept_atomic_commit",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 41",
+      "weight": 1.0
+    },
+    {
+      "source": "contributing_guide",
+      "target": "concept_conventional_commits",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 24",
+      "weight": 1.0
+    },
+    {
+      "source": "contributing_guide",
+      "target": "concept_traceability_matrix",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "line 103",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_consumer_owned_view",
+      "target": "concept_v_access_views",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "line 96",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_consumer_owned_view",
+      "target": "concept_v_booking_inventory",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 101",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_lpr_skud",
+      "target": "concept_access_control",
+      "relation": "related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 127",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_notification_worker",
+      "target": "concept_notification_service",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "line 128",
+      "weight": 0.8
+    },
+    {
+      "source": "adr_007_kafka_event_bus",
+      "target": "concept_dual_write",
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 122",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_topic_booking_created",
+      "target": "concept_notification_service",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 64",
+      "weight": 1.0
+    },
+    {
+      "source": "concept_topic_booking_confirmed",
+      "target": "concept_notification_service",
+      "relation": "triggers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 64",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he_001",
+      "label": "ADR-005 и ADR-006: consumer-owned view паттерн для горячего пути",
+      "nodes": [
+        "adr_005_access_control_db_read",
+        "adr_006_facility_availability",
+        "concept_consumer_owned_view"
+      ],
+      "relation": "share_pattern",
+      "source_file": "docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "line 110"
+    },
+    {
+      "id": "he_002",
+      "label": "Kafka + Outbox + CDC: цепочка доставки событий без dual-write",
+      "nodes": ["concept_outbox_pattern", "concept_cdc", "concept_kafka", "concept_dual_write"],
+      "relation": "compose_pipeline",
+      "source_file": "docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "line 83"
+    },
+    {
+      "id": "he_003",
+      "label": "Kafka → Notification Service → RabbitMQ: двухуровневый конвейер уведомлений",
+      "nodes": [
+        "concept_kafka",
+        "concept_notification_service",
+        "concept_rabbitmq",
+        "concept_notification_direct_exchange"
+      ],
+      "relation": "form_pipeline",
+      "source_file": "docs/architecture/adr/adr-008-rabbitmq-notification-dispatch.md",
+      "source_location": "line 52"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo3_19_user_flow_split",
+      "label": "\u0420\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0442\u043e\u043a\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439: As-Is \u2014 \u0432\u0441\u0435 \u043f\u043e\u0442\u043e\u043a\u0438 \u0447\u0435\u0440\u0435\u0437 \u041e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u043e\u0432 \u043d\u0430 \u041a\u041f\u041f; To-Be \u2014 \u0442\u0440\u0438 \u043a\u0430\u043d\u0430\u043b\u0430: \u041f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0439 \u0441\u0430\u0439\u0442, \u0418\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430, \u041b\u0438\u0447\u043d\u044b\u0439 \u043a\u0430\u0431\u0438\u043d\u0435\u0442",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-3/slides/19.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041f\u0430\u0432\u0435\u043b",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo3_19_user_flow_split",
+      "target": "slides_demo3_23_mobile_wireframes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-3/slides/19.jpg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

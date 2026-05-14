@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "process_retro_uc_8_2_fr_retro",
+      "label": "Retro: UC-8.2 Integration Requirements Phase 2 (2026-05-02)",
+      "file_type": "document",
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": "2026-05-02",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_int_014_015",
+      "label": "INT-014/015: EDO and Notification integration requirements",
+      "file_type": "concept",
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_parallel_agents",
+      "label": "Parallel Agent Execution Pattern (4 agents for UC-8.2 INT-*)",
+      "file_type": "concept",
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_retro_uc_8_2_fr_retro",
+      "target": "concept_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 10",
+      "weight": 1.0
+    },
+    {
+      "source": "process_retro_uc_8_2_fr_retro",
+      "target": "concept_int_014_015",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 10",
+      "weight": 1.0
+    },
+    {
+      "source": "process_retro_uc_8_2_fr_retro",
+      "target": "concept_parallel_agents",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md",
+      "source_location": "line 16",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

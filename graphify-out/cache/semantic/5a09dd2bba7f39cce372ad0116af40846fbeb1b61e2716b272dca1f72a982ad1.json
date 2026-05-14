@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "process_retro_readme_retro_guide",
+      "label": "Retrospective Guide (retro/README.md)",
+      "file_type": "document",
+      "source_file": "docs/process/retro/README.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_retro_readme_retro_guide",
+      "target": "process_pr_dor_dod_pr_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/README.md",
+      "source_location": "line 58",
+      "weight": 1.0
+    },
+    {
+      "source": "process_retro_readme_retro_guide",
+      "target": "process_traceability_matrix_log_change_log",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/retro/README.md",
+      "source_location": "line 56",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

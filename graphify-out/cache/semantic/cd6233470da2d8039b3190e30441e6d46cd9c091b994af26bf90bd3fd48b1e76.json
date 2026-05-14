@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "r_l2_rabbitmq_dfd_l2_diagram",
+      "label": "RabbitMQ DFD L2 \u2014 detailed notification delivery architecture",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_rabbitmq_postgres_db",
+      "label": "PostgreSQL \u0421\u0423\u0411\u0414 (RabbitMQ L2) \u2014 push_inbox + notification_history tables",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_push_inbox_table",
+      "label": "Table: push_inbox \u2014 queued push notifications",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_notification_history_table",
+      "label": "Table: notification_history \u2014 sent notification records",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_notification_service",
+      "label": "Notification Service [Component] \u2014 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_push_worker",
+      "label": "Push Worker [Component] \u2014 \u0437\u0430\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442 push \u0432 \u0411\u0414",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_sms_worker",
+      "label": "SMS Worker [Component] \u2014 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 SMS",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_email_worker",
+      "label": "Email Worker [Component] \u2014 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0430 email",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_notification_sms_adapter",
+      "label": "Notification SMS Adapter [Component] \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 SMS-\u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u043e\u043c",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_notification_email_adapter",
+      "label": "Notification Email Adapter [Component] \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u043f\u043e\u0447\u0442\u043e\u0432\u044b\u043c \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_rabbitmq_broker",
+      "label": "RabbitMQ \u2014 message broker delivering push/sms/email notifications",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_sms_provider",
+      "label": "SMS-\u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440 [Software System] \u2014 external SMS gateway",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_email_service",
+      "label": "\u041f\u043e\u0447\u0442\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 [Software System] \u2014 external SMTP/API email service",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "r_l2_kafka_source",
+      "label": "Kafka \u2014 source of BookingCreated/BookingConfirmed events for Notification Service",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "r_l2_kafka_source",
+      "target": "r_l2_notification_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_service",
+      "target": "r_l2_rabbitmq_broker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_service",
+      "target": "r_l2_push_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_service",
+      "target": "r_l2_sms_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_service",
+      "target": "r_l2_email_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_rabbitmq_broker",
+      "target": "r_l2_push_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_rabbitmq_broker",
+      "target": "r_l2_sms_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_rabbitmq_broker",
+      "target": "r_l2_email_worker",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_sms_worker",
+      "target": "r_l2_notification_sms_adapter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_email_worker",
+      "target": "r_l2_notification_email_adapter",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_sms_adapter",
+      "target": "r_l2_sms_provider",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_email_adapter",
+      "target": "r_l2_email_service",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_push_worker",
+      "target": "r_l2_push_inbox_table",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "r_l2_notification_history_table",
+      "target": "r_l2_postgres_db",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/r-l2.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

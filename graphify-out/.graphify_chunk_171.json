@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "slides_demo5_02_team_five_whys",
+      "label": "Команда Five Whys — состав и роли: Павел Борунов (фасилитатор, архитектура), Марина Бугаевская (термометр, интеграции DFD/JSON), Александр Друзякин (навигатор, бизнес-анализ), Денис Салмин (фиксатор, ФТ/НФТ/риски), Артем Субботин (координатор, концептуальная модель и UC)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/02.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_04_context_as_is",
+      "label": "Контекст и текущая ситуация: частный открытый паркинг на 600 машиномест в Санкт-Петербурге (50 ОВЗ), режим 24/7; текущие проблемы — ручной учет в Excel, шлагбаум без интеграции, физические карты доступа, оплата наличными/терминал",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/04.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_07_research_findings",
+      "label": "Результаты исследования: 8 интервью с владельцем паркинга выявили — 30% мест простаивает (потери дохода), 80% времени охранников на рутину (прием оплаты, договоры), 0% удобства для клиентов, ручные операции во всех процессах",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/07.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_09_event_storming_as_is",
+      "label": "Event Storming As-Is: четыре боли — P1 КПП ручные операции (стресс, ошибки), P2 пропускная способность 40-70 машин/час цель 200+, P3 онлайн-путь и загрузка (30% простой мест), P4 ЮЛ и аналитика вручную Excel (слабое B2B)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/09.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_11_goal_mvp_scope",
+      "label": "Постановка и согласование цели: принцип максимум эффекта на единицу внедрения (не максимум функций), MVP-границы; цель — перевод 80% клиентов в онлайн через автоматизацию и повышение доходности",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/11.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_19_fr_booking",
+      "label": "Функциональные требования — Бронирование: ключевой функционал системы; требования Бронирование.Просмотреть, .Создать.СД, .Изменить.СД, .Завершить.СД; авто-создание бронирования при въезде по событию СКУД с атрибутами тсId, секторId, паркМестоId, тип, статус, тарифId",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/19.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_23_prototype_link",
+      "label": "Ссылка на макет (wireframe прототип): QR-код и URL https://boisterous-heliotrope-94df12.netlify.app/ — интерактивный прототип платформы паркинга",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/23.jpg",
+      "source_location": null,
+      "source_url": "https://boisterous-heliotrope-94df12.netlify.app/",
+      "captured_at": null,
+      "author": "Денис",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_26_core_domain_model",
+      "label": "Core-домен: схема взаимосвязей — Бронирование (параметры расчета) → Расчет стоимости ← Тариф (правила тарифа); Бронирование (основание доступа) → Доступ (факт въезда/выезда) → Парковочная сессия (длительность) → Расчет стоимости",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/26.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Павел",
+      "contributor": null
+    },
+    {
+      "id": "slides_demo5_48_challenges_rag_bot",
+      "label": "Сложности и вызовы: проблема поиска/извлечения данных из большого объема материалов; решение — Telegram-бот с RAG-архитектурой (документы в базе знаний), охранники тратят 80% времени на рутину (подтверждено интервью)",
+      "file_type": "image",
+      "source_file": "docs/demo-days/demo-5/slides/48.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Александр",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "slides_demo5_04_context_as_is",
+      "target": "slides_demo5_07_research_findings",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/04.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_07_research_findings",
+      "target": "slides_demo5_09_event_storming_as_is",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/07.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_09_event_storming_as_is",
+      "target": "slides_demo5_11_goal_mvp_scope",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/09.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_11_goal_mvp_scope",
+      "target": "slides_demo5_19_fr_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/11.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_19_fr_booking",
+      "target": "slides_demo5_26_core_domain_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/19.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_26_core_domain_model",
+      "target": "slides_demo5_19_fr_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/demo-days/demo-5/slides/26.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "slides_demo5_23_prototype_link",
+      "target": "slides_demo5_11_goal_mvp_scope",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/23.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_48_challenges_rag_bot",
+      "target": "slides_demo5_07_research_findings",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/demo-days/demo-5/slides/48.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "slides_demo5_02_team_five_whys",
+      "target": "slides_demo5_04_context_as_is",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/demo-days/demo-5/slides/02.jpg",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

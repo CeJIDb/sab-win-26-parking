@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "process_readme_process_docs_index",
+      "label": "Process Documentation Index (docs/process/readme.md)",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_pr_dor_dod_pr_checklist",
+      "label": "PR DoR/DoD Checklist (pr-dor-dod.md)",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_artifact_placement_guide",
+      "label": "Artifact Placement Guide",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_project_journey",
+      "label": "Project Journey (History of project stages)",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_mvp_dod",
+      "label": "MVP Definition of Done",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_branding_checklist",
+      "label": "Branding Checklist (OG-image and Netlify subdomain)",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "process_first_contribution_path",
+      "label": "First Contribution Path",
+      "file_type": "document",
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_traceability_matrix_traceability_rules",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 11",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_traceability_matrix_log_change_log",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 12",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_release_checklist_release_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 14",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_pr_dor_dod_pr_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 13",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_artifact_placement_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_project_journey",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 10",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_mvp_dod",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 9",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_retro_readme_retro_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 17",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_branding_checklist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 15",
+      "weight": 1.0
+    },
+    {
+      "source": "process_readme_process_docs_index",
+      "target": "process_first_contribution_path",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/readme.md",
+      "source_location": "line 8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}
