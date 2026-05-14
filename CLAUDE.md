@@ -77,13 +77,6 @@ sab-win-26-parking/
 
 ## MCP-серверы и поиск
 
-**markdown_rag** — локальный RAG по markdown через Milvus. **Первичный инструмент семантического поиска по [docs/](docs/)**:
-
-- `mcp__markdown_rag__search_documents` — поиск по смыслу. Запускай первым делом, когда ищешь концепцию или формулировку в документации.
-- `mcp__markdown_rag__index_documents` — индексация docs/. Запускай **только с явного разрешения пользователя** — операция медленная. SessionStart-хук [scripts/claude-hooks/check-rag-index.mjs](scripts/claude-hooks/check-rag-index.mjs) предупредит, если в `docs/` накопилось 5+ изменений после последней индексации — предложи запустить индексацию.
-- `mcp__markdown_rag__clear_index` — сброс индекса (нужен очень редко, только с разрешения пользователя).
-- Grep по docs/ — fallback, когда `search_documents` вернул пустой результат или нужен точный токен/строка.
-
 **github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без явной просьбы.
 
 **playwright** — проверка wireframe в браузере при правках [ui/](ui/).
@@ -128,8 +121,6 @@ sab-win-26-parking/
 - `block-secret-write.mjs` — запрет записи в файлы, похожие на секреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier после записи.
-- `check-rag-index.mjs` — SessionStart-уведомление о накопившихся изменениях docs/ (см. раздел про markdown_rag).
-- `touch-rag-index-timestamp.mjs` — служебный: обновляет timestamp после индексации.
 
 ## Git-хуки (husky) и CI
 
@@ -181,3 +172,14 @@ npm run commit:atomic:staged    # атомарные коммиты только
 ## Язык
 
 Отвечай на русском. В документации и коммитах **не используется буква «ё»** — это договоренность проекта (см. [CONTRIBUTING.md](CONTRIBUTING.md#стиль-текстов-в-документации)). Пишем «все», «еще», «подъем», «перенести». Проверяй вывод перед сохранением.
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+Rules:
+
+- ALWAYS read graphify-out/GRAPH_REPORT.md before reading any source files, running grep/glob searches, or answering codebase questions. The graph is your primary map of the codebase.
+- IF graphify-out/wiki/index.md EXISTS, navigate it instead of reading raw files
+- For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
