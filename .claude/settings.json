@@ -103,6 +103,11 @@
             "type": "command",
             "command": "node $CLAUDE_PROJECT_DIR/scripts/claude-hooks/format-on-write.mjs",
             "statusMessage": "Форматирование..."
+          },
+          {
+            "type": "command",
+            "command": "FILE=$(python3 -c \"import json,sys; d=json.load(sys.stdin); print(d.get('tool_input',{}).get('file_path',''))\" 2>/dev/null); [ -n \"$FILE\" ] && graphify update \"$FILE\" 2>/dev/null || true",
+            "statusMessage": "Обновление графа..."
           }
         ]
       }
