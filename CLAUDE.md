@@ -122,8 +122,6 @@ sab-win-26-parking/
 
 Не использовать MCP `playwright__browser_navigate` для buildin-страниц без сессии — он не авторизован и увидит «Sharing is off». Прямой `WebFetch` для buildin тоже бессмыслен — страница SPA и рендерится JS.
 
-**ast-index** — опциональный бинарь для поиска по коду (JS/TS/shell/python в `scripts/`, `ui/templates/`, `.husky/`). Полные правила — [.claude/rules/ast-index.md](.claude/rules/ast-index.md). Если бинарь не установлен — используй Grep.
-
 ## Автоматические блокировки (Claude hooks)
 
 В [.claude/settings.json](.claude/settings.json) подключены хуки в [scripts/claude-hooks/](scripts/claude-hooks/). Если действие заблокировано — это политика, не баг:
