@@ -15,7 +15,7 @@ async function collectMarkdownFiles(targetPath, acc) {
   }
   const entries = await fs.readdir(absPath, { withFileTypes: true });
   for (const entry of entries) {
-    if (entry.name === "node_modules" || entry.name === ".git") continue;
+    if (entry.name === "node_modules" || entry.name === ".git" || entry.name === "external") continue;
     const childPath = path.join(targetPath, entry.name);
     if (entry.isDirectory()) {
       await collectMarkdownFiles(childPath, acc);

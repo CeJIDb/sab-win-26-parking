@@ -25,7 +25,7 @@ const DOCS_DIR = path.join(ROOT, "docs");
 const MMDC_BIN = path.join(ROOT, "node_modules", ".bin", "mmdc");
 const PUPPETEER_CONFIG = path.join(ROOT, "puppeteer-config.json");
 
-const EXCLUDE_DIRS = new Set([".git", "node_modules", ".venv", "__pycache__", ".cache"]);
+const EXCLUDE_DIRS = new Set([".git", "node_modules", ".venv", "__pycache__", ".cache", "external"]);
 
 // Регулярное выражение для извлечения блоков ```mermaid ... ```
 // Флаг `g` + `s` (dotAll) для многострочных блоков.

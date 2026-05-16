@@ -23,6 +23,7 @@ const EXCLUDE_DIRS = new Set([
   ".venv",
   "__pycache__",
   ".cache",
+  "external",
 ]);
 
 function hasSafeFilename(name) {

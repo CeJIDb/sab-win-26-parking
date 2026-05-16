@@ -14,7 +14,7 @@ const TARGETS = [
   "docs/demo-days/readme.md",
   "docs/interviews/readme.md"
 ];
-const EXCLUDE_DIRS = new Set(["node_modules", ".git", ".venv", ".venv-markitdown"]);
+const EXCLUDE_DIRS = new Set(["node_modules", ".git", ".venv", ".venv-markitdown", "external"]);
 
 async function collectMarkdownFiles(targetPath, acc) {
   const absPath = path.join(ROOT, targetPath);
