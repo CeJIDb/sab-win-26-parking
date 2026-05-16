@@ -1,62 +1,25 @@
 # sab-win-26-parking — навигация для Claude Code
 
-Карта репозитория для LLM-агента. Читай в начале каждой сессии.
-
-Для людей — [README.md](README.md) и [CONTRIBUTING.md](CONTRIBUTING.md).
+Карта репозитория для LLM-агента. Читай в начале каждой сессии. Для людей — [README.md](README.md) и [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Что это за проект
 
 Учебный проект курса Systems Analyst Bootcamp — цифровая платформа для частного паркинга на 600 машиномест в Санкт-Петербурге. Основной результат — артефакты анализа и проектирования в [docs/](docs/), а не код. В [ui/](ui/) — статический wireframe, прод-деплоя нет.
 
-## Структура репозитория
+## Структура и где что искать
 
 ```text
 sab-win-26-parking/
-├── CLAUDE.md                ← этот файл, навигация для Claude Code
-├── AGENTS.md                ← навигация для Codex-агента
-├── README.md                ← вход для людей (русский)
-├── README.en.md             ← вход для людей (английский)
-├── CONTRIBUTING.md          ← регламент участников: ветки, коммиты, DoR/DoD, CI
-├── SKILLS.md                ← baseline глобальных skills
-├── docs/                    ← вся документация проекта
-│   ├── readme.md            ← индекс документации
-│   ├── project-overview.md  ← обзор проекта для новых участников
-│   ├── styleguide.md        ← стиль текстов в документации
-│   ├── specs/               ← требования (FR/NFR), глоссарий
-│   ├── architecture/        ← архитектурные решения, ADR, C4
-│   ├── artifacts/           ← use-case, BPMN, user flows
-│   ├── interviews/          ← стенограммы интервью и разборы
-│   ├── process/             ← регламенты: DoR/DoD, трассировка, релиз, ретро
-│   ├── demo-days/           ← материалы Demo Days
-│   └── assets/              ← бинарные ассеты витрины (OG-image, баннеры)
-├── ui/                      ← статический wireframe (SCSS + Nunjucks → HTML)
-│   ├── admin/               ← страницы администратора
-│   ├── client/              ← страницы клиента
-│   ├── guard/               ← страницы охранника
-│   ├── site/                ← публичный сайт
-│   └── templates/           ← Nunjucks-шаблоны
-├── plans/                   ← технические планы (один план = одна задача)
-├── scripts/                 ← скрипты сборки, линтов, atomic-commit, claude-hooks
-│   ├── build/               ← сборка ui/ (build-templates.mjs)
-│   ├── claude-hooks/        ← хуки Claude Code (см. ниже)
-│   ├── docs/                ← подготовка документации (extract-docx, split-image)
-│   ├── git/                 ← atomic-commit, check-branch-name, reminder
-│   ├── integrations/        ← интеграции (buildin-auth, buildin-explore)
-│   ├── lint/                ← кастомные линтеры markdown / file-names / mermaid
-│   └── plans/               ← validate-plans.mjs
-├── .claude/                 ← настройки Claude Code: rules, hooks, deny-правила
-│   ├── commands/            ← пользовательские slash-команды
-│   ├── rules/               ← правила агента (ast-index и др.)
-│   └── skills/              ← локальные skills (humanizer, marp и др.)
-├── .agents/                 ← skills для других AI-агентов
-├── .codex/                  ← настройки Codex-агента
-├── .husky/                  ← git-хуки: commit-msg, pre-commit, pre-push
-├── .github/                 ← CI workflows, PR/Issue templates, CODEOWNERS
-├── graphify-out/            ← граф знаний репозитория (авто-генерируется)
-└── sql/                     ← SQL-заготовки для учебной части
+├── docs/          ← вся документация (specs/, architecture/, artifacts/, interviews/, process/, demo-days/, assets/)
+├── ui/            ← статический wireframe (admin/, client/, guard/, site/, templates/) — SCSS + Nunjucks → HTML
+├── plans/         ← технические планы (один план = одна задача)
+├── scripts/       ← build/, claude-hooks/, docs/, git/, integrations/, lint/, plans/
+├── .claude/       ← настройки Claude Code: commands/, rules/, skills/, hooks
+├── .agents/, .codex/, .husky/, .github/   ← конфиги других агентов и CI
+├── graphify-out/  ← граф знаний (авто-генерация)
+├── sql/           ← SQL-заготовки для учебной части
+└── external/      ← симлинки на внешние репозитории (в .gitignore)
 ```
-
-### Где что искать
 
 | Что нужно                       | Куда смотреть                                                                      |
 | ------------------------------- | ---------------------------------------------------------------------------------- |
@@ -68,81 +31,46 @@ sab-win-26-parking/
 | Регламенты процесса             | [docs/process/readme.md](docs/process/readme.md)                                   |
 | Матрица трассировки (правила)   | [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md)         |
 | Матрица трассировки (журнал)    | [docs/process/traceability-matrix-log.md](docs/process/traceability-matrix-log.md) |
-| Wireframe                       | [ui/](ui/) (admin/, client/, guard/, site/), сборка `npm run build`                |
+| Wireframe                       | [ui/](ui/) — сборка `npm run build`                                                |
 | Технические планы               | [plans/](plans/), [plans/README.md](plans/README.md)                               |
 | Правила Claude (опц. ast-index) | [.claude/rules/ast-index.md](.claude/rules/ast-index.md)                           |
-| Скрипты (прочие)                | [scripts/](scripts/)                                                               |
+| Теория системного анализа       | [external/systems-analyst-db/](external/systems-analyst-db/) (локальный симлинк)   |
 
 ## Правила для агента
 
-1. **Не коммить и не пушить без явной просьбы.** Коммит делает пользователь. При накопившемся диффе — напомни про `npm run commit:atomic` (или `:dry-run` для предпросмотра). Если пользователь явно попросил коммит — добавляй файлы поштучно по имени, никогда `git add -A` или `git add .` (в параллельных чатах могут быть чужие правки).
+1. **Не коммить и не пушить без явной просьбы.** Коммит делает пользователь. При накопившемся диффе — напомни про `npm run commit:atomic` (`:dry-run` для предпросмотра). Если попросили коммит — добавляй файлы поштучно по имени, никогда `git add -A` / `git add .` (в параллельных чатах могут быть чужие правки).
 
-2. **При сложной или плохо сформулированной задаче — спрашивай.** Если задача неоднозначна, есть скрытые предположения, или непонятен скоуп — задай уточняющие вопросы в режиме диалога **до** начала работы. Лучше потратить ход на вопрос, чем переделывать.
+2. **При сложной или неоднозначной задаче — спрашивай до начала работы.** Лучше потратить ход на вопрос, чем переделывать.
 
-3. **Не меняй [docs/specs/](docs/specs/) без разрешения.** Это источник истины по требованиям. Если считаешь что правка нужна — сначала спроси у пользователя с обоснованием (что меняешь и почему). После разрешения — правь, обнови [журнал трассировки](docs/process/traceability-matrix-log.md). Устаревшие требования помечай, не удаляй.
+3. **Не меняй [docs/specs/](docs/specs/) без разрешения.** Это источник истины. Если считаешь что правка нужна — сначала спроси с обоснованием. После разрешения — правь и обнови [журнал трассировки](docs/process/traceability-matrix-log.md). Устаревшие требования помечай, не удаляй.
 
-4. **Сверяйся с трассировкой.** При правке артефакта, требования или архитектурного решения — проверь связь `Источник → Требование → Изменения → Проверка → Доказательство`. Регламент — [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md). Журнал обновляется в том же PR. Каждая строка журнала — не длиннее 500 символов (`check-markdown.mjs` проверяет это как часть `npm run ci:check`). Поле Source пиши кратко — детали идут в PR-описание.
+4. **Сверяйся с трассировкой.** При правке артефакта/требования/архитектуры — проверь связь `Источник → Требование → Изменения → Проверка → Доказательство`. Регламент — [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md). Журнал обновляется в том же PR. Строки журнала — не длиннее 500 символов (`check-markdown.mjs`). Поле Source — кратко, детали в PR-описание.
 
 5. **Имена файлов и папок — латиница, kebab-case.** Даже если содержимое на русском. Без пробелов, кириллицы, camelCase, PascalCase. Проверка — `npm run lint:file-names`.
 
-6. **После выполнения плана — пиши ретро.** Когда работа по плану из [plans/](plans/) завершена: (a) все фазы отмечены `[x]`, секция `## Итог` заполнена; (b) создан `docs/process/retro/YYYY-MM-DD-название.md` (то же имя, что у плана) по формату из [docs/process/retro/README.md](docs/process/retro/README.md). Обязательный шаг.
+6. **После выполнения плана — пиши ретро.** Когда работа по плану из [plans/](plans/) завершена: (a) все фазы `[x]`, секция `## Итог` заполнена; (b) создан `docs/process/retro/YYYY-MM-DD-название.md` (то же имя, что у плана) по формату из [docs/process/retro/README.md](docs/process/retro/README.md). Обязательный шаг.
 
-## MCP-серверы и поиск
+## MCP-серверы
 
-**github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без явной просьбы.
+- **github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без явной просьбы.
+- **playwright** — проверка wireframe в браузере при правках [ui/](ui/).
+- **miro** — C4-диаграммы и схемы процессов из [docs/architecture/](docs/architecture/).
+- **buildin.ai** — внешний knowledge-base команды. Страницы закрыты (`Sharing is off`), `WebFetch` и MCP Playwright читают только заглушку. Воркфлоу: `.venv/bin/python scripts/integrations/buildin-auth.py` (авторизация, сохраняет cookies в `.playwright-session.json`), затем `.venv/bin/python scripts/integrations/buildin-explore.py "<url>"` (читает headless, складывает в `.playwright-mcp/`). При истечении сессии — повторить auth. Не использовать `playwright__browser_navigate` напрямую (не авторизован). Креды — в `.env` (`BUILDIN_EMAIL`, `BUILDIN_PASSWORD`).
 
-**playwright** — проверка wireframe в браузере при правках [ui/](ui/).
+## Хуки и CI
 
-**miro** — C4-диаграммы и схемы процессов из [docs/architecture/](docs/architecture/).
+**Claude hooks** ([.claude/settings.json](.claude/settings.json) → [scripts/claude-hooks/](scripts/claude-hooks/)). Если действие заблокировано — это политика, не баг:
 
-**buildin.ai** — внешний knowledge-base команды (use case, ER-модели, заметки). Страницы закрыты от анонимного доступа («Sharing is off») — `WebFetch` и MCP Playwright читают только заглушку. Воркфлоу:
-
-1. **Авторизация (один раз / при истечении сессии).** Креды лежат в `.env` (`BUILDIN_EMAIL`, `BUILDIN_PASSWORD`) — не в контексте Claude. Запуск:
-
-   ```bash
-   .venv/bin/python scripts/integrations/buildin-auth.py
-   ```
-
-   Скрипт открывает Chromium (`headless=False`), логинится и сохраняет cookies в `.playwright-session.json`. Файл в `.gitignore`.
-
-   Если `.venv` сломан (например, переезжал каталог проекта) — пересоздать: `python3 -m venv --clear .venv && .venv/bin/pip install playwright python-dotenv`. Повторно ставить браузер через `playwright install chromium` нужно только если Chromium еще не установлен в кеше.
-
-2. **Чтение страницы.** При наличии `.playwright-session.json`:
-
-   ```bash
-   .venv/bin/python scripts/integrations/buildin-explore.py "<url>"
-   ```
-
-   Скрипт ходит headless с сохраненной сессией, скроллит лениво подгружаемые блоки и складывает в `.playwright-mcp/`:
-   - `buildin-explore-text.txt` — `body.innerText` (основной источник для извлечения текста UC и т.п.)
-   - `buildin-explore-full.png` — полный скриншот
-   - `buildin-explore-links.txt`, `buildin-explore-images.txt` — ссылки и картинки
-
-3. **Если сессия истекла** (страница-заглушка / редирект на `/login`) — повторить шаг 1.
-
-Не использовать MCP `playwright__browser_navigate` для buildin-страниц без сессии — он не авторизован и увидит «Sharing is off». Прямой `WebFetch` для buildin тоже бессмыслен — страница SPA и рендерится JS.
-
-## Автоматические блокировки (Claude hooks)
-
-В [.claude/settings.json](.claude/settings.json) подключены хуки в [scripts/claude-hooks/](scripts/claude-hooks/). Если действие заблокировано — это политика, не баг:
-
-- `block-push-to-main.mjs` — запрет push в `main`.
-- `block-unsafe-git-add.mjs` — запрет `git add -A` / `git add .`.
-- `block-secret-write.mjs` — запрет записи в файлы, похожие на секреты.
+- `block-push-to-main.mjs`, `block-unsafe-git-add.mjs`, `block-secret-write.mjs` — запреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
-- `format-on-write.mjs` — авто-форматирование Prettier после записи.
-- `play-sound.sh` — звуковое уведомление по событиям.
-- `remind-atomic-commit.sh` — напоминание про atomic-commit в хуках husky.
+- `format-on-write.mjs` — авто-форматирование Prettier.
+- `play-sound.sh`, `remind-atomic-commit.sh` — уведомления.
 
-## Git-хуки (husky) и CI
+**Husky:** `commit-msg` (commitlint, Conventional Commits: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `build`, `perf`, `revert`); `pre-commit` (reminder + `check:plans:staged`); `pre-push` (reminder + `check:branch` + `ci:check`).
 
-- `commit-msg` — commitlint, Conventional Commits (типы: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `build`, `perf`, `revert`).
-- `pre-commit` — `git-workflow-agent-reminder` (напоминание про atomic-commit) + `check:plans:staged`.
-- `pre-push` — `git-workflow-agent-reminder --worktree` + `check:branch` + `ci:check`.
+**Ветки:** `feature/`, `docs/`, `chore/`, `hotfix/`. Прямой push в `main` запрещен.
 
-Ветки: `feature/`, `docs/`, `chore/`, `hotfix/`. Прямой push в `main` запрещен.
-
-CI на PR: `policy-checks`, `quality-gates` (`ci:check`), `commitlint`, семантический заголовок PR.
+**CI на PR:** `policy-checks`, `quality-gates` (`ci:check`), `commitlint`, семантический заголовок PR.
 
 ## Полезные команды
 
@@ -183,15 +111,19 @@ npm run commit:atomic:staged    # атомарные коммиты только
 
 ## Язык
 
-Отвечай на русском. В документации и коммитах **не используется буква «ё»** — это договоренность проекта (см. [CONTRIBUTING.md](CONTRIBUTING.md#стиль-текстов-в-документации)). Пишем «все», «еще», «подъем», «перенести». Проверяй вывод перед сохранением.
+Отвечай на русском. В документации и коммитах **не используется буква «ё»** — договоренность проекта (см. [CONTRIBUTING.md](CONTRIBUTING.md#стиль-текстов-в-документации)). Пишем «все», «еще», «подъем», «перенести». Проверяй вывод перед сохранением.
+
+## Внешние репозитории (external/)
+
+Папка `external/` — локальные симлинки на внешние репозитории, в `.gitignore`.
+
+- **external/systems-analyst-db** → `../systems-analyst-db` — теоретическая база по системному анализу (глоссарий, методики, шаблоны, материалы курса SAB). Граф знаний: `external/systems-analyst-db/graphify-out/GRAPH_REPORT.md` — читай перед поиском по файлам. Когда обращаться: при уточнении терминов, выборе подхода к артефактам, сверке с методологией курса.
 
 ## graphify
 
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+Граф знаний репозитория в `graphify-out/` (god nodes, communities, cross-file relationships).
 
-Rules:
-
-- ALWAYS read graphify-out/GRAPH_REPORT.md before reading any source files, running grep/glob searches, or answering codebase questions. The graph is your primary map of the codebase.
-- IF graphify-out/wiki/index.md EXISTS, navigate it instead of reading raw files
-- For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+- ALWAYS read `graphify-out/GRAPH_REPORT.md` before reading source files, running grep/glob, or answering codebase questions — это твоя главная карта.
+- IF `graphify-out/wiki/index.md` EXISTS — navigate it вместо чтения raw-файлов.
+- Для cross-module вопросов «как X связан с Y» — `graphify query "<question>"`, `graphify path "<A>" "<B>"`, `graphify explain "<concept>"` (обходят EXTRACTED + INFERRED edges).
+- После изменения кода — `graphify update .` (AST-only, без API).
