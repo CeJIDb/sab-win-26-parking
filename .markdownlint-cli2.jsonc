@@ -81,6 +81,8 @@
     ".git/**",
     ".cursor/**",
     ".claude/**",
+    // Симлинки на внешние репозитории — у них свои конвенции и линтеры.
+    "external/**",
     "ui/**",
     "docs/_system-context/**",
     "temp_context/**",

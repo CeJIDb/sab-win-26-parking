@@ -44,3 +44,6 @@ plans/.tmp/
 
 # Compressed repo context (auto-generated, not for review)
 docs/repo-context-compressed.md
+
+# External repo symlinks (local only, not for VCS)
+external/

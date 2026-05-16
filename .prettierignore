@@ -4,6 +4,9 @@ node_modules/
 .venv*/
 venv/
 
+# Симлинки на внешние репозитории (не форматируем чужой код)
+external/
+
 # Собранные артефакты ui/ (генерируются build-templates.mjs и sass)
 ui/wireframe.css
 ui/**/*.html
