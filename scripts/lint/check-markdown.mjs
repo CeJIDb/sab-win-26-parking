@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { CHANGED_ONLY, getChangedMarkdown } from "./_lib-changed-files.mjs";
 
 const ROOT = process.cwd();
 const TARGETS = [
@@ -87,10 +88,29 @@ function lintContent(filePath, content) {
   return errors;
 }
 
+function isUnderTarget(absPath) {
+  const rel = path.relative(ROOT, absPath);
+  return TARGETS.some((t) => {
+    if (t.endsWith(".md")) return rel === t;
+    // t — это каталог (например, "docs/process")
+    return rel === t || rel.startsWith(t + path.sep);
+  });
+}
+
 async function main() {
-  const files = [];
-  for (const target of TARGETS) {
-    await collectMarkdownFiles(target, files);
+  let files;
+
+  if (CHANGED_ONLY) {
+    files = getChangedMarkdown().filter((f) => isUnderTarget(f));
+    if (files.length === 0) {
+      console.log("Markdown checks: нет измененных файлов в целевых каталогах.");
+      return;
+    }
+  } else {
+    files = [];
+    for (const target of TARGETS) {
+      await collectMarkdownFiles(target, files);
+    }
   }
 
   let hasErrors = false;

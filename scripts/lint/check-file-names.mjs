@@ -14,6 +14,7 @@
  */
 import path from "node:path";
 import { promises as fs } from "node:fs";
+import { CHANGED_ONLY, getChangedRelPaths } from "./_lib-changed-files.mjs";
 
 const ROOT = process.cwd();
 const SCAN_ROOTS = ["docs", "ui", "sql", "plans", "scripts"];
@@ -53,10 +54,21 @@ async function walkFiles(dirRel, acc) {
 
 async function main() {
   const errors = [];
-  const files = [];
+  let files;
 
-  for (const root of SCAN_ROOTS) {
-    await walkFiles(root, files);
+  if (CHANGED_ONLY) {
+    files = getChangedRelPaths().filter((f) =>
+      SCAN_ROOTS.some((r) => f === r || f.startsWith(r + "/")),
+    );
+    if (files.length === 0) {
+      console.log("Проверка имен файлов: нет измененных файлов в целевых каталогах.");
+      return;
+    }
+  } else {
+    files = [];
+    for (const root of SCAN_ROOTS) {
+      await walkFiles(root, files);
+    }
   }
 
   files.sort();
