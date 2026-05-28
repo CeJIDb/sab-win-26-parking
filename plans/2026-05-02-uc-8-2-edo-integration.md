@@ -22,7 +22,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 1. UC-8.2 — детальный сценарий в `docs/artifacts/use-case/uc-8-2-create-contract-legal-entity.md`.
 2. ФТ интеграции — расширение `docs/specs/integration/integration-requirements.md` на ~4 новых `INT-*` требования (2 внешних + 2 внутренних).
 3. Регламент v1 — новый блок «Документооборот через ЭДО» в `docs/architecture/integration/is-interaction-regulation.md` (структура без полезной нагрузки).
-4. UML Sequence — `docs/architecture/integration/sequence-uc-8-2-create-contract.md` с участниками: PWA Клиента ЮЛ, API Gateway, `Сервис Договоров` (P14), `Client Profile Service` (P3, read через view), `Notification Service` (P9), `Notification Adapter` (P20), `ЭДО` (E12), `Сервис уведомлений` (E8).
+4. UML Sequence — `docs/architecture/integration/sequence-uc-8-2-create-contract.md`. Изначально планировались 9 participants (PWA Клиента ЮЛ, API Gateway, `Сервис Договоров` P14, `Client Profile Service` P3 через view, `Notification Service` P9, `Notification Adapter` P20, `ЭДО` E12, `Сервис уведомлений` E8); фактически по итогам Фазы 4 упрощено до 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») — см. [Фаза 4 завершена 2026-05-28](#фаза-4-завершена-2026-05-28).
 5. JSON-пример + JSON Schema — `docs/architecture/integration/payload-uc-8-2-create-contract.md` и `schema-uc-8-2-create-contract.md` для внутреннего REST `POST /api/contracts`.
 6. Postman-метод — коллекция в `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json`.
 7. Swagger/OpenAPI — `docs/architecture/integration/openapi-uc-8-2-create-contract.yaml` для того же endpoint.
@@ -75,7 +75,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 
 - [ ] Все 9 deliverables созданы по своим путям (см. секцию «Цель»).
 - [ ] Регламент v2 ссылается на конкретные payload-файлы (json + xml).
-- [ ] Sequence явно показывает 3 внутренних модуля (P14, P9, P20) + 2 внешних (E12, E8) + P3 как read-контекст (через view).
+- [x] Sequence отображает интеграционные взаимодействия UC-8.2. Внутренние модули (P14, P9, P20, P3) и внешний `Сервис уведомлений` (E8) свернуты в одного participant'а «Система» / асинхронные стрелки — сознательное упрощение для UC-уровня, раскроется в Фазах 5 и 9. См. [Фаза 4 завершена 2026-05-28](#фаза-4-завершена-2026-05-28).
 - [ ] JSON Schema валидна (запустить через online-валидатор или `ajv`).
 - [ ] XSD валидна и XML-пример проходит против неё (`xmllint --schema`).
 - [ ] OpenAPI yaml парсится в Swagger Editor.
