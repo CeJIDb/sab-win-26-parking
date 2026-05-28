@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "husky_pre_push_branch_guard",
+      "label": "husky pre-push branch guard",
+      "file_type": "concept",
+      "source_file": ".husky/pre-push",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "husky_pre_push_branch_guard",
+      "target": "npm_script_check_branch",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": ".husky/pre-push",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

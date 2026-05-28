@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "label": "check-traceability-matrix-update.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_excluded_prefixes",
+      "label": "EXCLUDED_PREFIXES",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L3"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_relevant_prefixes",
+      "label": "RELEVANT_PREFIXES",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L4"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_getchangedfiles",
+      "label": "getChangedFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L12"
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_excluded_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_relevant_prefixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_getchangedfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_check_traceability_matrix_update_mjs",
+      "target": "lint_check_traceability_matrix_update_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_traceability_matrix_update_main",
+      "target": "lint_check_traceability_matrix_update_getchangedfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L26",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "execSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "execSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_getchangedfiles",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "some",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "includes",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L41"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "exit",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "lint_check_traceability_matrix_update_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": "L47"
+    }
+  ]
+}

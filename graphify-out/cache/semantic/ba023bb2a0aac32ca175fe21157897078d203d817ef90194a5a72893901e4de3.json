@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "husky_pre_commit_plans_guard",
+      "label": "husky pre-commit plans guard",
+      "file_type": "concept",
+      "source_file": ".husky/pre-commit",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "husky_pre_commit_plans_guard",
+      "target": "npm_script_check_plans",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": ".husky/pre-commit",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

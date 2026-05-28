@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "plans_2026_05_28_uc_8_2_rest_api",
+      "label": "\u041f\u043e\u0434\u043f\u043b\u0430\u043d \u0424\u0430\u0437\u044b 5: UC-8.2 JSON+Schema POST /api/contracts",
+      "file_type": "document",
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_problem_response",
+      "label": "ProblemResponse",
+      "file_type": "concept",
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_contract_create_request",
+      "label": "ContractCreateRequest",
+      "file_type": "concept",
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_contract_response",
+      "label": "ContractResponse",
+      "file_type": "concept",
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "plans_2026_05_02_uc_8_2_edo_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_payload_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_schema_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_payload_uc_10_2_payment",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_schema_uc_10_2_payment",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_openapi_uc_10_6_receipt",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "use_case_uc_8_2_create_contract_legal_entity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_sequence_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "integration_integration_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "erd_normalized_er_model",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "concept_contract_status_enum",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "concept_contract_create_request",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "concept_contract_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_28_uc_8_2_rest_api",
+      "target": "concept_problem_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "uc_8_2_rest_api_contracts",
+      "label": "UC-8.2 REST API: payload + schema + plan",
+      "nodes": [
+        "plans_2026_05_28_uc_8_2_rest_api",
+        "integration_payload_uc_8_2_create_contract",
+        "integration_schema_uc_8_2_create_contract"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-28-uc-8-2-rest-api.md"
+    }
+  ]
+}

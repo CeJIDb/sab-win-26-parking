@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "integration_rabbitmq_requirements",
-      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a RabbitMQ \u2014 \u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 (TO-BE)",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a RabbitMQ \u2014 \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0430 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
       "file_type": "document",
       "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
       "source_location": null,
@@ -10,92 +10,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null
-    },
-    {
-      "id": "concept_rabbitmq_notification_direct",
-      "label": "RabbitMQ Exchange: notification.direct (Direct)",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_rabbitmq_notification_dlx",
-      "label": "RabbitMQ Exchange: notification.dlx (Fanout DLX)",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_rabbitmq_topology",
-      "label": "RabbitMQ \u0442\u043e\u043f\u043e\u043b\u043e\u0433\u0438\u044f: notification.direct (Direct) + notification.dlx (Fanout DLX) + 3 \u043e\u0447\u0435\u0440\u0435\u0434\u0438 + notification.dlq",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "line 46",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "integration_rabbitmq_requirements",
-      "target": "concept_rabbitmq_notification_direct",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_rabbitmq_requirements",
-      "target": "concept_rabbitmq_notification_dlx",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0422\u0430\u0431\u043b\u0438\u0446\u0430 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_rabbitmq_requirements",
-      "target": "integration_message_flow_rabbitmq_notification",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 0.9
-    },
-    {
-      "source": "integration_rabbitmq_requirements",
-      "target": "integration_kafka_requirements",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u2014 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u043e\u0433",
-      "weight": 0.7
-    },
-    {
-      "source": "integration_rabbitmq_requirements",
-      "target": "concept_rabbitmq_topology",
-      "relation": "specifies",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/rabbitmq-requirements.md",
-      "source_location": "line 46",
-      "weight": 1.0
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

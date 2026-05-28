@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_12_8_complete_parking_session",
+      "label": "UC-12.8 \u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u041f\u0421",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "use_case_uc_12_6_pass_auto_identification_exit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "use_case_uc_12_9_complete_booking_auto_exit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "use_case_uc_12_7_complete_booking_auto_exit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "use_case_uc_12_4_create_parking_session",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "functional_requirements_fr_parking_session",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_12_8_complete_parking_session",
+      "target": "skud_external_system",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-12-8-complete-parking-session.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

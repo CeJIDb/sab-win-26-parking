@@ -1,133 +1,17 @@
 {
   "nodes": [
     {
-      "id": "process_traceability_matrix_traceability_rules",
-      "label": "Traceability Matrix Rules (traceability-matrix.md)",
+      "id": "process_traceability_matrix",
+      "label": "\u0420\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442 \u0442\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0438",
       "file_type": "document",
       "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_requirement_id_fr",
-      "label": "Functional Requirement ID (FR-*)",
-      "file_type": "concept",
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_requirement_id_nfr",
-      "label": "Non-Functional Requirement ID (NFR-*)",
-      "file_type": "concept",
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_requirement_id_adr",
-      "label": "Architecture Decision Record ID (ADR-*)",
-      "file_type": "concept",
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_requirement_id_constr",
-      "label": "Constraint ID (CONSTR-*)",
-      "file_type": "concept",
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_traceability_change_id",
-      "label": "Traceability Change ID (CHG-YYYYMMDD-NNN)",
-      "file_type": "concept",
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 21",
+      "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "process_traceability_matrix_log_change_log",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 15",
-      "weight": 1.0
-    },
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "concept_requirement_id_fr",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "weight": 1.0
-    },
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "concept_requirement_id_nfr",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "weight": 1.0
-    },
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "concept_requirement_id_adr",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "weight": 1.0
-    },
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "concept_requirement_id_constr",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 22",
-      "weight": 1.0
-    },
-    {
-      "source": "process_traceability_matrix_traceability_rules",
-      "target": "concept_traceability_change_id",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/process/traceability-matrix.md",
-      "source_location": "line 21",
-      "weight": 1.0
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

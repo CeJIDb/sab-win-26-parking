@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_use_case_template_md",
+      "label": "use-case-template.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "label": "UC-X.Y \u00ab\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435\u00bb",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_use_case_template_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "templates_use_case_template_\u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "label": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "templates_use_case_template_\u043f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "label": "\u041f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "templates_use_case_template_\u0442\u0440\u0438\u0433\u0433\u0435\u0440",
+      "label": "\u0422\u0440\u0438\u0433\u0433\u0435\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "templates_use_case_template_\u043f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "label": "\u041f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "templates_use_case_template_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u043f\u043e\u0442\u043e\u043a",
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "templates_use_case_template_\u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "label": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "templates_use_case_template_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0434\u043b\u044f_uc_x_y_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f UC-X.Y \u2192 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "templates_use_case_template_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L67"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_use_case_template_md",
+      "target": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u043f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u0442\u0440\u0438\u0433\u0433\u0435\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u043f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u043f\u043e\u0442\u043e\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0434\u043b\u044f_uc_x_y_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "templates_use_case_template_uc_x_y_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435",
+      "target": "templates_use_case_template_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/use-case-template.md",
+      "source_location": "L67",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "integration_sso_errors_registry",
-      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a SSO",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a \u00abSSO\u00bb",
       "file_type": "document",
       "source_file": "docs/architecture/integration/sso-errors-registry.md",
       "source_location": null,
@@ -10,113 +10,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null
-    },
-    {
-      "id": "integration_sso_oauth2_oidc",
-      "label": "OAuth2/OIDC \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 IdP (\u042f\u043d\u0434\u0435\u043a\u0441 ID, VK ID)",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_sso_errors_sso003",
-      "label": "SSO-003: \u0432 callback \u043d\u0435\u0442 state \u0438\u043b\u0438 \u043e\u043d \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442 (CSRF)",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 55",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_sso_errors_sso011",
-      "label": "SSO-011: \u043d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u043f\u043e\u0434\u043f\u0438\u0441\u044c id_token",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 63",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_sso_errors_sso022",
-      "label": "SSO-022: circuit breaker \u043f\u043e \u043e\u0448\u0438\u0431\u043a\u0430\u043c 5xx IdP",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 74",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_payment_errors_registry",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 0.6
-    },
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_sso_oauth2_oidc",
-      "relation": "describes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 3",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_sso_errors_sso003",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 55",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_sso_errors_sso011",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 63",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_sso_errors_sso022",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 74",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_sso_errors_registry",
-      "target": "integration_readme",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/sso-errors-registry.md",
-      "source_location": "line 89",
-      "weight": 0.7
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

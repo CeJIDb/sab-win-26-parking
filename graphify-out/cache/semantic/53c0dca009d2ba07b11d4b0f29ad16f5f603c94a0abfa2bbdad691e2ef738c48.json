@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "git_check_branch_name",
+      "label": "scripts/git/check-branch-name.mjs",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_check_branch_name_main",
+      "label": "check-branch-name main()",
+      "file_type": "code",
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "git_check_branch_name",
+      "target": "git_check_branch_name_main",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_check_branch_name",
+      "target": "concept_branch_naming_policy",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "scripts/git/check-branch-name.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

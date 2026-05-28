@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "templates_traceability_matrix_template",
-      "label": "Traceability Matrix Template",
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d \u043c\u0430\u0442\u0440\u0438\u0446\u044b \u0442\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0438",
       "file_type": "document",
       "source_file": "docs/process/templates/traceability-matrix-template.md",
       "source_location": null,
@@ -12,17 +12,6 @@
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "templates_traceability_matrix_template",
-      "relation": "references",
-      "target": "functional_requirements_fr_parking_session",
-      "confidence": "AMBIGUOUS",
-      "confidence_score": 0.2,
-      "source_file": "docs/process/templates/traceability-matrix-template.md",
-      "source_location": null,
-      "weight": 0.5
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_8_1_create_contract_fl",
+      "label": "UC-8.1 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0434\u043e\u0433\u043e\u0432\u043e\u0440 \u0441 \u0424\u041b",
+      "file_type": "concept",
+      "source_file": "docs/artifacts/use-case/uc-8-1-create-contract-fl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_uc_8_1_create_contract_fl",
+      "label": "UC-8.1 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0434\u043e\u0433\u043e\u0432\u043e\u0440 \u0441 \u0424\u041b",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-8-1-create-contract-fl.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u043a\u0443\u0440\u0441\u0430 SAB",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_8_1_create_contract_fl",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-8-1-create-contract-fl.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_8_1_create_contract_fl",
+      "target": "use_case_uc_8_2_create_contract_legal_entity",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-8-1-create-contract-fl.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

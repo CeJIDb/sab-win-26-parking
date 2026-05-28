@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_pr_dor_dod_md",
+      "label": "pr-dor-dod.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "label": "PR Definition of Ready / Definition of Done",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_pr_dor_dod_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "process_pr_dor_dod_dor_ready",
+      "label": "DoR (Ready)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "process_pr_dor_dod_dod_done",
+      "label": "DoD (Done)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "process_pr_dor_dod_exceptions",
+      "label": "Exceptions",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_pr_dor_dod_md",
+      "target": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "target": "process_pr_dor_dod_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "target": "process_pr_dor_dod_dor_ready",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "target": "process_pr_dor_dod_dod_done",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "process_pr_dor_dod_pr_definition_of_ready_definition_of_done",
+      "target": "process_pr_dor_dod_exceptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/pr-dor-dod.md",
+      "source_location": "L25",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

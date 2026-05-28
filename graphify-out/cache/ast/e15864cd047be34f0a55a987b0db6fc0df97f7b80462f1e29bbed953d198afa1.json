@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "label": "pr-description-template.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_pr_description_template_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_pr_description_template_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "templates_pr_description_template_source_and_traceability",
+      "label": "Source and Traceability",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "templates_pr_description_template_scope",
+      "label": "Scope",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "templates_pr_description_template_risks",
+      "label": "Risks",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "templates_pr_description_template_validation",
+      "label": "Validation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L29"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_source_and_traceability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_risks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_templates_pr_description_template_md",
+      "target": "templates_pr_description_template_validation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/templates/pr-description-template.md",
+      "source_location": "L29",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -2,7 +2,18 @@
   "nodes": [
     {
       "id": "functional_requirements_fr_parking_session",
-      "label": "FR: \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "label": "FR Parking Session",
+      "file_type": "document",
+      "source_file": "docs/specs/functional-requirements/fr-parking-session.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "specs_fr_parking_session",
+      "label": "FR Parking Session",
       "file_type": "document",
       "source_file": "docs/specs/functional-requirements/fr-parking-session.md",
       "source_location": null,
@@ -12,37 +23,6 @@
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "functional_requirements_fr_parking_session",
-      "target": "functional_requirements_fr_payment",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/functional-requirements/fr-parking-session.md",
-      "source_location": "line 289",
-      "weight": 1.0
-    },
-    {
-      "source": "functional_requirements_fr_parking_session",
-      "target": "functional_requirements_fr_event_skud",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/functional-requirements/fr-parking-session.md",
-      "source_location": "line 13",
-      "weight": 1.0
-    },
-    {
-      "source": "lint_check_markdown_links",
-      "target": "dev_tasks_uc_3_1_add_vehicle",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.55,
-      "source_file": "docs/specs/functional-requirements/fr-parking-session.md",
-      "source_location": "line 298",
-      "weight": 0.55
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

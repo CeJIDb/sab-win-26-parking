@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_traceability_matrix_log_md",
+      "label": "traceability-matrix-log.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_traceability_matrix_log_traceability_matrix_log",
+      "label": "Traceability Matrix Log",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_traceability_matrix_log_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md",
+      "source_location": "L136"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_traceability_matrix_log_md",
+      "target": "process_traceability_matrix_log_traceability_matrix_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "process_traceability_matrix_log_traceability_matrix_log",
+      "target": "process_traceability_matrix_log_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/traceability-matrix-log.md",
+      "source_location": "L136",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "process_use_case_template",
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d use case",
+      "file_type": "document",
+      "source_file": "docs/process/templates/use-case-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "templates_use_case_template",
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d Use Case (\u0448\u043a\u043e\u043b\u0430 8.2)",
+      "file_type": "document",
+      "source_file": "docs/process/templates/use-case-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "templates_use_case_template",
+      "target": "use_case_readme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/process/templates/use-case-template.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_8_2_create_contract_legal_entity",
+      "target": "templates_use_case_template",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/process/templates/use-case-template.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_2_pay_online_short_term_rental",
+      "target": "templates_use_case_template",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/process/templates/use-case-template.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

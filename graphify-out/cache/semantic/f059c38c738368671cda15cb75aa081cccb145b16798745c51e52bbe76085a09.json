@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "plans_2026_05_02_uc_8_2_edo_integration",
+      "label": "\u041c\u0430\u0441\u0442\u0435\u0440-\u043f\u043b\u0430\u043d UC-8.2 \u042d\u0414\u041e-\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_2026_05_02_uc_8_2_edo_integration",
+      "label": "\u041c\u0430\u0441\u0442\u0435\u0440-\u043f\u043b\u0430\u043d UC-8.2 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u042d\u0414\u041e",
+      "file_type": "document",
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_transactional_outbox",
+      "label": "Transactional Outbox",
+      "file_type": "concept",
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "artifacts_dfd_l1",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "adr_adr_003_modular_monolith",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "adr_adr_004_dadata_organization_lookup",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "use_case_uc_8_2_create_contract_legal_entity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "integration_integration_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "integration_is_interaction_regulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "integration_sequence_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "concept_int_014_edo_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "concept_int_015_notification_integration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "concept_transactional_outbox",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "plans_2026_05_02_uc_8_2_sequence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "process_uc_8_2_functional_requirements_retro",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_2026_05_02_uc_8_2_edo_integration",
+      "target": "process_uc_8_2_sequence_retro",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_int_014_edo_integration",
+      "target": "concept_edo_operator",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "uc_8_2_edo_integration_deliverables",
+      "label": "UC-8.2 \u042d\u0414\u041e \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f: UC + INT + Sequence",
+      "nodes": [
+        "use_case_uc_8_2_create_contract_legal_entity",
+        "concept_int_014_edo_integration",
+        "integration_sequence_uc_8_2_create_contract"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "plans/2026-05-02-uc-8-2-edo-integration.md"
+    }
+  ]
+}

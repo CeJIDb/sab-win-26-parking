@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "id": "plans_validate_plans",
+      "label": "scripts/plans/validate-plans.mjs",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_main",
+      "label": "validate-plans main()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_validate",
+      "label": "validate-plans validate()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_collect_all_plans",
+      "label": "validate-plans collectAllPlans()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "plans_validate_plans_collect_staged_plans",
+      "label": "validate-plans collectStagedPlans()",
+      "file_type": "code",
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "plans_validate_plans",
+      "target": "plans_validate_plans_main",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_validate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_collect_all_plans",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans_main",
+      "target": "plans_validate_plans_collect_staged_plans",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "plans_validate_plans",
+      "target": "plans_readme",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "scripts/plans/validate-plans.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

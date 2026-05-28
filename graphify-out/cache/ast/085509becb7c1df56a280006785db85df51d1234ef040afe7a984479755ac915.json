@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_readme_en_md",
+      "label": "README.en.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "label": "Parking Platform",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_problem_solution_goal",
+      "label": "Problem \u2014 Solution \u2014 Goal",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_8_key_artifacts",
+      "label": "8 key artifacts",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_5_stages_5_demo_days",
+      "label": "5 stages / 5 demo days",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_team",
+      "label": "Team",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_navigation",
+      "label": "Navigation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_stack",
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_wireframe",
+      "label": "Wireframe",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "sab_win_26_mine_parking_readme_en_codeblock_1",
+      "label": "code:bash (npm ci)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L86"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_readme_en_md",
+      "target": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_problem_solution_goal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_8_key_artifacts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_5_stages_5_demo_days",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_team",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_parking_platform",
+      "target": "sab_win_26_mine_parking_readme_en_wireframe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_readme_en_wireframe",
+      "target": "sab_win_26_mine_parking_readme_en_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/README.en.md",
+      "source_location": "L86",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

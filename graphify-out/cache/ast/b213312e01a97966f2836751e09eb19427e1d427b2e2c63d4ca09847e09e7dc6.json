@@ -1,0 +1,735 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_conceptual_model_with_attributes_md",
+      "label": "conceptual-model-with-attributes.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "label": "\u041a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439 \u0441 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "label": "\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "label": "\u0414\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "label": "\u0422\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u041a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043b\u043e\u0433\u0438\u043a\u0430_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "label": "\u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "label": "\u0414\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0432\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "label": "\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438_\u0438_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_enum",
+      "label": "\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f (enum)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "label": "\u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u0438 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L185"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+      "label": "`\u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u0435\u043a\u0442\u043e\u0440",
+      "label": "`\u0421\u0435\u043a\u0442\u043e\u0440`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L208"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0442\u0438\u043f_\u0437\u043e\u043d\u044b",
+      "label": "`\u0422\u0438\u043f \u0437\u043e\u043d\u044b`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L228"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0442\u0438\u043f_\u0442\u0441",
+      "label": "`\u0422\u0438\u043f \u0422\u0421`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L247"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0440\u0430\u0437\u0440\u0435\u0448\u0451\u043d\u043d\u044b\u0439_\u0442\u0438\u043f_\u0442\u0441_\u0432_\u0442\u0438\u043f\u0435_\u0437\u043e\u043d\u044b",
+      "label": "`\u0420\u0430\u0437\u0440\u0435\u0448\u0451\u043d\u043d\u044b\u0439 \u0442\u0438\u043f \u0422\u0421 \u0432 \u0442\u0438\u043f\u0435 \u0437\u043e\u043d\u044b`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L265"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c_\u0442\u0430\u0440\u0438\u0444\u0430_\u043a_\u0442\u0438\u043f\u0443_\u0437\u043e\u043d\u044b",
+      "label": "`\u041f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c \u0442\u0430\u0440\u0438\u0444\u0430 \u043a \u0442\u0438\u043f\u0443 \u0437\u043e\u043d\u044b`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L283"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u043c_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435_\u043c\u0435\u0441\u0442\u043e",
+      "label": "`\u041f\u041c` (\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L299"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "label": "`\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L324"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "label": "`\u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L360"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u043b\u0430\u0442\u0435\u0436",
+      "label": "`\u041f\u043b\u0430\u0442\u0435\u0436`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L389"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0447\u0435\u043a",
+      "label": "`\u0427\u0435\u043a`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L414"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0448\u0430\u0431\u043b\u043e\u043d_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "`\u0428\u0430\u0431\u043b\u043e\u043d \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L433"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "label": "`\u0414\u043e\u0433\u043e\u0432\u043e\u0440`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L454"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "label": "`\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L485"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435",
+      "label": "`\u041f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L510"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043b\u044c\u0433\u043e\u0442\u043d\u044b\u0439_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "label": "`\u041b\u044c\u0433\u043e\u0442\u043d\u044b\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L531"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435",
+      "label": "`\u0421\u043e\u0433\u043b\u0430\u0441\u0438\u0435`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L554"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "label": "`\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L575"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "label": "`\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L602"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "label": "`\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u043e\u043f\u043b\u0430\u0442\u044b`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L622"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043a\u043b\u0438\u0435\u043d\u0442",
+      "label": "`\u041a\u043b\u0438\u0435\u043d\u0442`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L640"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0442\u0441_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+      "label": "`\u0422\u0421` (\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L680"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043a\u043f\u043f",
+      "label": "`\u041a\u041f\u041f`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L702"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0442\u0430\u0440\u0438\u0444",
+      "label": "`\u0422\u0430\u0440\u0438\u0444`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L721"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "label": "`\u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L743"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0448\u0430\u0431\u043b\u043e\u043d_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "label": "`\u0428\u0430\u0431\u043b\u043e\u043d \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L769"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "label": "`\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L788"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u0432\u044f\u0437\u0438_\u043e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u044b\u0439_\u0441\u043f\u0438\u0441\u043e\u043a",
+      "label": "\u0421\u0432\u044f\u0437\u0438 (\u043e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u044b\u0439 \u0441\u043f\u0438\u0441\u043e\u043a)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L808"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0441_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043e\u043c_\u043f\u0440\u043e\u0435\u043a\u0442\u0430_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "label": "\u0421\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435 \u0441 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043e\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u0430 (\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L845"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0435_\u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435_\u043c\u043e\u0434\u0435\u043b\u0438",
+      "label": "\u0414\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0435 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u043c\u043e\u0434\u0435\u043b\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L854"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0432\u044b\u0432\u043e\u0434\u044b_\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "label": "\u0412\u044b\u0432\u043e\u0434\u044b \u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L860"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0438 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L866"
+    },
+    {
+      "id": "artifacts_conceptual_model_with_attributes_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L871"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_conceptual_model_with_attributes_md",
+      "target": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043b\u043e\u0433\u0438\u043a\u0430_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0432\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a\u0438_\u0438_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_enum",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u0435\u043a\u0442\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0442\u0438\u043f_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0442\u0438\u043f_\u0442\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0440\u0430\u0437\u0440\u0435\u0448\u0451\u043d\u043d\u044b\u0439_\u0442\u0438\u043f_\u0442\u0441_\u0432_\u0442\u0438\u043f\u0435_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c_\u0442\u0430\u0440\u0438\u0444\u0430_\u043a_\u0442\u0438\u043f\u0443_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u043c_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435_\u043c\u0435\u0441\u0442\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L324",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u043b\u0430\u0442\u0435\u0436",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0447\u0435\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0448\u0430\u0431\u043b\u043e\u043d_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L454",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L485",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043b\u044c\u0433\u043e\u0442\u043d\u044b\u0439_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L531",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L554",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L575",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L602",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L622",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043a\u043b\u0438\u0435\u043d\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L640",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0442\u0441_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L680",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043a\u043f\u043f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L702",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0442\u0430\u0440\u0438\u0444",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L721",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L743",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0448\u0430\u0431\u043b\u043e\u043d_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L769",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u0438_\u0438_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b",
+      "target": "artifacts_conceptual_model_with_attributes_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L788",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u0432\u044f\u0437\u0438_\u043e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u044b\u0439_\u0441\u043f\u0438\u0441\u043e\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L808",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0441_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043e\u043c_\u043f\u0440\u043e\u0435\u043a\u0442\u0430_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L845",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0435_\u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435_\u043c\u043e\u0434\u0435\u043b\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L854",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0432\u044b\u0432\u043e\u0434\u044b_\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L860",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L866",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_conceptual_model_with_attributes_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439_\u0441_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u043c\u0438",
+      "target": "artifacts_conceptual_model_with_attributes_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/conceptual-model-with-attributes.md",
+      "source_location": "L871",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

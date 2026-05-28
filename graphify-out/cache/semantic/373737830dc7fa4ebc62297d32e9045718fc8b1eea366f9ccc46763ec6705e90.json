@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "id": "plans_readme_plans_index",
-      "label": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u043b\u0430\u043d\u044b \u2014 README (plans/README.md)",
+      "id": "plans_readme",
+      "label": "plans/README.md",
       "file_type": "document",
       "source_file": "plans/README.md",
       "source_location": null,
@@ -12,17 +12,6 @@
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "plans_readme_plans_index",
-      "target": "plans_uc82_edo_master",
-      "relation": "contains",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "plans/README.md",
-      "source_location": null,
-      "weight": 0.9
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "claude",
+      "label": "CLAUDE.md \u2014 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u0434\u043b\u044f Claude Code",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md_rule_5_file_names",
+      "label": "CLAUDE.md rule 5: kebab-case filenames",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md_rule_4_traceability",
+      "label": "CLAUDE.md rule 4: traceability matrix update",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_branch_naming_policy",
+      "label": "Branch naming policy (feature/docs/chore/hotfix)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

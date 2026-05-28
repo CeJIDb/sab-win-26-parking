@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    {
+      "id": "integration_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_readme",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 integration",
+      "file_type": "document",
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration_readme",
+      "target": "integration_sequence_uc_8_2_create_contract",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_is_interaction_regulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_sequence_uc_10_2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_sequence_uc_12_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_yookassa_data_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_openapi_uc_10_6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_openapi_uc_12_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_payment_errors_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_sso_errors_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_kafka_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_message_flow_kafka_online_booking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_rabbitmq_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_message_flow_rabbitmq_notification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "c4_c4_diagrams",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "constraints_constr_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "integration_integration_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "integration_readme",
+      "target": "infosec_infosec_analyze_parking",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/readme.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "integration_payment_errors_registry",
-      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a \u041e\u043f\u043b\u0430\u0442\u0430",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a \u00ab\u041e\u043f\u043b\u0430\u0442\u0430\u00bb",
       "file_type": "document",
       "source_file": "docs/architecture/integration/payment-errors-registry.md",
       "source_location": null,
@@ -10,154 +10,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null
-    },
-    {
-      "id": "integration_payment_errors_pay_module",
-      "label": "\u041c\u043e\u0434\u0443\u043b\u044c \u00ab\u041f\u043b\u0430\u0442\u0435\u0436\u00bb \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 PSP/\u044d\u043a\u0432\u0430\u0439\u0440\u0438\u043d\u0433\u043e\u043c/\u041e\u0424\u0414",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_payment_errors_pay001",
-      "label": "PAY-001: \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0442 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 (shopId/\u0441\u0435\u043a\u0440\u0435\u0442/URL webhook)",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 52",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_payment_errors_pay004",
-      "label": "PAY-004: webhook \u0431\u0435\u0437 \u043f\u043e\u0434\u043f\u0438\u0441\u0438 \u0438\u043b\u0438 \u0441 \u043d\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u043f\u043e\u0434\u043f\u0438\u0441\u044c\u044e",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 55",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_payment_errors_pay006",
-      "label": "PAY-006: \u0441\u0443\u043c\u043c\u0430 \u0432 \u043e\u0442\u0432\u0435\u0442\u0435 \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u0430 \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442 \u0441 \u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 57",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_payment_errors_pay021",
-      "label": "PAY-021: circuit breaker \u043f\u043e \u043e\u0448\u0438\u0431\u043a\u0430\u043c 5xx \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u0430",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 72",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_yookassa_data_mapping",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 0.8
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_sso_errors_registry",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 0.6
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_payment_errors_pay_module",
-      "relation": "describes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 3",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_payment_errors_pay001",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 52",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_payment_errors_pay004",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 55",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_payment_errors_pay006",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 57",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_payment_errors_pay021",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 72",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_sequence_uc102",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 91",
-      "weight": 0.9
-    },
-    {
-      "source": "integration_payment_errors_registry",
-      "target": "integration_readme",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/payment-errors-registry.md",
-      "source_location": "line 94",
-      "weight": 0.7
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

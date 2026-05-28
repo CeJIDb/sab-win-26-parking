@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "npm_script_commit_atomic",
+      "label": "npm run commit:atomic",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_check_branch",
+      "label": "npm run check:branch",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_lint_file_names",
+      "label": "npm run lint:file-names",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_lint_md_links",
+      "label": "npm run lint:md-links",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_lint_md_custom",
+      "label": "npm run lint:md:custom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_lint_mermaid",
+      "label": "npm run lint:mermaid",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_format_changed",
+      "label": "npm run format:changed",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_lint_md_changed",
+      "label": "npm run lint:md:changed",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "npm_script_check_plans",
+      "label": "npm run check:plans / check:plans:staged",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "npm_script_commit_atomic",
+      "target": "git_atomic_commit",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_check_branch",
+      "target": "git_check_branch_name",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_lint_file_names",
+      "target": "lint_check_file_names",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_lint_md_links",
+      "target": "lint_check_markdown_links",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_lint_md_custom",
+      "target": "lint_check_markdown",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_format_changed",
+      "target": "lint_format_changed",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_lint_mermaid",
+      "target": "lint_lint_mermaid",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_lint_md_changed",
+      "target": "lint_markdownlint_changed",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "npm_script_check_plans",
+      "target": "plans_validate_plans",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "package.json",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

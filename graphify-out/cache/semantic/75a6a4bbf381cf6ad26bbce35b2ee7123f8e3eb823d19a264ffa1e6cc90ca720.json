@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "lint_check_traceability_matrix_update",
+      "label": "scripts/lint/check-traceability-matrix-update.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint_check_traceability_matrix_update_main",
+      "label": "check-traceability-matrix-update main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_check_traceability_matrix_update",
+      "target": "traceability_matrix_log_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lint_check_traceability_matrix_update",
+      "target": "claude_md_rule_4_traceability",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "scripts/lint/check-traceability-matrix-update.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

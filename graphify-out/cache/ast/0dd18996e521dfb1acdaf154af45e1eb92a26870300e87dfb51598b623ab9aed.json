@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_assets_readme_md",
+      "label": "readme.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "assets_readme_docs_assets_\u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435_\u0430\u0441\u0441\u0435\u0442\u044b_\u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "label": "docs/assets \u2014 \u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435 \u0430\u0441\u0441\u0435\u0442\u044b \u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "assets_readme_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "label": "\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "assets_readme_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0444\u0430\u0439\u043b\u044b",
+      "label": "\u0422\u0435\u043a\u0443\u0449\u0438\u0435 \u0444\u0430\u0439\u043b\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "assets_readme_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442",
+      "label": "\u0420\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_assets_readme_md",
+      "target": "assets_readme_docs_assets_\u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435_\u0430\u0441\u0441\u0435\u0442\u044b_\u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_readme_docs_assets_\u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435_\u0430\u0441\u0441\u0435\u0442\u044b_\u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "target": "assets_readme_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_readme_docs_assets_\u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435_\u0430\u0441\u0441\u0435\u0442\u044b_\u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "target": "assets_readme_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0444\u0430\u0439\u043b\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "assets_readme_docs_assets_\u0431\u0438\u043d\u0430\u0440\u043d\u044b\u0435_\u0430\u0441\u0441\u0435\u0442\u044b_\u0432\u0438\u0442\u0440\u0438\u043d\u044b",
+      "target": "assets_readme_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/assets/readme.md",
+      "source_location": "L13",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

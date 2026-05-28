@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "lint__lib_changed_files",
+      "label": "scripts/lint/_lib-changed-files.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint__lib_changed_files_get_changed_rel_paths",
+      "label": "_lib-changed-files getChangedRelPaths()",
+      "file_type": "code",
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint__lib_changed_files_get_changed_abs_paths",
+      "label": "_lib-changed-files getChangedAbsPaths()",
+      "file_type": "code",
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint__lib_changed_files_get_changed_markdown",
+      "label": "_lib-changed-files getChangedMarkdown()",
+      "file_type": "code",
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint__lib_changed_files",
+      "target": "lint__lib_changed_files_get_changed_rel_paths",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lint__lib_changed_files_get_changed_abs_paths",
+      "target": "lint__lib_changed_files_get_changed_rel_paths",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lint__lib_changed_files_get_changed_markdown",
+      "target": "lint__lib_changed_files_get_changed_abs_paths",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/_lib-changed-files.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "lint_changed_only_family",
+      "label": "Changed-only lint family sharing _lib-changed-files",
+      "nodes": [
+        "lint_check_file_names",
+        "lint_check_markdown",
+        "lint_check_markdown_links",
+        "lint_format_changed",
+        "lint_markdownlint_changed"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "scripts/lint/_lib-changed-files.mjs"
+    }
+  ]
+}

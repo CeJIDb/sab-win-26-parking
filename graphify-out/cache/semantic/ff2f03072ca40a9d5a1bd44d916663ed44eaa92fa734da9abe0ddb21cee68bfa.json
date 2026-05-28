@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "use_case_uc_7_1_create_booking",
+      "label": "UC-7.1 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fifteen_min_reservation",
+      "label": "\u0420\u0435\u0437\u0435\u0440\u0432 \u041f\u041c \u043d\u0430 15 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u043e\u043f\u043b\u0430\u0442\u044b",
+      "file_type": "rationale",
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "use_case_uc_7_1_create_booking",
+      "target": "use_case_use_case_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fifteen_min_reservation",
+      "target": "use_case_uc_7_1_create_booking",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_1_create_booking",
+      "target": "use_case_uc_12_2_create_booking_auto_entry",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_7_1_create_booking",
+      "target": "use_case_uc_7_6_create_booking_admin",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/artifacts/use-case/uc-7-1-create-booking.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

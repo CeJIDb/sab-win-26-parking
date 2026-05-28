@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_006_facility_availability_read_md",
+      "label": "adr-006-facility-availability-read.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "label": "ADR-006: \u0420\u0430\u0441\u0447\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438 \u041f\u041c \u043f\u0440\u0438 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u2014 Booking \u0447\u0438\u0442\u0430\u0435\u0442 \u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c Facility \u0447\u0435\u0440\u0435\u0437 view",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_option_a_rpc_p12_p1_booking_findactivebyinterval",
+      "label": "Option A \u2014 RPC P12 \u2192 P1 (Booking.findActiveByInterval)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_option_b_\u043f\u0440\u044f\u043c\u043e\u0435_\u0447\u0442\u0435\u043d\u0438\u0435_p12_\u0447\u0435\u0440\u0435\u0437_\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439_sql_view",
+      "label": "Option B \u2014 \u041f\u0440\u044f\u043c\u043e\u0435 \u0447\u0442\u0435\u043d\u0438\u0435 P12 \u0447\u0435\u0440\u0435\u0437 \u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439 SQL view",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_option_c_p1_\u0441\u0447\u0438\u0442\u0430\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c_\u0441\u0430\u043c",
+      "label": "Option C \u2014 P1 \u0441\u0447\u0438\u0442\u0430\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u0441\u0430\u043c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_decision",
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_rationale",
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_trade_offs",
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L117"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_consequences",
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L124"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_positive",
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L126"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_negative",
+      "label": "Negative",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L134"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_mitigation",
+      "label": "Mitigation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "adr_adr_006_facility_availability_read_next_steps",
+      "label": "Next steps",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L147"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_006_facility_availability_read_md",
+      "target": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_options",
+      "target": "adr_adr_006_facility_availability_read_option_a_rpc_p12_p1_booking_findactivebyinterval",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_options",
+      "target": "adr_adr_006_facility_availability_read_option_b_\u043f\u0440\u044f\u043c\u043e\u0435_\u0447\u0442\u0435\u043d\u0438\u0435_p12_\u0447\u0435\u0440\u0435\u0437_\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439_sql_view",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_options",
+      "target": "adr_adr_006_facility_availability_read_option_c_p1_\u0441\u0447\u0438\u0442\u0430\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c_\u0441\u0430\u043c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_trade_offs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_consequences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_consequences",
+      "target": "adr_adr_006_facility_availability_read_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_consequences",
+      "target": "adr_adr_006_facility_availability_read_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_consequences",
+      "target": "adr_adr_006_facility_availability_read_mitigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_006_facility_availability_read_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u043f\u0440\u0438_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438_booking_\u0447\u0438\u0442\u0430\u0435\u0442_\u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c_facility_\u0447\u0435\u0440\u0435\u0437_view",
+      "target": "adr_adr_006_facility_availability_read_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-006-facility-availability-read.md",
+      "source_location": "L147",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

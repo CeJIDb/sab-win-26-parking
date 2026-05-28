@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_project_overview_md",
+      "label": "project-overview.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_project_overview_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "label": "\u041e\u0431\u0437\u043e\u0440 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043d\u044b\u0435_\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043d\u044b\u0435 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "docs_project_overview_\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f",
+      "label": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "docs_project_overview_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_project_overview_md",
+      "target": "docs_project_overview_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_project_overview_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043d\u044b\u0435_\u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_project_overview_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_project_overview_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/project-overview.md",
+      "source_location": "L25",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

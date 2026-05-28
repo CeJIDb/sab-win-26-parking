@@ -1,6 +1,149 @@
 {
   "nodes": [
     {
+      "id": "integration_int_001",
+      "label": "INT-001 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_002",
+      "label": "INT-002 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_004",
+      "label": "INT-004 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u043c \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u043e\u043c",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_005",
+      "label": "INT-005 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_006",
+      "label": "INT-006 \u2014 REST-\u043a\u043e\u043d\u0442\u0440\u0430\u043a\u0442 \u0447\u0435\u043a\u0430",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_007",
+      "label": "INT-007 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_008",
+      "label": "INT-008 \u2014 SSO/IdP \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_009",
+      "label": "INT-009 \u2014 SSO/IdP \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_010",
+      "label": "INT-010 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_011",
+      "label": "INT-011 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_013",
+      "label": "INT-013 \u2014 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_014",
+      "label": "INT-014 \u2014 \u0414\u043e\u0433\u043e\u0432\u043e\u0440 \u2194 \u042d\u0414\u041e",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "integration_int_015",
+      "label": "INT-015 \u2014 \u0414\u043e\u0433\u043e\u0432\u043e\u0440 \u2192 \u0410\u0433\u0435\u043d\u0442\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
       "id": "integration_integration_requirements",
       "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 (INT-*)",
       "file_type": "document",
@@ -10,29 +153,41 @@
       "captured_at": null,
       "author": null,
       "contributor": null
-    }
-  ],
-  "edges": [
-    {
-      "source": "integration_integration_requirements",
-      "target": "functional_requirements_fr_event_skud",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/specs/integration/integration-requirements.md",
-      "source_location": "line 13",
-      "weight": 0.95
     },
     {
-      "source": "integration_integration_requirements",
-      "target": "functional_requirements_fr_payment",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
+      "id": "integration_integration_requirements",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 (INT-*)",
+      "file_type": "document",
       "source_file": "docs/specs/integration/integration-requirements.md",
-      "source_location": "line 52",
-      "weight": 0.95
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_int_014_edo_integration",
+      "label": "INT-014 \u0414\u043e\u0433\u043e\u0432\u043e\u0440 \u2194 \u042d\u0414\u041e",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_int_015_notification_integration",
+      "label": "INT-015 \u0414\u043e\u0433\u043e\u0432\u043e\u0440 \u2192 \u0410\u0433\u0435\u043d\u0442\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "concept",
+      "source_file": "docs/specs/integration/integration-requirements.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     }
   ],
+  "edges": [],
   "hyperedges": []
 }

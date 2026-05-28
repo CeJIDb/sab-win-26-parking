@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "lint_format_changed",
+      "label": "scripts/lint/format-changed.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/format-changed.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_format_changed",
+      "target": "lint__lib_changed_files",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/format-changed.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lint_format_changed",
+      "target": "lint__lib_changed_files_get_changed_rel_paths",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/format-changed.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

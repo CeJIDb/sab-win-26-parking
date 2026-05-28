@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_readme_md",
+      "label": "readme.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 ADR",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_readme_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "adr_readme_adr_001_\u0434\u043e\u0441\u0442\u0443\u043f_\u043d\u0430_\u043a\u043f\u043f",
+      "label": "ADR-001: \u0434\u043e\u0441\u0442\u0443\u043f \u043d\u0430 \u041a\u041f\u041f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "adr_readme_adr_002_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0438_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "label": "ADR-002: \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0441\u0435\u0441\u0441\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "adr_readme_adr_003_\u0441\u0442\u0438\u043b\u044c_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u044f",
+      "label": "ADR-003: \u0441\u0442\u0438\u043b\u044c \u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "adr_readme_adr_004_\u0440\u0435\u0435\u0441\u0442\u0440_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439",
+      "label": "ADR-004: \u0440\u0435\u0435\u0441\u0442\u0440 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "adr_readme_adr_005_\u0447\u0442\u0435\u043d\u0438\u0435_\u0434\u0430\u043d\u043d\u044b\u0445_access_control",
+      "label": "ADR-005: \u0447\u0442\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 Access Control",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "adr_readme_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u0432_facility",
+      "label": "ADR-006: \u0440\u0430\u0441\u0447\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438 \u041f\u041c \u0432 Facility",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "adr_readme_adr_007_kafka_event_bus_\u0434\u043b\u044f_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "label": "ADR-007: Kafka event bus \u0434\u043b\u044f \u043e\u043d\u043b\u0430\u0439\u043d-\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f (\u0443\u0447\u0435\u0431\u043d\u044b\u0439 TO-BE)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "adr_readme_adr_008_rabbitmq_\u0434\u043b\u044f_\u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "label": "ADR-008: RabbitMQ \u0434\u043b\u044f \u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439 (\u0443\u0447\u0435\u0431\u043d\u044b\u0439 TO-BE)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "adr_readme_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_readme_md",
+      "target": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_001_\u0434\u043e\u0441\u0442\u0443\u043f_\u043d\u0430_\u043a\u043f\u043f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_002_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0438_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_003_\u0441\u0442\u0438\u043b\u044c_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_004_\u0440\u0435\u0435\u0441\u0442\u0440_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_005_\u0447\u0442\u0435\u043d\u0438\u0435_\u0434\u0430\u043d\u043d\u044b\u0445_access_control",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_006_\u0440\u0430\u0441\u0447\u0435\u0442_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438_\u043f\u043c_\u0432_facility",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_007_kafka_event_bus_\u0434\u043b\u044f_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_adr_008_rabbitmq_\u0434\u043b\u044f_\u0440\u0430\u0441\u0441\u044b\u043b\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_readme_\u0438\u043d\u0434\u0435\u043a\u0441_adr",
+      "target": "adr_readme_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/readme.md",
+      "source_location": "L49",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

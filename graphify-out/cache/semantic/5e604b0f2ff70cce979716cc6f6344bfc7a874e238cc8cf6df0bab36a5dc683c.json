@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "id": "infosec_analyze_parking",
-      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0443\u0433\u0440\u043e\u0437, \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0435\u0439 \u0438 \u0438\u0445 \u0443\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435 (\u0418\u0411-\u0430\u043d\u0430\u043b\u0438\u0437 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438)",
+      "id": "infosec_infosec_analyze_parking",
+      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0418\u0411 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
       "file_type": "document",
       "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
       "source_location": null,
@@ -12,63 +12,8 @@
       "contributor": null
     },
     {
-      "id": "concept_infosec_assets",
-      "label": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0430\u043a\u0442\u0438\u0432\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
-      "file_type": "concept",
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_rbac",
-      "label": "\u0420\u043e\u043b\u0435\u0432\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430 (RBAC)",
-      "file_type": "concept",
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_2fa_totp",
-      "label": "\u0414\u0432\u0443\u0445\u0444\u0430\u043a\u0442\u043e\u0440\u043d\u0430\u044f \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f TOTP (2FA)",
-      "file_type": "concept",
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "ref_architecture_readme",
-      "label": "\u0418\u043d\u0434\u0435\u043a\u0441 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
-      "file_type": "document",
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "ref_iso_iec_27005",
-      "label": "ISO/IEC 27005 (\u0413\u041e\u0421\u0422 \u0420 \u0418\u0421\u041e/\u041c\u042d\u041a 27005)",
-      "file_type": "document",
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "ref_project_glossary",
-      "label": "\u0413\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "id": "infosec_infosec_analyze_parking",
+      "label": "\u0410\u043d\u0430\u043b\u0438\u0437 \u0418\u0411 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
       "file_type": "document",
       "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
       "source_location": null,
@@ -78,127 +23,6 @@
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_infosec_assets",
-      "relation": "describes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 79-91",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_rbac",
-      "relation": "describes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 138",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_2fa_totp",
-      "relation": "describes",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 138",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "infosec_bow_tie_unauthorized_access",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 71",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "ref_nfr_external_quality",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 262",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "ref_architecture_readme",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 263",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "ref_iso_iec_27005",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 57",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "ref_project_glossary",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 75",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_skud",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 89",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_grz_identification",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 87",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_payment_provider",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 102",
-      "weight": 1.0
-    },
-    {
-      "source": "infosec_analyze_parking",
-      "target": "concept_ofd",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/artifacts/infosec/infosec-analyze-parking.md",
-      "source_location": "line 102",
-      "weight": 1.0
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

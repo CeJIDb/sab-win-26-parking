@@ -1,0 +1,735 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_interviews_protocols_interview_protocol_1_2_2026_01_23_v01_md",
+      "label": "interview-protocol-1-2-2026-01-23-v01.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "label": "\u041f\u0440\u043e\u0442\u043e\u043a\u043e\u043b \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u21161.2",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0430\u0442\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_23_\u044f\u043d\u0432\u0430\u0440\u044f_2026",
+      "label": "\u0414\u0430\u0442\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e: 23 \u044f\u043d\u0432\u0430\u0440\u044f 2026",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "label": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439",
+      "label": "\u0413\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0432\u0435\u0441\u0442\u043a\u0430_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "label": "**\u041f\u043e\u0432\u0435\u0441\u0442\u043a\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u0438**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0445\u043e\u0434_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "label": "**\u0425\u043e\u0434 \u0432\u0441\u0442\u0440\u0435\u0447\u0438**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "label": "**\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0432\u0441\u0442\u0440\u0435\u0447\u0438**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "label": "\u0422\u0435\u043a\u0443\u0449\u0438\u0435 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b (AS-IS)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "label": "**\u0412\u044a\u0435\u0437\u0434 \u043d\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "label": "\u041f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441: \u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u0430 / \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u0440\u0430\u0432\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_\u043d\u0430_\u0432\u044a\u0435\u0437\u0434",
+      "label": "\u041f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441: \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043d\u0430 \u0432\u044a\u0435\u0437\u0434",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u043e\u0432\u044b\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "label": "\u041d\u043e\u0432\u044b\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u2014 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L109"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u043e\u0432\u044b\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "label": "\u041d\u043e\u0432\u044b\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u2014 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "label": "\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u2014 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "label": "\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439 \u043a\u043b\u0438\u0435\u043d\u0442 \u2014 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043b\u0438\u0446\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L207"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "\u0412\u044b\u0435\u0437\u0434 \u0441 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L231"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430_241",
+      "label": "\u041f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441: \u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u0430 / \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L241"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u0440\u0430\u0432\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_\u043d\u0430_\u0432\u044b\u0435\u0437\u0434",
+      "label": "\u041f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441: \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u0430\u0432\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043d\u0430 \u0432\u044b\u0435\u0437\u0434",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L257"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438_\u0432\u044b\u0435\u0437\u0434\u0430",
+      "label": "\u0421\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0432\u044b\u0435\u0437\u0434\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L277"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f_\u043f\u043e_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0435",
+      "label": "\u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u043f\u043e \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L308"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u043f\u043b\u0430\u0442\u0430",
+      "label": "**\u041e\u043f\u043b\u0430\u0442\u0430**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L326"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430",
+      "label": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L328"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430",
+      "label": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L341"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432",
+      "label": "**\u0417\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432**",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L347"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_349",
+      "label": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L349"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f_\u0443\u0442\u043e\u0447\u043d\u0435\u043d\u0438\u0435",
+      "label": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430 (\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0443\u0442\u043e\u0447\u043d\u0435\u043d\u0438\u0435)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L368"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u0435\u0434\u0435\u043d\u0438\u0435_\u0438_\u0430\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0443\u0447\u0435\u0442\u043d\u044b\u0445_\u0434\u0430\u043d\u043d\u044b\u0445_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "\u0412\u0435\u0434\u0435\u043d\u0438\u0435 \u0438 \u0430\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0443\u0447\u0435\u0442\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L374"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_376",
+      "label": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L376"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_385",
+      "label": "\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043b\u0438\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L385"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435_\u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "\u041e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L393"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "label": "\u0417\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L415"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u0438_\u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "label": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u0438 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L417"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0430\u043d\u043d\u044b\u0435_\u0438_\u0443\u0447\u0435\u0442",
+      "label": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0438 \u0443\u0447\u0435\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L427"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "label": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L435"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "label": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L445"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043b\u0438\u0435\u043d\u0442\u0441\u043a\u0438\u0439_\u043e\u043f\u044b\u0442",
+      "label": "\u041a\u043b\u0438\u0435\u043d\u0442\u0441\u043a\u0438\u0439 \u043e\u043f\u044b\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L453"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u043f\u043e_\u0438\u0442\u043e\u0433\u0430\u043c_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "label": "\u0414\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043f\u043e \u0438\u0442\u043e\u0433\u0430\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L461"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u0430\u043d\u0434\u0430_five_whys",
+      "label": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 FIVE WHYS:",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L463"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a",
+      "label": "\u0417\u0430\u043a\u0430\u0437\u0447\u0438\u043a:",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L471"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f_\u0432\u0441\u0442\u0440\u0435\u0447\u0430",
+      "label": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430:",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L479"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+      "label": "\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L485"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438_\u0438_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+      "label": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 \u0438 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L495"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L499"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u0432_\u0440\u0430\u043c\u043a\u0430\u0445_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430_\u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e_\u043c\u0435\u0441\u0442\u0430",
+      "label": "\u041f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u0432 \u0440\u0430\u043c\u043a\u0430\u0445 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u00ab\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u0442\u0430\u00bb:",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L503"
+    },
+    {
+      "id": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "label": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439 \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L515"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_interviews_protocols_interview_protocol_1_2_2026_01_23_v01_md",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0430\u0442\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_23_\u044f\u043d\u0432\u0430\u0440\u044f_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0433\u043b\u043e\u0441\u0441\u0430\u0440\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0432\u0435\u0441\u0442\u043a\u0430_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0445\u043e\u0434_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0445\u043e\u0434_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u0440\u0430\u0432\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_\u043d\u0430_\u0432\u044a\u0435\u0437\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u043e\u0432\u044b\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u043e\u0432\u044b\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0439_\u043a\u043b\u0438\u0435\u043d\u0442_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043b\u0438\u0446\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430_241",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u0440\u0430\u0432\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_\u043d\u0430_\u0432\u044b\u0435\u0437\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438_\u0432\u044b\u0435\u0437\u0434\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f_\u043f\u043e_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u043f\u043b\u0430\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L326",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u043f\u043b\u0430\u0442\u0430",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u043f\u043b\u0430\u0442\u0430",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_349",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u043e\u0432",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f_\u0443\u0442\u043e\u0447\u043d\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L368",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u0435\u0434\u0435\u043d\u0438\u0435_\u0438_\u0430\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0443\u0447\u0435\u0442\u043d\u044b\u0445_\u0434\u0430\u043d\u043d\u044b\u0445_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L374",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u0435\u0434\u0435\u043d\u0438\u0435_\u0438_\u0430\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0443\u0447\u0435\u0442\u043d\u044b\u0445_\u0434\u0430\u043d\u043d\u044b\u0445_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_376",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L376",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0432\u0435\u0434\u0435\u043d\u0438\u0435_\u0438_\u0430\u043a\u0442\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0443\u0447\u0435\u0442\u043d\u044b\u0445_\u0434\u0430\u043d\u043d\u044b\u0445_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043b\u0438\u0446\u0430_385",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u043a\u0443\u0449\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_as_is",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435_\u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L415",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u0438_\u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u0430\u043d\u043d\u044b\u0435_\u0438_\u0443\u0447\u0435\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L445",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043b\u0438\u0435\u043d\u0442\u0441\u043a\u0438\u0439_\u043e\u043f\u044b\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u043f\u043e_\u0438\u0442\u043e\u0433\u0430\u043c_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L461",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u043f\u043e_\u0438\u0442\u043e\u0433\u0430\u043c_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u0430\u043d\u0434\u0430_five_whys",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u043f\u043e_\u0438\u0442\u043e\u0433\u0430\u043c_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L471",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u0438_\u043f\u043e_\u0438\u0442\u043e\u0433\u0430\u043c_\u0432\u0441\u0442\u0440\u0435\u0447\u0438",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f_\u0432\u0441\u0442\u0440\u0435\u0447\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L479",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L485",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438_\u0438_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L495",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438_\u0438_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L499",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u0432_\u0440\u0430\u043c\u043a\u0430\u0445_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430_\u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0433\u043e_\u043c\u0435\u0441\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L503",
+      "weight": 1.0
+    },
+    {
+      "source": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438_\u0438_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+      "target": "protocols_interview_protocol_1_2_2026_01_23_v01_\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0439_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/protocols/interview-protocol-1-2-2026-01-23-v01.md",
+      "source_location": "L515",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "id": "integration_schema_uc_10_2_payment_doc",
-      "label": "JSON-\u0441\u0445\u0435\u043c\u0430 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 UC-10.2-1 \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043e\u043f\u043b\u0430\u0442\u044b \u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0439 \u0441\u0435\u0441\u0441\u0438\u0438",
+      "id": "integration_schema_uc_10_2_payment",
+      "label": "JSON Schema UC-10.2 \u043f\u043b\u0430\u0442\u0435\u0436",
       "file_type": "document",
       "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
       "source_location": null,
@@ -10,135 +10,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null
-    },
-    {
-      "id": "integration_schema_uc_10_2_payment_schema",
-      "label": "Payment Response JSON Schema (draft 2019-09)",
-      "file_type": "rationale",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## JSON Schema",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_schema_uc_10_2_payment_status_enum",
-      "label": "Payment status enum: SUCCESS, FAILED, CANCELED",
-      "file_type": "concept",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## JSON Schema \u2014 status property",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_payload_uc_10_2_payment_doc",
-      "label": "JSON-\u043f\u0440\u0438\u043c\u0435\u0440 \u043e\u0442\u0432\u0435\u0442\u0430 \u2014 UC-10.2-1",
-      "file_type": "document",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_sequence_uc_10_2_doc",
-      "label": "UML Sequence \u2014 UC-10.2 \u041e\u043d\u043b\u0430\u0439\u043d-\u043e\u043f\u043b\u0430\u0442\u0430 \u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0439 \u0430\u0440\u0435\u043d\u0434\u044b",
-      "file_type": "document",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_yookassa_mapping_doc",
-      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 \u043e\u0431\u043c\u0435\u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u0441 \u042eKassa",
-      "file_type": "document",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "integration_is_interaction_regulation_doc",
-      "label": "\u0420\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442 \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0418\u0421",
-      "file_type": "document",
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "integration_schema_uc_10_2_payment_doc",
-      "target": "integration_schema_uc_10_2_payment_schema",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## JSON Schema",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_schema_uc_10_2_payment_schema",
-      "target": "integration_schema_uc_10_2_payment_status_enum",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## JSON Schema \u2014 status property",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_schema_uc_10_2_payment_doc",
-      "target": "integration_payload_uc_10_2_payment_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_schema_uc_10_2_payment_doc",
-      "target": "integration_sequence_uc_10_2_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_schema_uc_10_2_payment_doc",
-      "target": "integration_yookassa_mapping_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 1.0
-    },
-    {
-      "source": "integration_schema_uc_10_2_payment_doc",
-      "target": "integration_is_interaction_regulation_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/architecture/integration/schema-uc-10-2-payment.md",
-      "source_location": "## \u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
-      "weight": 1.0
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

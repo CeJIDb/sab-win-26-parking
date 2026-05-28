@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "git_atomic_commit",
+      "label": "scripts/git/atomic-commit.mjs",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_main",
+      "label": "atomic-commit main()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_run_prettier_write",
+      "label": "atomic-commit runPrettierWrite()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_get_changed_files",
+      "label": "atomic-commit getChangedFiles()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_get_file_status",
+      "label": "atomic-commit getFileStatus()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_group_files",
+      "label": "atomic-commit groupFiles()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_build_message",
+      "label": "atomic-commit buildMessage()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_classify_file",
+      "label": "atomic-commit classifyFile()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_sort_buckets",
+      "label": "atomic-commit sortBuckets()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_assert_clean_git_state",
+      "label": "atomic-commit assertCleanGitState()",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "git_atomic_commit_bucket_defs",
+      "label": "atomic-commit BUCKET_DEFS (commit classifier)",
+      "file_type": "code",
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "git_atomic_commit",
+      "target": "git_atomic_commit_main",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_assert_clean_git_state",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_get_changed_files",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_get_file_status",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_group_files",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_sort_buckets",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_build_message",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_main",
+      "target": "git_atomic_commit_run_prettier_write",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_group_files",
+      "target": "git_atomic_commit_classify_file",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit_classify_file",
+      "target": "git_atomic_commit_bucket_defs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "git_atomic_commit",
+      "target": "concept_conventional_commits",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "scripts/git/atomic-commit.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "git_policy_scripts",
+      "label": "Git-policy enforcement scripts (branch + atomic commit)",
+      "nodes": ["git_atomic_commit", "git_check_branch_name", "concept_conventional_commits"],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "scripts/git/atomic-commit.mjs"
+    }
+  ]
+}

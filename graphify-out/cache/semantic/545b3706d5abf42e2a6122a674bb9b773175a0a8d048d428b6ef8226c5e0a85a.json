@@ -1,144 +1,17 @@
 {
   "nodes": [
     {
-      "id": "specs_nfr_external_quality_nfr_ext",
-      "label": "NFR External Quality: \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438, \u043d\u0430\u0434\u0435\u0436\u043d\u043e\u0441\u0442\u0438, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u0438, \u0418\u0411",
+      "id": "nfr_nfr_external_quality",
+      "label": "NFR External Quality",
       "file_type": "document",
       "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "specs_nfr_ext_perf_001",
-      "label": "NFR-EXT-PERF-001: \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 600 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 78",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "specs_nfr_ext_perf_002",
-      "label": "NFR-EXT-PERF-002: \u0432\u0440\u0435\u043c\u044f \u043e\u0442\u043a\u043b\u0438\u043a\u0430 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 2\u0441 \u0434\u043b\u044f 80% \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432, 3\u0441 \u0434\u043b\u044f 95%",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 82",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "specs_nfr_ext_rel_003",
-      "label": "NFR-EXT-REL-003: 95% \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0431\u0435\u0437\u043e\u0442\u043a\u0430\u0437\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b \u0432 \u043c\u0435\u0441\u044f\u0446",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 119",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "specs_nfr_ext_avl_001",
-      "label": "NFR-EXT-AVL-001: \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0441\u0442\u044c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 99% \u0432 \u0440\u0430\u0431\u043e\u0447\u0438\u0435 \u0447\u0430\u0441\u044b (6:00-23:00)",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 129",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "specs_nfr_ext_sec_001",
-      "label": "NFR-EXT-SEC-001..004: \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f 152-\u0424\u0417, \u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0438\u0435, HTTPS",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 138",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "concept_nfr_load_001",
-      "label": "NFR-EXT-LOAD-001: \u0434\u043e 10000 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445, 500 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432, \u0434\u043e 1000 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439 \u0432 \u0434\u0435\u043d\u044c",
-      "file_type": "concept",
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 53",
+      "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null
     }
   ],
-  "edges": [
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "specs_nfr_ext_perf_001",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 78",
-      "weight": 1.0
-    },
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "specs_nfr_ext_perf_002",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 82",
-      "weight": 1.0
-    },
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "specs_nfr_ext_rel_003",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 119",
-      "weight": 1.0
-    },
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "specs_nfr_ext_avl_001",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 129",
-      "weight": 1.0
-    },
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "specs_nfr_ext_sec_001",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 138",
-      "weight": 1.0
-    },
-    {
-      "source": "specs_nfr_external_quality_nfr_ext",
-      "target": "concept_nfr_load_001",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/specs/nonfunctional-requirements/nfr-external-quality.md",
-      "source_location": "line 53",
-      "weight": 1.0
-    }
-  ],
+  "edges": [],
   "hyperedges": []
 }

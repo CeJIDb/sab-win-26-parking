@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "uc_8_2_create_contract_sequence",
+      "label": "UC-8-2 Create Contract \u2014 sequence diagram (EDO integration)",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_actor_client_legal_entity",
+      "label": "Actor: \u041a\u043b\u0438\u0435\u043d\u0442 \u042e\u041b",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_actor_manager",
+      "label": "Actor: \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_participant_system",
+      "label": "Participant: \u0421\u0438\u0441\u0442\u0435\u043c\u0430 (parking platform)",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_participant_edo",
+      "label": "Participant: \u042d\u0414\u041e (external document exchange)",
+      "file_type": "image",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_concept_contract_lifecycle",
+      "label": "Concept: contract lifecycle (draft \u2192 signing \u2192 active)",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "uc_8_2_concept_edo_webhook",
+      "label": "Concept: EDO webhook/callback flow",
+      "file_type": "concept",
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_actor_client_legal_entity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_actor_manager",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_participant_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_participant_edo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_actor_client_legal_entity",
+      "target": "uc_8_2_participant_system",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_actor_manager",
+      "target": "uc_8_2_participant_system",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_participant_system",
+      "target": "uc_8_2_participant_edo",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_concept_contract_lifecycle",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "uc_8_2_create_contract_sequence",
+      "target": "uc_8_2_concept_edo_webhook",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "uc_8_2_sequence_participants",
+      "label": "UC-8-2 sequence participants (contract creation via EDO)",
+      "nodes": [
+        "uc_8_2_actor_client_legal_entity",
+        "uc_8_2_actor_manager",
+        "uc_8_2_participant_system",
+        "uc_8_2_participant_edo"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png"
+    }
+  ]
+}

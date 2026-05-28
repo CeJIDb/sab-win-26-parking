@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "lint_lint_mermaid",
+      "label": "scripts/lint/lint-mermaid.mjs",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lint_lint_mermaid_main",
+      "label": "lint-mermaid main()",
+      "file_type": "code",
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "lint_lint_mermaid",
+      "target": "lint_lint_mermaid_main",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/lint/lint-mermaid.mjs",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

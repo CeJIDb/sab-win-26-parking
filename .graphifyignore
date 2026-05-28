@@ -16,6 +16,18 @@ graphify-out/
 # ── External repo symlinks (have their own graphs, not part of this project) ──
 external/
 
+# ── Технические планы и скрипты (низкая семантическая ценность для графа) ────
+plans/
+scripts/
+
+# ── Обвязки ИИ-агентов (конфиги/инструкции, а не предмет анализа) ────────────
+.agents/
+.claude/
+.codex/
+AGENTS.md
+CLAUDE.md
+SKILLS.md
+
 # ── Secrets, sessions, local overrides ───────────────────────────────────────
 .env
 .env.*

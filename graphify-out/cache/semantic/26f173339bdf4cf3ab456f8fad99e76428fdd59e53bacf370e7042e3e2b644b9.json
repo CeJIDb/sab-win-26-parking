@@ -2,7 +2,18 @@
   "nodes": [
     {
       "id": "use_case_use_case_registry",
-      "label": "Use Case Registry",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 use case",
+      "file_type": "document",
+      "source_file": "docs/artifacts/use-case/use-case-registry.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "use_case_use_case_registry",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 use case",
       "file_type": "document",
       "source_file": "docs/artifacts/use-case/use-case-registry.md",
       "source_location": null,
