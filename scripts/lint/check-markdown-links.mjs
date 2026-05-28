@@ -15,7 +15,8 @@ async function collectMarkdownFiles(targetPath, acc) {
   }
   const entries = await fs.readdir(absPath, { withFileTypes: true });
   for (const entry of entries) {
-    if (entry.name === "node_modules" || entry.name === ".git" || entry.name === "external") continue;
+    if (entry.name === "node_modules" || entry.name === ".git" || entry.name === "external")
+      continue;
     const childPath = path.join(targetPath, entry.name);
     if (entry.isDirectory()) {
       await collectMarkdownFiles(childPath, acc);
@@ -110,9 +111,29 @@ async function getHeaderSlugsForFile(absPath) {
   return slugs;
 }
 
+function stripCodeForLinkCheck(content) {
+  const lines = content.split(/\r?\n/);
+  const result = [];
+  let inFence = false;
+  for (const line of lines) {
+    if (/^(```|~~~)/.test(line)) {
+      inFence = !inFence;
+      result.push("");
+      continue;
+    }
+    if (inFence) {
+      result.push("");
+      continue;
+    }
+    result.push(line.replace(/`[^`]*`/g, ""));
+  }
+  return result.join("\n");
+}
+
 async function checkFileLinks(filePath) {
   const errors = [];
-  const content = await fs.readFile(filePath, "utf-8");
+  const rawContent = await fs.readFile(filePath, "utf-8");
+  const content = stripCodeForLinkCheck(rawContent);
   const dir = path.dirname(filePath);
 
   for (const match of content.matchAll(MARKDOWN_LINK_REGEX)) {
@@ -142,6 +163,8 @@ async function checkFileLinks(filePath) {
     }
 
     if (!anchorPart) continue;
+    // Якоря проверяем только в .md — на бинарниках они бессмысленны.
+    if (!resolved.endsWith(".md")) continue;
 
     const slugs = await getHeaderSlugsForFile(resolved);
     const anchorLower = anchorPart.toLowerCase();

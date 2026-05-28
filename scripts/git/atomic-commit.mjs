@@ -86,7 +86,7 @@ function gitRun(args, inherit = true) {
   }
 }
 
-const PRETTIER_FILE_RE = /\.(md|json|jsonc|yml|yaml|js|jsx|ts|tsx|css|html)$/i;
+const PRETTIER_FILE_RE = /\.(md|json|jsonc|yml|yaml|js|mjs|cjs|jsx|ts|tsx|css|html)$/i;
 
 function runPrettierWrite(paths) {
   if (!paths || paths.length === 0) return;
@@ -335,8 +335,7 @@ function buildMessage(def, files, statusMap) {
 const BUCKET_DEFS = [
   {
     id: "deps",
-    test: (f) =>
-      f === "package.json" || f === "package-lock.json" || f === "npm-shrinkwrap.json",
+    test: (f) => f === "package.json" || f === "package-lock.json" || f === "npm-shrinkwrap.json",
     message: "chore(deps): обновить метаданные пакета",
   },
   {
@@ -535,7 +534,9 @@ async function main() {
   const map = groupFiles(files);
   const buckets = sortBuckets(map);
 
-  console.log(`atomic-commit: план коммитов (режим: ${stagedOnly ? "staged-only" : "worktree"}):\n`);
+  console.log(
+    `atomic-commit: план коммитов (режим: ${stagedOnly ? "staged-only" : "worktree"}):\n`,
+  );
   for (const [, { def, files: fs }] of buckets) {
     const msg = buildMessage(def, fs, statusMap);
     console.log(`  — ${msg}`);
@@ -559,9 +560,7 @@ async function main() {
   for (const [, { def, files: fs }] of buckets) {
     if (fs.length === 0) continue;
     const msg = buildMessage(def, fs, statusMap);
-    const prettierTargets = fs.filter(
-      (p) => statusMap.get(p) !== "D" && PRETTIER_FILE_RE.test(p),
-    );
+    const prettierTargets = fs.filter((p) => statusMap.get(p) !== "D" && PRETTIER_FILE_RE.test(p));
     runPrettierWrite(prettierTargets);
     // Пропускаем файлы, уже проиндексированные через git rm (D в индексе, физически отсутствуют).
     // git add -A на них упадёт с "pathspec did not match any files".

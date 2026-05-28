@@ -27,7 +27,10 @@ function getBranchName() {
   const headContent = readFileSync(headPath, "utf-8").trim();
 
   if (headContent.startsWith("ref:")) {
-    return headContent.slice("ref:".length).trim().replace(/^refs\/heads\//, "");
+    return headContent
+      .slice("ref:".length)
+      .trim()
+      .replace(/^refs\/heads\//, "");
   }
 
   return headContent;
@@ -47,7 +50,7 @@ function main() {
 
   if (!BRANCH_REGEX.test(branchName)) {
     console.error(
-      `Invalid branch name '${branchName}'. Use: feature/*, docs/*, chore/*, hotfix/* with lowercase latin symbols.`
+      `Invalid branch name '${branchName}'. Use: feature/*, docs/*, chore/*, hotfix/* with lowercase latin symbols.`,
     );
     process.exit(1);
   }

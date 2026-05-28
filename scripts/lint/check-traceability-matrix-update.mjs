@@ -29,12 +29,18 @@ function main() {
     return;
   }
 
-  const relevantFiles = files.filter((file) => !EXCLUDED_PREFIXES.some((prefix) => file.startsWith(prefix)));
-  const isTraceabilityRequired = relevantFiles.some((file) => RELEVANT_PREFIXES.some((prefix) => file.startsWith(prefix)));
+  const relevantFiles = files.filter(
+    (file) => !EXCLUDED_PREFIXES.some((prefix) => file.startsWith(prefix)),
+  );
+  const isTraceabilityRequired = relevantFiles.some((file) =>
+    RELEVANT_PREFIXES.some((prefix) => file.startsWith(prefix)),
+  );
 
   if (isTraceabilityRequired && !files.includes(TRACEABILITY_LOG_PATH)) {
     console.error("Traceability matrix update is required.");
-    console.error(`Changed requirements/docs detected, but '${TRACEABILITY_LOG_PATH}' was not updated.`);
+    console.error(
+      `Changed requirements/docs detected, but '${TRACEABILITY_LOG_PATH}' was not updated.`,
+    );
     process.exit(1);
   }
 
@@ -42,4 +48,3 @@ function main() {
 }
 
 main();
-

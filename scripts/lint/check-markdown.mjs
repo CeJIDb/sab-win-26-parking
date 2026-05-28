@@ -12,7 +12,7 @@ const TARGETS = [
   "docs/artifacts/readme.md",
   "docs/architecture/readme.md",
   "docs/demo-days/readme.md",
-  "docs/interviews/readme.md"
+  "docs/interviews/readme.md",
 ];
 const EXCLUDE_DIRS = new Set(["node_modules", ".git", ".venv", ".venv-markitdown", "external"]);
 
@@ -48,7 +48,14 @@ function lintContent(filePath, content) {
   }
 
   const lines = content.split("\n");
-  const firstNonEmpty = lines.find((line) => line.trim().length > 0) || "";
+
+  // Пропускаем YAML-фронтматтер (--- ... ---) при поиске первого заголовка.
+  let bodyStart = 0;
+  if (lines[0] && lines[0].trim() === "---") {
+    const fmEnd = lines.findIndex((l, i) => i > 0 && l.trim() === "---");
+    if (fmEnd !== -1) bodyStart = fmEnd + 1;
+  }
+  const firstNonEmpty = lines.slice(bodyStart).find((line) => line.trim().length > 0) || "";
   const skipHeadingRule = rel === "docs/interviews/readme.md";
   if (!skipHeadingRule && !(firstNonEmpty.startsWith("# ") || firstNonEmpty.startsWith("## "))) {
     errors.push("first non-empty line must start with markdown heading");
@@ -58,7 +65,8 @@ function lintContent(filePath, content) {
     if (/[ \t]+$/.test(line)) {
       errors.push(`line ${index + 1}: trailing whitespace`);
     }
-    if (line.length > 500) {
+    // Строки таблиц (| ... |) exempt: данные, не проза.
+    if (line.length > 500 && !line.trimStart().startsWith("|")) {
       errors.push(`line ${index + 1}: line too long (>500 chars)`);
     }
   });

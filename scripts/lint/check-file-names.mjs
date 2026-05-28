@@ -75,7 +75,9 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`Проверка имен файлов прошла (${files.length} файл(ов) под ${SCAN_ROOTS.join(", ")}).`);
+  console.log(
+    `Проверка имен файлов прошла (${files.length} файл(ов) под ${SCAN_ROOTS.join(", ")}).`,
+  );
 }
 
 main().catch((error) => {

@@ -25,7 +25,14 @@ const DOCS_DIR = path.join(ROOT, "docs");
 const MMDC_BIN = path.join(ROOT, "node_modules", ".bin", "mmdc");
 const PUPPETEER_CONFIG = path.join(ROOT, "puppeteer-config.json");
 
-const EXCLUDE_DIRS = new Set([".git", "node_modules", ".venv", "__pycache__", ".cache", "external"]);
+const EXCLUDE_DIRS = new Set([
+  ".git",
+  "node_modules",
+  ".venv",
+  "__pycache__",
+  ".cache",
+  "external",
+]);
 
 // Регулярное выражение для извлечения блоков ```mermaid ... ```
 // Флаг `g` + `s` (dotAll) для многострочных блоков.
@@ -85,9 +92,12 @@ async function checkBlock(body, tmpBase) {
 
   try {
     await execFileAsync(MMDC_BIN, [
-      "-i", inputFile,
-      "-o", outputFile,
-      "-p", PUPPETEER_CONFIG,
+      "-i",
+      inputFile,
+      "-o",
+      outputFile,
+      "-p",
+      PUPPETEER_CONFIG,
       "--quiet",
     ]);
     return { ok: true, stderr: "" };
@@ -131,15 +141,18 @@ async function main() {
     const relPath = path.relative(ROOT, filePath);
 
     for (const { body, blockIndex } of blocks) {
-      const tmpBase = path.join(tmpDir, `lint-mermaid-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+      const tmpBase = path.join(
+        tmpDir,
+        `lint-mermaid-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      );
       const result = await checkBlock(body, tmpBase);
 
       if (!result.ok) {
         errors.push(
           `Ошибка синтаксиса Mermaid:\n` +
-          `  Файл:  ${relPath}\n` +
-          `  Блок:  #${blockIndex + 1}\n` +
-          `  Вывод: ${result.stderr || "(нет вывода)"}`
+            `  Файл:  ${relPath}\n` +
+            `  Блок:  #${blockIndex + 1}\n` +
+            `  Вывод: ${result.stderr || "(нет вывода)"}`,
         );
       }
     }
@@ -152,7 +165,7 @@ async function main() {
       console.error("");
     }
     console.error(
-      `Проверка Mermaid завершилась с ошибками: ${errors.length} блок(ов) не прошли проверку.`
+      `Проверка Mermaid завершилась с ошибками: ${errors.length} блок(ов) не прошли проверку.`,
     );
     process.exit(1);
   }
@@ -160,9 +173,7 @@ async function main() {
   if (totalBlocks === 0) {
     console.log("Mermaid-блоки в docs/ не найдены — проверять нечего.");
   } else {
-    console.log(
-      `Проверено ${totalBlocks} блок(ов) в ${filesWithBlocks} файл(ах), все ОК.`
-    );
+    console.log(`Проверено ${totalBlocks} блок(ов) в ${filesWithBlocks} файл(ах), все ОК.`);
   }
 }
 
