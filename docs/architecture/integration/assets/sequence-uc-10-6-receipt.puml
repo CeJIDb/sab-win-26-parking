@@ -1,0 +1,72 @@
+@startuml
+
+title UC-10.6 - Получить чек
+
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+
+actor "Клиент ФЛ" as Client
+participant "PWA / Web" as FE
+participant "API Gateway" as API
+participant "Payment Service" as PS
+database "PostgreSQL" as DB
+participant "ОФД (внешний)" as OFD
+
+autonumber
+
+Client -> FE : Нажимает «Получить чек»\n(из списка оплат, UC-10.7)
+FE -> API : GET /api/v1/payments/{paymentId}/receipt\nAuthorization: Bearer JWT
+
+API -> API : Валидация JWT-токена
+
+alt #FFD6D6 Токен невалиден
+    API --> FE : 401 Unauthorized
+    FE --> Client : Ошибка авторизации
+end
+
+API -> PS : getReceipt(paymentId, userId)
+PS -> DB : SELECT * FROM payment\nWHERE id = paymentId
+DB --> PS : Данные платежа
+
+alt #FFD6D6 Платеж не найден
+    PS --> API : PaymentNotFoundException
+    API --> FE : 404 Not Found
+    FE --> Client : "Платеж не найден"
+end
+
+PS -> PS : Проверка: payment.userId == JWT.userId
+
+alt #FFD6D6 Платеж принадлежит другому клиенту
+    PS --> API : ForbiddenException
+    API --> FE : 403 Forbidden
+    FE --> Client : "Доступ запрещен"
+end
+
+PS -> DB : SELECT * FROM receipt\nWHERE payment_id = paymentId
+DB --> PS : Данные чека
+
+alt #FFD6D6 Чек существует, но статус = PENDING
+    PS --> API : ReceiptPendingException
+    API --> FE : 409 Conflict (RECEIPT_PENDING)
+    FE --> Client : "Чек еще формируется"
+end
+
+alt #FFF8DC Статус фискализации = ERROR
+    PS -> OFD : Повторный запрос фискализации
+    OFD --> PS : Результат фискализации
+
+    alt #FFD6D6 ОФД недоступен
+        PS --> API : ServiceUnavailableException
+        API --> FE : 502 Bad Gateway
+        FE --> Client : "Сервис временно недоступен"
+    end
+
+    PS -> DB : UPDATE receipt SET status = FISCALIZED
+    DB --> PS : OK
+end
+
+PS --> API : ReceiptResponse (чек + платеж)
+API --> FE : 200 OK (JSON)
+FE --> Client : Отображение чека\n(фискальный номер, сумма, дата, статус)
+
+@enduml
