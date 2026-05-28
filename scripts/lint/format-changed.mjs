@@ -31,7 +31,7 @@ const changedFiles = getChangedRelPaths().filter((f) => {
   const ext = path.extname(f);
   if (!PRETTIER_EXTS.has(ext)) return false;
   const parts = f.split("/");
-  return !parts.includes("raw") && !parts.includes("external");
+  return !parts.includes("raw") && !parts.includes("external") && !parts.includes("graphify-out");
 });
 
 if (changedFiles.length === 0) {

@@ -44,6 +44,25 @@ with sync_playwright() as p:
     page.goto(URL, wait_until="networkidle")
     page.wait_for_timeout(4000)
 
+    # buildin: H1/H2/H3 toggle-блоки сворачивают вложенный контент. Программный
+    # element.click() на span.animate-hover не срабатывает — нужен реальный
+    # page.mouse.click() по bounding box стрелки. Раскрываем рекурсивно, пока
+    # появляются новые стрелки.
+    seen_toggles = 0
+    for _ in range(8):
+        arrows = page.query_selector_all("span.animate-hover")
+        if len(arrows) <= seen_toggles:
+            break
+        for arrow in arrows[seen_toggles:]:
+            box = arrow.bounding_box()
+            if not box:
+                continue
+            page.mouse.click(box["x"] + box["width"] / 2, box["y"] + box["height"] / 2)
+            page.wait_for_timeout(300)
+        seen_toggles = len(arrows)
+        page.wait_for_timeout(800)
+    print(f"toggles expanded: {seen_toggles}")
+
     # buildin использует внутренний scroll-контейнер (Notion-like). Скроллим все
     # scrollable элементы + window, чтобы lazy-блоки и виртуализированные строки
     # таблиц отрендерились.

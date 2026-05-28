@@ -40,12 +40,12 @@ export function getChangedAbsPaths(root = ROOT) {
   return getChangedRelPaths(root).map((f) => path.join(root, f));
 }
 
-/** Возвращает абсолютные пути измененных .md-файлов (исключая папки raw/external). */
+/** Возвращает абсолютные пути измененных .md-файлов (исключая папки raw/external/graphify-out). */
 export function getChangedMarkdown(root = ROOT) {
   return getChangedAbsPaths(root).filter((f) => {
     if (!f.endsWith(".md")) return false;
     const parts = f.split(path.sep);
-    return !parts.includes("raw") && !parts.includes("external");
+    return !parts.includes("raw") && !parts.includes("external") && !parts.includes("graphify-out");
   });
 }
 
