@@ -7,6 +7,9 @@ venv/
 # Симлинки на внешние репозитории (не форматируем чужой код)
 external/
 
+# Авто-генерируемый граф знаний (graphify) — отчеты, wiki и кеш не форматируем.
+graphify-out/
+
 # Собранные артефакты ui/ (генерируются build-templates.mjs и sass)
 ui/wireframe.css
 ui/**/*.html
