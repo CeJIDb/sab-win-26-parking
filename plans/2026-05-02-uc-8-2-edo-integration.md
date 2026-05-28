@@ -95,7 +95,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 
 - Фаза 1 (UC-8.2) — ✅ завершена, подплан удален. Итог в разделе «Фаза 1 завершена».
 - Фаза 2 (ФТ) — ✅ завершена, подплан удален. Итог в разделе «Фаза 2 завершена», отдельный ретро — [docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md](../docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md).
-- Фаза 4 (Sequence) → [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md) — подплан создан, фаза еще не запущена.
+- Фаза 4 (Sequence) → [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md) — ✅ завершена, итог в разделе «Фаза 4 завершена», ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
 - Фаза 5 (JSON+Schema) → `2026-MM-DD-uc-8-2-rest-api.md` — подплан создается перед стартом.
 - Фаза 6 (XML+XSD) → `2026-MM-DD-uc-8-2-edo-xml.md` — подплан создается перед стартом.
 
@@ -108,7 +108,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 - [x] **Фаза 1. UC-8.2 — детальный сценарий.** Подплан удален после завершения. Создан [uc-8-2-create-contract-legal-entity.md](../docs/artifacts/use-case/uc-8-2-create-contract-legal-entity.md) по структуре uc-10-2 (10 разделов). Сценарий Б с маршрутом согласования в ЭДО, ~18 шагов основного потока, 6 расширений (`3а`, `7а`, `10а`, `10б`, `12а`, `12б` — ветка `6а` убрана при buildin-sync, см. `CHG-20260502-004`). SLA подписи — 7 календарных дней. Параллельно расширены [концептуальная модель](../docs/artifacts/conceptual-model-with-attributes.md) (+5 значений в enum «Статус договора», +2 атрибута в «Договор») и [ERD `contracts`](../docs/architecture/database/erd/erd-normalized-er-model.md) (`contract_status_enum` до 11 значений, колонки `client_signed_at` / `owner_signed_at`). Финальная агрегированная запись `CHG-*` в [traceability-matrix-log.md](../docs/process/traceability-matrix-log.md) по всему набору 9 артефактов + правки модели/ERD — в Фазе 10 (промежуточный `CHG-20260502-004` зафиксировал только buildin-sync UC-8.2).
 - [x] **Фаза 2. Пользовательские требования к интеграции (ФТ).** Расширить `docs/specs/integration/integration-requirements.md` на 2 новых `INT-*`: `INT-014` (Договор ↔ ЭДО, внешняя) и `INT-015` (Договор → АгентУведомлений, внешняя). Каждое требование — формат курса (источник/приёмник, событие, данные, периодичность). Изначально были также заведены `INT-016` (Договор ↔ ЭДО Adapter) и `INT-017` (Договор → Notification outbox), позднее удалены 2026-05-02 (см. `CHG-20260502-005`).
 - [x] **Фаза 3. Регламент взаимодействия ИС v1 (структура).** Добавлен Блок 3 «Документооборот через ЭДО» в [is-interaction-regulation.md](../docs/architecture/integration/is-interaction-regulation.md) по образцу Блока 2: 10 строк таблицы (6 по INT-014 + 4 по INT-015), колонки «Протокол» и «Полезная нагрузка» — `уточняется` (заполним в Фазе 9). Терминология «Сервис Договоров» (а не «Договор») — синхронизация с C4 / DFD L1.
-- [ ] **Фаза 4. UML Sequence.** Создать `docs/architecture/integration/sequence-uc-8-2-create-contract.md`. Mermaid sequenceDiagram. Участники: PWA Клиента ЮЛ, API Gateway, `Сервис Договоров` (P14), `Client Profile Service` (P3, read через view), `Notification Service` (P9), `Notification Adapter` (P20), `ЭДО` (E12), `Сервис уведомлений` (E8). Показать асинхрон с ожиданием подписи (webhook + polling fallback). Outbox-механика для уведомлений по образцу [UC-12.1 Sequence](../docs/architecture/integration/sequence-uc-12-1-pass-auto-identification-entry.md).
+- [x] **Фаза 4. UML Sequence.** Создан [sequence-uc-8-2-create-contract.md](../docs/architecture/integration/sequence-uc-8-2-create-contract.md) с PlantUML-исходником и PNG-экспортом в [assets/](../docs/architecture/integration/assets/). По итогам обсуждения упрощено: 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») вместо 9 запланированных; Mermaid-нотация не использована (одна нотация PlantUML, без дублирования). Основной поток 17 шагов + 6 расширений (`3а` через `break`, `7а` между шагами 6 и 7, `10а/10б` и `12а/12б` через `alt`/`else`/`break`). SLA 7 календарных дней показан паузами `...Ожидание подписания...`. Подплан — [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md).
 - [ ] **Фаза 5. JSON-пример + JSON Schema.** Спроектировать внутренний REST endpoint `POST /api/contracts` (Admin Panel → P14). Создать `docs/architecture/integration/payload-uc-8-2-create-contract.md` (request + response пример) и `schema-uc-8-2-create-contract.md` (JSON Schema). Валидировать через `ajv` или Swagger Editor.
 - [ ] **Фаза 6. XML + XSD для ЭДО.** Спроектировать XML-документ договора для отправки в ЭДО (P21 → E12). Создать `docs/architecture/integration/payload-uc-8-2-edo-contract.xml` (пример документа) и `schema-uc-8-2-edo-contract.xsd` (XSD-схема). Валидировать через `xmllint --schema`.
 - [ ] **Фаза 7. Postman-коллекция.** Создать `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json` для endpoint `POST /api/contracts` + опц. `GET /api/contracts/{id}/status`. Импортируется в Postman, базовый запрос выполняется (mock сервер или stub).
@@ -176,3 +176,34 @@ DADATA-интеграция (автозаполнение реквизитов �
 - **«Изменения (статус документа)»** — единая формулировка для строк отказа и просрочки от ЭДО (по образцу «Изменения (статус операции)» из Блока 2).
 
 **Постскриптум 2026-05-02** (после Фазы 3, перед стартом Фазы 4): `INT-016` и `INT-017` удалены из требований (`CHG-20260502-005`); учебное допущение «локальный ЭДО Adapter» снято — поток `Сервис Договоров → ЭДО` в Sequence идет напрямую (DFD L1 F03/F04). Регламент Блок 3 в правке не нуждается (INT-016/017 туда и не выносились); устаревшая ссылка на них в секции «Связанные документы» регламента — поправлена при чистке планов.
+
+### Фаза 4 завершена 2026-05-28
+
+Подплан — [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md). Ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
+
+**Артефакты:**
+
+- [sequence-uc-8-2-create-contract.md](../docs/architecture/integration/sequence-uc-8-2-create-contract.md) — Sequence Diagram UC-8.2 по образцу [UC-10.2](../docs/architecture/integration/sequence-uc-10-2-pay-online-short-term-rental.md) (embed PNG + раздел «Связанные документы»). Дополнительно: раздел «Участники» с ролями и раздел «Соответствие требованиям» (`INT-014`, `INT-015`).
+- [assets/sequence-uc-8-2-create-contract.puml](../docs/architecture/integration/assets/sequence-uc-8-2-create-contract.puml) — исходник PlantUML (~70 строк): основной поток 17 шагов + 6 расширений.
+- [assets/sequence-uc-8-2-create-contract.png](../docs/architecture/integration/assets/sequence-uc-8-2-create-contract.png) — PNG-экспорт, отрендерен пользователем вручную через [plantuml.com/plantuml](https://plantuml.com/plantuml).
+- [docs/architecture/integration/readme.md](../docs/architecture/integration/readme.md) — добавлена строка про новый Sequence в раздел «Текущие материалы».
+
+**Ключевые решения, принятые в Фазе 4** (важны для последующих фаз):
+
+- **Упрощение participants до 4 («Клиент ЮЛ», «Управляющий», «Система», «ЭДО»)** — отказ от 9 запланированных participants (PWA, API Gateway, `Сервис Договоров` P14, `Client Profile Service` P3, `Notification Service` P9, `Notification Adapter` P20, `Сервис уведомлений` E8). Внутренние модули свернуты в одного participant'а «Система»; внешний Сервис уведомлений скрыт за асинхронными стрелками. Мотивация: для UC-уровня диаграмма выразительнее без транзакционных деталей; внутренние модули раскроются в JSON-контракте (Фаза 5) и регламенте v2 (Фаза 9). Outbox-механика на диаграмме не отображена — это архитектурная деталь, скрытая за «Системой».
+- **Только PlantUML без Mermaid** — отказ от двух нотаций (изначально по подплану предполагались обе). Одна нотация снимает дублирование и риск рассинхрона при правках. Образец — UC-10.2 (там тоже одна нотация, draw.io PNG). PlantUML выбран для поддержки `activate`/`deactivate`, `alt`/`else`/`break` и удобного PNG-экспорта через web-encoder.
+- **Расположение `break 7а` — между шагами 6 и 7** (не между 7 и 8, как в исходном подплане). Семантически точнее: 7а — это альтернатива получению подтверждения от ЭДО, а не следствие после него.
+- **Структура расширений**:
+  - `3а` через `break` — терминальный ранний выход после шагов 1–3.
+  - `7а` через `break` — терминальный, между 6 и 7.
+  - `10а / 10б` через `alt webhook=signed / else 10а webhook=rejected / else 10б webhook=expired` с вложенным `break` в каждой failure-ветке. Шаг 11 (обновление статуса) переехал внутрь happy-ветки.
+  - `12а / 12б` симметрично 10-му блоку; шаги 13–17 (Storage, статус=активен, бронирование, два уведомления) переехали внутрь happy-ветки.
+- **Activate / deactivate унифицированы на shortcut `--` после стрелки** — без явных `deactivate System` отдельной строкой. Все ветки `alt` оставляют активационный стек в согласованном состоянии (System = 0 на выходе из обоих `alt`-блоков).
+- **`activate Client` оставлен** — формально лишний для actor'а, но не блокирует рендер.
+- **PNG-экспорт делает пользователь** — `plantuml.com/plantuml` (web-encoder) или локальный CLI. Лимт `lint:plantuml` в `npm run ci:check` не добавляется (отдельный chore-task за пределами UC-8.2).
+
+**Не вошло в Фазу 4 (вынесено в последующие фазы):**
+
+- Polling fallback по `INT-014` — на диаграмме не отображен явно; обоснование оставлено в требовании `INT-014`.
+- Уведомление Управляющему при просрочке парковки (расширение 12б) — обсуждалось как эскалация, в финальный вариант не вошло ради симметрии с 10а/10б. Дизайн-решение можно пересмотреть на этапе JSON-контракта (Фаза 5) или регламента v2 (Фаза 9), если эскалация будет признана важной.
+- Раскрытие 9 participants и outbox-механики — это уровень JSON+Schema (Фаза 5) и регламента v2 (Фаза 9).
