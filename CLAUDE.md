@@ -1,10 +1,10 @@
 # sab-win-26-parking — навигация для Claude Code
 
-Карта репозитория для LLM-агента. Читай в начале каждой сессии. Для людей — [README.md](README.md) и [CONTRIBUTING.md](CONTRIBUTING.md).
+Карта репозитория для LLM-агента. Читай в начале каждой сессии. Люди — [README.md](README.md), [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Что это за проект
 
-Учебный проект курса Systems Analyst Bootcamp — цифровая платформа для частного паркинга на 600 машиномест в Санкт-Петербурге. Основной результат — артефакты анализа и проектирования в [docs/](docs/), а не код. В [ui/](ui/) — статический wireframe, прод-деплоя нет.
+Учебный проект курса Systems Analyst Bootcamp. Цифровая платформа частного паркинга на 600 машиномест, Санкт-Петербург. Главный результат — артефакты анализа/проектирования в [docs/](docs/), не код. [ui/](ui/) — статический wireframe, прод-деплоя нет.
 
 ## Структура и где что искать
 
@@ -38,28 +38,28 @@ sab-win-26-parking/
 
 ## Правила для агента
 
-1. **Не коммить и не пушить без явной просьбы.** Коммит делает пользователь. При накопившемся диффе — напомни про `npm run commit:atomic` (`:dry-run` для предпросмотра). Если попросили коммит — добавляй файлы поштучно по имени, никогда `git add -A` / `git add .` (в параллельных чатах могут быть чужие правки).
+1. **Не коммить и не пушить без явной просьбы.** Коммитит пользователь. Накопился дифф — напомни про `npm run commit:atomic` (`:dry-run` — предпросмотр). Попросили коммит — добавляй файлы поштучно по имени, никогда `git add -A` / `git add .` (в параллельных чатах чужие правки).
 
-2. **При сложной или неоднозначной задаче — спрашивай до начала работы.** Лучше потратить ход на вопрос, чем переделывать.
+2. **Сложная/неоднозначная задача — спрашивай до начала.** Вопрос дешевле переделки.
 
-3. **Не меняй [docs/specs/](docs/specs/) без разрешения.** Это источник истины. Если считаешь что правка нужна — сначала спроси с обоснованием. После разрешения — правь и обнови [журнал трассировки](docs/process/traceability-matrix-log.md). Устаревшие требования помечай, не удаляй.
+3. **Не меняй [docs/specs/](docs/specs/) без разрешения.** Источник истины. Нужна правка — спроси с обоснованием. После разрешения — правь и обнови [журнал трассировки](docs/process/traceability-matrix-log.md). Устаревшие требования помечай, не удаляй.
 
-4. **Сверяйся с трассировкой.** При правке артефакта/требования/архитектуры — проверь связь `Источник → Требование → Изменения → Проверка → Доказательство`. Регламент — [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md). Журнал обновляется в том же PR. Строки журнала — не длиннее 500 символов (`check-markdown.mjs`). Поле Source — кратко, детали в PR-описание.
+4. **Сверяйся с трассировкой.** Правишь артефакт/требование/архитектуру — проверь связь `Источник → Требование → Изменения → Проверка → Доказательство`. Регламент — [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md). Журнал — в том же PR. Строки журнала ≤500 символов (`check-markdown.mjs`). Поле Source — кратко, детали в PR-описание.
 
-5. **Имена файлов и папок — латиница, kebab-case.** Даже если содержимое на русском. Без пробелов, кириллицы, camelCase, PascalCase. Проверка — `npm run lint:file-names`.
+5. **Имена файлов/папок — латиница, kebab-case.** Даже при русском содержимом. Без пробелов, кириллицы, camelCase, PascalCase. Проверка — `npm run lint:file-names`.
 
-6. **После выполнения плана — пиши ретро.** Когда работа по плану из [plans/](plans/) завершена: (a) все фазы `[x]`, секция `## Итог` заполнена; (b) создан `docs/process/retro/YYYY-MM-DD-название.md` (то же имя, что у плана) по формату из [docs/process/retro/README.md](docs/process/retro/README.md). Обязательный шаг.
+6. **После плана — пиши ретро.** План из [plans/](plans/) завершен: (a) все фазы `[x]`, секция `## Итог` заполнена; (b) создан `docs/process/retro/YYYY-MM-DD-название.md` (имя как у плана) по формату [docs/process/retro/README.md](docs/process/retro/README.md). Обязательно.
 
 ## MCP-серверы
 
-- **github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без явной просьбы.
+- **github** — issues, PR, коммиты через MCP вместо `gh` CLI. Не пушь и не создавай PR без просьбы.
 - **playwright** — проверка wireframe в браузере при правках [ui/](ui/).
 - **miro** — C4-диаграммы и схемы процессов из [docs/architecture/](docs/architecture/).
-- **buildin.ai** — внешний knowledge-base команды. Страницы закрыты (`Sharing is off`), `WebFetch` и MCP Playwright читают только заглушку. Воркфлоу: `.venv/bin/python scripts/integrations/buildin-auth.py` (авторизация, сохраняет cookies в `.playwright-session.json`), затем `.venv/bin/python scripts/integrations/buildin-explore.py "<url>"` (читает headless, складывает в `.playwright-mcp/`). При истечении сессии — повторить auth. Не использовать `playwright__browser_navigate` напрямую (не авторизован). Креды — в `.env` (`BUILDIN_EMAIL`, `BUILDIN_PASSWORD`).
+- **buildin.ai** — внешний knowledge-base команды. Страницы закрыты (`Sharing is off`), `WebFetch` и MCP Playwright видят только заглушку. Воркфлоу: `.venv/bin/python scripts/integrations/buildin-auth.py` (авторизация, cookies в `.playwright-session.json`), затем `.venv/bin/python scripts/integrations/buildin-explore.py "<url>"` (headless-чтение в `.playwright-mcp/`). Сессия истекла — повтори auth. Не использовать `playwright__browser_navigate` напрямую (не авторизован). Креды в `.env` (`BUILDIN_EMAIL`, `BUILDIN_PASSWORD`).
 
 ## Хуки и CI
 
-**Claude hooks** ([.claude/settings.json](.claude/settings.json) → [scripts/claude-hooks/](scripts/claude-hooks/)). Если действие заблокировано — это политика, не баг:
+**Claude hooks** ([.claude/settings.json](.claude/settings.json) → [scripts/claude-hooks/](scripts/claude-hooks/)). Действие заблокировано — это политика, не баг:
 
 - `block-push-to-main.mjs`, `block-unsafe-git-add.mjs`, `block-secret-write.mjs` — запреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
@@ -99,7 +99,7 @@ npm run commit:atomic:staged    # атомарные коммиты только
 
 ## Definition of Done для агента
 
-Перед тем как сказать «готово», пробеги по чеклисту:
+Перед «готово» пробеги чеклист:
 
 - [ ] Если правил [docs/specs/](docs/specs/) — было явное разрешение пользователя.
 - [ ] [Журнал трассировки](docs/process/traceability-matrix-log.md) обновлен (если затронуты требования/артефакты/архитектура).
@@ -111,19 +111,19 @@ npm run commit:atomic:staged    # атомарные коммиты только
 
 ## Язык
 
-Отвечай на русском. В документации и коммитах **не используется буква «ё»** — договоренность проекта (см. [CONTRIBUTING.md](CONTRIBUTING.md#стиль-текстов-в-документации)). Пишем «все», «еще», «подъем», «перенести». Проверяй вывод перед сохранением.
+Отвечай на русском. В доках и коммитах **не используется буква «ё»** — договоренность проекта (см. [CONTRIBUTING.md](CONTRIBUTING.md#стиль-текстов-в-документации)). Пишем «все», «еще», «подъем», «перенести». Проверяй вывод перед сохранением.
 
 ## Внешние репозитории (external/)
 
 Папка `external/` — локальные симлинки на внешние репозитории, в `.gitignore`.
 
-- **external/systems-analyst-db** → `../systems-analyst-db` — теоретическая база по системному анализу (глоссарий, методики, шаблоны, материалы курса SAB). Граф знаний: `external/systems-analyst-db/graphify-out/GRAPH_REPORT.md` — читай перед поиском по файлам. Когда обращаться: при уточнении терминов, выборе подхода к артефактам, сверке с методологией курса.
+- **external/systems-analyst-db** → `../systems-analyst-db` — теория системного анализа (глоссарий, методики, шаблоны, материалы SAB). Граф знаний: `external/systems-analyst-db/graphify-out/GRAPH_REPORT.md` — читай перед поиском по файлам. Когда: уточнение терминов, выбор подхода к артефактам, сверка с методологией курса.
 
 ## graphify
 
 Граф знаний репозитория в `graphify-out/` (god nodes, communities, cross-file relationships).
 
-- ALWAYS read `graphify-out/GRAPH_REPORT.md` before reading source files, running grep/glob, or answering codebase questions — это твоя главная карта.
+- ALWAYS read `graphify-out/GRAPH_REPORT.md` before reading source files, running grep/glob, or answering codebase questions — твоя главная карта.
 - IF `graphify-out/wiki/index.md` EXISTS — navigate it вместо чтения raw-файлов.
 - Для cross-module вопросов «как X связан с Y» — `graphify query "<question>"`, `graphify path "<A>" "<B>"`, `graphify explain "<concept>"` (обходят EXTRACTED + INFERRED edges).
 - После изменения кода — `graphify update .` (AST-only, без API).
