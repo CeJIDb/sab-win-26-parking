@@ -38,6 +38,8 @@
 - [JSON-схема ответа — UC-10.2-1](schema-uc-10-2-payment.md) — формальная JSON Schema ответа по оплате парковочной сессии.
 - [JSON-пример ответа — UC-10.6](payload-uc-10-6-receipt.md) — каноничный пример ответа по получению платежного чека с вложенными данными платежа.
 - [JSON-схема ответа — UC-10.6](schema-uc-10-6-receipt.md) — формальная JSON Schema ответа по получению платежного чека.
+- [JSON-пример запроса — UC-8.2](payload-uc-8-2-create-contract.md) — каноничный пример запроса `POST /api/contracts` на создание договора долгосрочной аренды с ЮЛ.
+- [JSON-схема запроса — UC-8.2](schema-uc-8-2-create-contract.md) — формальная JSON Schema (draft 2020-12) запроса на создание договора с ЮЛ.
 - [XML-пример ответа — UC-10.6](payload-uc-10-6-receipt-xml.md) — каноничный XML-пример полезной нагрузки `receipt` (SOAP-аналог JSON-варианта) с вложенными данными платежа.
 - [XSD-схема ответа — UC-10.6](schema-uc-10-6-receipt-xml.md) — формальная XSD-схема receipt-структуры в пространстве имен `http://parking.example.com/schemas/receipt`.
 - [WSDL-контракт SOAP-сервиса — UC-10.6](wsdl-uc-10-6-receipt.md) — полный SOAP-контракт `ReceiptService.GetReceipt` (SOAP 1.1, `document/literal`): WSDL с импортом receipt-XSD, конверты запроса и ответа, XSD-схема запроса, fault `ReceiptFault` с перечислением кодов ошибок. Связан с `INT-006`, `INT-007`.
