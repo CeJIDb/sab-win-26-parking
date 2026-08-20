@@ -6,12 +6,12 @@
 
 ## Зачем именно так
 
-Курс требует выбрать один интеграционный UC и проработать его на всю глубину: от пользовательского описания до OpenAPI-спеки и XML-схемы. UC-8.2 выбран после анализа реестра UC, контекстной диаграммы и [DFD L1](../docs/artifacts/dfd-l1.md):
+Курс требует выбрать один интеграционный UC и проработать его на всю глубину: от пользовательского описания до OpenAPI-спеки и SOAP/WSDL-контракта с XML-схемами. UC-8.2 выбран после анализа реестра UC, контекстной диаграммы и [DFD L1](../docs/artifacts/dfd-l1.md):
 
-- внешние системы: **ЭДО** (E12 — нативный XML-канал, СБИС/Диадок) и **Сервис уведомлений** (E8 — JSON SMS/email);
-- внутренние модули: **`Сервис Договоров` (P14)** владеет XML-сериализацией для E12 ЭДО самостоятельно (отдельный адаптер не вводится — поток обмена соответствует [DFD L1](../docs/artifacts/dfd-l1.md) F03/F04) и публикует события для `Notification Service` через transactional outbox ([ADR-003](../docs/architecture/adr/adr-003-modular-monolith.md) инв. 4);
+- внешние системы: **ЭДО** (E12 — для учебного контракта принят SOAP 1.1/XML over HTTPS; реальный СБИС/Диадок может иметь иной API) и **Сервис уведомлений** (E8 — JSON SMS/email);
+- внутренние модули: **`Сервис Договоров` (P14)** владеет SOAP-клиентом и XML-сериализацией для E12 ЭДО самостоятельно (отдельный адаптер не вводится — поток обмена соответствует [DFD L1](../docs/artifacts/dfd-l1.md) F03/F04) и публикует события для `Notification Service` через transactional outbox ([ADR-003](../docs/architecture/adr/adr-003-modular-monolith.md) инв. 4);
 - асинхрон с ожиданием подписи контрагента (богатый материал для UML Sequence);
-- XML+XSD ложатся на формат документов ЭДО органично, не «по желанию».
+- SOAP/WSDL с inline XSD дает формальный контракт передачи файла и синхронного подтверждения приема; выбор SOAP является учебным архитектурным решением Фазы 6, а не следствием самого факта передачи файла.
 
 DADATA-интеграция (автозаполнение реквизитов по ИНН, [ADR-004](../docs/architecture/adr/adr-004-dadata-organization-lookup.md)) **исключена из scope ДЗ** по решению автора — оставляем только ЭДО + Notification как 2 внешние системы.
 
@@ -26,8 +26,8 @@ DADATA-интеграция (автозаполнение реквизитов �
 5. JSON-пример + JSON Schema — `docs/architecture/integration/payload-uc-8-2-create-contract.md` и `schema-uc-8-2-create-contract.md` для внутреннего REST `POST /api/v1/contracts`.
 6. Postman-метод — коллекция в `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json`.
 7. Swagger/OpenAPI — `docs/architecture/integration/openapi-uc-8-2-create-contract.md` для того же endpoint.
-8. XML + XSD — `docs/architecture/integration/payload-uc-8-2-edo-contract.xml` и `schema-uc-8-2-edo-contract.xsd` для документа договора в формате ЭДО.
-9. Регламент v2 — наполнение блока «Документооборот через ЭДО» протоколами и ссылками на конкретные payload (json/xml).
+8. SOAP/WSDL + XSD — один самодостаточный `docs/architecture/integration/wsdl-uc-8-2-edo-contract.md` по образцу UC-10.6: WSDL, SOAP-запрос передачи файла, SOAP-ответ, fault и inline XSD без отдельных XML/XSD-файлов.
+9. Регламент v2 — наполнение блока «Документооборот через ЭДО» протоколами и ссылками на REST/SOAP-контракты.
 
 Плюс правки индексов `docs/architecture/integration/readme.md`, `docs/specs/integration/readme.md`, `docs/artifacts/use-case/readme.md`, запись в `docs/process/traceability-matrix-log.md`.
 
@@ -45,7 +45,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 - Правка [dfd-l1.md](../docs/artifacts/dfd-l1.md) и [c4-diagrams.md](../docs/architecture/c4/c4-diagrams.md) — принятые артефакты, не трогаем.
 - DADATA-интеграция — исключена.
 - UC-8.5 (расторжение договора), UC-8.4 (изменение договора) — отдельные UC, не входят в это ДЗ.
-- Реальная конфигурация СБИС/Диадок-провайдера — XSD проектируется как учебный, не привязан к конкретному вендору.
+- Реальная конфигурация и API СБИС/Диадок-провайдера — SOAP/WSDL-контракт проектируется как учебный и не привязан к конкретному вендору.
 
 ## Тайминг
 
@@ -56,7 +56,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 | 240–270 | Фаза 3  | Регламент v1 — структура блока ЭДО                                                                                   |
 | 270–360 | Фаза 4  | UML Sequence (`Сервис Договоров` → ЭДО напрямую, по DFD L1)                                                          |
 | 360–420 | Фаза 5  | JSON-пример + JSON Schema внутреннего REST                                                                           |
-| 420–510 | Фаза 6  | XML-документ договора + XSD-схема                                                                                    |
+| 420–510 | Фаза 6  | SOAP/WSDL-контракт передачи договора + inline XSD                                                                    |
 | 510–540 | Фаза 7  | Postman-коллекция                                                                                                    |
 | 540–600 | Фаза 8  | Swagger/OpenAPI                                                                                                      |
 | 600–630 | Фаза 9  | Регламент v2 — наполнение payload                                                                                    |
@@ -74,10 +74,10 @@ DADATA-интеграция (автозаполнение реквизитов �
 ## Definition of Done
 
 - [ ] Все 9 deliverables созданы по своим путям (см. секцию «Цель»).
-- [ ] Регламент v2 ссылается на конкретные payload-файлы (json + xml).
+- [ ] Регламент v2 ссылается на REST-контракт Фазы 5/8 и SOAP/WSDL-контракт Фазы 6.
 - [x] Sequence отображает интеграционные взаимодействия UC-8.2. Внутренние модули (P14, P9, P20, P3) и внешний `Сервис уведомлений` (E8) свернуты в одного participant'а «Система» / асинхронные стрелки — сознательное упрощение для UC-уровня, раскроется в Фазах 5 и 9. См. [Фаза 4 завершена 2026-05-28](#фаза-4-завершена-2026-05-28).
 - [x] JSON Schema Фазы 5 валидна: шесть примеров проверены через `ajv-cli@5` с `ajv-formats`.
-- [ ] XSD валидна и XML-пример проходит против нее (`xmllint --schema`).
+- [ ] WSDL и SOAP-примеры well-formed; inline XSD компилируется и извлеченные payload проходят против нее через `xmllint --schema` во временном каталоге.
 - [x] OpenAPI yaml парсится валидатором Swagger.
 - [ ] Postman-коллекция импортируется и базовые запросы выполняются (моками или против stub).
 - [x] Журнал трассировки [traceability-matrix-log.md](../docs/process/traceability-matrix-log.md) обновлен записью `CHG-20260820-001` со ссылкой на мастер-план.
@@ -97,7 +97,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 - Фаза 2 (ФТ) — ✅ завершена, подплан удален. Итог в разделе «Фаза 2 завершена», отдельный ретро — [docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md](../docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md).
 - Фаза 4 (Sequence) — ✅ завершена, подплан удален. Итог в разделе «Фаза 4 завершена», ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
 - Фаза 5 (JSON+Schema) — ✅ завершена 2026-08-20, подплан удален. Итог в разделе «Фаза 5 завершена», ретро — [docs/process/retro/2026-05-28-uc-8-2-rest-api.md](../docs/process/retro/2026-05-28-uc-8-2-rest-api.md).
-- Фаза 6 (XML+XSD) → `2026-MM-DD-uc-8-2-edo-xml.md` — подплан создается перед стартом.
+- Фаза 6 (SOAP/WSDL + inline XSD) — ⏳ подплан актуализирован: [2026-08-20-uc-8-2-edo-soap-wsdl.md](2026-08-20-uc-8-2-edo-soap-wsdl.md), реализация не начата.
 - Фаза 8 (Swagger/OpenAPI) — ✅ завершена без подплана 2026-08-20. Итог в разделе «Фаза 8 завершена 2026-08-20».
 
 Без подплана (механические шаги): Фаза 3 (регламент v1, завершена), Фаза 7 (Postman), Фаза 8 (Swagger), Фаза 9 (регламент v2), Фаза 10 (индексы+ретро). Они выполняются по мастер-плану напрямую.
@@ -111,10 +111,10 @@ DADATA-интеграция (автозаполнение реквизитов �
 - [x] **Фаза 3. Регламент взаимодействия ИС v1 (структура).** Добавлен Блок 3 «Документооборот через ЭДО» в [is-interaction-regulation.md](../docs/architecture/integration/is-interaction-regulation.md) по образцу Блока 2: 10 строк таблицы (6 по INT-014 + 4 по INT-015), колонки «Протокол» и «Полезная нагрузка» — `уточняется` (заполним в Фазе 9). Терминология «Сервис Договоров» (а не «Договор») — синхронизация с C4 / DFD L1.
 - [x] **Фаза 4. UML Sequence.** Создан [sequence-uc-8-2-create-contract.md](../docs/architecture/integration/sequence-uc-8-2-create-contract.md) с PlantUML-исходником и PNG-экспортом в [assets/](../docs/architecture/integration/assets/). По итогам обсуждения упрощено: 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») вместо 9 запланированных; Mermaid-нотация не использована (одна нотация PlantUML, без дублирования). Основной поток 17 шагов + 6 расширений (`3а` через `break`, `7а` между шагами 6 и 7, `10а/10б` и `12а/12б` через `alt`/`else`/`break`). SLA 7 календарных дней показан паузами `...Ожидание подписания...`. Подплан удален после завершения фазы.
 - [x] **Фаза 5. JSON-пример + JSON Schema.** Созданы [JSON-примеры UC-8.2](../docs/architecture/integration/payload-uc-8-2-create-contract.md) для request и ответов `201/200/400/422/502`, а также [JSON Schema UC-8.2](../docs/architecture/integration/schema-uc-8-2-create-contract.md) draft 2020-12 с тремя `$defs`. Все шесть примеров проверены через ajv. Подплан удален после завершения фазы.
-- [ ] **Фаза 6. XML + XSD для ЭДО.** Спроектировать XML-документ договора для отправки в ЭДО (P21 → E12). Создать `docs/architecture/integration/payload-uc-8-2-edo-contract.xml` (пример документа) и `schema-uc-8-2-edo-contract.xsd` (XSD-схема). Валидировать через `xmllint --schema`.
+- [ ] **Фаза 6. SOAP/WSDL-контракт для ЭДО.** Создать один [WSDL-контракт передачи договора](../docs/architecture/integration/wsdl-uc-8-2-edo-contract.md) для операции `SubmitContractForSigning` (`Сервис Договоров` P14 → ЭДО E12): SOAP 1.1 `document/literal`, файл договора как `xs:base64Binary`, синхронный ответ с `идДокументаЭДО`/статусом приема, fault и inline XSD. Отдельные `.xml`, `.xsd` и `.wsdl` файлы не создавать. XML-блоки извлекать только во временный каталог для `xmllint`.
 - [ ] **Фаза 7. Postman-коллекция.** Создать `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json` для endpoint `POST /api/v1/contracts` + опц. `GET /api/v1/contracts/{id}/status`. Импортируется в Postman, базовый запрос выполняется (mock сервер или stub).
 - [x] **Фаза 8. Swagger/OpenAPI.** Создан [OpenAPI-контракт UC-8.2](../docs/architecture/integration/openapi-uc-8-2-create-contract.md) для `POST /api/v1/contracts`: inline-схемы запроса, успешных ответов и ошибок; коды `200/201/400/401/403/422/502`. Контракт проверен `swagger-cli` 2026-08-20.
-- [ ] **Фаза 9. Регламент взаимодействия v2 (наполнение).** Заполнить колонки «Протокол» и «Полезная нагрузка» в блоке «Документооборот через ЭДО» с ссылками на артефакты Фаз 5/6 (json/xml).
+- [ ] **Фаза 9. Регламент взаимодействия v2 (наполнение).** Заполнить колонки «Протокол» и «Полезная нагрузка» в блоке «Документооборот через ЭДО»: для синхронной отправки/подтверждения указать SOAP 1.1 over HTTPS и ссылку на WSDL Фазы 6; для REST/уведомлений — ссылки на соответствующие контракты Фаз 5/8.
 - [ ] **Фаза 10. Индексы, трассировка, ретро.** Обновить `docs/architecture/integration/readme.md`, `docs/specs/integration/readme.md`, `docs/artifacts/use-case/readme.md`. Записать `CHG-*` в `docs/process/traceability-matrix-log.md`. Написать ретро в `docs/process/retro/2026-05-02-uc-8-2-edo-integration.md` по формату [docs/process/retro/README.md](../docs/process/retro/README.md). Прогнать `npm run ci:check`.
 
 ## Итог
@@ -158,7 +158,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 - Параллельное выполнение 4 агентов (по одному на INT-ID) с последующей сборкой оркестратором — снижает риск гонок за файл.
 - Все 4 требования вставлены в один файл `integration-requirements.md` подряд после INT-013, перед `---`.
 - Индекс `docs/specs/integration/readme.md` не требует обновки (перечень INT-\* там отсутствует).
-- Все линтеры прошли успешно, текст без буквы «ё».
+- Все линтеры прошли успешно, текст без символов `U+0451` и `U+0401`.
 
 ### Фаза 3 завершена 2026-05-02
 
