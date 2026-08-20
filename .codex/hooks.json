@@ -116,14 +116,6 @@
             "description": "Remind about npm run commit:atomic when worktree diff is large.",
             "type": "command",
             "command": "bash scripts/claude-hooks/remind-atomic-commit.sh"
-          },
-          {
-            "name": "Play stop sound",
-            "displayName": "Play stop sound",
-            "title": "Play stop sound",
-            "description": "Play a short sound when Codex ends its turn.",
-            "type": "command",
-            "command": "bash scripts/claude-hooks/play-sound.sh stop"
           }
         ]
       }
