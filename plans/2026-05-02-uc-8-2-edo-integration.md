@@ -23,9 +23,9 @@ DADATA-интеграция (автозаполнение реквизитов �
 2. ФТ интеграции — расширение `docs/specs/integration/integration-requirements.md` на ~4 новых `INT-*` требования (2 внешних + 2 внутренних).
 3. Регламент v1 — новый блок «Документооборот через ЭДО» в `docs/architecture/integration/is-interaction-regulation.md` (структура без полезной нагрузки).
 4. UML Sequence — `docs/architecture/integration/sequence-uc-8-2-create-contract.md`. Изначально планировались 9 participants (PWA Клиента ЮЛ, API Gateway, `Сервис Договоров` P14, `Client Profile Service` P3 через view, `Notification Service` P9, `Notification Adapter` P20, `ЭДО` E12, `Сервис уведомлений` E8); фактически по итогам Фазы 4 упрощено до 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») — см. [Фаза 4 завершена 2026-05-28](#фаза-4-завершена-2026-05-28).
-5. JSON-пример + JSON Schema — `docs/architecture/integration/payload-uc-8-2-create-contract.md` и `schema-uc-8-2-create-contract.md` для внутреннего REST `POST /api/contracts`.
+5. JSON-пример + JSON Schema — `docs/architecture/integration/payload-uc-8-2-create-contract.md` и `schema-uc-8-2-create-contract.md` для внутреннего REST `POST /api/v1/contracts`.
 6. Postman-метод — коллекция в `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json`.
-7. Swagger/OpenAPI — `docs/architecture/integration/openapi-uc-8-2-create-contract.yaml` для того же endpoint.
+7. Swagger/OpenAPI — `docs/architecture/integration/openapi-uc-8-2-create-contract.md` для того же endpoint.
 8. XML + XSD — `docs/architecture/integration/payload-uc-8-2-edo-contract.xml` и `schema-uc-8-2-edo-contract.xsd` для документа договора в формате ЭДО.
 9. Регламент v2 — наполнение блока «Документооборот через ЭДО» протоколами и ссылками на конкретные payload (json/xml).
 
@@ -76,16 +76,16 @@ DADATA-интеграция (автозаполнение реквизитов �
 - [ ] Все 9 deliverables созданы по своим путям (см. секцию «Цель»).
 - [ ] Регламент v2 ссылается на конкретные payload-файлы (json + xml).
 - [x] Sequence отображает интеграционные взаимодействия UC-8.2. Внутренние модули (P14, P9, P20, P3) и внешний `Сервис уведомлений` (E8) свернуты в одного participant'а «Система» / асинхронные стрелки — сознательное упрощение для UC-уровня, раскроется в Фазах 5 и 9. См. [Фаза 4 завершена 2026-05-28](#фаза-4-завершена-2026-05-28).
-- [ ] JSON Schema валидна (запустить через online-валидатор или `ajv`).
+- [x] JSON Schema Фазы 5 валидна: шесть примеров проверены через `ajv-cli@5` с `ajv-formats`.
 - [ ] XSD валидна и XML-пример проходит против нее (`xmllint --schema`).
-- [ ] OpenAPI yaml парсится в Swagger Editor.
+- [x] OpenAPI yaml парсится валидатором Swagger.
 - [ ] Postman-коллекция импортируется и базовые запросы выполняются (моками или против stub).
-- [ ] Журнал трассировки [traceability-matrix-log.md](../docs/process/traceability-matrix-log.md) обновлен записью CHG-\* со ссылкой на этот план.
+- [x] Журнал трассировки [traceability-matrix-log.md](../docs/process/traceability-matrix-log.md) обновлен записью `CHG-20260820-001` со ссылкой на мастер-план.
 - [ ] Индексы `readme.md` в integration/ и use-case/ обновлены.
-- [ ] `npm run ci:check` зеленый.
+- [x] `npm run ci:check` зеленый после завершения Фазы 5.
 - [ ] Ретро написано в `docs/process/retro/2026-05-02-uc-8-2-edo-integration.md` после завершения.
-- [ ] Имена файлов — латиница, kebab-case (`npm run lint:file-names` зеленый).
-- [ ] Текст без буквы «ё».
+- [x] Имена файлов Фазы 5 — латиница, kebab-case (`npm run lint:file-names` зеленый).
+- [x] Текст Фазы 5 соответствует правилу проекта: символы `U+0451` и `U+0401` не добавлены.
 
 ## Подпланы
 
@@ -95,9 +95,10 @@ DADATA-интеграция (автозаполнение реквизитов �
 
 - Фаза 1 (UC-8.2) — ✅ завершена, подплан удален. Итог в разделе «Фаза 1 завершена».
 - Фаза 2 (ФТ) — ✅ завершена, подплан удален. Итог в разделе «Фаза 2 завершена», отдельный ретро — [docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md](../docs/process/retro/2026-05-02-uc-8-2-functional-requirements.md).
-- Фаза 4 (Sequence) → [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md) — ✅ завершена, итог в разделе «Фаза 4 завершена», ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
-- Фаза 5 (JSON+Schema) → [2026-05-28-uc-8-2-rest-api.md](2026-05-28-uc-8-2-rest-api.md) — в работе: request-часть готова 2026-06-10 (с точечными отклонениями от подплана), остается контракт ответа. Промежуточный итог — в разделе «Фаза 5 частично завершена 2026-06-10».
+- Фаза 4 (Sequence) — ✅ завершена, подплан удален. Итог в разделе «Фаза 4 завершена», ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
+- Фаза 5 (JSON+Schema) — ✅ завершена 2026-08-20, подплан удален. Итог в разделе «Фаза 5 завершена», ретро — [docs/process/retro/2026-05-28-uc-8-2-rest-api.md](../docs/process/retro/2026-05-28-uc-8-2-rest-api.md).
 - Фаза 6 (XML+XSD) → `2026-MM-DD-uc-8-2-edo-xml.md` — подплан создается перед стартом.
+- Фаза 8 (Swagger/OpenAPI) — ✅ завершена без подплана 2026-08-20. Итог в разделе «Фаза 8 завершена 2026-08-20».
 
 Без подплана (механические шаги): Фаза 3 (регламент v1, завершена), Фаза 7 (Postman), Фаза 8 (Swagger), Фаза 9 (регламент v2), Фаза 10 (индексы+ретро). Они выполняются по мастер-плану напрямую.
 
@@ -108,11 +109,11 @@ DADATA-интеграция (автозаполнение реквизитов �
 - [x] **Фаза 1. UC-8.2 — детальный сценарий.** Подплан удален после завершения. Создан [uc-8-2-create-contract-legal-entity.md](../docs/artifacts/use-case/uc-8-2-create-contract-legal-entity.md) по структуре uc-10-2 (10 разделов). Сценарий Б с маршрутом согласования в ЭДО, ~18 шагов основного потока, 6 расширений (`3а`, `7а`, `10а`, `10б`, `12а`, `12б` — ветка `6а` убрана при buildin-sync, см. `CHG-20260502-004`). SLA подписи — 7 календарных дней. Параллельно расширены [концептуальная модель](../docs/artifacts/conceptual-model-with-attributes.md) (+5 значений в enum «Статус договора», +2 атрибута в «Договор») и [ERD `contracts`](../docs/architecture/database/erd/erd-normalized-er-model.md) (`contract_status_enum` до 11 значений, колонки `client_signed_at` / `owner_signed_at`). Финальная агрегированная запись `CHG-*` в [traceability-matrix-log.md](../docs/process/traceability-matrix-log.md) по всему набору 9 артефактов + правки модели/ERD — в Фазе 10 (промежуточный `CHG-20260502-004` зафиксировал только buildin-sync UC-8.2).
 - [x] **Фаза 2. Пользовательские требования к интеграции (ФТ).** Расширить `docs/specs/integration/integration-requirements.md` на 2 новых `INT-*`: `INT-014` (Договор ↔ ЭДО, внешняя) и `INT-015` (Договор → АгентУведомлений, внешняя). Каждое требование — формат курса (источник/приемник, событие, данные, периодичность). Изначально были также заведены `INT-016` (Договор ↔ ЭДО Adapter) и `INT-017` (Договор → Notification outbox), позднее удалены 2026-05-02 (см. `CHG-20260502-005`).
 - [x] **Фаза 3. Регламент взаимодействия ИС v1 (структура).** Добавлен Блок 3 «Документооборот через ЭДО» в [is-interaction-regulation.md](../docs/architecture/integration/is-interaction-regulation.md) по образцу Блока 2: 10 строк таблицы (6 по INT-014 + 4 по INT-015), колонки «Протокол» и «Полезная нагрузка» — `уточняется` (заполним в Фазе 9). Терминология «Сервис Договоров» (а не «Договор») — синхронизация с C4 / DFD L1.
-- [x] **Фаза 4. UML Sequence.** Создан [sequence-uc-8-2-create-contract.md](../docs/architecture/integration/sequence-uc-8-2-create-contract.md) с PlantUML-исходником и PNG-экспортом в [assets/](../docs/architecture/integration/assets/). По итогам обсуждения упрощено: 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») вместо 9 запланированных; Mermaid-нотация не использована (одна нотация PlantUML, без дублирования). Основной поток 17 шагов + 6 расширений (`3а` через `break`, `7а` между шагами 6 и 7, `10а/10б` и `12а/12б` через `alt`/`else`/`break`). SLA 7 календарных дней показан паузами `...Ожидание подписания...`. Подплан — [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md).
-- [ ] **Фаза 5. JSON-пример + JSON Schema.** Спроектировать внутренний REST endpoint `POST /api/contracts` (ЛК клиента ЮЛ (PWA) → API Gateway → P14; ранее в плане ошибочно значилось «Admin Panel → P14» — по UC-8.2 и Sequence сценарий инициирует клиент ЮЛ из ЛК). Создать `docs/architecture/integration/payload-uc-8-2-create-contract.md` (request + response пример) и `schema-uc-8-2-create-contract.md` (JSON Schema). Валидировать через `ajv` или Swagger Editor. Подплан — [2026-05-28-uc-8-2-rest-api.md](2026-05-28-uc-8-2-rest-api.md). **Request-часть готова 2026-06-10** — см. [Фаза 5 частично завершена 2026-06-10](#фаза-5-частично-завершена-2026-06-10); остается контракт ответа.
+- [x] **Фаза 4. UML Sequence.** Создан [sequence-uc-8-2-create-contract.md](../docs/architecture/integration/sequence-uc-8-2-create-contract.md) с PlantUML-исходником и PNG-экспортом в [assets/](../docs/architecture/integration/assets/). По итогам обсуждения упрощено: 4 participants («Клиент ЮЛ», «Управляющий», «Система», «ЭДО») вместо 9 запланированных; Mermaid-нотация не использована (одна нотация PlantUML, без дублирования). Основной поток 17 шагов + 6 расширений (`3а` через `break`, `7а` между шагами 6 и 7, `10а/10б` и `12а/12б` через `alt`/`else`/`break`). SLA 7 календарных дней показан паузами `...Ожидание подписания...`. Подплан удален после завершения фазы.
+- [x] **Фаза 5. JSON-пример + JSON Schema.** Созданы [JSON-примеры UC-8.2](../docs/architecture/integration/payload-uc-8-2-create-contract.md) для request и ответов `201/200/400/422/502`, а также [JSON Schema UC-8.2](../docs/architecture/integration/schema-uc-8-2-create-contract.md) draft 2020-12 с тремя `$defs`. Все шесть примеров проверены через ajv. Подплан удален после завершения фазы.
 - [ ] **Фаза 6. XML + XSD для ЭДО.** Спроектировать XML-документ договора для отправки в ЭДО (P21 → E12). Создать `docs/architecture/integration/payload-uc-8-2-edo-contract.xml` (пример документа) и `schema-uc-8-2-edo-contract.xsd` (XSD-схема). Валидировать через `xmllint --schema`.
-- [ ] **Фаза 7. Postman-коллекция.** Создать `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json` для endpoint `POST /api/contracts` + опц. `GET /api/contracts/{id}/status`. Импортируется в Postman, базовый запрос выполняется (mock сервер или stub).
-- [ ] **Фаза 8. Swagger/OpenAPI.** Создать `docs/architecture/integration/openapi-uc-8-2-create-contract.yaml` — спека для того же endpoint. Парсится в Swagger Editor без ошибок. Ссылается на JSON Schema из Фазы 5 (через `$ref` или inline).
+- [ ] **Фаза 7. Postman-коллекция.** Создать `docs/architecture/integration/postman/uc-8-2-create-contract.postman_collection.json` для endpoint `POST /api/v1/contracts` + опц. `GET /api/v1/contracts/{id}/status`. Импортируется в Postman, базовый запрос выполняется (mock сервер или stub).
+- [x] **Фаза 8. Swagger/OpenAPI.** Создан [OpenAPI-контракт UC-8.2](../docs/architecture/integration/openapi-uc-8-2-create-contract.md) для `POST /api/v1/contracts`: inline-схемы запроса, успешных ответов и ошибок; коды `200/201/400/401/403/422/502`. Контракт проверен `swagger-cli` 2026-08-20.
 - [ ] **Фаза 9. Регламент взаимодействия v2 (наполнение).** Заполнить колонки «Протокол» и «Полезная нагрузка» в блоке «Документооборот через ЭДО» с ссылками на артефакты Фаз 5/6 (json/xml).
 - [ ] **Фаза 10. Индексы, трассировка, ретро.** Обновить `docs/architecture/integration/readme.md`, `docs/specs/integration/readme.md`, `docs/artifacts/use-case/readme.md`. Записать `CHG-*` в `docs/process/traceability-matrix-log.md`. Написать ретро в `docs/process/retro/2026-05-02-uc-8-2-edo-integration.md` по формату [docs/process/retro/README.md](../docs/process/retro/README.md). Прогнать `npm run ci:check`.
 
@@ -179,7 +180,7 @@ DADATA-интеграция (автозаполнение реквизитов �
 
 ### Фаза 4 завершена 2026-05-28
 
-Подплан — [2026-05-02-uc-8-2-sequence.md](2026-05-02-uc-8-2-sequence.md). Ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
+Подплан удален после завершения фазы. Ретро — [docs/process/retro/2026-05-02-uc-8-2-sequence.md](../docs/process/retro/2026-05-02-uc-8-2-sequence.md).
 
 **Артефакты:**
 
@@ -208,14 +209,14 @@ DADATA-интеграция (автозаполнение реквизитов �
 - Уведомление Управляющему при просрочке парковки (расширение 12б) — обсуждалось как эскалация, в финальный вариант не вошло ради симметрии с 10а/10б. Дизайн-решение можно пересмотреть на этапе JSON-контракта (Фаза 5) или регламента v2 (Фаза 9), если эскалация будет признана важной.
 - Раскрытие 9 participants и outbox-механики — это уровень JSON+Schema (Фаза 5) и регламента v2 (Фаза 9).
 
-### Фаза 5 частично завершена 2026-06-10
+### Фаза 5 завершена 2026-08-20
 
-Подплан — [2026-05-28-uc-8-2-rest-api.md](2026-05-28-uc-8-2-rest-api.md) (создан 2026-05-28, 17 предстартовых решений). Request-контракт спроектирован автором вручную (схема + нагрузка), проверен и оформлен 2026-06-10 с точечными отклонениями от подплана — они согласованы 2026-06-10 и перечислены ниже. Остаток фазы — контракт ответа `POST /api/contracts` (`ContractResponse`, `ProblemResponse` — решения #7–#10 подплана) и примеры ответов в payload-артефакте.
+Подплан удален после завершения фазы. Request-часть создана 2026-06-10; 2026-08-20 из BuildIn перенесены структуры и примеры `ContractResponse` и `ProblemResponse`, после чего фаза завершена.
 
 **Артефакты:**
 
-- [schema-uc-8-2-create-contract.md](../docs/architecture/integration/schema-uc-8-2-create-contract.md) — JSON Schema (draft 2020-12) тела запроса `POST /api/contracts` по стилю schema-uc-10-6: `$id`, русские описания, `minimum: 1` на идентификаторах, `additionalProperties: false`, отдельный раздел инвариантов и серверных проверок.
-- [payload-uc-8-2-create-contract.md](../docs/architecture/integration/payload-uc-8-2-create-contract.md) — каноничный пример запроса (годовой договор: 3 ТС, 3 ПМ) + таблица семантики полей.
+- [schema-uc-8-2-create-contract.md](../docs/architecture/integration/schema-uc-8-2-create-contract.md) — JSON Schema draft 2020-12 с `$defs.ContractCreateRequest`, `$defs.ContractResponse` и `$defs.ProblemResponse`.
+- [payload-uc-8-2-create-contract.md](../docs/architecture/integration/payload-uc-8-2-create-contract.md) — шесть примеров: request и ответы `201`, `200`, `400`, `422`, `502`, плюс таблицы семантики полей.
 - [docs/architecture/integration/readme.md](../docs/architecture/integration/readme.md) — две строки в «Текущие материалы».
 
 **Ключевые решения, принятые в Фазе 5** (важны для Фаз 7–9):
@@ -223,8 +224,21 @@ DADATA-интеграция (автозаполнение реквизитов �
 - **camelCase для полей запроса** (`startDate`, `endDate`, `tariffId`, `vehicleIds`, `parkingPlaceIds`) — единообразие с REST-контрактами UC-10.6 / UC-12.1 (`receiptId`, `paymentId`); совпадает с решением #12 подплана. Исходный snake_case-вариант повторял колонки ERD; переименован решением автора 2026-06-10. Postman (Фаза 7) и OpenAPI (Фаза 8) используют camelCase.
 - **`parkingPlaceIds` вместо `parkingSpotIds` из решений #6/#7 подплана** — выравнивание с ERD (таблица `parking_places`, FK `parking_place_id`); решение автора 2026-06-10.
 - **`format: date` для `startDate`/`endDate`** — бизнес-даты без времени (`YYYY-MM-DD`), подтверждено решение #6 подплана; исходный сегодняшний вариант с `date-time` и `+03:00` упрощен 2026-06-10. Границы действия договора трактуются в поясе платформы `+03:00`.
-- **Draft 2020-12 вместо 2019-09 из решения #11 подплана** — современный draft по образцу schema-uc-10-6 (решение 2026-06-10); структура — пока standalone request-схема, объединение в `$defs`-контейнер по решению #4 подплана выполняется при проектировании контракта ответа (решение 2026-06-10).
+- **Draft 2020-12 вместо 2019-09 из решения #11 подплана** — современный draft по образцу schema-uc-10-6; схема оформлена контейнером с тремя именованными `$defs`.
 - **Минимальный состав запроса** — только 5 параметров формы шага 1 UC-8.2; `клиентИд` берется из сессии, реквизиты ЮЛ — из профиля, шаблон договора выбирает система (предусловие UC).
-- **Валидация ajv** (strict, draft 2020-12, `ajv-formats`): нагрузка проходит; негативные кейсы отклоняются (лишнее поле, строка не в формате даты, пустой список, дубликаты в списке). DoD-пункт «JSON Schema валидна» закроется окончательно после добавления примера ответа.
+- **Валидация ajv** (draft 2020-12, `ajv-formats`): все шесть каноничных примеров проходят соответствующие подсхемы.
+- **Каноничный enum парковки**: `AWAITING_PARKING_SIGNATURE` и `REJECTED_BY_PARKING` соответствуют статусам «на подписании парковкой» и «отклонен парковкой» из UC-8.2; ERD и OpenAPI синхронизированы.
 - **`endDate > startDate`** — вне выразительности JSON Schema; закреплено в артефакте как проверка бизнес-логики `Сервиса Договоров`. Там же — принадлежность ТС клиенту, доступность ПМ и дубликат-проверка по расширению `3а`.
 - **Исправлена описка плана**: в Фазе 5 значилось «Admin Panel → P14», фактический инициатор по UC-8.2 и Sequence — клиент ЮЛ из ЛК (PWA).
+
+### Фаза 8 завершена 2026-08-20
+
+Источник — [описание REST API метода UC-8.2 в BuildIn](https://buildin.ai/se24/5b2e21e1-5b88-42d0-911e-f440aa80de80). На странице были заполнены описание, структуры и примеры, но блок «Код YAML» оставался пустым. На их основе создан [OpenAPI-контракт UC-8.2](../docs/architecture/integration/openapi-uc-8-2-create-contract.md) в нотации OpenAPI 3.0.3.
+
+**Ключевые решения:**
+
+- Каноничный URL из BuildIn — `POST /api/v1/contracts`; путь синхронизирован в артефактах и планах UC-8.2.
+- Схемы `ContractCreateRequest`, `ContractResponse`, `ExistingContractResponse` и `ProblemResponse` встроены в YAML, поэтому OpenAPI остается самодостаточным; отдельная JSON Schema Фазы 5 использует те же структуры.
+- Механизм аутентификации не зафиксирован: источник определяет клиента из сессии, но не задает Bearer, cookie или иной способ.
+- Статусы `AWAITING_PARKING_SIGNATURE` и `REJECTED_BY_PARKING` приняты как каноничные по UC-8.2 и синхронизированы в OpenAPI, JSON Schema и ERD.
+- Спецификация проверена командой `npx -y @apidevtools/swagger-cli validate` без ошибок.
