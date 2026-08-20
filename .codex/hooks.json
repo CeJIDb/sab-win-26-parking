@@ -10,7 +10,7 @@
             "title": "Block secret file writes",
             "description": "Block writes to env files, keys, sqlite databases, and secret-like paths.",
             "type": "command",
-            "command": "node scripts/claude-hooks/block-secret-write.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/block-secret-write.mjs\""
           }
         ]
       },
@@ -23,7 +23,7 @@
             "title": "Block unsafe git add",
             "description": "Block git add -A, git add --all, and git add .",
             "type": "command",
-            "command": "node scripts/claude-hooks/block-unsafe-git-add.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/block-unsafe-git-add.mjs\""
           },
           {
             "name": "Block push to main",
@@ -31,7 +31,7 @@
             "title": "Block push to main",
             "description": "Block direct git push to main or master.",
             "type": "command",
-            "command": "node scripts/claude-hooks/block-push-to-main.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/block-push-to-main.mjs\""
           },
           {
             "name": "Validate staged plans",
@@ -39,7 +39,7 @@
             "title": "Validate staged plans",
             "description": "Validate staged plans before git commit.",
             "type": "command",
-            "command": "node scripts/claude-hooks/validate-staged-plans.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/validate-staged-plans.mjs\""
           }
         ]
       },
@@ -47,8 +47,12 @@
         "matcher": "Bash",
         "hooks": [
           {
+            "name": "Remind graph navigation",
+            "displayName": "Remind graph navigation",
+            "title": "Remind graph navigation",
+            "description": "Remind the agent to read the graph report before raw searches.",
             "type": "command",
-            "command": "/home/cejidb/.local/bin/graphify hook-check"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/remind-graph-navigation.mjs\""
           }
         ]
       }
@@ -63,7 +67,7 @@
             "title": "Validate plan on write",
             "description": "Validate plans/YYYY-MM-DD-*.md after file writes.",
             "type": "command",
-            "command": "node scripts/claude-hooks/validate-plan-on-write.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/validate-plan-on-write.mjs\""
           },
           {
             "name": "Format changed file",
@@ -71,36 +75,17 @@
             "title": "Format changed file",
             "description": "Run Prettier after supported file writes.",
             "type": "command",
-            "command": "node scripts/claude-hooks/format-on-write.mjs",
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/format-on-write.mjs\"",
             "statusMessage": "\u0424\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435..."
-          }
-        ]
-      },
-      {
-        "matcher": "mcp__markdown_rag__index_documents",
-        "hooks": [
+          },
           {
-            "name": "Touch RAG index timestamp",
-            "displayName": "Touch RAG index timestamp",
-            "title": "Touch RAG index timestamp",
-            "description": "Update markdown RAG index timestamp after indexing.",
+            "name": "Update graph after write",
+            "displayName": "Update graph after write",
+            "title": "Update graph after write",
+            "description": "Refresh the local graph after file writes.",
             "type": "command",
-            "command": "node scripts/claude-hooks/touch-rag-index-timestamp.mjs"
-          }
-        ]
-      }
-    ],
-    "SessionStart": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "name": "Check RAG index freshness",
-            "displayName": "Check RAG index freshness",
-            "title": "Check RAG index freshness",
-            "description": "Warn when docs markdown RAG index is stale.",
-            "type": "command",
-            "command": "node scripts/claude-hooks/check-rag-index.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/update-graph-on-write.mjs\"",
+            "statusMessage": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0433\u0440\u0430\u0444\u0430..."
           }
         ]
       }
@@ -115,22 +100,7 @@
             "title": "Remind atomic commit",
             "description": "Remind about npm run commit:atomic when worktree diff is large.",
             "type": "command",
-            "command": "bash scripts/claude-hooks/remind-atomic-commit.sh"
-          }
-        ]
-      }
-    ],
-    "Notification": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "name": "Play notification sound",
-            "displayName": "Play notification sound",
-            "title": "Play notification sound",
-            "description": "Play a notification sound.",
-            "type": "command",
-            "command": "bash scripts/claude-hooks/play-sound.sh notify"
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/remind-atomic-commit.sh\""
           }
         ]
       }
@@ -145,7 +115,7 @@
             "title": "Play permission sound",
             "description": "Play a sound when permission is requested.",
             "type": "command",
-            "command": "bash scripts/claude-hooks/play-sound.sh notify"
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/play-sound.sh\" notify"
           }
         ]
       }

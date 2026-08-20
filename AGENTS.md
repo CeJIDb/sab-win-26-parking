@@ -65,7 +65,8 @@ sab-win-26-parking/
 - `block-push-to-main.mjs`, `block-unsafe-git-add.mjs`, `block-secret-write.mjs` — запреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier.
-- `check-rag-index.mjs`, `touch-rag-index-timestamp.mjs` — контроль актуальности локального RAG-индекса.
+- `remind-graph-navigation.mjs`, `update-graph-on-write.mjs` — навигация и обновление graphify.
+- `hook-input.mjs` — совместимый разбор входа Claude Code и Codex `apply_patch`.
 - `play-sound.sh`, `remind-atomic-commit.sh` — уведомления.
 
 **Husky:** `commit-msg` (commitlint, Conventional Commits: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `build`, `perf`, `revert`); `pre-commit` (reminder + `check:plans:staged`); `pre-push` (reminder + `check:branch` + `ci:check`).
