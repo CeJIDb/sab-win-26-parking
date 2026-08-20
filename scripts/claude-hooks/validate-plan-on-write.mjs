@@ -11,37 +11,39 @@
  *   - plans/user-actions/** (другой формат, своя схема)
  *   - всё, что не подходит под YYYY-MM-DD-slug.md
  */
-import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { existsSync } from "node:fs";
 import path from "node:path";
+import {
+  getHookFilePaths,
+  getProjectDir,
+  readHookPayload,
+  resolveHookPath,
+} from "./hook-input.mjs";
 
-let payload = {};
-try {
-  payload = JSON.parse(readFileSync(0, "utf-8") || "{}");
-} catch {
-  process.exit(0);
-}
+const payload = readHookPayload();
+const projectDir = getProjectDir(payload);
+const planPaths = getHookFilePaths(payload)
+  .map((filePath) => resolveHookPath(projectDir, filePath))
+  .filter((filePath) => existsSync(filePath))
+  .filter((filePath) => {
+    const rel = path.relative(projectDir, filePath).split(path.sep).join("/");
+    return (
+      rel.startsWith("plans/") &&
+      !rel.startsWith("plans/user-actions/") &&
+      path.basename(rel) !== "README.md" &&
+      /^plans\/\d{4}-\d{2}-\d{2}-[a-z0-9][a-z0-9-]*\.md$/.test(rel)
+    );
+  });
 
-const filePath = (payload.tool_input && payload.tool_input.file_path) || null;
-if (!filePath) process.exit(0);
-
-const projectDir = process.env.CLAUDE_PROJECT_DIR || process.cwd();
-const rel = path.relative(projectDir, path.resolve(filePath));
-
-// Только plans/*.md, не user-actions/, не README.md
-if (
-  !rel.startsWith("plans/") ||
-  rel.startsWith("plans/user-actions/") ||
-  path.basename(rel) === "README.md" ||
-  !/^plans\/\d{4}-\d{2}-\d{2}-[a-z0-9][a-z0-9-]*\.md$/.test(rel)
-) {
-  process.exit(0);
-}
+if (planPaths.length === 0) process.exit(0);
 
 const scriptPath = path.join(projectDir, "scripts", "plans", "validate-plans.mjs");
 
 try {
-  execFileSync("node", [scriptPath, path.resolve(filePath)], { stdio: "inherit" });
+  for (const planPath of planPaths) {
+    execFileSync("node", [scriptPath, planPath], { stdio: "inherit" });
+  }
 } catch {
   console.error(
     "\nvalidate-plan-on-write: план содержит ошибки — исправь их перед продолжением.\n",

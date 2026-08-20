@@ -5,23 +5,9 @@
  * Блокирует Write / Edit / MultiEdit по файлам, которые могут содержать секреты.
  * Зеркалит список из permissions.deny в settings.json, но для операций записи.
  */
-import { readFileSync } from "node:fs";
+import { getHookFilePaths, readHookPayload } from "./hook-input.mjs";
 
-let payload = {};
-try {
-  payload = JSON.parse(readFileSync(0, "utf-8") || "{}");
-} catch {
-  process.exit(0);
-}
-
-const input = payload.tool_input || {};
-const paths = [];
-if (typeof input.file_path === "string") paths.push(input.file_path);
-if (Array.isArray(input.edits)) {
-  for (const e of input.edits) {
-    if (e && typeof e.file_path === "string") paths.push(e.file_path);
-  }
-}
+const paths = getHookFilePaths(readHookPayload());
 
 if (paths.length === 0) process.exit(0);
 

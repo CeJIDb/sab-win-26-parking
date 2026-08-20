@@ -1,7 +1,13 @@
 #!/usr/bin/env node
-import { execSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { existsSync } from "node:fs";
 import { extname } from "node:path";
+import {
+  getHookFilePaths,
+  getProjectDir,
+  readHookPayload,
+  resolveHookPath,
+} from "./hook-input.mjs";
 
 const SUPPORTED = new Set([
   ".md",
@@ -20,14 +26,17 @@ const SUPPORTED = new Set([
   ".html",
 ]);
 
-const input = JSON.parse(readFileSync("/dev/stdin", "utf8"));
-const filePath = input?.tool_input?.file_path;
+const payload = readHookPayload();
+const projectDir = getProjectDir(payload);
+const filePaths = getHookFilePaths(payload)
+  .map((filePath) => resolveHookPath(projectDir, filePath))
+  .filter((filePath) => existsSync(filePath) && SUPPORTED.has(extname(filePath)));
 
-if (!filePath || !SUPPORTED.has(extname(filePath))) process.exit(0);
+if (filePaths.length === 0) process.exit(0);
 
 try {
-  execSync(`npx prettier --write "${filePath}"`, {
-    cwd: process.env.CLAUDE_PROJECT_DIR,
+  execFileSync("npx", ["prettier", "--write", ...filePaths], {
+    cwd: projectDir,
     stdio: "inherit",
   });
 } catch {
