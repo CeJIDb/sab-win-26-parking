@@ -18,7 +18,10 @@
 - [ADR-002: бронирование и парковочная сессия](../../adr/adr-002-booking-vs-session.md)
 - [Глоссарий проекта](../../../artifacts/project-glossary.md)
 - [ФТ: парковочная сессия](../../../specs/functional-requirements/fr-parking-session.md)
-- [DDL ERD для PostgreSQL (`public`)](../../../../sql/database/chartdb-postgresql-erd-normalized-public.sql)
+- [Многосхемный DDL для ChartDB и структурной проверки](../../../../sql/database/chartdb-postgresql-erd-normalized.sql)
+- [Плоский DDL для ChartDB](../../../../sql/database/chartdb-postgresql-erd-normalized-public.sql)
+
+Оба DDL являются экспортами для визуализации и временной структурной проверки. Они не являются каноническим bootstrap или миграцией БД.
 
 ```mermaid
 erDiagram
@@ -59,8 +62,14 @@ erDiagram
 
     contract_templates ||--o{ contracts : generates
     clients ||--o{ contracts : has
-    contracts ||--o{ contract_status_history : changes
-    employees ||--o{ contract_status_history : records
+    contracts ||--o{ contract_signing_attempts : has
+    contracts o|--o| contract_signing_attempts : selects_current
+    contract_signing_attempts ||--o{ contract_signing_status_history : changes
+    contracts ||--o{ contract_lifecycle_status_history : changes
+    contract_signing_attempts o|--o{ contract_inbox_events : correlates
+    contracts ||--|| v_contract_current_state : projects
+    contract_signing_attempts o|--o| v_contract_current_state : supplies_current_signing
+    v_contract_current_state ||--o| v_access_active_contract_by_client : filters_access
 
     vehicle_types ||--o{ vehicles : classifies
 
@@ -377,20 +386,94 @@ erDiagram
         string contract_number
         date start_date
         date end_date
-        string status
+        string lifecycle_status
+        bigint current_signing_attempt_id
+        bigint lifecycle_version
+        datetime activated_at
+        datetime terminated_at
+        datetime archived_at
+    }
+
+    contract_signing_attempts {
+        bigint id
+        bigint contract_id
+        int attempt_no
+        string signing_route
+        string signing_status
+        string document_version
+        string edo_provider_code
+        string edo_document_id
+        string outbound_idempotency_key
         string document_file_ref
         datetime client_signed_at
         datetime owner_signed_at
+        datetime manual_verified_at
+        datetime signature_deadline_at
+        bigint version
+        datetime completed_at
     }
 
-    contract_status_history {
+    contract_signing_status_history {
         bigint id
-        bigint contract_id
+        bigint signing_attempt_id
+        bigint sequence_no
+        string transition_id
         string old_status
         string new_status
-        bigint changed_by_employee_id
-        string reason
-        datetime changed_at
+        string actor_type
+        string actor_ref
+        string source_type
+        string source_event_id
+        string reason_code
+        string reason_text
+        datetime occurred_at
+        datetime recorded_at
+    }
+
+    contract_lifecycle_status_history {
+        bigint id
+        bigint contract_id
+        bigint sequence_no
+        string transition_id
+        string old_status
+        string new_status
+        string actor_type
+        string actor_ref
+        string source_type
+        string source_event_id
+        string reason_code
+        string reason_text
+        datetime occurred_at
+        datetime recorded_at
+    }
+
+    contract_inbox_events {
+        bigint id
+        string provider_code
+        string external_event_id
+        bigint signing_attempt_id
+        string event_type
+        datetime occurred_at
+        datetime received_at
+        datetime processed_at
+        string error_text
+    }
+
+    v_contract_current_state {
+        bigint contract_id
+        bigint client_id
+        string lifecycle_status
+        bigint current_signing_attempt_id
+        string signing_route
+        string signing_status
+        bigint lifecycle_version
+    }
+
+    v_access_active_contract_by_client {
+        bigint contract_id
+        bigint client_id
+        string lifecycle_status
+        string signing_status
     }
 
     bookings {
@@ -643,7 +726,13 @@ erDiagram
 | `tariff_types`                                 | **BIGINT**                                         | справочник `tariff`; `code` VARCHAR UNIQUE; `name` VARCHAR; `description` TEXT                                                                                                                                                                                                                                                                                                                |
 | `tariff_rates`                                 | **BIGINT**                                         | FK **BIGINT** на тариф; `rate_minor` BIGINT `CHECK (rate_minor >= 0)`; `day_of_week` SMALLINT; `time_from/to` TIME                                                                                                                                                                                                                                                                            |
 | `contract_templates`                           | **BIGINT**                                         | `type` `contract_template_type_enum`; `body` TEXT; период DATE                                                                                                                                                                                                                                                                                                                                |
-| `contracts`                                    | **BIGINT**                                         | FK **BIGINT** на клиента; `contract_number` VARCHAR `UNIQUE`; `status` `contract_status_enum` (11 значений, включая `AWAITING_CLIENT_SIGNATURE`/`AWAITING_OWNER_SIGNATURE` для подписания через ЭДО); `client_signed_at`/`owner_signed_at` TIMESTAMPTZ                                                                                                                                        |
+| `contracts`                                    | **BIGINT**                                         | FK **BIGINT** на клиента; `contract_number` VARCHAR `UNIQUE`; `lifecycle_status` `contract_lifecycle_status_enum`; ссылка на текущую попытку; `lifecycle_version`; даты активации, расторжения и архива                                                                                                                                                                                       |
+| `contract_signing_attempts`                    | **BIGINT**                                         | FK **BIGINT** на договор; уникальные `(contract_id, attempt_no)`, внешний документ ЭДО и outbound idempotency key; `signing_route`, `signing_status`, версии документа и записи                                                                                                                                                                                                               |
+| `contract_signing_status_history`              | **BIGINT**                                         | append-only история попытки подписания; типизированные old/new status, последовательность, переход, актор, источник, причина и две временные метки                                                                                                                                                                                                                                            |
+| `contract_lifecycle_status_history`            | **BIGINT**                                         | append-only история lifecycle договора; отдельные переходы `L-08`/`L-09` для клиента и `L-10`/`L-11` для парковки                                                                                                                                                                                                                                                                             |
+| `contract_inbox_events`                        | **BIGINT**                                         | входящие события ЭДО; уникальная пара `(provider_code, external_event_id)`; попытка nullable до корреляции; времена получения и обработки                                                                                                                                                                                                                                                     |
+| `v_contract_current_state`                     | view                                               | текущие значения lifecycle и подписания, версии и ключевые даты договора                                                                                                                                                                                                                                                                                                                      |
+| `v_access_active_contract_by_client`           | view                                               | доступ только для `ACTIVE`, без архивной отметки и с защитной проверкой текущей попытки `SIGNED`                                                                                                                                                                                                                                                                                              |
 | `bookings`                                     | **BIGINT**                                         | FK логические; `status` `booking_status_enum`; `type` `booking_type_enum`; `start_at`/`end_at` TIMESTAMPTZ                                                                                                                                                                                                                                                                                    |
 | `invoices`                                     | **BIGINT**                                         | `type` `invoice_type_enum`; `status` `invoice_status_enum`; `amount_due_minor`                                                                                                                                                                                                                                                                                                                |
 | `parking_sessions`                             | **BIGINT**                                         | FK логические; `status` `parking_session_status_enum`                                                                                                                                                                                                                                                                                                                                         |
@@ -661,7 +750,7 @@ erDiagram
 
 ### Аудитные поля и перечисления (применяются ко всем таблицам)
 
-- **Аудитные метки** — в целевой БД у **каждой** таблицы есть `created_at TIMESTAMPTZ NOT NULL DEFAULT now()` и `updated_at TIMESTAMPTZ NOT NULL DEFAULT now()`. Обновление `updated_at` обеспечивается триггером `moddatetime`. Для **наглядности** (и при переносе в DrawSQL) эти два поля **перечислены в каждом разделе атрибутов** ниже; в Mermaid-диаграмме в начале документа они опущены, чтобы не перегружать схему.
+- **Аудитные метки** — изменяемые таблицы имеют `created_at TIMESTAMPTZ NOT NULL DEFAULT now()` и `updated_at TIMESTAMPTZ NOT NULL DEFAULT now()`. Обновление `updated_at` обеспечивается триггером `moddatetime`. Append-only истории договора вместо них используют бизнес-время `occurred_at` и время фиксации `recorded_at`; `contract_inbox_events` использует `received_at` и `processed_at`. Для **наглядности** (и при переносе в DrawSQL) поля перечислены в разделах атрибутов ниже; в Mermaid-диаграмме часть технических меток опущена, чтобы не перегружать схему.
 - **Поля-перечисления** (`status`, `channel`, технические `type` и аналоги) — хранить как PostgreSQL `ENUM`. Конкретные имена enum-типов фиксируются в этом документе и миграциях.
 - **Бизнес-классификаторы** (`parkings.parking_type_id`, `tariffs.tariff_type_id`, `agreements.agreement_type_id`, `benefit_documents.benefit_category_id`, `tariffs.benefit_category_id`) — хранить отдельными lookup-таблицами с суррогатным `id`, стабильным `code`, отображаемым `name` и `description`.
 - **Схемная изоляция** — таблицы распределяются по PostgreSQL-схемам в соответствии с bounded context (ADR-003): `facility`, `booking`, `session`, `tariff`, `payment`, `contract`, `client`, `support`, `employee`, `notification`, `auth`, `pii`. В REFERENCES ниже имена схем опущены — уточняются в миграциях.
@@ -1115,36 +1204,126 @@ erDiagram
 | `created_at`     | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                                       |
 | `updated_at`     | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()` — обновление триггером `moddatetime`  |
 
+### Перечисления контекста `contract`
+
+| Тип enum                         | Значения                                                                                                                                                              |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `contract_signing_route_enum`    | `CLIENT_SMS_ACCEPTANCE`, `EDO_CLIENT_THEN_OWNER`, `MANUAL_SIGNED_ORIGINAL`                                                                                            |
+| `contract_signing_status_enum`   | `DRAFT`, `UNDER_REVIEW`, `AWAITING_CLIENT_SIGNATURE`, `AWAITING_OWNER_SIGNATURE`, `SIGNED`, `REJECTED_BY_CLIENT`, `REJECTED_BY_OWNER`, `SIGNING_EXPIRED`, `CANCELLED` |
+| `contract_lifecycle_status_enum` | `PENDING_ACTIVATION`, `ACTIVE`, `SUSPENDED`, `CANCELLED`, `EXPIRED`, `TERMINATED`                                                                                     |
+
+`EXPIRED` относится только к окончанию срока действия ранее активированного договора. Таймаут подписания называется `SIGNING_EXPIRED`. Архивирование хранится в `archived_at`, а не в enum.
+
 ### `contracts`
 
-| Атрибут                | Тип PostgreSQL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `id`                   | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `client_id`            | `BIGINT` `NOT NULL` `REFERENCES clients(id)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `contract_template_id` | `BIGINT` `REFERENCES contract_templates(id)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `contract_number`      | `VARCHAR(64)` `NOT NULL` `UNIQUE`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| `start_date`           | `DATE` `NOT NULL`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| `end_date`             | `DATE`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| `status`               | `contract_status_enum` `NOT NULL` — значения: `DRAFT`, `UNDER_REVIEW`, `AWAITING_CLIENT_SIGNATURE`, `AWAITING_OWNER_SIGNATURE`, `ACTIVE`, `SUSPENDED`, `REJECTED_BY_CLIENT`, `REJECTED_BY_OWNER`, `EXPIRED`, `TERMINATED`, `ARCHIVED`. Маппинг на концептуальную модель: `DRAFT`=`черновик`, `UNDER_REVIEW`=`на согласовании`, `AWAITING_CLIENT_SIGNATURE`=`на подписании клиентом`, `AWAITING_OWNER_SIGNATURE`=`на подписании парковкой`, `ACTIVE`=`активен`, `SUSPENDED`=`приостановлен`, `REJECTED_BY_CLIENT`=`отклонен клиентом`, `REJECTED_BY_OWNER`=`отклонен парковкой`, `EXPIRED`=`просрочен` (договор не вступил в силу из-за таймаута подписи), `TERMINATED`=`расторгнут` (действующий договор прекращен после `ACTIVE`), `ARCHIVED`=`архив`. Жизненный цикл подписания через ЭДО (UC-8.2): `DRAFT` → `AWAITING_CLIENT_SIGNATURE` → `AWAITING_OWNER_SIGNATURE` → `ACTIVE`. Терминальные неуспешные ветки: `REJECTED_BY_CLIENT`, `REJECTED_BY_OWNER`, `EXPIRED` |
-| `document_file_ref`    | `VARCHAR(512)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `client_signed_at`     | `TIMESTAMPTZ` — момент подписания договора клиентом (для договоров с ЮЛ через ЭДО — событие из ЭДО); соответствует `датаПодписанияКлиентом` / `clientSignedAt` концептуальной модели; nullable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `owner_signed_at`      | `TIMESTAMPTZ` — момент подписания договора со стороны парковки (для договоров с ЮЛ через ЭДО — фиксируется при получении финального документа с двумя ЭП); соответствует `датаПодписанияПарковкой` / `ownerSignedAt` концептуальной модели; nullable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| `created_at`           | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| `updated_at`           | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()` — обновление триггером `moddatetime`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Атрибут                      | Тип PostgreSQL                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------- |
+| `id`                         | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`                                   |
+| `client_id`                  | `BIGINT` `NOT NULL` `REFERENCES clients(id)`                                                |
+| `contract_template_id`       | `BIGINT` `REFERENCES contract_templates(id)`                                                |
+| `contract_number`            | `VARCHAR(64)` `NOT NULL` `UNIQUE`                                                           |
+| `start_date`                 | `DATE` `NOT NULL`                                                                           |
+| `end_date`                   | `DATE`; `CHECK (end_date IS NULL OR end_date >= start_date)`                                |
+| `lifecycle_status`           | `contract_lifecycle_status_enum` `NOT NULL` `DEFAULT 'PENDING_ACTIVATION'`                  |
+| `current_signing_attempt_id` | `BIGINT`; составной FK с `id` гарантирует, что текущая попытка относится к тому же договору |
+| `lifecycle_version`          | `BIGINT` `NOT NULL` `DEFAULT 0` `CHECK (lifecycle_version >= 0)`                            |
+| `activated_at`               | `TIMESTAMPTZ`; момент первой активации                                                      |
+| `terminated_at`              | `TIMESTAMPTZ`; заполнен ровно при `lifecycle_status = 'TERMINATED'`                         |
+| `archived_at`                | `TIMESTAMPTZ`; допустим только для `CANCELLED`, `EXPIRED`, `TERMINATED`                     |
+| `created_at`                 | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                                                    |
+| `updated_at`                 | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()` — обновление триггером `moddatetime`               |
 
-### `contract_status_history`
+### `contract_signing_attempts`
 
-Append-only история изменений статуса договора.
+| Атрибут                    | Тип PostgreSQL                                                                |
+| -------------------------- | ----------------------------------------------------------------------------- |
+| `id`                       | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`                     |
+| `contract_id`              | `BIGINT` `NOT NULL` `REFERENCES contracts(id)`                                |
+| `attempt_no`               | `INTEGER` `NOT NULL` `CHECK (attempt_no > 0)`                                 |
+| `signing_route`            | `contract_signing_route_enum` `NOT NULL`                                      |
+| `signing_status`           | `contract_signing_status_enum` `NOT NULL` `DEFAULT 'DRAFT'`                   |
+| `document_version`         | `VARCHAR(64)` `NOT NULL`                                                      |
+| `edo_provider_code`        | `VARCHAR(64)`; образует nullable-пару с `edo_document_id`                     |
+| `edo_document_id`          | `VARCHAR(255)`; допустим только для `EDO_CLIENT_THEN_OWNER`                   |
+| `outbound_idempotency_key` | `VARCHAR(128)`; частично уникален при ненулевом значении                      |
+| `document_file_ref`        | `VARCHAR(512)`                                                                |
+| `client_signed_at`         | `TIMESTAMPTZ`                                                                 |
+| `owner_signed_at`          | `TIMESTAMPTZ`                                                                 |
+| `manual_verified_at`       | `TIMESTAMPTZ`; аудит ручного подтверждения подписанного оригинала             |
+| `signature_deadline_at`    | `TIMESTAMPTZ`                                                                 |
+| `version`                  | `BIGINT` `NOT NULL` `DEFAULT 0` `CHECK (version >= 0)`                        |
+| `created_at`               | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                                      |
+| `updated_at`               | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()` — обновление триггером `moddatetime` |
+| `completed_at`             | `TIMESTAMPTZ`; заполнен ровно для терминального статуса попытки               |
 
-| Атрибут                  | Тип PostgreSQL                                            |
-| ------------------------ | --------------------------------------------------------- |
-| `id`                     | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY` |
-| `contract_id`            | `BIGINT` `NOT NULL` `REFERENCES contracts(id)`            |
-| `old_status`             | `contract_status_enum`                                    |
-| `new_status`             | `contract_status_enum` `NOT NULL`                         |
-| `changed_by_employee_id` | `BIGINT` `REFERENCES employees(id)`                       |
-| `reason`                 | `TEXT`                                                    |
-| `changed_at`             | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                  |
+Уникальны `(contract_id, attempt_no)`, ненулевая пара `(edo_provider_code, edo_document_id)` и ненулевой `outbound_idempotency_key`. Пара EDO-полей либо полностью заполнена, либо полностью пуста. Для маршрутов без ЭДО оба поля равны `NULL`.
+
+`AWAITING_OWNER_SIGNATURE` допустим только для `EDO_CLIENT_THEN_OWNER` после заполнения `client_signed_at`. Для `SIGNED` маршрут СМС требует `client_signed_at`, маршрут ЭДО — `client_signed_at`, `owner_signed_at` и `document_file_ref`, ручной маршрут — `manual_verified_at`.
+
+### `contract_signing_status_history`
+
+Append-only история переходов конкретной попытки подписания.
+
+| Атрибут              | Тип PostgreSQL                                                       |
+| -------------------- | -------------------------------------------------------------------- |
+| `id`                 | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`            |
+| `signing_attempt_id` | `BIGINT` `NOT NULL` `REFERENCES contract_signing_attempts(id)`       |
+| `sequence_no`        | `BIGINT` `NOT NULL` `CHECK (sequence_no > 0)`                        |
+| `transition_id`      | `VARCHAR(64)` `NOT NULL`                                             |
+| `old_status`         | `contract_signing_status_enum`                                       |
+| `new_status`         | `contract_signing_status_enum` `NOT NULL`                            |
+| `actor_type`         | `VARCHAR(32)` `NOT NULL`; `CLIENT`, `OWNER`, `EMPLOYEE` или `SYSTEM` |
+| `actor_ref`          | `VARCHAR(128)`                                                       |
+| `source_type`        | `VARCHAR(64)` `NOT NULL`                                             |
+| `source_event_id`    | `VARCHAR(255)`                                                       |
+| `reason_code`        | `VARCHAR(64)`                                                        |
+| `reason_text`        | `TEXT`                                                               |
+| `occurred_at`        | `TIMESTAMPTZ` `NOT NULL`                                             |
+| `recorded_at`        | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                             |
+
+### `contract_lifecycle_status_history`
+
+Append-only история переходов жизненного цикла договора.
+
+| Атрибут           | Тип PostgreSQL                                                       |
+| ----------------- | -------------------------------------------------------------------- |
+| `id`              | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`            |
+| `contract_id`     | `BIGINT` `NOT NULL` `REFERENCES contracts(id)`                       |
+| `sequence_no`     | `BIGINT` `NOT NULL` `CHECK (sequence_no > 0)`                        |
+| `transition_id`   | `VARCHAR(64)` `NOT NULL`                                             |
+| `old_status`      | `contract_lifecycle_status_enum`                                     |
+| `new_status`      | `contract_lifecycle_status_enum` `NOT NULL`                          |
+| `actor_type`      | `VARCHAR(32)` `NOT NULL`; `CLIENT`, `OWNER`, `EMPLOYEE` или `SYSTEM` |
+| `actor_ref`       | `VARCHAR(128)`                                                       |
+| `source_type`     | `VARCHAR(64)` `NOT NULL`                                             |
+| `source_event_id` | `VARCHAR(255)`                                                       |
+| `reason_code`     | `VARCHAR(64)`                                                        |
+| `reason_text`     | `TEXT`                                                               |
+| `occurred_at`     | `TIMESTAMPTZ` `NOT NULL`                                             |
+| `recorded_at`     | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                             |
+
+Для `new_status = 'TERMINATED'` обязателен `reason_code`. Переходы клиента — `L-08` из `ACTIVE` и `L-09` из `SUSPENDED`, `actor_type = 'CLIENT'`. Переходы парковки — `L-10` из `ACTIVE` и `L-11` из `SUSPENDED`, `actor_type IN ('OWNER', 'EMPLOYEE')`, `actor_ref IS NOT NULL`. Эти четыре идентификатора запрещены для других переходов, а другой `transition_id` не может привести к `TERMINATED`.
+
+### `contract_inbox_events`
+
+| Атрибут              | Тип PostgreSQL                                                              |
+| -------------------- | --------------------------------------------------------------------------- |
+| `id`                 | `BIGINT` `GENERATED BY DEFAULT AS IDENTITY` `PRIMARY KEY`                   |
+| `provider_code`      | `VARCHAR(64)` `NOT NULL`                                                    |
+| `external_event_id`  | `VARCHAR(255)` `NOT NULL`                                                   |
+| `signing_attempt_id` | `BIGINT` `REFERENCES contract_signing_attempts(id)`; nullable до корреляции |
+| `event_type`         | `VARCHAR(100)` `NOT NULL`                                                   |
+| `occurred_at`        | `TIMESTAMPTZ` `NOT NULL`                                                    |
+| `received_at`        | `TIMESTAMPTZ` `NOT NULL` `DEFAULT now()`                                    |
+| `processed_at`       | `TIMESTAMPTZ`                                                               |
+| `error_text`         | `TEXT`                                                                      |
+
+Пара `(provider_code, external_event_id)` уникальна и обеспечивает дедупликацию входящих событий.
+
+### Read-model договора
+
+- `v_contract_current_state` соединяет `contracts` только с `current_signing_attempt_id` и публикует текущие значения обеих осей, версии и ключевые даты.
+- `v_access_active_contract_by_client` выбирает из первой view только строки с `lifecycle_status = 'ACTIVE'`, `archived_at IS NULL` и защитной проверкой `signing_status = 'SIGNED'`.
 
 ### `bookings`
 
@@ -1979,37 +2158,59 @@ FK в `parking_sessions` хранятся без `REFERENCES`-constraint (схе
 - `contract_number`;
 - `start_date`;
 - `end_date`;
-- `status` — `contract_status_enum` (11 значений, см. DDL и маппинг на концептуальную модель);
-- `document_file_ref`;
-- `client_signed_at` — `TIMESTAMPTZ`, nullable; момент подписания договора клиентом (UC-8.2: событие из ЭДО);
-- `owner_signed_at` — `TIMESTAMPTZ`, nullable; момент подписания со стороны парковки (UC-8.2: получение финального документа с двумя ЭП).
+- `lifecycle_status`;
+- `current_signing_attempt_id`;
+- `lifecycle_version`;
+- `activated_at`;
+- `terminated_at`;
+- `archived_at`.
 
 Связи:
 
 - договор принадлежит одному клиенту;
 - договор может ссылаться на один шаблон;
-- договор может иметь много записей истории статусов;
+- договор имеет много попыток подписания и не более одной текущей попытки;
+- текущая попытка обязательно относится к тому же договору;
+- договор имеет append-only историю lifecycle;
 - договор может использоваться во многих бронированиях;
 - договор может фигурировать во многих обращениях.
 
-### 25а. `contract_status_history` — История статусов договора
+### 25а. `contract_signing_attempts` — Попытки подписания
 
-Назначение: журнал изменений статуса договора.
+Назначение: хранение независимых попыток оформления документа без перезаписи предыдущих версий, внешних идентификаторов и терминальных результатов.
+
+Каждая попытка относится к одному договору. `EDO_CLIENT_THEN_OWNER` использует корреляцию по паре `edo_provider_code + edo_document_id`; `CLIENT_SMS_ACCEPTANCE` и `MANUAL_SIGNED_ORIGINAL` не заполняют EDO-поля.
+
+### 25б. `contract_signing_status_history` — История подписания
+
+Назначение: append-only журнал переходов конкретной попытки подписания. Уникальная последовательность `(signing_attempt_id, sequence_no)` сохраняет порядок переходов, а `occurred_at` и `recorded_at` разделяют время события и время его фиксации.
+
+### 25в. `contract_lifecycle_status_history` — История действия договора
+
+Назначение: append-only журнал переходов жизненного цикла договора.
+
+Инициатива расторжения не кодируется в lifecycle. `L-08` и `L-09` фиксируют инициативу клиента; `L-10` и `L-11` — инициативу парковки. Все четыре перехода приводят к `TERMINATED`, требуют `reason_code` и заполняют `terminated_at` в той же транзакции.
+
+### 25г. `contract_inbox_events` — Inbox событий ЭДО
+
+Назначение: дедупликация и контролируемая обработка входящих событий провайдера.
 
 Ключевые поля:
 
 - `id`;
-- `contract_id`;
-- `old_status`;
-- `new_status`;
-- `changed_by_employee_id`;
-- `reason`;
-- `changed_at`.
+- `provider_code`;
+- `external_event_id`;
+- `signing_attempt_id` — nullable до успешной корреляции;
+- `event_type`;
+- `occurred_at`;
+- `received_at`;
+- `processed_at`;
+- `error_text`.
 
 Связи:
 
-- каждая запись относится к одному договору;
-- каждая запись может ссылаться на одного сотрудника, зафиксировавшего изменение.
+- обработанное событие может ссылаться на одну попытку подписания;
+- уникальность `(provider_code, external_event_id)` не допускает повторной обработки дубликата.
 
 ### 26. `bookings` — Бронирование
 
@@ -2379,7 +2580,11 @@ FK в `parking_sessions` хранятся без `REFERENCES`-constraint (схе
 
 - `clients` 1:N `vehicles`
 - `clients` 1:N `contracts`
-- `contracts` 1:N `contract_status_history`
+- `contracts` 1:N `contract_signing_attempts`
+- `contracts` 1:0..1 `current_signing_attempt` (составной FK гарантирует принадлежность попытки договору)
+- `contract_signing_attempts` 1:N `contract_signing_status_history`
+- `contracts` 1:N `contract_lifecycle_status_history`
+- `contract_signing_attempts` 1:N `contract_inbox_events` (ссылка nullable до корреляции)
 - `vehicles` 1:N `bookings` (логическая ссылка без FK-constraint)
 - `contracts` 1:N `bookings` (логическая ссылка без FK-constraint)
 - `bookings` 1:N `booking_status_history`
@@ -2445,6 +2650,15 @@ FK в `parking_sessions` хранятся без `REFERENCES`-constraint (схе
 - у `payments` каждая запись должна ссылаться на существующее `invoices` (проверяется Application Service);
 - у `debts` на один `invoices` не более одной записи со `status = 'ACTIVE'`;
 - у `REFUND.amount_minor` сумма не должна превышать `PAYMENT.amount_minor` (проверяется Application Service);
+- `contracts.current_signing_attempt_id` может ссылаться только на попытку того же договора;
+- `contracts.terminated_at` заполнен ровно для lifecycle `TERMINATED`, а `archived_at` допустим только для терминальных `CANCELLED`, `EXPIRED`, `TERMINATED`;
+- `ACTIVE` устанавливает только Contract Service после проверки текущей попытки `SIGNED`, даты начала, срока, полной оплаты и отсутствия блокировки;
+- `SUSPENDED` сохраняет место и связи договора, но всегда запрещает доступ;
+- пара EDO-идентификаторов попытки либо полностью заполнена, либо полностью пуста; для маршрутов без ЭДО она всегда пуста;
+- `SIGNED` подтверждает все обязательные доказательства выбранного маршрута, а `AWAITING_OWNER_SIGNATURE` доступен только маршруту ЭДО после подписи клиента;
+- inbox дедуплицирует событие по `(provider_code, external_event_id)`, а позднее событие старой попытки не меняет текущую попытку или договор;
+- истории подписания и lifecycle являются append-only; изменение состояния, история и обработка inbox фиксируются атомарно;
+- расторжение клиентом использует `L-08`/`L-09` и `actor_type = 'CLIENT'`; расторжение парковкой использует `L-10`/`L-11`, `OWNER`/`EMPLOYEE` и обязательный `actor_ref`; во всех случаях обязателен `reason_code`;
 - для `zone_type_vehicle_types` и `zone_type_tariffs` используются составные PK;
 - у `client_accounts` при `auth_provider = 'LOCAL'` — `password_hash NOT NULL` и задан хотя бы один идентификатор входа: `phone_e164`, `email_normalized` или `login`; при внешнем IdP — `provider_subject_id NOT NULL`, `password_hash` может быть NULL (проверяется триггером или Application Service);
 
@@ -2462,6 +2676,10 @@ FK в `parking_sessions` хранятся без `REFERENCES`-constraint (схе
 | `payments.provider_id` уникальность                    | `CREATE UNIQUE INDEX ... WHERE provider_id IS NOT NULL`        | —                                                                                                                                                                                                                  |
 | `refunds.refund_provider_id` уникальность              | `CREATE UNIQUE INDEX ... WHERE refund_provider_id IS NOT NULL` | —                                                                                                                                                                                                                  |
 | `debts`: один активный долг на счет                    | —                                                              | Application Service проверяет `WHERE invoice_id = ? AND status = 'ACTIVE'` перед созданием                                                                                                                         |
+| Текущая попытка принадлежит договору                   | составной FK `(current_signing_attempt_id, id)`                | —                                                                                                                                                                                                                  |
+| Внешний документ попытки                               | CHECK парности EDO-полей и partial UNIQUE index                | Correlation выполняется только для текущей попытки                                                                                                                                                                 |
+| Inbox: дедупликация события                            | `UNIQUE (provider_code, external_event_id)`                    | Дубликат фиксируется без повторного перехода                                                                                                                                                                       |
+| Терминальное расторжение                               | CHECK transition/actor/reason и `terminated_at`                | Contract Service атомарно пишет lifecycle и историю                                                                                                                                                                |
 | Уникальность пар в `ZONE_TYPE_*`                       | составной PK                                                   | —                                                                                                                                                                                                                  |
 
 ### 5. Критические индексы
@@ -2515,6 +2733,23 @@ CREATE INDEX ON debts(status) WHERE status = 'ACTIVE';
 -- КЛИЕНТ И КОНТРАКТЫ
 -- ═══════════════════════════════════════════════════════
 CREATE INDEX ON contracts(client_id);          -- все договоры клиента
+CREATE INDEX ON contracts(current_signing_attempt_id);
+CREATE INDEX ON contracts(client_id, lifecycle_status);
+CREATE INDEX ON contracts(client_id)
+    WHERE lifecycle_status = 'ACTIVE' AND archived_at IS NULL;
+CREATE INDEX ON contract_signing_attempts(contract_id);
+CREATE UNIQUE INDEX ON contract_signing_attempts(edo_provider_code, edo_document_id)
+    WHERE edo_provider_code IS NOT NULL AND edo_document_id IS NOT NULL;
+CREATE UNIQUE INDEX ON contract_signing_attempts(outbound_idempotency_key)
+    WHERE outbound_idempotency_key IS NOT NULL;
+CREATE INDEX ON contract_signing_status_history(signing_attempt_id, occurred_at DESC);
+CREATE UNIQUE INDEX ON contract_signing_status_history(source_type, source_event_id)
+    WHERE source_event_id IS NOT NULL;
+CREATE INDEX ON contract_lifecycle_status_history(contract_id, occurred_at DESC);
+CREATE UNIQUE INDEX ON contract_lifecycle_status_history(source_type, source_event_id)
+    WHERE source_event_id IS NOT NULL;
+CREATE INDEX ON contract_inbox_events(signing_attempt_id);
+CREATE INDEX ON contract_inbox_events(received_at) WHERE processed_at IS NULL;
 CREATE INDEX ON vehicles(client_id);           -- все ТС клиента
 CREATE INDEX ON agreements(client_id);           -- согласия клиента
 CREATE INDEX ON notifications(client_id);      -- уведомления клиента
