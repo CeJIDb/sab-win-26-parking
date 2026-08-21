@@ -37,7 +37,8 @@ sab-win-26-parking/
 │   ├── git/                 ← atomic-commit, check-branch-name, reminder
 │   ├── integrations/        ← интеграции (buildin-auth, buildin-explore)
 │   ├── lint/                ← кастомные линтеры markdown / file-names / mermaid
-│   └── plans/               ← validate-plans.mjs
+│   ├── plans/               ← validate-plans.mjs
+│   └── sql-practice/        ← проверка CSV-результатов SQL-заданий
 ├── .Codex/                 ← настройки Codex: rules, hooks, deny-правила
 ├── .husky/                  ← git-хуки: commit-msg, pre-commit, pre-push
 ├── .github/                 ← CI workflows, PR/Issue templates, CODEOWNERS
@@ -153,6 +154,8 @@ npm run lint:md:custom          # check-markdown.mjs (лимит 500 симв. �
 npm run lint:md-links           # проверка ссылок в .md
 npm run lint:file-names         # имена файлов на латиницу/kebab-case
 npm run lint:mermaid            # линтер mermaid-диаграмм
+npm run test:sql-oracle         # тесты проверяющего оракула SQL-практики
+npm run sql:oracle -- <команда> # описать или проверить CSV-результат задания
 npm run format                  # prettier --write
 npm run format:check            # prettier --check
 npm run check:branch            # имя текущей ветки
