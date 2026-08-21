@@ -90,21 +90,6 @@
         ]
       }
     ],
-    "SessionStart": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "name": "Check RAG index freshness",
-            "displayName": "Check RAG index freshness",
-            "title": "Check RAG index freshness",
-            "description": "Warn when docs markdown RAG index is stale.",
-            "type": "command",
-            "command": "node scripts/claude-hooks/check-rag-index.mjs"
-          }
-        ]
-      }
-    ],
     "Stop": [
       {
         "matcher": "",
