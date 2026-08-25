@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_integration_kafka_requirements_md",
+      "label": "kafka-requirements.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a Kafka \u2014 \u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440 \u043e\u043d\u043b\u0430\u0439\u043d-\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f (\u0443\u0447\u0435\u0431\u043d\u044b\u0439 TO-BE)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "integration_kafka_requirements_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "integration_kafka_requirements_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0440\u0430\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f_\u0441_adr_003",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u0440\u0430\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0441 ADR-003",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "integration_kafka_requirements_\u043a\u0430\u043a_\u0447\u0438\u0442\u0430\u0442\u044c_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "label": "\u041a\u0430\u043a \u0447\u0438\u0442\u0430\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "integration_kafka_requirements_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b_\u0442\u043e\u043f\u0438\u043a\u043e\u0432",
+      "label": "\u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u0442\u043e\u043f\u0438\u043a\u043e\u0432",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "integration_kafka_requirements_\u0441\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0430_\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438",
+      "label": "\u0421\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0430 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "integration_kafka_requirements_\u043f\u0430\u0440\u0442\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "label": "\u041f\u0430\u0440\u0442\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "integration_kafka_requirements_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_integration_kafka_requirements_md",
+      "target": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0440\u0430\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f_\u0441_adr_003",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u043a\u0430\u043a_\u0447\u0438\u0442\u0430\u0442\u044c_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b_\u0442\u043e\u043f\u0438\u043a\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u0441\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0430_\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u043f\u0430\u0440\u0442\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "integration_kafka_requirements_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_kafka_\u043a\u043e\u043d\u0432\u0435\u0439\u0435\u0440_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "integration_kafka_requirements_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/integration/kafka-requirements.md",
+      "source_location": "L68",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_003_modular_monolith_md",
+      "label": "adr-003-modular-monolith.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "label": "ADR-003: \u0412\u044b\u0431\u043e\u0440 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u0441\u0442\u0438\u043b\u044f \u2014 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_option_a_\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "label": "Option A \u2014 \u0422\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b",
+      "label": "\u041f\u043b\u044e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b",
+      "label": "\u041c\u0438\u043d\u0443\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_option_b_\u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "label": "Option B \u2014 \u041c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b_74",
+      "label": "\u041f\u043b\u044e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b_80",
+      "label": "\u041c\u0438\u043d\u0443\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_option_c_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442_\u0441_\u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438_\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430\u043c\u0438",
+      "label": "Option C \u2014 \u041c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439 \u043c\u043e\u043d\u043e\u043b\u0438\u0442 \u0441 \u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438 \u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430\u043c\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L91"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b_130",
+      "label": "\u041f\u043b\u044e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L130"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b_138",
+      "label": "\u041c\u0438\u043d\u0443\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L138"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_decision",
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L145"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "label": "\u041f\u043e\u0434\u0432\u044b\u0431\u043e\u0440: \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 (\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442 4)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L160"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0430",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L168"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u044b_\u0434\u043b\u044f_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430_4",
+      "label": "\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u044b \u0434\u043b\u044f \u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430 4",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L179"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u0440\u0435\u0448\u0435\u043d\u0438\u0435_\u043f\u043e_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0443",
+      "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435 \u043f\u043e \u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0443",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L189"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_\u0441\u0432\u044f\u0437\u044c_\u0441_\u0443\u0447\u0435\u0431\u043d\u044b\u043c_to_be",
+      "label": "\u0421\u0432\u044f\u0437\u044c \u0441 \u0443\u0447\u0435\u0431\u043d\u044b\u043c TO-BE",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L197"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_rationale",
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L203"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_trade_offs",
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L212"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_consequences",
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L230"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_positive",
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L232"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_negative",
+      "label": "Negative",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L240"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_future_extraction_candidates",
+      "label": "Future extraction candidates",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L248"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_revisit_criteria",
+      "label": "Revisit criteria",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L258"
+    },
+    {
+      "id": "adr_adr_003_modular_monolith_next_steps",
+      "label": "Next steps",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L267"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_003_modular_monolith_md",
+      "target": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_options",
+      "target": "adr_adr_003_modular_monolith_option_a_\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_a_\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_a_\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_options",
+      "target": "adr_adr_003_modular_monolith_option_b_\u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_b_\u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "target": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b_74",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_b_\u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u0430\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "target": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b_80",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_options",
+      "target": "adr_adr_003_modular_monolith_option_c_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442_\u0441_\u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438_\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430\u043c\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_c_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442_\u0441_\u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438_\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430\u043c\u0438",
+      "target": "adr_adr_003_modular_monolith_\u043f\u043b\u044e\u0441\u044b_130",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_option_c_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442_\u0441_\u0438\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438_\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430\u043c\u0438",
+      "target": "adr_adr_003_modular_monolith_\u043c\u0438\u043d\u0443\u0441\u044b_138",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "target": "adr_adr_003_modular_monolith_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "target": "adr_adr_003_modular_monolith_\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u044b_\u0434\u043b\u044f_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "target": "adr_adr_003_modular_monolith_\u0440\u0435\u0448\u0435\u043d\u0438\u0435_\u043f\u043e_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440\u0443",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_\u043f\u043e\u0434\u0432\u044b\u0431\u043e\u0440_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0439_\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442_4",
+      "target": "adr_adr_003_modular_monolith_\u0441\u0432\u044f\u0437\u044c_\u0441_\u0443\u0447\u0435\u0431\u043d\u044b\u043c_to_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_trade_offs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_consequences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_consequences",
+      "target": "adr_adr_003_modular_monolith_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_consequences",
+      "target": "adr_adr_003_modular_monolith_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_consequences",
+      "target": "adr_adr_003_modular_monolith_future_extraction_candidates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_consequences",
+      "target": "adr_adr_003_modular_monolith_revisit_criteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_003_modular_monolith_adr_003_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u043e\u0433\u043e_\u0441\u0442\u0438\u043b\u044f_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0439_\u043c\u043e\u043d\u043e\u043b\u0438\u0442",
+      "target": "adr_adr_003_modular_monolith_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-003-modular-monolith.md",
+      "source_location": "L267",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

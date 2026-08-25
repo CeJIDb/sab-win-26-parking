@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_specs_dev_tasks_uc_3_1_add_vehicle_md",
+      "label": "uc-3-1-add-vehicle.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0437\u0430\u0434\u0430\u0447\u0438_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043e\u0440\u043c\u0430_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u0442\u0441_\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u0442\u0441",
+      "label": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0437\u0430\u0434\u0430\u0447\u0438: \u041f\u0440\u043e\u0444\u0438\u043b\u044c \u043a\u043b\u0438\u0435\u043d\u0442\u0430 - \u0424\u043e\u0440\u043c\u0430 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0422\u0421 - \u0420\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0422\u0421",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f_\u043f\u043e_\u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "label": "\u0414\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f \u043f\u043e \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u0431\u0430\u0437\u0430_\u0434\u0430\u043d\u043d\u044b\u0445",
+      "label": "\u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434",
+      "label": "\u0424\u0440\u043e\u043d\u0442\u0435\u043d\u0434",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "dev_tasks_uc_3_1_add_vehicle_\u0431\u044d\u043a\u0435\u043d\u0434",
+      "label": "\u0411\u044d\u043a\u0435\u043d\u0434",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L96"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_dev_tasks_uc_3_1_add_vehicle_md",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0437\u0430\u0434\u0430\u0447\u0438_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043e\u0440\u043c\u0430_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u0442\u0441_\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u0442\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0437\u0430\u0434\u0430\u0447\u0438_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043e\u0440\u043c\u0430_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u0442\u0441_\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u0442\u0441",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0437\u0430\u0434\u0430\u0447\u0438_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043e\u0440\u043c\u0430_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f_\u0442\u0441_\u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u0442\u0441",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f_\u043f\u043e_\u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f_\u043f\u043e_\u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u0431\u0430\u0437\u0430_\u0434\u0430\u043d\u043d\u044b\u0445",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f_\u043f\u043e_\u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "dev_tasks_uc_3_1_add_vehicle_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f_\u043f\u043e_\u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430\u043c_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "target": "dev_tasks_uc_3_1_add_vehicle_\u0431\u044d\u043a\u0435\u043d\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/dev-tasks/uc-3-1-add-vehicle.md",
+      "source_location": "L96",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

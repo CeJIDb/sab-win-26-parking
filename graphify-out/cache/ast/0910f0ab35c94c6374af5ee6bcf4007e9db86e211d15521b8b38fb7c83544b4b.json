@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_interviews_readme_md",
+      "label": "readme.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "interviews_readme_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "label": "\u0418\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "interviews_readme_\u0440\u0430\u0437\u0434\u0435\u043b\u044b",
+      "label": "\u0420\u0430\u0437\u0434\u0435\u043b\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "interviews_readme_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_interviews_readme_md",
+      "target": "interviews_readme_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "interviews_readme_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "interviews_readme_\u0440\u0430\u0437\u0434\u0435\u043b\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "interviews_readme_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "interviews_readme_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/readme.md",
+      "source_location": "L15",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

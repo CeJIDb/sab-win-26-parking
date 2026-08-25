@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "label": "_lib-changed-files.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "lint_lib_changed_files_root",
+      "label": "ROOT",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L14"
+    },
+    {
+      "id": "lint_lib_changed_files_getchangedrelpaths",
+      "label": "getChangedRelPaths()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L17"
+    },
+    {
+      "id": "lint_lib_changed_files_getchangedabspaths",
+      "label": "getChangedAbsPaths()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L39"
+    },
+    {
+      "id": "lint_lib_changed_files_getchangedmarkdown",
+      "label": "getChangedMarkdown()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L44"
+    },
+    {
+      "id": "lint_lib_changed_files_changed_only",
+      "label": "CHANGED_ONLY",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L53"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "lint_lib_changed_files_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "lint_lib_changed_files_getchangedrelpaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "lint_lib_changed_files_getchangedabspaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "lint_lib_changed_files_getchangedmarkdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_lint_lib_changed_files_mjs",
+      "target": "lint_lib_changed_files_changed_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lib_changed_files_getchangedabspaths",
+      "target": "lint_lib_changed_files_getchangedrelpaths",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "lint_lib_changed_files_getchangedmarkdown",
+      "target": "lint_lib_changed_files_getchangedabspaths",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L45",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "lint_lib_changed_files_getchangedrelpaths",
+      "callee": "run",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "lint_lib_changed_files_getchangedrelpaths",
+      "callee": "run",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "lint_lib_changed_files_getchangedrelpaths",
+      "callee": "run",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "lint_lib_changed_files_getchangedabspaths",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "lint_lib_changed_files_getchangedmarkdown",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/lint/_lib-changed-files.mjs",
+      "source_location": "L45"
+    }
+  ]
+}

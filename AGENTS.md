@@ -35,6 +35,7 @@ sab-win-26-parking/
 │   ├── Codex-hooks/        ← хуки Codex (см. ниже)
 │   ├── docs/                ← подготовка документации (extract-docx, split-image)
 │   ├── git/                 ← atomic-commit, check-branch-name, reminder
+│   ├── graphify/            ← инкрементальное AST-обновление графа и тесты хуков
 │   ├── integrations/        ← интеграции (buildin-auth, buildin-explore)
 │   ├── lint/                ← кастомные линтеры markdown / file-names / mermaid
 │   ├── plans/               ← validate-plans.mjs
@@ -196,4 +197,7 @@ Rules:
 - ALWAYS read graphify-out/GRAPH_REPORT.md before reading any source files, running grep/glob searches, or answering codebase questions. The graph is your primary map of the codebase.
 - IF graphify-out/wiki/index.md EXISTS, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+- Codex Stop and Git post-commit/post-checkout hooks invoke [the AST wrapper](scripts/graphify/update-ast-on-change.mjs) after code changes. Run `npm run graph:update:ast` for the same update manually. It does not call an LLM.
+- Run `npm run graph:check-update` to check whether semantic extraction is pending.
+- Run `npm run graph:update:semantic` only after an explicit user request. It rebuilds the graph from AST plus semantic cache and sends only cache misses to the configured LLM.
+- Keep `graphify-out/cache/ast/` and `graphify-out/cache/semantic/` in Git so unchanged files can reuse cache entries on other computers.

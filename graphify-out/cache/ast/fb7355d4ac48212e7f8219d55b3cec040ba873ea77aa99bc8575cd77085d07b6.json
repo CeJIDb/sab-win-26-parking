@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_release_checklist_md",
+      "label": "release-checklist.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_release_checklist_release_checklist",
+      "label": "Release Checklist",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_release_checklist_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "process_release_checklist_preparation",
+      "label": "Preparation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "process_release_checklist_documentation_and_traceability",
+      "label": "Documentation and Traceability",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "process_release_checklist_release",
+      "label": "Release",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "process_release_checklist_post_release",
+      "label": "Post-release",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L26"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_release_checklist_md",
+      "target": "process_release_checklist_release_checklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "process_release_checklist_release_checklist",
+      "target": "process_release_checklist_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "process_release_checklist_release_checklist",
+      "target": "process_release_checklist_preparation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "process_release_checklist_release_checklist",
+      "target": "process_release_checklist_documentation_and_traceability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "process_release_checklist_release_checklist",
+      "target": "process_release_checklist_release",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "process_release_checklist_release_checklist",
+      "target": "process_release_checklist_post_release",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/release-checklist.md",
+      "source_location": "L26",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

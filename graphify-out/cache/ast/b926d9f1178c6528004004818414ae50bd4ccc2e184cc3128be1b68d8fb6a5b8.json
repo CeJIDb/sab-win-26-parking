@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_004_dadata_organization_lookup_md",
+      "label": "adr-004-dadata-organization-lookup.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "label": "ADR-004: \u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 \u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c \u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f \u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439 (DADATA)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0430_dadata_dadata_ru",
+      "label": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0410 \u2014 DADATA (dadata.ru)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0431_\u043f\u0440\u044f\u043c\u043e\u0439_\u0435\u0433\u0440\u044e\u043b_\u0444\u043d\u0441_open_api_egrul_nalog_ru",
+      "label": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0411 \u2014 \u041f\u0440\u044f\u043c\u043e\u0439 \u0415\u0413\u0420\u042e\u041b (\u0424\u041d\u0421 Open API / egrul.nalog.ru)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0432_\u0442\u043e\u043b\u044c\u043a\u043e_\u0440\u0443\u0447\u043d\u043e\u0439_\u0432\u0432\u043e\u0434",
+      "label": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0412 \u2014 \u0422\u043e\u043b\u044c\u043a\u043e \u0440\u0443\u0447\u043d\u043e\u0439 \u0432\u0432\u043e\u0434",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_decision",
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_rationale",
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L66"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_trade_offs",
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_consequences",
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "label": "\u041f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_\u043e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "label": "\u041e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_fallback_\u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "label": "Fallback-\u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_revisit_criteria",
+      "label": "Revisit criteria",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L101"
+    },
+    {
+      "id": "adr_adr_004_dadata_organization_lookup_related_documents",
+      "label": "Related Documents",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L106"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_004_dadata_organization_lookup_md",
+      "target": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_options",
+      "target": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0430_dadata_dadata_ru",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_options",
+      "target": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0431_\u043f\u0440\u044f\u043c\u043e\u0439_\u0435\u0433\u0440\u044e\u043b_\u0444\u043d\u0441_open_api_egrul_nalog_ru",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_options",
+      "target": "adr_adr_004_dadata_organization_lookup_\u0432\u0430\u0440\u0438\u0430\u043d\u0442_\u0432_\u0442\u043e\u043b\u044c\u043a\u043e_\u0440\u0443\u0447\u043d\u043e\u0439_\u0432\u0432\u043e\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_trade_offs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_consequences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_consequences",
+      "target": "adr_adr_004_dadata_organization_lookup_\u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_consequences",
+      "target": "adr_adr_004_dadata_organization_lookup_\u043e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_consequences",
+      "target": "adr_adr_004_dadata_organization_lookup_fallback_\u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_consequences",
+      "target": "adr_adr_004_dadata_organization_lookup_revisit_criteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_004_dadata_organization_lookup_adr_004_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0441_\u0441\u0435\u0440\u0432\u0438\u0441\u043e\u043c_\u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u0438\u044f_\u0440\u0435\u043a\u0432\u0438\u0437\u0438\u0442\u043e\u0432_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439_dadata",
+      "target": "adr_adr_004_dadata_organization_lookup_related_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-004-dadata-organization-lookup.md",
+      "source_location": "L106",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

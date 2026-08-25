@@ -95,6 +95,15 @@
         "matcher": "",
         "hooks": [
           {
+            "name": "Update Graphify AST",
+            "displayName": "Update Graphify AST",
+            "title": "Update Graphify AST",
+            "description": "Update the Graphify AST after code changes without running semantic extraction.",
+            "type": "command",
+            "command": "node scripts/graphify/update-ast-on-change.mjs --worktree --hook",
+            "statusMessage": "Обновление Graphify AST..."
+          },
+          {
             "name": "Remind atomic commit",
             "displayName": "Remind atomic commit",
             "title": "Remind atomic commit",
@@ -109,36 +118,6 @@
             "description": "Play a short sound when Codex ends its turn.",
             "type": "command",
             "command": "bash scripts/claude-hooks/play-sound.sh stop"
-          }
-        ]
-      }
-    ],
-    "Notification": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "name": "Play notification sound",
-            "displayName": "Play notification sound",
-            "title": "Play notification sound",
-            "description": "Play a notification sound.",
-            "type": "command",
-            "command": "bash scripts/claude-hooks/play-sound.sh notify"
-          }
-        ]
-      }
-    ],
-    "PermissionRequest": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "name": "Play permission sound",
-            "displayName": "Play permission sound",
-            "title": "Play permission sound",
-            "description": "Play a sound when permission is requested.",
-            "type": "command",
-            "command": "bash scripts/claude-hooks/play-sound.sh notify"
           }
         ]
       }

@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_007_kafka_event_bus_online_booking_md",
+      "label": "adr-007-kafka-event-bus-online-booking.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "label": "ADR-007: Kafka \u043a\u0430\u043a \u0448\u0438\u043d\u0430 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 \u0434\u043b\u044f \u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439 \u0446\u0435\u043f\u043e\u0447\u043a\u0438 \u043e\u043d\u043b\u0430\u0439\u043d-\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f (\u0443\u0447\u0435\u0431\u043d\u044b\u0439 TO-BE)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_option_a_\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435_\u0432\u044b\u0437\u043e\u0432\u044b_\u043a\u0430\u043a_\u0441\u0435\u0439\u0447\u0430\u0441",
+      "label": "Option A \u2014 \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435 \u0432\u044b\u0437\u043e\u0432\u044b \u043a\u0430\u043a \u0441\u0435\u0439\u0447\u0430\u0441",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_option_b_kafka_\u0441_\u043f\u0440\u044f\u043c\u044b\u043c_producer_send_\u043f\u043e\u0441\u043b\u0435_commit_a",
+      "label": "Option B \u2014 Kafka \u0441 \u043f\u0440\u044f\u043c\u044b\u043c `producer.send()` \u043f\u043e\u0441\u043b\u0435 `commit`'a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L66"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_option_c_kafka_\u0441_transactional_outbox_cdc",
+      "label": "Option C \u2014 Kafka \u0441 transactional outbox + CDC",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L81"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_decision",
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_rationale",
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L115"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_trade_offs",
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L125"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_positive",
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L135"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_negative",
+      "label": "Negative",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L143"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_future",
+      "label": "Future",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L150"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_revisit",
+      "label": "Revisit",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L155"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_mitigation",
+      "label": "Mitigation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L160"
+    },
+    {
+      "id": "adr_adr_007_kafka_event_bus_online_booking_next_steps",
+      "label": "Next steps",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L167"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_007_kafka_event_bus_online_booking_md",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_options",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_option_a_\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435_\u0432\u044b\u0437\u043e\u0432\u044b_\u043a\u0430\u043a_\u0441\u0435\u0439\u0447\u0430\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_options",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_option_b_kafka_\u0441_\u043f\u0440\u044f\u043c\u044b\u043c_producer_send_\u043f\u043e\u0441\u043b\u0435_commit_a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_options",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_option_c_kafka_\u0441_transactional_outbox_cdc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_trade_offs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_future",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_revisit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_consequences",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_mitigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_007_kafka_event_bus_online_booking_adr_007_kafka_\u043a\u0430\u043a_\u0448\u0438\u043d\u0430_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u0434\u043b\u044f_\u0441\u043a\u0432\u043e\u0437\u043d\u043e\u0439_\u0446\u0435\u043f\u043e\u0447\u043a\u0438_\u043e\u043d\u043b\u0430\u0439\u043d_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f_\u0443\u0447\u0435\u0431\u043d\u044b\u0439_to_be",
+      "target": "adr_adr_007_kafka_event_bus_online_booking_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-007-kafka-event-bus-online-booking.md",
+      "source_location": "L167",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

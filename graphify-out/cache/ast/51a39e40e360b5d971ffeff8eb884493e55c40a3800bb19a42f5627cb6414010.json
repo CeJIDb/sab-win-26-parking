@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_skills_md",
+      "label": "SKILLS.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "label": "Project Skills Baseline",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_required_skills_core",
+      "label": "Required Skills (Core)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_optional_skills_by_task",
+      "label": "Optional Skills (By Task)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_excluded_by_default_not_project_relevant",
+      "label": "Excluded by Default (Not Project-Relevant)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_selection_rules",
+      "label": "Selection Rules",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "sab_win_26_mine_parking_skills_maintenance",
+      "label": "Maintenance",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_skills_md",
+      "target": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_required_skills_core",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_optional_skills_by_task",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_excluded_by_default_not_project_relevant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_selection_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "sab_win_26_mine_parking_skills_project_skills_baseline",
+      "target": "sab_win_26_mine_parking_skills_maintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/SKILLS.md",
+      "source_location": "L71",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

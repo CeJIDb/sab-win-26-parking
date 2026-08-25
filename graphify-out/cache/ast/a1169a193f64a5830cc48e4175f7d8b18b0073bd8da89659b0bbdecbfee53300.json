@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "label": "_template-fr.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "label": "\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f: \u043e\u0431\u044a\u0435\u043a\u0442 [\u0418\u043c\u044f\u041e\u0431\u044a\u0435\u043a\u0442\u0430]",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438_\u0438_\u043f\u043e\u0440\u044f\u0434\u043e\u043a_\u0440\u0430\u0431\u043e\u0442\u044b",
+      "label": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u043f\u043e\u0440\u044f\u0434\u043e\u043a \u0440\u0430\u0431\u043e\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0441_use_case_\u0438_\u043a\u0430\u043d\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c_crudl",
+      "label": "\u0421\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435 \u0441 Use Case \u0438 \u043a\u0430\u043d\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c CRUDL",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0432\u0445\u043e\u0434\u043d\u044b\u0435_uc",
+      "label": "\u0412\u0445\u043e\u0434\u043d\u044b\u0435 UC",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u044b_\u0444\u0442_\u0438\u0435\u0440\u0430\u0440\u0445\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435_\u0438_\u043f\u0440\u0438_\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438_\u0441\u0434",
+      "label": "\u041a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u044b \u0424\u0422 (\u0438\u0435\u0440\u0430\u0440\u0445\u0438\u044f [\u041e\u0431\u044a\u0435\u043a\u0442].[\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435] \u0438 \u043f\u0440\u0438 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 .\u0421\u0414)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0440\u0435\u0435\u0441\u0442\u0440_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u043e\u0432_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439_fr",
+      "label": "\u0420\u0435\u0435\u0441\u0442\u0440 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u043e\u0432 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 (FR-\\*)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u043f\u0440\u0430\u0432\u0438\u043b\u0430_fr_\u0438_\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u044f_\u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u043e\u0432",
+      "label": "\u041f\u0440\u0430\u0432\u0438\u043b\u0430 FR-\\* \u0438 \u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u043e\u0432",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0448\u0430\u0431\u043b\u043e\u043d\u044b_\u0444\u043e\u0440\u043c\u0443\u043b\u0438\u0440\u043e\u0432\u043e\u043a",
+      "label": "\u0428\u0430\u0431\u043b\u043e\u043d\u044b \u0444\u043e\u0440\u043c\u0443\u043b\u0438\u0440\u043e\u0432\u043e\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L93"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0440\u043e\u043b\u044c_1",
+      "label": "[\u0420\u043e\u043b\u044c 1]",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L150"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0440\u043e\u043b\u044c_2",
+      "label": "[\u0420\u043e\u043b\u044c 2]",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L166"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "label": "\u0421\u0438\u0441\u0442\u0435\u043c\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u043b\u043d\u043e\u0442\u044b_\u043d\u0430\u0431\u043e\u0440\u0430_\u0444\u0442",
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u043e\u043b\u043d\u043e\u0442\u044b \u043d\u0430\u0431\u043e\u0440\u0430 \u0424\u0422",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L178"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L183"
+    },
+    {
+      "id": "functional_requirements_template_fr_\u0447\u0435\u043a\u043b\u0438\u0441\u0442_\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430_\u043f\u0435\u0440\u0435\u0434_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0435\u0439",
+      "label": "\u0427\u0435\u043a\u043b\u0438\u0441\u0442 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u043f\u0435\u0440\u0435\u0434 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0435\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438_\u0438_\u043f\u043e\u0440\u044f\u0434\u043e\u043a_\u0440\u0430\u0431\u043e\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0441_use_case_\u0438_\u043a\u0430\u043d\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c_crudl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u0432\u0445\u043e\u0434\u043d\u044b\u0435_uc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u044b_\u0444\u0442_\u0438\u0435\u0440\u0430\u0440\u0445\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435_\u0438_\u043f\u0440\u0438_\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438_\u0441\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u0440\u0435\u0435\u0441\u0442\u0440_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u043e\u0432_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439_fr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u043f\u0440\u0430\u0432\u0438\u043b\u0430_fr_\u0438_\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u044f_\u043a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "functional_requirements_template_fr_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043e\u0431\u044a\u0435\u043a\u0442_\u0438\u043c\u044f\u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+      "target": "functional_requirements_template_fr_\u0448\u0430\u0431\u043b\u043e\u043d\u044b_\u0444\u043e\u0440\u043c\u0443\u043b\u0438\u0440\u043e\u0432\u043e\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0440\u043e\u043b\u044c_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0440\u043e\u043b\u044c_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u043f\u043e\u043b\u043d\u043e\u0442\u044b_\u043d\u0430\u0431\u043e\u0440\u0430_\u0444\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_specs_functional_requirements_template_fr_md",
+      "target": "functional_requirements_template_fr_\u0447\u0435\u043a\u043b\u0438\u0441\u0442_\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430_\u043f\u0435\u0440\u0435\u0434_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0435\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/specs/functional-requirements/_template-fr.md",
+      "source_location": "L199",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

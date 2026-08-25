@@ -1,0 +1,1448 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "label": "chartdb-postgresql-erd-normalized-public.sql",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": null
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_parking_types",
+      "label": "parking_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L70"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_zone_types",
+      "label": "zone_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L79"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_vehicle_types",
+      "label": "vehicle_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L88"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "label": "operational_statuses",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L97"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_benefit_categories",
+      "label": "benefit_categories",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L106"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_agreement_types",
+      "label": "agreement_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L114"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_employee_roles",
+      "label": "employee_roles",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L122"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_tariff_types",
+      "label": "tariff_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L131"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_payment_methods",
+      "label": "payment_methods",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L139"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_clients",
+      "label": "clients",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L148"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_parkings",
+      "label": "parkings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L162"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_parking_schedules",
+      "label": "parking_schedules",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L173"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_sectors",
+      "label": "sectors",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L187"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_access_points",
+      "label": "access_points",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L197"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "label": "tariffs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L208"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_zone_type_vehicle_types",
+      "label": "zone_type_vehicle_types",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L223"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_zone_type_tariffs",
+      "label": "zone_type_tariffs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L231"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "label": "parking_places",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L239"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_client_accounts",
+      "label": "client_accounts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L250"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_notification_settings",
+      "label": "notification_settings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L266"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_notification_settings_channels",
+      "label": "notification_settings_channels",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L278"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_payment_settings",
+      "label": "payment_settings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L286"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_passport_data",
+      "label": "passport_data",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L297"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_benefit_documents",
+      "label": "benefit_documents",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L310"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_organizations",
+      "label": "organizations",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L325"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_organization_bank_accounts",
+      "label": "organization_bank_accounts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L342"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_agreements",
+      "label": "agreements",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L354"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_employees",
+      "label": "employees",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L365"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_employee_accounts",
+      "label": "employee_accounts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L378"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "label": "vehicles",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L389"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_tariff_rates",
+      "label": "tariff_rates",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L401"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contract_templates",
+      "label": "contract_templates",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L414"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contracts",
+      "label": "contracts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L427"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "label": "contract_signing_attempts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L453"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contract_signing_status_history",
+      "label": "contract_signing_status_history",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L527"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contract_lifecycle_status_history",
+      "label": "contract_lifecycle_status_history",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L554"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_contract_inbox_events",
+      "label": "contract_inbox_events",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L615"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_v_contract_current_state",
+      "label": "v_contract_current_state",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L628"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_v_access_active_contract_by_client",
+      "label": "v_access_active_contract_by_client",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L658"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_bookings",
+      "label": "bookings",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_booking_status_history",
+      "label": "booking_status_history",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L733"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_invoices",
+      "label": "invoices",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L744"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_parking_sessions",
+      "label": "parking_sessions",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L762"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_payments",
+      "label": "payments",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L772"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_receipts",
+      "label": "receipts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L786"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_refunds",
+      "label": "refunds",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L797"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_debts",
+      "label": "debts",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L810"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_notification_templates",
+      "label": "notification_templates",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L822"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_notifications",
+      "label": "notifications",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L833"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_appeals",
+      "label": "appeals",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L850"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_access_logs",
+      "label": "access_logs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L874"
+    },
+    {
+      "id": "chartdb_postgresql_erd_normalized_public_outbox_events",
+      "label": "outbox_events",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L886"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicle_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_benefit_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_agreement_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_employee_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_tariff_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_payment_methods",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_parkings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parkings",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parkings",
+      "target": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_schedules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parking_schedules",
+      "target": "chartdb_postgresql_erd_normalized_public_parkings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_sectors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_sectors",
+      "target": "chartdb_postgresql_erd_normalized_public_parkings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_sectors",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_sectors",
+      "target": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_access_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_access_points",
+      "target": "chartdb_postgresql_erd_normalized_public_parkings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_access_points",
+      "target": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "target": "chartdb_postgresql_erd_normalized_public_tariff_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "target": "chartdb_postgresql_erd_normalized_public_benefit_categories",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_type_vehicle_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_zone_type_vehicle_types",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_zone_type_vehicle_types",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicle_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_type_tariffs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_zone_type_tariffs",
+      "target": "chartdb_postgresql_erd_normalized_public_zone_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_zone_type_tariffs",
+      "target": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "target": "chartdb_postgresql_erd_normalized_public_sectors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "target": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "target": "chartdb_postgresql_erd_normalized_public_operational_statuses",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_client_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_client_accounts",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_notification_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_notification_settings",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_notification_settings_channels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_notification_settings_channels",
+      "target": "chartdb_postgresql_erd_normalized_public_notification_settings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_payment_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_payment_settings",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_passport_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_passport_data",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_benefit_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_benefit_documents",
+      "target": "chartdb_postgresql_erd_normalized_public_benefit_categories",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_benefit_documents",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_organizations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_organizations",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_organization_bank_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_organization_bank_accounts",
+      "target": "chartdb_postgresql_erd_normalized_public_organizations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_agreements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_agreements",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_agreements",
+      "target": "chartdb_postgresql_erd_normalized_public_agreement_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_employees",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_employees",
+      "target": "chartdb_postgresql_erd_normalized_public_employee_roles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_employee_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_employee_accounts",
+      "target": "chartdb_postgresql_erd_normalized_public_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicle_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L389",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_tariff_rates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L401",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_tariff_rates",
+      "target": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L401",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contracts",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contracts",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_templates",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contracts",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L520",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contract_signing_status_history",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_lifecycle_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L554",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contract_lifecycle_status_history",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L554",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_inbox_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L615",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_contract_inbox_events",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L615",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_v_contract_current_state",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L628",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_v_contract_current_state",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L653",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_v_contract_current_state",
+      "target": "chartdb_postgresql_erd_normalized_public_contract_signing_attempts",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L654",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_v_access_active_contract_by_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L658",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_v_access_active_contract_by_client",
+      "target": "chartdb_postgresql_erd_normalized_public_v_contract_current_state",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L660",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_bookings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_bookings",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_bookings",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_places",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_bookings",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_bookings",
+      "target": "chartdb_postgresql_erd_normalized_public_tariffs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_booking_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_booking_status_history",
+      "target": "chartdb_postgresql_erd_normalized_public_bookings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_booking_status_history",
+      "target": "chartdb_postgresql_erd_normalized_public_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_booking_status_history",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_invoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L744",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_invoices",
+      "target": "chartdb_postgresql_erd_normalized_public_bookings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L744",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_invoices",
+      "target": "chartdb_postgresql_erd_normalized_public_contracts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L744",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_sessions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L762",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_parking_sessions",
+      "target": "chartdb_postgresql_erd_normalized_public_bookings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L762",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_payments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L772",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_payments",
+      "target": "chartdb_postgresql_erd_normalized_public_invoices",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L772",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_payments",
+      "target": "chartdb_postgresql_erd_normalized_public_payment_methods",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L772",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_receipts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L786",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_receipts",
+      "target": "chartdb_postgresql_erd_normalized_public_payments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L786",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_refunds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L797",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_refunds",
+      "target": "chartdb_postgresql_erd_normalized_public_payments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L797",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_debts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L810",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_debts",
+      "target": "chartdb_postgresql_erd_normalized_public_invoices",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L810",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_debts",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L810",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_notification_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L822",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_notifications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L833",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_notifications",
+      "target": "chartdb_postgresql_erd_normalized_public_notification_templates",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L833",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_notifications",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L833",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_notifications",
+      "target": "chartdb_postgresql_erd_normalized_public_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L833",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_appeals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L850",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_appeals",
+      "target": "chartdb_postgresql_erd_normalized_public_clients",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L850",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_appeals",
+      "target": "chartdb_postgresql_erd_normalized_public_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L850",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_access_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L874",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_access_logs",
+      "target": "chartdb_postgresql_erd_normalized_public_access_points",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L874",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_access_logs",
+      "target": "chartdb_postgresql_erd_normalized_public_parking_sessions",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L874",
+      "weight": 1.0
+    },
+    {
+      "source": "chartdb_postgresql_erd_normalized_public_access_logs",
+      "target": "chartdb_postgresql_erd_normalized_public_vehicles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L874",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_sql_database_chartdb_postgresql_erd_normalized_public_sql",
+      "target": "chartdb_postgresql_erd_normalized_public_outbox_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/sql/database/chartdb-postgresql-erd-normalized-public.sql",
+      "source_location": "L886",
+      "weight": 1.0
+    }
+  ]
+}

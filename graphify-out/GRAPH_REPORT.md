@@ -1,19 +1,19 @@
-# Graph Report - sab-win-26-mine-parking (2026-08-21)
+# Graph Report - sab-win-26-mine-parking (2026-08-25)
 
 ## Corpus Check
 
-- 216 files · ~538,706 words
+- 218 files · ~553,428 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 
-- 3898 nodes · 4329 edges · 303 communities (260 shown, 43 thin omitted)
+- 4010 nodes · 4472 edges · 306 communities (263 shown, 43 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 123 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
 
-- Built from commit: `528b8d2e`
+- Built from commit: `5b04bcb3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -321,17 +321,20 @@
 - [[_COMMUNITY_Community 300|Community 300]]
 - [[_COMMUNITY_Community 301|Community 301]]
 - [[_COMMUNITY_Community 302|Community 302]]
+- [[_COMMUNITY_Community 303|Community 303]]
+- [[_COMMUNITY_Community 304|Community 304]]
+- [[_COMMUNITY_Community 305|Community 305]]
 
 ## God Nodes (most connected - your core abstractions)
 
-1. `Слайды` - 51 edges
-2. `Таблицы` - 49 edges
-3. `Атрибуты по сущностям (PostgreSQL)` - 48 edges
+1. `Атрибуты по сущностям (PostgreSQL)` - 54 edges
+2. `Таблицы` - 53 edges
+3. `Слайды` - 51 edges
 4. `Слайды` - 37 edges
 5. `Пользовательские требования к интеграции` - 35 edges
 6. `Слайды` - 34 edges
-7. `Traceability Matrix Log` - 29 edges
-8. `Сущности и атрибуты` - 28 edges
+7. `Сущности и атрибуты` - 31 edges
+8. `Traceability Matrix Log` - 29 edges
 9. `Opportunity Canvas — автоматизация парковки` - 26 edges
 10. `User Story Map — автоматизация парковки` - 26 edges
 
@@ -369,7 +372,7 @@
 - **Сценарий въезда: СКУД ГРЗ → идентификация → бронирование → доступ → сессия** — slides_demo5_skud_lpr, slides_demo5_uc_auto_identification, slides_demo5_entity_booking, slides_demo5_entity_parking_session [EXTRACTED 1.00]
 - **Поток онлайн-оплаты: ЛК → система → Платежная система → ОФД → уведомления** — slides_demo5_uc_online_payment, slides_demo5_payment_gateway, slides_demo5_uml_sequence, slides_demo5_notification_service [EXTRACTED 1.00]
 
-## Communities (303 total, 43 thin omitted)
+## Communities (306 total, 43 thin omitted)
 
 ### Community 0 - "Business Processes & Access Flow"
 
@@ -393,13 +396,13 @@ Nodes (20): ЮKassa: маппинг статусов платежа, Регла�
 
 ### Community 4 - "Normalized ERD (Auth & Booking)"
 
-Cohesion: 0.11
-Nodes (47): auth.client_accounts, auth.employee_accounts, booking.booking_status_history, booking.bookings, client.agreement_types, client.agreements, client.clients, client.notification_settings (+39 more)
+Cohesion: 0.09
+Nodes (53): auth.client_accounts, auth.employee_accounts, booking.booking_status_history, booking.bookings, client.agreement_types, client.agreements, client.clients, client.notification_settings (+45 more)
 
 ### Community 5 - "Normalized ERD (Public Schema)"
 
-Cohesion: 0.13
-Nodes (47): access_logs, access_points, agreement_types, agreements, appeals, benefit_categories, benefit_documents, booking_status_history (+39 more)
+Cohesion: 0.11
+Nodes (53): access_logs, access_points, agreement_types, agreements, appeals, benefit_categories, benefit_documents, booking_status_history (+45 more)
 
 ### Community 6 - "Domain Entities & Integrations"
 
@@ -408,8 +411,8 @@ Nodes (45): Автоматическое распознавание госном
 
 ### Community 7 - "Architectural Decisions (ADR)"
 
-Cohesion: 0.1
-Nodes (38): ADR-001: Онлайн-проверка права доступа в платформе, ADR-002: Бронирование vs Парковочная сессия, ADR-003: Модульный монолит, ADR-004: Интеграция с DADATA (Отменен), ADR-005: Стратегия чтения данных Access Control, ADR-006: Расчет доступности ПМ при бронировании, ADR-007: Kafka как шина событий (учебный TO-BE), ADR-008: RabbitMQ для рассылки уведомлений (учебный TO-BE) (+30 more)
+Cohesion: 0.08
+Nodes (43): ADR-001: Онлайн-проверка права доступа в платформе, ADR-002: Бронирование vs Парковочная сессия, ADR-003: Модульный монолит, ADR-004: Интеграция с DADATA (Отменен), ADR-005: Стратегия чтения данных Access Control, ADR-006: Расчет доступности ПМ при бронировании, ADR-007: Kafka как шина событий (учебный TO-BE), ADR-008: RabbitMQ для рассылки уведомлений (учебный TO-BE) (+35 more)
 
 ### Community 8 - "Actors & Use Cases"
 
@@ -564,7 +567,7 @@ Nodes (4): atomic-commit.mjs (git workflow script), .claude/settings.json (Claud
 ### Community 38 - "Demo-5 & Reports"
 
 Cohesion: 0.04
-Nodes (49): 10. Профиль клиента ФЛ (внутри `clients`), 12. `client_accounts` — Учетная запись клиента, 13. `notification_settings` — Настройки уведомлений, 13а. `notification_settings_channels` — Разрешенный канал, 14. `payment_settings` — Настройки оплаты, 15. `passport_data` — Паспортные данные, 16. `benefit_documents` — Льготный документ, 16а. `benefit_categories` — Льготная категория (+41 more)
+Nodes (53): 10. Профиль клиента ФЛ (внутри `clients`), 12. `client_accounts` — Учетная запись клиента, 13. `notification_settings` — Настройки уведомлений, 13а. `notification_settings_channels` — Разрешенный канал, 14. `payment_settings` — Настройки оплаты, 15. `passport_data` — Паспортные данные, 16. `benefit_documents` — Льготный документ, 16а. `benefit_categories` — Льготная категория (+45 more)
 
 ### Community 39 - "Sequence: UC10.2 Payment Flow"
 
@@ -589,12 +592,12 @@ Nodes (3): OpenAPI UC-10.6 Receipt — Swagger OK view, successful 200 response 
 ### Community 72 - "Community 72"
 
 Cohesion: 0.04
-Nodes (48): `access_logs`, `access_points`, `agreement_types`, `agreements`, `appeals`, `benefit_categories`, `benefit_documents`, `booking_status_history` (+40 more)
+Nodes (54): `access_logs`, `access_points`, `agreement_types`, `agreements`, `appeals`, `benefit_categories`, `benefit_documents`, `booking_status_history` (+46 more)
 
 ### Community 73 - "Community 73"
 
 Cohesion: 0.04
-Nodes (45): `Бронирование`, Введение, Выводы и решения, Дальнейшее развитие модели, Детализация содержания, Диаграмма, `Договор`, `Клиент` (+37 more)
+Nodes (48): `Бронирование`, Введение, `Входящее событие договора`, Выводы и решения, Дальнейшее развитие модели, Детализация содержания, Диаграмма, `Договор` (+40 more)
 
 ### Community 74 - "Community 74"
 
@@ -633,8 +636,8 @@ Nodes (36): 10. Реактивные барьеры (при инциденте),
 
 ### Community 81 - "Community 81"
 
-Cohesion: 0.06
-Nodes (33): ADR и DDD, C4 и DFD, ERD и SQL, Scope, UC, требования и трассировка, Архитектурные решения, Выявленные расхождения, Декомпозиция и потоки (+25 more)
+Cohesion: 0.05
+Nodes (38): ADR и DDD, C4 и DFD, ERD и SQL, Scope, UC, требования и трассировка, Архитектурные решения, Выявленные расхождения, Декомпозиция и потоки (+30 more)
 
 ### Community 82 - "Community 82"
 
@@ -663,8 +666,8 @@ Nodes (29): 10. Ценность для пользователей, 11. Стра
 
 ### Community 87 - "Community 87"
 
-Cohesion: 0.07
-Nodes (29): ER-диаграмма, Автор: [CeJIDb](https://github.com/CeJIDb), Автор: [Denis333admin](https://github.com/Denis333admin), Автор: [malinkaemail-blip](https://github.com/malinkaemail-blip), Автор: [mrneatly](https://github.com/mrneatly), Автор: [skifup](https://github.com/skifup), Заметки, Индивидуальные предложения по сущностям (+21 more)
+Cohesion: 0.06
+Nodes (34): ER-диаграмма, Автор: [CeJIDb](https://github.com/CeJIDb), Автор: [Denis333admin](https://github.com/Denis333admin), Автор: [malinkaemail-blip](https://github.com/malinkaemail-blip), Автор: [mrneatly](https://github.com/mrneatly), Автор: [skifup](https://github.com/skifup), Заметки, Индивидуальные предложения по сущностям (+26 more)
 
 ### Community 88 - "Community 88"
 
@@ -693,8 +696,8 @@ Nodes (28): 10. Opportunity Canvas - Идеи решений, 11. Ценност
 
 ### Community 93 - "Community 93"
 
-Cohesion: 0.07
-Nodes (28): code:bash (npm run lint:md), Scope, UC-8.1, договор с ФЛ, UC-8.2, договор с ЮЛ через ЭДО, UC-8.8, договор с ЮЛ в админке, Атрибуты договора, Зачем именно так, Изменения интеграционного контракта (+20 more)
+Cohesion: 0.06
+Nodes (34): code:bash (npm run lint:md), Inbox и история состояний, Scope, UC-8.1, договор с ФЛ, UC-8.2, договор с ЮЛ через ЭДО, UC-8.5 и UC-8.12, расторжение договора, UC-8.8, договор с ЮЛ в админке, Атрибуты договора (+26 more)
 
 ### Community 94 - "Community 94"
 
@@ -1073,8 +1076,8 @@ Nodes (10): Демо-день 1, Демо-день 2, Демо-день 3, Де�
 
 ### Community 169 - "Community 169"
 
-Cohesion: 0.18
-Nodes (10): Блок 1. Контроль доступа (СКУД), Блок 2. Онлайн-оплата парковочной сессии, Блок 3. Документооборот через ЭДО, Границы регламента, Назначение, Оглавление, Открытые вопросы, Регламент взаимодействия ИС (+2 more)
+Cohesion: 0.17
+Nodes (11): Блок 1. Контроль доступа (СКУД), Блок 2. Онлайн-оплата парковочной сессии, Блок 3. Документооборот через ЭДО, Границы регламента, Корреляция, порядок и идемпотентность, Назначение, Оглавление, Открытые вопросы (+3 more)
 
 ### Community 170 - "Community 170"
 
@@ -1223,13 +1226,13 @@ Nodes (10): checkBlock(), DOCS_DIR, EXCLUDE_DIRS, execFileAsync, extractMermaidB
 
 ### Community 199 - "Community 199"
 
-Cohesion: 0.2
-Nodes (10): C4-диаграммы цифровой платформы парковки, C4 L1 — System Context: Цифровая платформа парковки и 11 внешних систем, C4 L2 — Container: PWA, Web, API Gateway, Backend, PostgreSQL, C4 L3 — Component: 16 доменных сервисов + 4 адаптера внутри Backend, Display Adapter — адаптер интеграции с информационными табло, Notification Adapter — адаптер интеграции с сервисом уведомлений (SMS/push/email), Payment Adapter — адаптер интеграции с Платежной системой (ЮKassa), СКУД/LPR Adapter — адаптер интеграции со шлагбаумом и LPR-камерами (+2 more)
+Cohesion: 0.4
+Nodes (5): C4 L3 — Component: 16 доменных сервисов + 4 адаптера внутри Backend, Display Adapter — адаптер интеграции с информационными табло, Notification Adapter — адаптер интеграции с сервисом уведомлений (SMS/push/email), Payment Adapter — адаптер интеграции с Платежной системой (ЮKassa), СКУД/LPR Adapter — адаптер интеграции со шлагбаумом и LPR-камерами
 
 ### Community 200 - "Community 200"
 
-Cohesion: 0.36
-Nodes (10): INT-006: результат фискализации чека (fiscalNumber, fiscalizationStatus, receiptDateTime от ОФД), Сущность: Платеж (статусы: INITIALIZED / SUCCESS / CANCELLED / ERROR), Сущность: Чек (fiscalizationStatus: PENDING / FISCALIZED / ERROR), ReceiptResponse JSON Schema (UC-10.6), OpenAPI-контракт REST-метода — UC-10.6 GET /payments/{paymentId}/receipt, JSON-пример ответа UC-10.2-1 Обработка оплаты парковочной сессии, JSON-пример ответа UC-10.6 Получение платежного чека, Индекс интеграционной архитектуры (+2 more)
+Cohesion: 0.17
+Nodes (18): Актор: СКУД (система контроля и управления доступом), AccessCheckResponse (GRANTED/DENIED/MANUAL_REVIEW), Компонент: ACS — служба контроля доступа, INT-001: событие от АдаптераСКУД на ПроверкуДоступа (licensePlate, checkpointId, direction, capturedAt), INT-006: результат фискализации чека (fiscalNumber, fiscalizationStatus, receiptDateTime от ОФД), Компонент: LPR-адаптер (СКУД) — распознавание ГРЗ на КПП, Сущность: Платеж (статусы: INITIALIZED / SUCCESS / CANCELLED / ERROR), Сущность: Чек (fiscalizationStatus: PENDING / FISCALIZED / ERROR) (+10 more)
 
 ### Community 201 - "Community 201"
 
@@ -1318,8 +1321,8 @@ Nodes (8): code:bash (npm run sql:oracle -- describe --result expected.csv), cod
 
 ### Community 218 - "Community 218"
 
-Cohesion: 0.29
-Nodes (8): Актор: СКУД (система контроля и управления доступом), AccessCheckResponse (GRANTED/DENIED/MANUAL_REVIEW), Компонент: ACS — служба контроля доступа, INT-001: событие от АдаптераСКУД на ПроверкуДоступа (licensePlate, checkpointId, direction, capturedAt), Компонент: LPR-адаптер (СКУД) — распознавание ГРЗ на КПП, OpenAPI-контракт REST-метода — UC-12.1 POST /access/check, Sequence Diagram UC-12.1 — автоидентификация на въезде (LPR → ACS → сервисы), UC-12.6 «Пройти автоматическую идентификацию на выезде»
+Cohesion: 0.09
+Nodes (22): UML State Machine TO-BE: договор, Автомат жизненного цикла, Автомат попытки подписания, Активация договора, Аудит переходов, Влияние на бронирование и доступ, Данные договора, Данные попытки подписания (+14 more)
 
 ### Community 219 - "Community 219"
 
@@ -1666,6 +1669,21 @@ Nodes (3): 8. Оформление и управление договором, �
 Cohesion: 0.67
 Nodes (3): 9. Оплата, Проведение оплаты ФЛ, Проведение оплаты ЮЛ
 
+### Community 303 - "Community 303"
+
+Cohesion: 0.09
+Nodes (21): code:text (canonical bootstrap -> temporary PostgreSQL -> pg_catalog), code:text (sql/database/), code:bash (npm run db:policy:validate), Scope, Входит, Зависимость и условие старта, Зачем именно так, Источники истины и направление синхронизации (+13 more)
+
+### Community 304 - "Community 304"
+
+Cohesion: 0.24
+Nodes (16): changedFiles(), checkoutChanges(), CODE_EXTENSIONS, findRepoRoot(), isGraphifyCodeFile(), lastCommitChanges(), main(), normalizePath() (+8 more)
+
+### Community 305 - "Community 305"
+
+Cohesion: 0.29
+Nodes (6): 1. Что делали, 2. Как делали, 3. Что получилось, 4. Что можно улучшить, 5. До и после, Ретро: единая модель состояний договора
+
 ## Ambiguous Edges - Review These
 
 - `Traceability Matrix Template` → `FR: Парковочная сессия` [AMBIGUOUS]
@@ -1673,7 +1691,7 @@ Nodes (3): 9. Оплата, Проведение оплаты ФЛ, Провед
 
 ## Knowledge Gaps
 
-- **2597 isolated node(s):** `files`, `result`, `PRETTIER_EXTS`, `changedFiles`, `isCheck` (+2592 more)
+- **2666 isolated node(s):** `files`, `result`, `PRETTIER_EXTS`, `changedFiles`, `isCheck` (+2661 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1683,15 +1701,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **What is the exact relationship between `Traceability Matrix Template` and `FR: Парковочная сессия`?**
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
-- **Why does `ADR-003: Модульный монолит` connect `Architectural Decisions (ADR)` to `Community 199`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **Why does `C4-диаграммы цифровой платформы парковки` connect `Architectural Decisions (ADR)` to `C4 L3 Architecture & Adapters`, `ACS / LPR Integration`, `Community 199`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `Traceability Matrix Log` connect `NFR & Security Analysis` to `Messaging Architecture (Kafka/RabbitMQ)`, `Requirements Traceability IDs`, `UC-8.2 Contract Creation`, `Process Governance & DoD`, `Community 248`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `Transactional Outbox Pattern` connect `Architectural Decisions (ADR)` to `NFR & Security Analysis`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `files`, `result`, `PRETTIER_EXTS` to the rest of the system?**
-  _2597 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2666 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Business Processes & Access Flow` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
 - **Should `Demo-4 Architecture Presentation` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Should `ACS / LPR Integration` be split into smaller, more focused modules?**
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._

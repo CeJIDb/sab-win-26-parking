@@ -1,0 +1,479 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_opportunity_canvas_md",
+      "label": "opportunity-canvas.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "Opportunity Canvas \u2014 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "label": "\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "label": "\u0414\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "label": "\u0422\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u041a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043b\u043e\u0433\u0438\u043a\u0430_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "label": "\u041b\u043e\u0433\u0438\u043a\u0430 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "label": "\u0414\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L47"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_1_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0438_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "label": "1. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u044b \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "label": "\u041a\u043b\u0438\u0435\u043d\u0442\u044b \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "label": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_2_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432_\u0444\u043b",
+      "label": "2. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (\u0424\u041b)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_3_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432_\u044e\u043b",
+      "label": "3. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 (\u042e\u041b)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_4_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u043e\u0432",
+      "label": "4. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u043e\u0432",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L95"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0441\u0442\u0430\u0440\u0448\u0438\u0439_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "label": "\u0421\u0442\u0430\u0440\u0448\u0438\u0439 \u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_5_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0433\u043e",
+      "label": "5. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0433\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L122"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_6_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430",
+      "label": "6. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_7_\u043a\u0430\u043a_\u0440\u0435\u0448\u0430\u044e\u0442_\u0441\u0435\u0433\u043e\u0434\u043d\u044f_\u0441\u0435\u0433\u043e\u0434\u043d\u044f",
+      "label": "7. \u041a\u0430\u043a \u0440\u0435\u0448\u0430\u044e\u0442 \u0441\u0435\u0433\u043e\u0434\u043d\u044f (\u00ab\u0421\u0435\u0433\u043e\u0434\u043d\u044f\u00bb)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L147"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_8_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "label": "8. \u041f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L156"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_9_\u0438\u0434\u0435\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u0439",
+      "label": "9. \u0418\u0434\u0435\u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_10_\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u044c_\u0434\u043b\u044f_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+      "label": "10. \u0426\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L189"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_11_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044f",
+      "label": "11. \u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f \u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L206"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_12_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "label": "12. \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L216"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_13_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430_\u0438_\u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "label": "13. \u0411\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L230"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_14_\u0431\u044e\u0434\u0436\u0435\u0442_\u0438_\u0441\u0440\u043e\u043a\u0438",
+      "label": "14. \u0411\u044e\u0434\u0436\u0435\u0442 \u0438 \u0441\u0440\u043e\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L241"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0432\u044b\u0432\u043e\u0434\u044b_\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "label": "\u0412\u044b\u0432\u043e\u0434\u044b \u0438 \u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L252"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0438 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L258"
+    },
+    {
+      "id": "artifacts_opportunity_canvas_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L263"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_opportunity_canvas_md",
+      "target": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043b\u043e\u0433\u0438\u043a\u0430_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_1_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0438_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_1_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0438_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "target": "artifacts_opportunity_canvas_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_1_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0438_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "target": "artifacts_opportunity_canvas_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438_\u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_2_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432_\u0444\u043b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_3_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432_\u044e\u043b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_4_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_4_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a\u043e\u0432",
+      "target": "artifacts_opportunity_canvas_\u0441\u0442\u0430\u0440\u0448\u0438\u0439_\u043e\u0445\u0440\u0430\u043d\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_5_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0433\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_6_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_7_\u043a\u0430\u043a_\u0440\u0435\u0448\u0430\u044e\u0442_\u0441\u0435\u0433\u043e\u0434\u043d\u044f_\u0441\u0435\u0433\u043e\u0434\u043d\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_8_\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b_\u0431\u0438\u0437\u043d\u0435\u0441\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_9_\u0438\u0434\u0435\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_10_\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u044c_\u0434\u043b\u044f_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L189",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_11_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_12_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_13_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430_\u0438_\u043c\u0435\u0442\u0440\u0438\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_14_\u0431\u044e\u0434\u0436\u0435\u0442_\u0438_\u0441\u0440\u043e\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u0432\u044b\u0432\u043e\u0434\u044b_\u0438_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_opportunity_canvas_opportunity_canvas_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "target": "artifacts_opportunity_canvas_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/opportunity-canvas.md",
+      "source_location": "L263",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

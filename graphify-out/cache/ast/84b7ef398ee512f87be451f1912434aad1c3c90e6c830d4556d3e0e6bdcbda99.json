@@ -1,0 +1,2207 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_database_erd_erd_normalized_er_model_md",
+      "label": "erd-normalized-er-model.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "label": "\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f ER-\u043c\u043e\u0434\u0435\u043b\u044c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_table_of_contents",
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_related_documents",
+      "label": "Related Documents",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_codeblock_1",
+      "label": "code:mermaid (erDiagram)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "label": "\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L640"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043b\u0435\u0433\u0435\u043d\u0434\u0430_\u0438\u043c\u0435\u043d",
+      "label": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430 \u0438\u043c\u0435\u043d",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L663"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "label": "\u0421\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f \u043f\u043e \u0442\u0438\u043f\u0430\u043c \u0434\u0430\u043d\u043d\u044b\u0445 (PostgreSQL)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L668"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u044b_\u0432\u0435\u0437\u0434\u0435_bigint",
+      "label": "\u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u044b: \u0432\u0435\u0437\u0434\u0435 `BIGINT`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L672"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0434\u0435\u043d\u044c\u0433\u0438_\u0432\u0440\u0435\u043c\u044f_\u0442\u0435\u043a\u0441\u0442_\u0431\u0443\u043b\u0435\u0432\u044b",
+      "label": "\u0414\u0435\u043d\u044c\u0433\u0438, \u0432\u0440\u0435\u043c\u044f, \u0442\u0435\u043a\u0441\u0442, \u0431\u0443\u043b\u0435\u0432\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L681"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0438\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c_\u0438_\u0432\u043d\u0435\u0448\u043d\u0438\u0435_\u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0435_\u0441\u0441\u044b\u043b\u043a\u0438",
+      "label": "\u0418\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c \u0438 \u0432\u043d\u0435\u0448\u043d\u0438\u0435 \u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0435 \u0441\u0441\u044b\u043b\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L690"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c_pk_\u0438_\u0442\u0438\u043f\u044b_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u043f\u043e\u043b\u0435\u0439",
+      "label": "\u0421\u0432\u043e\u0434\u043a\u0430: \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c \u2014 PK \u0438 \u0442\u0438\u043f\u044b \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445 \u043f\u043e\u043b\u0435\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L695"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0430\u0443\u0434\u0438\u0442\u043d\u044b\u0435_\u043f\u043e\u043b\u044f_\u0438_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_\u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f_\u043a\u043e_\u0432\u0441\u0435\u043c_\u0442\u0430\u0431\u043b\u0438\u0446\u0430\u043c",
+      "label": "\u0410\u0443\u0434\u0438\u0442\u043d\u044b\u0435 \u043f\u043e\u043b\u044f \u0438 \u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f (\u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f \u043a\u043e \u0432\u0441\u0435\u043c \u0442\u0430\u0431\u043b\u0438\u0446\u0430\u043c)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L751"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "label": "\u0410\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u043f\u043e \u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c (PostgreSQL)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L758"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_parkings",
+      "label": "`parkings`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L764"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_parking_types",
+      "label": "`parking_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L777"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_parking_schedules",
+      "label": "`parking_schedules`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L788"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_sectors",
+      "label": "`sectors`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L805"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_zone_types",
+      "label": "`zone_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L817"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_vehicle_types",
+      "label": "`vehicle_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L827"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_operational_statuses",
+      "label": "`operational_statuses`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L837"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_zone_type_vehicle_types",
+      "label": "`zone_type_vehicle_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L849"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_zone_type_tariffs",
+      "label": "`zone_type_tariffs`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L860"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_parking_places",
+      "label": "`parking_places`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L871"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_clients",
+      "label": "`clients`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L886"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_client_accounts",
+      "label": "`client_accounts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L902"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_notification_settings",
+      "label": "`notification_settings`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L921"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_notification_settings_channels",
+      "label": "`notification_settings_channels`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L937"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_payment_settings",
+      "label": "`payment_settings`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L948"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_passport_data",
+      "label": "`passport_data`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L961"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_benefit_documents",
+      "label": "`benefit_documents`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L978"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_benefit_categories",
+      "label": "`benefit_categories`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L998"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_organizations",
+      "label": "`organizations`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1009"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_organization_bank_accounts",
+      "label": "`organization_bank_accounts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1030"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_agreements",
+      "label": "`agreements`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1046"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_agreement_types",
+      "label": "`agreement_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1061"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_employees",
+      "label": "`employees`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1072"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_employee_accounts",
+      "label": "`employee_accounts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1087"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_employee_roles",
+      "label": "`employee_roles`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1102"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_vehicles",
+      "label": "`vehicles`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1117"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_access_points",
+      "label": "`access_points`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1133"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_tariffs",
+      "label": "`tariffs`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1146"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_tariff_types",
+      "label": "`tariff_types`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1163"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_tariff_rates",
+      "label": "`tariff_rates`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1174"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contract_templates",
+      "label": "`contract_templates`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1192"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430_contract",
+      "label": "\u041f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430 `contract`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1207"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contracts",
+      "label": "`contracts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1217"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contract_signing_attempts",
+      "label": "`contract_signing_attempts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1236"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contract_signing_status_history",
+      "label": "`contract_signing_status_history`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1263"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contract_lifecycle_status_history",
+      "label": "`contract_lifecycle_status_history`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1284"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_contract_inbox_events",
+      "label": "`contract_inbox_events`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1307"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_read_model_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "Read-model \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1323"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_bookings",
+      "label": "`bookings`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1328"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_booking_status_history",
+      "label": "`booking_status_history`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1348"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_invoices",
+      "label": "`invoices`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1363"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_parking_sessions",
+      "label": "`parking_sessions`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1388"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_payments",
+      "label": "`payments`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1404"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_receipts",
+      "label": "`receipts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1422"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_refunds",
+      "label": "`refunds`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1435"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_debts",
+      "label": "`debts`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1452"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_payment_methods",
+      "label": "`payment_methods`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1470"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_notification_templates",
+      "label": "`notification_templates`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1485"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_notifications",
+      "label": "`notifications`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1498"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_appeals",
+      "label": "`appeals`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1518"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_access_logs",
+      "label": "`access_logs`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1539"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_outbox_events",
+      "label": "`outbox_events`",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1557"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "label": "\u0422\u0430\u0431\u043b\u0438\u0446\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1573"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_1_parkings_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+      "label": "1. `parkings` \u2014 \u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1577"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_1\u0430_parking_types_\u0442\u0438\u043f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "1\u0430. `parking_types` \u2014 \u0422\u0438\u043f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1597"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_2_parking_schedules_\u0433\u0440\u0430\u0444\u0438\u043a_\u0440\u0430\u0431\u043e\u0442\u044b_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "2. `parking_schedules` \u2014 \u0413\u0440\u0430\u0444\u0438\u043a \u0440\u0430\u0431\u043e\u0442\u044b \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1612"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_3_sectors_\u0441\u0435\u043a\u0442\u043e\u0440",
+      "label": "3. `sectors` \u2014 \u0421\u0435\u043a\u0442\u043e\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1631"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_4_zone_types_\u0442\u0438\u043f_\u0437\u043e\u043d\u044b",
+      "label": "4. `zone_types` \u2014 \u0422\u0438\u043f \u0437\u043e\u043d\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1649"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_5_vehicle_types_\u0442\u0438\u043f_\u0442\u0441",
+      "label": "5. `vehicle_types` \u2014 \u0422\u0438\u043f \u0422\u0421",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1665"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_5\u0431_operational_statuses_\u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "label": "5\u0431. `operational_statuses` \u2014 \u042d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0442\u0430\u0442\u0443\u0441",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1680"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_6_zone_type_vehicle_types_\u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439_\u0442\u0438\u043f_\u0442\u0441_\u0432_\u0442\u0438\u043f\u0435_\u0437\u043e\u043d\u044b",
+      "label": "6. `zone_type_vehicle_types` \u2014 \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439 \u0442\u0438\u043f \u0422\u0421 \u0432 \u0442\u0438\u043f\u0435 \u0437\u043e\u043d\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1698"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_7_zone_type_tariffs_\u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c_\u0442\u0430\u0440\u0438\u0444\u0430_\u043a_\u0442\u0438\u043f\u0443_\u0437\u043e\u043d\u044b",
+      "label": "7. `zone_type_tariffs` \u2014 \u041f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c \u0442\u0430\u0440\u0438\u0444\u0430 \u043a \u0442\u0438\u043f\u0443 \u0437\u043e\u043d\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1715"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_8_parking_places_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435_\u043c\u0435\u0441\u0442\u043e",
+      "label": "8. `parking_places` \u2014 \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1732"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_9_clients_\u043a\u043b\u0438\u0435\u043d\u0442",
+      "label": "9. `clients` \u2014 \u041a\u043b\u0438\u0435\u043d\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1756"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_10_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043b_\u0432\u043d\u0443\u0442\u0440\u0438_clients",
+      "label": "10. \u041f\u0440\u043e\u0444\u0438\u043b\u044c \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0424\u041b (\u0432\u043d\u0443\u0442\u0440\u0438 `clients`)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1778"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_12_client_accounts_\u0443\u0447\u0435\u0442\u043d\u0430\u044f_\u0437\u0430\u043f\u0438\u0441\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "label": "12. `client_accounts` \u2014 \u0423\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1782"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_13_notification_settings_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "label": "13. `notification_settings` \u2014 \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1811"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_13\u0430_notification_settings_channels_\u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439_\u043a\u0430\u043d\u0430\u043b",
+      "label": "13\u0430. `notification_settings_channels` \u2014 \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1830"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_14_payment_settings_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "label": "14. `payment_settings` \u2014 \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u043e\u043f\u043b\u0430\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1843"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_15_passport_data_\u043f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435",
+      "label": "15. `passport_data` \u2014 \u041f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1860"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_16_benefit_documents_\u043b\u044c\u0433\u043e\u0442\u043d\u044b\u0439_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "label": "16. `benefit_documents` \u2014 \u041b\u044c\u0433\u043e\u0442\u043d\u044b\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1879"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_16\u0430_benefit_categories_\u043b\u044c\u0433\u043e\u0442\u043d\u0430\u044f_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+      "label": "16\u0430. `benefit_categories` \u2014 \u041b\u044c\u0433\u043e\u0442\u043d\u0430\u044f \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1899"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_17_organizations_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "label": "17. `organizations` \u2014 \u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1915"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_18_organization_bank_accounts_\u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439_\u0441\u0447\u0435\u0442_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438",
+      "label": "18. `organization_bank_accounts` \u2014 \u0411\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0441\u0447\u0435\u0442 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1939"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_19_agreements_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "label": "19. `agreements` \u2014 \u0421\u043e\u0433\u043b\u0430\u0441\u0438\u0435 (\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1958"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_19\u0430_agreement_types_\u0442\u0438\u043f_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u044f",
+      "label": "19\u0430. `agreement_types` \u2014 \u0422\u0438\u043f \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1976"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_20_employees_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "label": "20. `employees` \u2014 \u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1991"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_20\u0430_employee_accounts_\u0443\u0447\u0435\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "label": "20\u0430. `employee_accounts` \u2014 \u0423\u0447\u0435\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2012"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_20\u0431_employee_roles_\u0440\u043e\u043b\u044c_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "label": "20\u0431. `employee_roles` \u2014 \u0420\u043e\u043b\u044c \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2024"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_21_vehicles_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+      "label": "21. `vehicles` \u2014 \u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2039"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_22_access_points_\u0442\u043e\u0447\u043a\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_access_point",
+      "label": "22. `access_points` \u2014 \u0442\u043e\u0447\u043a\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 (Access Point)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2059"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_23_tariffs_\u0442\u0430\u0440\u0438\u0444",
+      "label": "23. `tariffs` \u2014 \u0422\u0430\u0440\u0438\u0444",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2077"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_23\u0431_tariff_types_\u0442\u0438\u043f_\u0442\u0430\u0440\u0438\u0444\u0430",
+      "label": "23\u0431. `tariff_types` \u2014 \u0422\u0438\u043f \u0442\u0430\u0440\u0438\u0444\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2102"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_23\u0430_tariff_rates_\u0441\u0442\u0430\u0432\u043a\u0430_\u0442\u0430\u0440\u0438\u0444\u0430",
+      "label": "23\u0430. `tariff_rates` \u2014 \u0421\u0442\u0430\u0432\u043a\u0430 \u0442\u0430\u0440\u0438\u0444\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2117"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_24_contract_templates_\u0448\u0430\u0431\u043b\u043e\u043d_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "24. `contract_templates` \u2014 \u0428\u0430\u0431\u043b\u043e\u043d \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2130"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_25_contracts_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "label": "25. `contracts` \u2014 \u0414\u043e\u0433\u043e\u0432\u043e\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2149"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_25\u0430_contract_signing_attempts_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "label": "25\u0430. `contract_signing_attempts` \u2014 \u041f\u043e\u043f\u044b\u0442\u043a\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2178"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_25\u0431_contract_signing_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "label": "25\u0431. `contract_signing_status_history` \u2014 \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2184"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_25\u0432_contract_lifecycle_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "25\u0432. `contract_lifecycle_status_history` \u2014 \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2188"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_25\u0433_contract_inbox_events_inbox_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u044d\u0434\u043e",
+      "label": "25\u0433. `contract_inbox_events` \u2014 Inbox \u0441\u043e\u0431\u044b\u0442\u0438\u0439 \u042d\u0414\u041e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2194"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_26_bookings_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "label": "26. `bookings` \u2014 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2215"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_26\u0430_booking_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+      "label": "26\u0430. `booking_status_history` \u2014 \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2250"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_27_parking_sessions_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "label": "27. `parking_sessions` \u2014 \u041f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0435\u0441\u0441\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2271"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_28_invoices_\u0441\u0447\u0435\u0442",
+      "label": "28. `invoices` \u2014 \u0421\u0447\u0435\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2288"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_29_payments_\u043f\u043b\u0430\u0442\u0435\u0436",
+      "label": "29. `payments` \u2014 \u041f\u043b\u0430\u0442\u0435\u0436",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2317"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_30_receipts_\u0447\u0435\u043a",
+      "label": "30. `receipts` \u2014 \u0427\u0435\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2344"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_31_refunds_\u0432\u043e\u0437\u0432\u0440\u0430\u0442",
+      "label": "31. `refunds` \u2014 \u0412\u043e\u0437\u0432\u0440\u0430\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2362"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_32_debts_\u0437\u0430\u0434\u043e\u043b\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "label": "32. `debts` \u2014 \u0417\u0430\u0434\u043e\u043b\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2386"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_32\u0430_payment_methods_\u0441\u043f\u043e\u0441\u043e\u0431_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "label": "32\u0430. `payment_methods` \u2014 \u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2410"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_34_notification_templates_\u0448\u0430\u0431\u043b\u043e\u043d_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "label": "34. `notification_templates` \u2014 \u0428\u0430\u0431\u043b\u043e\u043d \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2425"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_35_notifications_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "label": "35. `notifications` \u2014 \u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2442"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_36_appeals_\u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "label": "36. `appeals` \u2014 \u041e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2465"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_37_access_logs_\u0436\u0443\u0440\u043d\u0430\u043b_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_ap",
+      "label": "37. `access_logs` \u2014 \u0416\u0443\u0440\u043d\u0430\u043b \u0441\u043e\u0431\u044b\u0442\u0438\u0439 AP",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2493"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_38_outbox_events_\u0438\u0441\u0445\u043e\u0434\u044f\u0449\u0438\u0435_\u0441\u043e\u0431\u044b\u0442\u0438\u044f",
+      "label": "38. `outbox_events` \u2014 \u0418\u0441\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2521"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "label": "\u0421\u0432\u043e\u0434\u043a\u0430 \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445 \u0441\u0432\u044f\u0437\u0435\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2547"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2549"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u0442\u0430\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f",
+      "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0438 \u0442\u0430\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2558"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0438_\u0438\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+      "label": "\u041a\u043b\u0438\u0435\u043d\u0442\u044b \u0438 \u0438\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2566"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u044f_\u0438_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b",
+      "label": "\u042d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u044f \u0438 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2579"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0434\u043e\u0441\u0442\u0443\u043f_\u0438_\u0430\u0443\u0434\u0438\u0442",
+      "label": "\u0414\u043e\u0441\u0442\u0443\u043f \u0438 \u0430\u0443\u0434\u0438\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2598"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0438_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "label": "\u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0438 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f \u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2603"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0438_\u0438_\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430",
+      "label": "\u041a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2607"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "label": "\u0417\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f \u043f\u043e \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2619"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_1_\u0447\u0442\u043e_\u0445\u0440\u0430\u043d\u0438\u0442\u044c_\u043a\u0430\u043a_\u0431\u0430\u0437\u043e\u0432\u044b\u0435_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "label": "1. \u0427\u0442\u043e \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043a\u0430\u043a \u0431\u0430\u0437\u043e\u0432\u044b\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2621"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_2_\u0447\u0442\u043e_\u043c\u043e\u0436\u043d\u043e_\u0434\u0435\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u043f\u043e\u0437\u0436\u0435",
+      "label": "2. \u0427\u0442\u043e \u043c\u043e\u0436\u043d\u043e \u0434\u0435\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0437\u0436\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2632"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_3_\u0447\u0442\u043e_\u0442\u0440\u0435\u0431\u0443\u0435\u0442_\u0431\u0438\u0437\u043d\u0435\u0441_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432",
+      "label": "3. \u0427\u0442\u043e \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u0431\u0438\u0437\u043d\u0435\u0441-\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2642"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_4_\u043a\u0430\u043a_\u0437\u0430\u043a\u0440\u0435\u043f\u043b\u044f\u0442\u044c_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b_\u0432_postgresql",
+      "label": "4. \u041a\u0430\u043a \u0437\u0430\u043a\u0440\u0435\u043f\u043b\u044f\u0442\u044c \u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u0432 PostgreSQL",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2665"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_5_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0438\u043d\u0434\u0435\u043a\u0441\u044b",
+      "label": "5. \u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u043d\u0434\u0435\u043a\u0441\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2685"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_codeblock_2",
+      "label": "code:sql (-- \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2690"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_6_\u0430\u043d\u0430\u043b\u0438\u0437_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "label": "6. \u0410\u043d\u0430\u043b\u0438\u0437 \u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2802"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_1\u043d\u0444_2\u043d\u0444_3\u043d\u0444",
+      "label": "\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f (1\u041d\u0424 / 2\u041d\u0424 / 3\u041d\u0424)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2804"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "label": "\u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2813"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_7_\u0441\u0445\u0435\u043c\u0430_report_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u043e\u0442\u0447\u0435\u0442",
+      "label": "7. \u0421\u0445\u0435\u043c\u0430 `report` (\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 `\u041e\u0442\u0447\u0435\u0442`)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2825"
+    },
+    {
+      "id": "erd_erd_normalized_er_model_\u0441\u0442\u0430\u0442\u0443\u0441_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "label": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2829"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_database_erd_erd_normalized_er_model_md",
+      "target": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_table_of_contents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_related_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_related_documents",
+      "target": "erd_erd_normalized_er_model_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L640",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u043b\u0435\u0433\u0435\u043d\u0434\u0430_\u0438\u043c\u0435\u043d",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L663",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L668",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "target": "erd_erd_normalized_er_model_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u044b_\u0432\u0435\u0437\u0434\u0435_bigint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L672",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "target": "erd_erd_normalized_er_model_\u0434\u0435\u043d\u044c\u0433\u0438_\u0432\u0440\u0435\u043c\u044f_\u0442\u0435\u043a\u0441\u0442_\u0431\u0443\u043b\u0435\u0432\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L681",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "target": "erd_erd_normalized_er_model_\u0438\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c_\u0438_\u0432\u043d\u0435\u0448\u043d\u0438\u0435_\u043f\u043b\u0430\u0442\u0435\u0436\u043d\u044b\u0435_\u0441\u0441\u044b\u043b\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L690",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "target": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044c_pk_\u0438_\u0442\u0438\u043f\u044b_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u043f\u043e\u043b\u0435\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L695",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f_\u043f\u043e_\u0442\u0438\u043f\u0430\u043c_\u0434\u0430\u043d\u043d\u044b\u0445_postgresql",
+      "target": "erd_erd_normalized_er_model_\u0430\u0443\u0434\u0438\u0442\u043d\u044b\u0435_\u043f\u043e\u043b\u044f_\u0438_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_\u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f_\u043a\u043e_\u0432\u0441\u0435\u043c_\u0442\u0430\u0431\u043b\u0438\u0446\u0430\u043c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L751",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L758",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_parkings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L764",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_parking_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L777",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_parking_schedules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L788",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_sectors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L805",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_zone_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L817",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_vehicle_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L827",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_operational_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L837",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_zone_type_vehicle_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L849",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_zone_type_tariffs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L860",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_parking_places",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L871",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L886",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_client_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L902",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_notification_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L921",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_notification_settings_channels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L937",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_payment_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L948",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_passport_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L961",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_benefit_documents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L978",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_benefit_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L998",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_organizations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1009",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_organization_bank_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1030",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_agreements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1046",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_agreement_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1061",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_employees",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1072",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_employee_accounts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1087",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_employee_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1102",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_vehicles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1117",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_access_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1133",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_tariffs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1146",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_tariff_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1163",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_tariff_rates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1174",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contract_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1192",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_\u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1207",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contracts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1217",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contract_signing_attempts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1236",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contract_signing_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1263",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contract_lifecycle_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1284",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_contract_inbox_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1307",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_read_model_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1323",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_bookings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1328",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_booking_status_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1348",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_invoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1363",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_parking_sessions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1388",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_payments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1404",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_receipts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1422",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_refunds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1435",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_debts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1452",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_payment_methods",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1470",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_notification_templates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1485",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_notifications",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1498",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_appeals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1518",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_access_logs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1539",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b_\u043f\u043e_\u0441\u0443\u0449\u043d\u043e\u0441\u0442\u044f\u043c_postgresql",
+      "target": "erd_erd_normalized_er_model_outbox_events",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1557",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1573",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_1_parkings_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1577",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_1\u0430_parking_types_\u0442\u0438\u043f_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1597",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_2_parking_schedules_\u0433\u0440\u0430\u0444\u0438\u043a_\u0440\u0430\u0431\u043e\u0442\u044b_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1612",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_3_sectors_\u0441\u0435\u043a\u0442\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1631",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_4_zone_types_\u0442\u0438\u043f_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1649",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_5_vehicle_types_\u0442\u0438\u043f_\u0442\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1665",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_5\u0431_operational_statuses_\u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439_\u0441\u0442\u0430\u0442\u0443\u0441",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1680",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_6_zone_type_vehicle_types_\u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439_\u0442\u0438\u043f_\u0442\u0441_\u0432_\u0442\u0438\u043f\u0435_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1698",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_7_zone_type_tariffs_\u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c_\u0442\u0430\u0440\u0438\u0444\u0430_\u043a_\u0442\u0438\u043f\u0443_\u0437\u043e\u043d\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1715",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_8_parking_places_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u043e\u0435_\u043c\u0435\u0441\u0442\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1732",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_9_clients_\u043a\u043b\u0438\u0435\u043d\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1756",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_10_\u043f\u0440\u043e\u0444\u0438\u043b\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430_\u0444\u043b_\u0432\u043d\u0443\u0442\u0440\u0438_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1778",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_12_client_accounts_\u0443\u0447\u0435\u0442\u043d\u0430\u044f_\u0437\u0430\u043f\u0438\u0441\u044c_\u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1782",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_13_notification_settings_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1811",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_13\u0430_notification_settings_channels_\u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0439_\u043a\u0430\u043d\u0430\u043b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1830",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_14_payment_settings_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1843",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_15_passport_data_\u043f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1860",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_16_benefit_documents_\u043b\u044c\u0433\u043e\u0442\u043d\u044b\u0439_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1879",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_16\u0430_benefit_categories_\u043b\u044c\u0433\u043e\u0442\u043d\u0430\u044f_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1899",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_17_organizations_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1915",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_18_organization_bank_accounts_\u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0438\u0439_\u0441\u0447\u0435\u0442_\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1939",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_19_agreements_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1958",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_19\u0430_agreement_types_\u0442\u0438\u043f_\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1976",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_20_employees_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L1991",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_20\u0430_employee_accounts_\u0443\u0447\u0435\u0442\u043d\u044b\u0435_\u0434\u0430\u043d\u043d\u044b\u0435_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2012",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_20\u0431_employee_roles_\u0440\u043e\u043b\u044c_\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2024",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_21_vehicles_\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0435_\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2039",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_22_access_points_\u0442\u043e\u0447\u043a\u0430_\u0434\u043e\u0441\u0442\u0443\u043f\u0430_access_point",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2059",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_23_tariffs_\u0442\u0430\u0440\u0438\u0444",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2077",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_23\u0431_tariff_types_\u0442\u0438\u043f_\u0442\u0430\u0440\u0438\u0444\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2102",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_23\u0430_tariff_rates_\u0441\u0442\u0430\u0432\u043a\u0430_\u0442\u0430\u0440\u0438\u0444\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2117",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_24_contract_templates_\u0448\u0430\u0431\u043b\u043e\u043d_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2130",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_25_contracts_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2149",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_25\u0430_contract_signing_attempts_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2178",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_25\u0431_contract_signing_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2184",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_25\u0432_contract_lifecycle_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2188",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_25\u0433_contract_inbox_events_inbox_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_\u044d\u0434\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2194",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_26_bookings_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2215",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_26\u0430_booking_status_history_\u0438\u0441\u0442\u043e\u0440\u0438\u044f_\u0441\u0442\u0430\u0442\u0443\u0441\u043e\u0432_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2250",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_27_parking_sessions_\u043f\u0430\u0440\u043a\u043e\u0432\u043e\u0447\u043d\u0430\u044f_\u0441\u0435\u0441\u0441\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2271",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_28_invoices_\u0441\u0447\u0435\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2288",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_29_payments_\u043f\u043b\u0430\u0442\u0435\u0436",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2317",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_30_receipts_\u0447\u0435\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2344",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_31_refunds_\u0432\u043e\u0437\u0432\u0440\u0430\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2362",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_32_debts_\u0437\u0430\u0434\u043e\u043b\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2386",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_32\u0430_payment_methods_\u0441\u043f\u043e\u0441\u043e\u0431_\u043e\u043f\u043b\u0430\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2410",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_34_notification_templates_\u0448\u0430\u0431\u043b\u043e\u043d_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2425",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_35_notifications_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2442",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_36_appeals_\u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2465",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_37_access_logs_\u0436\u0443\u0440\u043d\u0430\u043b_\u0441\u043e\u0431\u044b\u0442\u0438\u0439_ap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2493",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "target": "erd_erd_normalized_er_model_38_outbox_events_\u0438\u0441\u0445\u043e\u0434\u044f\u0449\u0438\u0435_\u0441\u043e\u0431\u044b\u0442\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2521",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2547",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2549",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f_\u0438_\u0442\u0430\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2558",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u043a\u043b\u0438\u0435\u043d\u0442\u044b_\u0438_\u0438\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2566",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u044f_\u0438_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2579",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u0434\u043e\u0441\u0442\u0443\u043f_\u0438_\u0430\u0443\u0434\u0438\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2598",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f_\u0438_\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u044f_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2603",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0441\u0432\u043e\u0434\u043a\u0430_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445_\u0441\u0432\u044f\u0437\u0435\u0439",
+      "target": "erd_erd_normalized_er_model_\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0438_\u0438_\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2607",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2619",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_1_\u0447\u0442\u043e_\u0445\u0440\u0430\u043d\u0438\u0442\u044c_\u043a\u0430\u043a_\u0431\u0430\u0437\u043e\u0432\u044b\u0435_\u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2621",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_2_\u0447\u0442\u043e_\u043c\u043e\u0436\u043d\u043e_\u0434\u0435\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c_\u043f\u043e\u0437\u0436\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2632",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_3_\u0447\u0442\u043e_\u0442\u0440\u0435\u0431\u0443\u0435\u0442_\u0431\u0438\u0437\u043d\u0435\u0441_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2642",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_4_\u043a\u0430\u043a_\u0437\u0430\u043a\u0440\u0435\u043f\u043b\u044f\u0442\u044c_\u0438\u043d\u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b_\u0432_postgresql",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2665",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_5_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0438\u043d\u0434\u0435\u043a\u0441\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2685",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_5_\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0438\u043d\u0434\u0435\u043a\u0441\u044b",
+      "target": "erd_erd_normalized_er_model_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2690",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_6_\u0430\u043d\u0430\u043b\u0438\u0437_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2802",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_6_\u0430\u043d\u0430\u043b\u0438\u0437_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "target": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f_1\u043d\u0444_2\u043d\u0444_3\u043d\u0444",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2804",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_6_\u0430\u043d\u0430\u043b\u0438\u0437_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "target": "erd_erd_normalized_er_model_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2813",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u0437\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f_\u043f\u043e_\u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438",
+      "target": "erd_erd_normalized_er_model_7_\u0441\u0445\u0435\u043c\u0430_report_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u043e\u0442\u0447\u0435\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2825",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_erd_normalized_er_model_\u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u0430\u044f_er_\u043c\u043e\u0434\u0435\u043b\u044c",
+      "target": "erd_erd_normalized_er_model_\u0441\u0442\u0430\u0442\u0443\u0441_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/erd-normalized-er-model.md",
+      "source_location": "L2829",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

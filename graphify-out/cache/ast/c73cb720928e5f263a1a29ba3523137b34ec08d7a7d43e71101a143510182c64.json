@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_branding_checklist_md",
+      "label": "branding-checklist.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_branding_checklist_\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f_\u0447\u0435\u043a\u043b\u0438\u0441\u0442",
+      "label": "\u0411\u0440\u0435\u043d\u0434\u0438\u043d\u0433 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f \u2014 \u0447\u0435\u043a\u043b\u0438\u0441\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_branding_checklist_og_image_social_preview",
+      "label": "OG-image (Social Preview)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "process_branding_checklist_netlify_\u0441\u0430\u0431\u0434\u043e\u043c\u0435\u043d",
+      "label": "Netlify-\u0441\u0430\u0431\u0434\u043e\u043c\u0435\u043d",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_branding_checklist_md",
+      "target": "process_branding_checklist_\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f_\u0447\u0435\u043a\u043b\u0438\u0441\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "process_branding_checklist_\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f_\u0447\u0435\u043a\u043b\u0438\u0441\u0442",
+      "target": "process_branding_checklist_og_image_social_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "process_branding_checklist_\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u044f_\u0447\u0435\u043a\u043b\u0438\u0441\u0442",
+      "target": "process_branding_checklist_netlify_\u0441\u0430\u0431\u0434\u043e\u043c\u0435\u043d",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/branding-checklist.md",
+      "source_location": "L15",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

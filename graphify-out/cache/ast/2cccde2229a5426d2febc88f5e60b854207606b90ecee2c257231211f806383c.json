@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_database_erd_readme_md",
+      "label": "readme.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "erd_readme_erd_entity_relationship_diagram",
+      "label": "ERD (Entity-Relationship Diagram)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "erd_readme_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "erd_readme_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u041a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "erd_readme_\u0438\u043c\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b",
+      "label": "\u0418\u043c\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "erd_readme_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u044b_\u0440\u0435\u0432\u044c\u044e",
+      "label": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u044b \u0440\u0435\u0432\u044c\u044e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "erd_readme_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "label": "\u0417\u0430\u043c\u0435\u0442\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_database_erd_readme_md",
+      "target": "erd_readme_erd_entity_relationship_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_readme_erd_entity_relationship_diagram",
+      "target": "erd_readme_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_readme_erd_entity_relationship_diagram",
+      "target": "erd_readme_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_readme_erd_entity_relationship_diagram",
+      "target": "erd_readme_\u0438\u043c\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_readme_erd_entity_relationship_diagram",
+      "target": "erd_readme_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u044b_\u0440\u0435\u0432\u044c\u044e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "erd_readme_erd_entity_relationship_diagram",
+      "target": "erd_readme_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/database/erd/readme.md",
+      "source_location": "L30",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

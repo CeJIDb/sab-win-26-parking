@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_process_first_contribution_path_md",
+      "label": "first-contribution-path.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_first_contribution_path_first_contribution_path",
+      "label": "First Contribution Path",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "process_first_contribution_path_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "process_first_contribution_path_goal",
+      "label": "Goal",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "process_first_contribution_path_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "process_first_contribution_path_steps",
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "process_first_contribution_path_codeblock_1",
+      "label": "code:bash (npm ci)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "process_first_contribution_path_done_criteria",
+      "label": "Done Criteria",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_process_first_contribution_path_md",
+      "target": "process_first_contribution_path_first_contribution_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_first_contribution_path",
+      "target": "process_first_contribution_path_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_first_contribution_path",
+      "target": "process_first_contribution_path_goal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_first_contribution_path",
+      "target": "process_first_contribution_path_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_first_contribution_path",
+      "target": "process_first_contribution_path_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_steps",
+      "target": "process_first_contribution_path_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "process_first_contribution_path_first_contribution_path",
+      "target": "process_first_contribution_path_done_criteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/process/first-contribution-path.md",
+      "source_location": "L32",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

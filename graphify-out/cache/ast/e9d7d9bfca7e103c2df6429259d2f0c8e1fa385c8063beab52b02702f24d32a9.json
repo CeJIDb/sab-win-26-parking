@@ -1,0 +1,863 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_demo_days_demo_5_demo_5_presentation_deck_md",
+      "label": "demo-5-presentation-deck.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_demo_5_presentation_deck",
+      "label": "Demo 5 Presentation Deck",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "label": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "label": "\u0421\u043b\u0430\u0439\u0434\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_1_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0447\u0430\u0441\u0442\u043d\u043e\u0433\u043e_\u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430",
+      "label": "1. \u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u0447\u0430\u0441\u0442\u043d\u043e\u0433\u043e \u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_2_\u043a\u043e\u043c\u0430\u043d\u0434\u0430_five_whys",
+      "label": "2. \u041a\u043e\u043c\u0430\u043d\u0434\u0430 Five Whys",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_3_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a_\u0438_\u043c\u0435\u043d\u0442\u043e\u0440",
+      "label": "3. \u0417\u0430\u043a\u0430\u0437\u0447\u0438\u043a \u0438 \u043c\u0435\u043d\u0442\u043e\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_4_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0442\u0435\u043a\u0443\u0449\u0430\u044f_\u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f",
+      "label": "4. \u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u0442\u0435\u043a\u0443\u0449\u0430\u044f \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_5_\u043f\u0443\u0442\u044c_\u043f\u0440\u043e\u0435\u043a\u0442\u0430_\u0447\u0442\u043e_\u0431\u044b\u043b\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "label": "5. \u041f\u0443\u0442\u044c \u043f\u0440\u043e\u0435\u043a\u0442\u0430: \u0447\u0442\u043e \u0431\u044b\u043b\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_6_\u044d\u0442\u0430\u043f_1_\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441\u0430_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u0430",
+      "label": "6. \u042d\u0442\u0430\u043f 1. \u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0431\u0438\u0437\u043d\u0435\u0441\u0430 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_7_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+      "label": "7. \u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_8_\u043a\u0430\u043a_\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043b\u0438_as_is_\u0441_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u043c",
+      "label": "8. \u041a\u0430\u043a \u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043b\u0438 As-Is \u0441 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u043c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_9_event_storming_as_is",
+      "label": "9. Event Storming As-Is",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_10_\u044d\u0442\u0430\u043f_2_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "label": "10. \u042d\u0442\u0430\u043f 2. \u041a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_11_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0438_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0446\u0435\u043b\u0438",
+      "label": "11. \u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0438 \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435 \u0446\u0435\u043b\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_12_impact_map",
+      "label": "12. Impact Map",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_13_opportunity_canvas",
+      "label": "13. Opportunity Canvas",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_14_user_story_map_\u0433\u0440\u0430\u043d\u0438\u0446\u0430_mvp",
+      "label": "14. User Story Map. \u0413\u0440\u0430\u043d\u0438\u0446\u0430 MVP",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_15_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430_\u0433\u0440\u0430\u043d\u0438\u0446\u0430_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0438_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "15. \u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f \u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430. \u0413\u0440\u0430\u043d\u0438\u0446\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_16_\u044d\u0442\u0430\u043f_3_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "label": "16. \u042d\u0442\u0430\u043f 3. \u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_17_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0435\u0434\u0438\u043d\u044b\u0439_\u044f\u0437\u044b\u043a_\u0434\u043b\u044f_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "label": "17. \u041a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c. \u0415\u0434\u0438\u043d\u044b\u0439 \u044f\u0437\u044b\u043a \u0434\u043b\u044f \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 \u0438 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_18_use_case_\u043f\u0440\u043e\u0439\u0442\u0438_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e",
+      "label": "18. Use Case. \u041f\u0440\u043e\u0439\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_19_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "label": "19. \u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u2014 \u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_20_\u043d\u0435\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e_\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430_5_\u0433\u0440\u0443\u043f\u043f",
+      "label": "20. \u041d\u0435\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 (5 \u0433\u0440\u0443\u043f\u043f)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L88"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_21_\u0430\u043d\u0430\u043b\u0438\u0437_\u0440\u0438\u0441\u043a\u043e\u0432_\u0438_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u0440\u0438\u0441\u043a",
+      "label": "21. \u0410\u043d\u0430\u043b\u0438\u0437 \u0440\u0438\u0441\u043a\u043e\u0432 \u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0440\u0438\u0441\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_22_\u0441\u0445\u0435\u043c\u0430_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438_\u044d\u043a\u0440\u0430\u043d\u043e\u0432_\u043b\u0438\u0447\u043d\u044b\u0439_\u043a\u0430\u0431\u0438\u043d\u0435\u0442_\u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "label": "22. \u0421\u0445\u0435\u043c\u0430 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438 \u044d\u043a\u0440\u0430\u043d\u043e\u0432. \u041b\u0438\u0447\u043d\u044b\u0439 \u043a\u0430\u0431\u0438\u043d\u0435\u0442 \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L96"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_23_\u0441\u0441\u044b\u043b\u043a\u0430_\u043d\u0430_\u043c\u0430\u043a\u0435\u0442",
+      "label": "23. \u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u043c\u0430\u043a\u0435\u0442",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L100"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_24_\u044d\u0442\u0430\u043f_4_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "label": "24. \u042d\u0442\u0430\u043f 4. \u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f. \u0410\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_25_\u0434\u043e\u043c\u0435\u043d\u043d\u0430\u044f_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f",
+      "label": "25. \u0414\u043e\u043c\u0435\u043d\u043d\u0430\u044f \u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_26_core",
+      "label": "26. Core",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L112"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_27_supporting_generic",
+      "label": "27. Supporting / Generic",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L116"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_28_\u0431\u0438\u0437\u043d\u0435\u0441_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
+      "label": "28. \u0411\u0438\u0437\u043d\u0435\u0441-\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L120"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_29_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "label": "29. \u0412\u044b\u0431\u043e\u0440 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L124"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_30_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b_c4",
+      "label": "30. \u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u0438 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b (C4)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L128"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_31_\u044d\u0442\u0430\u043f_5_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "31. \u042d\u0442\u0430\u043f 5. \u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f. \u0418\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L132"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_32_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u044b_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "32. \u0410\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u044b \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_33_use_case_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438_\u0444\u0442_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "33. Use Case \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 / \u0424\u0422 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_34_data_flow_diagram",
+      "label": "34. Data Flow Diagram",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L144"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_35_\u043c\u0430\u043f\u043f\u0438\u043d\u0433_json",
+      "label": "35. \u041c\u0430\u043f\u043f\u0438\u043d\u0433 / JSON",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L148"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_36_uml_sequence_diagram",
+      "label": "36. UML Sequence Diagram",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L152"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_37_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438_\u0434\u0430\u043d\u043d\u044b\u0445",
+      "label": "37. \u0420\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L156"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_38_\u0441\u0442\u0435\u043a_\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439_\u0434\u043b\u044f_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0439",
+      "label": "38. \u0421\u0442\u0435\u043a \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u0434\u043b\u044f \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L160"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_39_rest_api_\u043c\u0435\u0442\u043e\u0434_\u043f\u0440\u0430\u0432\u043e_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "label": "39. REST API \u043c\u0435\u0442\u043e\u0434 (\u043f\u0440\u0430\u0432\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L164"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_40_\u0440\u0435\u0435\u0441\u0442\u0440_\u043e\u0448\u0438\u0431\u043e\u043a_\u043e\u043f\u043b\u0430\u0442\u0430_\u0438_sso",
+      "label": "40. \u0420\u0435\u0435\u0441\u0442\u0440 \u043e\u0448\u0438\u0431\u043e\u043a (\u043e\u043f\u043b\u0430\u0442\u0430 \u0438 SSO)",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L168"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_41_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_\u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "label": "41. \u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L172"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_42_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435_\u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u044b",
+      "label": "42. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435 \u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L176"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_43_dod_excel_\u0431\u043e\u043b\u044c\u0448\u0435_\u043d\u0435_\u043d\u0443\u0436\u0435\u043d",
+      "label": "43. DoD = Excel \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043d\u0443\u0436\u0435\u043d",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L180"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_44_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0447\u0442\u043e_\u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a",
+      "label": "44. \u0417\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435: \u0447\u0442\u043e \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L184"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_45_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_kanban_\u0434\u043e\u0441\u043a\u0430_\u0438_\u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c_\u0437\u0430\u0434\u0430\u0447",
+      "label": "45. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: Kanban-\u0434\u043e\u0441\u043a\u0430 \u0438 \u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0437\u0430\u0434\u0430\u0447",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L188"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_46_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0440\u0430\u0437\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0441\u0442\u044c_\u043a\u043e\u043c\u0430\u043d\u0434\u044b_\u0438_\u0440\u0435\u0442\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b",
+      "label": "46. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: \u0440\u0430\u0437\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u0438 \u0440\u0435\u0442\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L192"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_47_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0442\u0440\u0430\u043d\u0441\u043a\u0440\u0438\u0431\u0430\u0446\u0438\u044f_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_whisper",
+      "label": "47. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: \u0442\u0440\u0430\u043d\u0441\u043a\u0440\u0438\u0431\u0430\u0446\u0438\u044f \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e, Whisper",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L196"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_48_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u043f\u043e\u0438\u0441\u043a_\u0434\u0430\u043d\u043d\u044b\u0445_telegram_\u0431\u043e\u0442_\u0441_rag",
+      "label": "48. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: \u043f\u043e\u0438\u0441\u043a \u0434\u0430\u043d\u043d\u044b\u0445, Telegram-\u0431\u043e\u0442 \u0441 RAG",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L200"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_49_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432_github_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439",
+      "label": "49. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0432\u044b\u0437\u043e\u0432\u044b: \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432, GitHub-\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L204"
+    },
+    {
+      "id": "demo_5_demo_5_presentation_deck_50_\u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0438\u043c_\u0437\u0430_\u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435",
+      "label": "50. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0438\u043c \u0437\u0430 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L208"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_demo_days_demo_5_demo_5_presentation_deck_md",
+      "target": "demo_5_demo_5_presentation_deck_demo_5_presentation_deck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_demo_5_presentation_deck",
+      "target": "demo_5_demo_5_presentation_deck_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_demo_5_presentation_deck",
+      "target": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_1_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0447\u0430\u0441\u0442\u043d\u043e\u0433\u043e_\u043f\u0430\u0440\u043a\u0438\u043d\u0433\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_2_\u043a\u043e\u043c\u0430\u043d\u0434\u0430_five_whys",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_3_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a_\u0438_\u043c\u0435\u043d\u0442\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_4_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u0442\u0435\u043a\u0443\u0449\u0430\u044f_\u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_5_\u043f\u0443\u0442\u044c_\u043f\u0440\u043e\u0435\u043a\u0442\u0430_\u0447\u0442\u043e_\u0431\u044b\u043b\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_6_\u044d\u0442\u0430\u043f_1_\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435_\u0431\u0438\u0437\u043d\u0435\u0441\u0430_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_7_\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b_\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_8_\u043a\u0430\u043a_\u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043b\u0438_as_is_\u0441_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u043c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_9_event_storming_as_is",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_10_\u044d\u0442\u0430\u043f_2_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_11_\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0438_\u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u0438\u0435_\u0446\u0435\u043b\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_12_impact_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_13_opportunity_canvas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_14_user_story_map_\u0433\u0440\u0430\u043d\u0438\u0446\u0430_mvp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_15_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u043d\u0430\u044f_\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u0430_\u0433\u0440\u0430\u043d\u0438\u0446\u0430_\u0441\u0438\u0441\u0442\u0435\u043c\u044b_\u0438_\u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0435_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_16_\u044d\u0442\u0430\u043f_3_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_17_\u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u043e\u0434\u0435\u043b\u044c_\u0435\u0434\u0438\u043d\u044b\u0439_\u044f\u0437\u044b\u043a_\u0434\u043b\u044f_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439_\u0438_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_18_use_case_\u043f\u0440\u043e\u0439\u0442\u0438_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e_\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_19_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_20_\u043d\u0435\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e_\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430_5_\u0433\u0440\u0443\u043f\u043f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_21_\u0430\u043d\u0430\u043b\u0438\u0437_\u0440\u0438\u0441\u043a\u043e\u0432_\u0438_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u0440\u0438\u0441\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_22_\u0441\u0445\u0435\u043c\u0430_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438_\u044d\u043a\u0440\u0430\u043d\u043e\u0432_\u043b\u0438\u0447\u043d\u044b\u0439_\u043a\u0430\u0431\u0438\u043d\u0435\u0442_\u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_23_\u0441\u0441\u044b\u043b\u043a\u0430_\u043d\u0430_\u043c\u0430\u043a\u0435\u0442",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_24_\u044d\u0442\u0430\u043f_4_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_25_\u0434\u043e\u043c\u0435\u043d\u043d\u0430\u044f_\u0434\u0435\u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_26_core",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_27_supporting_generic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_28_\u0431\u0438\u0437\u043d\u0435\u0441_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_29_\u0432\u044b\u0431\u043e\u0440_\u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_30_\u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442_\u0438_\u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b_c4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_31_\u044d\u0442\u0430\u043f_5_\u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435_\u043f\u0440\u043e\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_32_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u044b_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_33_use_case_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438_\u0444\u0442_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_34_data_flow_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_35_\u043c\u0430\u043f\u043f\u0438\u043d\u0433_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_36_uml_sequence_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_37_\u0440\u0435\u0433\u043b\u0430\u043c\u0435\u043d\u0442_\u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438_\u0434\u0430\u043d\u043d\u044b\u0445",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_38_\u0441\u0442\u0435\u043a_\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439_\u0434\u043b\u044f_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_39_rest_api_\u043c\u0435\u0442\u043e\u0434_\u043f\u0440\u0430\u0432\u043e_\u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_40_\u0440\u0435\u0435\u0441\u0442\u0440_\u043e\u0448\u0438\u0431\u043e\u043a_\u043e\u043f\u043b\u0430\u0442\u0430_\u0438_sso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_41_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u043a_\u0436\u0443\u0440\u043d\u0430\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_42_\u0430\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u044b\u0435_\u043f\u0440\u043e\u0446\u0435\u0434\u0443\u0440\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_43_dod_excel_\u0431\u043e\u043b\u044c\u0448\u0435_\u043d\u0435_\u043d\u0443\u0436\u0435\u043d",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_44_\u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435_\u0447\u0442\u043e_\u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442_\u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_45_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_kanban_\u0434\u043e\u0441\u043a\u0430_\u0438_\u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c_\u0437\u0430\u0434\u0430\u0447",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_46_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0440\u0430\u0437\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0441\u0442\u044c_\u043a\u043e\u043c\u0430\u043d\u0434\u044b_\u0438_\u0440\u0435\u0442\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_47_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0442\u0440\u0430\u043d\u0441\u043a\u0440\u0438\u0431\u0430\u0446\u0438\u044f_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_whisper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_48_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u043f\u043e\u0438\u0441\u043a_\u0434\u0430\u043d\u043d\u044b\u0445_telegram_\u0431\u043e\u0442_\u0441_rag",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_49_\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438_\u0438_\u0432\u044b\u0437\u043e\u0432\u044b_\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435_\u0430\u0440\u0442\u0435\u0444\u0430\u043a\u0442\u043e\u0432_github_\u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "demo_5_demo_5_presentation_deck_\u0441\u043b\u0430\u0439\u0434\u044b",
+      "target": "demo_5_demo_5_presentation_deck_50_\u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0438\u043c_\u0437\u0430_\u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/demo-days/demo-5/demo-5-presentation-deck.md",
+      "source_location": "L208",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
