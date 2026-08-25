@@ -2,18 +2,18 @@
 
 ## Corpus Check
 
-- 218 files · ~553,428 words
+- 218 files · ~553,557 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 
-- 4010 nodes · 4472 edges · 306 communities (263 shown, 43 thin omitted)
+- 4011 nodes · 4473 edges · 311 communities (268 shown, 43 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 123 edges (avg confidence: 0.88)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
 
-- Built from commit: `5b04bcb3`
+- Built from commit: `8795fcfd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -324,6 +324,11 @@
 - [[_COMMUNITY_Community 303|Community 303]]
 - [[_COMMUNITY_Community 304|Community 304]]
 - [[_COMMUNITY_Community 305|Community 305]]
+- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
 
 ## God Nodes (most connected - your core abstractions)
 
@@ -372,12 +377,12 @@
 - **Сценарий въезда: СКУД ГРЗ → идентификация → бронирование → доступ → сессия** — slides_demo5_skud_lpr, slides_demo5_uc_auto_identification, slides_demo5_entity_booking, slides_demo5_entity_parking_session [EXTRACTED 1.00]
 - **Поток онлайн-оплаты: ЛК → система → Платежная система → ОФД → уведомления** — slides_demo5_uc_online_payment, slides_demo5_payment_gateway, slides_demo5_uml_sequence, slides_demo5_notification_service [EXTRACTED 1.00]
 
-## Communities (306 total, 43 thin omitted)
+## Communities (311 total, 43 thin omitted)
 
 ### Community 0 - "Business Processes & Access Flow"
 
-Cohesion: 0.05
-Nodes (73): BPMN AS-IS идентификации клиента, BPMN AS-IS поиска парковочного места, UML StateChart договора с физлицом AS-IS, Двухфакторная аутентификация TOTP (2FA), Сквозной сценарий допуска и парковки TO-BE (концепция), Бронирование и договор TO-BE (концепция), Идентификация клиента (концепция), Управление профилем клиента и ТС TO-BE (концепция) (+65 more)
+Cohesion: 0.16
+Nodes (22): Сквозной сценарий допуска и парковки TO-BE (концепция), Бронирование и договор TO-BE (концепция), Управление профилем клиента и ТС TO-BE (концепция), Идентификация по ГРЗ (государственный регистрационный знак), Парковочная сессия (доменная сущность), ES TO-BE BP: Краткосрочное и долгосрочное бронирование, договор, ES TO-BE BP: Управление профилем клиента и списком ТС, Индекс ES TO-BE артефактов (+14 more)
 
 ### Community 1 - "C4 L3 Architecture & Adapters"
 
@@ -406,8 +411,8 @@ Nodes (53): access_logs, access_points, agreement_types, agreements, appeals, be
 
 ### Community 6 - "Domain Entities & Integrations"
 
-Cohesion: 0.07
-Nodes (45): Автоматическое распознавание госномеров (ANPR), Интеграция с ЭДО (электронный документооборот), Сущность: Бронирование, Сущность: Договор, Сущность: Уведомление, Сущность: Парковочная сессия (ПС), Сущность: Платеж, Сущность: Сектор и парковочное место (ПМ) (+37 more)
+Cohesion: 0.21
+Nodes (18): Booking (Бронирование) domain concept, Parking Session (Парковочная сессия) domain concept, СКУД Integration (access control hardware), UC-10.10 Оплатить онлайн (долгосрочная аренда), Automatic Booking on Entry (автобронирование), UC-12.2 Создать бронирование автоматически на въезде, UC-12.4 Создать парковочную сессию, Parking Session Creation (ПС) (+10 more)
 
 ### Community 7 - "Architectural Decisions (ADR)"
 
@@ -667,7 +672,7 @@ Nodes (29): 10. Ценность для пользователей, 11. Стра
 ### Community 87 - "Community 87"
 
 Cohesion: 0.06
-Nodes (34): ER-диаграмма, Автор: [CeJIDb](https://github.com/CeJIDb), Автор: [Denis333admin](https://github.com/Denis333admin), Автор: [malinkaemail-blip](https://github.com/malinkaemail-blip), Автор: [mrneatly](https://github.com/mrneatly), Автор: [skifup](https://github.com/skifup), Заметки, Индивидуальные предложения по сущностям (+26 more)
+Nodes (35): ER-диаграмма, Автор: [CeJIDb](https://github.com/CeJIDb), Автор: [Denis333admin](https://github.com/Denis333admin), Автор: [malinkaemail-blip](https://github.com/malinkaemail-blip), Автор: [mrneatly](https://github.com/mrneatly), Автор: [skifup](https://github.com/skifup), Заметки, Индивидуальные предложения по сущностям (+27 more)
 
 ### Community 88 - "Community 88"
 
@@ -1684,6 +1689,31 @@ Nodes (16): changedFiles(), checkoutChanges(), CODE_EXTENSIONS, findRepoRoot(), 
 Cohesion: 0.29
 Nodes (6): 1. Что делали, 2. Как делали, 3. Что получилось, 4. Что можно улучшить, 5. До и после, Ретро: единая модель состояний договора
 
+### Community 306 - "Community 306"
+
+Cohesion: 0.12
+Nodes (22): Автоматическое распознавание госномеров (ANPR), Интеграция с ЭДО (электронный документооборот), Сущность: Бронирование, Сущность: Договор, Сущность: Уведомление, Сущность: Парковочная сессия (ПС), Сущность: Платеж, Сущность: Сектор и парковочное место (ПМ) (+14 more)
+
+### Community 307 - "Community 307"
+
+Cohesion: 0.15
+Nodes (19): ОФД (оператор фискальных данных), Внешний платежный провайдер (эквайринг), Оплата TO-BE (концепция), ES TO-BE BP: Оплата, Гайд по размещению артефактов, CRUDL-матрица, DRAKON-схема оплаты парковки, Индекс функциональных требований (+11 more)
+
+### Community 308 - "Community 308"
+
+Cohesion: 0.14
+Nodes (14): BPMN AS-IS идентификации клиента, BPMN AS-IS поиска парковочного места, UML StateChart договора с физлицом AS-IS, Идентификация клиента (концепция), Жизненный цикл договора с физлицом (концепция), Поиск парковочного места AS-IS (концепция), BPMN AS-IS предоставления парковочного места, Контекстная диаграмма (+6 more)
+
+### Community 309 - "Community 309"
+
+Cohesion: 0.18
+Nodes (13): Двухфакторная аутентификация TOTP (2FA), Информационные активы системы парковки, Риск несанкционированного доступа (ИБ), Ролевая модель доступа (RBAC), Анализ угроз, уязвимостей и их устранение (ИБ-анализ парковки), Bow-Tie: несанкционированный доступ к системе и данным, Индекс инфобез артефактов, Индекс архитектуры (+5 more)
+
+### Community 310 - "Community 310"
+
+Cohesion: 0.24
+Nodes (10): Demo 1 Presentation Deck (Автоматизация частного паркинга), Demo 2 Presentation Deck (Impact Map, USM), Demo 3 Presentation Deck (Функциональное проектирование), Demo 3 Overview (Функциональное проектирование), Demo 4 Presentation Deck (Архитектура), Demo 4 Overview (Архитектура), Demo 1 Slides Index, Demo 2 Slides Index (+2 more)
+
 ## Ambiguous Edges - Review These
 
 - `Traceability Matrix Template` → `FR: Парковочная сессия` [AMBIGUOUS]
@@ -1691,7 +1721,7 @@ Nodes (6): 1. Что делали, 2. Как делали, 3. Что получ�
 
 ## Knowledge Gaps
 
-- **2666 isolated node(s):** `files`, `result`, `PRETTIER_EXTS`, `changedFiles`, `isCheck` (+2661 more)
+- **2667 isolated node(s):** `files`, `result`, `PRETTIER_EXTS`, `changedFiles`, `isCheck` (+2662 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1706,10 +1736,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Traceability Matrix Log` connect `NFR & Security Analysis` to `Messaging Architecture (Kafka/RabbitMQ)`, `Requirements Traceability IDs`, `UC-8.2 Contract Creation`, `Process Governance & DoD`, `Community 248`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `files`, `result`, `PRETTIER_EXTS` to the rest of the system?**
-  _2666 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Business Processes & Access Flow` be split into smaller, more focused modules?**
-  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+  _2667 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Demo-4 Architecture Presentation` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
 - **Should `ACS / LPR Integration` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._
+- **Should `Normalized ERD (Auth & Booking)` be split into smaller, more focused modules?**
+  _Cohesion score 0.09 - nodes in this community are weakly interconnected._

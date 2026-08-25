@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_uml_state_contract_to_be_md",
+      "label": "uml-state-contract-to-be.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "label": "UML State Machine TO-BE: \u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0441\u0442\u0430\u0442\u0443\u0441_\u0438_\u0433\u0440\u0430\u043d\u0438\u0446\u044b",
+      "label": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0438 \u0433\u0440\u0430\u043d\u0438\u0446\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043f\u043e\u0447\u0435\u043c\u0443_\u0434\u0432\u0430_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0430",
+      "label": "\u041f\u043e\u0447\u0435\u043c\u0443 \u0434\u0432\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "label": "\u041c\u0430\u0440\u0448\u0440\u0443\u0442\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "label": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442 \u043f\u043e\u043f\u044b\u0442\u043a\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "label": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b",
+      "label": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L79"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e\u0435_\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041f\u043e\u0432\u0442\u043e\u0440\u043d\u043e\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0434\u0430\u043d\u043d\u044b\u0435_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "label": "\u0414\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L109"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e_\u0446\u0438\u043a\u043b\u0430",
+      "label": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442 \u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u0446\u0438\u043a\u043b\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f_144",
+      "label": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L144"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0434\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L155"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b_170",
+      "label": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0430\u043a\u0442\u0438\u0432\u0430\u0446\u0438\u044f_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "label": "\u0410\u043a\u0442\u0438\u0432\u0430\u0446\u0438\u044f \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L188"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0438\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c_\u0438_\u043f\u043e\u0440\u044f\u0434\u043e\u043a_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "label": "\u0418\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c \u0438 \u043f\u043e\u0440\u044f\u0434\u043e\u043a \u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L208"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0430\u0443\u0434\u0438\u0442_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432",
+      "label": "\u0410\u0443\u0434\u0438\u0442 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L223"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0432\u043b\u0438\u044f\u043d\u0438\u0435_\u043d\u0430_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0438_\u0434\u043e\u0441\u0442\u0443\u043f",
+      "label": "\u0412\u043b\u0438\u044f\u043d\u0438\u0435 \u043d\u0430 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438 \u0434\u043e\u0441\u0442\u0443\u043f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L244"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043c\u0430\u043f\u043f\u0438\u043d\u0433_use_case",
+      "label": "\u041c\u0430\u043f\u043f\u0438\u043d\u0433 use case",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L257"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043f\u0440\u0430\u0432\u0438\u043b\u0430_\u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f_plantuml",
+      "label": "\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f PlantUML",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L268"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0433\u043e_\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0430",
+      "label": "\u041e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L280"
+    },
+    {
+      "id": "artifacts_uml_state_contract_to_be_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L293"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_uml_state_contract_to_be_md",
+      "target": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0441\u0442\u0430\u0442\u0443\u0441_\u0438_\u0433\u0440\u0430\u043d\u0438\u0446\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043f\u043e\u0447\u0435\u043c\u0443_\u0434\u0432\u0430_\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "target": "artifacts_uml_state_contract_to_be_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "target": "artifacts_uml_state_contract_to_be_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "target": "artifacts_uml_state_contract_to_be_\u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e\u0435_\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "target": "artifacts_uml_state_contract_to_be_\u0434\u0430\u043d\u043d\u044b\u0435_\u043f\u043e\u043f\u044b\u0442\u043a\u0438_\u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e_\u0446\u0438\u043a\u043b\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e_\u0446\u0438\u043a\u043b\u0430",
+      "target": "artifacts_uml_state_contract_to_be_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f_144",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e_\u0446\u0438\u043a\u043b\u0430",
+      "target": "artifacts_uml_state_contract_to_be_\u0434\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_\u0430\u0432\u0442\u043e\u043c\u0430\u0442_\u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e_\u0446\u0438\u043a\u043b\u0430",
+      "target": "artifacts_uml_state_contract_to_be_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b_170",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0430\u043a\u0442\u0438\u0432\u0430\u0446\u0438\u044f_\u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0438\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c_\u0438_\u043f\u043e\u0440\u044f\u0434\u043e\u043a_\u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0430\u0443\u0434\u0438\u0442_\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0432\u043b\u0438\u044f\u043d\u0438\u0435_\u043d\u0430_\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435_\u0438_\u0434\u043e\u0441\u0442\u0443\u043f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043c\u0430\u043f\u043f\u0438\u043d\u0433_use_case",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043f\u0440\u0430\u0432\u0438\u043b\u0430_\u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f_plantuml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u0435_\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0433\u043e_\u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "artifacts_uml_state_contract_to_be_uml_state_machine_to_be_\u0434\u043e\u0433\u043e\u0432\u043e\u0440",
+      "target": "artifacts_uml_state_contract_to_be_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/uml-state-contract-to-be.md",
+      "source_location": "L293",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
