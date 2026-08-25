@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_use_case_uc_10_10_pay_online_long_term_md",
+      "label": "uc-10-10-pay-online-long-term.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "label": "UC-10.10 \u00ab\u041e\u043f\u043b\u0430\u0442\u0438\u0442\u044c \u043e\u043d\u043b\u0430\u0439\u043d (\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f \u0430\u0440\u0435\u043d\u0434\u0430)\u00bb",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "label": "\u041c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u043f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "label": "\u041f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u0442\u0440\u0438\u0433\u0433\u0435\u0440",
+      "label": "\u0422\u0440\u0438\u0433\u0433\u0435\u0440",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u043f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "label": "\u041f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u043f\u043e\u0442\u043e\u043a",
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043f\u043e\u0442\u043e\u043a",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "label": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0434\u043b\u044f_uc_10_10_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "label": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f UC-10.10 \u2192 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "use_case_uc_10_10_pay_online_long_term_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_artifacts_use_case_uc_10_10_pay_online_long_term_md",
+      "target": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u043f\u0440\u0435\u0434\u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u0442\u0440\u0438\u0433\u0433\u0435\u0440",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u043f\u043e\u0441\u0442\u0443\u0441\u043b\u043e\u0432\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439_\u043f\u043e\u0442\u043e\u043a",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0434\u043b\u044f_uc_10_10_\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "use_case_uc_10_10_pay_online_long_term_uc_10_10_\u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c_\u043e\u043d\u043b\u0430\u0439\u043d_\u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0430\u044f_\u0430\u0440\u0435\u043d\u0434\u0430",
+      "target": "use_case_uc_10_10_pay_online_long_term_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/artifacts/use-case/uc-10-10-pay-online-long-term.md",
+      "source_location": "L76",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

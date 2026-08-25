@@ -33,9 +33,10 @@
 - Конкретный механизм аутентификации не зафиксирован в исходном описании и остается за границами контракта.
 - Тег OpenAPI: `Contracts`.
 - Бизнес-даты `startDate` и `endDate` передаются без времени; `createdAt` возвращается в UTC.
+- Версия `2.0.0` содержит несовместимое уточнение успешного ответа: единое поле `status` заменено двумя осями состояния и ссылкой на текущую попытку подписания.
 - Исходное описание: [REST API UC-8.2 в BuildIn](https://buildin.ai/se24/5b2e21e1-5b88-42d0-911e-f440aa80de80).
 
-Технические статусы `AWAITING_PARKING_SIGNATURE` и `REJECTED_BY_PARKING` синхронизированы с бизнес-статусами «на подписании парковкой» и «отклонен парковкой» из UC-8.2 и с `contract_status_enum` ER-модели.
+Ответ разделяет две независимые оси состояния: `lifecycleStatus` договора и `signingStatus` текущей попытки подписания. Для маршрута UC-8.2 используется `signingRoute = EDO_CLIENT_THEN_OWNER`; событие подписи клиента переводит попытку в `AWAITING_OWNER_SIGNATURE`, а финальный документ с двумя ЭП — в `SIGNED`. Активация договора выполняется отдельно и не является результатом этого REST-метода.
 
 ## OpenAPI 3.0.3 — YAML
 
@@ -47,7 +48,7 @@ info:
     REST-контракт создания договора долгосрочной аренды машиномест для
     юридического лица в рамках UC-8.2. Метод проверяет параметры, создает
     черновик, формирует документ и передает его в ЭДО для подписания.
-  version: 1.0.0
+  version: 2.0.0
   contact:
     name: Команда "Five Whys"
     url: https://github.com/CeJIDb/sab-win-26-parking
@@ -97,11 +98,14 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/ContractResponse"
+                $ref: "#/components/schemas/CreatedContractResponse"
               example:
                 contractId: 1024
                 contractNumber: DA-2026-0042
-                status: AWAITING_CLIENT_SIGNATURE
+                lifecycleStatus: PENDING_ACTIVATION
+                currentSigningAttemptId: 2048
+                signingRoute: EDO_CLIENT_THEN_OWNER
+                signingStatus: AWAITING_CLIENT_SIGNATURE
                 startDate: "2026-06-10"
                 endDate: "2027-06-10"
                 tariffId: 5
@@ -113,7 +117,7 @@ paths:
                 createdAt: "2026-06-10T11:30:00Z"
         "200":
           description: >-
-            По бизнес-ключу найден существующий договор в нефинальном статусе.
+            По бизнес-ключу найден существующий договор с нетерминальным lifecycle.
           content:
             application/json:
               schema:
@@ -121,7 +125,10 @@ paths:
               example:
                 contractId: 880
                 contractNumber: DA-2026-0007
-                status: ACTIVE
+                lifecycleStatus: ACTIVE
+                currentSigningAttemptId: 1760
+                signingRoute: EDO_CLIENT_THEN_OWNER
+                signingStatus: SIGNED
                 startDate: "2026-01-01"
                 endDate: "2026-12-31"
                 tariffId: 5
@@ -232,7 +239,10 @@ components:
       required:
         - contractId
         - contractNumber
-        - status
+        - lifecycleStatus
+        - currentSigningAttemptId
+        - signingRoute
+        - signingStatus
         - startDate
         - endDate
         - tariffId
@@ -240,7 +250,6 @@ components:
         - currency
         - vehicleIds
         - parkingPlaceIds
-        - edoDocumentId
         - createdAt
       additionalProperties: false
       properties:
@@ -252,21 +261,40 @@ components:
           type: string
           minLength: 1
           description: Номер договора по правилу нумерации
-        status:
+        lifecycleStatus:
           type: string
-          description: Статус договора из contract_status_enum
+          description: Статус жизненного цикла договора
+          enum:
+            - PENDING_ACTIVATION
+            - ACTIVE
+            - SUSPENDED
+            - CANCELLED
+            - EXPIRED
+            - TERMINATED
+        currentSigningAttemptId:
+          type: integer
+          minimum: 1
+          description: Идентификатор текущей попытки подписания
+        signingRoute:
+          type: string
+          description: Маршрут текущей попытки подписания
+          enum:
+            - CLIENT_SMS_ACCEPTANCE
+            - EDO_CLIENT_THEN_OWNER
+            - MANUAL_SIGNED_ORIGINAL
+        signingStatus:
+          type: string
+          description: Статус текущей попытки подписания
           enum:
             - DRAFT
             - UNDER_REVIEW
             - AWAITING_CLIENT_SIGNATURE
-            - AWAITING_PARKING_SIGNATURE
-            - ACTIVE
-            - SUSPENDED
+            - AWAITING_OWNER_SIGNATURE
+            - SIGNED
             - REJECTED_BY_CLIENT
-            - REJECTED_BY_PARKING
-            - EXPIRED
-            - TERMINATED
-            - ARCHIVED
+            - REJECTED_BY_OWNER
+            - SIGNING_EXPIRED
+            - CANCELLED
         startDate:
           type: string
           format: date
@@ -306,8 +334,9 @@ components:
             minimum: 1
         edoDocumentId:
           type: string
+          nullable: true
           minLength: 1
-          description: Идентификатор документа в ЭДО
+          description: Идентификатор документа в ЭДО; null для маршрутов без ЭДО
         createdAt:
           type: string
           format: date-time
@@ -317,6 +346,29 @@ components:
           description: >-
             Признак найденного договора. Передается со значением true только в
             ответе 200 на расширение 3а.
+
+    CreatedContractResponse:
+      allOf:
+        - $ref: "#/components/schemas/ContractResponse"
+        - type: object
+          required:
+            - edoDocumentId
+          properties:
+            lifecycleStatus:
+              type: string
+              enum:
+                - PENDING_ACTIVATION
+            signingRoute:
+              type: string
+              enum:
+                - EDO_CLIENT_THEN_OWNER
+            signingStatus:
+              type: string
+              enum:
+                - AWAITING_CLIENT_SIGNATURE
+            edoDocumentId:
+              type: string
+              minLength: 1
 
     ExistingContractResponse:
       allOf:
@@ -374,8 +426,8 @@ components:
 
 | Код   | Когда возвращается                                                | Тело ответа                |
 | ----- | ----------------------------------------------------------------- | -------------------------- |
-| `201` | Договор создан, передан в ЭДО и ожидает подписи клиента           | `ContractResponse`         |
-| `200` | Найден существующий договор в нефинальном статусе                 | `ExistingContractResponse` |
+| `201` | Договор создан, передан в ЭДО и ожидает подписи клиента           | `CreatedContractResponse`  |
+| `200` | Найден существующий договор с нетерминальным lifecycle            | `ExistingContractResponse` |
 | `400` | JSON, тип или формат поля не соответствует контракту              | `ProblemResponse`          |
 | `401` | Учетные данные отсутствуют, просрочены или невалидны              | `ProblemResponse`          |
 | `403` | Клиент аутентифицирован, но не имеет роли «Клиент ЮЛ»             | `ProblemResponse`          |
@@ -386,10 +438,10 @@ components:
 
 Оба успешных ответа используют общую структуру договора. Различие фиксируется HTTP-кодом и полем `alreadyExists`.
 
-| Код   | `status` на примере                 | `alreadyExists` | Семантика                                                 |
-| ----- | ----------------------------------- | --------------- | --------------------------------------------------------- |
-| `201` | `AWAITING_CLIENT_SIGNATURE`         | отсутствует     | Создан новый договор, документ принят ЭДО                 |
-| `200` | любой допустимый нефинальный статус | `true`          | Возвращен ранее созданный договор по тому же бизнес-ключу |
+| Код   | `lifecycleStatus`    | `signingStatus`             | `alreadyExists` | Семантика                                                 |
+| ----- | -------------------- | --------------------------- | --------------- | --------------------------------------------------------- |
+| `201` | `PENDING_ACTIVATION` | `AWAITING_CLIENT_SIGNATURE` | отсутствует     | Создан новый договор, документ принят ЭДО                 |
+| `200` | любой нетерминальный | состояние текущей попытки   | `true`          | Возвращен ранее созданный договор по тому же бизнес-ключу |
 
 Ответ `201` не означает, что договор уже заключен: он подтверждает передачу документа в ЭДО и переход к ожиданию подписи клиента.
 

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+node ./scripts/graphify/update-ast-on-change.mjs --last-commit --hook

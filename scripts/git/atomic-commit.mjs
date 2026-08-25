@@ -270,16 +270,21 @@ function pluralRu(n, one, few, many) {
 function truncateMessage(msg, limit = 100) {
   if (msg.length <= limit) return msg;
 
+  const withEllipsis = (value) => {
+    if (value.length < limit) return value + "…";
+    return value.slice(0, Math.max(0, limit - 1)).trimEnd() + "…";
+  };
+
   const nameListSep = "): ";
-  const namedParenIdx = msg.indexOf(nameListSep);
+  const namedParenIdx = msg.lastIndexOf(nameListSep);
   const listIdx =
     namedParenIdx !== -1 ? namedParenIdx + nameListSep.length : msg.lastIndexOf(": ") + 2;
-  if (listIdx < 2 || listIdx >= msg.length) return msg.slice(0, Math.max(0, limit - 1)) + "…";
+  if (listIdx < 2 || listIdx >= msg.length) return withEllipsis(msg);
 
   const base = msg.slice(0, listIdx);
   const list = msg.slice(listIdx);
   const parts = list.split(", ").filter(Boolean);
-  if (parts.length <= 1) return msg.slice(0, Math.max(0, limit - 1)) + "…";
+  if (parts.length <= 1) return withEllipsis(msg);
 
   let keep = parts.length;
   let out = msg;
@@ -288,7 +293,7 @@ function truncateMessage(msg, limit = 100) {
     out = base + parts.slice(0, keep).join(", ") + ", …";
   }
   if (out.length <= limit) return out;
-  return (base + "…").slice(0, Math.max(0, limit - 1)) + "…";
+  return withEllipsis(base);
 }
 
 function buildMessage(def, files, statusMap) {
@@ -299,7 +304,7 @@ function buildMessage(def, files, statusMap) {
   const unique = new Set(statuses);
   if (files.length === 1) {
     const v = verbForStatus(statuses[0]);
-    return `${header}${sep}${v} ${names[0]}`;
+    return truncateMessage(`${header}${sep}${v} ${names[0]}`);
   }
 
   if (unique.size === 1) {

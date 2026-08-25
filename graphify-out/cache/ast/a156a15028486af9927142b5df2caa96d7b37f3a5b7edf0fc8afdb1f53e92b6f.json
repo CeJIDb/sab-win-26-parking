@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "label": "verify-query-result.test.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "sql_practice_verify_query_result_test_rows",
+      "label": "rows",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L9"
+    },
+    {
+      "id": "sql_practice_verify_query_result_test_descriptor",
+      "label": "descriptor",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L30"
+    },
+    {
+      "id": "sql_practice_verify_query_result_test_nullvalue",
+      "label": "nullValue",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L46"
+    },
+    {
+      "id": "sql_practice_verify_query_result_test_literalvalue",
+      "label": "literalValue",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "strict",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "node_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_mjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_canonicalizecsv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_describeresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_parsecsv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_verifyresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_test_rows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_test_descriptor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_test_descriptor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_test_nullvalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_sql_practice_verify_query_result_test_mjs",
+      "target": "sql_practice_verify_query_result_test_literalvalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/sql-practice/verify-query-result.test.mjs",
+      "source_location": "L49",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

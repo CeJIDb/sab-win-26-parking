@@ -1,0 +1,823 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "label": "update-ast-on-change.mjs",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_update_ast_on_change_code_extensions",
+      "label": "CODE_EXTENSIONS",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L9"
+    },
+    {
+      "id": "graphify_update_ast_on_change_normalizepath",
+      "label": "normalizePath()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L69"
+    },
+    {
+      "id": "graphify_update_ast_on_change_isgraphifycodefile",
+      "label": "isGraphifyCodeFile()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L73"
+    },
+    {
+      "id": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "label": "selectGraphifyCodeFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L83"
+    },
+    {
+      "id": "graphify_update_ast_on_change_rungit",
+      "label": "runGit()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L87"
+    },
+    {
+      "id": "graphify_update_ast_on_change_splitnulldelimited",
+      "label": "splitNullDelimited()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L101"
+    },
+    {
+      "id": "graphify_update_ast_on_change_findreporoot",
+      "label": "findRepoRoot()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L105"
+    },
+    {
+      "id": "graphify_update_ast_on_change_worktreechanges",
+      "label": "worktreeChanges()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L117"
+    },
+    {
+      "id": "graphify_update_ast_on_change_lastcommitchanges",
+      "label": "lastCommitChanges()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L128"
+    },
+    {
+      "id": "graphify_update_ast_on_change_checkoutchanges",
+      "label": "checkoutChanges()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L144"
+    },
+    {
+      "id": "graphify_update_ast_on_change_worktreefingerprint",
+      "label": "worktreeFingerprint()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L162"
+    },
+    {
+      "id": "graphify_update_ast_on_change_stamppath",
+      "label": "stampPath()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L176"
+    },
+    {
+      "id": "graphify_update_ast_on_change_parsearguments",
+      "label": "parseArguments()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L184"
+    },
+    {
+      "id": "graphify_update_ast_on_change_changedfiles",
+      "label": "changedFiles()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L215"
+    },
+    {
+      "id": "graphify_update_ast_on_change_rungraphify",
+      "label": "runGraphify()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L235"
+    },
+    {
+      "id": "graphify_update_ast_on_change_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L290"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "node_crypto",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "node_fs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "node_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "node_child_process",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "node_url",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_code_extensions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_normalizepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_isgraphifycodefile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_rungit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_splitnulldelimited",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_findreporoot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_worktreechanges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_lastcommitchanges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_checkoutchanges",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_worktreefingerprint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_stamppath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_parsearguments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_changedfiles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_rungraphify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_scripts_graphify_update_ast_on_change_mjs",
+      "target": "graphify_update_ast_on_change_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_isgraphifycodefile",
+      "target": "graphify_update_ast_on_change_normalizepath",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_worktreechanges",
+      "target": "graphify_update_ast_on_change_splitnulldelimited",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_worktreechanges",
+      "target": "graphify_update_ast_on_change_rungit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_lastcommitchanges",
+      "target": "graphify_update_ast_on_change_splitnulldelimited",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_lastcommitchanges",
+      "target": "graphify_update_ast_on_change_rungit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_checkoutchanges",
+      "target": "graphify_update_ast_on_change_splitnulldelimited",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_checkoutchanges",
+      "target": "graphify_update_ast_on_change_rungit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_stamppath",
+      "target": "graphify_update_ast_on_change_rungit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_changedfiles",
+      "target": "graphify_update_ast_on_change_worktreechanges",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_changedfiles",
+      "target": "graphify_update_ast_on_change_lastcommitchanges",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_changedfiles",
+      "target": "graphify_update_ast_on_change_checkoutchanges",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_parsearguments",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_findreporoot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_changedfiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_worktreefingerprint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_stamppath",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L306",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_update_ast_on_change_main",
+      "target": "graphify_update_ast_on_change_rungraphify",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L328",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "graphify_update_ast_on_change_normalizepath",
+      "callee": "replaceAll",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_isgraphifycodefile",
+      "callee": "startsWith",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L76"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_isgraphifycodefile",
+      "callee": "has",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_isgraphifycodefile",
+      "callee": "toLowerCase",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_isgraphifycodefile",
+      "callee": "extname",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "callee": "sort",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_selectgraphifycodefiles",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungit",
+      "callee": "spawnSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L88"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungit",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungit",
+      "callee": "toString",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L94"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungit",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L95"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_splitnulldelimited",
+      "callee": "filter",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_splitnulldelimited",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_splitnulldelimited",
+      "callee": "toString",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L102"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_findreporoot",
+      "callee": "spawnSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_findreporoot",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L114"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "createHash",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L163"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "resolve",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L166"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L167"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L168"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L169"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "existsSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L169"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "readFileSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L169"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L170"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_worktreefingerprint",
+      "callee": "digest",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_stamppath",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L177"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_stamppath",
+      "callee": "toString",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L177"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_stamppath",
+      "callee": "resolve",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L181"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_parsearguments",
+      "callee": "slice",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L201"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungraphify",
+      "callee": "spawnSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L237"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungraphify",
+      "callee": "warn",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L247"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungraphify",
+      "callee": "warn",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L258"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungraphify",
+      "callee": "spawnSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L266"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_rungraphify",
+      "callee": "warn",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L280"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "slice",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L291"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L297"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "existsSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "trim",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "readFileSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L309"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "log",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L315"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "stringify",
+      "is_member_call": true,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L316"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "mkdirSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L331"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "dirname",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L331"
+    },
+    {
+      "caller_nid": "graphify_update_ast_on_change_main",
+      "callee": "writeFileSync",
+      "is_member_call": false,
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/scripts/graphify/update-ast-on-change.mjs",
+      "source_location": "L332"
+    }
+  ]
+}

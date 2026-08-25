@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_styleguide_md",
+      "label": "styleguide.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_styleguide_docs_style_guide",
+      "label": "Docs Style Guide",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_styleguide_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "docs_styleguide_naming_policy",
+      "label": "Naming Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "docs_styleguide_language_policy",
+      "label": "Language Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "docs_styleguide_requirements_file_conventions",
+      "label": "Requirements File Conventions",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "docs_styleguide_structure_policy",
+      "label": "Structure Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "docs_styleguide_navigation_policy",
+      "label": "Navigation Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "docs_styleguide_related_documents_policy",
+      "label": "Related Documents Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "docs_styleguide_link_text_policy",
+      "label": "Link Text Policy",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "docs_styleguide_link_stability",
+      "label": "Link Stability",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L82"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_styleguide_md",
+      "target": "docs_styleguide_docs_style_guide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_naming_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_language_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_requirements_file_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_structure_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_navigation_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_related_documents_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_link_text_policy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_styleguide_docs_style_guide",
+      "target": "docs_styleguide_link_stability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/styleguide.md",
+      "source_location": "L82",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

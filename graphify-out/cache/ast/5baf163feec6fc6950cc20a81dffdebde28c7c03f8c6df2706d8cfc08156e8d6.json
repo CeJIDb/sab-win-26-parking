@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_005_access_control_direct_db_read_md",
+      "label": "adr-005-access-control-direct-db-read.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "label": "ADR-005: \u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f \u0447\u0442\u0435\u043d\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445 Access Control \u0432 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "label": "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_status",
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_context",
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_options",
+      "label": "Options",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_option_a_rpc_\u043a_\u0434\u043e\u043c\u0435\u043d\u043d\u044b\u043c_\u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c",
+      "label": "Option A \u2014 RPC \u043a \u0434\u043e\u043c\u0435\u043d\u043d\u044b\u043c \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_option_b_\u043f\u0440\u044f\u043c\u043e\u0435_\u0447\u0442\u0435\u043d\u0438\u0435_\u0438\u0437_\u043e\u0431\u0449\u0435\u0439_\u0431\u0434",
+      "label": "Option B \u2014 \u041f\u0440\u044f\u043c\u043e\u0435 \u0447\u0442\u0435\u043d\u0438\u0435 \u0438\u0437 \u043e\u0431\u0449\u0435\u0439 \u0411\u0414",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_option_c_cqrs_read_model",
+      "label": "Option C \u2014 CQRS read-model",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_decision",
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_rationale",
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_trade_offs",
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L116"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_consequences",
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L124"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_positive",
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L126"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_negative",
+      "label": "Negative",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_mitigation",
+      "label": "Mitigation",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L139"
+    },
+    {
+      "id": "adr_adr_005_access_control_direct_db_read_next_steps",
+      "label": "Next steps",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L147"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_architecture_adr_adr_005_access_control_direct_db_read_md",
+      "target": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_options",
+      "target": "adr_adr_005_access_control_direct_db_read_option_a_rpc_\u043a_\u0434\u043e\u043c\u0435\u043d\u043d\u044b\u043c_\u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_options",
+      "target": "adr_adr_005_access_control_direct_db_read_option_b_\u043f\u0440\u044f\u043c\u043e\u0435_\u0447\u0442\u0435\u043d\u0438\u0435_\u0438\u0437_\u043e\u0431\u0449\u0435\u0439_\u0431\u0434",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_options",
+      "target": "adr_adr_005_access_control_direct_db_read_option_c_cqrs_read_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_trade_offs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_consequences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_consequences",
+      "target": "adr_adr_005_access_control_direct_db_read_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_consequences",
+      "target": "adr_adr_005_access_control_direct_db_read_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_consequences",
+      "target": "adr_adr_005_access_control_direct_db_read_mitigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "adr_adr_005_access_control_direct_db_read_adr_005_\u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044f_\u0447\u0442\u0435\u043d\u0438\u044f_\u0434\u0430\u043d\u043d\u044b\u0445_access_control_\u0432_\u043c\u043e\u0434\u0443\u043b\u044c\u043d\u043e\u043c_\u043c\u043e\u043d\u043e\u043b\u0438\u0442\u0435",
+      "target": "adr_adr_005_access_control_direct_db_read_next_steps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/architecture/adr/adr-005-access-control-direct-db-read.md",
+      "source_location": "L147",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

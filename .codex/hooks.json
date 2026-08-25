@@ -50,7 +50,7 @@
             "name": "Remind graph navigation",
             "displayName": "Remind graph navigation",
             "title": "Remind graph navigation",
-            "description": "Remind the agent to read the graph report before raw searches.",
+            "description": "Remind agents to consult the repository graph before raw searches.",
             "type": "command",
             "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/remind-graph-navigation.mjs\""
           }
@@ -77,15 +77,6 @@
             "type": "command",
             "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/format-on-write.mjs\"",
             "statusMessage": "\u0424\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435..."
-          },
-          {
-            "name": "Update graph after write",
-            "displayName": "Update graph after write",
-            "title": "Update graph after write",
-            "description": "Refresh the local graph after file writes.",
-            "type": "command",
-            "command": "node \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/update-graph-on-write.mjs\"",
-            "statusMessage": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0433\u0440\u0430\u0444\u0430..."
           }
         ]
       }
@@ -95,12 +86,29 @@
         "matcher": "",
         "hooks": [
           {
+            "name": "Update Graphify AST",
+            "displayName": "Update Graphify AST",
+            "title": "Update Graphify AST",
+            "description": "Update the Graphify AST after code changes without running semantic extraction.",
+            "type": "command",
+            "command": "node \"$(git rev-parse --show-toplevel)/scripts/graphify/update-ast-on-change.mjs\" --worktree --hook",
+            "statusMessage": "Обновление Graphify AST..."
+          },
+          {
             "name": "Remind atomic commit",
             "displayName": "Remind atomic commit",
             "title": "Remind atomic commit",
             "description": "Remind about npm run commit:atomic when worktree diff is large.",
             "type": "command",
             "command": "bash \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/remind-atomic-commit.sh\""
+          },
+          {
+            "name": "Play stop sound",
+            "displayName": "Play stop sound",
+            "title": "Play stop sound",
+            "description": "Play a short sound when Codex ends its turn.",
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/claude-hooks/play-sound.sh\" stop"
           }
         ]
       }

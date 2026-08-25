@@ -2,8 +2,8 @@
  * Утилита: список файлов, измененных относительно HEAD (включая untracked).
  *
  * Охватывает три категории:
- *   - git diff --name-only HEAD       — измененные tracked-файлы
- *   - git diff --cached --name-only   — staged-изменения
+ *   - git diff --name-only HEAD       — измененные tracked-файлы, кроме удаленных
+ *   - git diff --cached --name-only   — staged-изменения, кроме удаленных
  *   - git ls-files --others ...       — новые untracked-файлы
  *
  * Используется линтерами через флаг --changed-only для ускорения проверок.
@@ -27,8 +27,8 @@ export function getChangedRelPaths(root = ROOT) {
   };
 
   const files = new Set([
-    ...run("git diff --name-only HEAD"),
-    ...run("git diff --cached --name-only"),
+    ...run("git diff --name-only --diff-filter=ACMR HEAD"),
+    ...run("git diff --cached --name-only --diff-filter=ACMR"),
     ...run("git ls-files --others --exclude-standard"),
   ]);
 

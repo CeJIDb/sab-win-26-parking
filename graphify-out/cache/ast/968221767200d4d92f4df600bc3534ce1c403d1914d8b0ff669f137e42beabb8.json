@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "home_cejidb_sab_win_26_mine_parking_docs_interviews_plans_interview_plan_1_2_2026_01_23_v01_md",
+      "label": "interview-plan-1-2-2026-01-23-v01.md",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "label": "\u041f\u043b\u0430\u043d \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u21161.2",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0440\u043e\u043b\u0438_\u043d\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e",
+      "label": "\u0420\u043e\u043b\u0438 \u043d\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0446\u0435\u043b\u0438",
+      "label": "\u0426\u0435\u043b\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "label": "\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u0430\u043b\u0438\u0434\u0430\u0446\u0438\u044f_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "label": "\u0412\u0430\u043b\u0438\u0434\u0430\u0446\u0438\u044f \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \"\u0412\u044a\u0435\u0437\u0434 \u043d\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443\"",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u043e\u043f\u043b\u0430\u0442\u044b_\u0438_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043e\u0431\u043e\u0440\u043e\u0442\u0430",
+      "label": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u043e\u043f\u043b\u0430\u0442\u044b \u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043e\u0431\u043e\u0440\u043e\u0442\u0430",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f_\u0438_\u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435_\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439",
+      "label": "\u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f \u0438 \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "label": "\u0412\u044b\u0435\u0437\u0434 \u0441 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "plans_interview_plan_1_2_2026_01_23_v01_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "file_type": "document",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L95"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_cejidb_sab_win_26_mine_parking_docs_interviews_plans_interview_plan_1_2_2026_01_23_v01_md",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0440\u043e\u043b\u0438_\u043d\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0446\u0435\u043b\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u0430\u043b\u0438\u0434\u0430\u0446\u0438\u044f_\u0431\u0438\u0437\u043d\u0435\u0441_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430_\u0432\u044a\u0435\u0437\u0434_\u043d\u0430_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b_\u043e\u043f\u043b\u0430\u0442\u044b_\u0438_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043e\u0431\u043e\u0440\u043e\u0442\u0430",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f_\u0438_\u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0435_\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043e\u0441\u043d\u043e\u0432\u043d\u0430\u044f_\u0447\u0430\u0441\u0442\u044c",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0432\u044b\u0435\u0437\u0434_\u0441_\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "plans_interview_plan_1_2_2026_01_23_v01_\u043f\u043b\u0430\u043d_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_no1_2",
+      "target": "plans_interview_plan_1_2_2026_01_23_v01_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/cejidb/sab-win-26-mine-parking/docs/interviews/plans/interview-plan-1-2-2026-01-23-v01.md",
+      "source_location": "L95",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

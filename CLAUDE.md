@@ -21,20 +21,19 @@ sab-win-26-parking/
 └── external/      ← симлинки на внешние репозитории (в .gitignore)
 ```
 
-| Что нужно                       | Куда смотреть                                                                      |
-| ------------------------------- | ---------------------------------------------------------------------------------- |
-| О проекте, границы системы      | [README.md](README.md)                                                             |
-| Требования (FR/NFR), глоссарий  | [docs/specs/](docs/specs/)                                                         |
-| Архитектура, ADR, C4            | [docs/architecture/](docs/architecture/)                                           |
-| Use-case, BPMN, user flows      | [docs/artifacts/](docs/artifacts/)                                                 |
-| Интервью                        | [docs/interviews/](docs/interviews/)                                               |
-| Регламенты процесса             | [docs/process/readme.md](docs/process/readme.md)                                   |
-| Матрица трассировки (правила)   | [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md)         |
-| Матрица трассировки (журнал)    | [docs/process/traceability-matrix-log.md](docs/process/traceability-matrix-log.md) |
-| Wireframe                       | [ui/](ui/) — сборка `npm run build`                                                |
-| Технические планы               | [plans/](plans/), [plans/README.md](plans/README.md)                               |
-| Правила Claude (опц. ast-index) | [.claude/rules/ast-index.md](.claude/rules/ast-index.md)                           |
-| Теория системного анализа       | [external/systems-analyst-db/](external/systems-analyst-db/) (локальный симлинк)   |
+| Что нужно                      | Куда смотреть                                                                      |
+| ------------------------------ | ---------------------------------------------------------------------------------- |
+| О проекте, границы системы     | [README.md](README.md)                                                             |
+| Требования (FR/NFR), глоссарий | [docs/specs/](docs/specs/)                                                         |
+| Архитектура, ADR, C4           | [docs/architecture/](docs/architecture/)                                           |
+| Use-case, BPMN, user flows     | [docs/artifacts/](docs/artifacts/)                                                 |
+| Интервью                       | [docs/interviews/](docs/interviews/)                                               |
+| Регламенты процесса            | [docs/process/readme.md](docs/process/readme.md)                                   |
+| Матрица трассировки (правила)  | [docs/process/traceability-matrix.md](docs/process/traceability-matrix.md)         |
+| Матрица трассировки (журнал)   | [docs/process/traceability-matrix-log.md](docs/process/traceability-matrix-log.md) |
+| Wireframe                      | [ui/](ui/) — сборка `npm run build`                                                |
+| Технические планы              | [plans/](plans/), [plans/README.md](plans/README.md)                               |
+| Теория системного анализа      | [external/systems-analyst-db/](external/systems-analyst-db/) (локальный симлинк)   |
 
 ## Правила для агента
 
@@ -64,7 +63,7 @@ sab-win-26-parking/
 - `block-push-to-main.mjs`, `block-unsafe-git-add.mjs`, `block-secret-write.mjs` — запреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier.
-- `play-sound.sh`, `remind-atomic-commit.sh` — уведомления.
+- `play-sound.sh` — звук при завершении работы; `remind-atomic-commit.sh` — напоминание о коммите.
 
 **Husky:** `commit-msg` (commitlint, Conventional Commits: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `build`, `perf`, `revert`); `pre-commit` (reminder + `check:plans:staged`); `pre-push` (reminder + `check:branch` + `ci:check`).
 

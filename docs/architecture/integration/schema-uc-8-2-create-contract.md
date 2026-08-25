@@ -80,7 +80,10 @@
       "required": [
         "contractId",
         "contractNumber",
-        "status",
+        "lifecycleStatus",
+        "currentSigningAttemptId",
+        "signingRoute",
+        "signingStatus",
         "startDate",
         "endDate",
         "tariffId",
@@ -88,7 +91,6 @@
         "currency",
         "vehicleIds",
         "parkingPlaceIds",
-        "edoDocumentId",
         "createdAt"
       ],
       "additionalProperties": false,
@@ -103,21 +105,34 @@
           "minLength": 1,
           "description": "Номер договора по правилу нумерации."
         },
-        "status": {
+        "lifecycleStatus": {
           "type": "string",
-          "description": "Статус договора из contract_status_enum.",
+          "description": "Статус жизненного цикла договора.",
+          "enum": ["PENDING_ACTIVATION", "ACTIVE", "SUSPENDED", "CANCELLED", "EXPIRED", "TERMINATED"]
+        },
+        "currentSigningAttemptId": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Идентификатор текущей попытки подписания."
+        },
+        "signingRoute": {
+          "type": "string",
+          "description": "Маршрут текущей попытки подписания.",
+          "enum": ["CLIENT_SMS_ACCEPTANCE", "EDO_CLIENT_THEN_OWNER", "MANUAL_SIGNED_ORIGINAL"]
+        },
+        "signingStatus": {
+          "type": "string",
+          "description": "Статус текущей попытки подписания.",
           "enum": [
             "DRAFT",
             "UNDER_REVIEW",
             "AWAITING_CLIENT_SIGNATURE",
-            "AWAITING_PARKING_SIGNATURE",
-            "ACTIVE",
-            "SUSPENDED",
+            "AWAITING_OWNER_SIGNATURE",
+            "SIGNED",
             "REJECTED_BY_CLIENT",
-            "REJECTED_BY_PARKING",
-            "EXPIRED",
-            "TERMINATED",
-            "ARCHIVED"
+            "REJECTED_BY_OWNER",
+            "SIGNING_EXPIRED",
+            "CANCELLED"
           ]
         },
         "startDate": {
@@ -167,9 +182,9 @@
           }
         },
         "edoDocumentId": {
-          "type": "string",
+          "type": ["string", "null"],
           "minLength": 1,
-          "description": "Идентификатор документа в ЭДО."
+          "description": "Идентификатор документа в ЭДО; null для маршрутов без ЭДО."
         },
         "createdAt": {
           "type": "string",
@@ -181,6 +196,31 @@
           "description": "Признак существующего договора по расширению 3а."
         }
       }
+    },
+    "CreatedContractResponse": {
+      "allOf": [
+        { "$ref": "#/$defs/ContractResponse" },
+        {
+          "required": ["edoDocumentId"],
+          "properties": {
+            "lifecycleStatus": { "const": "PENDING_ACTIVATION" },
+            "signingRoute": { "const": "EDO_CLIENT_THEN_OWNER" },
+            "signingStatus": { "const": "AWAITING_CLIENT_SIGNATURE" },
+            "edoDocumentId": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "ExistingContractResponse": {
+      "allOf": [
+        { "$ref": "#/$defs/ContractResponse" },
+        {
+          "required": ["alreadyExists"],
+          "properties": {
+            "alreadyExists": { "const": true }
+          }
+        }
+      ]
     },
     "ProblemResponse": {
       "type": "object",
@@ -219,9 +259,9 @@
 
 - `endDate` должна быть позже `startDate`; это межполевая проверка бизнес-логики `Сервиса Договоров`.
 - `vehicleIds` и `parkingPlaceIds` должны быть непустыми и не содержать дубликатов.
-- `status` принимает одно из 11 значений `contract_status_enum`. Значения `AWAITING_PARKING_SIGNATURE` и `REJECTED_BY_PARKING` соответствуют формулировкам «на подписании парковкой» и «отклонен парковкой» из UC-8.2.
-- Для ответа `201` обязательны `status: AWAITING_CLIENT_SIGNATURE` и заполненный `edoDocumentId`.
-- Для ответа `200` по расширению `3а` обязательно `alreadyExists: true`; договор должен находиться в нефинальном статусе. Эти зависимости от HTTP-кода проверяются на уровне OpenAPI и бизнес-логики.
+- `lifecycleStatus` принимает значения `contract_lifecycle_status_enum`, а `signingStatus` — значения `contract_signing_status_enum`; одна ось не подменяет другую.
+- Для ответа `201` обязательны `lifecycleStatus: PENDING_ACTIVATION`, `signingRoute: EDO_CLIENT_THEN_OWNER`, `signingStatus: AWAITING_CLIENT_SIGNATURE` и заполненный `edoDocumentId`.
+- Для ответа `200` по расширению `3а` обязательно `alreadyExists: true`; `lifecycleStatus` не принимает `CANCELLED`, `EXPIRED` или `TERMINATED`, а ответ содержит состояние текущей попытки подписания.
 - `alreadyExists` отсутствует в request и в `ProblemResponse`; дополнительные поля на верхнем уровне всех трех подсхем запрещены.
 - `createdAt` передается как ISO 8601 `date-time` в UTC, бизнес-даты — как `YYYY-MM-DD` без времени.
 
@@ -232,6 +272,6 @@
 - [UC-8.2 Создать договор с ЮЛ](../../artifacts/use-case/uc-8-2-create-contract-legal-entity.md) — источник сценария и бизнес-статусов.
 - [UML Sequence Diagram — UC-8.2](sequence-uc-8-2-create-contract.md) — последовательность вызовов.
 - [Интеграционные требования](../../specs/integration/integration-requirements.md) — требования `INT-014` и `INT-015`.
-- [Нормализованная ER-модель](../database/erd/erd-normalized-er-model.md) — источник технического enum статусов.
+- [Нормализованная ER-модель](../database/erd/erd-normalized-er-model.md) — источник enum жизненного цикла и попытки подписания.
 - [Мастер-план UC-8.2](../../../plans/2026-05-02-uc-8-2-edo-integration.md) — состояние комплекта интеграционных артефактов.
 - [Индекс интеграционной архитектуры](readme.md) — общий каталог раздела.
