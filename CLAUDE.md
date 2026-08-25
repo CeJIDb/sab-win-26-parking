@@ -64,7 +64,7 @@ sab-win-26-parking/
 - `block-push-to-main.mjs`, `block-unsafe-git-add.mjs`, `block-secret-write.mjs` — запреты.
 - `validate-staged-plans.mjs`, `validate-plan-on-write.mjs` — валидация формата [plans/](plans/).
 - `format-on-write.mjs` — авто-форматирование Prettier.
-- `play-sound.sh`, `remind-atomic-commit.sh` — уведомления.
+- `play-sound.sh` — звук при завершении работы; `remind-atomic-commit.sh` — напоминание о коммите.
 
 **Husky:** `commit-msg` (commitlint, Conventional Commits: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`, `build`, `perf`, `revert`); `pre-commit` (reminder + `check:plans:staged`); `pre-push` (reminder + `check:branch` + `ci:check`).
 
