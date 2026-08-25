@@ -299,7 +299,7 @@ function buildMessage(def, files, statusMap) {
   const unique = new Set(statuses);
   if (files.length === 1) {
     const v = verbForStatus(statuses[0]);
-    return `${header}${sep}${v} ${names[0]}`;
+    return truncateMessage(`${header}${sep}${v} ${names[0]}`);
   }
 
   if (unique.size === 1) {
